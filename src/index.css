@@ -1,0 +1,29 @@
+:root {
+  --bg: #12181f;
+  --card: #1e2631;
+  --border: #2e3748;
+  --primary: #f59e0b;
+  --badge-bg: #3f3416;
+  --badge-text: #fcd34d;
+  --text: #ffffff;
+  --muted: #9ca3af;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  min-height: 100%;
+}
+
+body {
+  font-family: Inter, system-ui, sans-serif;
+  background: #12181f;
+  color: #ffffff;
+}

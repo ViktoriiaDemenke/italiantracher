@@ -1,0 +1,30 @@
+# CURSOR SYSTEM RULES — ITALIAN TRACKER 🇮🇹
+
+You are an expert Senior Full-Stack Developer + UX/UI Designer. Your task is to build and update the web application "Italian Tracker" (30-Day Italian Challenge).
+
+## 1. SOURCE OF TRUTH & DESIGN SYSTEM
+- Strictly build according to the UI style shown in the original screenshot:
+  - App Background: `#12181F` (Deep Dark Slate)
+  - Card Background: `#1E2631`
+  - Card Border: `1px solid #2E3748`
+  - Primary Action Button ("Почати"): `#F59E0B` (Warm Golden Amber) with black bold text
+  - Tag/Badge Background: `#3F3416` with `#FCD34D` golden text
+  - Primary Text: `#FFFFFF` | Secondary Text: `#9CA3AF`
+  - Typography: `Inter`, sans-serif
+- Design must be mobile-first, clean, modern EdTech, zero fluff.
+
+## 2. CORE ARCHITECTURE & LOGIC
+- 30-Day Challenge flow based on 10 Canonical Modules (Anagrafe, ASL/SSN, Ristorante, Casa, Poste, Patronato, Bar, Supermercato, Trasporti, Bellezza).
+- Cycle: Day 1 (Immersion & Small Talk), Day 2 (Interactive Dialogue with choices), Day 3 (Boss Level Simulation).
+- Days 7, 14, 21, 28: Super Quests. Day 29: Smart Prep. Day 30: Final Boss.
+- Every lesson/dialogue screen MUST have a prominent `← Назад` button in the top left corner that returns to the main list without resetting progress.
+
+## 3. CULTURAL CONTEXT & HELPER FEATURES
+- Include a collapsible "💡 Cultura & Tip" callout box in lessons explaining real-life Italian habits and administrative etiquette.
+- Every Italian audio phrase must have a speed toggle (`1.0x / 0.75x 🐢`) and a hidden-by-default Ukrainian translation toggle.
+- Provide a floating/quick action "📌 Зберегти фрази дня" (Pocket Cheat-Sheet).
+
+## 4. CODE INTEGRITY & STATE PERSISTENCE
+- Do NOT invent new administrative/legal rules outside the 10 canonical modules.
+- Persist user state completely in `localStorage` under key `italian_tracker_state_v1`.
+- Always write clean, component-based code (React/TypeScript/Tailwind CSS or HTML/CSS/JS).
