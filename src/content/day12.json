@@ -1,0 +1,66 @@
+{
+  "day": 12,
+  "title": "Boss Level 🏆: Симуляція пошуку та оренди квартири",
+  "module": "La Casa: Affitto e Condominio",
+  "type": "Boss Level Simulation",
+  "story": "Фінальний іспит модуля! Ви самостійно телефонуєте орендодавцю, дізнаєтеся деталі про плату за кондомініум, заставу та домовляєтеся про перегляд квартири. Підказки та переклад вимкнено!",
+  "questions": [
+    {
+      "id": "p1",
+      "question": "Як запитати синьйора Маріо, чи квартира з оголошення ще вільна?",
+      "options": [
+        "L'appartamento è ancora disponibile?",
+        "Dove si trova il medico di base?",
+        "Possiamo avere il conto, per favore?"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'È ancora disponibile?' = 'Це ще доступно / вільно?'"
+    },
+    {
+      "id": "p2",
+      "question": "Що означають 'Spese condominiali' при оренді житла?",
+      "options": [
+        "Платежі за обслуговування спільних частин будинку (прибирання, ліфт, освітлення під'їзду).",
+        "Податок на купівлю меблів.",
+        "Плата за паркування на міській вулиці."
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Spese condominiali' — витрати на утримання будинку та під'їзду."
+    },
+    {
+      "id": "p3",
+      "question": "Що таке 'Caparra' (абo 'Deposito cauzionale')?",
+      "options": [
+        "Гарантійна застава за забереження майна, яка повертається при виїзді.",
+        "Щомісячна плата за інтернет.",
+        "Одноразова оплата послуг прибиральниці."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Застава (caparra) зазвичай дорівнює 2-3 місячній орендній платі."
+    },
+    {
+      "id": "p4",
+      "question": "Як сказати орендодавцю 'Коли ми можемо домовитися про зустріч, щоб подивитися квартиру?'",
+      "options": [
+        "Quando possiamo fissare un appuntamento per visitare l'appartamento?",
+        "Vorrei prenotare un tavolo per stasera.",
+        "Ho bisogno della tessera sanitaria."
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Fissare un appuntamento' = призначити зустріч/візит."
+    },
+    {
+      "id": "p5",
+      "question": "Що означає термін 'Bilocale' в оголошеннях про нерухомість?",
+      "options": [
+        "Двокімнатна квартира (спальня + вітальня/кухня).",
+        "Двоповерховий приватний будинок.",
+        "Кімната на двох осіб у гуртожитку."
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Bilocale' = двокімнатне житло."
+    }
+  ],
+  "successBadge": "Esperto di Casa 🔑",
+  "successMessage": "Вітаємо! Ви вільно орієнтуєтеся в термінах оренди житла в Італії, розумієте розрахунок кондомініуму та вмієте домовлятися про огляд!"
+}

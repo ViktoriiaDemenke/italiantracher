@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import HomeScreen from './screens/HomeScreen.jsx'
-import Day1Screen from './screens/Day1Screen.jsx'
+import ArcLessonScreen from './screens/ArcLessonScreen.jsx'
+import { getLesson, nextAfter, OPEN_DAYS } from './data/lessons.js'
 import { loadState, saveState } from './storage'
 
 export default function App() {
@@ -12,20 +13,52 @@ export default function App() {
     saveState(next)
   }
 
-  function startDay1() {
-    persist({ ...state, started: true, currentDay: 1 })
-    setScreen('day1')
-  }
-
   function goHome() {
     setScreen('home')
   }
 
-  if (screen === 'day1') {
-    return (
-      <Day1Screen state={state} onBack={goHome} onStateChange={persist} />
-    )
+  function openDay(day) {
+    persist({ ...state, started: true, currentDay: day })
+    setScreen(`day${day}`)
   }
 
-  return <HomeScreen state={state} onStart={startDay1} />
+  function startFromHome() {
+    const day = OPEN_DAYS.includes(state.currentDay) ? state.currentDay : 1
+    openDay(day)
+  }
+
+  function completeAndGo(fromDay, toScreen, nextDay) {
+    const completedDays = state.completedDays.includes(fromDay)
+      ? state.completedDays
+      : [...state.completedDays, fromDay]
+    persist({
+      ...state,
+      started: true,
+      completedDays,
+      currentDay: nextDay ?? fromDay,
+    })
+    setScreen(toScreen)
+  }
+
+  const dayMatch = /^day(\d+)$/.exec(screen)
+  if (dayMatch) {
+    const day = Number(dayMatch[1])
+    const lesson = getLesson(day)
+    if (lesson) {
+      const next = nextAfter(day)
+      return (
+        <ArcLessonScreen
+          lesson={lesson}
+          state={state}
+          onBack={goHome}
+          onStateChange={persist}
+          onOpenDay={openDay}
+          continueLabel={next.label}
+          onContinue={() => completeAndGo(day, next.screen, next.day)}
+        />
+      )
+    }
+  }
+
+  return <HomeScreen state={state} onStart={startFromHome} onOpenDay={openDay} />
 }

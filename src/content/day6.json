@@ -1,0 +1,77 @@
+{
+  "day": 6,
+  "title": "Boss Level 🏆: Симуляція реєстрації в ASL",
+  "module": "Iscriversi al SSN e Medico di Base",
+  "type": "Boss Level Simulation",
+  "story": "Фінальний іспит модуля! Лаура проходить весь шлях у Падуї самостійно: від перевірки документів до вибору лікаря та розрізнення Guardia Medica і Pronto Soccorso. Підказки та переклад вимкнено!",
+  "questions": [
+    {
+      "id": "p1",
+      "question": "Як сказати працівнику ASL, що вам потрібно зареєструватися в системі охорони здоров'я?",
+      "options": [
+        "Devo iscrivermi al Servizio Sanitario Nazionale.",
+        "Vorrei comprare una ricetta medica.",
+        "Cerco un appartamento in affitto."
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Devo iscrivermi...' = 'Мені потрібно зареєструватися...'"
+    },
+    {
+      "id": "p2",
+      "question": "Яку фразу ви використаєте, щоб попросити обрати сімейного лікаря?",
+      "options": [
+        "Devo cambiare il passaporto.",
+        "Devo scegliere un medico di base.",
+        "Ho già un appuntamento all'Anagrafe."
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Medico di base' — це сімейний лікар."
+    },
+    {
+      "id": "p3",
+      "question": "Як уточнити, чи лікар знаходиться близько до вашого помешкання?",
+      "options": [
+        "Il medico è aperto 24 ore su 24?",
+        "È vicino a casa mia?",
+        "Ho bisogno di un codice fiscale."
+      ],
+      "correctAnswer": 1,
+      "explanation": "'È vicino a casa mia?' = 'Це близько до мого дому?'"
+    },
+    {
+      "id": "p4",
+      "question": "Куди слід звертатися у разі важкої та цілодобової загрози здоров'ю?",
+      "options": [
+        "All'ufficio Anagrafe.",
+        "Al Pronto Soccorso.",
+        "Allo sportello della posta."
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Pronto Soccorso' — відділення невідкладної допомоги (24/7)."
+    },
+    {
+      "id": "p5",
+      "question": "Що відповість працівник на питання про вартість реєстрації з Permesso di Soggiorno?",
+      "options": [
+        "Ha diritto all’iscrizione gratuita.",
+        "Deve pagare la marca da bollo.",
+        "L'iscrizione costa cento euro."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Реєстрація в SSN за наявності дозволу на проживання є безкоштовною."
+    },
+    {
+      "id": "p6",
+      "question": "A chi bisogna rivolgersi per le urgenze mediche durante la notte o nei giorni festivi?",
+      "options": [
+        "Alla Guardia Medica.",
+        "All'Ufficio Postale.",
+        "Al Comune di Padova."
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Guardia Medica' — нічна та святкова чергова служба."
+    }
+  ],
+  "successBadge": "Membro del SSN 🏥",
+  "successMessage": "Вітаємо! Ви успішно пройшли симуляцію, отримали Tessera Sanitaria та обрали сімейного лікаря в Італії!"
+}

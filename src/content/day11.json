@@ -1,0 +1,102 @@
+{
+  "day": 11,
+  "title": "Живий діалог: Дзвінок орендодавцю та узгодження умов",
+  "module": "La Casa: Affitto e Condominio",
+  "type": "Interactive Dialogue",
+  "story": "Лаура телефонує власнику квартири — синьйору Маріо (Signor Mario), щоб розпитати про деталі оголошення та домовитися про огляд житла.",
+  "dialogue": [
+    {
+      "step": 1,
+      "speaker": "Signor Mario",
+      "text": "Pronto! Chi parla?",
+      "options": [
+        {
+          "text": "Buongiorno Signor Mario, sono Laura. Chiamo per l'annuncio dell'appartamento in affitto. È ancora disponibile?",
+          "isCorrect": true,
+          "feedback": "Чудово! Чітке та ввічливе привітання з поясненням мети дзвінка."
+        },
+        {
+          "text": "Ciao Mario, voglio la tua casa. Quanto costa?",
+          "isCorrect": false,
+          "feedback": "Занадто панібратсько. З власником житла спочатку спілкуємося на 'Lei' та кажемо 'Buongiorno Signor...'."
+        }
+      ]
+    },
+    {
+      "step": 2,
+      "speaker": "Signor Mario",
+      "text": "Sì, buongiorno Laura. L'appartamento è ancora libero. È un bilocale arredato al secondo piano con ascensore.",
+      "options": [
+        {
+          "text": "Perfetto! Mi dice il prezzo mensile? Le spese condominiali sono incluse nel prezzo?",
+          "isCorrect": true,
+          "feedback": "Правильно! Ви одразу уточнюєте ключове питання щодо комуналки кондомініуму."
+        },
+        {
+          "text": "Bene, vengo a dormire stasera.",
+          "isCorrect": false,
+          "feedback": "Занадто квапливо. Спочатку потрібно дізнатися ціну та умови оренди."
+        }
+      ]
+    },
+    {
+      "step": 3,
+      "speaker": "Signor Mario",
+      "text": "L'affitto è di 650 euro al mese. Le spese condominiali sono 80 euro a parte e comprendono l'acqua e la pulizia delle scale.",
+      "options": [
+        {
+          "text": "Ho capito. E per quanto riguarda le utenze di luce e gas, sono da volturare a mio nome?",
+          "isCorrect": true,
+          "feedback": "Дуже грамотне запитання про переоформлення рахунків (voltura) на світло та газ!"
+        },
+        {
+          "text": "Non voglio pagare le spese condominiali.",
+          "isCorrect": false,
+          "feedback": "У багатьох будинках 'spese condominiali' є обов'язковою частиною проживання, їх не можна просто скасувати."
+        }
+      ]
+    },
+    {
+      "step": 4,
+      "speaker": "Signor Mario",
+      "text": "Sì, le utenze sono da intestare a lei. Chiediamo anche tre mensilità di caparra confirmatoria.",
+      "options": [
+        {
+          "text": "Va bene, è chiaro. Quando possiamo fissare un appuntamento per visitare l'appartamento?",
+          "isCorrect": true,
+          "feedback": "Чудово! Ви погодили умови застави та запитуєте про огляд."
+        },
+        {
+          "text": "La caparra è gratis, vero?",
+          "isCorrect": false,
+          "feedback": "Ні, застава (caparra) завжди сплачується заздалегідь перед заселенням."
+        }
+      ]
+    },
+    {
+      "step": 5,
+      "speaker": "Signor Mario",
+      "text": "Possiamo vederci domani pomeriggio verso le 17:00 davanti al portone del condominio. Le va bene?",
+      "options": [
+        {
+          "text": "Sì, perfetto! Domani alle 17:00. Mi può mandare l'indirizzo esatto via messaggio?",
+          "isCorrect": true,
+          "feedback": "Ідеально! Ви підтвердили час та попросили точну адресу."
+        }
+      ]
+    },
+    {
+      "step": 6,
+      "speaker": "Signor Mario",
+      "text": "Certamente, le mando subito un SMS con l'indirizzo. A domani allora!",
+      "options": [
+        {
+          "text": "Molte grazie Signor Mario, a domani! Buona giornata.",
+          "isCorrect": true,
+          "feedback": "Ввічливий і професійний фінал розмови!"
+        }
+      ]
+    }
+  ],
+  "culturaTip": "Термін 'Voltura' означає переоформлення існуючих договорів на світло/газ на ваше ім'я, а 'Subentro' — нове підключення, якщо лічильники були опломбовані."
+}

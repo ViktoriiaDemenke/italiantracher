@@ -1,0 +1,97 @@
+{
+  "day": 5,
+  "title": "Візит до ASL: Оформлення картки та вибір лікаря",
+  "module": "Iscriversi al SSN e Medico di Base",
+  "type": "Interactive Dialogue",
+  "story": "Лаура заходить у відділення ASL і підходить до віконця (sportello). Працівниця перевіряє її документи та підтверджує право на безкоштовну реєстрацію в SSN.",
+  "dialogue": [
+    {
+      "step": 1,
+      "speaker": "Impiegata",
+      "text": "Buongiorno. Mi dica, come posso aiutarla?",
+      "options": [
+        {
+          "text": "Buongiorno, mi scusi. Devo iscrivermi al Servizio Sanitario Nazionale. È questo lo sportello giusto?",
+          "isCorrect": true,
+          "feedback": "Чудово! Дуже ввічливий та чіткий початок розмови."
+        },
+        {
+          "text": "Ciao, voglio la tessera sanitaria subito.",
+          "isCorrect": false,
+          "feedback": "Занадто грубо. Завжди кажемо 'Buongiorno' та використовуємо 'Devo...' або 'Vorrei...'."
+        }
+      ]
+    },
+    {
+      "step": 2,
+      "speaker": "Impiegata",
+      "text": "Sì, buongiorno. Mi mostri i documenti, per favore.",
+      "options": [
+        {
+          "text": "Ecco il passaporto, il permesso di soggiorno, il codice fiscale e la dichiarazione di residenza.",
+          "isCorrect": true,
+          "feedback": "Ідеально! Ви надали повний необхідний пакет документів."
+        },
+        {
+          "text": "Ho solo la carta d'identità.",
+          "isCorrect": false,
+          "feedback": "Неповний комплект. Для первинної реєстрації в ASL обов'язково потрібен також Permesso di Soggiorno та Codice Fiscale."
+        }
+      ]
+    },
+    {
+      "step": 3,
+      "speaker": "Impiegata",
+      "text": "Perfetto. Con il suo permesso di soggiorno ha diritto all’iscrizione gratuita. Ha già un medico di base?",
+      "options": [
+        {
+          "text": "No, non ancora. Come posso sceglierlo? Posso vedere la lista dei medici disponibili?",
+          "isCorrect": true,
+          "feedback": "Правильно! Ви запитуєте про список доступних лікарів у вашому районі."
+        },
+        {
+          "text": "Sì, ho già la ricevuta dell'Anagrafe.",
+          "isCorrect": false,
+          "feedback": "Не за адресою. Квитанція з Anagrafe — це документ про резиденцію, а не обраний сімейний лікар."
+        }
+      ]
+    },
+    {
+      "step": 4,
+      "speaker": "Impiegata",
+      "text": "Le mostro una lista dei medici disponibili nella sua zona. Questo medico è vicino a casa sua e ha posto.",
+      "options": [
+        {
+          "text": "Sì, mi sembra comodo. È vicino a casa mia, scelgo questo.",
+          "isCorrect": true,
+          "feedback": "Чудово! Ви підтвердили свій вибір."
+        }
+      ]
+    },
+    {
+      "step": 5,
+      "speaker": "Impiegata",
+      "text": "Perfetto, lo registro subito. Ecco la sua tessera sanitaria provvisoria.",
+      "options": [
+        {
+          "text": "Grazie! E se ho un problema urgente la sera o nel fine settimana?",
+          "isCorrect": true,
+          "feedback": "Дуже практичне запитання щодо чергової медичної служби!"
+        }
+      ]
+    },
+    {
+      "step": 6,
+      "speaker": "Impiegata",
+      "text": "Per le urgenze serali e nei festivi c’è la guardia medica. Per le emergenze gravi c'est il pronto soccorso, aperto 24 ore su 24.",
+      "options": [
+        {
+          "text": "Molte grazie за роз'яснення! Buona giornata.",
+          "isCorrect": true,
+          "feedback": "Чудовий фінал розмови!"
+        }
+      ]
+    }
+  ],
+  "culturaTip": "Пам'ятайте різницю: Guardia Medica працює вночі та у вихідні дні для невідкладних побутових випадків. Pronto Soccorso — це цілодобова швидка/приймальне відділення для важких та загрозливих ситуацій."
+}

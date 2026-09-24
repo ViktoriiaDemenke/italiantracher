@@ -1,0 +1,66 @@
+{
+  "day": 9,
+  "title": "Boss Level 🏆: Симуляція обіду в італійському ресторані",
+  "module": "Al Ristorante e in Trattoria",
+  "type": "Boss Level Simulation",
+  "story": "Фінальний іспит модуля! Ви самостійно замовляєте обід у траторії, спілкуєтеся з офіціантом, обираєте правильні напої та розраховуєтесь. Підказки та переклад вимкнено!",
+  "questions": [
+    {
+      "id": "p1",
+      "question": "Як ввічливо попросити забронювати столик на вечір?",
+      "options": [
+        "Vorrei prenotare un tavolo per due per stasera.",
+        "Voglio un tavolo subito per me.",
+        "Avete un appartamento libero?"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Vorrei prenotare...' = 'Я хотів би забронювати...'"
+    },
+    {
+      "id": "p2",
+      "question": "Що означає позиція 'Coperto' у ресторані?",
+      "options": [
+        "Плата за хліб та сервірування столу.",
+        "Обов'язкові чайові офіціанту 20%.",
+        "Штраф за спізнення."
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Coperto' — фіксована плата за посуд, хліб та сервірування."
+    },
+    {
+      "id": "p3",
+      "question": "Яку каву прийнято замовляти в Італії одразу після обіду?",
+      "options": [
+        "Un cappuccino grande.",
+        "Un caffè espresso.",
+        "Un tè freddo con latte."
+      ],
+      "correctAnswer": 1,
+      "explanation": "Після їжі італійці п'ють еспресо для покращення травлення."
+    },
+    {
+      "id": "p4",
+      "question": "Як правильно просити чек у офіціанта?",
+      "options": [
+        "Possiamo avere il conto, per favore?",
+        "Dammi il prezzo della pizza.",
+        "Devo fare la residenza."
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Il conto, per favore' = 'Чек, будь ласка'."
+    },
+    {
+      "id": "p5",
+      "question": "Як уточнити офіціанту, що ви бажаєте звичайну воду без газу?",
+      "options": [
+        "Acqua frizzante.",
+        "Acqua naturale.",
+        "Acqua con vino."
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Acqua naturale' = вода без газу."
+    }
+  ],
+  "successBadge": "Maestro del Ristorante 🍝",
+  "successMessage": "Вітаємо! Ви повністю засвоїли етикет італійських ресторанів, легко замовляєте страви та орієнтуєтеся в чеку!"
+}

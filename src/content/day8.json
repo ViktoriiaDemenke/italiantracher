@@ -1,0 +1,102 @@
+{
+  "day": 8,
+  "title": "Живий діалог: Замовлення страв та розрахунок",
+  "module": "Al Ristorante e in Trattoria",
+  "type": "Interactive Dialogue",
+  "story": "Марко та Лаура заходять до траторії. Офіціант (Cameriere) зустрічає їх біля входу і проводить до столика.",
+  "dialogue": [
+    {
+      "step": 1,
+      "speaker": "Cameriere",
+      "text": "Buongiorno! Avete prenotato o cercate un tavolo?",
+      "options": [
+        {
+          "text": "Buongiorno! Abbiamo una prenotazione a nome Marco per due persone.",
+          "isCorrect": true,
+          "feedback": "Чудово! Ви чітко вказали ім'я бронювання."
+        },
+        {
+          "text": "Ciao, voglio mangiare subito.",
+          "isCorrect": false,
+          "feedback": "Занадто неформально. Використовуйте 'Buongiorno' та ввічливий тон."
+        }
+      ]
+    },
+    {
+      "step": 2,
+      "speaker": "Cameriere",
+      "text": "Perfetto, venite pure. Ecco il menu. Da bere cosa vi porto per iniziare?",
+      "options": [
+        {
+          "text": "Una bottiglia d'acqua naturale e due calici di vino della casa, grazie.",
+          "isCorrect": true,
+          "feedback": "Ідеально! Ви одразу уточнили тип води (naturale)."
+        },
+        {
+          "text": "Dammi dell'acqua e basta.",
+          "isCorrect": false,
+          "feedback": "Неввічливо (звернення на 'ти'). Краще сказати: 'Un'acqua naturale, per favore'."
+        }
+      ]
+    },
+    {
+      "step": 3,
+      "speaker": "Cameriere",
+      "text": "Siete pronti per ordinare i piatti?",
+      "options": [
+        {
+          "text": "Sì! Come primo prendiamo due tagliatelle al ragù, e come secondo una tagliata di manzo da dividere.",
+          "isCorrect": true,
+          "feedback": "Чудово! Ви правильно розділили замовлення на Primo (перша страва) та Secondo (друга страва)."
+        },
+        {
+          "text": "Vorrei un cappuccino e una pizza al ragù.",
+          "isCorrect": false,
+          "feedback": "Капучино не замовляють під час обіду з пастою, а 'pizza al ragù' — це нестандартне поєднання."
+        }
+      ]
+    },
+    {
+      "step": 4,
+      "speaker": "Cameriere",
+      "text": "Ottima scelta! Desiderate un dolce o un caffè alla fine?",
+      "options": [
+        {
+          "text": "Un tiramisù e due caffè espresso, per favore.",
+          "isCorrect": true,
+          "feedback": "Класичний італійський фінал обіду!"
+        },
+        {
+          "text": "Due cappuccini grandi, grazie.",
+          "isCorrect": false,
+          "feedback": "Пам'ятайте: ввечері та після обіду італійці замовляють еспресо, а не капучино."
+        }
+      ]
+    },
+    {
+      "step": 5,
+      "speaker": "Cameriere",
+      "text": "Perfetto, arrivano subito. Serve altro?",
+      "options": [
+        {
+          "text": "No, grazie. Quando è possibile, possiamo avere il conto?",
+          "isCorrect": true,
+          "feedback": "Ідеальна фраза для того, щоб попросити чек."
+        }
+      ]
+    },
+    {
+      "step": 6,
+      "speaker": "Cameriere",
+      "text": "Certamente! Pagate insieme o separati? Accettiamo anche la carta.",
+      "options": [
+        {
+          "text": "Paghiamo con la carta, insieme. Grazie mille, tutto buonissimo!",
+          "isCorrect": true,
+          "feedback": "Чудове завершення обіду та комплімент кухні!"
+        }
+      ]
+    }
+  ],
+  "culturaTip": "В Італії чек не приносять автоматично одразу після того, як ви доїли — це вважається квапленням гостя. Ви маєте самі сказати офіціанту: 'Il conto, per favore'."
+}

@@ -1,0 +1,256 @@
+{
+  "day": 2,
+  "mode": "dialogue",
+  "title": "Anagrafe: Sportello",
+  "story": "Номер Марка випав. Він підходить до sportello 4. За віконцем — impiegato. Тут уже не тотем, а жива розмова: мета візиту, документи, бланк, якого бракує, і спокійний Lei до arrivederci.",
+  "phrases": [
+    {
+      "italian": "Buongiorno, vorrei presentare la dichiarazione di residenza.",
+      "ukrainian": "Доброго дня, я хотів би подати декларацію про місце проживання.",
+      "audio_id": "d2_p1"
+    },
+    {
+      "italian": "Ecco il passaporto, il codice fiscale e il permesso.",
+      "ukrainian": "Ось паспорт, код фіскале і пермессо.",
+      "audio_id": "d2_p2"
+    },
+    {
+      "italian": "Il modulo non l'ho compilato. Me lo dà lei, per favore?",
+      "ukrainian": "Бланк я не заповнив. Дасте мені його, будь ласка?",
+      "audio_id": "d2_p3"
+    },
+    {
+      "italian": "Abito in via Roma dodici, con mia moglie e mia figlia.",
+      "ukrainian": "Живу на via Roma 12, з дружиною і донькою.",
+      "audio_id": "d2_p4"
+    },
+    {
+      "italian": "Posso avere la ricevuta, per favore?",
+      "ukrainian": "Можна квитанцію, будь ласка?",
+      "audio_id": "d2_p5"
+    }
+  ],
+  "culturaTip": "За sportello одна відповідь — на одне питання. Якщо бракує modulo, спокійно скажіть і попросіть бланк. Не виправдовуйтесь довго. Ім'я диктуйте як у паспорті або покажіть документ. Lei тримайте до Grazie, arrivederci.",
+  "dialogue": [
+    {
+      "step": 1,
+      "speaker": "Impiegato",
+      "text": "Buongiorno, mi dica.",
+      "options": [
+        {
+          "tone": "natural",
+          "text": "Buongiorno, vorrei presentare la dichiarazione di residenza. Mi sono trasferito a Treviso da poco.",
+          "feedback": "Чітка мета, Lei, без біографії на п'ять хвилин."
+        },
+        {
+          "tone": "bookish",
+          "text": "Desidererei sottoporre all'attenzione dell'ufficio l'istanza di iscrizione anagrafica.",
+          "feedback": "Зміст ок, тон як з підручника права. У віконці кажуть простіше."
+        },
+        {
+          "tone": "wrong",
+          "text": "Ciao, fammi la residenza adesso.",
+          "feedback": "Ciao і наказ. Тут Buongiorno і vorrei."
+        }
+      ]
+    },
+    {
+      "step": 2,
+      "speaker": "Impiegato",
+      "text": "Va bene. Ha già un appuntamento o è passato col numero del totem?",
+      "options": [
+        {
+          "tone": "natural",
+          "text": "Ho preso il biglietto al totem, categoria Anagrafe. Il numero è questo.",
+          "feedback": "Показуєте талон і категорію. Працівник одразу розуміє чергу."
+        },
+        {
+          "tone": "bookish",
+          "text": "Ho ottemperato alla procedura di prenotazione mediante il totem elettronico.",
+          "feedback": "Занадто канцелярськи. Достатньо: ho preso il biglietto."
+        },
+        {
+          "tone": "wrong",
+          "text": "Non ho numero, ma la coda è lunga e io lavoro.",
+          "feedback": "Без номера вас не візьмуть «поза чергою»."
+        }
+      ]
+    },
+    {
+      "step": 3,
+      "speaker": "Impiegato",
+      "text": "Documenti, prego: passaporto, codice fiscale, permesso di soggiorno e contratto d'affitto.",
+      "options": [
+        {
+          "tone": "natural",
+          "text": "Sì, ecco: passaporto, codice fiscale, permesso e contratto d'affitto. Li metto qui.",
+          "feedback": "Усе на стійку, коротко по списку. Так і роблять."
+        },
+        {
+          "tone": "bookish",
+          "text": "Le consengo qui di seguito l'intera documentazione identificativa e contrattuale in originale.",
+          "feedback": "Можна простіше: ecco i documenti."
+        },
+        {
+          "tone": "wrong",
+          "text": "Guardi sul telefono, ho le foto. Gli originali sono a casa.",
+          "feedback": "Для residenza оригінали потрібні на столі, не в галереї телефону."
+        }
+      ]
+    },
+    {
+      "step": 4,
+      "speaker": "Impiegato",
+      "text": "Il contratto c'è. Però non vedo il modulo della dichiarazione già compilato. Lo ha stampato dal sito del Comune?",
+      "options": [
+        {
+          "tone": "natural",
+          "text": "No, non l'ho compilato. Me lo dà lei adesso, per favore? Lo riempio qui.",
+          "feedback": "Чесно і ввічливо. Бланк часто дають на місці, якщо ви не друкували з сайту."
+        },
+        {
+          "tone": "bookish",
+          "text": "Lamentabilmente non ho provveduto alla previa compilazione del modulo scaricato dal portale istituzionale.",
+          "feedback": "Зміст «не заповнив», але речення важке. Краще: non l'ho compilato."
+        },
+        {
+          "tone": "wrong",
+          "text": "Non è un problema mio, lo deve fare lei.",
+          "feedback": "Грубо. Бланк заповнює заявник, працівник допомагає з полями."
+        }
+      ]
+    },
+    {
+      "step": 5,
+      "speaker": "Impiegato",
+      "text": "Le do il modulo. Nome, cognome, data e luogo di nascita, indirizzo, componenti del nucleo. Ha una penna?",
+      "options": [
+        {
+          "tone": "natural",
+          "text": "Sì, grazie. Quale riga per l'indirizzo e per i familiari, scusi?",
+          "feedback": "Просите орієнтир по рядках. Це нормально і не гальмує вікно."
+        },
+        {
+          "tone": "bookish",
+          "text": "La prego di illustrarmi analogicamente ciascun campo del formulario.",
+          "feedback": "Занадто урочисто. Достатньо спитати про riga dell'indirizzo."
+        },
+        {
+          "tone": "wrong",
+          "text": "Lo firmi lei, tanto è uguale.",
+          "feedback": "Підпис і дані — ваші. Працівник не підписує замість вас."
+        }
+      ]
+    },
+    {
+      "step": 6,
+      "speaker": "Impiegato",
+      "text": "Abita da solo o con altri familiari? Servono i documenti di tutti.",
+      "options": [
+        {
+          "tone": "natural",
+          "text": "No, vivo con mia moglie e mia figlia. Ho anche i loro documenti, se li vuole vedere.",
+          "feedback": "Пряма відповідь на питання про nucleo. Документи сім'ї тримайте готовими."
+        },
+        {
+          "tone": "bookish",
+          "text": "Il mio nucleo familiare risulta composto da coniuge e figlia conviventi presso il medesimo indirizzo.",
+          "feedback": "Книжежно. У віконці: vivo con mia moglie e mia figlia."
+        },
+        {
+          "tone": "wrong",
+          "text": "Sì, da solo. Gli altri tanto non servono.",
+          "feedback": "Якщо сім'я живе з вами, їх треба заявити. Інакше residenza буде неточною."
+        }
+      ]
+    },
+    {
+      "step": 7,
+      "speaker": "Impiegato",
+      "text": "Manca ancora la marca da bollo da 16 euro. Ce l'ha?",
+      "options": [
+        {
+          "tone": "natural",
+          "text": "Sì, ce l'ho. L'ho comprata in tabaccheria stamattina. Ecco.",
+          "feedback": "Марку кладете разом із бланком. Так заява може піти далі."
+        },
+        {
+          "tone": "bookish",
+          "text": "Ho provveduto all'acquisto del contrassegno telematico dell'imposta di bollo prevista.",
+          "feedback": "Можна просто: sì, la marca da bollo ce l'ho."
+        },
+        {
+          "tone": "wrong",
+          "text": "Pago dopo, quando mi date la residenza.",
+          "feedback": "Марку просять разом із заявою, не «після результату»."
+        }
+      ]
+    },
+    {
+      "step": 8,
+      "speaker": "Impiegato",
+      "text": "Bene. In fondo c'è la firma. Poi me lo riporti. Controllo i dati con il passaporto.",
+      "options": [
+        {
+          "tone": "natural",
+          "text": "Firmo qui. Se una lettera del cognome non è chiara, lo spello, se vuole.",
+          "feedback": "Підпис + готовність продиктувати прізвище. Типово для іноземного імені."
+        },
+        {
+          "tone": "bookish",
+          "text": "Apporrò la mia sottoscrizione nello spazio deputato e resterò a disposizione per eventuali rettifiche.",
+          "feedback": "Занадто канцелярія. Firmo qui — достатньо."
+        },
+        {
+          "tone": "wrong",
+          "text": "Non firmo se prima non mi date la carta.",
+          "feedback": "Спочатку бланк і підпис, потім ricevuta. Не торг."
+        }
+      ]
+    },
+    {
+      "step": 9,
+      "speaker": "Impiegato",
+      "text": "Un attimo che carico tutto. Il sistema è lento. Resti qui, per favore. Poi le spiego i controlli della Polizia Locale.",
+      "options": [
+        {
+          "tone": "natural",
+          "text": "Certo, aspetto. Non c'è fretta. Grazie.",
+          "feedback": "Стоїте біля вікна, не сперечаєтесь із чергою позаду."
+        },
+        {
+          "tone": "bookish",
+          "text": "Attenderò pazientemente il completamento dell'inserimento informatico dei dati.",
+          "feedback": "Книжежно. Простіше: aspetto, grazie."
+        },
+        {
+          "tone": "wrong",
+          "text": "Svelto, ho un autobus. Faccia prima me.",
+          "feedback": "Підганяти sportello — поганий тон і не прискорює систему."
+        }
+      ]
+    },
+    {
+      "step": 10,
+      "speaker": "Impiegato",
+      "text": "Fatto. Tiene la ricevuta. Nei giorni successivi possono arrivare i vigili per verificare che abiti davvero lì. Altre domande?",
+      "options": [
+        {
+          "tone": "natural",
+          "text": "No, è tutto chiaro. Grazie, è stato gentile. Arrivederci.",
+          "feedback": "Квитанцію в папку, ввічливий вихід. Перевірка за адресою — звичайна частина residenza."
+        },
+        {
+          "tone": "bookish",
+          "text": "La ringrazio sentitamente per la solerte trattazione del procedimento amministrativo.",
+          "feedback": "Подяка ок, стиль надмірний. Grazie, arrivederci — норма комуни."
+        },
+        {
+          "tone": "wrong",
+          "text": "Allora perché non mi date subito la carta d'identità?",
+          "feedback": "Сьогодні ви подали dichiarazione. CIE — інша черга і інші терміни."
+        }
+      ]
+    }
+  ]
+}

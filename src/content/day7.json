@@ -1,0 +1,44 @@
+{
+  "day": 7,
+  "title": "Ресторан та Траторія: Бронювання та культура їжі",
+  "module": "Al Ristorante e in Trattoria",
+  "type": "Immersion & Vocabulary",
+  "story": "Марко та Лаура вирішили пообідати у місцевій сімейній траторії в Treviso. В Італії культурі харчування приділяють особливу увагу: важливо знати, як забронювати столик, замовити воду, зрозуміти, що таке 'coperto' у чеку, та як правильно попросити каву після обіду.",
+  "phrases": [
+    {
+      "italian": "Vorrei prenotare un tavolo per due persone per stasera.",
+      "ukrainian": "Я хотів би забронювати столик на двох на сьогодні на вечір."
+    },
+    {
+      "italian": "Avete un tavolo libero per due?",
+      "ukrainian": "У вас є вільний столик на двох?"
+    },
+    {
+      "italian": "Una bottiglia d'acqua naturale / frizzante, per favore.",
+      "ukrainian": "Пляшку води без газу / з газом, будь ласка."
+    },
+    {
+      "italian": "Possiamo avere il menu, per favore?",
+      "ukrainian": "Можна нам меню, будь ласка?"
+    }
+  ],
+  "restaurantEtiquette": [
+    "Coperto — це плата за хліб та сервірування (зазвичай 1.50€–3.00€ з особи, вказується в меню).",
+    "Cappuccino в Італії п'ють тільки до 11:00 ранку. Після обіду замовляють Caffè espresso або Macchiato.",
+    "Воду завжди подають у пляшках: треба уточнити 'naturale' (без газу) чи 'frizzante' (з газом)."
+  ],
+  "grammar": {
+    "title": "Ввічливі прохання через 'Vorrei' та 'Possiamo'",
+    "rules": [
+      {
+        "rule": "Використання 'Vorrei + інфінітив' замість 'Voglio' (Я б хотів/хотіла...).",
+        "examples": ["Vorrei ordinare.", "Vorrei un tavolo all'aperto."]
+      },
+      {
+        "rule": "Запитання 'Possiamo + інфінітив' (Чи можемо ми...).",
+        "examples": ["Possiamo sederci qui?", "Possiamo avere il conto?"]
+      }
+    ]
+  },
+  "culturaTip": "В італійських ресторанах обід (pranzo) зазвичай триває з 12:30 до 14:30, а вечеря (cena) розпочинається не раніше 19:30 або 20:00."
+}

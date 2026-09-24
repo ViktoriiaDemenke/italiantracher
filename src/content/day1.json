@@ -1,0 +1,157 @@
+{
+  "day": 1,
+  "mode": "immersion",
+  "title": "Anagrafe: Реєстрація та документи",
+  "story": "Марко нещодавно переїхав до Тревізо. Сьогодні вранці він іде в Comune, в Ufficio Anagrafe, щоб подати dichiarazione di residenza. Біля входу стоїть totem: треба вибрати правильну категорію, взяти biglietto і чекати номер на tabellone. У папці в нього codice fiscale, permesso di soggiorno, contratto d'affitto і marca da bollo da 16€.",
+  "documents": [
+    {
+      "item": "codice fiscale",
+      "ukrainian": "Податковий код. Без нього заяву на residenza зазвичай не закривають."
+    },
+    {
+      "item": "permesso di soggiorno",
+      "ukrainian": "Дозвіл на перебування в оригіналі, не лише фото на телефоні."
+    },
+    {
+      "item": "contratto d'affitto",
+      "ukrainian": "Договір оренди з адресою в Тревізо, яку Марко хоче заявити."
+    },
+    {
+      "item": "marca da bollo 16€",
+      "ukrainian": "Марка на 16 євро для заяви. Її часто купують у tabaccheria перед візитом."
+    }
+  ],
+  "phrases": [
+    {
+      "italian": "Buongiorno, vorrei fare la richiesta di residenza.",
+      "ukrainian": "Доброго дня, я хотів би подати заяву на резиденцію.",
+      "audio_id": "d1_p1"
+    },
+    {
+      "italian": "Dove posso prendere il biglietto?",
+      "ukrainian": "Де я можу взяти талончик?",
+      "audio_id": "d1_p2"
+    },
+    {
+      "italian": "Devo selezionare Anagrafe sul totem?",
+      "ukrainian": "Мені потрібно вибрати Anagrafe на тотемі?",
+      "audio_id": "d1_p3"
+    },
+    {
+      "italian": "Quale categoria per la dichiarazione di residenza?",
+      "ukrainian": "Яка категорія для декларації про місце проживання?",
+      "audio_id": "d1_p4"
+    },
+    {
+      "italian": "Ho il codice fiscale e il permesso di soggiorno.",
+      "ukrainian": "У мене є код фіскале і дозвіл на перебування.",
+      "audio_id": "d1_p5"
+    },
+    {
+      "italian": "Ecco il contratto d'affitto.",
+      "ukrainian": "Ось договір оренди.",
+      "audio_id": "d1_p6"
+    },
+    {
+      "italian": "Serve anche la marca da bollo da sedici euro?",
+      "ukrainian": "Чи потрібна також марка на шістнадцять євро?",
+      "audio_id": "d1_p7"
+    },
+    {
+      "italian": "Il mio numero è uscito sul tabellone.",
+      "ukrainian": "Мій номер з'явився на табло.",
+      "audio_id": "d1_p8"
+    }
+  ],
+  "dialogue": [
+    {
+      "step": 1,
+      "speaker": "Addetto all'ingresso",
+      "text": "Buongiorno. Per l'Anagrafe il biglietto si prende al totem, lì a sinistra.",
+      "options": [
+        {
+          "tone": "natural",
+          "text": "Buongiorno, grazie. Devo selezionare Anagrafe per la residenza?",
+          "feedback": "Ввічливо, на Lei і з ясною метою. Так і варто підходити до тотема."
+        },
+        {
+          "tone": "bookish",
+          "text": "La prego di voler cortesemente indicarmi la procedura telematica di emissione del titolo di coda.",
+          "feedback": "Граматично «правильно», але в комуні так не кажуть. Занадто книжково."
+        },
+        {
+          "tone": "wrong",
+          "text": "Ciao, dammi il numero, ho fretta.",
+          "feedback": "Грубо. Тут Buongiorno і Lei, не Ciao і накази."
+        }
+      ]
+    },
+    {
+      "step": 2,
+      "speaker": "Totem",
+      "text": "Selezionare: 1 Carta d'identità  2 Anagrafe / residenza  3 Stato civile  4 Pagamenti",
+      "options": [
+        {
+          "tone": "natural",
+          "text": "Scelgo Anagrafe / residenza. Poi aspetto il numero sul tabellone.",
+          "feedback": "Правильна категорія. Carta d'identità — інша черга."
+        },
+        {
+          "tone": "bookish",
+          "text": "Intendo avvalermi dell'opzione inerente all'anagrafe demografica comunale.",
+          "feedback": "Зміст близький, але на екрані тотема так ніхто не думає вголос."
+        },
+        {
+          "tone": "wrong",
+          "text": "Prendo Carta d'identità, tanto è lo stesso ufficio.",
+          "feedback": "Ні. Інша черга, інше sportello. Для residenza — Anagrafe."
+        }
+      ]
+    },
+    {
+      "step": 3,
+      "speaker": "Addetto",
+      "text": "Ha preso il biglietto? Aspetti il suo numero. Non si metta in fila allo sportello senza numero.",
+      "options": [
+        {
+          "tone": "natural",
+          "text": "Sì, ho il biglietto. Aspetto qui che esca il mio numero, grazie.",
+          "feedback": "Саме так: талон у руці, очікування на tabellone, без живої черги «познайомитись»."
+        },
+        {
+          "tone": "bookish",
+          "text": "Ottempererò scrupolosamente alle disposizioni relative all'ordine di chiamata.",
+          "feedback": "Занадто урочисто для ранкового Comune."
+        },
+        {
+          "tone": "wrong",
+          "text": "Vado comunque allo sportello, tanto non c'è nessuno.",
+          "feedback": "Без номера вас відправлять назад до тотема."
+        }
+      ]
+    },
+    {
+      "step": 4,
+      "speaker": "Tabellone",
+      "text": "Numero 37, sportello 4.",
+      "options": [
+        {
+          "tone": "natural",
+          "text": "È il mio numero. Vado allo sportello 4 con i documenti in ordine.",
+          "feedback": "Коли випав ваш номер — підходьте до вказаного віконця, не до будь-якого."
+        },
+        {
+          "tone": "bookish",
+          "text": "Constatato l'avviso elettronico, mi reco immediatamente al bancone indicato.",
+          "feedback": "Книжежний стиль. Достатньо просто піти до sportello 4."
+        },
+        {
+          "tone": "wrong",
+          "text": "Vado allo sportello 1, è più vicino.",
+          "feedback": "Не те вікно. Номер прив'язаний до sportello 4."
+        }
+      ]
+    }
+  ],
+  "culturaTip": "У Comune di Treviso, як і в більшості комун, черга йде через totem. Для dichiarazione di residenza беріть категорію Anagrafe, не Carta d'identità. Говоріть на Lei, вітайтеся Buongiorno. Документи тримайте готовими: codice fiscale, permesso, contratto d'affitto, marca da bollo 16€."
+}

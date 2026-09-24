@@ -1,0 +1,45 @@
+{
+  "day": 4,
+  "title": "ASL i Tessera Sanitaria: Реєстрація в медичній системі",
+  "module": "Iscriversi al SSN e Medico di Base",
+  "type": "Immersion & Vocabulary",
+  "story": "Лаура нещодавно переїхала до Падуї. Після оформлення резиденції в Anagrafe вона робить наступний важливий крок — іде до ASL (Azienda Sanitaria Locale), щоб зареєструватися в SSN (Servizio Sanitario Nazionale), отримати Tessera Sanitaria та обрати сімейного лікаря (Medico di base). З собою вона має: passaporto, permesso di soggiorno, codice fiscale та dichiarazione di residenza.",
+  "phrases": [
+    {
+      "italian": "Devo iscrivermi al Servizio Sanitario Nazionale.",
+      "ukrainian": "Мені потрібно зареєструватися в Національній службі охорони здоров'я."
+    },
+    {
+      "italian": "Devo scegliere un medico di base.",
+      "ukrainian": "Мені потрібно обрати сімейного лікаря."
+    },
+    {
+      "italian": "È vicino a casa mia.",
+      "ukrainian": "Це близько до мого дому."
+    },
+    {
+      "italian": "Dove devo andare in caso di emergenza?",
+      "ukrainian": "Куди мені звертатися у разі невідкладної ситуації?"
+    }
+  ],
+  "documentsRequired": [
+    "Passaporto / Carta d'identità",
+    "Permesso di soggiorno",
+    "Codice fiscale",
+    "Dichiarazione di residenza"
+  ],
+  "grammar": {
+    "title": "Медична термінологія та право на допомогу",
+    "rules": [
+      {
+        "rule": "Використання виразу 'Avere diritto a...' (Ha diritto all'iscrizione).",
+        "examples": ["Ha diritto all'iscrizione gratuita.", "Ho diritto al medico di base."]
+      },
+      {
+        "rule": "Вказування відстані: 'vicino a...' (близько до...).",
+        "examples": ["Il medico è vicino a casa mia.", "L'ufficio è vicino al Comune."]
+      }
+    ]
+  },
+  "culturaTip": "Реєстрація в SSN за наявності дозволу на проживання (Permesso di soggiorno) є абсолютно безкоштовною. Звертаючись до працівників ASL, завжди вживайте ввічливу форму 'Lei' та вітайтеся 'Buongiorno'."
+}

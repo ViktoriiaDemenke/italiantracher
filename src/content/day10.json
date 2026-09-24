@@ -1,0 +1,45 @@
+{
+  "day": 10,
+  "title": "Шукаємо житло: Оголошення, застава та кондомініум",
+  "module": "La Casa: Affitto e Condominio",
+  "type": "Immersion & Vocabulary",
+  "story": "Лаура шукає нову квартиру в Падуї/Тревізо. На порталі оголошень вона знайшла привабливий варіант, але щоб зняти житло в Італії, потрібно орієнтуватися у термінах: розрізняти 'monolocale' та 'trilocale', розуміти, що таке 'spese condominiali' (комунальні послуги будинку) та скільки місяців складає 'caparra' (застава).",
+  "phrases": [
+    {
+      "italian": "Ho visto il suo annuncio per l'appartamento in affitto.",
+      "ukrainian": "Я побачив(ла) ваше оголошення про оренду квартири."
+    },
+    {
+      "italian": "È ancora disponibile l'appartamento?",
+      "ukrainian": "Квартира ще вільна (доступна)?"
+    },
+    {
+      "italian": "Le spese condominiali sono incluse nel prezzo?",
+      "ukrainian": "Витрати на кондомініум включені в ціну?"
+    },
+    {
+      "italian": "Quando possiamo fissare un appuntamento per vederlo?",
+      "ukrainian": "Коли ми можемо домовитися про зустріч, щоб оглянути її?"
+    }
+  ],
+  "housingNuances": [
+    "Monolocale — 1-кімнатна квартира (студія). Bilocale — 2-кімнатна (спальня + вітальня з кухнею). Trilocale — 3-кімнатна.",
+    "Spese condominiali — платежі за прибирання під'їзду, ліфт, освітлення та догляд за подвір'ям. Вони частіше виставляються окремо від оренди.",
+    "Caparra / Deposito cauzionale — гарантійна застава, яка зазвичай складає від 2 до 3 місяців оренди і повертається при виїзді.",
+    "Contratto 4+4 o 3+2 — найпопулярніші види довгострокових договорів оренди в Італії."
+  ],
+  "grammar": {
+    "title": "Уточнення умов через 'Sono inclusi/e...?' та 'Vorrei fissare...'",
+    "rules": [
+      {
+        "rule": "Запитання про включені послуги: 'Sono inclusi/e...?' (Чи включені...?).",
+        "examples": ["I consumi di acqua e gas sono inclusi?", "Le spese condominiali sono escluse."]
+      },
+      {
+        "rule": "Домовленість про час: 'Fissare un appuntamento' (Призначити зустріч).",
+        "examples": ["Vorrei fissare una visita.", "Posso venire a vedere la casa domani?"]
+      }
+    ]
+  },
+  "culturaTip": "В Італії орендодавці майже завжди запитують 'busta paga' (довідку про доходи/зарплату) або гаранта перед підписанням договору, щоб переконатися у вашій платоспроможності."
+}

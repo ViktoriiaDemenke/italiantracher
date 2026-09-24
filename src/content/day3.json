@@ -1,0 +1,239 @@
+{
+  "day": 3,
+  "mode": "boss",
+  "title": "Anagrafe: Boss Level",
+  "successTitle": "Резиденцію успішно отримано!",
+  "story": "Comune di Treviso, stamattina. Dal totem fino alla ricevuta. Niente traduzioni, niente spiegazioni.",
+  "culturaTip": "",
+  "phrases": [],
+  "dialogue": [
+    {
+      "step": 1,
+      "speaker": "Ingresso",
+      "text": "Buongiorno. Per l'Anagrafe, totem a sinistra. Poi aspetti il numero.",
+      "options": [
+        {
+          "tone": "natural",
+          "text": "Buongiorno, grazie. Vado al totem."
+        },
+        {
+          "tone": "bookish",
+          "text": "La ringrazio per l'indicazione relativa all'apparato di emissione dei biglietti."
+        },
+        {
+          "tone": "wrong",
+          "text": "Dov'è lo sportello? Non ho tempo per i numeri."
+        }
+      ]
+    },
+    {
+      "step": 2,
+      "speaker": "Totem",
+      "text": "1 Carta d'identità  2 Anagrafe / residenza  3 Stato civile  4 Pagamenti",
+      "options": [
+        {
+          "tone": "natural",
+          "text": "Seleziono Anagrafe / residenza."
+        },
+        {
+          "tone": "bookish",
+          "text": "Opto per la voce concernente l'iscrizione anagrafica."
+        },
+        {
+          "tone": "wrong",
+          "text": "Carta d'identità: è più veloce."
+        }
+      ]
+    },
+    {
+      "step": 3,
+      "speaker": "Sala d'attesa",
+      "text": "Si sieda. Il numero esce sul tabellone. Non si avvicini allo sportello prima.",
+      "options": [
+        {
+          "tone": "natural",
+          "text": "Va bene, aspetto qui con il biglietto."
+        },
+        {
+          "tone": "bookish",
+          "text": "Mi conformerò all'ordine di chiamata elettronica."
+        },
+        {
+          "tone": "wrong",
+          "text": "Chiedo allo sportello se posso passare, tanto c'è posto."
+        }
+      ]
+    },
+    {
+      "step": 4,
+      "speaker": "Tabellone",
+      "text": "Numero 37, sportello 4.",
+      "options": [
+        {
+          "tone": "natural",
+          "text": "È il mio numero. Vado allo sportello 4."
+        },
+        {
+          "tone": "bookish",
+          "text": "Mi reco al bancone corrispondente all'avviso luminoso."
+        },
+        {
+          "tone": "wrong",
+          "text": "Vado allo sportello 2, c'è meno gente."
+        }
+      ]
+    },
+    {
+      "step": 5,
+      "speaker": "Sportello 2",
+      "text": "Questo sportello è per la carta d'identità. La residenza è allo sportello 4.",
+      "options": [
+        {
+          "tone": "natural",
+          "text": "Ah, scusi tanto. Vado allo sportello 4, grazie."
+        },
+        {
+          "tone": "bookish",
+          "text": "Chiedo venia per l'equivoco e mi dirigo verso lo sportello indicato."
+        },
+        {
+          "tone": "wrong",
+          "text": "È lo stesso Comune, può farla lei."
+        }
+      ]
+    },
+    {
+      "step": 6,
+      "speaker": "Impiegato — sportello 4",
+      "text": "Buongiorno, mi dica. Ha il numero?",
+      "options": [
+        {
+          "tone": "natural",
+          "text": "Buongiorno. Sì, numero 37. Vorrei presentare la dichiarazione di residenza."
+        },
+        {
+          "tone": "bookish",
+          "text": "Buongiorno. Le sottopongo il titolo di coda e l'istanza di residenza."
+        },
+        {
+          "tone": "wrong",
+          "text": "Ciao. Residenza, veloce."
+        }
+      ]
+    },
+    {
+      "step": 7,
+      "speaker": "Impiegato",
+      "text": "Documenti: passaporto, codice fiscale, permesso, contratto d'affitto.",
+      "options": [
+        {
+          "tone": "natural",
+          "text": "Ecco, tutti in originale. Passaporto, codice fiscale, permesso e contratto."
+        },
+        {
+          "tone": "bookish",
+          "text": "Le deposito l'intera documentazione in originale come richiesto."
+        },
+        {
+          "tone": "wrong",
+          "text": "Le foto sono sul telefono. Gli originali dopo."
+        }
+      ]
+    },
+    {
+      "step": 8,
+      "speaker": "Impiegato",
+      "text": "Il modulo della dichiarazione non c'è. Lo compila adesso. E la marca da bollo da 16 euro?",
+      "options": [
+        {
+          "tone": "natural",
+          "text": "Compilo il modulo qui. La marca da bollo ce l'ho, ecco."
+        },
+        {
+          "tone": "bookish",
+          "text": "Provvedo immediatamente alla compilazione e alla consegna del contrassegno di bollo."
+        },
+        {
+          "tone": "wrong",
+          "text": "Lo faccia lei. Io firmo dopo, se mi conviene."
+        }
+      ]
+    },
+    {
+      "step": 9,
+      "speaker": "Impiegato",
+      "text": "Nucleo familiare? Indirizzo completo, interno e piano.",
+      "options": [
+        {
+          "tone": "natural",
+          "text": "Via Roma dodici, interno tre, secondo piano. Vivo con mia moglie e mia figlia."
+        },
+        {
+          "tone": "bookish",
+          "text": "L'abitazione è sita in via Roma 12, interno 3, piano secondo, con nucleo familiare convivente."
+        },
+        {
+          "tone": "wrong",
+          "text": "Una via in centro. I dettagli non ricordo."
+        }
+      ]
+    },
+    {
+      "step": 10,
+      "speaker": "Impiegato",
+      "text": "Firma in fondo. Poi resto un attimo: carico i dati.",
+      "options": [
+        {
+          "tone": "natural",
+          "text": "Firmo. Aspetto qui, grazie."
+        },
+        {
+          "tone": "bookish",
+          "text": "Apporto la firma e attendo il caricamento del sistema."
+        },
+        {
+          "tone": "wrong",
+          "text": "Torno tra un'ora, mi chiami sul cellulare."
+        }
+      ]
+    },
+    {
+      "step": 11,
+      "speaker": "Impiegato",
+      "text": "Sistema lento oggi. Resti. Poi può arrivare il controllo dei vigili a casa, nei giorni successivi.",
+      "options": [
+        {
+          "tone": "natural",
+          "text": "Va bene, aspetto. Grazie per l'informazione."
+        },
+        {
+          "tone": "bookish",
+          "text": "Prendo atto della possibile verifica della Polizia Locale presso il domicilio."
+        },
+        {
+          "tone": "wrong",
+          "text": "I vigili a casa? Allora non firmo niente."
+        }
+      ]
+    },
+    {
+      "step": 12,
+      "speaker": "Impiegato",
+      "text": "Fatto. Ecco la ricevuta. La tenga. Buona giornata.",
+      "options": [
+        {
+          "tone": "natural",
+          "text": "Grazie, la metto in cartella. Arrivederci, buona giornata."
+        },
+        {
+          "tone": "bookish",
+          "text": "La ringrazio per il rilascio della ricevuta e le auguro una buona prosecuzione."
+        },
+        {
+          "tone": "wrong",
+          "text": "Questa carta è la residenza definitiva, vero? Allora dammi anche l'identità."
+        }
+      ]
+    }
+  ]
+}

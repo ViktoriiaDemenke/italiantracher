@@ -1,9 +1,10 @@
 import { useMemo, useState } from 'react'
 import { CANONICAL_MODULES } from '../data/modules'
+import CycleNav, { MODULE_CYCLES } from '../components/CycleNav.jsx'
 import SavedPhrasesSheet from '../components/SavedPhrasesSheet.jsx'
 import './HomeScreen.css'
 
-export default function HomeScreen({ state, onStart }) {
+export default function HomeScreen({ state, onStart, onOpenDay }) {
   const [phrasesOpen, setPhrasesOpen] = useState(false)
 
   const progressLabel = useMemo(() => {
@@ -42,6 +43,13 @@ export default function HomeScreen({ state, onStart }) {
               <div>
                 <h3 className="card__title">{mod.title}</h3>
                 <p className="card__subtitle">{mod.subtitle}</p>
+                {MODULE_CYCLES[mod.id] ? (
+                  <CycleNav
+                    cycle={mod.id}
+                    currentDay={state.currentDay}
+                    onOpenDay={onOpenDay}
+                  />
+                ) : null}
               </div>
             </li>
           ))}

@@ -9,16 +9,24 @@ function speakItalian(text, rate) {
   window.speechSynthesis.speak(utterance)
 }
 
-export default function PhraseCard({ phrase }) {
+export default function PhraseCard({ phrase, onChoose, hideTranslation = false }) {
   const [slow, setSlow] = useState(false)
   const [showUk, setShowUk] = useState(false)
   const rate = slow ? 0.75 : 1
 
   return (
-    <article className="phrase-card">
-      <p className="phrase-card__hint">{phrase.hint}</p>
+    <article className={`phrase-card${onChoose ? ' phrase-card--choice' : ''}`}>
+      {phrase.hint ? <p className="phrase-card__hint">{phrase.hint}</p> : null}
       <p className="phrase-card__it">{phrase.it}</p>
-      {showUk ? <p className="phrase-card__uk">{phrase.uk}</p> : null}
+      {!hideTranslation && showUk ? (
+        <p className="phrase-card__uk">{phrase.uk}</p>
+      ) : null}
+
+      {onChoose ? (
+        <button className="btn-primary" type="button" onClick={onChoose}>
+          Обрати
+        </button>
+      ) : null}
 
       <div className="phrase-card__actions">
         <button
@@ -35,13 +43,15 @@ export default function PhraseCard({ phrase }) {
         >
           {slow ? '0.75x 🐢' : '1.0x'}
         </button>
-        <button
-          className={`chip-btn ${showUk ? 'chip-btn--on' : ''}`}
-          type="button"
-          onClick={() => setShowUk((value) => !value)}
-        >
-          {showUk ? 'Сховати UA' : 'Переклад'}
-        </button>
+        {hideTranslation ? null : (
+          <button
+            className={`chip-btn ${showUk ? 'chip-btn--on' : ''}`}
+            type="button"
+            onClick={() => setShowUk((value) => !value)}
+          >
+            {showUk ? 'Сховати UA' : 'Переклад'}
+          </button>
+        )}
       </div>
     </article>
   )
