@@ -1,0 +1,85 @@
+{
+  "day": 20,
+  "title": "Живий діалог: Ранкова кава та замовлення біля стійки",
+  "module": "Il Bar Italiano e il Caffè",
+  "type": "Interactive Dialogue",
+  "story": "Марко підходить до каси бару, купує чек, а потім замовляє сніданок у бариста біля стійки.",
+  "dialogue": [
+    {
+      "step": 1,
+      "speaker": "Cassiera",
+      "text": "Buongiorno! Cosa le preparo?",
+      "options": [
+        {
+          "text": "Buongiorno! Vorrei un cappuccino, un caffè macchiato e due brioche.",
+          "isCorrect": true,
+          "feedback": "Чудово! Ви чітко назвали замовлення на касі."
+        },
+        {
+          "text": "Ciao, dammi una pizza grande.",
+          "isCorrect": false,
+          "feedback": "Зранку в барі замовляють каву та випічку (cornetto/brioche)."
+        }
+      ]
+    },
+    {
+      "step": 2,
+      "speaker": "Cassiera",
+      "text": "Perfetto. Le brioche come le preferisce? Abbiamo vuote, alla marmellata o al cioccolato?",
+      "options": [
+        {
+          "text": "Una alla marmellata e una al cioccolato, per favore.",
+          "isCorrect": true,
+          "feedback": "Ідеально! Ви обрали начинку для випічки."
+        },
+        {
+          "text": "Voglio il codice fiscale.",
+          "isCorrect": false,
+          "feedback": "Це не стосується вибору випічки в барі."
+        }
+      ]
+    },
+    {
+      "step": 3,
+      "speaker": "Cassiera",
+      "text": "Sono 5 euro e 20 in totale. Prego, ecco lo scontrino. Può lasciarlo al banco.",
+      "options": [
+        {
+          "text": "Grazie mille! Vado subito al banco.",
+          "isCorrect": true,
+          "feedback": "Правильно! Тепер з чеком підходимо до бариста."
+        }
+      ]
+    },
+    {
+      "step": 4,
+      "speaker": "Barista",
+      "text": "Buongiorno! Mi lascia pure lo scontrino. Il macchiato lo preferisce caldo o freddo?",
+      "options": [
+        {
+          "text": "Macchiato caldo, per favore. E possiamo avere anche due bicchieri d'acqua naturale?",
+          "isCorrect": true,
+          "feedback": "Чудово! Ви уточнили температуру молока та попросили воду."
+        },
+        {
+          "text": "Non voglio il caffè.",
+          "isCorrect": false,
+          "feedback": "Ви вже оплатили каву на касі."
+        }
+      ]
+    },
+    {
+      "step": 5,
+      "speaker": "Barista",
+      "text": "Ecco a lei! Un cappuccino, un macchiato caldo, le due brioche e l'acqua. Buon appetito!",
+      "options": [
+        {
+          "text": "Grazie mille, gentilissimo! Buona giornata.",
+          "isCorrect": true,
+          "feedback": "Ввічливий і гарний фінал спілкування з бариста!"
+        }
+      ]
+    }
+  ],
+  "culturaTip": "Чайові (mancia) в італійських барах не є обов'язковими. Проте люди часто залишають монету 20 або 50 центів на чеку біля стійки як знак подяки."
+}

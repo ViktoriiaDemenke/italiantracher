@@ -50,7 +50,7 @@ export function loadLesson(raw, fallbackDay) {
     : []
 
   return {
-    day: data.day ?? fallbackDay,
+    day: fallbackDay ?? data.day,
     title: String(data.title ?? ''),
     module: String(data.module ?? ''),
     type: String(data.type ?? ''),
@@ -68,6 +68,20 @@ export function loadLesson(raw, fallbackDay) {
     housingNuances: Array.isArray(data.housingNuances)
       ? data.housingNuances
       : [],
+    postOfficeTips: Array.isArray(data.postOfficeTips)
+      ? data.postOfficeTips
+      : [],
+    patronatoTips: Array.isArray(data.patronatoTips)
+      ? data.patronatoTips
+      : [],
+    barRules: Array.isArray(data.barRules) ? data.barRules : [],
+    supermarketEtiquette: Array.isArray(data.supermarketEtiquette)
+      ? data.supermarketEtiquette
+      : [],
+    transportTips: Array.isArray(data.transportTips)
+      ? data.transportTips
+      : [],
+    beautyTips: Array.isArray(data.beautyTips) ? data.beautyTips : [],
     questions: Array.isArray(data.questions) ? data.questions : [],
     culturaTip: String(data.culturaTip ?? ''),
     successTitle: String(data.successTitle ?? ''),
@@ -90,6 +104,12 @@ export function maxScore(lesson) {
 }
 
 export function cycleIdForDay(day) {
+  if (day >= 28 && day <= 30) return 'bellezza'
+  if (day >= 25 && day <= 27) return 'trasporti'
+  if (day >= 22 && day <= 24) return 'supermercato'
+  if (day >= 19 && day <= 21) return 'bar'
+  if (day >= 16 && day <= 18) return 'patronato'
+  if (day >= 13 && day <= 15) return 'poste'
   if (day >= 10 && day <= 12) return 'casa'
   if (day >= 7 && day <= 9) return 'ristorante'
   if (day >= 4 && day <= 6) return 'asl'

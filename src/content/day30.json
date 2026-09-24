@@ -1,0 +1,66 @@
+{
+  "day": 30,
+  "title": "Boss Level 🏆: Симуляція візиту в салон краси (для чоловіків та жінок)",
+  "module": "Salone di Bellezza: Parrucchiere e Manicure",
+  "type": "Boss Level Simulation",
+  "story": "Фінальний іспит модуля! Ви самостійно записуєтеся в салон краси, пояснюєте майстру бажану стрижку, догляд за бородою, форму нігтів та покриття. Підказки та переклад вимкнено!",
+  "questions": [
+    {
+      "id": "p1",
+      "question": "Як італійською ввічливо сказати 'Я б хотів(ла) записатися на прийом'?",
+      "options": [
+        "Vorrei prendere un appuntamento.",
+        "Devo convalidare lo scontrino.",
+        "Quanto costa l'affitto al mese?"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Prendere un appuntamento' — це стандартна фраза для запису."
+    },
+    {
+      "id": "p2",
+      "question": "Як чоловікові попросити вкоротити волосся з боків та підрівняти бороду?",
+      "options": [
+        "Vorrei accorciare i capelli ai lati e regolare la barba.",
+        "Vorrei un cappuccino con latte di avena.",
+        "Mi serve il codice fiscale per la detrazione."
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Accorciare ai lati' (вкоротити з боків) та 'regolare la barba' (підрівняти бороду)."
+    },
+    {
+      "id": "p3",
+      "question": "Що означає слово 'Spuntare' стосовно волосся?",
+      "options": [
+        "Тільки трохи підрівняти/підрізати кінчики.",
+        "Пофарбувати волосся в зелений колір.",
+        "Повністю збрити волосся."
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Spuntare' означає зрізати лише самі кінчики (le punte)."
+    },
+    {
+      "id": "p4",
+      "question": "Як сказати майстру манікюру, що потрібно зняти старий гель-лак?",
+      "options": [
+        "Devo togliere lo smalto semipermanente vecchio.",
+        "Vorrei comprare un farmaco per la tosse.",
+        "Da quale binario parte l'autobus?"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Togliere lo smalto vecchio' = зняти старий лак/покриття."
+    },
+    {
+      "id": "p5",
+      "question": "Що таке 'Piega' в італійському перукарському салоні?",
+      "options": [
+        "Укладка феном після миття голови.",
+        "Масаж ніг.",
+        "Чистка обличчя."
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Piega' — це укладка волосся."
+    }
+  ],
+  "successBadge": "Maestro di Stile e Bellezza 💇‍♂️💅",
+  "successMessage": "Вітаємо! Ви вдосконалили знання італійської лексики для салонів краси, вільно замовляєте стрижку, догляд за бородою, манікюр та укладку!"
+}

@@ -1,13 +1,5 @@
 import { useState } from 'react'
-
-function speakItalian(text, rate) {
-  if (typeof window === 'undefined' || !window.speechSynthesis) return
-  window.speechSynthesis.cancel()
-  const utterance = new SpeechSynthesisUtterance(text)
-  utterance.lang = 'it-IT'
-  utterance.rate = rate
-  window.speechSynthesis.speak(utterance)
-}
+import SpeakButton from './SpeakButton.jsx'
 
 export default function PhraseCard({ phrase, onChoose, hideTranslation = false }) {
   const [slow, setSlow] = useState(false)
@@ -17,7 +9,10 @@ export default function PhraseCard({ phrase, onChoose, hideTranslation = false }
   return (
     <article className={`phrase-card${onChoose ? ' phrase-card--choice' : ''}`}>
       {phrase.hint ? <p className="phrase-card__hint">{phrase.hint}</p> : null}
-      <p className="phrase-card__it">{phrase.it}</p>
+      <div className="it-line">
+        <p className="phrase-card__it">{phrase.it}</p>
+        <SpeakButton text={phrase.it} rate={rate} />
+      </div>
       {!hideTranslation && showUk ? (
         <p className="phrase-card__uk">{phrase.uk}</p>
       ) : null}
@@ -29,13 +24,6 @@ export default function PhraseCard({ phrase, onChoose, hideTranslation = false }
       ) : null}
 
       <div className="phrase-card__actions">
-        <button
-          className="chip-btn"
-          type="button"
-          onClick={() => speakItalian(phrase.it, rate)}
-        >
-          ▶ Слухати
-        </button>
         <button
           className={`chip-btn ${slow ? 'chip-btn--on' : ''}`}
           type="button"

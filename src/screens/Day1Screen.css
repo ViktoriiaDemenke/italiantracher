@@ -90,6 +90,8 @@
   margin: 0;
   color: #9ca3af;
   font-size: 0.9rem;
+  font-weight: 400;
+  line-height: 1.55;
 }
 
 .result-score__value {
@@ -97,6 +99,8 @@
   color: #fcd34d;
   font-size: 2rem;
   font-weight: 700;
+  letter-spacing: -0.02em;
+  line-height: 1.25;
 }
 
 .dialogue-feedback {

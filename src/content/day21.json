@@ -1,0 +1,66 @@
+{
+  "day": 21,
+  "title": "Boss Level 🏆: Симуляція замовлення в італійському барі",
+  "module": "Il Bar Italiano e il Caffè",
+  "type": "Boss Level Simulation",
+  "story": "Фінальний іспит модуля! Ви самостійно замовляєте каву та випічку, спілкуєтеся з касиром та бариста біля стійки. Підказки та переклад вимкнено!",
+  "questions": [
+    {
+      "id": "p1",
+      "question": "Чому пити каву біля стійки (al banco) зазвичай дешевше, ніж за столиком (al tavolo)?",
+      "options": [
+        "Тому що за столиком ви сплачуєте додатковий збір за обслуговування (servizio).",
+        "Тому що біля стійки подають меншу порцію кави.",
+        "Тому що за столиком кава завжди холодніша."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Обслуговування за столиком включає надбавку 'servizio al tavolo'."
+    },
+    {
+      "id": "p2",
+      "question": "Що таке 'Caffè Macchiato'?",
+      "options": [
+        "Еспресо з додаванням невеликої кількості збитого молока.",
+        "Велика склянка гарячого молока без кави.",
+        "Холодний кавовий коктейль із лікером."
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Macchiato' означає 'плямистий' — еспресо з краплею молока."
+    },
+    {
+      "id": "p3",
+      "question": "Як попросити круасан із шоколадом італійською?",
+      "options": [
+        "Un cornetto / una brioche al cioccolato.",
+        "Un bollettino postale.",
+        "Un'acqua frizzante senza bicchiere."
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Cornetto al cioccolato' = круасан із шоколадом."
+    },
+    {
+      "id": "p4",
+      "question": "Що потрібно зробити з чеком (scontrino) біля стійки бариста?",
+      "options": [
+        "Покласти його на стійку (lasciare al banco), щоб бариста бачив замовлення.",
+        "Сховати у гаманець і нікому не показувати.",
+        "Віддати іншому покупцю."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Чек залишають на стійці як підтвердження оплати."
+    },
+    {
+      "id": "p5",
+      "question": "Як ввічливо попросити склянку води до кави?",
+      "options": [
+        "Un bicchiere d'acqua, per favore.",
+        "Vorrei fare la domanda per l'ISEE.",
+        "Quanto costa l'affitto mensile?"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Un bicchiere d'acqua, per favore' = 'Склянку води, будь ласка'."
+    }
+  ],
+  "successBadge": "Maestro del Caffè ☕",
+  "successMessage": "Вітаємо! Ви досконало засвоїли кавову культуру Італії, вільно замовляєте сніданок біля стійки та знаєте всі тонкощі бару!"
+}

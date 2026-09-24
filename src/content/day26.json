@@ -1,0 +1,97 @@
+{
+  "day": 26,
+  "title": "Живий діалог: Купівля квитка в Tabacchi та поїздка на вокзал",
+  "module": "Trasporto Pubblico e Biglietti",
+  "type": "Interactive Dialogue",
+  "story": "Марко заходить до кіоску Tabacchi, щоб купити квитки на автобус, а потім запитує перехожого на зупинці про розклад.",
+  "dialogue": [
+    {
+      "step": 1,
+      "speaker": "Tabaccaio",
+      "text": "Buongiorno! Dica pure.",
+      "options": [
+        {
+          "text": "Buongiorno! Vorrei due biglietti per l'autobus urbano, per favore.",
+          "isCorrect": true,
+          "feedback": "Чудово! Ви чітко попросили міські квитки."
+        },
+        {
+          "text": "Ciao, vorrei fare la domanda per l'ISEE.",
+          "isCorrect": false,
+          "feedback": "У тютюновому кіоску не оформлюють соціальні довідки ISEE."
+        }
+      ]
+    },
+    {
+      "step": 2,
+      "speaker": "Tabaccaio",
+      "text": "Certamente. Corsa semplice da 90 minuti? Sono 3 euro in totale.",
+      "options": [
+        {
+          "text": "Sì, va benissimo. Ecco 3 euro. Devo convalidarli a bordo?",
+          "isCorrect": true,
+          "feedback": "Ідеально! Ви розплатилися та уточнили правило компостування."
+        },
+        {
+          "text": "Non voglio pagare il biglietto.",
+          "isCorrect": false,
+          "feedback": "Без квитка ви ризикуєте отримати штраф у транспорту."
+        }
+      ]
+    },
+    {
+      "step": 3,
+      "speaker": "Tabaccaio",
+      "text": "Sì, esattamente! Appena sale sull'autobus deve timbrare il biglietto nella macchinetta. Arrivederci!",
+      "options": [
+        {
+          "text": "Perfetto, grazie mille e buona giornata!",
+          "isCorrect": true,
+          "feedback": "Дякуємо та прямуємо на зупинку."
+        }
+      ]
+    },
+    {
+      "step": 4,
+      "speaker": "Passeggero alla fermata",
+      "text": "Buongiorno! Aspetta anche lei il numero 7 per la stazione?",
+      "options": [
+        {
+          "text": "Buongiorno! Sì, sa a che ora passa il prossimo autobus?",
+          "isCorrect": true,
+          "feedback": "Чудово! Ви ввічливо дізналися розклад у пасажира."
+        },
+        {
+          "text": "Vorrei un cornetto al cioccolato.",
+          "isCorrect": false,
+          "feedback": "На зупинці автобуса не замовляють випічку."
+        }
+      ]
+    },
+    {
+      "step": 5,
+      "speaker": "Passeggero alla fermata",
+      "text": "Dovrebbe arrivare tra cinque minuti. Guardi, sta arrivando proprio adesso!",
+      "options": [
+        {
+          "text": "Ottimo, grazie! Ricordiamoci di convalidare il biglietto appena saliamo.",
+          "isCorrect": true,
+          "feedback": "Правильно! Головне — одразу завалідувати квиток."
+        }
+      ]
+    },
+    {
+      "step": 6,
+      "speaker": "Controllore",
+      "text": "Buongiorno, controllo biglietti! Mi mostra il suo biglietto convalidato, per favore?",
+      "options": [
+        {
+          "text": "Buongiorno! Certamente, ecco il mio biglietto timbrato poco fa.",
+          "isCorrect": true,
+          "feedback": "Чудово! Ваш квиток прокомпостований і поїздка проходить безтурботно."
+        }
+      ]
+    }
+  ],
+  "culturaTip": "В італійських міських автобусах вхід зазвичай здійснюється через передні або задні двері, а вихід — через середні (Uscita)."
+}

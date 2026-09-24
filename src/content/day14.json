@@ -1,0 +1,102 @@
+{
+  "day": 14,
+  "title": "Живий діалог: Оплата квитанції та відправка посилки",
+  "module": "Poste Italiane e Servizi Postali",
+  "type": "Interactive Dialogue",
+  "story": "Лаура бере талончик і підходить до віконця (sportello) після того, як її номер загорівся на табло.",
+  "dialogue": [
+    {
+      "step": 1,
+      "speaker": "Impiegato",
+      "text": "Buongiorno! Numero P045! Mi dica, come posso aiutarla?",
+      "options": [
+        {
+          "text": "Buongiorno! Devo spedire questo pacco in Ucraina e pagare un bollettino.",
+          "isCorrect": true,
+          "feedback": "Чудово! Ви чітко озвучили обидві мети вашого візиту."
+        },
+        {
+          "text": "Ciao, voglio comprare una pizza.",
+          "isCorrect": false,
+          "feedback": "Пошта не надає послуг громадського харчування."
+        }
+      ]
+    },
+    {
+      "step": 2,
+      "speaker": "Impiegato",
+      "text": "Sì, certo. Metta pure il pacco sulla bilancia. Vuole la spedizione standard o espressa?",
+      "options": [
+        {
+          "text": "La spedizione standard va benissimo. Quanto tempo ci vuole per la consegna?",
+          "isCorrect": true,
+          "feedback": "Ідеально! Ви обрали тип відправки та уточнили терміни доставки."
+        },
+        {
+          "text": "Non voglio pesare il pacco.",
+          "isCorrect": false,
+          "feedback": "Зважування посилки обов'язкове для розрахунку вартості відправки."
+        }
+      ]
+    },
+    {
+      "step": 3,
+      "speaker": "Impiegato",
+      "text": "Di solito ci vogliono circa 7-10 giorni lavorativi. Ha già compilato il modulo con l'indirizzo del destinatario?",
+      "options": [
+        {
+          "text": "Sì, ho scritto tutto sul pacco: indirizzo, mittente e destinatario.",
+          "isCorrect": true,
+          "feedback": "Чудово! На посилці мають бути вказані і відправник (mittente), і одержувач (destinatario)."
+        },
+        {
+          "text": "No, non conosco l'indirizzo.",
+          "isCorrect": false,
+          "feedback": "Без адреси одержувача поштову відправку оформити неможливо."
+        }
+      ]
+    },
+    {
+      "step": 4,
+      "speaker": "Impiegato",
+      "text": "Perfetto. Adesso passiamo al bollettino. Può mostrarmi il documento d'identità?",
+      "options": [
+        {
+          "text": "Certamente, ecco la mia carta d'identità e il codice fiscale.",
+          "isCorrect": true,
+          "feedback": "Правильно! Ви надали потрібні документи."
+        },
+        {
+          "text": "Ho solo la ricevuta del ristorante.",
+          "isCorrect": false,
+          "feedback": "Чек з ресторану не є посвідченням особи."
+        }
+      ]
+    },
+    {
+      "step": 5,
+      "speaker": "Impiegato",
+      "text": "In totale sono 22 euro per il pacco e 45 euro per il bollettino. Paga in contanti o con la carta?",
+      "options": [
+        {
+          "text": "Pago con la carta, grazie.",
+          "isCorrect": true,
+          "feedback": "Чудово! Ви вибрали безготівковий розрахунок."
+        }
+      ]
+    },
+    {
+      "step": 6,
+      "speaker": "Impiegato",
+      "text": "Ecco la ricevuta di pagamento e il codice di tracciamento per il pacco. Buona giornata!",
+      "options": [
+        {
+          "text": "Molte grazie! Buona giornata anche a lei.",
+          "isCorrect": true,
+          "feedback": "Ввічливе та правильне завершення розмови."
+        }
+      ]
+    }
+  ],
+  "culturaTip": "Код відстеження називається 'Codice di tracciamento' або 'Numero di raccomandata'. Його можна ввести на сайті Poste Italiane у розділі 'Cerca spedizioni'."
+}

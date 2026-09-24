@@ -10,6 +10,24 @@ import day9 from '../content/day9.json'
 import day10 from '../content/day10.json'
 import day11 from '../content/day11.json'
 import day12 from '../content/day12.json'
+import day13 from '../content/day13.json'
+import day14 from '../content/day14.json'
+import day15 from '../content/day15.json'
+import day16 from '../content/day16.json'
+import day17 from '../content/day17.json'
+import day18 from '../content/day18.json'
+import day19 from '../content/day19.json'
+import day20 from '../content/day20.json'
+import day21 from '../content/day21.json'
+import day22 from '../content/day22.json'
+import day23 from '../content/day23.json'
+import day24 from '../content/day24.json'
+import day25 from '../content/day25.json'
+import day26 from '../content/day26.json'
+import day27 from '../content/day27.json'
+import day28 from '../content/day28.json'
+import day29 from '../content/day29.json'
+import day30 from '../content/day30.json'
 import { loadLesson } from '../content/loadLesson.js'
 
 const RAW_BY_DAY = {
@@ -25,6 +43,24 @@ const RAW_BY_DAY = {
   10: day10,
   11: day11,
   12: day12,
+  13: day13,
+  14: day14,
+  15: day15,
+  16: day16,
+  17: day17,
+  18: day18,
+  19: day19,
+  20: day20,
+  21: day21,
+  22: day22,
+  23: day23,
+  24: day24,
+  25: day25,
+  26: day26,
+  27: day27,
+  28: day28,
+  29: day29,
+  30: day30,
 }
 
 export const LESSONS = Object.fromEntries(

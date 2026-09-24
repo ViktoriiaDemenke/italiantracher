@@ -1,0 +1,44 @@
+{
+  "day": 19,
+  "title": "У барі: Кавова культура, випічка та оплата на касі",
+  "module": "Il Bar Italiano e il Caffè",
+  "type": "Immersion & Vocabulary",
+  "story": "Марко та Лаура заходять до місцевого бару на ранковий сніданок (colazione). В Італії бар — це не нічний заклад, а головне місце для ранкової кави, зустрічей з сусідами та легкого перекусу. Тут є важливе правило: спочатку часто платять на касі, отримують чек (scontrino), а потім з ним підходять до стійки (al banco).",
+  "phrases": [
+    {
+      "italian": "Un caffè espresso e un cornetto alla crema, per favore.",
+      "ukrainian": "Еспресо та круасан із кремом, будь ласка."
+    },
+    {
+      "italian": "Possiamo sederci al tavolo o si paga di più?",
+      "ukrainian": "Ми можемо сісти за столик чи це коштує дорожче?"
+    },
+    {
+      "italian": "Un macchiato caldo e un bicchiere d'acqua, grazie.",
+      "ukrainian": "Макіато з гарячим молоком та склянку води, дякую."
+    },
+    {
+      "italian": "Faccio prima lo scontrino alla cassa?",
+      "ukrainian": "Мені спочатку вибити чек на касі?"
+    }
+  ],
+  "barRules": [
+    "Al banco vs Al tavolo — пити каву біля стійки (al banco) дешевше, ніж за столиком (al tavolo), де додається плата за обслуговування.",
+    "Prima la cassa — у багатьох популярних барах спочатку замовляють і оплачують на касі, а потім віддають чек бариста зі словами 'Un caffè, per favore'.",
+    "Cornetto / Brioche — італійський круасан. На півночі Італії його частіше називають 'brioche', а в центрі та на півдні — 'cornetto'."
+  ],
+  "grammar": {
+    "title": "Різновиди кави та прийменник 'con' / 'senza'",
+    "rules": [
+      {
+        "rule": "Основні види кави: Caffè (еспресо), Macchiato (еспресо з краплею молока), Decaffeinato (без кофеїну), Cappuccino.",
+        "examples": ["Un decaffeinato, per favore.", "Un macchiato freddo."]
+      },
+      {
+        "rule": "Уточнення складників: 'Con' (з) та 'Senza' (без).",
+        "examples": ["Un cappuccino con latte di avena.", "Un cornetto senza zucchero."]
+      }
+    ]
+  },
+  "culturaTip": "В Італії до кави біля стійки часто безкоштовно подають маленьку склянку води (un bicchierino d'acqua). Якщо її не дали, можна просто ввічливо попросити: 'Un bicchiere d'acqua, per favore'."
+}

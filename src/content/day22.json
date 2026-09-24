@@ -1,0 +1,44 @@
+{
+  "day": 22,
+  "title": "У супермаркеті: Ваги, відділи та продукти",
+  "module": "Fare la Spesa al Supermercato",
+  "type": "Immersion & Vocabulary",
+  "story": "Марко та Лаура йдуть до місцевого супермаркету в Тревізо, щоб закупити продукти на тиждень. В Італії є важливі правила купівельного етикету: овочі та фрукти обов'язково треба зважувати самостійно, надягаючи одноразові рукавички (guanti monouso), а біля гастрономічного відділу (banco gastronomia) часто потрібно брати номер у черзі (biglietto).",
+  "phrases": [
+    {
+      "italian": "Dove posso trovare l'olio d'oliva?",
+      "ukrainian": "Де я можу знайти оливкову олію?"
+    },
+    {
+      "italian": "Devo pesare la frutta qui o alla cassa?",
+      "ukrainian": "Мені потрібно зважувати фрукти тут чи на касі?"
+    },
+    {
+      "italian": "Vorrei duecento grammi di prosciutto crudo, per favore.",
+      "ukrainian": "Я б хотів(ла) двісті грамів прошутто крудо, будь ласка."
+    },
+    {
+      "italian": "Ha la carta fedeltà / carta fidaty?",
+      "ukrainian": "У вас є картка лояльності / дисконтна картка?"
+    }
+  ],
+  "supermarketEtiquette": [
+    "Для вибору свіжих овочів та фруктів обов'язково одягайте пластикові рукавички (guanti) з гігієнічних міркувань.",
+    "На вагах зазвичай вказано номер товару, який ви бачите на ціннику (наприклад, Tasto 14). Вставляти номер треба самостійно й наклеювати наліпку на пакет.",
+    "У відділі м'яса та сирів (Banco Gastronomia) замовляють за вагою в грамах: 'Un etto' = 100 грамів, 'Due etti' = 200 грамів."
+  ],
+  "grammar": {
+    "title": "Одиниці виміру 'Un etto / Due etti' та вказівні займенники 'Questo / Quello'",
+    "rules": [
+      {
+        "rule": "Замовлення за вагою: 'Un etto' (100г), 'Due etti' (200г), 'Un chilo' (1кг).",
+        "examples": ["Vorrei un etto di parmigiano.", "Prendo due etti di prosciutto cotto."]
+      },
+      {
+        "rule": "Вказування на товар: 'Questo' (цей поруч) / 'Quello' (той далі).",
+        "examples": ["Mi dà questo pezzo di formaggio?", "Vorrei quello a fette."]
+      }
+    ]
+  },
+  "culturaTip": "Пакет на касі в Італії купується окремо та називається 'sacchetto' або 'busta'. Багато італійців ходять за покупками зі своїми багаторазовими сумками (borse della spesa)."
+}

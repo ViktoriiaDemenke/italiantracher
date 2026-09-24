@@ -1,0 +1,66 @@
+{
+  "day": 24,
+  "title": "Boss Level 🏆: Симуляція покупок у супермаркеті",
+  "module": "Fare la Spesa al Supermercato",
+  "type": "Boss Level Simulation",
+  "story": "Фінальний іспит модуля! Ви самостійно купуєте продукти, замовляєте нарізку у відділі гастрономії та розраховуєтеся на касі. Підказки та переклад вимкнено!",
+  "questions": [
+    {
+      "id": "p1",
+      "question": "Скільки грамів продукту ви замовляєте, якщо кажете 'Due etti'?",
+      "options": [
+        "200 грамів.",
+        "20 грамів.",
+        "2 кілограми."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Un etto = 100 грамів, відповідно Due etti = 200 грамів."
+    },
+    {
+      "id": "p2",
+      "question": "Що обов'язково потрібно зробити перед тим, як брати свіжі фрукти чи овочі у супермаркеті?",
+      "options": [
+        "Одягнути одноразові пластикові рукавички (guanti).",
+        "Оплатити їх на касі заздалегідь.",
+        "Запитати дозвіл у охоронця."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Правила гігієни в Італії вимагають використання рукавичок для вибору овочів/фруктів."
+    },
+    {
+      "id": "p3",
+      "question": "Як запитати касира про пакет для покупок?",
+      "options": [
+        "Le serve un sacchetto, per favore?",
+        "Posso avere un sacchetto per la spesa?",
+        "Dove si trova la guardia medica?"
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Un sacchetto per la spesa' = пакет для покупок."
+    },
+    {
+      "id": "p4",
+      "question": "Що таке 'Lo scontrino'?",
+      "options": [
+        "Касовий чек, який слід зберігати після покупки.",
+        "Знижка на другу категорію товарів.",
+        "Візок для покупок."
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Lo scontrino' — це фіскальний чек."
+    },
+    {
+      "id": "p5",
+      "question": "Як попросити тонко нарізати шинку (прошутто)?",
+      "options": [
+        "Tagliato sottile, per favore.",
+        "In un pezzo grande.",
+        "Senza acqua frizzante."
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Tagliato sottile' = тонко нарізаний."
+    }
+  ],
+  "successBadge": "Esperto della Spesa 🛒",
+  "successMessage": "Вітаємо! Ви повністю засвоїли правила покупок в італійському супермаркеті, вмієте зважувати продукти та спілкуватися на касі!"
+}

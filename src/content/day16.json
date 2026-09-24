@@ -1,0 +1,44 @@
+{
+  "day": 16,
+  "title": "У Патронаті: Документи, ISEE та дитячі виплати",
+  "module": "Patronato e Assistenza Sociale",
+  "type": "Immersion & Vocabulary",
+  "story": "Марко та Лаура звертаються до офісу Patronato / CAF у своєму місті. В Італії Патронат — це безкоштовна або недорога соціальна служба, яка допомагає іноземцям та сім'ям оформлювати соціальні виплати, подавати декларації, оформлювати ISEE (індекс фінансового стану) та отримувати щомісячну допомогу на дитину (Assegno Unico Universale).",
+  "phrases": [
+    {
+      "italian": "Vorrei fissare un appuntamento per fare il modello ISEE.",
+      "ukrainian": "Я б хотів(ла) призначити зустріч для оформлення довідки ISEE."
+    },
+    {
+      "italian": "Vorrei fare la domanda per l'Assegno Unico per mia figlia.",
+      "ukrainian": "Я б хотів(ла) подати заявку на щомісячну допомогу на дитину."
+    },
+    {
+      "italian": "Quali documenti servono per la richiesta?",
+      "ukrainian": "Які документи потрібні для подачі заявки?"
+    },
+    {
+      "italian": "Ho bisogno di aiuto per la dichiarazione dei redditi.",
+      "ukrainian": "Мені потрібна допомога з податковою декларацією."
+    }
+  ],
+  "patronatoTips": [
+    "Patronato e CAF — установи, що допомагають безкоштовно або за символічну плату з податками, декретними виплатами, бонусами на дітей та пільгами.",
+    "ISEE — це офіційний розрахунок фінансового стану родини. Він потрібен для отримання значних знижок на дитячий садок, шкільні обіди, комунальні бонуси та виплату Assegno Unico.",
+    "Assegno Unico Universale — щомісячна фінансова допомога на кожну неповнолітню дитину в сім'ї."
+  ],
+  "grammar": {
+    "title": "Конструкції 'Fare la domanda' (подавати заяву) та 'Servono / Serve' (потрібно)",
+    "rules": [
+      {
+        "rule": "Вирази з 'Fare': 'Fare la domanda' (подавати заяву), 'Fare l'ISEE' (робити розрахунок ISEE).",
+        "examples": ["Voglio fare la domanda per il bonus nido.", "Devo fare l'ISEE aggiornato."]
+      },
+      {
+        "rule": "Різниця 'Serve' (однина) / 'Servono' (множина): 'Потрібен / Потрібні'.",
+        "examples": ["Serve la carta d'identità?", "Servono tutti i documenti dei familiari."]
+      }
+    ]
+  },
+  "culturaTip": "Для подачі заяв у Patronato завжди беріть із собою діючі посвідчення особи (Carta d'Identità), Codice Fiscale усіх членів сім'ї та банківські реквізити (IBAN) для зарахування коштів."
+}

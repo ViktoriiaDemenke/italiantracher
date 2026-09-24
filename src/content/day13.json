@@ -1,0 +1,44 @@
+{
+  "day": 13,
+  "title": "У поштовому відділенні: Черга, квитанції та відправлення",
+  "module": "Poste Italiane e Servizi Postali",
+  "type": "Immersion & Vocabulary",
+  "story": "Марко та Лаура прийшли до відділення Poste Italiane. В Італії пошта — це не лише відправка посилок, а й центр сплати комунальних рахунків, отримання офіційних листів та фінансових послуг. При вході обов'язково потрібно взяти талончик у терміналі (ticket) відповідно до теми вашого звернення.",
+  "phrases": [
+    {
+      "italian": "Devo spedire questo pacco / questa lettera in Ucraina.",
+      "ukrainian": "Мені потрібно відправити цю посилку / цей лист в Україну."
+    },
+    {
+      "italian": "Devo pagare questo bollettino postale.",
+      "ukrainian": "Мені потрібно оплатити цю поштову квитанцію."
+    },
+    {
+      "italian": "Ho ricevuto un avviso di giacenza per una raccomandata.",
+      "ukrainian": "Я отримав(ла) повідомлення про надходження рекомендованого листа."
+    },
+    {
+      "italian": "Quale tasto devo premere per prendere il biglietto?",
+      "ukrainian": "Яку кнопку мені потрібно натиснути, щоб взяти талончик?"
+    }
+  ],
+  "postOfficeTips": [
+    "Ticket al totem — при вході на терміналі обирають потрібний розділ: 'Spedizioni e Pacchi' (відправлення), 'Pagamenti' (квитанції/оплати) або 'Ritiro' (отримання).",
+    "Raccomandata — рекомендований лист, який вручається під особистий підпис. Якщо вас не було вдома, листоноша залишає жовту картку 'Avviso di giacenza'.",
+    "Bollettino — бланкова або штрихкодова квитанція для оплати комунальних послуг, штрафів та державних зборів."
+  ],
+  "grammar": {
+    "title": "Дієслово 'Spedire' (відправляти) та 'Pagare' (оплачувати)",
+    "rules": [
+      {
+        "rule": "Відмінювання 'Spedire' (ISC-група): Io spedisco, Tu spedisci, Lui/Lei spedisce.",
+        "examples": ["Spedisco un pacco a mia madre.", "Vuole spedire con posta prioritaria?"]
+      },
+      {
+        "rule": "Вирази з 'Prendere / Ritirare': 'Ritirare un pacco' (Забрати посилку).",
+        "examples": ["Devo ritirare una raccomandata.", "Dove posso ritirare il pacco?"]
+      }
+    ]
+  },
+  "culturaTip": "Для отримання посилки чи рекомендованого листа на пошті обов'язково потрібно мати із собою закордонний паспорт або Carta d'identità та ваш Codice Fiscale."
+}

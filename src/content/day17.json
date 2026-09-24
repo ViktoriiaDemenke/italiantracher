@@ -1,0 +1,102 @@
+{
+  "day": 17,
+  "title": "Живий діалог: Консультація та подача документів в Patronato",
+  "module": "Patronato e Assistenza Sociale",
+  "type": "Interactive Dialogue",
+  "story": "Лаура приходить на прийом до консультанта Patronato (Operatore CAF) за попереднім записом, щоб оформити Assegno Unico на 3-річну доньку.",
+  "dialogue": [
+    {
+      "step": 1,
+      "speaker": "Operatore CAF",
+      "text": "Buongiorno Signora! Prego, si accommodation. Aveva un appuntamento a nome Laura?",
+      "options": [
+        {
+          "text": "Buongiorno! Sì, esattamente. Ho la prenotazione per le 10:00.",
+          "isCorrect": true,
+          "feedback": "Чудово! Ви підтвердили свій запис на прийом."
+        },
+        {
+          "text": "Ciao, voglio i soldi per la spesa.",
+          "isCorrect": false,
+          "feedback": "Спілкування у соціальних службах вимагає ввічливого тону."
+        }
+      ]
+    },
+    {
+      "step": 2,
+      "speaker": "Operatore CAF",
+      "text": "Bene. In cosa posso aiutarla oggi?",
+      "options": [
+        {
+          "text": "Vorrei fare la domanda per l'Assegno Unico per mia figlia di 3 anni. Ho già fatto l'ISEE.",
+          "isCorrect": true,
+          "feedback": "Ідеально! Ви чітко пояснили мету візиту та згадали наявність ISEE."
+        },
+        {
+          "text": "Devo spedire un pacco in Ucraina.",
+          "isCorrect": false,
+          "feedback": "Відправкою посилок займається пошта (Poste Italiane), а не Patronato."
+        }
+      ]
+    },
+    {
+      "step": 3,
+      "speaker": "Operatore CAF",
+      "text": "Ottimo! Se ha già l'ISEE è tutto più semplice. Mi mostra i documenti d'identità e i codici fiscali?",
+      "options": [
+        {
+          "text": "Certamente! Ecco la mia Carta d'Identità, il Codice Fiscale mio і di mia figlia, e il modello ISEE.",
+          "isCorrect": true,
+          "feedback": "Чудово! Ви надали весь необхідний пакет документів."
+        },
+        {
+          "text": "Non ho nessun documento con me.",
+          "isCorrect": false,
+          "feedback": "Без документів консультант не зможе зареєструвати заявку в системі INPS."
+        }
+      ]
+    },
+    {
+      "step": 4,
+      "speaker": "Operatore CAF",
+      "text": "Perfetto. Mi serve anche l'IBAN del suo conto corrente per il pagamento mensile. È intestato a lei?",
+      "options": [
+        {
+          "text": "Sì, il conto è intestato a me. Ecco il codice IBAN del mio conto bancario.",
+          "isCorrect": true,
+          "feedback": "Правильно! Ви підтвердили власнику рахунку та надали IBAN."
+        },
+        {
+          "text": "Pago in contanti alla cassa.",
+          "isCorrect": false,
+          "feedback": "Соціальні допомоги в Італії виплачуються безпосередньо на банківський рахунок (IBAN)."
+        }
+      ]
+    },
+    {
+      "step": 5,
+      "speaker": "Operatore CAF",
+      "text": "Benissimo. Sto inserendo i dati nel sistema INPS. Deve solo firmare questa ricevuta e il modulo di delega.",
+      "options": [
+        {
+          "text": "Va benissimo, dove devo firmare?",
+          "isCorrect": true,
+          "feedback": "Чудово! Ви готові підписати документи."
+        }
+      ]
+    },
+    {
+      "step": 6,
+      "speaker": "Operatore CAF",
+      "text": "Ecco qui la copia della domanda inviata. Il pagamento arriverà il mese prossimo sul suo conto. Buona giornata!",
+      "options": [
+        {
+          "text": "La ringrazio molto per l'aiuto! Buona giornata e buon lavoro.",
+          "isCorrect": true,
+          "feedback": "Ввічливий і професійний фінал розмови!"
+        }
+      ]
+    }
+  ],
+  "culturaTip": "Більшість дитячих виплат та пільг обробляються державним органом INPS (Istituto Nazionale della Previdenza Sociale), а Patronato є офіційним посередником у передачі документів."
+}

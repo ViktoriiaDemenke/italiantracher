@@ -1,11 +1,16 @@
-import { useState } from 'react'
+import { useMemo, useState } from 'react'
 import CycleNav from '../components/CycleNav.jsx'
 import PhraseCard from '../components/PhraseCard.jsx'
 import SavedPhrasesSheet from '../components/SavedPhrasesSheet.jsx'
+import SpeakButton from '../components/SpeakButton.jsx'
+import Flashcards from '../components/Flashcards.jsx'
+import PracticeQuiz from '../components/PracticeQuiz.jsx'
 import { cycleIdForDay, maxScore } from '../content/loadLesson.js'
+import { buildMiniQuiz, buildPracticeDeck } from '../learn/practice.js'
 import '../screens/HomeScreen.css'
 import './Lesson.css'
 import './Day1Screen.css'
+import '../components/Learn.css'
 
 function mergeDayPhrases(savedPhrases, lesson) {
   const others = savedPhrases.filter((item) => item.day !== lesson.day)
@@ -29,23 +34,14 @@ function DialogueStep({ step, boss, picked, onPick }) {
   const [slow, setSlow] = useState(false)
   const rate = slow ? 0.75 : 1
 
-  function speak(text) {
-    if (typeof window === 'undefined' || !window.speechSynthesis) return
-    window.speechSynthesis.cancel()
-    const utterance = new SpeechSynthesisUtterance(text)
-    utterance.lang = 'it-IT'
-    utterance.rate = rate
-    window.speechSynthesis.speak(utterance)
-  }
-
   return (
     <article className="dialogue-card">
       <p className="dialogue-line__who">{step.speaker}</p>
-      <p className="phrase-card__it">{step.text}</p>
+      <div className="it-line">
+        <p className="phrase-card__it">{step.text}</p>
+        <SpeakButton text={step.text} rate={rate} />
+      </div>
       <div className="phrase-card__actions">
-        <button className="chip-btn" type="button" onClick={() => speak(step.text)}>
-          ▶ Слухати
-        </button>
         <button
           className={`chip-btn ${slow ? 'chip-btn--on' : ''}`}
           type="button"
@@ -60,7 +56,10 @@ function DialogueStep({ step, boss, picked, onPick }) {
             key={option.text}
             className={`option-card ${toneClass(option.tone, picked?.text === option.text)}`}
           >
-            <p className="option-card__text">{option.text}</p>
+            <div className="it-line">
+              <p className="option-card__text">{option.text}</p>
+              <SpeakButton text={option.text} rate={rate} />
+            </div>
             <button
               className="btn-primary"
               type="button"
@@ -97,6 +96,9 @@ export default function ArcLessonScreen({
   onOpenDay,
   onContinue,
   continueLabel,
+  onMarkComplete,
+  dayCompleted,
+  isUnlocked,
 }) {
   const boss = lesson.mode === 'boss'
   const hideTranslation = boss
@@ -110,6 +112,10 @@ export default function ArcLessonScreen({
   const [score, setScore] = useState(0)
   const [finished, setFinished] = useState(false)
   const savedPhrases = state?.savedPhrases ?? []
+  const deck = useMemo(() => buildPracticeDeck(lesson), [lesson])
+  const miniQuestions = useMemo(() => buildMiniQuiz(deck, lesson), [deck, lesson])
+  const [quizPassed, setQuizPassed] = useState(() => miniQuestions.length === 0)
+  const canComplete = dayCompleted || quizPassed
   const step = lesson.dialogue[stepIndex]
   const question = quiz[stepIndex]
   const trackLength = hasQuiz ? quiz.length : lesson.dialogue.length
@@ -188,6 +194,26 @@ export default function ArcLessonScreen({
             {continueLabel ?? 'На головну'}
           </button>
         ) : null}
+        <Flashcards key={`flash-done-${lesson.day}`} deck={deck} />
+        <PracticeQuiz
+          key={`quiz-done-${lesson.day}`}
+          questions={miniQuestions}
+          onPassedChange={setQuizPassed}
+        />
+        {onMarkComplete ? (
+          <button
+            className={`btn-primary btn-complete${dayCompleted ? ' btn-primary--done' : ''}`}
+            type="button"
+            disabled={dayCompleted || !canComplete}
+            onClick={onMarkComplete}
+          >
+            {dayCompleted
+              ? '✓ Day complete'
+              : canComplete
+                ? 'Mark Day as Complete'
+                : 'Пройдіть міні-квіз, щоб продовжити'}
+          </button>
+        ) : null}
       </main>
     )
   }
@@ -211,6 +237,7 @@ export default function ArcLessonScreen({
             cycle={cycle}
             currentDay={lesson.day}
             onOpenDay={onOpenDay}
+            isUnlocked={isUnlocked}
           />
         ) : null}
       </section>
@@ -227,7 +254,10 @@ export default function ArcLessonScreen({
           <ul className="doc-list">
             {lesson.documents.map((doc) => (
               <li key={doc.item} className="phrase-card doc-card">
-                <p className="phrase-card__it">{doc.item}</p>
+                <div className="it-line">
+                  <p className="phrase-card__it">{doc.item}</p>
+                  <SpeakButton text={doc.item} />
+                </div>
                 {!hideTranslation && doc.ukrainian ? (
                   <p className="phrase-card__uk">{doc.ukrainian}</p>
                 ) : null}
@@ -263,6 +293,84 @@ export default function ArcLessonScreen({
         </>
       ) : null}
 
+      {lesson.postOfficeTips?.length > 0 ? (
+        <>
+          <h2 className="day__section">Пошта: на практиці</h2>
+          <ul className="doc-list">
+            {lesson.postOfficeTips.map((item) => (
+              <li key={item} className="phrase-card doc-card">
+                <p className="phrase-card__it">{item}</p>
+              </li>
+            ))}
+          </ul>
+        </>
+      ) : null}
+
+      {lesson.patronatoTips?.length > 0 ? (
+        <>
+          <h2 className="day__section">Patronato на практиці</h2>
+          <ul className="doc-list">
+            {lesson.patronatoTips.map((item) => (
+              <li key={item} className="phrase-card doc-card">
+                <p className="phrase-card__it">{item}</p>
+              </li>
+            ))}
+          </ul>
+        </>
+      ) : null}
+
+      {lesson.barRules?.length > 0 ? (
+        <>
+          <h2 className="day__section">Правила бару</h2>
+          <ul className="doc-list">
+            {lesson.barRules.map((item) => (
+              <li key={item} className="phrase-card doc-card">
+                <p className="phrase-card__it">{item}</p>
+              </li>
+            ))}
+          </ul>
+        </>
+      ) : null}
+
+      {lesson.supermarketEtiquette?.length > 0 ? (
+        <>
+          <h2 className="day__section">Етикет супермаркету</h2>
+          <ul className="doc-list">
+            {lesson.supermarketEtiquette.map((item) => (
+              <li key={item} className="phrase-card doc-card">
+                <p className="phrase-card__it">{item}</p>
+              </li>
+            ))}
+          </ul>
+        </>
+      ) : null}
+
+      {lesson.transportTips?.length > 0 ? (
+        <>
+          <h2 className="day__section">Транспорт на практиці</h2>
+          <ul className="doc-list">
+            {lesson.transportTips.map((item) => (
+              <li key={item} className="phrase-card doc-card">
+                <p className="phrase-card__it">{item}</p>
+              </li>
+            ))}
+          </ul>
+        </>
+      ) : null}
+
+      {lesson.beautyTips?.length > 0 ? (
+        <>
+          <h2 className="day__section">Салон на практиці</h2>
+          <ul className="doc-list">
+            {lesson.beautyTips.map((item) => (
+              <li key={item} className="phrase-card doc-card">
+                <p className="phrase-card__it">{item}</p>
+              </li>
+            ))}
+          </ul>
+        </>
+      ) : null}
+
       {lesson.phrases.length > 0 ? (
         <>
           <h2 className="day__section">Фрази</h2>
@@ -286,9 +394,10 @@ export default function ArcLessonScreen({
               <article key={item.rule} className="phrase-card">
                 <p className="phrase-card__it">{item.rule}</p>
                 {item.examples?.map((example) => (
-                  <p key={example} className="phrase-card__uk">
-                    {example}
-                  </p>
+                  <div key={example} className="it-line">
+                    <p className="phrase-card__uk">{example}</p>
+                    <SpeakButton text={example} />
+                  </div>
                 ))}
               </article>
             ))}
@@ -321,7 +430,10 @@ export default function ArcLessonScreen({
             <div className="dialogue-options">
               {question.options.map((option, index) => (
                 <article key={option} className="option-card">
-                  <p className="option-card__text">{option}</p>
+                  <div className="it-line">
+                    <p className="option-card__text">{option}</p>
+                    <SpeakButton text={option} />
+                  </div>
                   <button
                     className="btn-primary"
                     type="button"
@@ -363,6 +475,28 @@ export default function ArcLessonScreen({
       {!boss && onStateChange && lesson.phrases.length > 0 ? (
         <button className="fab" type="button" onClick={saveDayPhrases}>
           📌 Зберегти фрази дня
+        </button>
+      ) : null}
+
+      <Flashcards key={`flash-${lesson.day}`} deck={deck} />
+      <PracticeQuiz
+        key={`quiz-${lesson.day}`}
+        questions={miniQuestions}
+        onPassedChange={setQuizPassed}
+      />
+
+      {onMarkComplete ? (
+        <button
+          className={`btn-primary btn-complete${dayCompleted ? ' btn-primary--done' : ''}`}
+          type="button"
+          disabled={dayCompleted || !canComplete}
+          onClick={onMarkComplete}
+        >
+          {dayCompleted
+            ? '✓ Day complete'
+            : canComplete
+              ? 'Mark Day as Complete'
+              : 'Пройдіть міні-квіз, щоб продовжити'}
         </button>
       ) : null}
 

@@ -1,3 +1,6 @@
+import SpeakButton from './SpeakButton.jsx'
+import './Learn.css'
+
 export default function SavedPhrasesSheet({ open, phrases, onClose }) {
   if (!open) return null
 
@@ -38,7 +41,10 @@ export default function SavedPhrasesSheet({ open, phrases, onClose }) {
             {phrases.map((phrase) => (
               <li key={phrase.id} className="card">
                 <div>
-                  <p className="card__title">{phrase.it}</p>
+                  <div className="it-line">
+                    <p className="card__title">{phrase.it}</p>
+                    <SpeakButton text={phrase.it} />
+                  </div>
                   {phrase.uk ? <p className="card__subtitle">{phrase.uk}</p> : null}
                 </div>
               </li>

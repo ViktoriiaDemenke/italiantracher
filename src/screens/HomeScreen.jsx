@@ -1,17 +1,13 @@
-import { useMemo, useState } from 'react'
+import { useState } from 'react'
 import { CANONICAL_MODULES } from '../data/modules'
 import CycleNav, { MODULE_CYCLES } from '../components/CycleNav.jsx'
 import SavedPhrasesSheet from '../components/SavedPhrasesSheet.jsx'
+import ProgressOverview from '../components/ProgressOverview.jsx'
+import DayGrid from '../components/DayGrid.jsx'
 import './HomeScreen.css'
 
-export default function HomeScreen({ state, onStart, onOpenDay }) {
+export default function HomeScreen({ state, onStart, onOpenDay, isUnlocked }) {
   const [phrasesOpen, setPhrasesOpen] = useState(false)
-
-  const progressLabel = useMemo(() => {
-    const done = state.completedDays.length
-    return `${done} / 30 днів`
-  }, [state.completedDays.length])
-
   const savedPhrases = state.savedPhrases ?? []
 
   return (
@@ -23,14 +19,20 @@ export default function HomeScreen({ state, onStart, onOpenDay }) {
           30 днів практичної італійської для реального життя в Італії. Опановуй
           побутові теми, тренуй діалоги та збирай власну колекцію корисних фраз.
         </p>
-        <div className="home__meta">
-          <span className="home__day">День {state.currentDay}</span>
-          <span className="home__progress">{progressLabel}</span>
-        </div>
+        <ProgressOverview
+          completedDays={state.completedDays}
+          streak={state.streak}
+        />
         <button className="btn-primary" type="button" onClick={onStart}>
           Почати
         </button>
       </header>
+
+      <DayGrid
+        completedDays={state.completedDays}
+        currentDay={state.currentDay}
+        onOpenDay={onOpenDay}
+      />
 
       <section className="home__modules" aria-labelledby="modules-heading">
         <h2 id="modules-heading" className="home__section-title">
@@ -48,6 +50,7 @@ export default function HomeScreen({ state, onStart, onOpenDay }) {
                     cycle={mod.id}
                     currentDay={state.currentDay}
                     onOpenDay={onOpenDay}
+                    isUnlocked={isUnlocked}
                   />
                 ) : null}
               </div>

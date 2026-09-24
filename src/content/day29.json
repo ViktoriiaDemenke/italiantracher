@@ -1,0 +1,102 @@
+{
+  "day": 29,
+  "title": "Живий діалог: Запис по телефону та візит Марка й Лаури до салону",
+  "module": "Salone di Bellezza: Parrucchiere e Manicure",
+  "type": "Interactive Dialogue",
+  "story": "Лаура телефонує в салон, щоб записати чоловіка Марка на стрижку бороди й волосся, а себе — на манікюр та укладку. Потім вони приходять на процедури.",
+  "dialogue": [
+    {
+      "step": 1,
+      "speaker": "Receptionist Salone",
+      "text": "Salone Bella Vita, buongiorno! Come posso aiutarla?",
+      "options": [
+        {
+          "text": "Buongiorno! Vorrei prendere un appuntamento per venerdì: un taglio uomo con barba e una manicure con semipermanente.",
+          "isCorrect": true,
+          "feedback": "Чудово! Ви одразу назвали всі потрібні послуги для чоловіка та жінки."
+        },
+        {
+          "text": "Ciao, vorrei comprare un biglietto per l'autobus.",
+          "isCorrect": false,
+          "feedback": "У салоні краси не продають автобусні квитки."
+        }
+      ]
+    },
+    {
+      "step": 2,
+      "speaker": "Receptionist Salone",
+      "text": "Perfetto. Per la manicure deve anche rimuovere lo smalto precedente?",
+      "options": [
+        {
+          "text": "Sì, devo togliere il gel vecchio e fare la manicure completa.",
+          "isCorrect": true,
+          "feedback": "Ідеально! Попередження про зняття гель-лаку важливе для розрахунку часу."
+        },
+        {
+          "text": "No, vorrei fare la dichiarazione dei redditi.",
+          "isCorrect": false,
+          "feedback": "Це стосується бухгалтерських послуг, а не манікюру."
+        }
+      ]
+    },
+    {
+      "step": 3,
+      "speaker": "Receptionist Salone",
+      "text": "Va bene, abbiamo posto venerdì alle 15:00 per entrambi. Ci vediamo venerdì!",
+      "options": [
+        {
+          "text": "Ottimo, venerdì alle 15:00! A nome di Laura e Marco. Grazie mille e arrivederci!",
+          "isCorrect": true,
+          "feedback": "Правильно! Ви підтвердили час та залишили ім'я для запису."
+        }
+      ]
+    },
+    {
+      "step": 4,
+      "speaker": "Barbiere (зараз з Марком)",
+      "text": "Buongiorno Marco! Come facciamo oggi con i capelli e la barba?",
+      "options": [
+        {
+          "text": "Buongiorno! Vorrei accorciare i capelli ai lati e regolare la barba, ma senza tagliarla troppo corta.",
+          "isCorrect": true,
+          "feedback": "Чудово! Марко чітко пояснив бачення своєї стрижки та бороди."
+        },
+        {
+          "text": "Vorrei convalidare il biglietto del treno.",
+          "isCorrect": false,
+          "feedback": "Квитки компостують на вокзалі, а не в кріслі барбера."
+        }
+      ]
+    },
+    {
+      "step": 5,
+      "speaker": "Estetista (зараз з Лаурою)",
+      "text": "Buongiorno Laura! Che forma e che colore preferisce per le unghie oggi?",
+      "options": [
+        {
+          "text": "Buongiorno! Vorrei la forma mandorla e un colore nudo naturale con il semipermanente.",
+          "isCorrect": true,
+          "feedback": "Чудово! Лаура обрала форму (мигдаль) та природний колір."
+        },
+        {
+          "text": "Ho la febbre e il naso che cola.",
+          "isCorrect": false,
+          "feedback": "Це симптоми хвороби для лікаря, а не для майстра манікюру."
+        }
+      ]
+    },
+    {
+      "step": 6,
+      "speaker": "Receptionist Salone",
+      "text": "Ecco a voi! In totale per il taglio uomo, barba, manicure e semipermanente sono 65 euro. Pagate insieme o separatamente?",
+      "options": [
+        {
+          "text": "Paghiamo insieme con la carta. Grazie mille, siamo molto contenti del risultato!",
+          "isCorrect": true,
+          "feedback": "Відмінно! Ви зробили оплату карткою та подякували майстрам."
+        }
+      ]
+    }
+  ],
+  "culturaTip": "В італійських салонах краси завжди цінують зворотний зв'язок під час процедури. Якщо вода занадто гаряча або майстер зрізає забагато довжини, спокійно скажіть: 'Scusi, l'acqua è troppo calda' або 'Un po' più lungo, per favore'."
+}

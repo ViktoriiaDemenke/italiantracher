@@ -1,0 +1,66 @@
+{
+  "day": 18,
+  "title": "Boss Level 🏆: Симуляція оформлення допомоги у Patronato",
+  "module": "Patronato e Assistenza Sociale",
+  "type": "Boss Level Simulation",
+  "story": "Фінальний іспит модуля! Ви самостійно приходите на прийом у Patronato/CAF, подаєте документи для ISEE та виплат на дитину. Підказки та переклад вимкнено!",
+  "questions": [
+    {
+      "id": "p1",
+      "question": "Що таке довідка 'ISEE' в Італії?",
+      "options": [
+        "Офіційний розрахунок фінансового стану родини для отримання пільг та допомог.",
+        "Квитанція за проїзд у міському транспорті.",
+        "Рецепт від сімейного лікаря."
+      ],
+      "correctAnswer": 0,
+      "explanation": "ISEE — показник майнового стану для розрахунку соціальних пільг."
+    },
+    {
+      "id": "p2",
+      "question": "Як називається щомісячна державна допомога на дитину в Італії?",
+      "options": [
+        "Assegno Unico Universale.",
+        "Codice Fiscale.",
+        "Spese Condominiali."
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Assegno Unico' — головна виплата на дітей у країні."
+    },
+    {
+      "id": "p3",
+      "question": "Як сказати консультанту 'Я б хотів(ла) подати заявку на виплату на дитину'?",
+      "options": [
+        "Vorrei fare la domanda per l'Assegno Unico.",
+        "Vorrei prenotare un tavolo per stasera.",
+        "Ho bisogno di un'acqua frizzante."
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Fare la domanda' = подати заявку."
+    },
+    {
+      "id": "p4",
+      "question": "Який реквізит потрібен для зарахування щомісячних виплат від INPS?",
+      "options": [
+        "Код IBAN банківського рахунку.",
+        "Номер чека з супермаркету.",
+        "Індекс поштового відділення."
+      ],
+      "correctAnswer": 0,
+      "explanation": "Виплати перераховуються на банківський рахунок за кодом IBAN."
+    },
+    {
+      "id": "p5",
+      "question": "Як запитатиконсультанта 'Які документы потрібні для подачі заявки?'",
+      "options": [
+        "Quali documenti servono per la richiesta?",
+        "Quanto costa la pizza margherita?",
+        "Dove si trova la stazione di Treviso?"
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Quali documenti servono...?' = 'Які документи потрібні...?'"
+    }
+  ],
+  "successBadge": "Esperto di Patronato 📋",
+  "successMessage": "Вітаємо! Ви повністю орієнтуєтеся у функціях Patronato/CAF, знаєте як оформити ISEE, Assegno Unico та працювати із соціальними виплатами в Італії!"
+}

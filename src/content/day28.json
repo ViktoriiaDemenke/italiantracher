@@ -1,0 +1,44 @@
+{
+  "day": 28,
+  "title": "Салон краси: Запис на стрижку, манікюр та догляд",
+  "module": "Salone di Bellezza: Parrucchiere e Manicure",
+  "type": "Immersion & Vocabulary",
+  "story": "Марко та Лаура планують візит до салону краси. В Італії до перукаря (parrucchiere / barbiere) та майстра манікюру (onicotecnica / estetista) майже завжди потрібно записуватися заздалегідь по телефону або особисто (prendere un appuntamento). Вкрай важливо чітко пояснити свої побажання: від довжини волосся та форми нігтів до вибору типу покриття чи стрижки бороди.",
+  "phrases": [
+    {
+      "italian": "Vorrei prendere un appuntamento per un taglio uomo e una manicure.",
+      "ukrainian": "Я б хотів(ла) записатися на чоловічу стрижку та манікюр."
+    },
+    {
+      "italian": "Solo una spuntata alle punte e la piega, per favore.",
+      "ukrainian": "Тільки підрівняти кінчики та зробити укладку, будь ласка."
+    },
+    {
+      "italian": "Vorrei fare lo smalto semipermanente e togliere quello vecchio.",
+      "ukrainian": "Я б хотіла зробити гель-лак (семіперманенте) та зняти старий."
+    },
+    {
+      "italian": "Vorrei accorciare i capelli ai lati e regolare la barba.",
+      "ukrainian": "Я б хотів вкоротити волосся з боків та підрівняти бороду."
+    }
+  ],
+  "beautyTips": [
+    "Prendere un appuntamento — запис на конкретний час є обов'язковим. Якщо ви запізнюєтеся навіть на 10-15 хвилин, варто зателефонувати й попередити.",
+    "Piega — укладка феном після миття голови. В італійських салонах ціна за стрижку (taglio) часто вказується окремо від укладки (piega) та миття (shampoo).",
+    "Smalto semipermanente — гель-лак. Якщо потрібно зняти попереднє покриття, обов'язково попередьте під час запису: 'Devo anche togliere il gel vecchio'."
+  ],
+  "grammar": {
+    "title": "Дієслова для запису та побажань: 'Vorrei + Інфінітив' та 'Accorciare / Spuntare'",
+    "rules": [
+      {
+        "rule": "Ввічливий запис через 'Vorrei': 'Vorrei prenotare...' (Я б хотів(ла) забронювати...), 'Vorrei fare...' (Я б хотів(ла) зробити...).",
+        "examples": ["Vorrei prenotare per giovedì pomeriggio.", "Vorrei fare la barba."]
+      },
+      {
+        "rule": "Дії з волоссям та нігтями: 'Accorciare' (вкорочувати), 'Spuntare' (підрізати кінчики), 'Togliere' (знімати).",
+        "examples": ["Vorrei solo spuntare di un centimetro.", "Devo togliere lo smalto."]
+      }
+    ]
+  },
+  "culturaTip": "В Італії барбершопи (barbiere) та жіночі салони часто зачинені в неділю та понеділок. З вівторка по суботу салон може працювати з перервою на обід (pausa pranzo) з 12:30 до 15:30, якщо це не мережевий заклад у торговому центрі."
+}

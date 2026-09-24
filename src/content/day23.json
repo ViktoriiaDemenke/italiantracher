@@ -1,0 +1,102 @@
+{
+  "day": 23,
+  "title": "Живий діалог: На касі та у відділі гастрономії",
+  "module": "Fare la Spesa al Supermercato",
+  "type": "Interactive Dialogue",
+  "story": "Марко підходить до гастрономічного відділу (banco frigo/gastronomia), а потім прямує на касу (cassa).",
+  "dialogue": [
+    {
+      "step": 1,
+      "speaker": "Commesso",
+      "text": "Buongiorno! Chi è il prossimo? Numero 42!",
+      "options": [
+        {
+          "text": "Buongiorno! Sono io il numero 42.",
+          "isCorrect": true,
+          "feedback": "Чудово! Ви вчасно відповіли на свій номер у черзі."
+        },
+        {
+          "text": "Ciao, voglio formaggio subito.",
+          "isCorrect": false,
+          "feedback": "Не забувайте про ввічливість та дотримання черги."
+        }
+      ]
+    },
+    {
+      "step": 2,
+      "speaker": "Commesso",
+      "text": "Dica pure, cosa le preparo?",
+      "options": [
+        {
+          "text": "Vorrei due etti di prosciutto di Parma e un pezzo di Parmigiano Reggiano, per favore.",
+          "isCorrect": true,
+          "feedback": "Ідеально! Ви правильно використали одиницю виміру 'due etti' (200 грамів)."
+        },
+        {
+          "text": "Dammi tre litri di prosciutto.",
+          "isCorrect": false,
+          "feedback": "Прошутто вимірюється в грамах/кілограмах ('etti' або 'grammi'), а не в літрах."
+        }
+      ]
+    },
+    {
+      "step": 3,
+      "speaker": "Commesso",
+      "text": "Tagliato sottile il prosciutto? E il Parmigiano va bene questo pezzo da trecento grammi?",
+      "options": [
+        {
+          "text": "Sì, il prosciutto tagliato sottile. E il pezzo di formaggio va benissimo, grazie.",
+          "isCorrect": true,
+          "feedback": "Чудово! Ви уточнили нарізку ('tagliato sottile' = тонко нарізаний)."
+        },
+        {
+          "text": "No, non mi piace l'Anagrafe.",
+          "isCorrect": false,
+          "feedback": "Це не стосується покупки продуктів."
+        }
+      ]
+    },
+    {
+      "step": 4,
+      "speaker": "Cassiera",
+      "text": "Buongiorno! Ha la nostra carta fedeltà?",
+      "options": [
+        {
+          "text": "Buongiorno! No, non ce l'ho. Posso farla adesso?",
+          "isCorrect": true,
+          "feedback": "Правильно! Ви запитали про можливість оформити карту лояльності."
+        },
+        {
+          "text": "Ho solo il medico di base.",
+          "isCorrect": false,
+          "feedback": "Медичний лікар не має відношення до картки супермаркету."
+        }
+      ]
+    },
+    {
+      "step": 5,
+      "speaker": "Cassiera",
+      "text": "Sì, può chiederla al box informazioni dopo. Le serve un sacchetto per la spesa?",
+      "options": [
+        {
+          "text": "Sì, un sacchetto biodegradabile, per favore. E pago con la carta di credito.",
+          "isCorrect": true,
+          "feedback": "Чудово! Ви попросили пакет та вказали спосіб оплати."
+        }
+      ]
+    },
+    {
+      "step": 6,
+      "speaker": "Cassiera",
+      "text": "Sono 34 euro e 50 centesimi. Appoggi pure la carta sul POS... Perfetto. Ecco lo scontrino. Buona giornata!",
+      "options": [
+        {
+          "text": "Grazie mille, buona giornata anche a lei!",
+          "isCorrect": true,
+          "feedback": "Приємний та ввічливий фінал розмови на касі!"
+        }
+      ]
+    }
+  ],
+  "culturaTip": "'Lo scontrino' (чек) обов'язково потрібно зберігати до виходу з супермаркету чи магазину — у разі перевірки фінансовою поліцією його можуть попросити показати."
+}

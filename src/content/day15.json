@@ -1,0 +1,66 @@
+{
+  "day": 15,
+  "title": "Boss Level 🏆: Симуляція візиту на пошту (Poste Italiane)",
+  "module": "Poste Italiane e Servizi Postali",
+  "type": "Boss Level Simulation",
+  "story": "Фінальний іспит модуля! Ви самостійно обираєте послугу в терміналі, спілкуєтеся з працівником пошти, відправляєте лист та сплачуєте квитанцію. Підказки та переклад вимкнено!",
+  "questions": [
+    {
+      "id": "p1",
+      "question": "Що потрібно зробити одразу при вході до відділення Poste Italiane?",
+      "options": [
+        "Взяти талончик (ticket) у електронному терміналі біля входу.",
+        "Одразу йти до віконця без черги.",
+        "Заплатити за вхід у касу."
+      ],
+      "correctAnswer": 0,
+      "explanation": "В Італії на пошті обов'язкова система електронної черги через термінал (totem)."
+    },
+    {
+      "id": "p2",
+      "question": "Як сказати 'Мені потрібно відправити посилку' італійською?",
+      "options": [
+        "Devo spedire un pacco.",
+        "Devo pagare un caffè.",
+        "Ho bisogno di un medico."
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Spedire un pacco' = відправити посилку."
+    },
+    {
+      "id": "p3",
+      "question": "Що таке 'Raccomandata'?",
+      "options": [
+        "Рекомендований лист, що вручається під особистий підпис з офіційним сповіщенням.",
+        "Звичайний рекламний буклет у поштовій скриньці.",
+        "Електронний чек з супермаркету."
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Raccomandata' — офіційний рекомендований лист із юридичною силою."
+    },
+    {
+      "id": "p4",
+      "question": "Хто такий 'Mittente' на поштовому конверті чи коробці?",
+      "options": [
+        "Відправник.",
+        "Одержувач.",
+        "Поштовий кур'єр."
+      ],
+      "correctAnswer": 0,
+      "explanation": "'Mittente' = відправник, а 'Destinatario' = одержувач."
+    },
+    {
+      "id": "p5",
+      "question": "Як називається номер для перевірки статусу та місцезнаходження посилки в інтернеті?",
+      "options": [
+        "Codice fiscale.",
+        "Codice di tracciamento.",
+        "Numero di telefono."
+      ],
+      "correctAnswer": 1,
+      "explanation": "'Codice di tracciamento' = трек-номер для відстеження."
+    }
+  ],
+  "successBadge": "Esperto di Poste ✉️",
+  "successMessage": "Вітаємо! Ви вільно орієнтуєтеся в послугах Poste Italiane, можете відправляти посилки, рекомендовані листи та сплачувати квитанції!"
+}
