@@ -83,10 +83,10 @@
     {
       "step": 6,
       "speaker": "Impiegata",
-      "text": "Per le urgenze serali e nei festivi c’è la guardia medica. Per le emergenze gravi c'est il pronto soccorso, aperto 24 ore su 24.",
+      "text": "Per le urgenze serali e nei festivi c’è la guardia medica. Per le emergenze gravi c’è il pronto soccorso, aperto 24 ore su 24.",
       "options": [
         {
-          "text": "Molte grazie за роз'яснення! Buona giornata.",
+          "text": "Molte grazie per la spiegazione! Buona giornata.",
           "isCorrect": true,
           "feedback": "Чудовий фінал розмови!"
         }

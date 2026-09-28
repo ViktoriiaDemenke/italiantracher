@@ -4,9 +4,11 @@ import PhraseCard from '../components/PhraseCard.jsx'
 import SavedPhrasesSheet from '../components/SavedPhrasesSheet.jsx'
 import SpeakButton from '../components/SpeakButton.jsx'
 import Flashcards from '../components/Flashcards.jsx'
-import PracticeQuiz from '../components/PracticeQuiz.jsx'
+import PracticeQuiz, { scrollToPracticeQuiz } from '../components/PracticeQuiz.jsx'
 import { cycleIdForDay, maxScore } from '../content/loadLesson.js'
 import { buildMiniQuiz, buildPracticeDeck } from '../learn/practice.js'
+import { TOTAL_DAYS } from '../progress.js'
+import { rememberQuizError, rememberSavedPhrases } from '../storage.js'
 import '../screens/HomeScreen.css'
 import './Lesson.css'
 import './Day1Screen.css'
@@ -21,6 +23,71 @@ function mergeDayPhrases(savedPhrases, lesson) {
     day: lesson.day,
   }))
   return [...others, ...incoming]
+}
+
+function LessonProgress({ day, step, steps }) {
+  const dayPercent = Math.round((day / TOTAL_DAYS) * 100)
+  const currentStep = steps > 0 ? Math.min(step + 1, steps) : 0
+  const stepPercent = steps > 0 ? Math.round((currentStep / steps) * 100) : 0
+
+  return (
+    <section className="lesson-progress" aria-label="Прогрес уроку">
+      <p className="lesson-progress__label">
+        День {day} з {TOTAL_DAYS}
+      </p>
+      <div
+        className="progress-bar"
+        role="progressbar"
+        aria-valuemin={0}
+        aria-valuemax={100}
+        aria-valuenow={dayPercent}
+      >
+        <span className="progress-bar__fill" style={{ width: `${dayPercent}%` }} />
+      </div>
+      {steps > 0 ? (
+        <>
+          <p className="lesson-progress__label">
+            Крок {currentStep} з {steps}
+          </p>
+          <div
+            className="progress-bar"
+            role="progressbar"
+            aria-valuemin={0}
+            aria-valuemax={100}
+            aria-valuenow={stepPercent}
+          >
+            <span className="progress-bar__fill" style={{ width: `${stepPercent}%` }} />
+          </div>
+        </>
+      ) : null}
+    </section>
+  )
+}
+
+function CompleteControl({ dayCompleted, canComplete, onMarkComplete, hasQuiz }) {
+  if (!onMarkComplete) return null
+  const waitingForQuiz = !dayCompleted && !canComplete && hasQuiz
+
+  return (
+    <button
+      className={`btn-primary btn-complete${dayCompleted ? ' btn-primary--done' : ''}`}
+      type="button"
+      disabled={dayCompleted}
+      onClick={() => {
+        if (waitingForQuiz) {
+          scrollToPracticeQuiz()
+          return
+        }
+        if (canComplete) onMarkComplete()
+      }}
+    >
+      {dayCompleted
+        ? '✓ Day complete'
+        : canComplete
+          ? 'Mark Day as Complete'
+          : 'Пройдіть міні-квіз, щоб продовжити'}
+    </button>
+  )
 }
 
 function toneClass(tone, selected) {
@@ -99,6 +166,7 @@ export default function ArcLessonScreen({
   onMarkComplete,
   dayCompleted,
   isUnlocked,
+  onQuizError,
 }) {
   const boss = lesson.mode === 'boss'
   const hideTranslation = boss
@@ -139,6 +207,16 @@ export default function ArcLessonScreen({
   function pickQuiz(index) {
     const current = quiz[stepIndex]
     const correct = index === current.correctAnswer
+    if (!correct) {
+      const item = {
+        id: `boss-${lesson.day}-${current.id ?? stepIndex}`,
+        it: current.options[current.correctAnswer],
+        uk: current.explanation || current.question,
+        day: lesson.day,
+      }
+      if (onQuizError) onQuizError(item)
+      else onStateChange?.((prev) => rememberQuizError(prev, item))
+    }
     setScore((value) => value + (correct ? 10 : 0))
     if (last) {
       setFinished(true)
@@ -159,11 +237,22 @@ export default function ArcLessonScreen({
 
   function saveDayPhrases() {
     if (!onStateChange || !state || lesson.phrases.length === 0) return
-    onStateChange({
-      ...state,
-      savedPhrases: mergeDayPhrases(savedPhrases, lesson),
+    onStateChange((prev) => {
+      const phrases = mergeDayPhrases(prev.savedPhrases ?? [], lesson)
+      return rememberSavedPhrases({ ...prev, savedPhrases: phrases }, phrases)
     })
     setSheetOpen(true)
+  }
+
+  function onMiniQuizMiss(question) {
+    const item = {
+      id: `quiz-${lesson.day}-${question.id}`,
+      it: question.speak || question.options[question.correctIndex],
+      uk: question.explain || question.prompt,
+      day: lesson.day,
+    }
+    if (onQuizError) onQuizError(item)
+    else onStateChange?.((prev) => rememberQuizError(prev, item))
   }
 
   if (finished && boss) {
@@ -173,6 +262,11 @@ export default function ArcLessonScreen({
           <button className="back-btn" type="button" onClick={onBack}>
             ← Назад
           </button>
+          <LessonProgress
+            day={lesson.day}
+            step={finished ? Math.max(trackLength - 1, 0) : stepIndex}
+            steps={trackLength}
+          />
         </header>
         <section className="result-card">
           <span className="badge">
@@ -199,21 +293,14 @@ export default function ArcLessonScreen({
           key={`quiz-done-${lesson.day}`}
           questions={miniQuestions}
           onPassedChange={setQuizPassed}
+          onMiss={onMiniQuizMiss}
         />
-        {onMarkComplete ? (
-          <button
-            className={`btn-primary btn-complete${dayCompleted ? ' btn-primary--done' : ''}`}
-            type="button"
-            disabled={dayCompleted || !canComplete}
-            onClick={onMarkComplete}
-          >
-            {dayCompleted
-              ? '✓ Day complete'
-              : canComplete
-                ? 'Mark Day as Complete'
-                : 'Пройдіть міні-квіз, щоб продовжити'}
-          </button>
-        ) : null}
+        <CompleteControl
+          dayCompleted={dayCompleted}
+          canComplete={canComplete}
+          onMarkComplete={onMarkComplete}
+          hasQuiz={miniQuestions.length > 0}
+        />
       </main>
     )
   }
@@ -224,6 +311,7 @@ export default function ArcLessonScreen({
         <button className="back-btn" type="button" onClick={onBack}>
           ← Назад
         </button>
+        <LessonProgress day={lesson.day} step={stepIndex} steps={trackLength} />
       </header>
 
       <section className="day__hero">
@@ -483,22 +571,15 @@ export default function ArcLessonScreen({
         key={`quiz-${lesson.day}`}
         questions={miniQuestions}
         onPassedChange={setQuizPassed}
+        onMiss={onMiniQuizMiss}
       />
 
-      {onMarkComplete ? (
-        <button
-          className={`btn-primary btn-complete${dayCompleted ? ' btn-primary--done' : ''}`}
-          type="button"
-          disabled={dayCompleted || !canComplete}
-          onClick={onMarkComplete}
-        >
-          {dayCompleted
-            ? '✓ Day complete'
-            : canComplete
-              ? 'Mark Day as Complete'
-              : 'Пройдіть міні-квіз, щоб продовжити'}
-        </button>
-      ) : null}
+      <CompleteControl
+        dayCompleted={dayCompleted}
+        canComplete={canComplete}
+        onMarkComplete={onMarkComplete}
+        hasQuiz={miniQuestions.length > 0}
+      />
 
       <SavedPhrasesSheet
         open={sheetOpen}

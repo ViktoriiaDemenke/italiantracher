@@ -42,6 +42,10 @@
   animation: speak-pulse 0.9s ease-in-out infinite;
 }
 
+.speak-btn--off {
+  opacity: 0.55;
+}
+
 @keyframes speak-pulse {
   50% {
     transform: scale(1.06);

@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import SpeakButton from './SpeakButton.jsx'
 import './Learn.css'
 
@@ -6,8 +6,23 @@ function looksItalian(text) {
   return /[A-Za-zÀ-ÿ]/.test(text) && !/[А-Яа-яЇїІіЄєҐґ]/.test(text)
 }
 
-export default function PracticeQuiz({ questions, onPassedChange }) {
+export const QUIZ_ANCHOR_ID = 'practice-quiz'
+
+export function scrollToPracticeQuiz() {
+  document.getElementById(QUIZ_ANCHOR_ID)?.scrollIntoView({
+    behavior: 'smooth',
+    block: 'start',
+  })
+}
+
+export default function PracticeQuiz({
+  questions,
+  onPassedChange,
+  autoScroll = false,
+  onMiss,
+}) {
   const [answers, setAnswers] = useState({})
+  const rootRef = useRef(null)
 
   const total = questions.length
   const passed =
@@ -18,6 +33,11 @@ export default function PracticeQuiz({ questions, onPassedChange }) {
     onPassedChange?.(passed)
   }, [passed, onPassedChange])
 
+  useEffect(() => {
+    if (!autoScroll || total === 0) return
+    rootRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' })
+  }, [autoScroll, total])
+
   if (total === 0) return null
 
   function pick(question, optionIndex) {
@@ -26,10 +46,16 @@ export default function PracticeQuiz({ questions, onPassedChange }) {
       ...prev,
       [question.id]: { optionIndex, correct },
     }))
+    if (!correct) onMiss?.(question)
   }
 
   return (
-    <section className="learn-block" aria-labelledby="mini-quiz-heading">
+    <section
+      ref={rootRef}
+      id={QUIZ_ANCHOR_ID}
+      className="learn-block"
+      aria-labelledby="mini-quiz-heading"
+    >
       <h2 id="mini-quiz-heading" className="day__section">
         End-of-Day Practice Quiz
       </h2>
@@ -72,7 +98,9 @@ export default function PracticeQuiz({ questions, onPassedChange }) {
             </div>
             {answer && !answer.correct ? (
               <p className="quiz-hint">
-                Правильна відповідь: {question.options[question.correctIndex]}
+                {question.explain
+                  ? `${question.explain} Правильна відповідь: ${question.options[question.correctIndex]}`
+                  : `Правильна відповідь: ${question.options[question.correctIndex]}`}
               </p>
             ) : null}
           </article>

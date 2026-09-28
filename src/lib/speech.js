@@ -1,7 +1,18 @@
+export function isSpeechAvailable() {
+  return typeof window !== 'undefined' && 'speechSynthesis' in window
+}
+
+export function notifyVoiceUnavailable() {
+  if (typeof window === 'undefined') return
+  window.dispatchEvent(
+    new CustomEvent('italian-tracker:toast', { detail: 'Голос недоступний' }),
+  )
+}
+
 let speakSeq = 0
 
 function pickItalianVoice() {
-  if (typeof window === 'undefined' || !window.speechSynthesis) return null
+  if (!isSpeechAvailable()) return null
   const voices = window.speechSynthesis.getVoices()
   return (
     voices.find((voice) => voice.lang === 'it-IT') ||
@@ -10,11 +21,18 @@ function pickItalianVoice() {
   )
 }
 
-export function speakItalian(text, { rate = 1, onStart, onEnd } = {}) {
-  if (typeof window === 'undefined' || !window.speechSynthesis) {
+export function speakItalian(text, { rate = 1, onStart, onEnd, onUnavailable } = {}) {
+  const fail = () => {
+    onUnavailable?.()
+    notifyVoiceUnavailable()
     onEnd?.()
+  }
+
+  if (!isSpeechAvailable()) {
+    fail()
     return () => {}
   }
+
   const value = String(text ?? '').trim()
   if (!value) {
     onEnd?.()
@@ -39,9 +57,16 @@ export function speakItalian(text, { rate = 1, onStart, onEnd } = {}) {
     onStart?.()
   }
   utterance.onend = finish
-  utterance.onerror = finish
+  utterance.onerror = () => {
+    fail()
+  }
 
-  window.speechSynthesis.speak(utterance)
+  try {
+    window.speechSynthesis.speak(utterance)
+  } catch {
+    fail()
+    return () => {}
+  }
 
   if (window.speechSynthesis.getVoices().length === 0) {
     window.speechSynthesis.addEventListener(

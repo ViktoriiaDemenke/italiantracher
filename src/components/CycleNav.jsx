@@ -68,8 +68,8 @@ export default function CycleNav({
             key={item.day}
             className={`cycle-nav__btn${currentDay === item.day ? ' cycle-nav__btn--on' : ''}${locked ? ' cycle-nav__btn--locked' : ''}`}
             type="button"
-            disabled={locked}
-            onClick={() => !locked && onOpenDay(item.day)}
+            aria-disabled={locked}
+            onClick={() => onOpenDay(item.day)}
           >
             {item.label}
           </button>

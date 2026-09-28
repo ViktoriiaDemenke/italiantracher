@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useRef, useState } from 'react'
 import { CANONICAL_MODULES } from '../data/modules'
 import CycleNav, { MODULE_CYCLES } from '../components/CycleNav.jsx'
 import SavedPhrasesSheet from '../components/SavedPhrasesSheet.jsx'
@@ -12,8 +12,12 @@ export default function HomeScreen({
   onOpenDay,
   isUnlocked,
   onLockedDay,
+  onOpenReview,
+  onExport,
+  onImportFile,
 }) {
   const [phrasesOpen, setPhrasesOpen] = useState(false)
+  const importRef = useRef(null)
   const savedPhrases = state.savedPhrases ?? []
 
   function openModule(mod) {
@@ -35,6 +39,32 @@ export default function HomeScreen({
           30 днів практичної італійської для реального життя в Італії. Опановуй
           побутові теми, тренуй діалоги та збирай власну колекцію корисних фраз.
         </p>
+        <div className="home__toolbar">
+          <button className="chip-btn" type="button" onClick={onOpenReview}>
+            🔁 Повторення
+          </button>
+          <button className="chip-btn" type="button" onClick={onExport}>
+            Експорт JSON
+          </button>
+          <button
+            className="chip-btn"
+            type="button"
+            onClick={() => importRef.current?.click()}
+          >
+            Імпорт JSON
+          </button>
+          <input
+            ref={importRef}
+            className="home__import-input"
+            type="file"
+            accept="application/json,.json"
+            onChange={(event) => {
+              const file = event.target.files?.[0]
+              if (file) onImportFile?.(file)
+              event.target.value = ''
+            }}
+          />
+        </div>
         <ProgressOverview
           completedDays={state.completedDays}
           streak={state.streak}
@@ -48,6 +78,7 @@ export default function HomeScreen({
         completedDays={state.completedDays}
         currentDay={state.currentDay}
         onOpenDay={onOpenDay}
+        onLockedDay={onLockedDay}
       />
 
       <section className="home__modules" aria-labelledby="modules-heading">

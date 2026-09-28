@@ -7,8 +7,19 @@
   margin: 0 auto;
 }
 
-.day__top {
-  margin-bottom: var(--space-lg);
+.lesson-progress {
+  width: 100%;
+  margin-top: var(--space-sm);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xs);
+}
+
+.lesson-progress__label {
+  margin: 0;
+  color: var(--muted);
+  font-size: var(--text-sm);
+  font-weight: 500;
 }
 
 .back-btn {

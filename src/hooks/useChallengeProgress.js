@@ -6,7 +6,14 @@ import {
   progressStats,
   TOTAL_DAYS,
 } from '../progress.js'
-import { loadState, saveState } from '../storage.js'
+import {
+  downloadBackup,
+  gradeReviewItem,
+  loadState,
+  readBackupFile,
+  rememberQuizError,
+  saveState,
+} from '../storage.js'
 
 export function useChallengeProgress() {
   const [state, setState] = useState(loadState)
@@ -28,6 +35,14 @@ export function useChallengeProgress() {
     setToast(message)
     toastTimer.current = window.setTimeout(() => setToast(null), 2400)
   }, [])
+
+  useEffect(() => {
+    function onVoiceToast(event) {
+      showToast(event.detail || 'Голос недоступний')
+    }
+    window.addEventListener('italian-tracker:toast', onVoiceToast)
+    return () => window.removeEventListener('italian-tracker:toast', onVoiceToast)
+  }, [showToast])
 
   const persist = useCallback((next) => {
     setState((prev) => {
@@ -55,6 +70,34 @@ export function useChallengeProgress() {
 
   const stats = progressStats(state.completedDays)
 
+  const recordQuizError = useCallback(
+    (item) => persist((prev) => rememberQuizError(prev, item)),
+    [persist],
+  )
+
+  const gradeReview = useCallback(
+    (id, knew) => persist((prev) => gradeReviewItem(prev, id, knew)),
+    [persist],
+  )
+
+  const exportBackup = useCallback(() => {
+    downloadBackup(state)
+    showToast('Прогрес збережено у JSON')
+  }, [state, showToast])
+
+  const importBackup = useCallback(
+    async (file) => {
+      try {
+        const next = await readBackupFile(file)
+        persist(next)
+        showToast('Прогрес відновлено')
+      } catch {
+        showToast('Не вдалося імпортувати файл')
+      }
+    },
+    [persist, showToast],
+  )
+
   return {
     state,
     persist,
@@ -65,6 +108,10 @@ export function useChallengeProgress() {
     isUnlocked: (day) => isDayUnlocked(day, state.completedDays),
     completeDay,
     showToast,
+    recordQuizError,
+    gradeReview,
+    exportBackup,
+    importBackup,
     dismissToast: () => setToast(null),
   }
 }

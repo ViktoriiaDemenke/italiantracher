@@ -109,6 +109,7 @@ export function buildMiniQuiz(deck, lesson) {
         options,
         correctIndex,
         speak: phrase.it,
+        explain: `Правильний переклад фрази «${phrase.it}» — «${phrase.uk}».`,
       })
     }
   }
@@ -129,6 +130,7 @@ export function buildMiniQuiz(deck, lesson) {
         options,
         correctIndex,
         speak: blankSource.it,
+        explain: `У цій італійській фразі пропущено слово «${missing}».`,
       })
     }
   }
@@ -148,6 +150,9 @@ export function buildMiniQuiz(deck, lesson) {
         options,
         correctIndex,
         speak: dialogueStep.text,
+        explain:
+          correct.feedback ||
+          'Це природна відповідь у цьому діалозі; інші варіанти тут недоречні.',
       })
     }
   }

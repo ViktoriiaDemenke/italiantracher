@@ -6,6 +6,7 @@ export const DEFAULT_STATE = {
   completedDays: [],
   started: false,
   savedPhrases: [],
+  reviewItems: [],
   streak: 0,
   lastActivityDate: null,
 }

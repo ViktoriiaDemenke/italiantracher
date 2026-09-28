@@ -1,14 +1,26 @@
 import { isDayCompleted, isDayUnlocked, TOTAL_DAYS } from '../progress.js'
 import './Progress.css'
 
-export default function DayGrid({ completedDays, currentDay, onOpenDay }) {
+export default function DayGrid({
+  completedDays,
+  currentDay,
+  onOpenDay,
+  onLockedDay,
+}) {
   const days = Array.from({ length: TOTAL_DAYS }, (_, index) => index + 1)
+  const isNewUser = (completedDays?.length ?? 0) === 0
 
   return (
     <section className="day-grid-wrap" aria-labelledby="roadmap-heading">
       <h2 id="roadmap-heading" className="home__section-title">
         30-Day Roadmap
       </h2>
+      {isNewUser ? (
+        <p className="day-grid__hint">
+          Почніть з дня 1 — він уже відкритий. Решта днів з’являться після кожного
+          пройденого уроку.
+        </p>
+      ) : null}
       <ol className="day-grid">
         {days.map((day) => {
           const done = isDayCompleted(day, completedDays)
@@ -28,7 +40,7 @@ export default function DayGrid({ completedDays, currentDay, onOpenDay }) {
               <button
                 className={className}
                 type="button"
-                disabled={!unlocked}
+                aria-disabled={!unlocked}
                 aria-label={
                   done
                     ? `День ${day}, пройдено`
@@ -36,7 +48,13 @@ export default function DayGrid({ completedDays, currentDay, onOpenDay }) {
                       ? `День ${day}`
                       : `День ${day}, заблоковано`
                 }
-                onClick={() => unlocked && onOpenDay(day)}
+                onClick={() => {
+                  if (!unlocked) {
+                    onLockedDay?.()
+                    return
+                  }
+                  onOpenDay(day)
+                }}
               >
                 {done ? (
                   <span className="day-tile__mark" aria-hidden="true">

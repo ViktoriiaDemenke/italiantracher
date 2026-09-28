@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import HomeScreen from './screens/HomeScreen.jsx'
 import ArcLessonScreen from './screens/ArcLessonScreen.jsx'
+import ReviewScreen from './screens/ReviewScreen.jsx'
 import { getLesson, nextAfter, OPEN_DAYS } from './data/lessons.js'
 import { useChallengeProgress } from './hooks/useChallengeProgress.js'
 import './components/Progress.css'
@@ -8,8 +9,19 @@ import './components/Progress.css'
 export default function App() {
   const [screen, setScreen] = useState('home')
   const progress = useChallengeProgress()
-  const { state, persist, toast, isUnlocked, isCompleted, completeDay, showToast } =
-    progress
+  const {
+    state,
+    persist,
+    toast,
+    isUnlocked,
+    isCompleted,
+    completeDay,
+    showToast,
+    recordQuizError,
+    gradeReview,
+    exportBackup,
+    importBackup,
+  } = progress
 
   function goHome() {
     setScreen('home')
@@ -40,6 +52,19 @@ export default function App() {
     setScreen(toScreen)
   }
 
+  if (screen === 'review') {
+    return (
+      <>
+        <ReviewScreen state={state} onGrade={gradeReview} onBack={goHome} />
+        {toast ? (
+          <p className="toast" role="status">
+            {toast}
+          </p>
+        ) : null}
+      </>
+    )
+  }
+
   const dayMatch = /^day(\d+)$/.exec(screen)
   if (dayMatch) {
     const day = Number(dayMatch[1])
@@ -59,6 +84,7 @@ export default function App() {
             onMarkComplete={() => completeDay(day)}
             continueLabel={next.label}
             onContinue={() => completeAndGo(day, next.screen)}
+            onQuizError={recordQuizError}
           />
           {toast ? (
             <p className="toast" role="status">
@@ -78,6 +104,9 @@ export default function App() {
         onOpenDay={openDay}
         isUnlocked={isUnlocked}
         onLockedDay={() => showToast('Спочатку пройдіть попередній день')}
+        onOpenReview={() => setScreen('review')}
+        onExport={exportBackup}
+        onImportFile={importBackup}
       />
       {toast ? (
         <p className="toast" role="status">

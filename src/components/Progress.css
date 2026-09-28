@@ -59,6 +59,13 @@
   margin: var(--space-lg) 0 var(--space-xs);
 }
 
+.day-grid__hint {
+  margin: 0 0 var(--space-sm);
+  color: var(--muted);
+  font-size: var(--text-sm);
+  line-height: 1.5;
+}
+
 .day-grid {
   list-style: none;
   margin: 0;
