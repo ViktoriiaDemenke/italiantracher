@@ -6,9 +6,25 @@ import ProgressOverview from '../components/ProgressOverview.jsx'
 import DayGrid from '../components/DayGrid.jsx'
 import './HomeScreen.css'
 
-export default function HomeScreen({ state, onStart, onOpenDay, isUnlocked }) {
+export default function HomeScreen({
+  state,
+  onStart,
+  onOpenDay,
+  isUnlocked,
+  onLockedDay,
+}) {
   const [phrasesOpen, setPhrasesOpen] = useState(false)
   const savedPhrases = state.savedPhrases ?? []
+
+  function openModule(mod) {
+    const days = MODULE_CYCLES[mod.id] ?? []
+    const target = days.find((item) => isUnlocked?.(item.day))
+    if (target) {
+      onOpenDay(target.day)
+      return
+    }
+    onLockedDay?.()
+  }
 
   return (
     <main className="home">
@@ -41,10 +57,20 @@ export default function HomeScreen({ state, onStart, onOpenDay, isUnlocked }) {
         <ul className="module-list">
           {CANONICAL_MODULES.map((mod, index) => (
             <li key={mod.id} className="card">
-              <span className="card__index">{String(index + 1).padStart(2, '0')}</span>
               <div>
-                <h3 className="card__title">{mod.title}</h3>
-                <p className="card__subtitle">{mod.subtitle}</p>
+                <button
+                  className="card__launch"
+                  type="button"
+                  onClick={() => openModule(mod)}
+                >
+                  <span className="card__index">
+                    {String(index + 1).padStart(2, '0')}
+                  </span>
+                  <span>
+                    <h3 className="card__title">{mod.title}</h3>
+                    <p className="card__subtitle">{mod.subtitle}</p>
+                  </span>
+                </button>
                 {MODULE_CYCLES[mod.id] ? (
                   <CycleNav
                     cycle={mod.id}

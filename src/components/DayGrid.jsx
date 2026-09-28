@@ -38,9 +38,17 @@ export default function DayGrid({ completedDays, currentDay, onOpenDay }) {
                 }
                 onClick={() => unlocked && onOpenDay(day)}
               >
-                {done ? <span className="day-tile__mark">✓</span> : null}
-                {!unlocked ? <span className="day-tile__mark">🔒</span> : null}
-                <span>{day}</span>
+                {done ? (
+                  <span className="day-tile__mark" aria-hidden="true">
+                    ✓
+                  </span>
+                ) : null}
+                {!unlocked ? (
+                  <span className="day-tile__mark" aria-hidden="true">
+                    🔒
+                  </span>
+                ) : null}
+                <span className="day-tile__num">{day}</span>
               </button>
             </li>
           )

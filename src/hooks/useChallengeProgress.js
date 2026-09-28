@@ -64,6 +64,7 @@ export function useChallengeProgress() {
     isCompleted: (day) => isDayCompleted(day, state.completedDays),
     isUnlocked: (day) => isDayUnlocked(day, state.completedDays),
     completeDay,
+    showToast,
     dismissToast: () => setToast(null),
   }
 }

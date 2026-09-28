@@ -8,14 +8,18 @@ import './components/Progress.css'
 export default function App() {
   const [screen, setScreen] = useState('home')
   const progress = useChallengeProgress()
-  const { state, persist, toast, isUnlocked, isCompleted, completeDay } = progress
+  const { state, persist, toast, isUnlocked, isCompleted, completeDay, showToast } =
+    progress
 
   function goHome() {
     setScreen('home')
   }
 
   function openDay(day) {
-    if (!isUnlocked(day)) return
+    if (!isUnlocked(day)) {
+      showToast('Спочатку пройдіть попередній день')
+      return
+    }
     persist({ ...state, started: true, currentDay: day })
     setScreen(`day${day}`)
   }
@@ -73,6 +77,7 @@ export default function App() {
         onStart={startFromHome}
         onOpenDay={openDay}
         isUnlocked={isUnlocked}
+        onLockedDay={() => showToast('Спочатку пройдіть попередній день')}
       />
       {toast ? (
         <p className="toast" role="status">
