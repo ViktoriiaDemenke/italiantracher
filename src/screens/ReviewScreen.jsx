@@ -1,11 +1,13 @@
 import { useMemo, useState } from 'react'
 import SpeakButton from '../components/SpeakButton.jsx'
 import { dueReviewItems } from '../storage.js'
+import { useI18n } from '../i18n.js'
 import '../screens/HomeScreen.css'
 import './Lesson.css'
 import '../components/Learn.css'
 
 export default function ReviewScreen({ state, onGrade, onBack }) {
+  const { t } = useI18n()
   const due = useMemo(() => dueReviewItems(state), [state])
   const [index, setIndex] = useState(0)
   const [flipped, setFlipped] = useState(false)
@@ -22,30 +24,24 @@ export default function ReviewScreen({ state, onGrade, onBack }) {
     <main className="day">
       <header className="day__top">
         <button className="back-btn" type="button" onClick={onBack}>
-          ← Назад
+          {t('back')}
         </button>
       </header>
       <section className="day__hero">
         <span className="badge">SRS</span>
-        <h1 className="day__title">Повторення складних фраз</h1>
-        <p className="day__lead">
-          Тут з’являються фрази, у яких були помилки в квізі. Повторюйте, доки
-          картка не відкладеться на пізніше.
-        </p>
+        <h1 className="day__title">{t('reviewTitle')}</h1>
+        <p className="day__lead">{t('reviewLead')}</p>
       </section>
 
       {due.length === 0 ? (
         <div className="empty-state">
-          <p className="empty-state__title">Поки немає карток на сьогодні</p>
-          <p className="empty-state__text">
-            Помилки з міні-квізу автоматично потраплять сюди. Можна також
-            зберігати фрази дня.
-          </p>
+          <p className="empty-state__title">{t('reviewEmptyTitle')}</p>
+          <p className="empty-state__text">{t('reviewEmptyText')}</p>
         </div>
       ) : (
         <>
           <p className="lesson-progress__label">
-            Картка {Math.min(index + 1, due.length)} з {due.length}
+            {t('cardOf', { index: Math.min(index + 1, due.length), total: due.length })}
           </p>
           <button
             className={`flip-card${flipped ? ' flip-card--flipped' : ''}`}
@@ -54,14 +50,14 @@ export default function ReviewScreen({ state, onGrade, onBack }) {
           >
             <span className="flip-card__inner">
               <span className="flip-card__face flip-card__face--front">
-                <span className="flip-card__kicker">Italiano</span>
+                <span className="flip-card__kicker">{t('italiano')}</span>
                 <span className="flip-card__it">{card.it}</span>
               </span>
               <span className="flip-card__face flip-card__face--back">
-                <span className="flip-card__kicker">Переклад</span>
+                <span className="flip-card__kicker">{t('translation')}</span>
                 <span className="flip-card__uk">{card.uk || '—'}</span>
                 {card.day ? (
-                  <span className="flip-card__context">День {card.day}</span>
+                  <span className="flip-card__context">{t('dayN', { day: card.day })}</span>
                 ) : null}
               </span>
             </span>
@@ -69,10 +65,10 @@ export default function ReviewScreen({ state, onGrade, onBack }) {
           <div className="learn-block__tools">
             <SpeakButton text={card.it} />
             <button className="chip-btn" type="button" onClick={() => grade(false)}>
-              Ще раз
+              {t('again')}
             </button>
             <button className="chip-btn chip-btn--on" type="button" onClick={() => grade(true)}>
-              Знаю
+              {t('know')}
             </button>
           </div>
         </>

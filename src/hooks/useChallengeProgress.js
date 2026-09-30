@@ -14,8 +14,10 @@ import {
   rememberQuizError,
   saveState,
 } from '../storage.js'
+import { useI18n } from '../i18n.js'
 
 export function useChallengeProgress() {
+  const { t } = useI18n()
   const [state, setState] = useState(loadState)
   const [toast, setToast] = useState(null)
   const toastTimer = useRef(null)
@@ -37,12 +39,12 @@ export function useChallengeProgress() {
   }, [])
 
   useEffect(() => {
-    function onVoiceToast(event) {
-      showToast(event.detail || 'Голос недоступний')
+    function onVoiceToast() {
+      showToast(t('voiceUnavailable'))
     }
     window.addEventListener('italian-tracker:toast', onVoiceToast)
     return () => window.removeEventListener('italian-tracker:toast', onVoiceToast)
-  }, [showToast])
+  }, [showToast, t])
 
   const persist = useCallback((next) => {
     setState((prev) => {
@@ -59,13 +61,13 @@ export function useChallengeProgress() {
         const next = markDayComplete(prev, day)
         if (freshlyCompleted) {
           queueMicrotask(() => {
-            showToast(`День ${day} пройдено! 🔥 ${next.streak} Day Streak`)
+            showToast(t('dayDoneToast', { day, streak: next.streak }))
           })
         }
         return next
       })
     },
-    [persist, showToast],
+    [persist, showToast, t],
   )
 
   const stats = progressStats(state.completedDays)
@@ -82,20 +84,20 @@ export function useChallengeProgress() {
 
   const exportBackup = useCallback(() => {
     downloadBackup(state)
-    showToast('Прогрес збережено у JSON')
-  }, [state, showToast])
+    showToast(t('backupSaved'))
+  }, [state, showToast, t])
 
   const importBackup = useCallback(
     async (file) => {
       try {
         const next = await readBackupFile(file)
         persist(next)
-        showToast('Прогрес відновлено')
+        showToast(t('backupRestored'))
       } catch {
-        showToast('Не вдалося імпортувати файл')
+        showToast(t('backupFailed'))
       }
     },
-    [persist, showToast],
+    [persist, showToast, t],
   )
 
   return {

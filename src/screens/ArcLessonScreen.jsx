@@ -9,6 +9,7 @@ import { cycleIdForDay, maxScore } from '../content/loadLesson.js'
 import { buildMiniQuiz, buildPracticeDeck } from '../learn/practice.js'
 import { TOTAL_DAYS } from '../progress.js'
 import { rememberQuizError, rememberSavedPhrases } from '../storage.js'
+import { useI18n } from '../i18n.js'
 import '../screens/HomeScreen.css'
 import './Lesson.css'
 import './Day1Screen.css'
@@ -26,15 +27,14 @@ function mergeDayPhrases(savedPhrases, lesson) {
 }
 
 function LessonProgress({ day, step, steps }) {
+  const { t } = useI18n()
   const dayPercent = Math.round((day / TOTAL_DAYS) * 100)
   const currentStep = steps > 0 ? Math.min(step + 1, steps) : 0
   const stepPercent = steps > 0 ? Math.round((currentStep / steps) * 100) : 0
 
   return (
-    <section className="lesson-progress" aria-label="Прогрес уроку">
-      <p className="lesson-progress__label">
-        День {day} з {TOTAL_DAYS}
-      </p>
+    <section className="lesson-progress" aria-label={t('lessonProgress')}>
+      <p className="lesson-progress__label">{t('dayOf', { day, total: TOTAL_DAYS })}</p>
       <div
         className="progress-bar"
         role="progressbar"
@@ -47,7 +47,7 @@ function LessonProgress({ day, step, steps }) {
       {steps > 0 ? (
         <>
           <p className="lesson-progress__label">
-            Крок {currentStep} з {steps}
+            {t('stepOf', { step: currentStep, total: steps })}
           </p>
           <div
             className="progress-bar"
@@ -65,6 +65,7 @@ function LessonProgress({ day, step, steps }) {
 }
 
 function CompleteControl({ dayCompleted, canComplete, onMarkComplete, hasQuiz }) {
+  const { t } = useI18n()
   if (!onMarkComplete) return null
   const waitingForQuiz = !dayCompleted && !canComplete && hasQuiz
 
@@ -82,10 +83,10 @@ function CompleteControl({ dayCompleted, canComplete, onMarkComplete, hasQuiz })
       }}
     >
       {dayCompleted
-        ? '✓ Day complete'
+        ? t('dayComplete')
         : canComplete
-          ? 'Mark Day as Complete'
-          : 'Пройдіть міні-квіз, щоб продовжити'}
+          ? t('markComplete')
+          : t('finishQuiz')}
     </button>
   )
 }
@@ -98,6 +99,7 @@ function toneClass(tone, selected) {
 }
 
 function DialogueStep({ step, boss, picked, onPick }) {
+  const { t } = useI18n()
   const [slow, setSlow] = useState(false)
   const rate = slow ? 0.75 : 1
 
@@ -133,7 +135,7 @@ function DialogueStep({ step, boss, picked, onPick }) {
               disabled={Boolean(picked)}
               onClick={() => onPick(option)}
             >
-              Обрати
+              {t('choose')}
             </button>
           </article>
         ))}
@@ -168,6 +170,7 @@ export default function ArcLessonScreen({
   isUnlocked,
   onQuizError,
 }) {
+  const { t } = useI18n()
   const boss = lesson.mode === 'boss'
   const hideTranslation = boss
   const quiz = lesson.questions
@@ -260,7 +263,7 @@ export default function ArcLessonScreen({
       <main className="day">
         <header className="day__top">
           <button className="back-btn" type="button" onClick={onBack}>
-            ← Назад
+            {t('back')}
           </button>
           <LessonProgress
             day={lesson.day}
@@ -278,14 +281,14 @@ export default function ArcLessonScreen({
           {lesson.successTitle && lesson.successMessage ? (
             <p className="day__lead">{lesson.successMessage}</p>
           ) : null}
-          <p className="result-score">Real Life Score</p>
+          <p className="result-score">{t('score')}</p>
           <p className="result-score__value">
             {score} / {total}
           </p>
         </section>
         {onContinue ? (
           <button className="btn-primary" type="button" onClick={onContinue}>
-            {continueLabel ?? 'На головну'}
+            {continueLabel ?? t('goHome')}
           </button>
         ) : null}
         <Flashcards key={`flash-done-${lesson.day}`} deck={deck} />
@@ -309,7 +312,7 @@ export default function ArcLessonScreen({
     <main className="day">
       <header className="day__top">
         <button className="back-btn" type="button" onClick={onBack}>
-          ← Назад
+          {t('back')}
         </button>
         <LessonProgress day={lesson.day} step={stepIndex} steps={trackLength} />
       </header>
@@ -338,7 +341,7 @@ export default function ArcLessonScreen({
 
       {lesson.documents.length > 0 ? (
         <>
-          <h2 className="day__section">Документи з собою</h2>
+          <h2 className="day__section">{t('docs')}</h2>
           <ul className="doc-list">
             {lesson.documents.map((doc) => (
               <li key={doc.item} className="phrase-card doc-card">
@@ -357,7 +360,7 @@ export default function ArcLessonScreen({
 
       {lesson.restaurantEtiquette?.length > 0 ? (
         <>
-          <h2 className="day__section">Етикет</h2>
+          <h2 className="day__section">{t('etiquette')}</h2>
           <ul className="doc-list">
             {lesson.restaurantEtiquette.map((item) => (
               <li key={item} className="phrase-card doc-card">
@@ -370,7 +373,7 @@ export default function ArcLessonScreen({
 
       {lesson.housingNuances?.length > 0 ? (
         <>
-          <h2 className="day__section">Нюанси житла</h2>
+          <h2 className="day__section">{t('housing')}</h2>
           <ul className="doc-list">
             {lesson.housingNuances.map((item) => (
               <li key={item} className="phrase-card doc-card">
@@ -383,7 +386,7 @@ export default function ArcLessonScreen({
 
       {lesson.postOfficeTips?.length > 0 ? (
         <>
-          <h2 className="day__section">Пошта: на практиці</h2>
+          <h2 className="day__section">{t('postePractice')}</h2>
           <ul className="doc-list">
             {lesson.postOfficeTips.map((item) => (
               <li key={item} className="phrase-card doc-card">
@@ -396,7 +399,7 @@ export default function ArcLessonScreen({
 
       {lesson.patronatoTips?.length > 0 ? (
         <>
-          <h2 className="day__section">Patronato на практиці</h2>
+          <h2 className="day__section">{t('patronatoPractice')}</h2>
           <ul className="doc-list">
             {lesson.patronatoTips.map((item) => (
               <li key={item} className="phrase-card doc-card">
@@ -409,7 +412,7 @@ export default function ArcLessonScreen({
 
       {lesson.barRules?.length > 0 ? (
         <>
-          <h2 className="day__section">Правила бару</h2>
+          <h2 className="day__section">{t('barRules')}</h2>
           <ul className="doc-list">
             {lesson.barRules.map((item) => (
               <li key={item} className="phrase-card doc-card">
@@ -422,7 +425,7 @@ export default function ArcLessonScreen({
 
       {lesson.supermarketEtiquette?.length > 0 ? (
         <>
-          <h2 className="day__section">Етикет супермаркету</h2>
+          <h2 className="day__section">{t('shopEtiquette')}</h2>
           <ul className="doc-list">
             {lesson.supermarketEtiquette.map((item) => (
               <li key={item} className="phrase-card doc-card">
@@ -435,7 +438,7 @@ export default function ArcLessonScreen({
 
       {lesson.transportTips?.length > 0 ? (
         <>
-          <h2 className="day__section">Транспорт на практиці</h2>
+          <h2 className="day__section">{t('transportPractice')}</h2>
           <ul className="doc-list">
             {lesson.transportTips.map((item) => (
               <li key={item} className="phrase-card doc-card">
@@ -448,7 +451,7 @@ export default function ArcLessonScreen({
 
       {lesson.beautyTips?.length > 0 ? (
         <>
-          <h2 className="day__section">Салон на практиці</h2>
+          <h2 className="day__section">{t('salonPractice')}</h2>
           <ul className="doc-list">
             {lesson.beautyTips.map((item) => (
               <li key={item} className="phrase-card doc-card">
@@ -461,7 +464,7 @@ export default function ArcLessonScreen({
 
       {lesson.phrases.length > 0 ? (
         <>
-          <h2 className="day__section">Фрази</h2>
+          <h2 className="day__section">{t('phrases')}</h2>
           <div className="day__phrase-list">
             {lesson.phrases.map((phrase) => (
               <PhraseCard
@@ -501,7 +504,7 @@ export default function ArcLessonScreen({
             aria-expanded={culturaOpen}
             onClick={() => setCulturaOpen((open) => !open)}
           >
-            💡 Cultura & Tip
+            {t('cultura')}
             <span>{culturaOpen ? '−' : '+'}</span>
           </button>
           {culturaOpen ? <p className="cultura__body">{lesson.culturaTip}</p> : null}
@@ -511,7 +514,7 @@ export default function ArcLessonScreen({
       {hasQuiz && question && !finished ? (
         <>
           <h2 className="day__section">
-            Симуляція · {stepIndex + 1}/{quiz.length}
+            {t('simulation')} · {stepIndex + 1}/{quiz.length}
           </h2>
           <article className="dialogue-card">
             <p className="phrase-card__it">{question.question}</p>
@@ -527,7 +530,7 @@ export default function ArcLessonScreen({
                     type="button"
                     onClick={() => pickQuiz(index)}
                   >
-                    Обрати
+                    {t('choose')}
                   </button>
                 </article>
               ))}
@@ -539,7 +542,7 @@ export default function ArcLessonScreen({
       {!hasQuiz && step ? (
         <>
           <h2 className="day__section">
-            {boss ? 'Симуляція' : 'Діалог'} · {step.step}/{lesson.dialogue.length}
+            {boss ? t('simulation') : t('dialogueHeading')} · {step.step}/{lesson.dialogue.length}
           </h2>
           <DialogueStep step={step} boss={boss} picked={picked} onPick={pick} />
           {picked && !boss ? (
@@ -548,7 +551,7 @@ export default function ArcLessonScreen({
               type="button"
               onClick={last ? onContinue : nextStep}
             >
-              {last ? continueLabel ?? 'Далі' : 'Далі'}
+              {last ? continueLabel ?? t('next') : t('next')}
             </button>
           ) : null}
         </>
@@ -556,13 +559,13 @@ export default function ArcLessonScreen({
 
       {!hasQuiz && lesson.dialogue.length === 0 && onContinue ? (
         <button className="btn-primary" type="button" onClick={onContinue}>
-          {continueLabel ?? 'Далі'}
+          {continueLabel ?? t('next')}
         </button>
       ) : null}
 
       {!boss && onStateChange && lesson.phrases.length > 0 ? (
         <button className="fab" type="button" onClick={saveDayPhrases}>
-          📌 Зберегти фрази дня
+          {t('saveDayPhrases')}
         </button>
       ) : null}
 

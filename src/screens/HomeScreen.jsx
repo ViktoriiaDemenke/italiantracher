@@ -4,6 +4,7 @@ import CycleNav, { MODULE_CYCLES } from '../components/CycleNav.jsx'
 import SavedPhrasesSheet from '../components/SavedPhrasesSheet.jsx'
 import ProgressOverview from '../components/ProgressOverview.jsx'
 import DayGrid from '../components/DayGrid.jsx'
+import { useI18n } from '../i18n.js'
 import './HomeScreen.css'
 
 export default function HomeScreen({
@@ -19,12 +20,13 @@ export default function HomeScreen({
   const [phrasesOpen, setPhrasesOpen] = useState(false)
   const importRef = useRef(null)
   const savedPhrases = state.savedPhrases ?? []
+  const { t } = useI18n()
 
   function openModule(mod) {
     const days = MODULE_CYCLES[mod.id] ?? []
-    const target = days.find((item) => isUnlocked?.(item.day))
+    const target = days.find((day) => isUnlocked?.(day))
     if (target) {
-      onOpenDay(target.day)
+      onOpenDay(target)
       return
     }
     onLockedDay?.()
@@ -33,25 +35,22 @@ export default function HomeScreen({
   return (
     <main className="home">
       <header className="home__hero">
-        <span className="badge">30-Day Challenge</span>
-        <h1 className="home__title">Italian Tracker</h1>
-        <p className="home__lead">
-          30 днів практичної італійської для реального життя в Італії. Опановуй
-          побутові теми, тренуй діалоги та збирай власну колекцію корисних фраз.
-        </p>
+        <span className="badge">{t('challengeBadge')}</span>
+        <h1 className="home__title">{t('appName')}</h1>
+        <p className="home__lead">{t('lead')}</p>
         <div className="home__toolbar">
           <button className="chip-btn" type="button" onClick={onOpenReview}>
-            🔁 Повторення
+            {t('review')}
           </button>
           <button className="chip-btn" type="button" onClick={onExport}>
-            Експорт JSON
+            {t('export')}
           </button>
           <button
             className="chip-btn"
             type="button"
             onClick={() => importRef.current?.click()}
           >
-            Імпорт JSON
+            {t('import')}
           </button>
           <input
             ref={importRef}
@@ -70,7 +69,7 @@ export default function HomeScreen({
           streak={state.streak}
         />
         <button className="btn-primary" type="button" onClick={onStart}>
-          Почати
+          {t('start')}
         </button>
       </header>
 
@@ -83,7 +82,7 @@ export default function HomeScreen({
 
       <section className="home__modules" aria-labelledby="modules-heading">
         <h2 id="modules-heading" className="home__section-title">
-          Модулі
+          {t('modules')}
         </h2>
         <ul className="module-list">
           {CANONICAL_MODULES.map((mod, index) => (
@@ -99,7 +98,7 @@ export default function HomeScreen({
                   </span>
                   <span>
                     <h3 className="card__title">{mod.title}</h3>
-                    <p className="card__subtitle">{mod.subtitle}</p>
+                    <p className="card__subtitle">{t(`module.${mod.id}`)}</p>
                   </span>
                 </button>
                 {MODULE_CYCLES[mod.id] ? (
@@ -123,7 +122,7 @@ export default function HomeScreen({
         aria-expanded={phrasesOpen}
         onClick={() => setPhrasesOpen(true)}
       >
-        📌 Збережені фрази
+        {t('savedPhrases')}
       </button>
 
       <SavedPhrasesSheet

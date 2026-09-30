@@ -1,9 +1,11 @@
 import { useMemo, useState } from 'react'
 import SpeakButton from './SpeakButton.jsx'
 import { shuffleList } from '../learn/practice.js'
+import { useI18n } from '../i18n.js'
 import './Learn.css'
 
 export default function Flashcards({ deck }) {
+  const { t } = useI18n()
   const [order, setOrder] = useState(() => deck.map((_, index) => index))
   const [index, setIndex] = useState(0)
   const [flipped, setFlipped] = useState(false)
@@ -32,7 +34,7 @@ export default function Flashcards({ deck }) {
     <section className="learn-block" aria-labelledby="flashcards-heading">
       <div className="learn-block__head">
         <h2 id="flashcards-heading" className="day__section">
-          Flashcards Mode
+          {t('flashcards')}
         </h2>
         <p className="learn-block__counter">
           {index + 1} / {total}
@@ -42,16 +44,16 @@ export default function Flashcards({ deck }) {
         className={`flip-card${flipped ? ' flip-card--flipped' : ''}`}
         type="button"
         onClick={() => setFlipped((value) => !value)}
-        aria-label={flipped ? 'Показати італійську' : 'Показати переклад'}
+        aria-label={flipped ? t('showItalian') : t('translation')}
       >
         <span className="flip-card__inner">
           <span className="flip-card__face flip-card__face--front">
-            <span className="flip-card__kicker">Italiano</span>
+            <span className="flip-card__kicker">{t('italiano')}</span>
             <span className="flip-card__it">{card.it}</span>
-            <span className="flip-card__hint">Натисніть, щоб перевернути</span>
+            <span className="flip-card__hint">{t('flipHint')}</span>
           </span>
           <span className="flip-card__face flip-card__face--back">
-            <span className="flip-card__kicker">Переклад</span>
+            <span className="flip-card__kicker">{t('translation')}</span>
             <span className="flip-card__uk">{card.uk || '—'}</span>
             {card.context ? (
               <span className="flip-card__context">{card.context}</span>
@@ -62,13 +64,13 @@ export default function Flashcards({ deck }) {
       <div className="learn-block__tools">
         <SpeakButton text={card.it} />
         <button className="chip-btn" type="button" onClick={() => go(index - 1)}>
-          Previous
+          {t('previous')}
         </button>
         <button className="chip-btn" type="button" onClick={() => go(index + 1)}>
-          Next
+          {t('next')}
         </button>
         <button className="chip-btn" type="button" onClick={shuffle}>
-          Shuffle
+          {t('shuffle')}
         </button>
       </div>
     </section>

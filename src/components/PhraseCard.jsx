@@ -1,7 +1,9 @@
 import { useState } from 'react'
 import SpeakButton from './SpeakButton.jsx'
+import { useI18n } from '../i18n.js'
 
 export default function PhraseCard({ phrase, onChoose, hideTranslation = false }) {
+  const { t } = useI18n()
   const [slow, setSlow] = useState(false)
   const [showUk, setShowUk] = useState(false)
   const rate = slow ? 0.75 : 1
@@ -19,7 +21,7 @@ export default function PhraseCard({ phrase, onChoose, hideTranslation = false }
 
       {onChoose ? (
         <button className="btn-primary" type="button" onClick={onChoose}>
-          Обрати
+          {t('choose')}
         </button>
       ) : null}
 
@@ -37,7 +39,7 @@ export default function PhraseCard({ phrase, onChoose, hideTranslation = false }
             type="button"
             onClick={() => setShowUk((value) => !value)}
           >
-            {showUk ? 'Сховати UA' : 'Переклад'}
+            {showUk ? t('hideTranslation') : t('translation')}
           </button>
         )}
       </div>

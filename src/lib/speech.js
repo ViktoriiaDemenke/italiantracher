@@ -4,9 +4,7 @@ export function isSpeechAvailable() {
 
 export function notifyVoiceUnavailable() {
   if (typeof window === 'undefined') return
-  window.dispatchEvent(
-    new CustomEvent('italian-tracker:toast', { detail: 'Голос недоступний' }),
-  )
+  window.dispatchEvent(new CustomEvent('italian-tracker:toast'))
 }
 
 let speakSeq = 0

@@ -2,12 +2,24 @@ import { useState } from 'react'
 import HomeScreen from './screens/HomeScreen.jsx'
 import ArcLessonScreen from './screens/ArcLessonScreen.jsx'
 import ReviewScreen from './screens/ReviewScreen.jsx'
+import Header from './components/Header.jsx'
 import { getLesson, nextAfter, OPEN_DAYS } from './data/lessons.js'
 import { useChallengeProgress } from './hooks/useChallengeProgress.js'
+import { useI18n } from './i18n.js'
 import './components/Progress.css'
+
+function Toast({ toast }) {
+  if (!toast) return null
+  return (
+    <p className="toast" role="status">
+      {toast}
+    </p>
+  )
+}
 
 export default function App() {
   const [screen, setScreen] = useState('home')
+  const { t } = useI18n()
   const progress = useChallengeProgress()
   const {
     state,
@@ -16,7 +28,6 @@ export default function App() {
     isUnlocked,
     isCompleted,
     completeDay,
-    showToast,
     recordQuizError,
     gradeReview,
     exportBackup,
@@ -29,7 +40,7 @@ export default function App() {
 
   function openDay(day) {
     if (!isUnlocked(day)) {
-      showToast('Спочатку пройдіть попередній день')
+      progress.showToast(t('lockedDay'))
       return
     }
     persist({ ...state, started: true, currentDay: day })
@@ -52,27 +63,35 @@ export default function App() {
     setScreen(toScreen)
   }
 
-  if (screen === 'review') {
-    return (
-      <>
-        <ReviewScreen state={state} onGrade={gradeReview} onBack={goHome} />
-        {toast ? (
-          <p className="toast" role="status">
-            {toast}
-          </p>
-        ) : null}
-      </>
-    )
+  function continueLabelFor(day) {
+    const next = nextAfter(day)
+    if (next.screen === 'home') return t('goHome')
+    return t('dayN', { day: next.day })
   }
 
-  const dayMatch = /^day(\d+)$/.exec(screen)
-  if (dayMatch) {
-    const day = Number(dayMatch[1])
-    const lesson = getLesson(day)
-    if (lesson && isUnlocked(day)) {
-      const next = nextAfter(day)
-      return (
-        <>
+  let body = (
+    <HomeScreen
+      state={state}
+      onStart={startFromHome}
+      onOpenDay={openDay}
+      isUnlocked={isUnlocked}
+      onLockedDay={() => progress.showToast(t('lockedDay'))}
+      onOpenReview={() => setScreen('review')}
+      onExport={exportBackup}
+      onImportFile={importBackup}
+    />
+  )
+
+  if (screen === 'review') {
+    body = <ReviewScreen state={state} onGrade={gradeReview} onBack={goHome} />
+  } else {
+    const dayMatch = /^day(\d+)$/.exec(screen)
+    if (dayMatch) {
+      const day = Number(dayMatch[1])
+      const lesson = getLesson(day)
+      if (lesson && isUnlocked(day)) {
+        const next = nextAfter(day)
+        body = (
           <ArcLessonScreen
             lesson={lesson}
             state={state}
@@ -82,37 +101,20 @@ export default function App() {
             isUnlocked={isUnlocked}
             dayCompleted={isCompleted(day)}
             onMarkComplete={() => completeDay(day)}
-            continueLabel={next.label}
+            continueLabel={continueLabelFor(day)}
             onContinue={() => completeAndGo(day, next.screen)}
             onQuizError={recordQuizError}
           />
-          {toast ? (
-            <p className="toast" role="status">
-              {toast}
-            </p>
-          ) : null}
-        </>
-      )
+        )
+      }
     }
   }
 
   return (
     <>
-      <HomeScreen
-        state={state}
-        onStart={startFromHome}
-        onOpenDay={openDay}
-        isUnlocked={isUnlocked}
-        onLockedDay={() => showToast('Спочатку пройдіть попередній день')}
-        onOpenReview={() => setScreen('review')}
-        onExport={exportBackup}
-        onImportFile={importBackup}
-      />
-      {toast ? (
-        <p className="toast" role="status">
-          {toast}
-        </p>
-      ) : null}
+      <Header />
+      {body}
+      <Toast toast={toast} />
     </>
   )
 }

@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from 'react'
 import SpeakButton from './SpeakButton.jsx'
+import { useI18n } from '../i18n.js'
 import './Learn.css'
 
 function looksItalian(text) {
@@ -21,6 +22,7 @@ export default function PracticeQuiz({
   autoScroll = false,
   onMiss,
 }) {
+  const { t } = useI18n()
   const [answers, setAnswers] = useState({})
   const rootRef = useRef(null)
 
@@ -57,11 +59,9 @@ export default function PracticeQuiz({
       aria-labelledby="mini-quiz-heading"
     >
       <h2 id="mini-quiz-heading" className="day__section">
-        End-of-Day Practice Quiz
+        {t('quizTitle')}
       </h2>
-      <p className="day__intro">
-        Дайте відповідь на {total} короткі питання, щоб відкрити позначку дня.
-      </p>
+      <p className="day__intro">{t('quizLead', { total })}</p>
       {questions.map((question, qIndex) => {
         const answer = answers[question.id]
         return (
@@ -99,15 +99,15 @@ export default function PracticeQuiz({
             {answer && !answer.correct ? (
               <p className="quiz-hint">
                 {question.explain
-                  ? `${question.explain} Правильна відповідь: ${question.options[question.correctIndex]}`
-                  : `Правильна відповідь: ${question.options[question.correctIndex]}`}
+                  ? `${question.explain} ${t('correctAnswer', { answer: question.options[question.correctIndex] })}`
+                  : t('correctAnswer', { answer: question.options[question.correctIndex] })}
               </p>
             ) : null}
           </article>
         )
       })}
       {passed ? (
-        <p className="quiz-pass">Усі відповіді правильні. Можна позначити день.</p>
+        <p className="quiz-pass">{t('quizPass')}</p>
       ) : null}
     </section>
   )

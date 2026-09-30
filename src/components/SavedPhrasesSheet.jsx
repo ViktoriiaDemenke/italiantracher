@@ -1,7 +1,9 @@
 import SpeakButton from './SpeakButton.jsx'
+import { useI18n } from '../i18n.js'
 import './Learn.css'
 
 export default function SavedPhrasesSheet({ open, phrases, onClose }) {
+  const { t } = useI18n()
   if (!open) return null
 
   return (
@@ -9,7 +11,7 @@ export default function SavedPhrasesSheet({ open, phrases, onClose }) {
       <button
         className="sheet-backdrop"
         type="button"
-        aria-label="Закрити"
+        aria-label={t('close')}
         onClick={onClose}
       />
       <section
@@ -20,10 +22,10 @@ export default function SavedPhrasesSheet({ open, phrases, onClose }) {
       >
         <header className="sheet__header">
           <h2 id="saved-phrases-title" className="sheet__title">
-            Збережені фрази
+            {t('savedPhrases')}
           </h2>
           <button className="sheet__close" type="button" onClick={onClose}>
-            Закрити
+            {t('close')}
           </button>
         </header>
         {phrases.length === 0 ? (
@@ -31,10 +33,8 @@ export default function SavedPhrasesSheet({ open, phrases, onClose }) {
             <p className="empty-state__icon" aria-hidden="true">
               📌
             </p>
-            <p className="empty-state__title">Поки що порожньо</p>
-            <p className="empty-state__text">
-              Тут будуть ваші збережені фрази з пройдених днів
-            </p>
+            <p className="empty-state__title">{t('savedEmptyTitle')}</p>
+            <p className="empty-state__text">{t('savedEmptyText')}</p>
           </div>
         ) : (
           <ul className="phrase-list">
