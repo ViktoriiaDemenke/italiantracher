@@ -7,19 +7,23 @@
   "phrases": [
     {
       "italian": "Devo spedire questo pacco / questa lettera in Ucraina.",
-      "ukrainian": "Мені потрібно відправити цю посилку / цей лист в Україну."
+      "ukrainian": "Мені потрібно відправити цю посилку / цей лист в Україну.",
+      "translation": "Мені потрібно відправити цю посилку / цей лист в Україну."
     },
     {
       "italian": "Devo pagare questo bollettino postale.",
-      "ukrainian": "Мені потрібно оплатити цю поштову квитанцію."
+      "ukrainian": "Мені потрібно оплатити цю поштову квитанцію.",
+      "translation": "Мені потрібно оплатити цю поштову квитанцію."
     },
     {
       "italian": "Ho ricevuto un avviso di giacenza per una raccomandata.",
-      "ukrainian": "Я отримав(ла) повідомлення про надходження рекомендованого листа."
+      "ukrainian": "Я отримав(ла) повідомлення про надходження рекомендованого листа.",
+      "translation": "Я отримав(ла) повідомлення про надходження рекомендованого листа."
     },
     {
       "italian": "Quale tasto devo premere per prendere il biglietto?",
-      "ukrainian": "Яку кнопку мені потрібно натиснути, щоб взяти талончик?"
+      "ukrainian": "Яку кнопку мені потрібно натиснути, щоб взяти талончик?",
+      "translation": "Яку кнопку мені потрібно натиснути, щоб взяти талончик?"
     }
   ],
   "postOfficeTips": [
@@ -32,11 +36,29 @@
     "rules": [
       {
         "rule": "Відмінювання 'Spedire' (ISC-група): Io spedisco, Tu spedisci, Lui/Lei spedisce.",
-        "examples": ["Spedisco un pacco a mia madre.", "Vuole spedire con posta prioritaria?"]
+        "examples": [
+          {
+            "italian": "Spedisco un pacco a mia madre.",
+            "ukrainian": "Відправляю посилку мамі."
+          },
+          {
+            "italian": "Vuole spedire con posta prioritaria?",
+            "ukrainian": "Хочете відправити пріоритетною поштою?"
+          }
+        ]
       },
       {
         "rule": "Вирази з 'Prendere / Ritirare': 'Ritirare un pacco' (Забрати посилку).",
-        "examples": ["Devo ritirare una raccomandata.", "Dove posso ritirare il pacco?"]
+        "examples": [
+          {
+            "italian": "Devo ritirare una raccomandata.",
+            "ukrainian": "Мені потрібно отримати рекомендований лист."
+          },
+          {
+            "italian": "Dove posso ritirare il pacco?",
+            "ukrainian": "Де я можу отримати посилку?"
+          }
+        ]
       }
     ]
   },

@@ -4,6 +4,7 @@ export const STORAGE_KEY = 'italian_tracker_state_v1'
 export const DEFAULT_STATE = {
   currentDay: 1,
   completedDays: [],
+  unlockedDays: [1],
   started: false,
   savedPhrases: [],
   reviewItems: [],
@@ -35,11 +36,24 @@ export function isDayCompleted(day, completedDays) {
   return uniqueCompleted(completedDays).includes(day)
 }
 
-export function isDayUnlocked(day, completedDays) {
+export function uniqueDays(days) {
+  return uniqueCompleted(days)
+}
+
+export function deriveUnlockedDays(state) {
+  const completed = uniqueCompleted(state.completedDays)
+  return uniqueDays([
+    1,
+    ...(state.unlockedDays ?? []),
+    ...completed.map((day) => Math.min(TOTAL_DAYS, day + 1)),
+  ])
+}
+
+export function isDayUnlocked(day, completedDays, unlockedDays) {
   if (day < 1 || day > TOTAL_DAYS) return false
   if (day === 1) return true
-  const done = uniqueCompleted(completedDays)
-  return done.includes(day) || done.includes(day - 1)
+  if ((unlockedDays ?? []).includes(Number(day))) return true
+  return uniqueCompleted(completedDays).includes(day - 1)
 }
 
 export function progressStats(completedDays) {
@@ -56,14 +70,19 @@ export function nextStreak(streak, lastActivityDate, today) {
 }
 
 export function applyStaleStreak(state, today = todayISO()) {
-  const last = state.lastActivityDate
+  const merged = {
+    ...DEFAULT_STATE,
+    ...state,
+    unlockedDays: deriveUnlockedDays({ ...DEFAULT_STATE, ...state }),
+  }
+  const last = merged.lastActivityDate
   if (!last) {
-    return { ...DEFAULT_STATE, ...state, streak: state.streak ?? 0 }
+    return { ...merged, streak: merged.streak ?? 0 }
   }
   if (last === today || last === addCalendarDays(today, -1)) {
-    return { ...DEFAULT_STATE, ...state, streak: state.streak ?? 0 }
+    return { ...merged, streak: merged.streak ?? 0 }
   }
-  return { ...DEFAULT_STATE, ...state, streak: 0 }
+  return { ...merged, streak: 0 }
 }
 
 export function markDayComplete(state, day, today = todayISO()) {
@@ -76,11 +95,17 @@ export function markDayComplete(state, day, today = todayISO()) {
     ? state.streak ?? 0
     : nextStreak(state.streak ?? 0, state.lastActivityDate, today)
   const following = Math.min(TOTAL_DAYS, day + 1)
+  const unlockedDays = uniqueDays([
+    1,
+    ...(state.unlockedDays ?? [1]),
+    following,
+  ])
 
   return {
     ...state,
     started: true,
     completedDays: nextCompleted,
+    unlockedDays,
     streak,
     lastActivityDate: alreadyDone ? state.lastActivityDate ?? today : today,
     currentDay: alreadyDone ? state.currentDay : following,

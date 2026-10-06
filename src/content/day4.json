@@ -7,37 +7,71 @@
   "phrases": [
     {
       "italian": "Devo iscrivermi al Servizio Sanitario Nazionale.",
-      "ukrainian": "Мені потрібно зареєструватися в Національній службі охорони здоров'я."
+      "ukrainian": "Мені потрібно зареєструватися в Національній службі охорони здоров'я.",
+      "translation": "Мені потрібно зареєструватися в Національній службі охорони здоров'я."
     },
     {
       "italian": "Devo scegliere un medico di base.",
-      "ukrainian": "Мені потрібно обрати сімейного лікаря."
+      "ukrainian": "Мені потрібно обрати сімейного лікаря.",
+      "translation": "Мені потрібно обрати сімейного лікаря."
     },
     {
       "italian": "È vicino a casa mia.",
-      "ukrainian": "Це близько до мого дому."
+      "ukrainian": "Це близько до мого дому.",
+      "translation": "Це близько до мого дому."
     },
     {
       "italian": "Dove devo andare in caso di emergenza?",
-      "ukrainian": "Куди мені звертатися у разі невідкладної ситуації?"
+      "ukrainian": "Куди мені звертатися у разі невідкладної ситуації?",
+      "translation": "Куди мені звертатися у разі невідкладної ситуації?"
     }
   ],
   "documentsRequired": [
-    "Passaporto / Carta d'identità",
-    "Permesso di soggiorno",
-    "Codice fiscale",
-    "Dichiarazione di residenza"
+    {
+      "item": "Passaporto / Carta d'identità",
+      "ukrainian": "Паспорт / посвідчення особи"
+    },
+    {
+      "item": "Permesso di soggiorno",
+      "ukrainian": "Дозвіл на проживання"
+    },
+    {
+      "item": "Codice fiscale",
+      "ukrainian": "Податковий код"
+    },
+    {
+      "item": "Dichiarazione di residenza",
+      "ukrainian": "Декларація про місце проживання"
+    }
   ],
   "grammar": {
     "title": "Медична термінологія та право на допомогу",
     "rules": [
       {
         "rule": "Використання виразу 'Avere diritto a...' (Ha diritto all'iscrizione).",
-        "examples": ["Ha diritto all'iscrizione gratuita.", "Ho diritto al medico di base."]
+        "examples": [
+          {
+            "italian": "Ha diritto all'iscrizione gratuita.",
+            "ukrainian": "Ви маєте право на безкоштовну реєстрацію."
+          },
+          {
+            "italian": "Ho diritto al medico di base.",
+            "ukrainian": "Я маю право на сімейного лікаря."
+          }
+        ]
       },
       {
         "rule": "Вказування відстані: 'vicino a...' (близько до...).",
-        "examples": ["Il medico è vicino a casa mia.", "L'ufficio è vicino al Comune."]
+        "examples": [
+          {
+            "italian": "Il medico è vicino a casa mia.",
+            "ukrainian": "Лікар близько від мого дому."
+          },
+          {
+            "italian": "L'ufficio è vicino al Comune.",
+            "ukrainian": "Офіс близько від комуни."
+          }
+        ]
       }
     ]
   },

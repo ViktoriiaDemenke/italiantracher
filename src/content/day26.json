@@ -12,32 +12,50 @@
       "options": [
         {
           "text": "Buongiorno! Vorrei due biglietti per l'autobus urbano, per favore.",
+          "translation": "Доброго дня! Два квитки на міський автобус, будь ласка.",
           "isCorrect": true,
           "feedback": "Чудово! Ви чітко попросили міські квитки."
         },
         {
           "text": "Ciao, vorrei fare la domanda per l'ISEE.",
+          "translation": "Привіт, хочу подати заяву на ISEE.",
           "isCorrect": false,
           "feedback": "У тютюновому кіоску не оформлюють соціальні довідки ISEE."
+        },
+        {
+          "text": "Vorrei due marche da bollo e una ricetta del medico, per l’autobus.",
+          "translation": "Дві марки da bollo і рецепт лікаря для автобуса.",
+          "isCorrect": false,
+          "feedback": "У Tabacchi для цієї сцени купують міські квитки, не марки й не рецепти."
         }
-      ]
+      ],
+      "translation": "Доброго дня! Кажіть, будь ласка."
     },
     {
       "step": 2,
       "speaker": "Tabaccaio",
-      "text": "Certamente. Corsa semplice da 90 minuti? Sono 3 euro in totale.",
+      "text": "Certamente. È una corsa semplice da 90 minuti? Sono 3 euro in totale.",
       "options": [
         {
-          "text": "Sì, va benissimo. Ecco 3 euro. Devo convalidarli a bordo?",
-          "isCorrect": true,
-          "feedback": "Ідеально! Ви розплатилися та уточнили правило компостування."
+          "text": "Non voglio pagare il biglietto.",
+          "translation": "Я не хочу платити за квиток.",
+          "isCorrect": false,
+          "feedback": "Без квитка ви ризикуєте отримати штраф у транспорті."
         },
         {
-          "text": "Non voglio pagare il biglietto.",
+          "text": "No, vorrei un abbonamento annuale del treno regionale, lo stampi ora.",
+          "translation": "Ні, хочу річний абонемент на регіональний потяг, роздрукуйте зараз.",
           "isCorrect": false,
-          "feedback": "Без квитка ви ризикуєте отримати штраф у транспорту."
+          "feedback": "Йдеться про прості квитки 90 хвилин; їх треба оплатити й компостувати в автобусі."
+        },
+        {
+          "text": "Sì, va benissimo. Ecco 3 euro. Devo convalidarli a bordo?",
+          "translation": "Так, добре. Ось 3 євро. Їх треба компостувати в салоні?",
+          "isCorrect": true,
+          "feedback": "Ідеально! Ви розплатилися та уточнили правило компостування."
         }
-      ]
+      ],
+      "translation": "Звісно. Це проста поїздка на 90 хвилин? Разом 3 євро."
     },
     {
       "step": 3,
@@ -46,10 +64,24 @@
       "options": [
         {
           "text": "Perfetto, grazie mille e buona giornata!",
+          "translation": "Чудово, дуже дякую і гарного дня!",
           "isCorrect": true,
           "feedback": "Дякуємо та прямуємо на зупинку."
+        },
+        {
+          "text": "Allora non serve il biglietto, c’è sempre il controllore amico.",
+          "translation": "Тоді квиток не потрібен, контролер завжди свій.",
+          "isCorrect": false,
+          "feedback": "Квиток обов’язковий; контролер перевіряє саме прокомпостований."
+        },
+        {
+          "text": "Timbro il biglietto a casa, prima di uscire, così è più comodo.",
+          "translation": "Проштампую квиток удома, перед виходом, так зручніше.",
+          "isCorrect": false,
+          "feedback": "Компостують після посадки в автобус, у валідаторі."
         }
-      ]
+      ],
+      "translation": "Так, саме так! Щойно сядете в автобус, проштампуйте квиток у апараті. До побачення!"
     },
     {
       "step": 4,
@@ -57,16 +89,25 @@
       "text": "Buongiorno! Aspetta anche lei il numero 7 per la stazione?",
       "options": [
         {
+          "text": "Vorrei un cornetto al cioccolato.",
+          "translation": "Я хотів би круасан з шоколадом.",
+          "isCorrect": false,
+          "feedback": "На зупинці автобуса не замовляють випічку."
+        },
+        {
           "text": "Buongiorno! Sì, sa a che ora passa il prossimo autobus?",
+          "translation": "Доброго дня! Так, ви не знаєте, о котрій наступний автобус?",
           "isCorrect": true,
           "feedback": "Чудово! Ви ввічливо дізналися розклад у пасажира."
         },
         {
-          "text": "Vorrei un cornetto al cioccolato.",
+          "text": "No, aspetto il taxi per l’aeroporto. Che vino avete?",
+          "translation": "Ні, чекаю таксі в аеропорт. Яке у вас вино?",
           "isCorrect": false,
-          "feedback": "На зупинці автобуса не замовляють випічку."
+          "feedback": "На зупинці питають про автобус і розклад, не про вино."
         }
-      ]
+      ],
+      "translation": "Доброго дня! Ви теж чекаєте сімку до вокзалу?"
     },
     {
       "step": 5,
@@ -74,11 +115,25 @@
       "text": "Dovrebbe arrivare tra cinque minuti. Guardi, sta arrivando proprio adesso!",
       "options": [
         {
+          "text": "Convalido il biglietto del vicino, il mio lo tengo pulito.",
+          "translation": "Прокомпостую квиток сусіда, свій залишу чистим.",
+          "isCorrect": false,
+          "feedback": "Кожен пасажир валідує свій квиток."
+        },
+        {
+          "text": "Salgo senza convalidare, tanto sono solo due fermate.",
+          "translation": "Сяду без компостування, лише дві зупинки.",
+          "isCorrect": false,
+          "feedback": "Квиток компостують одразу після посадки, навіть на коротку поїздку."
+        },
+        {
           "text": "Ottimo, grazie! Ricordiamoci di convalidare il biglietto appena saliamo.",
+          "translation": "Чудово, дякую! Не забуваймо прокомпостувати квиток, щойно сядемо.",
           "isCorrect": true,
           "feedback": "Правильно! Головне — одразу завалідувати квиток."
         }
-      ]
+      ],
+      "translation": "Має бути хвилин за п’ять. Дивіться, він саме під’їжджає!"
     },
     {
       "step": 6,
@@ -86,11 +141,25 @@
       "text": "Buongiorno, controllo biglietti! Mi mostra il suo biglietto convalidato, per favore?",
       "options": [
         {
+          "text": "Non parlo italiano, quindi il controllo non vale.",
+          "translation": "Я не розмовляю італійською, тому перевірка не діє.",
+          "isCorrect": false,
+          "feedback": "Контроль діє для всіх; квиток треба показати."
+        },
+        {
           "text": "Buongiorno! Certamente, ecco il mio biglietto timbrato poco fa.",
+          "translation": "Доброго дня! Звісно, ось мій квиток, щойно проштампований.",
           "isCorrect": true,
           "feedback": "Чудово! Ваш квиток прокомпостований і поїздка проходить безтурботно."
+        },
+        {
+          "text": "Il biglietto l’ho lasciato in tabaccheria, mi riconosce.",
+          "translation": "Квиток я залишив у тютюновій крамниці, ви мене впізнаєте.",
+          "isCorrect": false,
+          "feedback": "Контролеру показують проштампований квиток."
         }
-      ]
+      ],
+      "translation": "Доброго дня, перевірка квитків! Покажіть прокомпостований квиток, будь ласка?"
     }
   ],
   "culturaTip": "В італійських міських автобусах вхід зазвичай здійснюється через передні або задні двері, а вихід — через середні (Uscita)."

@@ -1,8 +1,8 @@
 import { useEffect, useState } from 'react'
-import { isSpeechAvailable, speakItalian } from '../lib/speech.js'
+import { DEFAULT_SPEECH_RATE, isSpeechAvailable, speakItalian, stopSpeech } from '../lib/speech.js'
 import { useI18n } from '../i18n.js'
 
-export default function SpeakButton({ text, rate = 1, label }) {
+export default function SpeakButton({ text, rate = DEFAULT_SPEECH_RATE, label }) {
   const { t } = useI18n()
   const speakLabel = label || t('speak')
   const offLabel = t('voiceUnavailable')
@@ -12,17 +12,17 @@ export default function SpeakButton({ text, rate = 1, label }) {
   )
 
   useEffect(() => {
-    return () => {
-      if (typeof window !== 'undefined' && window.speechSynthesis) {
-        window.speechSynthesis.cancel()
-      }
-    }
+    return () => stopSpeech()
   }, [])
 
-  function play() {
-    if (!isSpeechAvailable()) {
+  function toggle() {
+    if (unavailable || !isSpeechAvailable()) {
       setUnavailable(true)
-      speakItalian(text, { onUnavailable: () => setUnavailable(true) })
+      return
+    }
+    if (playing) {
+      stopSpeech()
+      setPlaying(false)
       return
     }
     setPlaying(true)
@@ -41,15 +41,16 @@ export default function SpeakButton({ text, rate = 1, label }) {
     <button
       className={`speak-btn${playing ? ' speak-btn--playing' : ''}${unavailable ? ' speak-btn--off' : ''}`}
       type="button"
+      disabled={unavailable}
       aria-label={unavailable ? offLabel : speakLabel}
       title={unavailable ? offLabel : speakLabel}
       aria-pressed={playing}
       onClick={(event) => {
         event.stopPropagation()
-        play()
+        toggle()
       }}
     >
-      {unavailable ? '🔇' : '🔊'}
+      {unavailable ? '🔇' : playing ? '⏹' : '🔊'}
     </button>
   )
 }

@@ -7,19 +7,23 @@
   "phrases": [
     {
       "italian": "Vorrei prendere un appuntamento per un taglio uomo e una manicure.",
-      "ukrainian": "Я б хотів(ла) записатися на чоловічу стрижку та манікюр."
+      "ukrainian": "Я б хотів(ла) записатися на чоловічу стрижку та манікюр.",
+      "translation": "Я б хотів(ла) записатися на чоловічу стрижку та манікюр."
     },
     {
-      "italian": "Solo una spuntata alle punte e la piega, per favore.",
-      "ukrainian": "Тільки підрівняти кінчики та зробити укладку, будь ласка."
+      "italian": "Vorrei solo una spuntata alle punte e la piega, per favore.",
+      "ukrainian": "Тільки підрівняти кінчики та зробити укладку, будь ласка.",
+      "translation": "Тільки підрівняти кінчики та зробити укладку, будь ласка."
     },
     {
       "italian": "Vorrei fare lo smalto semipermanente e togliere quello vecchio.",
-      "ukrainian": "Я б хотіла зробити гель-лак (семіперманенте) та зняти старий."
+      "ukrainian": "Я б хотіла зробити гель-лак (семіперманент) та зняти старий.",
+      "translation": "Я б хотіла зробити гель-лак (семіперманент) та зняти старий."
     },
     {
       "italian": "Vorrei accorciare i capelli ai lati e regolare la barba.",
-      "ukrainian": "Я б хотів вкоротити волосся з боків та підрівняти бороду."
+      "ukrainian": "Я б хотів вкоротити волосся з боків та підрівняти бороду.",
+      "translation": "Я б хотів вкоротити волосся з боків та підрівняти бороду."
     }
   ],
   "beautyTips": [
@@ -32,11 +36,29 @@
     "rules": [
       {
         "rule": "Ввічливий запис через 'Vorrei': 'Vorrei prenotare...' (Я б хотів(ла) забронювати...), 'Vorrei fare...' (Я б хотів(ла) зробити...).",
-        "examples": ["Vorrei prenotare per giovedì pomeriggio.", "Vorrei fare la barba."]
+        "examples": [
+          {
+            "italian": "Vorrei prenotare per giovedì pomeriggio.",
+            "ukrainian": "Я хотів би записатися на четвер після обіду."
+          },
+          {
+            "italian": "Vorrei fare la barba.",
+            "ukrainian": "Я хотів би підстригти бороду / поголитися."
+          }
+        ]
       },
       {
         "rule": "Дії з волоссям та нігтями: 'Accorciare' (вкорочувати), 'Spuntare' (підрізати кінчики), 'Togliere' (знімати).",
-        "examples": ["Vorrei solo spuntare di un centimetro.", "Devo togliere lo smalto."]
+        "examples": [
+          {
+            "italian": "Vorrei solo spuntare di un centimetro.",
+            "ukrainian": "Хочу лише підрівняти на сантиметр."
+          },
+          {
+            "italian": "Devo togliere lo smalto.",
+            "ukrainian": "Мені потрібно зняти лак."
+          }
+        ]
       }
     ]
   },

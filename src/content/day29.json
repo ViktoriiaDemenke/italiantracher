@@ -12,15 +12,24 @@
       "options": [
         {
           "text": "Buongiorno! Vorrei prendere un appuntamento per venerdì: un taglio uomo con barba e una manicure con semipermanente.",
+          "translation": "Доброго дня! Хочу записатися на п’ятницю: чоловіча стрижка з бородою і манікюр із гель-лаком.",
           "isCorrect": true,
           "feedback": "Чудово! Ви одразу назвали всі потрібні послуги для чоловіка та жінки."
         },
         {
+          "text": "Vorrei un appuntamento per il medico di base e la voltura del gas.",
+          "translation": "Хочу запис до сімейного лікаря і переоформлення газу.",
+          "isCorrect": false,
+          "feedback": "У салоні записуються на стрижку, бороду, манікюр — не на ASL чи комуналку."
+        },
+        {
           "text": "Ciao, vorrei comprare un biglietto per l'autobus.",
+          "translation": "Привіт, хочу купити квиток на автобус.",
           "isCorrect": false,
           "feedback": "У салоні краси не продають автобусні квитки."
         }
-      ]
+      ],
+      "translation": "Салон Bella Vita, доброго дня! Чим можу допомогти?"
     },
     {
       "step": 2,
@@ -28,16 +37,25 @@
       "text": "Perfetto. Per la manicure deve anche rimuovere lo smalto precedente?",
       "options": [
         {
+          "text": "No, vorrei fare la dichiarazione dei redditi.",
+          "translation": "Ні, хочу подати декларацію про доходи.",
+          "isCorrect": false,
+          "feedback": "Це стосується бухгалтерських послуг, а не манікюру."
+        },
+        {
           "text": "Sì, devo togliere il gel vecchio e fare la manicure completa.",
+          "translation": "Так, треба зняти старий гель і зробити повний манікюр.",
           "isCorrect": true,
           "feedback": "Ідеально! Попередження про зняття гель-лаку важливе для розрахунку часу."
         },
         {
-          "text": "No, vorrei fare la dichiarazione dei redditi.",
+          "text": "No, lascio lo smalto vecchio e aggiungo tre strati sopra, via WhatsApp.",
+          "translation": "Ні, залишу старий лак і додам три шари зверху через WhatsApp.",
           "isCorrect": false,
-          "feedback": "Це стосується бухгалтерських послуг, а не манікюру."
+          "feedback": "Для нової процедури часто треба зняти старий гель; майстер питає саме це."
         }
-      ]
+      ],
+      "translation": "Чудово. Для манікюру потрібно також зняти попередній лак?"
     },
     {
       "step": 3,
@@ -45,11 +63,25 @@
       "text": "Va bene, abbiamo posto venerdì alle 15:00 per entrambi. Ci vediamo venerdì!",
       "options": [
         {
+          "text": "Alle 15:00 vengo solo io, Marco si taglia i capelli da solo a casa.",
+          "translation": "О 15:00 прийду лише я, Марко сам підстрижеться вдома.",
+          "isCorrect": false,
+          "feedback": "Запис був на двох; підтверджують обидва імена."
+        },
+        {
+          "text": "Venerdì no, vengo quando c’è posto, senza nome.",
+          "translation": "У п’ятницю ні, прийду коли буде місце, без імені.",
+          "isCorrect": false,
+          "feedback": "Потрібно підтвердити день, годину і імена для запису."
+        },
+        {
           "text": "Ottimo, venerdì alle 15:00! A nome di Laura e Marco. Grazie mille e arrivederci!",
+          "translation": "Чудово, п’ятниця о 15:00! На ім’я Лаура і Марко. Дуже дякую, до побачення!",
           "isCorrect": true,
           "feedback": "Правильно! Ви підтвердили час та залишили ім'я для запису."
         }
-      ]
+      ],
+      "translation": "Добре, у п’ятницю о 15:00 є місце для обох. До зустрічі в п’ятницю!"
     },
     {
       "step": 4,
@@ -57,16 +89,25 @@
       "text": "Buongiorno Marco! Come facciamo oggi con i capelli e la barba?",
       "options": [
         {
+          "text": "Faccia tutto rasato a zero, anche le sopracciglia, senza chiedere.",
+          "translation": "Зробіть усе налисо, навіть брови, не питаючи.",
+          "isCorrect": false,
+          "feedback": "Марко просить трохи вкоротити боки і акуратно підрівняти бороду, не налисо."
+        },
+        {
           "text": "Buongiorno! Vorrei accorciare i capelli ai lati e regolare la barba, ma senza tagliarla troppo corta.",
+          "translation": "Доброго дня! Хочу вкоротити волосся з боків і підрівняти бороду, але не стригти її занадто коротко.",
           "isCorrect": true,
           "feedback": "Чудово! Марко чітко пояснив бачення своєї стрижки та бороди."
         },
         {
           "text": "Vorrei convalidare il biglietto del treno.",
+          "translation": "Хочу прокомпостувати квиток на потяг.",
           "isCorrect": false,
           "feedback": "Квитки компостують на вокзалі, а не в кріслі барбера."
         }
-      ]
+      ],
+      "translation": "Доброго дня, Марко! Як сьогодні зробимо волосся і бороду?"
     },
     {
       "step": 5,
@@ -75,15 +116,24 @@
       "options": [
         {
           "text": "Buongiorno! Vorrei la forma mandorla e un colore nudo naturale con il semipermanente.",
+          "translation": "Доброго дня! Хочу форму мигдалю і природний нюдовий колір із гель-лаком.",
           "isCorrect": true,
           "feedback": "Чудово! Лаура обрала форму (мигдаль) та природний колір."
         },
         {
           "text": "Ho la febbre e il naso che cola.",
+          "translation": "У мене температура і нежить.",
           "isCorrect": false,
           "feedback": "Це симптоми хвороби для лікаря, а не для майстра манікюру."
+        },
+        {
+          "text": "Vorrei unghie lunghissime stiletto rosso fluo e glitter in tre minuti.",
+          "translation": "Хочу дуже довгі нігті стилет, флуоресцентний червоний і глітер за три хвилини.",
+          "isCorrect": false,
+          "feedback": "Лаура обирає форму mandorla і спокійний nude, не екстремальний дизайн за три хвилини."
         }
-      ]
+      ],
+      "translation": "Доброго дня, Лауро! Яку форму і який колір нігтів бажаєте сьогодні?"
     },
     {
       "step": 6,
@@ -91,11 +141,25 @@
       "text": "Ecco a voi! In totale per il taglio uomo, barba, manicure e semipermanente sono 65 euro. Pagate insieme o separatamente?",
       "options": [
         {
+          "text": "Paghiamo in francobolli e torniamo dopo per il resto.",
+          "translation": "Платимо марками і повернемося потім по решту.",
+          "isCorrect": false,
+          "feedback": "Рахунок закривають одразу карткою або готівкою, разом чи окремо."
+        },
+        {
+          "text": "Paghiamo separati, ma Laura paga anche il taglio di Marco in contanti ucraini.",
+          "translation": "Платимо окремо, але Лаура платить і за стрижку Марка українською готівкою.",
+          "isCorrect": false,
+          "feedback": "Платять у євро прийнятим способом; тут логічно разом карткою."
+        },
+        {
           "text": "Paghiamo insieme con la carta. Grazie mille, siamo molto contenti del risultato!",
+          "translation": "Платимо разом карткою. Дуже дякуємо, ми дуже задоволені результатом!",
           "isCorrect": true,
           "feedback": "Відмінно! Ви зробили оплату карткою та подякували майстрам."
         }
-      ]
+      ],
+      "translation": "Ось вам! Разом за чоловічу стрижку, бороду, манікюр і гель-лак 65 євро. Платите разом чи окремо?"
     }
   ],
   "culturaTip": "В італійських салонах краси завжди цінують зворотний зв'язок під час процедури. Якщо вода занадто гаряча або майстер зрізає забагато довжини, спокійно скажіть: 'Scusi, l'acqua è troppo calda' або 'Un po' più lungo, per favore'."

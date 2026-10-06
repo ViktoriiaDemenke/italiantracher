@@ -22,6 +22,8 @@ function asOptions(options) {
       tone,
       isCorrect: tone === 'natural' || Boolean(option.isCorrect),
       feedback: String(option.feedback ?? ''),
+      translation: String(option.translation ?? option.ukrainian ?? ''),
+      hint: String(option.hint ?? ''),
       points,
     }
   })
@@ -40,11 +42,22 @@ export function loadLesson(raw, fallbackDay) {
   const documents = Array.isArray(data.documents)
     ? data.documents
     : Array.isArray(data.documentsRequired)
-      ? data.documentsRequired.map((item) => ({ item, ukrainian: '' }))
+      ? data.documentsRequired.map((item) =>
+          typeof item === 'string'
+            ? { item, ukrainian: '' }
+            : {
+                item: String(item.item ?? ''),
+                ukrainian: String(item.ukrainian ?? item.translation ?? ''),
+              },
+        )
       : []
   const phrases = Array.isArray(data.phrases)
     ? data.phrases.map((phrase, index) => ({
         ...phrase,
+        italian: String(phrase.italian ?? ''),
+        ukrainian: String(phrase.ukrainian ?? phrase.translation ?? ''),
+        translation: String(phrase.translation ?? phrase.ukrainian ?? ''),
+        hint: String(phrase.hint ?? ''),
         audio_id: phrase.audio_id ?? `d${data.day ?? fallbackDay}_p${index + 1}`,
       }))
     : []
@@ -92,6 +105,7 @@ export function loadLesson(raw, fallbackDay) {
           step: step.step ?? index + 1,
           speaker: String(step.speaker ?? ''),
           text: String(step.text ?? ''),
+          translation: String(step.translation ?? step.ukrainian ?? ''),
           options: asOptions(step.options),
         }))
       : [],

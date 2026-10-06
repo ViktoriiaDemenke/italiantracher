@@ -7,19 +7,23 @@
   "phrases": [
     {
       "italian": "Vorrei fissare un appuntamento per fare il modello ISEE.",
-      "ukrainian": "Я б хотів(ла) призначити зустріч для оформлення довідки ISEE."
+      "ukrainian": "Я б хотів(ла) призначити зустріч для оформлення довідки ISEE.",
+      "translation": "Я б хотів(ла) призначити зустріч для оформлення довідки ISEE."
     },
     {
       "italian": "Vorrei fare la domanda per l'Assegno Unico per mia figlia.",
-      "ukrainian": "Я б хотів(ла) подати заявку на щомісячну допомогу на дитину."
+      "ukrainian": "Я б хотів(ла) подати заявку на щомісячну допомогу на дитину.",
+      "translation": "Я б хотів(ла) подати заявку на щомісячну допомогу на дитину."
     },
     {
       "italian": "Quali documenti servono per la richiesta?",
-      "ukrainian": "Які документи потрібні для подачі заявки?"
+      "ukrainian": "Які документи потрібні для подання заяви?",
+      "translation": "Які документи потрібні для подання заяви?"
     },
     {
       "italian": "Ho bisogno di aiuto per la dichiarazione dei redditi.",
-      "ukrainian": "Мені потрібна допомога з податковою декларацією."
+      "ukrainian": "Мені потрібна допомога з податковою декларацією.",
+      "translation": "Мені потрібна допомога з податковою декларацією."
     }
   ],
   "patronatoTips": [
@@ -32,11 +36,29 @@
     "rules": [
       {
         "rule": "Вирази з 'Fare': 'Fare la domanda' (подавати заяву), 'Fare l'ISEE' (робити розрахунок ISEE).",
-        "examples": ["Voglio fare la domanda per il bonus nido.", "Devo fare l'ISEE aggiornato."]
+        "examples": [
+          {
+            "italian": "Voglio fare la domanda per il bonus nido.",
+            "ukrainian": "Хочу подати заяву на bonus nido."
+          },
+          {
+            "italian": "Devo fare l'ISEE aggiornato.",
+            "ukrainian": "Мені потрібно зробити оновлений ISEE."
+          }
+        ]
       },
       {
         "rule": "Різниця 'Serve' (однина) / 'Servono' (множина): 'Потрібен / Потрібні'.",
-        "examples": ["Serve la carta d'identità?", "Servono tutti i documenti dei familiari."]
+        "examples": [
+          {
+            "italian": "Serve la carta d'identità?",
+            "ukrainian": "Потрібне посвідчення особи?"
+          },
+          {
+            "italian": "Servono tutti i documenti dei familiari.",
+            "ukrainian": "Потрібні всі документи членів сім’ї."
+          }
+        ]
       }
     ]
   },

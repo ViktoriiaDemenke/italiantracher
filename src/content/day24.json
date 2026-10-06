@@ -22,7 +22,7 @@
       "options": [
         "Одягнути одноразові пластикові рукавички (guanti).",
         "Оплатити їх на касі заздалегідь.",
-        "Запитати дозвіл у охоронця."
+        "Запитати дозвіл в охоронця."
       ],
       "correctAnswer": 0,
       "explanation": "Правила гігієни в Італії вимагають використання рукавичок для вибору овочів/фруктів."
@@ -53,9 +53,9 @@
       "id": "p5",
       "question": "Як попросити тонко нарізати шинку (прошутто)?",
       "options": [
-        "Tagliato sottile, per favore.",
-        "In un pezzo grande.",
-        "Senza acqua frizzante."
+        "Lo tagli sottile, per favore.",
+        "Lo voglio in un pezzo grande.",
+        "Lo voglio senza acqua frizzante."
       ],
       "correctAnswer": 0,
       "explanation": "'Tagliato sottile' = тонко нарізаний."

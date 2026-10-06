@@ -1,3 +1,6 @@
+export const DEFAULT_SPEECH_RATE = 0.75
+export const FAST_SPEECH_RATE = 1
+
 export function isSpeechAvailable() {
   return typeof window !== 'undefined' && 'speechSynthesis' in window
 }
@@ -19,7 +22,14 @@ function pickItalianVoice() {
   )
 }
 
-export function speakItalian(text, { rate = 1, onStart, onEnd, onUnavailable } = {}) {
+export function stopSpeech() {
+  speakSeq += 1
+  if (typeof window !== 'undefined' && window.speechSynthesis) {
+    window.speechSynthesis.cancel()
+  }
+}
+
+export function speakItalian(text, { rate = DEFAULT_SPEECH_RATE, onStart, onEnd, onUnavailable } = {}) {
   const fail = () => {
     onUnavailable?.()
     notifyVoiceUnavailable()
@@ -37,7 +47,7 @@ export function speakItalian(text, { rate = 1, onStart, onEnd, onUnavailable } =
     return () => {}
   }
 
-  window.speechSynthesis.cancel()
+  stopSpeech()
   const seq = ++speakSeq
   const utterance = new SpeechSynthesisUtterance(value)
   utterance.lang = 'it-IT'
@@ -55,7 +65,12 @@ export function speakItalian(text, { rate = 1, onStart, onEnd, onUnavailable } =
     onStart?.()
   }
   utterance.onend = finish
-  utterance.onerror = () => {
+  utterance.onerror = (event) => {
+    const reason = event?.error
+    if (reason === 'interrupted' || reason === 'canceled') {
+      finish()
+      return
+    }
     fail()
   }
 
@@ -78,6 +93,6 @@ export function speakItalian(text, { rate = 1, onStart, onEnd, onUnavailable } =
   }
 
   return () => {
-    if (seq === speakSeq) window.speechSynthesis.cancel()
+    if (seq === speakSeq) stopSpeech()
   }
 }

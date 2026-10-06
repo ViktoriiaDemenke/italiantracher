@@ -12,15 +12,24 @@
       "options": [
         {
           "text": "Buongiorno! Vorrei un cappuccino, un caffè macchiato e due brioche.",
+          "translation": "Доброго дня! Я хотів би капучино, каву макіато і дві бріоші.",
           "isCorrect": true,
           "feedback": "Чудово! Ви чітко назвали замовлення на касі."
         },
         {
+          "text": "Vorrei un pranzo di tre portate e il conto separato per dieci.",
+          "translation": "Хочу обід із трьох страв і окремий рахунок на десятьох.",
+          "isCorrect": false,
+          "feedback": "У барі зранку замовляють каву і brioche, не повноцінний обід."
+        },
+        {
           "text": "Ciao, dammi una pizza grande.",
+          "translation": "Привіт, дай велику піцу.",
           "isCorrect": false,
           "feedback": "Зранку в барі замовляють каву та випічку (cornetto/brioche)."
         }
-      ]
+      ],
+      "translation": "Доброго дня! Що вам приготувати?"
     },
     {
       "step": 2,
@@ -28,16 +37,25 @@
       "text": "Perfetto. Le brioche come le preferisce? Abbiamo vuote, alla marmellata o al cioccolato?",
       "options": [
         {
-          "text": "Una alla marmellata e una al cioccolato, per favore.",
+          "text": "Voglio il codice fiscale.",
+          "translation": "Хочу код фіскале.",
+          "isCorrect": false,
+          "feedback": "Це не стосується вибору випічки в барі."
+        },
+        {
+          "text": "Vorrei una alla marmellata e una al cioccolato, per favore.",
+          "translation": "Одну з джемом і одну з шоколадом, будь ласка.",
           "isCorrect": true,
           "feedback": "Ідеально! Ви обрали начинку для випічки."
         },
         {
-          "text": "Voglio il codice fiscale.",
+          "text": "Tutte e due vuote, ma con panna e nutella sopra, da asporto caldo.",
+          "translation": "Обидві порожні, але зі збитими вершками і нутеллою зверху, на виніс гарячими.",
           "isCorrect": false,
-          "feedback": "Це не стосується вибору випічки в барі."
+          "feedback": "Касир пропонує vuote, marmellata або cioccolato — оберіть із цих начинок."
         }
-      ]
+      ],
+      "translation": "Чудово. Які бріоші бажаєте? Є порожні, з джемом або з шоколадом."
     },
     {
       "step": 3,
@@ -45,11 +63,25 @@
       "text": "Sono 5 euro e 20 in totale. Prego, ecco lo scontrino. Può lasciarlo al banco.",
       "options": [
         {
+          "text": "Porti tutto al tavolo con il servizio al tavolo, come al ristorante.",
+          "translation": "Несіть усе за столик з обслуговуванням, як у ресторані.",
+          "isCorrect": false,
+          "feedback": "У типовому барі після каси йдуть al banco, не чекають офіціанта."
+        },
+        {
+          "text": "Lo scontrino lo lascio a casa, vado al tavolo senza pagare.",
+          "translation": "Чек залишу вдома, піду за столик не платячи.",
+          "isCorrect": false,
+          "feedback": "Чек відносять бариста на стійку (banco), оплата вже на касі."
+        },
+        {
           "text": "Grazie mille! Vado subito al banco.",
+          "translation": "Дуже дякую! Зараз іду до стійки.",
           "isCorrect": true,
           "feedback": "Правильно! Тепер з чеком підходимо до бариста."
         }
-      ]
+      ],
+      "translation": "Разом 5 євро 20. Прошу, ось чек. Можете залишити його на стійці."
     },
     {
       "step": 4,
@@ -57,16 +89,25 @@
       "text": "Buongiorno! Mi lascia pure lo scontrino. Il macchiato lo preferisce caldo o freddo?",
       "options": [
         {
-          "text": "Macchiato caldo, per favore. E possiamo avere anche due bicchieri d'acqua naturale?",
+          "text": "Vorrei un macchiato ghiacciato con panna e sciroppo, e niente acqua.",
+          "translation": "Хочу макіато з льодом, вершками і сиропом, і без води.",
+          "isCorrect": false,
+          "feedback": "Бариста питає caldo або freddo; вода naturale — звичайне ввічливе доповнення."
+        },
+        {
+          "text": "Vorrei il macchiato caldo, per favore. E possiamo avere anche due bicchieri d'acqua naturale?",
+          "translation": "Макіато гаряче, будь ласка. І можна ще дві склянки негазованої води?",
           "isCorrect": true,
           "feedback": "Чудово! Ви уточнили температуру молока та попросили воду."
         },
         {
           "text": "Non voglio il caffè.",
+          "translation": "Я не хочу каву.",
           "isCorrect": false,
           "feedback": "Ви вже оплатили каву на касі."
         }
-      ]
+      ],
+      "translation": "Доброго дня! Залиште чек. Макіато хочете гаряче чи холодне?"
     },
     {
       "step": 5,
@@ -75,10 +116,24 @@
       "options": [
         {
           "text": "Grazie mille, gentilissimo! Buona giornata.",
+          "translation": "Дуже дякую, дуже люб’язно! Гарного дня.",
           "isCorrect": true,
           "feedback": "Ввічливий і гарний фінал спілкування з бариста!"
+        },
+        {
+          "text": "Il cappuccino è troppo italiano, lo cambio con una pizza.",
+          "translation": "Капучино занадто італійський, міняю на піцу.",
+          "isCorrect": false,
+          "feedback": "Замовлення вже готове; дякують і бажають гарного дня."
+        },
+        {
+          "text": "Non dico grazie, qui non si usa.",
+          "translation": "Не кажу дякую, тут так не заведено.",
+          "isCorrect": false,
+          "feedback": "Подяка бариста — нормальна ввічливість."
         }
-      ]
+      ],
+      "translation": "Ось вам! Капучино, гаряче макіато, дві бріоші і вода. Смачного!"
     }
   ],
   "culturaTip": "Чайові (mancia) в італійських барах не є обов'язковими. Проте люди часто залишають монету 20 або 50 центів на чеку біля стійки як знак подяки."

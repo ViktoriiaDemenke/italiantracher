@@ -9,7 +9,7 @@
       "id": "p1",
       "question": "Що потрібно зробити одразу при вході до відділення Poste Italiane?",
       "options": [
-        "Взяти талончик (ticket) у електронному терміналі біля входу.",
+        "Взяти талончик (ticket) в електронному терміналі біля входу.",
         "Одразу йти до віконця без черги.",
         "Заплатити за вхід у касу."
       ],
@@ -53,9 +53,9 @@
       "id": "p5",
       "question": "Як називається номер для перевірки статусу та місцезнаходження посилки в інтернеті?",
       "options": [
-        "Codice fiscale.",
-        "Codice di tracciamento.",
-        "Numero di telefono."
+        "Il codice fiscale.",
+        "Il codice di tracciamento.",
+        "Il numero di telefono."
       ],
       "correctAnswer": 1,
       "explanation": "'Codice di tracciamento' = трек-номер для відстеження."

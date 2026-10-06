@@ -75,6 +75,7 @@ export default function HomeScreen({
 
       <DayGrid
         completedDays={state.completedDays}
+        unlockedDays={state.unlockedDays}
         currentDay={state.currentDay}
         onOpenDay={onOpenDay}
         onLockedDay={onLockedDay}

@@ -4,6 +4,7 @@ import './Progress.css'
 
 export default function DayGrid({
   completedDays,
+  unlockedDays,
   currentDay,
   onOpenDay,
   onLockedDay,
@@ -21,7 +22,7 @@ export default function DayGrid({
       <ol className="day-grid">
         {days.map((day) => {
           const done = isDayCompleted(day, completedDays)
-          const unlocked = isDayUnlocked(day, completedDays)
+          const unlocked = isDayUnlocked(day, completedDays, unlockedDays)
           const active = currentDay === day && unlocked && !done
           const className = [
             'day-tile',

@@ -4,6 +4,38 @@
   "module": "Iscriversi al SSN e Medico di Base",
   "type": "Interactive Dialogue",
   "story": "Лаура заходить у відділення ASL і підходить до віконця (sportello). Працівниця перевіряє її документи та підтверджує право на безкоштовну реєстрацію в SSN.",
+  "phrases": [
+    {
+      "italian": "Buongiorno, mi scusi. Devo iscrivermi al Servizio Sanitario Nazionale. È questo lo sportello giusto?",
+      "translation": "Доброго дня, вибачте. Мені потрібно зареєструватися в Національній службі охорони здоров'я. Це правильне віконце?",
+      "ukrainian": "Доброго дня, вибачте. Мені потрібно зареєструватися в Національній службі охорони здоров'я. Це правильне віконце?"
+    },
+    {
+      "italian": "Ecco il passaporto, il permesso di soggiorno, il codice fiscale e la dichiarazione di residenza.",
+      "translation": "Ось паспорт, дозвіл на проживання, податковий код і декларація про місце проживання.",
+      "ukrainian": "Ось паспорт, дозвіл на проживання, податковий код і декларація про місце проживання."
+    },
+    {
+      "italian": "No, non ancora. Come posso sceglierlo? Posso vedere la lista dei medici disponibili?",
+      "translation": "Ні, ще ні. Як я можу його обрати? Можу подивитися список доступних лікарів?",
+      "ukrainian": "Ні, ще ні. Як я можу його обрати? Можу подивитися список доступних лікарів?"
+    },
+    {
+      "italian": "Sì, mi sembra comodo. È vicino a casa mia, scelgo questo.",
+      "translation": "Так, мені здається зручним. Він близько від дому, обираю цього.",
+      "ukrainian": "Так, мені здається зручним. Він близько від дому, обираю цього."
+    },
+    {
+      "italian": "Grazie! E se ho un problema urgente la sera o nel fine settimana?",
+      "translation": "Дякую! А якщо в мене термінова проблема ввечері або у вихідні?",
+      "ukrainian": "Дякую! А якщо в мене термінова проблема ввечері або у вихідні?"
+    },
+    {
+      "italian": "Molte grazie per la spiegazione! Buona giornata.",
+      "translation": "Щиро дякую за пояснення! Гарного дня.",
+      "ukrainian": "Щиро дякую за пояснення! Гарного дня."
+    }
+  ],
   "dialogue": [
     {
       "step": 1,
@@ -13,14 +45,23 @@
         {
           "text": "Buongiorno, mi scusi. Devo iscrivermi al Servizio Sanitario Nazionale. È questo lo sportello giusto?",
           "isCorrect": true,
+          "translation": "Доброго дня, вибачте. Мені потрібно зареєструватися в Національній службі охорони здоров'я. Це правильне віконце?",
           "feedback": "Чудово! Дуже ввічливий та чіткий початок розмови."
         },
         {
+          "text": "Scusi, sono qui per il rinnovo del passaporto. Dove faccio la coda?",
+          "translation": "Вибачте, я тут для продовження паспорта. Де черга?",
+          "isCorrect": false,
+          "feedback": "Паспорт тут не продовжують. В ASL оформлюють реєстрацію в SSN і сімейного лікаря."
+        },
+        {
           "text": "Ciao, voglio la tessera sanitaria subito.",
+          "translation": "Привіт, хочу tessera sanitaria негайно.",
           "isCorrect": false,
           "feedback": "Занадто грубо. Завжди кажемо 'Buongiorno' та використовуємо 'Devo...' або 'Vorrei...'."
         }
-      ]
+      ],
+      "translation": "Доброго дня. Скажіть, чим можу допомогти?"
     },
     {
       "step": 2,
@@ -28,16 +69,25 @@
       "text": "Sì, buongiorno. Mi mostri i documenti, per favore.",
       "options": [
         {
+          "text": "Ho solo la carta d'identità.",
+          "translation": "У мене лише посвідчення особи.",
+          "isCorrect": false,
+          "feedback": "Неповний комплект. Для первинної реєстрації в ASL обов'язково потрібен також Permesso di Soggiorno та Codice Fiscale."
+        },
+        {
           "text": "Ecco il passaporto, il permesso di soggiorno, il codice fiscale e la dichiarazione di residenza.",
           "isCorrect": true,
+          "translation": "Ось паспорт, дозвіл на проживання, податковий код і декларація про місце проживання.",
           "feedback": "Ідеально! Ви надали повний необхідний пакет документів."
         },
         {
-          "text": "Ho solo la carta d'identità.",
+          "text": "I documenti sono a casa, li mando dopo per email.",
+          "translation": "Документи вдома, надішлю потім електронною поштою.",
           "isCorrect": false,
-          "feedback": "Неповний комплект. Для первинної реєстрації в ASL обов'язково потрібен також Permesso di Soggiorno та Codice Fiscale."
+          "feedback": "Для реєстрації в ASL потрібні оригінали документів одразу, не пізніше поштою."
         }
-      ]
+      ],
+      "translation": "Так, доброго дня. Покажіть документи, будь ласка."
     },
     {
       "step": 3,
@@ -45,16 +95,25 @@
       "text": "Perfetto. Con il suo permesso di soggiorno ha diritto all’iscrizione gratuita. Ha già un medico di base?",
       "options": [
         {
-          "text": "No, non ancora. Come posso sceglierlo? Posso vedere la lista dei medici disponibili?",
-          "isCorrect": true,
-          "feedback": "Правильно! Ви запитуєте про список доступних лікарів у вашому районі."
+          "text": "Sì, ho già il medico di base in Ucraina. Va bene lo stesso?",
+          "translation": "Так, у мене вже є сімейний лікар в Україні. Так теж підходить?",
+          "isCorrect": false,
+          "feedback": "Для SSN потрібен лікар, який працює в Італії, у вашому районі ASL."
         },
         {
           "text": "Sì, ho già la ricevuta dell'Anagrafe.",
+          "translation": "Так, у мене вже є квитанція з Anagrafe.",
           "isCorrect": false,
           "feedback": "Не за адресою. Квитанція з Anagrafe — це документ про резиденцію, а не обраний сімейний лікар."
+        },
+        {
+          "text": "No, non ancora. Come posso sceglierlo? Posso vedere la lista dei medici disponibili?",
+          "isCorrect": true,
+          "translation": "Ні, ще ні. Як я можу його обрати? Можу подивитися список доступних лікарів?",
+          "feedback": "Правильно! Ви запитуєте про список доступних лікарів у вашому районі."
         }
-      ]
+      ],
+      "translation": "Чудово. З вашим permesso di soggiorno ви маєте право на безкоштовну реєстрацію. У вас уже є сімейний лікар?"
     },
     {
       "step": 4,
@@ -62,11 +121,25 @@
       "text": "Le mostro una lista dei medici disponibili nella sua zona. Questo medico è vicino a casa sua e ha posto.",
       "options": [
         {
+          "text": "Mi dia il primo della lista, non importa chi è.",
+          "translation": "Дайте першого зі списку, байдуже хто.",
+          "isCorrect": false,
+          "feedback": "Краще свідомо обрати лікаря з доступних у вашому районі."
+        },
+        {
           "text": "Sì, mi sembra comodo. È vicino a casa mia, scelgo questo.",
           "isCorrect": true,
+          "translation": "Так, мені здається зручним. Він близько від дому, обираю цього.",
           "feedback": "Чудово! Ви підтвердили свій вибір."
+        },
+        {
+          "text": "No, preferisco un medico in un’altra città, lontano da casa.",
+          "translation": "Ні, я хочу лікаря в іншому місті, далеко від дому.",
+          "isCorrect": false,
+          "feedback": "Зазвичай обирають лікаря з місцями саме у своїй зоні ASL, ближче до дому."
         }
-      ]
+      ],
+      "translation": "Показую список доступних лікарів у вашому районі. Цей лікар близько від вашого дому і має місце."
     },
     {
       "step": 5,
@@ -76,9 +149,23 @@
         {
           "text": "Grazie! E se ho un problema urgente la sera o nel fine settimana?",
           "isCorrect": true,
+          "translation": "Дякую! А якщо в мене термінова проблема ввечері або у вихідні?",
           "feedback": "Дуже практичне запитання щодо чергової медичної служби!"
+        },
+        {
+          "text": "Devo pagare duecento euro per la tessera, vero?",
+          "translation": "Я маю заплатити двісті євро за картку, так?",
+          "isCorrect": false,
+          "feedback": "З permesso di soggiorno реєстрація в SSN для цього випадку безкоштовна."
+        },
+        {
+          "text": "La tessera definitiva arriva oggi, la aspetto qui tre ore.",
+          "translation": "Остаточна картка прийде сьогодні, почекаю тут три години.",
+          "isCorrect": false,
+          "feedback": "Сьогодні видають тимчасову картку; пластикову надсилають пізніше."
         }
-      ]
+      ],
+      "translation": "Чудово, зараз зареєструю. Ось ваша тимчасова медична картка."
     },
     {
       "step": 6,
@@ -86,11 +173,25 @@
       "text": "Per le urgenze serali e nei festivi c’è la guardia medica. Per le emergenze gravi c’è il pronto soccorso, aperto 24 ore su 24.",
       "options": [
         {
+          "text": "Allora vado sempre al pronto soccorso anche per un raffreddore.",
+          "translation": "Тоді завжди йду в pronto soccorso навіть із застудою.",
+          "isCorrect": false,
+          "feedback": "Pronto soccorso — для важких випадків. Для звичайних — сімейний лікар або guardia medica."
+        },
+        {
+          "text": "La guardia medica è solo per i turisti, vero?",
+          "translation": "Guardia medica лише для туристів, так?",
+          "isCorrect": false,
+          "feedback": "Guardia medica — нічна/вихідна допомога для жителів, не лише для туристів."
+        },
+        {
           "text": "Molte grazie per la spiegazione! Buona giornata.",
           "isCorrect": true,
+          "translation": "Щиро дякую за пояснення! Гарного дня.",
           "feedback": "Чудовий фінал розмови!"
         }
-      ]
+      ],
+      "translation": "Для вечірніх і святкових невідкладних випадків є guardia medica. Для важких — pronto soccorso, відкритий цілодобово."
     }
   ],
   "culturaTip": "Пам'ятайте різницю: Guardia Medica працює вночі та у вихідні дні для невідкладних побутових випадків. Pronto Soccorso — це цілодобова швидка/приймальне відділення для важких та загрозливих ситуацій."

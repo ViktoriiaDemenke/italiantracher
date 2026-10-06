@@ -54,9 +54,9 @@ export default function Flashcards({ deck }) {
           </span>
           <span className="flip-card__face flip-card__face--back">
             <span className="flip-card__kicker">{t('translation')}</span>
-            <span className="flip-card__uk">{card.uk || '—'}</span>
-            {card.context ? (
-              <span className="flip-card__context">{card.context}</span>
+            <span className="flip-card__uk">{card.translation || card.uk || '—'}</span>
+            {card.hint ? (
+              <span className="flip-card__context">{card.hint}</span>
             ) : null}
           </span>
         </span>

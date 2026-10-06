@@ -11,16 +11,25 @@
       "text": "Buongiorno! Avete prenotato o cercate un tavolo?",
       "options": [
         {
-          "text": "Buongiorno! Abbiamo una prenotazione a nome Marco per due persone.",
-          "isCorrect": true,
-          "feedback": "Чудово! Ви чітко вказали ім'я бронювання."
+          "text": "Abbiamo già mangiato, vogliamo solo usare il bagno.",
+          "translation": "Ми вже поїли, хочемо лише скористатися туалетом.",
+          "isCorrect": false,
+          "feedback": "Офіціант питає про столик або бронь, а не про туалет."
         },
         {
           "text": "Ciao, voglio mangiare subito.",
+          "translation": "Привіт, хочу їсти зараз.",
           "isCorrect": false,
           "feedback": "Занадто неформально. Використовуйте 'Buongiorno' та ввічливий тон."
+        },
+        {
+          "text": "Buongiorno! Abbiamo una prenotazione a nome Marco per due persone.",
+          "translation": "Доброго дня! У нас бронювання на ім’я Marco на двох осіб.",
+          "isCorrect": true,
+          "feedback": "Чудово! Ви чітко вказали ім'я бронювання."
         }
-      ]
+      ],
+      "translation": "Доброго дня! Ви бронювали чи шукаєте столик?"
     },
     {
       "step": 2,
@@ -28,16 +37,25 @@
       "text": "Perfetto, venite pure. Ecco il menu. Da bere cosa vi porto per iniziare?",
       "options": [
         {
+          "text": "Vorrei due Coca-Cola grandi con ghiaccio e limone, come al fast food.",
+          "translation": "Дві великі кока-коли з льодом і лимоном, як у фастфуді.",
+          "isCorrect": false,
+          "feedback": "У траторії природніше замовити воду і вино; тон має бути ввічливим."
+        },
+        {
           "text": "Una bottiglia d'acqua naturale e due calici di vino della casa, grazie.",
+          "translation": "Пляшку негазованої води і два келихи домашнього вина, дякую.",
           "isCorrect": true,
           "feedback": "Ідеально! Ви одразу уточнили тип води (naturale)."
         },
         {
           "text": "Dammi dell'acqua e basta.",
+          "translation": "Дай води і все.",
           "isCorrect": false,
           "feedback": "Неввічливо (звернення на 'ти'). Краще сказати: 'Un'acqua naturale, per favore'."
         }
-      ]
+      ],
+      "translation": "Чудово, заходьте. Ось меню. Що принести випити на початок?"
     },
     {
       "step": 3,
@@ -46,15 +64,24 @@
       "options": [
         {
           "text": "Sì! Come primo prendiamo due tagliatelle al ragù, e come secondo una tagliata di manzo da dividere.",
+          "translation": "Так! На перше візьмемо дві тальятелле з рагу, а на друге — тальяту з яловичини на двох.",
           "isCorrect": true,
           "feedback": "Чудово! Ви правильно розділили замовлення на Primo (перша страва) та Secondo (друга страва)."
         },
         {
           "text": "Vorrei un cappuccino e una pizza al ragù.",
+          "translation": "Я хотів би капучино і піцу з рагу.",
           "isCorrect": false,
           "feedback": "Капучино не замовляють під час обіду з пастою, а 'pizza al ragù' — це нестандартне поєднання."
+        },
+        {
+          "text": "Porti tutto insieme, non importa l’ordine dei piatti.",
+          "translation": "Несіть усе разом, порядок страв не важливий.",
+          "isCorrect": false,
+          "feedback": "В Італії спочатку primo, потім secondo; так і замовляють."
         }
-      ]
+      ],
+      "translation": "Готові замовляти страви?"
     },
     {
       "step": 4,
@@ -62,16 +89,25 @@
       "text": "Ottima scelta! Desiderate un dolce o un caffè alla fine?",
       "options": [
         {
-          "text": "Un tiramisù e due caffè espresso, per favore.",
-          "isCorrect": true,
-          "feedback": "Класичний італійський фінал обіду!"
-        },
-        {
-          "text": "Due cappuccini grandi, grazie.",
+          "text": "Vorrei due cappuccini grandi, grazie.",
+          "translation": "Два великі капучино, дякую.",
           "isCorrect": false,
           "feedback": "Пам'ятайте: ввечері та після обіду італійці замовляють еспресо, а не капучино."
+        },
+        {
+          "text": "Vorrei un tè al latte e una birra grande, dopo la pasta.",
+          "translation": "Чай з молоком і велике пиво після пасти.",
+          "isCorrect": false,
+          "feedback": "Після обіду типово espresso або десерт, не капучино і не чай з молоком."
+        },
+        {
+          "text": "Vorrei un tiramisù e due caffè espresso, per favore.",
+          "translation": "Тірамісу і дві кави еспресо, будь ласка.",
+          "isCorrect": true,
+          "feedback": "Класичний італійський фінал обіду!"
         }
-      ]
+      ],
+      "translation": "Чудовий вибір! Бажаєте десерт чи каву наприкінці?"
     },
     {
       "step": 5,
@@ -80,10 +116,24 @@
       "options": [
         {
           "text": "No, grazie. Quando è possibile, possiamo avere il conto?",
+          "translation": "Ні, дякую. Коли можна, принесіть рахунок?",
           "isCorrect": true,
           "feedback": "Ідеальна фраза для того, щоб попросити чек."
+        },
+        {
+          "text": "Possiamo uscire senza pagare, torniamo domani.",
+          "translation": "Можемо вийти не платячи, повернемося завтра.",
+          "isCorrect": false,
+          "feedback": "Рахунок треба закрити перед виходом."
+        },
+        {
+          "text": "Sì, vorrei un altro primo. Il conto lo porti da solo, senza chiedere.",
+          "translation": "Так, ще одне перше. Рахунок принесіть самі, не питаючи.",
+          "isCorrect": false,
+          "feedback": "Чек просять фразою «Il conto, per favore», його не чекають мовчки і не додають зайву страву без потреби."
         }
-      ]
+      ],
+      "translation": "Чудово, зараз принесуть. Ще щось потрібно?"
     },
     {
       "step": 6,
@@ -91,11 +141,25 @@
       "text": "Certamente! Pagate insieme o separati? Accettiamo anche la carta.",
       "options": [
         {
+          "text": "Paghiamo in banconote da duecento, senza mancia e senza scontrino.",
+          "translation": "Платимо купюрами по двісті, без чайових і без чека.",
+          "isCorrect": false,
+          "feedback": "Нормально платити карткою або готівкою й обов’язково взяти чек."
+        },
+        {
           "text": "Paghiamo con la carta, insieme. Grazie mille, tutto buonissimo!",
+          "translation": "Платимо карткою, разом. Дуже дякуємо, усе було чудово!",
           "isCorrect": true,
           "feedback": "Чудове завершення обіду та комплімент кухні!"
+        },
+        {
+          "text": "Dividiamo il conto in dieci parti uguali, anche per chi non ha mangiato.",
+          "translation": "Поділимо рахунок на десять рівних частин, навіть для тих, хто не їв.",
+          "isCorrect": false,
+          "feedback": "Зазвичай платять insieme або separati на тих, хто сидів за столом."
         }
-      ]
+      ],
+      "translation": "Звісно! Платите разом чи окремо? Приймаємо також картку."
     }
   ],
   "culturaTip": "В Італії чек не приносять автоматично одразу після того, як ви доїли — це вважається квапленням гостя. Ви маєте самі сказати офіціанту: 'Il conto, per favore'."

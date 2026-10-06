@@ -3,7 +3,7 @@
   "title": "Boss Level 🏆: Симуляція обіду в італійському ресторані",
   "module": "Al Ristorante e in Trattoria",
   "type": "Boss Level Simulation",
-  "story": "Фінальний іспит модуля! Ви самостійно замовляєте обід у траторії, спілкуєтеся з офіціантом, обираєте правильні напої та розраховуєтесь. Підказки та переклад вимкнено!",
+  "story": "Фінальний іспит модуля! Ви самостійно замовляєте обід у траторії, спілкуєтеся з офіціантом, обираєте правильні напої та розраховуєтеся. Підказки та переклад вимкнено!",
   "questions": [
     {
       "id": "p1",
@@ -31,16 +31,16 @@
       "id": "p3",
       "question": "Яку каву прийнято замовляти в Італії одразу після обіду?",
       "options": [
-        "Un cappuccino grande.",
-        "Un caffè espresso.",
-        "Un tè freddo con latte."
+        "Vorrei un cappuccino grande.",
+        "Vorrei un caffè espresso.",
+        "Vorrei un tè freddo con latte."
       ],
       "correctAnswer": 1,
       "explanation": "Після їжі італійці п'ють еспресо для покращення травлення."
     },
     {
       "id": "p4",
-      "question": "Як правильно просити чек у офіціанта?",
+      "question": "Як правильно просити чек в офіціанта?",
       "options": [
         "Possiamo avere il conto, per favore?",
         "Dammi il prezzo della pizza.",
@@ -53,9 +53,9 @@
       "id": "p5",
       "question": "Як уточнити офіціанту, що ви бажаєте звичайну воду без газу?",
       "options": [
-        "Acqua frizzante.",
-        "Acqua naturale.",
-        "Acqua con vino."
+        "Vorrei dell'acqua frizzante.",
+        "Vorrei dell'acqua naturale.",
+        "Vorrei dell'acqua con il vino."
       ],
       "correctAnswer": 1,
       "explanation": "'Acqua naturale' = вода без газу."

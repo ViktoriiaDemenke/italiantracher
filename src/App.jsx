@@ -3,7 +3,8 @@ import HomeScreen from './screens/HomeScreen.jsx'
 import ArcLessonScreen from './screens/ArcLessonScreen.jsx'
 import ReviewScreen from './screens/ReviewScreen.jsx'
 import Header from './components/Header.jsx'
-import { getLesson, nextAfter, OPEN_DAYS } from './data/lessons.js'
+import { getLesson, OPEN_DAYS } from './data/lessons.js'
+import { uniqueDays, TOTAL_DAYS } from './progress.js'
 import { useChallengeProgress } from './hooks/useChallengeProgress.js'
 import { useI18n } from './i18n.js'
 import './components/Progress.css'
@@ -26,7 +27,6 @@ export default function App() {
     persist,
     toast,
     isUnlocked,
-    isCompleted,
     completeDay,
     recordQuizError,
     gradeReview,
@@ -43,7 +43,7 @@ export default function App() {
       progress.showToast(t('lockedDay'))
       return
     }
-    persist({ ...state, started: true, currentDay: day })
+    persist((prev) => ({ ...prev, started: true, currentDay: day }))
     setScreen(`day${day}`)
   }
 
@@ -58,15 +58,18 @@ export default function App() {
     openDay(day)
   }
 
-  function completeAndGo(fromDay, toScreen) {
-    completeDay(fromDay)
-    setScreen(toScreen)
-  }
-
-  function continueLabelFor(day) {
-    const next = nextAfter(day)
-    if (next.screen === 'home') return t('goHome')
-    return t('dayN', { day: next.day })
+  function startUnlockedDay(nextDay) {
+    if (!nextDay || nextDay > TOTAL_DAYS) {
+      setScreen('home')
+      return
+    }
+    persist((prev) => ({
+      ...prev,
+      started: true,
+      currentDay: nextDay,
+      unlockedDays: uniqueDays([...(prev.unlockedDays ?? [1]), nextDay]),
+    }))
+    setScreen(`day${nextDay}`)
   }
 
   let body = (
@@ -90,20 +93,18 @@ export default function App() {
       const day = Number(dayMatch[1])
       const lesson = getLesson(day)
       if (lesson && isUnlocked(day)) {
-        const next = nextAfter(day)
         body = (
           <ArcLessonScreen
+            key={day}
             lesson={lesson}
             state={state}
             onBack={goHome}
             onStateChange={persist}
             onOpenDay={openDay}
             isUnlocked={isUnlocked}
-            dayCompleted={isCompleted(day)}
             onMarkComplete={() => completeDay(day)}
-            continueLabel={continueLabelFor(day)}
-            onContinue={() => completeAndGo(day, next.screen)}
             onQuizError={recordQuizError}
+            onStartNextDay={startUnlockedDay}
           />
         )
       }

@@ -11,16 +11,25 @@
       "text": "Buongiorno! Chi è il prossimo? Numero 42!",
       "options": [
         {
-          "text": "Buongiorno! Sono io il numero 42.",
-          "isCorrect": true,
-          "feedback": "Чудово! Ви вчасно відповіли на свій номер у черзі."
+          "text": "Il numero non conta, passo avanti perché ho fretta.",
+          "translation": "Номер не важливий, проходжу вперед, бо поспішаю.",
+          "isCorrect": false,
+          "feedback": "У гастрономії черга за номером; відповідають, коли викликали ваш."
         },
         {
           "text": "Ciao, voglio formaggio subito.",
+          "translation": "Привіт, хочу сир зараз.",
           "isCorrect": false,
           "feedback": "Не забувайте про ввічливість та дотримання черги."
+        },
+        {
+          "text": "Buongiorno! Sono io il numero 42.",
+          "translation": "Доброго дня! Це я, номер 42.",
+          "isCorrect": true,
+          "feedback": "Чудово! Ви вчасно відповіли на свій номер у черзі."
         }
-      ]
+      ],
+      "translation": "Доброго дня! Хто наступний? Номер 42!"
     },
     {
       "step": 2,
@@ -28,33 +37,51 @@
       "text": "Dica pure, cosa le preparo?",
       "options": [
         {
+          "text": "Vorrei un chilo di latte e due bottiglie di pane, tagliati sottili.",
+          "translation": "Хочу кіло молока і дві пляшки хліба, тонко нарізані.",
+          "isCorrect": false,
+          "feedback": "Тут замовляють нарізку: etti/grammi прошуто і шматок пармезану."
+        },
+        {
           "text": "Vorrei due etti di prosciutto di Parma e un pezzo di Parmigiano Reggiano, per favore.",
+          "translation": "Я хотів би два етто пармської шинки і шматок пармезану Реджано, будь ласка.",
           "isCorrect": true,
           "feedback": "Ідеально! Ви правильно використали одиницю виміру 'due etti' (200 грамів)."
         },
         {
           "text": "Dammi tre litri di prosciutto.",
+          "translation": "Дай три літри шинки.",
           "isCorrect": false,
           "feedback": "Прошутто вимірюється в грамах/кілограмах ('etti' або 'grammi'), а не в літрах."
         }
-      ]
+      ],
+      "translation": "Кажіть, що вам приготувати?"
     },
     {
       "step": 3,
       "speaker": "Commesso",
-      "text": "Tagliato sottile il prosciutto? E il Parmigiano va bene questo pezzo da trecento grammi?",
+      "text": "Lo taglio sottile, il prosciutto? E per il Parmigiano va bene questo pezzo da trecento grammi?",
       "options": [
         {
-          "text": "Sì, il prosciutto tagliato sottile. E il pezzo di formaggio va benissimo, grazie.",
+          "text": "Sì, il prosciutto lo voglio tagliato sottile. E il pezzo di formaggio va benissimo, grazie.",
+          "translation": "Так, шинку тонко. І шматок сиру цілком підходить, дякую.",
           "isCorrect": true,
           "feedback": "Чудово! Ви уточнили нарізку ('tagliato sottile' = тонко нарізаний)."
         },
         {
           "text": "No, non mi piace l'Anagrafe.",
+          "translation": "Ні, мені не подобається Anagrafe.",
           "isCorrect": false,
           "feedback": "Це не стосується покупки продуктів."
+        },
+        {
+          "text": "Lo tagli a cubetti grandi e il formaggio lo assaggio tutto prima.",
+          "translation": "Наріжте великими кубиками, а сир я весь спробую спочатку.",
+          "isCorrect": false,
+          "feedback": "Уточнюють нарізку (sottile) і чи підходить шматок сиру, а не дегустацію всього."
         }
-      ]
+      ],
+      "translation": "Нарізати шинку тонко? А пармезан — підходить цей шматок на триста грамів?"
     },
     {
       "step": 4,
@@ -62,16 +89,25 @@
       "text": "Buongiorno! Ha la nostra carta fedeltà?",
       "options": [
         {
-          "text": "Buongiorno! No, non ce l'ho. Posso farla adesso?",
-          "isCorrect": true,
-          "feedback": "Правильно! Ви запитали про можливість оформити карту лояльності."
-        },
-        {
           "text": "Ho solo il medico di base.",
+          "translation": "У мене лише сімейний лікар.",
           "isCorrect": false,
           "feedback": "Медичний лікар не має відношення до картки супермаркету."
+        },
+        {
+          "text": "Sì, ho la tessera sanitaria, è la stessa cosa.",
+          "translation": "Так, у мене tessera sanitaria, це те саме.",
+          "isCorrect": false,
+          "feedback": "Carta fedeltà супермаркету — не tessera sanitaria."
+        },
+        {
+          "text": "Buongiorno! No, non ce l'ho. Posso farla adesso?",
+          "translation": "Доброго дня! Ні, немає. Можна оформити зараз?",
+          "isCorrect": true,
+          "feedback": "Правильно! Ви запитали про можливість оформити карту лояльності."
         }
-      ]
+      ],
+      "translation": "Доброго дня! У вас є наша карта лояльності?"
     },
     {
       "step": 5,
@@ -79,11 +115,25 @@
       "text": "Sì, può chiederla al box informazioni dopo. Le serve un sacchetto per la spesa?",
       "options": [
         {
-          "text": "Sì, un sacchetto biodegradabile, per favore. E pago con la carta di credito.",
+          "text": "Sì, vorrei un sacchetto biodegradabile, per favore. E pago con la carta di credito.",
+          "translation": "Так, біопакет, будь ласка. І плачу кредитною карткою.",
           "isCorrect": true,
           "feedback": "Чудово! Ви попросили пакет та вказали спосіб оплати."
+        },
+        {
+          "text": "Il sacchetto è gratis sempre, per legge, senza chiedere.",
+          "translation": "Пакет завжди безкоштовний за законом, без прохання.",
+          "isCorrect": false,
+          "feedback": "Біопакети зазвичай платні; їх просять окремо."
+        },
+        {
+          "text": "No, metto tutto nelle tasche. Pago in francobolli.",
+          "translation": "Ні, покладу все по кишенях. Плачу марками.",
+          "isCorrect": false,
+          "feedback": "Потрібен пакет і звичайна оплата карткою або готівкою."
         }
-      ]
+      ],
+      "translation": "Так, можна попросити потім в інформаційному вікні. Потрібен пакет для покупок?"
     },
     {
       "step": 6,
@@ -91,11 +141,25 @@
       "text": "Sono 34 euro e 50 centesimi. Appoggi pure la carta sul POS... Perfetto. Ecco lo scontrino. Buona giornata!",
       "options": [
         {
+          "text": "Lo scontrino lo lascio in cassa, non mi serve all’uscita.",
+          "translation": "Чек залишу на касі, на виході він не потрібен.",
+          "isCorrect": false,
+          "feedback": "Чек варто взяти з собою до виходу з магазину."
+        },
+        {
           "text": "Grazie mille, buona giornata anche a lei!",
+          "translation": "Дуже дякую, і вам гарного дня!",
           "isCorrect": true,
           "feedback": "Приємний та ввічливий фінал розмови на касі!"
+        },
+        {
+          "text": "C’è un errore di mille euro, non pago e lascio la spesa qui in silenzio.",
+          "translation": "Помилка на тисячу євро, не плачу і мовчки лишаю покупки тут.",
+          "isCorrect": false,
+          "feedback": "Якщо сума правильна — дякують і забирають чек."
         }
-      ]
+      ],
+      "translation": "34 євро 50 центів. Прикладіть картку до POS... Чудово. Ось чек. Гарного дня!"
     }
   ],
   "culturaTip": "'Lo scontrino' (чек) обов'язково потрібно зберігати до виходу з супермаркету чи магазину — у разі перевірки фінансовою поліцією його можуть попросити показати."

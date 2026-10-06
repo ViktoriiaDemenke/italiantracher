@@ -11,16 +11,25 @@
       "text": "Buongiorno Signora! Prego, si accomodi. Aveva un appuntamento a nome Laura?",
       "options": [
         {
-          "text": "Buongiorno! Sì, esattamente. Ho la prenotazione per le 10:00.",
-          "isCorrect": true,
-          "feedback": "Чудово! Ви підтвердили свій запис на прийом."
+          "text": "No, non ho appuntamento. Passavo per caso, faccio tutto adesso.",
+          "translation": "Ні, запису немає. Я зайшла випадково, зроблю все зараз.",
+          "isCorrect": false,
+          "feedback": "У Patronato зазвичай працюють за записом; треба підтвердити prenotazione."
         },
         {
           "text": "Ciao, voglio i soldi per la spesa.",
+          "translation": "Привіт, хочу гроші на продукти.",
           "isCorrect": false,
           "feedback": "Спілкування у соціальних службах вимагає ввічливого тону."
+        },
+        {
+          "text": "Buongiorno! Sì, esattamente. Ho la prenotazione per le 10:00.",
+          "translation": "Доброго дня! Так, саме так. У мене бронювання на 10:00.",
+          "isCorrect": true,
+          "feedback": "Чудово! Ви підтвердили свій запис на прийом."
         }
-      ]
+      ],
+      "translation": "Доброго дня, синьйоро! Прошу, сідайте. У вас був запис на ім’я Лаура?"
     },
     {
       "step": 2,
@@ -28,16 +37,25 @@
       "text": "Bene. In cosa posso aiutarla oggi?",
       "options": [
         {
+          "text": "Vorrei solo una copia della carta d’identità, niente pratiche.",
+          "translation": "Хочу лише копію посвідчення особи, без жодних заяв.",
+          "isCorrect": false,
+          "feedback": "Тут оформлюють соціальні заяви, наприклад Assegno Unico, не ксерокопії."
+        },
+        {
           "text": "Vorrei fare la domanda per l'Assegno Unico per mia figlia di 3 anni. Ho già fatto l'ISEE.",
+          "translation": "Я хотіла б подати заяву на Assegno Unico для моєї 3-річної доньки. ISEE я вже зробила.",
           "isCorrect": true,
           "feedback": "Ідеально! Ви чітко пояснили мету візиту та згадали наявність ISEE."
         },
         {
           "text": "Devo spedire un pacco in Ucraina.",
+          "translation": "Мені треба відправити посилку в Україну.",
           "isCorrect": false,
           "feedback": "Відправкою посилок займається пошта (Poste Italiane), а не Patronato."
         }
-      ]
+      ],
+      "translation": "Добре. Чим сьогодні можу допомогти?"
     },
     {
       "step": 3,
@@ -45,16 +63,25 @@
       "text": "Ottimo! Se ha già l'ISEE è tutto più semplice. Mi mostra i documenti d'identità e i codici fiscali?",
       "options": [
         {
-          "text": "Certamente! Ecco la mia Carta d'Identità, il Codice Fiscale mio і di mia figlia, e il modello ISEE.",
+          "text": "Certamente! Ecco la mia Carta d'Identità, il Codice Fiscale mio e di mia figlia, e il modello ISEE.",
+          "translation": "Звісно! Ось моє посвідчення особи, мій код фіскале і доньки, і модель ISEE.",
           "isCorrect": true,
           "feedback": "Чудово! Ви надали весь необхідний пакет документів."
         },
         {
           "text": "Non ho nessun documento con me.",
+          "translation": "У мене з собою немає жодного документа.",
           "isCorrect": false,
           "feedback": "Без документів консультант не зможе зареєструвати заявку в системі INPS."
+        },
+        {
+          "text": "Ho solo lo scontrino del bar, i documenti sono in auto.",
+          "translation": "У мене лише чек із бару, документи в машині.",
+          "isCorrect": false,
+          "feedback": "Потрібні документи батьків і дитини, ISEE і коди fiscale."
         }
-      ]
+      ],
+      "translation": "Чудово! Якщо ISEE вже є, усе простіше. Покажете документи й коди fiscale?"
     },
     {
       "step": 4,
@@ -62,16 +89,25 @@
       "text": "Perfetto. Mi serve anche l'IBAN del suo conto corrente per il pagamento mensile. È intestato a lei?",
       "options": [
         {
-          "text": "Sì, il conto è intestato a me. Ecco il codice IBAN del mio conto bancario.",
-          "isCorrect": true,
-          "feedback": "Правильно! Ви підтвердили власнику рахунку та надали IBAN."
-        },
-        {
           "text": "Pago in contanti alla cassa.",
+          "translation": "Плачу готівкою на касі.",
           "isCorrect": false,
           "feedback": "Соціальні допомоги в Італії виплачуються безпосередньо на банківський рахунок (IBAN)."
+        },
+        {
+          "text": "L’IBAN è di un amico, lui ritira i soldi per me.",
+          "translation": "IBAN друга, він отримує гроші за мене.",
+          "isCorrect": false,
+          "feedback": "Рахунок для виплати має бути на ім’я заявника."
+        },
+        {
+          "text": "Sì, il conto è intestato a me. Ecco il codice IBAN del mio conto bancario.",
+          "translation": "Так, рахунок на моє ім’я. Ось код IBAN мого банківського рахунку.",
+          "isCorrect": true,
+          "feedback": "Правильно! Ви підтвердили власнику рахунку та надали IBAN."
         }
-      ]
+      ],
+      "translation": "Чудово. Потрібен також IBAN вашого поточного рахунку для щомісячної виплати. Він на ваше ім’я?"
     },
     {
       "step": 5,
@@ -80,10 +116,24 @@
       "options": [
         {
           "text": "Va benissimo, dove devo firmare?",
+          "translation": "Добре, де мені підписати?",
           "isCorrect": true,
           "feedback": "Чудово! Ви готові підписати документи."
+        },
+        {
+          "text": "Firmi lei al posto mio, io ho fretta.",
+          "translation": "Підпишіть ви замість мене, я поспішаю.",
+          "isCorrect": false,
+          "feedback": "Підпис має поставити заявник, не оператор замість вас."
+        },
+        {
+          "text": "Non firmo niente senza il notaio e tre testimoni.",
+          "translation": "Нічого не підписую без нотаріуса і трьох свідків.",
+          "isCorrect": false,
+          "feedback": "У Patronato підписують ricevuta і delega на місці, без нотаріуса."
         }
-      ]
+      ],
+      "translation": "Дуже добре. Вношу дані в систему INPS. Потрібно лише підписати цю квитанцію і бланк доручення."
     },
     {
       "step": 6,
@@ -91,11 +141,25 @@
       "text": "Ecco qui la copia della domanda inviata. Il pagamento arriverà il mese prossimo sul suo conto. Buona giornata!",
       "options": [
         {
+          "text": "I soldi arrivano oggi in contanti, vero? Li aspetto qui.",
+          "translation": "Гроші прийдуть сьогодні готівкою, так? Почекаю тут.",
+          "isCorrect": false,
+          "feedback": "Виплата йде на IBAN наступного місяця, не готівкою одразу."
+        },
+        {
           "text": "La ringrazio molto per l'aiuto! Buona giornata e buon lavoro.",
+          "translation": "Щиро дякую за допомогу! Гарного дня і успіхів у роботі.",
           "isCorrect": true,
           "feedback": "Ввічливий і професійний фінал розмови!"
+        },
+        {
+          "text": "Mandi l’Assegno Unico a un altro CAF, cambio idea.",
+          "translation": "Надішліть Assegno Unico в інший CAF, я передумала.",
+          "isCorrect": false,
+          "feedback": "Заяву вже подано; ввічливо подякувати і піти."
         }
-      ]
+      ],
+      "translation": "Ось копія надісланої заяви. Виплата надійде наступного місяця на ваш рахунок. Гарного дня!"
     }
   ],
   "culturaTip": "Більшість дитячих виплат та пільг обробляються державним органом INPS (Istituto Nazionale della Previdenza Sociale), а Patronato є офіційним посередником у передачі документів."

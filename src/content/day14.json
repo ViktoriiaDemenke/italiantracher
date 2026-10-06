@@ -12,15 +12,24 @@
       "options": [
         {
           "text": "Buongiorno! Devo spedire questo pacco in Ucraina e pagare un bollettino.",
+          "translation": "Доброго дня! Мені потрібно відправити цю посилку в Україну і оплатити квитанцію.",
           "isCorrect": true,
           "feedback": "Чудово! Ви чітко озвучили обидві мети вашого візиту."
         },
         {
+          "text": "Devo ritirare la pensione e cambiare l’ISEE, per favore.",
+          "translation": "Мені треба отримати пенсію і змінити ISEE, будь ласка.",
+          "isCorrect": false,
+          "feedback": "На цьому віконці — посилка і bollettino, не пенсія чи ISEE."
+        },
+        {
           "text": "Ciao, voglio comprare una pizza.",
+          "translation": "Привіт, хочу купити піцу.",
           "isCorrect": false,
           "feedback": "Пошта не надає послуг громадського харчування."
         }
-      ]
+      ],
+      "translation": "Доброго дня! Номер P045! Скажіть, чим можу допомогти?"
     },
     {
       "step": 2,
@@ -28,16 +37,25 @@
       "text": "Sì, certo. Metta pure il pacco sulla bilancia. Vuole la spedizione standard o espressa?",
       "options": [
         {
+          "text": "Non voglio pesare il pacco.",
+          "translation": "Я не хочу зважувати посилку.",
+          "isCorrect": false,
+          "feedback": "Зважування посилки обов'язкове для розрахунку вартості відправки."
+        },
+        {
           "text": "La spedizione standard va benissimo. Quanto tempo ci vuole per la consegna?",
+          "translation": "Стандартна відправка цілком підходить. Скільки часу займе доставка?",
           "isCorrect": true,
           "feedback": "Ідеально! Ви обрали тип відправки та уточнили терміни доставки."
         },
         {
-          "text": "Non voglio pesare il pacco.",
+          "text": "Vorrei la spedizione più cara possibile, anche se arriva tra due mesi.",
+          "translation": "Хочу найдорожчу відправку, навіть якщо приїде через два місяці.",
           "isCorrect": false,
-          "feedback": "Зважування посилки обов'язкове для розрахунку вартості відправки."
+          "feedback": "Треба обрати standard або espressa і запитати терміни доставки."
         }
-      ]
+      ],
+      "translation": "Так, звісно. Покладіть посилку на ваги. Хочете стандартну чи експрес-відправку?"
     },
     {
       "step": 3,
@@ -45,16 +63,25 @@
       "text": "Di solito ci vogliono circa 7-10 giorni lavorativi. Ha già compilato il modulo con l'indirizzo del destinatario?",
       "options": [
         {
-          "text": "Sì, ho scritto tutto sul pacco: indirizzo, mittente e destinatario.",
-          "isCorrect": true,
-          "feedback": "Чудово! На посилці мають бути вказані і відправник (mittente), і одержувач (destinatario)."
+          "text": "Ho scritto solo il mio nome, il resto lo fate voi.",
+          "translation": "Я написав лише своє ім’я, решту зробите ви.",
+          "isCorrect": false,
+          "feedback": "На посилці мають бути mittente і destinatario з адресою."
         },
         {
           "text": "No, non conosco l'indirizzo.",
+          "translation": "Ні, я не знаю адреси.",
           "isCorrect": false,
           "feedback": "Без адреси одержувача поштову відправку оформити неможливо."
+        },
+        {
+          "text": "Sì, ho scritto tutto sul pacco: indirizzo, mittente e destinatario.",
+          "translation": "Так, я все написав на посилці: адресу, відправника і одержувача.",
+          "isCorrect": true,
+          "feedback": "Чудово! На посилці мають бути вказані і відправник (mittente), і одержувач (destinatario)."
         }
-      ]
+      ],
+      "translation": "Зазвичай потрібно близько 7–10 робочих днів. Ви вже заповнили бланк з адресою одержувача?"
     },
     {
       "step": 4,
@@ -62,16 +89,25 @@
       "text": "Perfetto. Adesso passiamo al bollettino. Può mostrarmi il documento d'identità?",
       "options": [
         {
+          "text": "Posso pagare il bollettino senza documento, è più veloce.",
+          "translation": "Можу оплатити квитанцію без документа, так швидше.",
+          "isCorrect": false,
+          "feedback": "Для bollettino зазвичай потрібне посвідчення особи."
+        },
+        {
           "text": "Certamente, ecco la mia carta d'identità e il codice fiscale.",
+          "translation": "Звісно, ось моє посвідчення особи і код фіскале.",
           "isCorrect": true,
           "feedback": "Правильно! Ви надали потрібні документи."
         },
         {
           "text": "Ho solo la ricevuta del ristorante.",
+          "translation": "У мене лише чек із ресторану.",
           "isCorrect": false,
           "feedback": "Чек з ресторану не є посвідченням особи."
         }
-      ]
+      ],
+      "translation": "Чудово. Тепер квитанція. Можете показати документ, що посвідчує особу?"
     },
     {
       "step": 5,
@@ -80,10 +116,24 @@
       "options": [
         {
           "text": "Pago con la carta, grazie.",
+          "translation": "Плачу карткою, дякую.",
           "isCorrect": true,
           "feedback": "Чудово! Ви вибрали безготівковий розрахунок."
+        },
+        {
+          "text": "Pago la prossima settimana, ora non ho soldi.",
+          "translation": "Заплачу наступного тижня, зараз немає грошей.",
+          "isCorrect": false,
+          "feedback": "Оплату посилки і квитанції роблять одразу: картка або готівка."
+        },
+        {
+          "text": "C'è lo sconto studente, vero? Allora pago solo un euro.",
+          "translation": "Є студентська знижка, так? Тоді плачу лише євро.",
+          "isCorrect": false,
+          "feedback": "Ціна вже названа; обирають спосіб оплати, не торгуються так."
         }
-      ]
+      ],
+      "translation": "Разом 22 євро за посилку і 45 євро за квитанцію. Платите готівкою чи карткою?"
     },
     {
       "step": 6,
@@ -91,11 +141,25 @@
       "text": "Ecco la ricevuta di pagamento e il codice di tracciamento per il pacco. Buona giornata!",
       "options": [
         {
+          "text": "Il codice di tracciamento lo butto, non mi serve.",
+          "translation": "Код відстеження викину, він мені не потрібен.",
+          "isCorrect": false,
+          "feedback": "Код відстеження треба зберегти, щоб перевірити посилку."
+        },
+        {
+          "text": "Può consegnare il pacco a casa mia stasera a mano?",
+          "translation": "Можете доставити посилку мені додому сьогодні ввечері особисто?",
+          "isCorrect": false,
+          "feedback": "Працівник пошти не везе посилку особисто додому ввечері."
+        },
+        {
           "text": "Molte grazie! Buona giornata anche a lei.",
+          "translation": "Щиро дякую! І вам гарного дня.",
           "isCorrect": true,
           "feedback": "Ввічливе та правильне завершення розмови."
         }
-      ]
+      ],
+      "translation": "Ось квитанція про оплату і код відстеження посилки. Гарного дня!"
     }
   ],
   "culturaTip": "Код відстеження називається 'Codice di tracciamento' або 'Numero di raccomandata'. Його можна ввести на сайті Poste Italiane у розділі 'Cerca spedizioni'."

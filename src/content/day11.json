@@ -12,15 +12,24 @@
       "options": [
         {
           "text": "Buongiorno Signor Mario, sono Laura. Chiamo per l'annuncio dell'appartamento in affitto. È ancora disponibile?",
+          "translation": "Доброго дня, синьйоре Маріо, я Лаура. Дзвоню щодо оголошення про квартиру в оренду. Вона ще вільна?",
           "isCorrect": true,
           "feedback": "Чудово! Чітке та ввічливе привітання з поясненням мети дзвінка."
         },
         {
           "text": "Ciao Mario, voglio la tua casa. Quanto costa?",
+          "translation": "Привіт, Маріо, хочу твою квартиру. Скільки коштує?",
           "isCorrect": false,
           "feedback": "Занадто панібратсько. З власником житла спочатку спілкуємося на 'Lei' та кажемо 'Buongiorno Signor...'."
+        },
+        {
+          "text": "Pronto, sono un’agenzia. Mandi le chiavi per corriere oggi.",
+          "translation": "Алло, я агенція. Надішліть ключі кур’єром сьогодні.",
+          "isCorrect": false,
+          "feedback": "Спочатку представитися, назвати оголошення і запитати, чи житло вільне."
         }
-      ]
+      ],
+      "translation": "Алло! Хто говорить?"
     },
     {
       "step": 2,
@@ -28,16 +37,25 @@
       "text": "Sì, buongiorno Laura. L'appartamento è ancora libero. È un bilocale arredato al secondo piano con ascensore.",
       "options": [
         {
-          "text": "Perfetto! Mi dice il prezzo mensile? Le spese condominiali sono incluse nel prezzo?",
-          "isCorrect": true,
-          "feedback": "Правильно! Ви одразу уточнюєте ключове питання щодо комуналки кондомініуму."
-        },
-        {
           "text": "Bene, vengo a dormire stasera.",
+          "translation": "Добре, приїду ночувати сьогодні ввечері.",
           "isCorrect": false,
           "feedback": "Занадто квапливо. Спочатку потрібно дізнатися ціну та умови оренди."
+        },
+        {
+          "text": "Va bene, ma voglio un contratto solo di una settimana, in nero.",
+          "translation": "Добре, але хочу договір лише на тиждень, неофіційно.",
+          "isCorrect": false,
+          "feedback": "Потрібен офіційний договір і зрозумілі умови ціни, не «чорна» оренда."
+        },
+        {
+          "text": "Perfetto! Mi dice il prezzo mensile? Le spese condominiali sono incluse nel prezzo?",
+          "translation": "Чудово! Скажіть місячну ціну? Комунальні витрати кондомініуму входять у ціну?",
+          "isCorrect": true,
+          "feedback": "Правильно! Ви одразу уточнюєте ключове питання щодо комуналки кондомініуму."
         }
-      ]
+      ],
+      "translation": "Так, доброго дня, Лауро. Квартира ще вільна. Це мебльована двокімнатна на другому поверсі з ліфтом."
     },
     {
       "step": 3,
@@ -46,15 +64,24 @@
       "options": [
         {
           "text": "Ho capito. E per quanto riguarda le utenze di luce e gas, sono da volturare a mio nome?",
+          "translation": "Зрозуміла. А щодо рахунків за світло і газ — їх треба переоформити на моє ім’я?",
           "isCorrect": true,
           "feedback": "Дуже грамотне запитання про переоформлення рахунків (voltura) на світло та газ!"
         },
         {
+          "text": "Le utenze restano a nome suo per sempre, io non firmo niente.",
+          "translation": "Комунальні рахунки назавжди залишаються на вашому імені, я нічого не підписую.",
+          "isCorrect": false,
+          "feedback": "Світло і газ зазвичай переоформлюють (voltura) на орендаря."
+        },
+        {
           "text": "Non voglio pagare le spese condominiali.",
+          "translation": "Я не хочу платити витрати кондомініуму.",
           "isCorrect": false,
           "feedback": "У багатьох будинках 'spese condominiali' є обов'язковою частиною проживання, їх не можна просто скасувати."
         }
-      ]
+      ],
+      "translation": "Оренда 650 євро на місяць. Комуналка кондомініуму — 80 євро окремо і включає воду та прибирання сходів."
     },
     {
       "step": 4,
@@ -62,16 +89,25 @@
       "text": "Sì, le utenze sono da intestare a lei. Chiediamo anche tre mensilità di caparra confirmatoria.",
       "options": [
         {
+          "text": "La caparra è gratis, vero?",
+          "translation": "Завдаток безкоштовний, так?",
+          "isCorrect": false,
+          "feedback": "Ні, застава (caparra) завжди сплачується заздалегідь перед заселенням."
+        },
+        {
           "text": "Va bene, è chiaro. Quando possiamo fissare un appuntamento per visitare l'appartamento?",
+          "translation": "Добре, зрозуміло. Коли можемо призначити зустріч, щоб подивитися квартиру?",
           "isCorrect": true,
           "feedback": "Чудово! Ви погодили умови застави та запитуєте про огляд."
         },
         {
-          "text": "La caparra è gratis, vero?",
+          "text": "La caparra la pago dopo tre mesi, se mi piace la casa.",
+          "translation": "Завдаток заплачу через три місяці, якщо квартира сподобається.",
           "isCorrect": false,
-          "feedback": "Ні, застава (caparra) завжди сплачується заздалегідь перед заселенням."
+          "feedback": "Caparra confirmatoria сплачують до заселення, зазвичай кілька місяців оренди."
         }
-      ]
+      ],
+      "translation": "Так, рахунки треба оформити на вас. Також просимо три місяці завдатку."
     },
     {
       "step": 5,
@@ -79,11 +115,25 @@
       "text": "Possiamo vederci domani pomeriggio verso le 17:00 davanti al portone del condominio. Le va bene?",
       "options": [
         {
+          "text": "Domani alle 17:00 è troppo presto. Vengo a mezzanotte.",
+          "translation": "Завтра о 17:00 занадто рано. Приїду опівночі.",
+          "isCorrect": false,
+          "feedback": "Потрібно підтвердити запропонований денний час огляду."
+        },
+        {
+          "text": "No, vengo senza preavviso stasera tardi, suoni il citofono.",
+          "translation": "Ні, прийду без попередження сьогодні пізно, подзвоніть у домофон.",
+          "isCorrect": false,
+          "feedback": "Огляд узгоджують на конкретний час і просять точну адресу."
+        },
+        {
           "text": "Sì, perfetto! Domani alle 17:00. Mi può mandare l'indirizzo esatto via messaggio?",
+          "translation": "Так, ідеально! Завтра о 17:00. Можете надіслати точну адресу повідомленням?",
           "isCorrect": true,
           "feedback": "Ідеально! Ви підтвердили час та попросили точну адресу."
         }
-      ]
+      ],
+      "translation": "Можемо зустрітися завтра після обіду близько 17:00 біля під’їзду. Вам підходить?"
     },
     {
       "step": 6,
@@ -91,11 +141,25 @@
       "text": "Certamente, le mando subito un SMS con l'indirizzo. A domani allora!",
       "options": [
         {
+          "text": "Se piove, non vengo. La chiamo tra un mese.",
+          "translation": "Якщо дощ, не прийду. Зателефоную через місяць.",
+          "isCorrect": false,
+          "feedback": "Ввічливо підтвердити «a domani», а не скасовувати без причини."
+        },
+        {
           "text": "Molte grazie Signor Mario, a domani! Buona giornata.",
+          "translation": "Щиро дякую, синьйоре Маріо, до завтра! Гарного дня.",
           "isCorrect": true,
           "feedback": "Ввічливий і професійний фінал розмови!"
+        },
+        {
+          "text": "Ok, ma mandi anche le chiavi su WhatsApp in foto, basta così.",
+          "translation": "Ок, але надішліть ще ключі фото в WhatsApp, цього досить.",
+          "isCorrect": false,
+          "feedback": "Ключі не замінює фото. Дякують і підтверджують зустріч."
         }
-      ]
+      ],
+      "translation": "Звісно, зараз надішлю SMS з адресою. Тоді до завтра!"
     }
   ],
   "culturaTip": "Термін 'Voltura' означає переоформлення існуючих договорів на світло/газ на ваше ім'я, а 'Subentro' — нове підключення, якщо лічильники були опломбовані."

@@ -6,20 +6,24 @@
   "story": "Марко та Лаура заходять до місцевого бару на ранковий сніданок (colazione). В Італії бар — це не нічний заклад, а головне місце для ранкової кави, зустрічей з сусідами та легкого перекусу. Тут є важливе правило: спочатку часто платять на касі, отримують чек (scontrino), а потім з ним підходять до стійки (al banco).",
   "phrases": [
     {
-      "italian": "Un caffè espresso e un cornetto alla crema, per favore.",
-      "ukrainian": "Еспресо та круасан із кремом, будь ласка."
+      "italian": "Vorrei un caffè espresso e un cornetto alla crema, per favore.",
+      "ukrainian": "Я хотів би еспресо та круасан із кремом, будь ласка.",
+      "translation": "Я хотів би еспресо та круасан із кремом, будь ласка."
     },
     {
       "italian": "Possiamo sederci al tavolo o si paga di più?",
-      "ukrainian": "Ми можемо сісти за столик чи це коштує дорожче?"
+      "ukrainian": "Ми можемо сісти за столик чи це коштує дорожче?",
+      "translation": "Ми можемо сісти за столик чи це коштує дорожче?"
     },
     {
-      "italian": "Un macchiato caldo e un bicchiere d'acqua, grazie.",
-      "ukrainian": "Макіато з гарячим молоком та склянку води, дякую."
+      "italian": "Vorrei un macchiato caldo e un bicchiere d'acqua, grazie.",
+      "ukrainian": "Я хотів би гаряче макіато та склянку води, дякую.",
+      "translation": "Я хотів би гаряче макіато та склянку води, дякую."
     },
     {
       "italian": "Faccio prima lo scontrino alla cassa?",
-      "ukrainian": "Мені спочатку вибити чек на касі?"
+      "ukrainian": "Мені спочатку вибити чек на касі?",
+      "translation": "Мені спочатку вибити чек на касі?"
     }
   ],
   "barRules": [
@@ -32,11 +36,29 @@
     "rules": [
       {
         "rule": "Основні види кави: Caffè (еспресо), Macchiato (еспресо з краплею молока), Decaffeinato (без кофеїну), Cappuccino.",
-        "examples": ["Un decaffeinato, per favore.", "Un macchiato freddo."]
+        "examples": [
+          {
+            "italian": "Vorrei un decaffeinato, per favore.",
+            "ukrainian": "Я хотів би декаф, будь ласка."
+          },
+          {
+            "italian": "Vorrei un macchiato freddo.",
+            "ukrainian": "Я хотів би холодне макіато."
+          }
+        ]
       },
       {
         "rule": "Уточнення складників: 'Con' (з) та 'Senza' (без).",
-        "examples": ["Un cappuccino con latte di avena.", "Un cornetto senza zucchero."]
+        "examples": [
+          {
+            "italian": "Vorrei un cappuccino con latte di avena.",
+            "ukrainian": "Я хотів би капучино з вівсяним молоком."
+          },
+          {
+            "italian": "Vorrei un cornetto senza zucchero.",
+            "ukrainian": "Я хотів би круасан без цукру."
+          }
+        ]
       }
     ]
   },

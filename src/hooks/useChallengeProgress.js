@@ -107,7 +107,8 @@ export function useChallengeProgress() {
     stats,
     totalDays: TOTAL_DAYS,
     isCompleted: (day) => isDayCompleted(day, state.completedDays),
-    isUnlocked: (day) => isDayUnlocked(day, state.completedDays),
+    isUnlocked: (day) =>
+      isDayUnlocked(day, state.completedDays, state.unlockedDays),
     completeDay,
     showToast,
     recordQuizError,

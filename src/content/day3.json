@@ -5,26 +5,91 @@
   "successTitle": "Резиденцію успішно отримано!",
   "story": "Comune di Treviso, stamattina. Dal totem fino alla ricevuta. Niente traduzioni, niente spiegazioni.",
   "culturaTip": "",
-  "phrases": [],
+  "phrases": [
+    {
+      "italian": "Buongiorno, grazie. Vado al totem.",
+      "ukrainian": "Доброго дня, дякую. Йду до тотема.",
+      "translation": "Доброго дня, дякую. Йду до тотема."
+    },
+    {
+      "italian": "Seleziono la voce Anagrafe / residenza.",
+      "ukrainian": "Обираю пункт Anagrafe / residenza.",
+      "translation": "Обираю пункт Anagrafe / residenza."
+    },
+    {
+      "italian": "Va bene, aspetto qui con il biglietto.",
+      "ukrainian": "Добре, чекаю тут з талончиком.",
+      "translation": "Добре, чекаю тут з талончиком."
+    },
+    {
+      "italian": "È il mio numero. Vado allo sportello 4.",
+      "ukrainian": "Це мій номер. Йду до віконця 4.",
+      "translation": "Це мій номер. Йду до віконця 4."
+    },
+    {
+      "italian": "Ah, scusi tanto. Vado allo sportello 4, grazie.",
+      "ukrainian": "Ой, перепрошую. Йду до віконця 4, дякую.",
+      "translation": "Ой, перепрошую. Йду до віконця 4, дякую."
+    },
+    {
+      "italian": "Buongiorno. Sì, numero 37. Vorrei presentare la dichiarazione di residenza.",
+      "ukrainian": "Доброго дня. Так, номер 37. Я хотів би подати декларацію про місце проживання.",
+      "translation": "Доброго дня. Так, номер 37. Я хотів би подати декларацію про місце проживання."
+    },
+    {
+      "italian": "Ecco, sono tutti in originale: il passaporto, il codice fiscale, il permesso e il contratto.",
+      "ukrainian": "Ось, усе в оригіналі: паспорт, код фіскале, пермессо і договір.",
+      "translation": "Ось, усе в оригіналі: паспорт, код фіскале, пермессо і договір."
+    },
+    {
+      "italian": "Compilo il modulo qui. La marca da bollo ce l'ho, ecco.",
+      "ukrainian": "Заповню бланк тут. Марка da bollo в мене є, ось.",
+      "translation": "Заповню бланк тут. Марка da bollo в мене є, ось."
+    },
+    {
+      "italian": "Abito in via Roma dodici, interno tre, secondo piano. Vivo con mia moglie e mia figlia.",
+      "ukrainian": "Живу на via Roma дванадцять, квартира три, другий поверх. Живу з дружиною і донькою.",
+      "translation": "Живу на via Roma дванадцять, квартира три, другий поверх. Живу з дружиною і донькою."
+    },
+    {
+      "italian": "Firmo qui. Aspetto, grazie.",
+      "ukrainian": "Підписую тут. Чекаю, дякую.",
+      "translation": "Підписую тут. Чекаю, дякую."
+    },
+    {
+      "italian": "Va bene, aspetto. Grazie per l'informazione.",
+      "ukrainian": "Добре, чекаю. Дякую за інформацію.",
+      "translation": "Добре, чекаю. Дякую за інформацію."
+    },
+    {
+      "italian": "Grazie, la metto in cartella. Arrivederci, buona giornata.",
+      "ukrainian": "Дякую, кладу в папку. До побачення, гарного дня.",
+      "translation": "Дякую, кладу в папку. До побачення, гарного дня."
+    }
+  ],
   "dialogue": [
     {
       "step": 1,
       "speaker": "Ingresso",
-      "text": "Buongiorno. Per l'Anagrafe, totem a sinistra. Poi aspetti il numero.",
+      "text": "Buongiorno. Per l'Anagrafe il totem è a sinistra. Poi aspetti il numero.",
       "options": [
         {
           "tone": "natural",
-          "text": "Buongiorno, grazie. Vado al totem."
-        },
-        {
-          "tone": "bookish",
-          "text": "La ringrazio per l'indicazione relativa all'apparato di emissione dei biglietti."
+          "text": "Buongiorno, grazie. Vado al totem.",
+          "translation": "Доброго дня, дякую. Йду до тотема."
         },
         {
           "tone": "wrong",
-          "text": "Dov'è lo sportello? Non ho tempo per i numeri."
+          "text": "Dov'è lo sportello? Non ho tempo per i numeri.",
+          "translation": "Де віконце? Немає часу на номери."
+        },
+        {
+          "tone": "bookish",
+          "text": "La ringrazio per l'indicazione relativa all'apparato di emissione dei biglietti.",
+          "translation": "Дякую за вказівку щодо апарата видачі талонів."
         }
-      ]
+      ],
+      "translation": "Доброго дня. Для Anagrafe тотем ліворуч. Потім чекайте номер."
     },
     {
       "step": 2,
@@ -32,18 +97,22 @@
       "text": "1 Carta d'identità  2 Anagrafe / residenza  3 Stato civile  4 Pagamenti",
       "options": [
         {
-          "tone": "natural",
-          "text": "Seleziono Anagrafe / residenza."
+          "tone": "bookish",
+          "text": "Opto per la voce concernente l'iscrizione anagrafica.",
+          "translation": "Обираю пункт, що стосується анаграфічної реєстрації."
         },
         {
-          "tone": "bookish",
-          "text": "Opto per la voce concernente l'iscrizione anagrafica."
+          "tone": "natural",
+          "text": "Seleziono la voce Anagrafe / residenza.",
+          "translation": "Обираю пункт Anagrafe / residenza."
         },
         {
           "tone": "wrong",
-          "text": "Carta d'identità: è più veloce."
+          "text": "La carta d'identità è più veloce.",
+          "translation": "Посвідчення особи швидше."
         }
-      ]
+      ],
+      "translation": "1 Посвідчення особи  2 Anagrafe / резиденція  3 Цивільний стан  4 Платежі"
     },
     {
       "step": 3,
@@ -51,37 +120,45 @@
       "text": "Si sieda. Il numero esce sul tabellone. Non si avvicini allo sportello prima.",
       "options": [
         {
-          "tone": "natural",
-          "text": "Va bene, aspetto qui con il biglietto."
+          "tone": "wrong",
+          "text": "Chiedo allo sportello se posso passare, tanto c'è posto.",
+          "translation": "Запитаю у віконця, чи можу пройти, там є місце."
         },
         {
           "tone": "bookish",
-          "text": "Mi conformerò all'ordine di chiamata elettronica."
+          "text": "Mi conformerò all'ordine di chiamata elettronica.",
+          "translation": "Дотримуватимуся порядку електронного виклику."
         },
         {
-          "tone": "wrong",
-          "text": "Chiedo allo sportello se posso passare, tanto c'è posto."
+          "tone": "natural",
+          "text": "Va bene, aspetto qui con il biglietto.",
+          "translation": "Добре, чекаю тут із талончиком."
         }
-      ]
+      ],
+      "translation": "Сідайте. Номер з’явиться на табло. Не підходьте до віконця раніше."
     },
     {
       "step": 4,
       "speaker": "Tabellone",
-      "text": "Numero 37, sportello 4.",
+      "text": "È il numero 37, sportello 4.",
       "options": [
         {
+          "tone": "wrong",
+          "text": "Vado allo sportello 2, c'è meno gente.",
+          "translation": "Піду до віконця 2, там менше людей."
+        },
+        {
           "tone": "natural",
-          "text": "È il mio numero. Vado allo sportello 4."
+          "text": "È il mio numero. Vado allo sportello 4.",
+          "translation": "Це мій номер. Йду до віконця 4."
         },
         {
           "tone": "bookish",
-          "text": "Mi reco al bancone corrispondente all'avviso luminoso."
-        },
-        {
-          "tone": "wrong",
-          "text": "Vado allo sportello 2, c'è meno gente."
+          "text": "Mi reco al bancone corrispondente all'avviso luminoso.",
+          "translation": "Прямую до стійки, що відповідає світловому оголошенню."
         }
-      ]
+      ],
+      "translation": "Це номер 37, віконце 4."
     },
     {
       "step": 5,
@@ -90,17 +167,21 @@
       "options": [
         {
           "tone": "natural",
-          "text": "Ah, scusi tanto. Vado allo sportello 4, grazie."
+          "text": "Ah, scusi tanto. Vado allo sportello 4, grazie.",
+          "translation": "Ой, дуже перепрошую. Йду до віконця 4, дякую."
         },
         {
           "tone": "bookish",
-          "text": "Chiedo venia per l'equivoco e mi dirigo verso lo sportello indicato."
+          "text": "Chiedo venia per l'equivoco e mi dirigo verso lo sportello indicato.",
+          "translation": "Прошу вибачення за непорозуміння і прямую до вказаного віконця."
         },
         {
           "tone": "wrong",
-          "text": "È lo stesso Comune, può farla lei."
+          "text": "È lo stesso Comune, può farla lei.",
+          "translation": "Це та сама комуна, можете зробити ви."
         }
-      ]
+      ],
+      "translation": "Це віконце для посвідчення особи. Резиденція — віконце 4."
     },
     {
       "step": 6,
@@ -108,37 +189,45 @@
       "text": "Buongiorno, mi dica. Ha il numero?",
       "options": [
         {
-          "tone": "natural",
-          "text": "Buongiorno. Sì, numero 37. Vorrei presentare la dichiarazione di residenza."
-        },
-        {
           "tone": "bookish",
-          "text": "Buongiorno. Le sottopongo il titolo di coda e l'istanza di residenza."
+          "text": "Buongiorno. Le sottopongo il titolo di coda e l'istanza di residenza.",
+          "translation": "Доброго дня. Подаю вам талон черги і заяву на резиденцію."
         },
         {
           "tone": "wrong",
-          "text": "Ciao. Residenza, veloce."
+          "text": "Ciao. Voglio la residenza, e veloce.",
+          "translation": "Привіт. Хочу резиденцію, і швидко."
+        },
+        {
+          "tone": "natural",
+          "text": "Buongiorno. Sì, numero 37. Vorrei presentare la dichiarazione di residenza.",
+          "translation": "Доброго дня. Так, номер 37. Я хотів би подати декларацію про місце проживання."
         }
-      ]
+      ],
+      "translation": "Доброго дня, слухаю. У вас є номер?"
     },
     {
       "step": 7,
       "speaker": "Impiegato",
-      "text": "Documenti: passaporto, codice fiscale, permesso, contratto d'affitto.",
+      "text": "Mi servono i documenti: il passaporto, il codice fiscale, il permesso e il contratto d'affitto.",
       "options": [
         {
           "tone": "natural",
-          "text": "Ecco, tutti in originale. Passaporto, codice fiscale, permesso e contratto."
-        },
-        {
-          "tone": "bookish",
-          "text": "Le deposito l'intera documentazione in originale come richiesto."
+          "text": "Ecco, sono tutti in originale: il passaporto, il codice fiscale, il permesso e il contratto.",
+          "translation": "Ось, усе в оригіналі: паспорт, код фіскале, пермессо і договір."
         },
         {
           "tone": "wrong",
-          "text": "Le foto sono sul telefono. Gli originali dopo."
+          "text": "Le foto sono sul telefono. Gli originali li porto dopo.",
+          "translation": "Фото в телефоні. Оригінали принесу потім."
+        },
+        {
+          "tone": "bookish",
+          "text": "Le deposito l'intera documentazione in originale come richiesto.",
+          "translation": "Здаю всю документацію в оригіналі, як вимагається."
         }
-      ]
+      ],
+      "translation": "Потрібні документи: паспорт, код фіскале, пермессо, договір оренди."
     },
     {
       "step": 8,
@@ -146,75 +235,91 @@
       "text": "Il modulo della dichiarazione non c'è. Lo compila adesso. E la marca da bollo da 16 euro?",
       "options": [
         {
-          "tone": "natural",
-          "text": "Compilo il modulo qui. La marca da bollo ce l'ho, ecco."
+          "tone": "bookish",
+          "text": "Provvedo immediatamente alla compilazione e alla consegna del contrassegno di bollo.",
+          "translation": "Негайно забезпечу заповнення і здачу гербової марки."
         },
         {
-          "tone": "bookish",
-          "text": "Provvedo immediatamente alla compilazione e alla consegna del contrassegno di bollo."
+          "tone": "natural",
+          "text": "Compilo il modulo qui. La marca da bollo ce l'ho, ecco.",
+          "translation": "Заповню бланк тут. Марка da bollo в мене є, ось."
         },
         {
           "tone": "wrong",
-          "text": "Lo faccia lei. Io firmo dopo, se mi conviene."
+          "text": "Lo faccia lei. Io firmo dopo, se mi conviene.",
+          "translation": "Зробіть ви. Я підпишу потім, якщо мені вигідно."
         }
-      ]
+      ],
+      "translation": "Бланка декларації немає. Заповнюєте зараз. А марка da bollo на 16 євро?"
     },
     {
       "step": 9,
       "speaker": "Impiegato",
-      "text": "Nucleo familiare? Indirizzo completo, interno e piano.",
+      "text": "Qual è il nucleo familiare? Mi dica l'indirizzo completo, l'interno e il piano.",
       "options": [
         {
-          "tone": "natural",
-          "text": "Via Roma dodici, interno tre, secondo piano. Vivo con mia moglie e mia figlia."
+          "tone": "wrong",
+          "text": "È una via in centro. I dettagli non li ricordo.",
+          "translation": "Це якась вулиця в центрі. Деталей не пам’ятаю."
         },
         {
           "tone": "bookish",
-          "text": "L'abitazione è sita in via Roma 12, interno 3, piano secondo, con nucleo familiare convivente."
+          "text": "L'abitazione è sita in via Roma 12, interno 3, piano secondo, con nucleo familiare convivente.",
+          "translation": "Житло розташоване на via Roma 12, внутрішня 3, другий поверх, із сім’єю, що проживає разом."
         },
         {
-          "tone": "wrong",
-          "text": "Una via in centro. I dettagli non ricordo."
+          "tone": "natural",
+          "text": "Abito in via Roma dodici, interno tre, secondo piano. Vivo con mia moglie e mia figlia.",
+          "translation": "Живу на via Roma дванадцять, квартира три, другий поверх. Живу з дружиною і донькою."
         }
-      ]
+      ],
+      "translation": "Який сімейний склад? Назвіть повну адресу, внутрішній номер і поверх."
     },
     {
       "step": 10,
       "speaker": "Impiegato",
-      "text": "Firma in fondo. Poi resto un attimo: carico i dati.",
+      "text": "Firmi in fondo. Poi resti un attimo: carico i dati.",
       "options": [
         {
+          "tone": "wrong",
+          "text": "Torno tra un'ora, mi chiami sul cellulare.",
+          "translation": "Повернуся за годину, зателефонуйте на мобільний."
+        },
+        {
           "tone": "natural",
-          "text": "Firmo. Aspetto qui, grazie."
+          "text": "Firmo qui. Aspetto, grazie.",
+          "translation": "Підписую тут. Чекаю, дякую."
         },
         {
           "tone": "bookish",
-          "text": "Apporto la firma e attendo il caricamento del sistema."
-        },
-        {
-          "tone": "wrong",
-          "text": "Torno tra un'ora, mi chiami sul cellulare."
+          "text": "Apporto la firma e attendo il caricamento del sistema.",
+          "translation": "Ставлю підпис і чекаю завантаження системи."
         }
-      ]
+      ],
+      "translation": "Підпишіть унизу. Потім зачекайте хвилину: завантажую дані."
     },
     {
       "step": 11,
       "speaker": "Impiegato",
-      "text": "Sistema lento oggi. Resti. Poi può arrivare il controllo dei vigili a casa, nei giorni successivi.",
+      "text": "Il sistema è lento oggi. Resti qui. Poi può arrivare il controllo dei vigili a casa, nei giorni successivi.",
       "options": [
         {
           "tone": "natural",
-          "text": "Va bene, aspetto. Grazie per l'informazione."
+          "text": "Va bene, aspetto. Grazie per l'informazione.",
+          "translation": "Добре, чекаю. Дякую за інформацію."
         },
         {
           "tone": "bookish",
-          "text": "Prendo atto della possibile verifica della Polizia Locale presso il domicilio."
+          "text": "Prendo atto della possibile verifica della Polizia Locale presso il domicilio.",
+          "translation": "Беру до відома можливу перевірку місцевої поліції за місцем проживання."
         },
         {
           "tone": "wrong",
-          "text": "I vigili a casa? Allora non firmo niente."
+          "text": "I vigili a casa? Allora non firmo niente.",
+          "translation": "Поліція вдома? Тоді я нічого не підписую."
         }
-      ]
+      ],
+      "translation": "Сьогодні система повільна. Залишайтеся тут. Потім може бути перевірка муніципальної поліції вдома в наступні дні."
     },
     {
       "step": 12,
@@ -222,18 +327,22 @@
       "text": "Fatto. Ecco la ricevuta. La tenga. Buona giornata.",
       "options": [
         {
-          "tone": "natural",
-          "text": "Grazie, la metto in cartella. Arrivederci, buona giornata."
-        },
-        {
           "tone": "bookish",
-          "text": "La ringrazio per il rilascio della ricevuta e le auguro una buona prosecuzione."
+          "text": "La ringrazio per il rilascio della ricevuta e le auguro una buona prosecuzione.",
+          "translation": "Дякую за видачу квитанції і бажаю гарного продовження дня."
         },
         {
           "tone": "wrong",
-          "text": "Questa carta è la residenza definitiva, vero? Allora dammi anche l'identità."
+          "text": "Questa carta è la residenza definitiva, vero? Allora dammi anche l'identità.",
+          "translation": "Ця картка — остаточна резиденція, так? Тоді дайте ще й посвідчення особи."
+        },
+        {
+          "tone": "natural",
+          "text": "Grazie, la metto in cartella. Arrivederci, buona giornata.",
+          "translation": "Дякую, кладу в папку. До побачення, гарного дня."
         }
-      ]
+      ],
+      "translation": "Готово. Ось квитанція. Збережіть її. Гарного дня."
     }
   ]
 }

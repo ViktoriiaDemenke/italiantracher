@@ -7,19 +7,23 @@
   "phrases": [
     {
       "italian": "Dove posso trovare l'olio d'oliva?",
-      "ukrainian": "Де я можу знайти оливкову олію?"
+      "ukrainian": "Де я можу знайти оливкову олію?",
+      "translation": "Де я можу знайти оливкову олію?"
     },
     {
       "italian": "Devo pesare la frutta qui o alla cassa?",
-      "ukrainian": "Мені потрібно зважувати фрукти тут чи на касі?"
+      "ukrainian": "Мені потрібно зважувати фрукти тут чи на касі?",
+      "translation": "Мені потрібно зважувати фрукти тут чи на касі?"
     },
     {
       "italian": "Vorrei duecento grammi di prosciutto crudo, per favore.",
-      "ukrainian": "Я б хотів(ла) двісті грамів прошутто крудо, будь ласка."
+      "ukrainian": "Я б хотів(ла) двісті грамів прошутто крудо, будь ласка.",
+      "translation": "Я б хотів(ла) двісті грамів прошутто крудо, будь ласка."
     },
     {
       "italian": "Ha la carta fedeltà / carta fidaty?",
-      "ukrainian": "У вас є картка лояльності / дисконтна картка?"
+      "ukrainian": "У вас є картка лояльності / дисконтна картка?",
+      "translation": "У вас є картка лояльності / дисконтна картка?"
     }
   ],
   "supermarketEtiquette": [
@@ -32,11 +36,29 @@
     "rules": [
       {
         "rule": "Замовлення за вагою: 'Un etto' (100г), 'Due etti' (200г), 'Un chilo' (1кг).",
-        "examples": ["Vorrei un etto di parmigiano.", "Prendo due etti di prosciutto cotto."]
+        "examples": [
+          {
+            "italian": "Vorrei un etto di parmigiano.",
+            "ukrainian": "Я хотів би етто пармезану."
+          },
+          {
+            "italian": "Prendo due etti di prosciutto cotto.",
+            "ukrainian": "Візьму два етто вареної шинки."
+          }
+        ]
       },
       {
         "rule": "Вказування на товар: 'Questo' (цей поруч) / 'Quello' (той далі).",
-        "examples": ["Mi dà questo pezzo di formaggio?", "Vorrei quello a fette."]
+        "examples": [
+          {
+            "italian": "Mi dà questo pezzo di formaggio?",
+            "ukrainian": "Дасте цей шматок сиру?"
+          },
+          {
+            "italian": "Vorrei quello a fette.",
+            "ukrainian": "Я хотів би нарізаний скибками."
+          }
+        ]
       }
     ]
   },

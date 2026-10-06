@@ -7,19 +7,23 @@
   "phrases": [
     {
       "italian": "Vorrei prenotare un tavolo per due persone per stasera.",
-      "ukrainian": "Я хотів би забронювати столик на двох на сьогодні на вечір."
+      "ukrainian": "Я хотів би забронювати столик на двох на сьогодні на вечір.",
+      "translation": "Я хотів би забронювати столик на двох на сьогодні на вечір."
     },
     {
       "italian": "Avete un tavolo libero per due?",
-      "ukrainian": "У вас є вільний столик на двох?"
+      "ukrainian": "У вас є вільний столик на двох?",
+      "translation": "У вас є вільний столик на двох?"
     },
     {
-      "italian": "Una bottiglia d'acqua naturale / frizzante, per favore.",
-      "ukrainian": "Пляшку води без газу / з газом, будь ласка."
+      "italian": "Vorrei una bottiglia d'acqua naturale o frizzante, per favore.",
+      "ukrainian": "Я хотів би пляшку води без газу або з газом, будь ласка.",
+      "translation": "Я хотів би пляшку води без газу або з газом, будь ласка."
     },
     {
       "italian": "Possiamo avere il menu, per favore?",
-      "ukrainian": "Можна нам меню, будь ласка?"
+      "ukrainian": "Можна нам меню, будь ласка?",
+      "translation": "Можна нам меню, будь ласка?"
     }
   ],
   "restaurantEtiquette": [
@@ -32,11 +36,29 @@
     "rules": [
       {
         "rule": "Використання 'Vorrei + інфінітив' замість 'Voglio' (Я б хотів/хотіла...).",
-        "examples": ["Vorrei ordinare.", "Vorrei un tavolo all'aperto."]
+        "examples": [
+          {
+            "italian": "Vorrei ordinare.",
+            "ukrainian": "Я хотів би замовити."
+          },
+          {
+            "italian": "Vorrei un tavolo all'aperto.",
+            "ukrainian": "Я хотів би столик на відкритому повітрі."
+          }
+        ]
       },
       {
         "rule": "Запитання 'Possiamo + інфінітив' (Чи можемо ми...).",
-        "examples": ["Possiamo sederci qui?", "Possiamo avere il conto?"]
+        "examples": [
+          {
+            "italian": "Possiamo sederci qui?",
+            "ukrainian": "Можемо сісти тут?"
+          },
+          {
+            "italian": "Possiamo avere il conto?",
+            "ukrainian": "Можемо отримати рахунок?"
+          }
+        ]
       }
     ]
   },

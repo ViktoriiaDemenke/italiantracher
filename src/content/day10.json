@@ -7,19 +7,23 @@
   "phrases": [
     {
       "italian": "Ho visto il suo annuncio per l'appartamento in affitto.",
-      "ukrainian": "Я побачив(ла) ваше оголошення про оренду квартири."
+      "ukrainian": "Я побачив(ла) ваше оголошення про оренду квартири.",
+      "translation": "Я побачив(ла) ваше оголошення про оренду квартири."
     },
     {
       "italian": "È ancora disponibile l'appartamento?",
-      "ukrainian": "Квартира ще вільна (доступна)?"
+      "ukrainian": "Квартира ще вільна (доступна)?",
+      "translation": "Квартира ще вільна (доступна)?"
     },
     {
       "italian": "Le spese condominiali sono incluse nel prezzo?",
-      "ukrainian": "Витрати на кондомініум включені в ціну?"
+      "ukrainian": "Витрати на кондомініум включені в ціну?",
+      "translation": "Витрати на кондомініум включені в ціну?"
     },
     {
       "italian": "Quando possiamo fissare un appuntamento per vederlo?",
-      "ukrainian": "Коли ми можемо домовитися про зустріч, щоб оглянути її?"
+      "ukrainian": "Коли ми можемо домовитися про зустріч, щоб оглянути її?",
+      "translation": "Коли ми можемо домовитися про зустріч, щоб оглянути її?"
     }
   ],
   "housingNuances": [
@@ -33,11 +37,29 @@
     "rules": [
       {
         "rule": "Запитання про включені послуги: 'Sono inclusi/e...?' (Чи включені...?).",
-        "examples": ["I consumi di acqua e gas sono inclusi?", "Le spese condominiali sono escluse."]
+        "examples": [
+          {
+            "italian": "I consumi di acqua e gas sono inclusi?",
+            "ukrainian": "Витрати на воду і газ входять?"
+          },
+          {
+            "italian": "Le spese condominiali sono escluse.",
+            "ukrainian": "Витрати кондомініуму не входять."
+          }
+        ]
       },
       {
         "rule": "Домовленість про час: 'Fissare un appuntamento' (Призначити зустріч).",
-        "examples": ["Vorrei fissare una visita.", "Posso venire a vedere la casa domani?"]
+        "examples": [
+          {
+            "italian": "Vorrei fissare una visita.",
+            "ukrainian": "Я хотів би призначити огляд."
+          },
+          {
+            "italian": "Posso venire a vedere la casa domani?",
+            "ukrainian": "Можу прийти подивитися квартиру завтра?"
+          }
+        ]
       }
     ]
   },

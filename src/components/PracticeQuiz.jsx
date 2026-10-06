@@ -3,11 +3,8 @@ import SpeakButton from './SpeakButton.jsx'
 import { useI18n } from '../i18n.js'
 import './Learn.css'
 
-function looksItalian(text) {
-  return /[A-Za-zÀ-ÿ]/.test(text) && !/[А-Яа-яЇїІіЄєҐґ]/.test(text)
-}
-
 export const QUIZ_ANCHOR_ID = 'practice-quiz'
+const ADVANCE_MS = 600
 
 export function scrollToPracticeQuiz() {
   document.getElementById(QUIZ_ANCHOR_ID)?.scrollIntoView({
@@ -21,19 +18,28 @@ export default function PracticeQuiz({
   onPassedChange,
   autoScroll = false,
   onMiss,
+  onCorrect,
+  onComplete,
+  heading,
+  lead,
+  autoAdvance = true,
 }) {
   const { t } = useI18n()
-  const [answers, setAnswers] = useState({})
+  const [index, setIndex] = useState(0)
+  const [selected, setSelected] = useState(null)
+  const [locked, setLocked] = useState(false)
   const rootRef = useRef(null)
+  const timerRef = useRef(null)
 
   const total = questions.length
-  const passed =
-    total === 0 ||
-    questions.every((question) => answers[question.id]?.correct)
+  const question = questions[index] ?? null
+  const finished = total === 0 || index >= total
 
   useEffect(() => {
-    onPassedChange?.(passed)
-  }, [passed, onPassedChange])
+    return () => {
+      if (timerRef.current) window.clearTimeout(timerRef.current)
+    }
+  }, [])
 
   useEffect(() => {
     if (!autoScroll || total === 0) return
@@ -41,14 +47,31 @@ export default function PracticeQuiz({
   }, [autoScroll, total])
 
   if (total === 0) return null
+  if (finished || !question) return null
 
-  function pick(question, optionIndex) {
+  function pick(optionIndex) {
+    if (locked) return
     const correct = optionIndex === question.correctIndex
-    setAnswers((prev) => ({
-      ...prev,
-      [question.id]: { optionIndex, correct },
-    }))
-    if (!correct) onMiss?.(question)
+    setSelected(optionIndex)
+    if (!correct) {
+      onMiss?.(question)
+      return
+    }
+    setLocked(true)
+    onCorrect?.(question)
+    if (!autoAdvance) return
+    timerRef.current = window.setTimeout(() => {
+      const next = index + 1
+      if (next >= total) {
+        onPassedChange?.(true)
+        onComplete?.()
+        setIndex(next)
+        return
+      }
+      setIndex(next)
+      setSelected(null)
+      setLocked(false)
+    }, ADVANCE_MS)
   }
 
   return (
@@ -59,56 +82,49 @@ export default function PracticeQuiz({
       aria-labelledby="mini-quiz-heading"
     >
       <h2 id="mini-quiz-heading" className="day__section">
-        {t('quizTitle')}
+        {heading || t('quizTitle')}
       </h2>
-      <p className="day__intro">{t('quizLead', { total })}</p>
-      {questions.map((question, qIndex) => {
-        const answer = answers[question.id]
-        return (
-          <article key={question.id} className="quiz-card">
-            <div className="it-line">
-              <p className="phrase-card__it">
-                {qIndex + 1}. {question.prompt}
-              </p>
-              {question.speak ? <SpeakButton text={question.speak} /> : null}
-            </div>
-            <div className="quiz-options">
-              {question.options.map((option, optionIndex) => {
-                const selected = answer?.optionIndex === optionIndex
-                const status = !answer
-                  ? ''
-                  : optionIndex === question.correctIndex
-                    ? ' quiz-option--correct'
-                    : selected
-                      ? ' quiz-option--wrong'
-                      : ''
-                return (
-                  <div key={option} className={`quiz-option${status}`}>
-                    <button
-                      className="quiz-option__pick"
-                      type="button"
-                      onClick={() => pick(question, optionIndex)}
-                    >
-                      {option}
-                    </button>
-                    {looksItalian(option) ? <SpeakButton text={option} /> : null}
-                  </div>
-                )
-              })}
-            </div>
-            {answer && !answer.correct ? (
-              <p className="quiz-hint">
-                {question.explain
-                  ? `${question.explain} ${t('correctAnswer', { answer: question.options[question.correctIndex] })}`
-                  : t('correctAnswer', { answer: question.options[question.correctIndex] })}
-              </p>
-            ) : null}
-          </article>
-        )
-      })}
-      {passed ? (
-        <p className="quiz-pass">{t('quizPass')}</p>
-      ) : null}
+      <p className="day__intro">{lead || t('quizLead', { total })}</p>
+      <p className="learn-block__counter">
+        {index + 1} / {total}
+      </p>
+      <article className="quiz-card">
+        <div className="it-line">
+          <p className="phrase-card__it">{question.prompt}</p>
+          {question.speak ? <SpeakButton text={question.speak} /> : null}
+        </div>
+        <div className="quiz-options">
+          {question.options.map((option, optionIndex) => {
+            const chosen = selected === optionIndex
+            const status =
+              selected == null
+                ? ''
+                : optionIndex === question.correctIndex &&
+                    (locked || chosen)
+                  ? ' quiz-option--correct'
+                  : chosen
+                    ? ' quiz-option--wrong'
+                    : ''
+            return (
+              <div key={`${question.id}-${optionIndex}`} className={`quiz-option${status}`}>
+                <button
+                  className="quiz-option__pick"
+                  type="button"
+                  disabled={locked}
+                  onClick={() => pick(optionIndex)}
+                >
+                  {option}
+                </button>
+              </div>
+            )
+          })}
+        </div>
+        {selected != null && selected !== question.correctIndex ? (
+          <p className="quiz-hint">
+            {t('correctAnswer', { answer: question.options[question.correctIndex] })}
+          </p>
+        ) : null}
+      </article>
     </section>
   )
 }

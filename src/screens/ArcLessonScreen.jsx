@@ -1,14 +1,27 @@
-import { useMemo, useState } from 'react'
-import CycleNav from '../components/CycleNav.jsx'
+import { useEffect, useMemo, useRef, useState } from 'react'
+import DayStepsNav from '../components/DayStepsNav.jsx'
 import PhraseCard from '../components/PhraseCard.jsx'
 import SavedPhrasesSheet from '../components/SavedPhrasesSheet.jsx'
 import SpeakButton from '../components/SpeakButton.jsx'
 import Flashcards from '../components/Flashcards.jsx'
-import PracticeQuiz, { scrollToPracticeQuiz } from '../components/PracticeQuiz.jsx'
-import { cycleIdForDay, maxScore } from '../content/loadLesson.js'
+import PracticeQuiz from '../components/PracticeQuiz.jsx'
+import { maxScore } from '../content/loadLesson.js'
 import { buildMiniQuiz, buildPracticeDeck } from '../learn/practice.js'
+import {
+  buildDayStages,
+  buildDaySteps,
+  currentDayStepIndex,
+} from '../learn/daySteps.js'
 import { TOTAL_DAYS } from '../progress.js'
+import { DEFAULT_SPEECH_RATE, FAST_SPEECH_RATE } from '../lib/speech.js'
 import { rememberQuizError, rememberSavedPhrases } from '../storage.js'
+import {
+  fromBossQuestion,
+  fromDialogueStep,
+  isWrongChoice,
+  removeMistake,
+  upsertMistake,
+} from '../learn/mistakes.js'
 import { useI18n } from '../i18n.js'
 import '../screens/HomeScreen.css'
 import './Lesson.css'
@@ -29,8 +42,11 @@ function mergeDayPhrases(savedPhrases, lesson) {
 function LessonProgress({ day, step, steps }) {
   const { t } = useI18n()
   const dayPercent = Math.round((day / TOTAL_DAYS) * 100)
-  const currentStep = steps > 0 ? Math.min(step + 1, steps) : 0
-  const stepPercent = steps > 0 ? Math.round((currentStep / steps) * 100) : 0
+  const totalSteps = Math.max(steps, 0)
+  const currentStep =
+    totalSteps > 0 ? Math.min(Math.max(step, 1), totalSteps) : 0
+  const stepPercent =
+    totalSteps > 0 ? Math.round((currentStep / totalSteps) * 100) : 0
 
   return (
     <section className="lesson-progress" aria-label={t('lessonProgress')}>
@@ -64,33 +80,6 @@ function LessonProgress({ day, step, steps }) {
   )
 }
 
-function CompleteControl({ dayCompleted, canComplete, onMarkComplete, hasQuiz }) {
-  const { t } = useI18n()
-  if (!onMarkComplete) return null
-  const waitingForQuiz = !dayCompleted && !canComplete && hasQuiz
-
-  return (
-    <button
-      className={`btn-primary btn-complete${dayCompleted ? ' btn-primary--done' : ''}`}
-      type="button"
-      disabled={dayCompleted}
-      onClick={() => {
-        if (waitingForQuiz) {
-          scrollToPracticeQuiz()
-          return
-        }
-        if (canComplete) onMarkComplete()
-      }}
-    >
-      {dayCompleted
-        ? t('dayComplete')
-        : canComplete
-          ? t('markComplete')
-          : t('finishQuiz')}
-    </button>
-  )
-}
-
 function toneClass(tone, selected) {
   if (!selected) return ''
   if (tone === 'natural') return 'option-card--correct'
@@ -100,16 +89,20 @@ function toneClass(tone, selected) {
 
 function DialogueStep({ step, boss, picked, onPick }) {
   const { t } = useI18n()
-  const [slow, setSlow] = useState(false)
-  const rate = slow ? 0.75 : 1
+  const [slow, setSlow] = useState(true)
+  const [showUk, setShowUk] = useState(false)
+  const rate = slow ? DEFAULT_SPEECH_RATE : FAST_SPEECH_RATE
+  const choices = Array.isArray(step?.options) ? step.options : []
+  const lineUk = step?.translation || step?.ukrainian
 
   return (
     <article className="dialogue-card">
-      <p className="dialogue-line__who">{step.speaker}</p>
+      <p className="dialogue-line__who">{step?.speaker}</p>
       <div className="it-line">
-        <p className="phrase-card__it">{step.text}</p>
-        <SpeakButton text={step.text} rate={rate} />
+        <p className="phrase-card__it">{step?.text}</p>
+        {step?.text ? <SpeakButton text={step.text} rate={rate} /> : null}
       </div>
+      {!boss && showUk && lineUk ? <p className="phrase-card__uk">{lineUk}</p> : null}
       <div className="phrase-card__actions">
         <button
           className={`chip-btn ${slow ? 'chip-btn--on' : ''}`}
@@ -118,21 +111,33 @@ function DialogueStep({ step, boss, picked, onPick }) {
         >
           {slow ? '0.75x 🐢' : '1.0x'}
         </button>
+        {boss ? null : (
+          <button
+            className={`chip-btn ${showUk ? 'chip-btn--on' : ''}`}
+            type="button"
+            onClick={() => setShowUk((value) => !value)}
+          >
+            {showUk ? t('hideTranslation') : t('translation')}
+          </button>
+        )}
       </div>
       <div className="dialogue-options">
-        {step.options.map((option) => (
+        {choices.map((option, optionIndex) => (
           <article
-            key={option.text}
+            key={`${option.text}-${optionIndex}`}
             className={`option-card ${toneClass(option.tone, picked?.text === option.text)}`}
           >
             <div className="it-line">
               <p className="option-card__text">{option.text}</p>
               <SpeakButton text={option.text} rate={rate} />
             </div>
+            {!boss && showUk && (option.translation || option.ukrainian) ? (
+              <p className="phrase-card__uk">{option.translation || option.ukrainian}</p>
+            ) : null}
             <button
               className="btn-primary"
               type="button"
-              disabled={Boolean(picked)}
+              disabled={Boolean(picked) && !boss}
               onClick={() => onPick(option)}
             >
               {t('choose')}
@@ -163,79 +168,212 @@ export default function ArcLessonScreen({
   onBack,
   onStateChange,
   onOpenDay,
-  onContinue,
-  continueLabel,
   onMarkComplete,
-  dayCompleted,
   isUnlocked,
   onQuizError,
+  onStartNextDay,
 }) {
   const { t } = useI18n()
   const boss = lesson.mode === 'boss'
   const hideTranslation = boss
   const quiz = lesson.questions
   const hasQuiz = quiz.length > 0
-  const cycle = cycleIdForDay(lesson.day)
+  const daySteps = useMemo(() => buildDaySteps(lesson), [lesson])
+  const dayStages = useMemo(() => buildDayStages(daySteps), [daySteps])
   const [culturaOpen, setCulturaOpen] = useState(false)
   const [sheetOpen, setSheetOpen] = useState(false)
   const [stepIndex, setStepIndex] = useState(0)
   const [picked, setPicked] = useState(null)
   const [score, setScore] = useState(0)
   const [finished, setFinished] = useState(false)
+  const [dayDone, setDayDone] = useState(false)
+  const [activeKind, setActiveKind] = useState(dayStages[0]?.kind ?? 'text')
+  const [mistakesList, setMistakesList] = useState([])
+  const [reviewingMistakes, setReviewingMistakes] = useState(false)
+  const mistakesRef = useRef([])
+  const advanceTimer = useRef(null)
   const savedPhrases = state?.savedPhrases ?? []
-  const deck = useMemo(() => buildPracticeDeck(lesson), [lesson])
-  const miniQuestions = useMemo(() => buildMiniQuiz(deck, lesson), [deck, lesson])
-  const [quizPassed, setQuizPassed] = useState(() => miniQuestions.length === 0)
-  const canComplete = dayCompleted || quizPassed
-  const step = lesson.dialogue[stepIndex]
+  const deck = useMemo(
+    () => buildPracticeDeck(lesson).filter((card) => card.day === lesson.day),
+    [lesson],
+  )
+  const miniQuestions = useMemo(
+    () => buildMiniQuiz(deck, lesson.day),
+    [deck, lesson.day],
+  )
+  const dialogueSteps = Array.isArray(lesson.dialogue) ? lesson.dialogue : []
+  const safeIndex = Math.min(Math.max(stepIndex, 0), Math.max(dialogueSteps.length - 1, 0))
+  const step = dialogueSteps[safeIndex]
   const question = quiz[stepIndex]
-  const trackLength = hasQuiz ? quiz.length : lesson.dialogue.length
-  const last = trackLength === 0 ? true : stepIndex >= trackLength - 1
+  const trackLength = hasQuiz ? quiz.length : dialogueSteps.length
   const total = maxScore(lesson)
+  const nextDay = lesson.day < TOTAL_DAYS ? lesson.day + 1 : null
+  const flowIndex = currentDayStepIndex({
+    steps: daySteps,
+    stepIndex,
+    trackLength,
+    finished,
+    engaged: Boolean(picked) || stepIndex > 0,
+  })
+  const flowKind = daySteps[flowIndex]?.kind ?? activeKind
 
-  function pick(option) {
-    setPicked(option)
-    const nextScore = score + (option.points ?? 0)
-    setScore(nextScore)
-    if (boss && !hasQuiz) {
-      if (last) {
+  useEffect(() => {
+    setCulturaOpen(false)
+    setSheetOpen(false)
+    setStepIndex(0)
+    setPicked(null)
+    setScore(0)
+    setFinished(false)
+    setDayDone(false)
+    setMistakesList([])
+    setReviewingMistakes(false)
+    mistakesRef.current = []
+    setActiveKind(buildDayStages(buildDaySteps(lesson))[0]?.kind ?? 'text')
+    return () => {
+      if (advanceTimer.current) window.clearTimeout(advanceTimer.current)
+    }
+  }, [lesson.day])
+
+  useEffect(() => {
+    if (hasQuiz) return
+    if (dialogueSteps.length === 0) return
+    if (stepIndex >= dialogueSteps.length) {
+      setFinished(true)
+      setPicked(null)
+      return
+    }
+    const current = dialogueSteps[stepIndex]
+    const choices = Array.isArray(current?.options) ? current.options : []
+    if (!current || choices.length === 0) {
+      if (stepIndex + 1 >= dialogueSteps.length) {
         setFinished(true)
+        setPicked(null)
         return
       }
       setStepIndex((index) => index + 1)
       setPicked(null)
     }
+  }, [hasQuiz, dialogueSteps, stepIndex])
+
+  useEffect(() => {
+    if (!finished || dayDone || reviewingMistakes) return
+    if (miniQuestions.length > 0) return
+    tryFinishDay()
+  }, [finished, miniQuestions.length, dayDone, reviewingMistakes])
+
+  function rememberSessionMistake(item) {
+    if (!item) return
+    setMistakesList((prev) => {
+      const next = upsertMistake(prev, item)
+      mistakesRef.current = next
+      return next
+    })
+  }
+
+  function forgetSessionMistake(id) {
+    setMistakesList((prev) => {
+      const next = removeMistake(prev, id)
+      mistakesRef.current = next
+      return next
+    })
+  }
+
+  function completeDayNow() {
+    onMarkComplete?.()
+    setReviewingMistakes(false)
+    setDayDone(true)
+  }
+
+  function tryFinishDay() {
+    if (mistakesRef.current.length > 0) {
+      setReviewingMistakes(true)
+      return
+    }
+    completeDayNow()
+  }
+
+  function advanceDialogue() {
+    setPicked(null)
+    setStepIndex((index) => {
+      const next = index + 1
+      if (next >= dialogueSteps.length) {
+        setFinished(true)
+        return index
+      }
+      return next
+    })
+  }
+
+  function pick(option) {
+    const current = dialogueSteps[safeIndex]
+    const choices = current?.options ?? []
+    if (!current || choices.length === 0) {
+      advanceDialogue()
+      return
+    }
+    if (picked && !boss) return
+    if (isWrongChoice(option)) {
+      rememberSessionMistake(fromDialogueStep(current, lesson.day, safeIndex))
+    } else {
+      forgetSessionMistake(`dlg-${lesson.day}-${current.step ?? safeIndex}`)
+    }
+    setPicked(option)
+    setScore((value) => value + (option.points ?? 0))
+    if (!boss) return
+    if (advanceTimer.current) window.clearTimeout(advanceTimer.current)
+    advanceTimer.current = window.setTimeout(() => {
+      advanceDialogue()
+    }, 600)
   }
 
   function pickQuiz(index) {
     const current = quiz[stepIndex]
+    if (!current || !Array.isArray(current.options) || current.options.length === 0) {
+      advanceDialogue()
+      return
+    }
     const correct = index === current.correctAnswer
+    const reviewItem = fromBossQuestion(current, lesson.day, stepIndex)
     if (!correct) {
+      rememberSessionMistake(reviewItem)
       const item = {
-        id: `boss-${lesson.day}-${current.id ?? stepIndex}`,
+        id: reviewItem?.id ?? `boss-${lesson.day}-${current.id ?? stepIndex}`,
         it: current.options[current.correctAnswer],
         uk: current.explanation || current.question,
         day: lesson.day,
       }
       if (onQuizError) onQuizError(item)
       else onStateChange?.((prev) => rememberQuizError(prev, item))
+    } else if (reviewItem) {
+      forgetSessionMistake(reviewItem.id)
     }
     setScore((value) => value + (correct ? 10 : 0))
-    if (last) {
-      setFinished(true)
-      return
-    }
-    setStepIndex((value) => value + 1)
-    setPicked(null)
+    window.setTimeout(() => {
+      if (stepIndex + 1 >= quiz.length) {
+        setFinished(true)
+        setPicked(null)
+        return
+      }
+      setStepIndex((value) => value + 1)
+      setPicked(null)
+    }, correct ? 600 : 0)
   }
 
   function nextStep() {
-    if (last) {
-      setFinished(true)
-      return
-    }
-    setStepIndex((index) => index + 1)
-    setPicked(null)
+    advanceDialogue()
+  }
+
+  function handleQuizComplete() {
+    tryFinishDay()
+  }
+
+  function onReviewCorrect(question) {
+    window.setTimeout(() => {
+      const remaining = removeMistake(mistakesRef.current, question.id)
+      mistakesRef.current = remaining
+      setMistakesList(remaining)
+      if (remaining.length === 0) completeDayNow()
+    }, 600)
   }
 
   function saveDayPhrases() {
@@ -248,8 +386,9 @@ export default function ArcLessonScreen({
   }
 
   function onMiniQuizMiss(question) {
+    rememberSessionMistake(question)
     const item = {
-      id: `quiz-${lesson.day}-${question.id}`,
+      id: question.id,
       it: question.speak || question.options[question.correctIndex],
       uk: question.explain || question.prompt,
       day: lesson.day,
@@ -258,52 +397,62 @@ export default function ArcLessonScreen({
     else onStateChange?.((prev) => rememberQuizError(prev, item))
   }
 
-  if (finished && boss) {
+  if (reviewingMistakes && mistakesList.length > 0) {
     return (
       <main className="day">
         <header className="day__top">
           <button className="back-btn" type="button" onClick={onBack}>
             {t('back')}
           </button>
-          <LessonProgress
-            day={lesson.day}
-            step={finished ? Math.max(trackLength - 1, 0) : stepIndex}
-            steps={trackLength}
-          />
+        </header>
+        <section className="day__hero">
+          <span className="badge">{t('mistakesBadge')}</span>
+          <h1 className="day__title">{t('mistakesTitle')}</h1>
+          <p className="day__lead">{t('mistakesLead', { total: mistakesList.length })}</p>
+        </section>
+        <PracticeQuiz
+          key={mistakesList[0].id}
+          questions={mistakesList}
+          heading={t('mistakesTitle')}
+          lead={t('mistakesLead', { total: mistakesList.length })}
+          onCorrect={onReviewCorrect}
+          autoAdvance={false}
+          autoScroll
+        />
+      </main>
+    )
+  }
+
+  if (dayDone) {
+    return (
+      <main className="day">
+        <header className="day__top">
+          <button className="back-btn" type="button" onClick={onBack}>
+            {t('back')}
+          </button>
         </header>
         <section className="result-card">
-          <span className="badge">
-            {lesson.successBadge || 'Boss Level 🏆'}
-          </span>
+          <span className="badge">{t('dayCompleteTitle', { day: lesson.day })}</span>
           <h1 className="day__title">
-            {lesson.successTitle || lesson.successMessage}
+            {lesson.successTitle || t('dayCompleteTitle', { day: lesson.day })}
           </h1>
-          {lesson.successTitle && lesson.successMessage ? (
+          {lesson.successMessage ? (
             <p className="day__lead">{lesson.successMessage}</p>
           ) : null}
-          <p className="result-score">{t('score')}</p>
-          <p className="result-score__value">
-            {score} / {total}
-          </p>
         </section>
-        {onContinue ? (
-          <button className="btn-primary" type="button" onClick={onContinue}>
-            {continueLabel ?? t('goHome')}
+        {nextDay ? (
+          <button
+            className="btn-primary"
+            type="button"
+            onClick={() => onStartNextDay?.(nextDay)}
+          >
+            {t('startDay', { day: nextDay })}
           </button>
-        ) : null}
-        <Flashcards key={`flash-done-${lesson.day}`} deck={deck} />
-        <PracticeQuiz
-          key={`quiz-done-${lesson.day}`}
-          questions={miniQuestions}
-          onPassedChange={setQuizPassed}
-          onMiss={onMiniQuizMiss}
-        />
-        <CompleteControl
-          dayCompleted={dayCompleted}
-          canComplete={canComplete}
-          onMarkComplete={onMarkComplete}
-          hasQuiz={miniQuestions.length > 0}
-        />
+        ) : (
+          <button className="btn-primary" type="button" onClick={onBack}>
+            {t('goHome')}
+          </button>
+        )}
       </main>
     )
   }
@@ -314,7 +463,11 @@ export default function ArcLessonScreen({
         <button className="back-btn" type="button" onClick={onBack}>
           {t('back')}
         </button>
-        <LessonProgress day={lesson.day} step={stepIndex} steps={trackLength} />
+        <LessonProgress
+          day={lesson.day}
+          step={flowIndex + 1}
+          steps={daySteps.length}
+        />
       </header>
 
       <section className="day__hero">
@@ -323,16 +476,19 @@ export default function ArcLessonScreen({
         </span>
         {lesson.module ? <p className="day__lead">{lesson.module}</p> : null}
         <h1 className="day__title">{lesson.title}</h1>
-        {onOpenDay ? (
-          <CycleNav
-            cycle={cycle}
-            currentDay={lesson.day}
-            onOpenDay={onOpenDay}
-            isUnlocked={isUnlocked}
-          />
-        ) : null}
+        <DayStepsNav
+          stages={dayStages}
+          activeKind={flowKind}
+          onSelect={(stage) => {
+            setActiveKind(stage.kind)
+            document
+              .getElementById(`day-step-${stage.kind}`)
+              ?.scrollIntoView({ behavior: 'smooth', block: 'start' })
+          }}
+        />
       </section>
 
+      <div id="day-step-text">
       {lesson.story ? (
         <article className="phrase-card">
           <p className={boss ? 'phrase-card__it' : 'day__lead'}>{lesson.story}</p>
@@ -484,12 +640,25 @@ export default function ArcLessonScreen({
             {lesson.grammar.rules.map((item) => (
               <article key={item.rule} className="phrase-card">
                 <p className="phrase-card__it">{item.rule}</p>
-                {item.examples?.map((example) => (
-                  <div key={example} className="it-line">
-                    <p className="phrase-card__uk">{example}</p>
-                    <SpeakButton text={example} />
-                  </div>
-                ))}
+                {item.examples?.map((example) => {
+                  const italian =
+                    typeof example === 'string' ? example : example.italian
+                  const ukrainian =
+                    typeof example === 'string'
+                      ? ''
+                      : example.ukrainian || example.translation || ''
+                  return (
+                    <div key={italian} className="it-line">
+                      <div>
+                        <p className="phrase-card__it">{italian}</p>
+                        {ukrainian ? (
+                          <p className="phrase-card__uk">{ukrainian}</p>
+                        ) : null}
+                      </div>
+                      <SpeakButton text={italian} />
+                    </div>
+                  )
+                })}
               </article>
             ))}
           </div>
@@ -510,16 +679,32 @@ export default function ArcLessonScreen({
           {culturaOpen ? <p className="cultura__body">{lesson.culturaTip}</p> : null}
         </section>
       ) : null}
+      </div>
+
+      {finished && boss ? (
+        <section className="result-card">
+          <span className="badge">
+            {lesson.successBadge || 'Boss Level 🏆'}
+          </span>
+          <h1 className="day__title">
+            {lesson.successTitle || lesson.successMessage}
+          </h1>
+          <p className="result-score">{t('score')}</p>
+          <p className="result-score__value">
+            {score} / {total}
+          </p>
+        </section>
+      ) : null}
 
       {hasQuiz && question && !finished ? (
-        <>
+        <div id="day-step-boss">
           <h2 className="day__section">
             {t('simulation')} · {stepIndex + 1}/{quiz.length}
           </h2>
           <article className="dialogue-card">
             <p className="phrase-card__it">{question.question}</p>
             <div className="dialogue-options">
-              {question.options.map((option, index) => (
+              {(question.options ?? []).map((option, index) => (
                 <article key={option} className="option-card">
                   <div className="it-line">
                     <p className="option-card__text">{option}</p>
@@ -536,30 +721,33 @@ export default function ArcLessonScreen({
               ))}
             </div>
           </article>
-        </>
+        </div>
       ) : null}
 
-      {!hasQuiz && step ? (
-        <>
+      {!hasQuiz && step && !finished ? (
+        <div id={boss ? 'day-step-boss' : 'day-step-dialogue'}>
           <h2 className="day__section">
-            {boss ? t('simulation') : t('dialogueHeading')} · {step.step}/{lesson.dialogue.length}
+            {boss ? t('simulation') : t('dialogueHeading')} ·{' '}
+            {step.step ?? stepIndex + 1}/{dialogueSteps.length}
           </h2>
-          <DialogueStep step={step} boss={boss} picked={picked} onPick={pick} />
-          {picked && !boss ? (
-            <button
-              className="btn-primary"
-              type="button"
-              onClick={last ? onContinue : nextStep}
-            >
-              {last ? continueLabel ?? t('next') : t('next')}
+          <DialogueStep
+            key={stepIndex}
+            step={step}
+            boss={boss}
+            picked={picked}
+            onPick={pick}
+          />
+          {picked ? (
+            <button className="btn-primary" type="button" onClick={nextStep}>
+              {t('next')}
             </button>
           ) : null}
-        </>
+        </div>
       ) : null}
 
-      {!hasQuiz && lesson.dialogue.length === 0 && onContinue ? (
-        <button className="btn-primary" type="button" onClick={onContinue}>
-          {continueLabel ?? t('next')}
+      {!hasQuiz && dialogueSteps.length === 0 && !finished ? (
+        <button className="btn-primary" type="button" onClick={() => setFinished(true)}>
+          {t('next')}
         </button>
       ) : null}
 
@@ -570,19 +758,16 @@ export default function ArcLessonScreen({
       ) : null}
 
       <Flashcards key={`flash-${lesson.day}`} deck={deck} />
-      <PracticeQuiz
-        key={`quiz-${lesson.day}`}
-        questions={miniQuestions}
-        onPassedChange={setQuizPassed}
-        onMiss={onMiniQuizMiss}
-      />
-
-      <CompleteControl
-        dayCompleted={dayCompleted}
-        canComplete={canComplete}
-        onMarkComplete={onMarkComplete}
-        hasQuiz={miniQuestions.length > 0}
-      />
+      {finished ? (
+        <PracticeQuiz
+          key={`quiz-${lesson.day}`}
+          questions={miniQuestions}
+          onMiss={onMiniQuizMiss}
+          onCorrect={(question) => forgetSessionMistake(question.id)}
+          onComplete={handleQuizComplete}
+          autoScroll
+        />
+      ) : null}
 
       <SavedPhrasesSheet
         open={sheetOpen}

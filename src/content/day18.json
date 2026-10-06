@@ -20,9 +20,9 @@
       "id": "p2",
       "question": "Як називається щомісячна державна допомога на дитину в Італії?",
       "options": [
-        "Assegno Unico Universale.",
+        "L'Assegno Unico Universale.",
         "Codice Fiscale.",
-        "Spese Condominiali."
+        "Le spese condominiali."
       ],
       "correctAnswer": 0,
       "explanation": "'Assegno Unico' — головна виплата на дітей у країні."
@@ -51,7 +51,7 @@
     },
     {
       "id": "p5",
-      "question": "Як запитатиконсультанта 'Які документы потрібні для подачі заявки?'",
+      "question": "Як запитати консультанта: «Які документи потрібні для подання заяви?»",
       "options": [
         "Quali documenti servono per la richiesta?",
         "Quanto costa la pizza margherita?",
@@ -62,5 +62,5 @@
     }
   ],
   "successBadge": "Esperto di Patronato 📋",
-  "successMessage": "Вітаємо! Ви повністю орієнтуєтеся у функціях Patronato/CAF, знаєте як оформити ISEE, Assegno Unico та працювати із соціальними виплатами в Італії!"
+  "successMessage": "Вітаємо! Ви повністю орієнтуєтеся у функціях Patronato/CAF, знаєте, як оформити ISEE, Assegno Unico та працювати із соціальними виплатами в Італії!"
 }

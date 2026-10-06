@@ -3,12 +3,15 @@ function uniqueDeck(items) {
   const deck = []
   for (const item of items) {
     const it = String(item.it ?? '').trim()
-    if (!it || seen.has(it)) continue
+    const translation = String(item.translation ?? item.uk ?? '').trim()
+    if (!it || !translation || seen.has(it)) continue
     seen.add(it)
     deck.push({
       it,
-      uk: String(item.uk ?? '').trim(),
-      context: String(item.context ?? '').trim(),
+      translation,
+      uk: translation,
+      hint: String(item.hint ?? '').trim(),
+      day: Number(item.day) || 0,
     })
   }
   return deck
@@ -23,146 +26,68 @@ export function shuffleList(list) {
   return next
 }
 
+function phraseTranslation(phrase) {
+  return String(phrase.translation ?? phrase.ukrainian ?? phrase.uk ?? '').trim()
+}
+
 export function buildPracticeDeck(lesson) {
-  const items = []
-  for (const phrase of lesson.phrases ?? []) {
-    items.push({
-      it: phrase.italian,
-      uk: phrase.ukrainian,
-      context: lesson.module || 'Фраза дня',
-    })
-  }
-  for (const doc of lesson.documents ?? []) {
-    items.push({
-      it: doc.item,
-      uk: doc.ukrainian,
-      context: 'Документ / термін',
-    })
-  }
+  const day = Number(lesson.day) || 0
+  const fromPhrases = (lesson.phrases ?? []).map((phrase) => ({
+    it: phrase.italian,
+    translation: phraseTranslation(phrase),
+    hint: phrase.hint,
+    day,
+  }))
+  const fromDialogue = []
   for (const step of lesson.dialogue ?? []) {
-    items.push({
-      it: step.text,
-      uk: `${step.speaker}`,
-      context: 'Репліка діалогу',
-    })
-    const correct = (step.options ?? []).find((option) => option.isCorrect)
-    if (correct) {
-      items.push({
-        it: correct.text,
-        uk: correct.feedback || 'Правильна відповідь у діалозі',
-        context: step.speaker,
+    for (const option of step.options ?? []) {
+      if (!(option.isCorrect || option.tone === 'natural')) continue
+      const translation = phraseTranslation(option)
+      if (!option.text || !translation) continue
+      fromDialogue.push({
+        it: option.text,
+        translation,
+        hint: option.hint,
+        day,
       })
     }
   }
-  for (const rule of lesson.grammar?.rules ?? []) {
-    for (const example of rule.examples ?? []) {
-      items.push({
-        it: example,
-        uk: rule.rule,
-        context: lesson.grammar.title,
-      })
-    }
-  }
-  return uniqueDeck(items)
+  return uniqueDeck([...fromPhrases, ...fromDialogue])
 }
 
-function italianTokens(text) {
-  return String(text)
-    .split(/[\s',.!?…]+/)
-    .map((token) => token.replace(/^[«"“]+|[»"”]+$/g, ''))
-    .filter((token) => token.length >= 4)
+function distractors(deck, correct, count = 3) {
+  return shuffleList(
+    [...new Set(deck.map((item) => item.translation).filter((value) => value && value !== correct))],
+  ).slice(0, count)
 }
 
-function otherValues(deck, field, except) {
-  return deck
-    .map((item) => item[field])
-    .filter((value) => value && value !== except)
-}
-
-function mcOptions(correct, extras) {
-  const pool = shuffleList([...new Set(extras.filter(Boolean))])
-  const options = shuffleList([correct, ...pool.slice(0, 2)].filter(Boolean))
-  if (options.length < 2 || !options.includes(correct)) {
-    return { options: [], correctIndex: -1 }
-  }
-  return {
-    options,
-    correctIndex: options.indexOf(correct),
-  }
-}
-
-export function buildMiniQuiz(deck, lesson) {
-  const questions = []
-  const withUk = deck.filter((item) => item.uk)
-  const phrase = withUk[0] ?? deck[0]
-
-  if (phrase?.uk) {
-    const { options, correctIndex } = mcOptions(
-      phrase.uk,
-      otherValues(withUk, 'uk', phrase.uk),
-    )
-    if (options.length >= 2 && correctIndex >= 0) {
-      questions.push({
-        id: 'mc-uk',
-        type: 'mc',
-        prompt: `Оберіть переклад: «${phrase.it}»`,
-        options,
-        correctIndex,
-        speak: phrase.it,
-        explain: `Правильний переклад фрази «${phrase.it}» — «${phrase.uk}».`,
-      })
-    }
-  }
-
-  const blankSource = deck.find((item) => italianTokens(item.it).length >= 2) ?? deck[1]
-  if (blankSource) {
-    const tokens = italianTokens(blankSource.it)
-    const missing = tokens[Math.min(1, tokens.length - 1)]
-    const extras = deck
-      .flatMap((item) => italianTokens(item.it))
-      .filter((token) => token.toLowerCase() !== missing.toLowerCase())
-    const { options, correctIndex } = mcOptions(missing, extras)
-    if (missing && options.length >= 2 && correctIndex >= 0) {
-      questions.push({
-        id: 'blank',
-        type: 'blank',
-        prompt: `Вставте пропущене слово: «${blankSource.it.replace(missing, '______')}»`,
-        options,
-        correctIndex,
-        speak: blankSource.it,
-        explain: `У цій італійській фразі пропущено слово «${missing}».`,
-      })
-    }
-  }
-
-  const dialogueStep = (lesson.dialogue ?? []).find(
-    (step) => (step.options ?? []).length >= 2,
+export function buildMiniQuiz(deck, day) {
+  const cards = uniqueDeck(deck).filter(
+    (item) => item.translation && (!day || !item.day || item.day === day),
   )
-  if (dialogueStep) {
-    const correct = dialogueStep.options.find((option) => option.isCorrect)
-    const options = dialogueStep.options.map((option) => option.text)
-    const correctIndex = options.findIndex((text) => text === correct?.text)
-    if (correct && correctIndex >= 0) {
-      questions.push({
-        id: 'dialogue',
-        type: 'mc',
-        prompt: `${dialogueStep.speaker}: «${dialogueStep.text}» — оберіть відповідь.`,
-        options,
-        correctIndex,
-        speak: dialogueStep.text,
-        explain:
-          correct.feedback ||
-          'Це природна відповідь у цьому діалозі; інші варіанти тут недоречні.',
-      })
+  const questions = []
+
+  for (const [index, card] of shuffleList(cards).entries()) {
+    const wrong = distractors(cards, card.translation, 3)
+    if (wrong.length === 0) continue
+    while (wrong.length < 3 && wrong.length < cards.length - 1) {
+      const extra = distractors(cards, card.translation, 3).find(
+        (item) => !wrong.includes(item),
+      )
+      if (!extra) break
+      wrong.push(extra)
     }
+    const options = shuffleList([card.translation, ...wrong])
+    questions.push({
+      id: `day${card.day}-q${index}`,
+      type: 'mc',
+      prompt: card.it,
+      speak: card.it,
+      options,
+      correctIndex: options.indexOf(card.translation),
+      explain: card.translation,
+    })
   }
 
-  const unique = []
-  const seen = new Set()
-  for (const question of questions) {
-    if (seen.has(question.id)) continue
-    seen.add(question.id)
-    unique.push(question)
-  }
-  return unique.slice(0, 3)
+  return questions
 }
