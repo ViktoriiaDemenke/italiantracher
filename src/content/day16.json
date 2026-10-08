@@ -1,66 +1,226 @@
 {
   "day": 16,
-  "title": "У Патронаті: Документи, ISEE та дитячі виплати",
+  "title": {
+    "uk": "У Патронаті: Документи, ISEE та дитячі виплати",
+    "en": "At the Patronato: Documents, ISEE and child benefits",
+    "es": "En el Patronato: documentos, ISEE y prestaciones por hijos",
+    "fr": "Au Patronato : documents, ISEE et allocations enfant",
+    "ro": "La Patronato: documente, ISEE și alocații pentru copii"
+  },
   "module": "Patronato e Assistenza Sociale",
-  "type": "Immersion & Vocabulary",
-  "story": "Марко та Лаура звертаються до офісу Patronato / CAF у своєму місті. В Італії Патронат — це безкоштовна або недорога соціальна служба, яка допомагає іноземцям та сім'ям оформлювати соціальні виплати, подавати декларації, оформлювати ISEE (індекс фінансового стану) та отримувати щомісячну допомогу на дитину (Assegno Unico Universale).",
+  "type": {
+    "uk": "Занурення та словник",
+    "en": "Immersion & Vocabulary",
+    "es": "Inmersión y vocabulario",
+    "fr": "Immersion et vocabulaire",
+    "ro": "Imersiune și vocabular"
+  },
+  "story": {
+    "uk": "Марко та Лаура звертаються до офісу Patronato / CAF у своєму місті. В Італії Патронат — це безкоштовна або недорога соціальна служба, яка допомагає іноземцям та сім'ям оформлювати соціальні виплати, подавати декларації, оформлювати ISEE (індекс фінансового стану) та отримувати щомісячну допомогу на дитину (Assegno Unico Universale).",
+    "en": "Marco and Laura go to a Patronato / CAF office in their city. In Italy the Patronato is a free or low-cost social service that helps foreigners and families apply for benefits, file declarations, complete the ISEE (household means test) and receive the monthly child benefit (Assegno Unico Universale).",
+    "es": "Marco y Laura acuden a una oficina de Patronato / CAF de su ciudad. En Italia el Patronato es un servicio social gratuito o económico que ayuda a extranjeros y familias a tramitar prestaciones, presentar declaraciones, hacer el ISEE (índice de situación económica) y recibir la ayuda mensual por hijo (Assegno Unico Universale).",
+    "fr": "Marco et Laura se rendent au bureau Patronato / CAF de leur ville. En Italie, le Patronato est un service social gratuit ou peu coûteux qui aide les étrangers et les familles à demander des prestations, déposer des déclarations, établir l’ISEE (indicateur de situation économique) et percevoir l’allocation mensuelle pour enfant (Assegno Unico Universale).",
+    "ro": "Marco și Laura merg la un birou Patronato / CAF din orașul lor. În Italia, Patronato este un serviciu social gratuit sau ieftin care ajută străinii și familiile să solicite prestații, să depună declarații, să facă ISEE (indicatorul situației economice) și să primească alocația lunară pentru copil (Assegno Unico Universale)."
+  },
   "phrases": [
     {
       "italian": "Vorrei fissare un appuntamento per fare il modello ISEE.",
-      "ukrainian": "Я б хотів(ла) призначити зустріч для оформлення довідки ISEE.",
-      "translation": "Я б хотів(ла) призначити зустріч для оформлення довідки ISEE."
+      "ukrainian": {
+        "uk": "Я б хотів(ла) призначити зустріч для оформлення довідки ISEE.",
+        "en": "I'd like to make an appointment to do the ISEE form.",
+        "es": "Quisiera concertar una cita para hacer el modello ISEE.",
+        "fr": "Je voudrais prendre rendez-vous pour faire le modello ISEE.",
+        "ro": "Aș vrea să programez o întâlnire pentru modello ISEE."
+      },
+      "translation": {
+        "uk": "Я б хотів(ла) призначити зустріч для оформлення довідки ISEE.",
+        "en": "I'd like to make an appointment to do the ISEE form.",
+        "es": "Quisiera concertar una cita para hacer el modello ISEE.",
+        "fr": "Je voudrais prendre rendez-vous pour faire le modello ISEE.",
+        "ro": "Aș vrea să programez o întâlnire pentru modello ISEE."
+      }
     },
     {
       "italian": "Vorrei fare la domanda per l'Assegno Unico per mia figlia.",
-      "ukrainian": "Я б хотів(ла) подати заявку на щомісячну допомогу на дитину.",
-      "translation": "Я б хотів(ла) подати заявку на щомісячну допомогу на дитину."
+      "ukrainian": {
+        "uk": "Я б хотів(ла) подати заявку на щомісячну допомогу на дитину.",
+        "en": "I'd like to apply for Assegno Unico for my daughter.",
+        "es": "Quisiera presentar la solicitud del Assegno Unico para mi hija.",
+        "fr": "Je voudrais faire la demande d'Assegno Unico pour ma fille.",
+        "ro": "Aș vrea să depun cererea pentru Assegno Unico pentru fiica mea."
+      },
+      "translation": {
+        "uk": "Я б хотів(ла) подати заявку на щомісячну допомогу на дитину.",
+        "en": "I'd like to apply for Assegno Unico for my daughter.",
+        "es": "Quisiera presentar la solicitud del Assegno Unico para mi hija.",
+        "fr": "Je voudrais faire la demande d'Assegno Unico pour ma fille.",
+        "ro": "Aș vrea să depun cererea pentru Assegno Unico pentru fiica mea."
+      }
     },
     {
       "italian": "Quali documenti servono per la richiesta?",
-      "ukrainian": "Які документи потрібні для подання заяви?",
-      "translation": "Які документи потрібні для подання заяви?"
+      "ukrainian": {
+        "uk": "Які документи потрібні для подання заяви?",
+        "en": "What documents are needed for the application?",
+        "es": "¿Qué documentos se necesitan para la solicitud?",
+        "fr": "Quels documents faut-il pour la demande ?",
+        "ro": "Ce documente sunt necesare pentru cerere?"
+      },
+      "translation": {
+        "uk": "Які документи потрібні для подання заяви?",
+        "en": "What documents are needed for the application?",
+        "es": "¿Qué documentos se necesitan para la solicitud?",
+        "fr": "Quels documents faut-il pour la demande ?",
+        "ro": "Ce documente sunt necesare pentru cerere?"
+      }
     },
     {
       "italian": "Ho bisogno di aiuto per la dichiarazione dei redditi.",
-      "ukrainian": "Мені потрібна допомога з податковою декларацією.",
-      "translation": "Мені потрібна допомога з податковою декларацією."
+      "ukrainian": {
+        "uk": "Мені потрібна допомога з податковою декларацією.",
+        "en": "I need help with the tax return.",
+        "es": "Necesito ayuda con la declaración de la renta.",
+        "fr": "J'ai besoin d'aide pour la déclaration de revenus.",
+        "ro": "Am nevoie de ajutor pentru declarația de venit."
+      },
+      "translation": {
+        "uk": "Мені потрібна допомога з податковою декларацією.",
+        "en": "I need help with the tax return.",
+        "es": "Necesito ayuda con la declaración de la renta.",
+        "fr": "J'ai besoin d'aide pour la déclaration de revenus.",
+        "ro": "Am nevoie de ajutor pentru declarația de venit."
+      }
     }
   ],
   "patronatoTips": [
-    "Patronato e CAF — установи, що допомагають безкоштовно або за символічну плату з податками, декретними виплатами, бонусами на дітей та пільгами.",
-    "ISEE — це офіційний розрахунок фінансового стану родини. Він потрібен для отримання значних знижок на дитячий садок, шкільні обіди, комунальні бонуси та виплату Assegno Unico.",
-    "Assegno Unico Universale — щомісячна фінансова допомога на кожну неповнолітню дитину в сім'ї."
+    {
+      "uk": "Patronato e CAF — установи, що допомагають безкоштовно або за символічну плату з податками, декретними виплатами, бонусами на дітей та пільгами.",
+      "en": "Patronato e CAF are offices that help, free or for a small fee, with taxes, maternity benefits, child bonuses and other allowances.",
+      "es": "Patronato e CAF son entidades que ayudan, gratis o por una tarifa simbólica, con impuestos, prestaciones de maternidad, bonificaciones por hijos y ayudas.",
+      "fr": "Patronato e CAF sont des structures qui aident, gratuitement ou pour un tarif symbolique, pour les impôts, les allocations maternité, les bonus enfants et les aides.",
+      "ro": "Patronato e CAF sunt instituții care ajută gratuit sau contra unei sume simbolice cu taxele, indemnizațiile de maternitate, bonusurile pentru copii și alte ajutoare."
+    },
+    {
+      "uk": "ISEE — це офіційний розрахунок фінансового стану родини. Він потрібен для отримання значних знижок на дитячий садок, шкільні обіди, комунальні бонуси та виплату Assegno Unico.",
+      "en": "ISEE is the official calculation of a household’s financial situation. It is required for major discounts on nursery, school meals, utility bonuses and the Assegno Unico payment.",
+      "es": "El ISEE es el cálculo oficial de la situación económica familiar. Hace falta para descuentos importantes en guardería, comedor escolar, bonos de suministros y el cobro del Assegno Unico.",
+      "fr": "L’ISEE est le calcul officiel de la situation financière du foyer. Il est nécessaire pour d’importantes réductions à la crèche, à la cantine, pour les bonus énergétiques et le versement de l’Assegno Unico.",
+      "ro": "ISEE este calculul oficial al situației financiare a familiei. Este necesar pentru reduceri importante la grădiniță, mese școlare, bonusuri la utilități și plata Assegno Unico."
+    },
+    {
+      "uk": "Assegno Unico Universale — щомісячна фінансова допомога на кожну неповнолітню дитину в сім'ї.",
+      "en": "Assegno Unico Universale is a monthly cash benefit for each underage child in the family.",
+      "es": "Assegno Unico Universale es una ayuda mensual por cada hijo menor de edad en la familia.",
+      "fr": "Assegno Unico Universale est une allocation mensuelle pour chaque enfant mineur du foyer.",
+      "ro": "Assegno Unico Universale este o alocație lunară pentru fiecare copil minor din familie."
+    }
   ],
   "grammar": {
-    "title": "Конструкції 'Fare la domanda' (подавати заяву) та 'Servono / Serve' (потрібно)",
+    "title": {
+      "uk": "Конструкції 'Fare la domanda' (подавати заяву) та 'Servono / Serve' (потрібно)",
+      "en": "Structures 'Fare la domanda' (to apply) and 'Servono / Serve' (is/are needed)",
+      "es": "Construcciones 'Fare la domanda' (presentar una solicitud) y 'Servono / Serve' (hace falta)",
+      "fr": "Constructions 'Fare la domanda' (déposer une demande) et 'Servono / Serve' (il faut)",
+      "ro": "Construcții 'Fare la domanda' (a depune o cerere) și 'Servono / Serve' (este nevoie)"
+    },
     "rules": [
       {
-        "rule": "Вирази з 'Fare': 'Fare la domanda' (подавати заяву), 'Fare l'ISEE' (робити розрахунок ISEE).",
+        "rule": {
+          "uk": "Вирази з 'Fare': 'Fare la domanda' (подавати заяву), 'Fare l'ISEE' (робити розрахунок ISEE).",
+          "en": "Expressions with 'Fare': 'Fare la domanda' (to submit an application), 'Fare l'ISEE' (to complete the ISEE calculation).",
+          "es": "Expresiones con 'Fare': 'Fare la domanda' (presentar una solicitud), 'Fare l'ISEE' (hacer el cálculo del ISEE).",
+          "fr": "Expressions avec 'Fare' : 'Fare la domanda' (déposer une demande), 'Fare l'ISEE' (faire le calcul ISEE).",
+          "ro": "Expresii cu 'Fare': 'Fare la domanda' (a depune o cerere), 'Fare l'ISEE' (a face calculul ISEE)."
+        },
         "examples": [
           {
             "italian": "Voglio fare la domanda per il bonus nido.",
-            "ukrainian": "Хочу подати заяву на bonus nido."
+            "ukrainian": {
+              "uk": "Хочу подати заяву на bonus nido.",
+              "en": "I want to apply for the bonus nido.",
+              "es": "Quiero solicitar el bonus nido.",
+              "fr": "Je veux faire la demande pour le bonus nido.",
+              "ro": "Vreau să depun cererea pentru bonus nido."
+            },
+            "translation": {
+              "uk": "Хочу подати заяву на bonus nido.",
+              "en": "I want to apply for the bonus nido.",
+              "es": "Quiero solicitar el bonus nido.",
+              "fr": "Je veux faire la demande pour le bonus nido.",
+              "ro": "Vreau să depun cererea pentru bonus nido."
+            }
           },
           {
             "italian": "Devo fare l'ISEE aggiornato.",
-            "ukrainian": "Мені потрібно зробити оновлений ISEE."
+            "ukrainian": {
+              "uk": "Мені потрібно зробити оновлений ISEE.",
+              "en": "I need to do an updated ISEE.",
+              "es": "Tengo que hacer el ISEE actualizado.",
+              "fr": "Je dois faire l'ISEE mis à jour.",
+              "ro": "Trebuie să fac ISEE actualizat."
+            },
+            "translation": {
+              "uk": "Мені потрібно зробити оновлений ISEE.",
+              "en": "I need to do an updated ISEE.",
+              "es": "Tengo que hacer el ISEE actualizado.",
+              "fr": "Je dois faire l'ISEE mis à jour.",
+              "ro": "Trebuie să fac ISEE actualizat."
+            }
           }
         ]
       },
       {
-        "rule": "Різниця 'Serve' (однина) / 'Servono' (множина): 'Потрібен / Потрібні'.",
+        "rule": {
+          "uk": "Різниця 'Serve' (однина) / 'Servono' (множина): 'Потрібен / Потрібні'.",
+          "en": "Difference between 'Serve' (singular) / 'Servono' (plural): “is needed / are needed”.",
+          "es": "Diferencia 'Serve' (singular) / 'Servono' (plural): «hace falta / hacen falta».",
+          "fr": "Différence 'Serve' (singulier) / 'Servono' (pluriel) : « il faut / il faut (plusieurs) ».",
+          "ro": "Diferența 'Serve' (singular) / 'Servono' (plural): «este nevoie / sunt necesare»."
+        },
         "examples": [
           {
             "italian": "Serve la carta d'identità?",
-            "ukrainian": "Потрібне посвідчення особи?"
+            "ukrainian": {
+              "uk": "Потрібне посвідчення особи?",
+              "en": "Do I need an identity card?",
+              "es": "¿Hace falta el documento de identidad?",
+              "fr": "Faut-il la carte d'identité ?",
+              "ro": "Este nevoie de cartea de identitate?"
+            },
+            "translation": {
+              "uk": "Потрібне посвідчення особи?",
+              "en": "Do I need an identity card?",
+              "es": "¿Hace falta el documento de identidad?",
+              "fr": "Faut-il la carte d'identité ?",
+              "ro": "Este nevoie de cartea de identitate?"
+            }
           },
           {
             "italian": "Servono tutti i documenti dei familiari.",
-            "ukrainian": "Потрібні всі документи членів сім’ї."
+            "ukrainian": {
+              "uk": "Потрібні всі документи членів сім’ї.",
+              "en": "All family members' documents are needed.",
+              "es": "Hacen falta todos los documentos de los familiares.",
+              "fr": "Il faut tous les documents des membres de la famille.",
+              "ro": "Sunt necesare toate documentele membrilor familiei."
+            },
+            "translation": {
+              "uk": "Потрібні всі документи членів сім’ї.",
+              "en": "All family members' documents are needed.",
+              "es": "Hacen falta todos los documentos de los familiares.",
+              "fr": "Il faut tous les documents des membres de la famille.",
+              "ro": "Sunt necesare toate documentele membrilor familiei."
+            }
           }
         ]
       }
     ]
   },
-  "culturaTip": "Для подачі заяв у Patronato завжди беріть із собою діючі посвідчення особи (Carta d'Identità), Codice Fiscale усіх членів сім'ї та банківські реквізити (IBAN) для зарахування коштів."
+  "culturaTip": {
+    "uk": "Для подачі заяв у Patronato завжди беріть із собою діючі посвідчення особи (Carta d'Identità), Codice Fiscale усіх членів сім'ї та банківські реквізити (IBAN) для зарахування коштів.",
+    "en": "When applying at the Patronato, always bring valid ID (Carta d'Identità), the Codice Fiscale of every family member, and bank details (IBAN) for payments.",
+    "es": "Para presentar solicitudes en el Patronato, lleve siempre documentos de identidad vigentes (Carta d'Identità), el Codice Fiscale de todos los miembros de la familia y los datos bancarios (IBAN) para el ingreso.",
+    "fr": "Pour déposer des demandes au Patronato, emportez toujours des pièces d’identité valides (Carta d'Identità), le Codice Fiscale de tous les membres de la famille et les coordonnées bancaires (IBAN) pour le virement.",
+    "ro": "Pentru cereri la Patronato, luați întotdeauna acte de identitate valabile (Carta d'Identità), Codice Fiscale al tuturor membrilor familiei și datele bancare (IBAN) pentru virament."
+  }
 }

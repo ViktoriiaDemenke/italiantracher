@@ -1,3 +1,5 @@
+import { resolveContentText } from '../content/localize.js'
+
 function uniqueDeck(items) {
   const seen = new Set()
   const deck = []
@@ -26,28 +28,31 @@ export function shuffleList(list) {
   return next
 }
 
-function phraseTranslation(phrase) {
-  return String(phrase.translation ?? phrase.ukrainian ?? phrase.uk ?? '').trim()
+function phraseTranslation(phrase, locale) {
+  return resolveContentText(
+    phrase.translation ?? phrase.ukrainian ?? phrase.uk,
+    locale,
+  ).trim()
 }
 
-export function buildPracticeDeck(lesson) {
+export function buildPracticeDeck(lesson, locale) {
   const day = Number(lesson.day) || 0
   const fromPhrases = (lesson.phrases ?? []).map((phrase) => ({
     it: phrase.italian,
-    translation: phraseTranslation(phrase),
-    hint: phrase.hint,
+    translation: phraseTranslation(phrase, locale),
+    hint: resolveContentText(phrase.hint, locale),
     day,
   }))
   const fromDialogue = []
   for (const step of lesson.dialogue ?? []) {
     for (const option of step.options ?? []) {
       if (!(option.isCorrect || option.tone === 'natural')) continue
-      const translation = phraseTranslation(option)
+      const translation = phraseTranslation(option, locale)
       if (!option.text || !translation) continue
       fromDialogue.push({
         it: option.text,
         translation,
-        hint: option.hint,
+        hint: resolveContentText(option.hint, locale),
         day,
       })
     }

@@ -1,4 +1,5 @@
 import { shuffleList } from './practice.js'
+import { resolveContentText } from '../content/localize.js'
 
 export function isWrongChoice(option) {
   if (!option) return true
@@ -15,7 +16,7 @@ export function shuffleQuestion(question) {
   }
 }
 
-export function fromDialogueStep(step, day, stepIndex) {
+export function fromDialogueStep(step, day, stepIndex, locale) {
   const choices = Array.isArray(step?.options) ? step.options : []
   if (choices.length < 2) return null
   const correctIndex = choices.findIndex(
@@ -28,21 +29,25 @@ export function fromDialogueStep(step, day, stepIndex) {
     speak: step.text,
     options: choices.map((option) => option.text),
     correctIndex,
-    explain: choices[correctIndex]?.translation || choices[correctIndex]?.text,
+    explain:
+      resolveContentText(choices[correctIndex]?.translation, locale) ||
+      choices[correctIndex]?.text,
   })
 }
 
-export function fromBossQuestion(question, day, index) {
+export function fromBossQuestion(question, day, index, locale) {
   if (!question || !Array.isArray(question.options) || question.options.length < 2) {
     return null
   }
   return shuffleQuestion({
     id: `boss-${day}-${question.id ?? index}`,
-    prompt: question.question,
+    prompt: resolveContentText(question.question, locale),
     speak: question.options[question.correctAnswer],
     options: question.options,
     correctIndex: question.correctAnswer,
-    explain: question.explanation || question.options[question.correctAnswer],
+    explain:
+      resolveContentText(question.explanation, locale) ||
+      question.options[question.correctAnswer],
   })
 }
 

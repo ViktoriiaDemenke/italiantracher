@@ -1,66 +1,226 @@
 {
   "day": 25,
-  "title": "У транспорті: Квитки, валідація та поїзди",
+  "title": {
+    "uk": "У транспорті: Квитки, валідація та поїзди",
+    "en": "On transport: Tickets, validation and trains",
+    "es": "En el transporte: billetes, validación y trenes",
+    "fr": "Dans les transports : billets, validation et trains",
+    "ro": "În transport: bilete, validare și trenuri"
+  },
   "module": "Trasporto Pubblico e Biglietti",
-  "type": "Immersion & Vocabulary",
-  "story": "Марко та Лаура планують поїздку на міському автобусі та поїзді. В Італії квитки на автобус зазвичай купують заздалегідь у тютюнових кіосках (Tabacchi) або газетних кіосках (Edicola). Найголовніше правило італійського транспорту — обов'язково прокомпостувати (завалідувати) квиток одразу при вході в автобус або перед посадкою на пероні поїзда.",
+  "type": {
+    "uk": "Занурення та словник",
+    "en": "Immersion & Vocabulary",
+    "es": "Inmersión y vocabulario",
+    "fr": "Immersion et vocabulaire",
+    "ro": "Imersiune și vocabular"
+  },
+  "story": {
+    "uk": "Марко та Лаура планують поїздку на міському автобусі та поїзді. В Італії квитки на автобус зазвичай купують заздалегідь у тютюнових кіосках (Tabacchi) або газетних кіосках (Edicola). Найголовніше правило італійського транспорту — обов'язково прокомпостувати (завалідувати) квиток одразу при вході в автобус або перед посадкою на пероні поїзда.",
+    "en": "Marco and Laura plan a trip by city bus and train. In Italy bus tickets are usually bought in advance at tobacco shops (Tabacchi) or newsstands (Edicola). The most important rule: you must stamp/validate the ticket as soon as you board the bus or before boarding on the train platform.",
+    "es": "Marco y Laura planean un viaje en autobús urbano y tren. En Italia los billetes de autobús se compran de antemano en estancos (Tabacchi) o kioscos (Edicola). La regla más importante: hay que picar (validar) el billete al subir al autobús o antes de embarcar en el andén del tren.",
+    "fr": "Marco et Laura prévoient un trajet en bus urbain et en train. En Italie, les tickets de bus s’achètent souvent à l’avance dans les bureaux de tabac (Tabacchi) ou les kiosques (Edicola). Règle principale : il faut composter/valider le ticket dès l’entrée dans le bus ou avant d’embarquer sur le quai du train.",
+    "ro": "Marco și Laura planifică o călătorie cu autobuzul urban și trenul. În Italia, biletele de autobuz se cumpără de obicei dinainte la tutungerii (Tabacchi) sau chioșcuri de ziare (Edicola). Cea mai importantă regulă: trebuie să compostezi (validezi) biletul imediat la urcarea în autobuz sau înainte de îmbarcarea pe peronul trenului."
+  },
   "phrases": [
     {
       "italian": "Vorrei due biglietti per l'autobus urbano, per favore.",
-      "ukrainian": "Я б хотів(ла) два квитки на міський автобус, будь ласка.",
-      "translation": "Я б хотів(ла) два квитки на міський автобус, будь ласка."
+      "ukrainian": {
+        "uk": "Я б хотів(ла) два квитки на міський автобус, будь ласка.",
+        "en": "I'd like two tickets for the city bus, please.",
+        "es": "Quisiera dos billetes de autobús urbano, por favor.",
+        "fr": "Je voudrais deux tickets pour l'autobus urbain, s'il vous plaît.",
+        "ro": "Aș vrea două bilete pentru autobuzul urban, vă rog."
+      },
+      "translation": {
+        "uk": "Я б хотів(ла) два квитки на міський автобус, будь ласка.",
+        "en": "I'd like two tickets for the city bus, please.",
+        "es": "Quisiera dos billetes de autobús urbano, por favor.",
+        "fr": "Je voudrais deux tickets pour l'autobus urbain, s'il vous plaît.",
+        "ro": "Aș vrea două bilete pentru autobuzul urban, vă rog."
+      }
     },
     {
       "italian": "Da quale binario parte il treno per Venezia?",
-      "ukrainian": "З якої колії (платформи) відправляється поїзд до Венеції?",
-      "translation": "З якої колії (платформи) відправляється поїзд до Венеції?"
+      "ukrainian": {
+        "uk": "З якої колії (платформи) відправляється поїзд до Венеції?",
+        "en": "Which platform does the train to Venice leave from?",
+        "es": "¿De qué andén sale el tren a Venecia?",
+        "fr": "De quel quai part le train pour Venise ?",
+        "ro": "De pe ce peron pleacă trenul spre Veneția?"
+      },
+      "translation": {
+        "uk": "З якої колії (платформи) відправляється поїзд до Венеції?",
+        "en": "Which platform does the train to Venice leave from?",
+        "es": "¿De qué andén sale el tren a Venecia?",
+        "fr": "De quel quai part le train pour Venise ?",
+        "ro": "De pe ce peron pleacă trenul spre Veneția?"
+      }
     },
     {
       "italian": "Ricordati di convalidare il biglietto prima di salire!",
-      "ukrainian": "Пам'ятай прокомпостувати квиток перед тим, як зайти!",
-      "translation": "Пам'ятай прокомпостувати квиток перед тим, як зайти!"
+      "ukrainian": {
+        "uk": "Пам'ятай прокомпостувати квиток перед тим, як зайти!",
+        "en": "Remember to validate the ticket before getting on!",
+        "es": "¡Recuerda validar el billete antes de subir!",
+        "fr": "N'oublie pas de composter le billet avant de monter !",
+        "ro": "Nu uita să validezi biletul înainte să urci!"
+      },
+      "translation": {
+        "uk": "Пам'ятай прокомпостувати квиток перед тим, як зайти!",
+        "en": "Remember to validate the ticket before getting on!",
+        "es": "¡Recuerda validar el billete antes de subir!",
+        "fr": "N'oublie pas de composter le billet avant de monter !",
+        "ro": "Nu uita să validezi biletul înainte să urci!"
+      }
     },
     {
       "italian": "A che ora passa il prossimo autobus per la stazione?",
-      "ukrainian": "О котрій годині буде наступний автобус до вокзалу?",
-      "translation": "О котрій годині буде наступний автобус до вокзалу?"
+      "ukrainian": {
+        "uk": "О котрій годині буде наступний автобус до вокзалу?",
+        "en": "What time does the next bus to the station come?",
+        "es": "¿A qué hora pasa el próximo autobús a la estación?",
+        "fr": "À quelle heure passe le prochain bus pour la gare ?",
+        "ro": "La ce oră trece următorul autobuz spre gară?"
+      },
+      "translation": {
+        "uk": "О котрій годині буде наступний автобус до вокзалу?",
+        "en": "What time does the next bus to the station come?",
+        "es": "¿A qué hora pasa el próximo autobús a la estación?",
+        "fr": "À quelle heure passe le prochain bus pour la gare ?",
+        "ro": "La ce oră trece următorul autobuz spre gară?"
+      }
     }
   ],
   "transportTips": [
-    "Tabacchi e Edicola — найпростіше місце для купівлі квитків на автобус. У самому автобусі квиток може коштувати дорожче або взагалі не продаватися.",
-    "Convalidare / Timbrare — компостування квитка. За поїздку з невалідним квитком контролер (controllore) виписує штраф від 50 до 100 євро.",
-    "Binario — номер колії/платформи на залізничному вокзалі. Завжди перевіряйте інформаційне табло (tabellone) за номером поїзда."
+    {
+      "uk": "Tabacchi e Edicola — найпростіше місце для купівлі квитків на автобус. У самому автобусі квиток може коштувати дорожче або взагалі не продаватися.",
+      "en": "Tabacchi e Edicola are the easiest places to buy bus tickets. On the bus itself a ticket may cost more or not be sold at all.",
+      "es": "Tabacchi e Edicola son el sitio más fácil para comprar billetes de autobús. En el propio autobús el billete puede ser más caro o no venderse.",
+      "fr": "Tabacchi e Edicola sont les endroits les plus simples pour acheter un ticket de bus. Dans le bus, le ticket peut coûter plus cher ou ne pas être vendu.",
+      "ro": "Tabacchi e Edicola sunt cel mai simplu loc pentru bilete de autobuz. În autobuz biletul poate costa mai mult sau poate să nu se vândă deloc."
+    },
+    {
+      "uk": "Convalidare / Timbrare — компостування квитка. За поїздку з невалідним квитком контролер (controllore) виписує штраф від 50 до 100 євро.",
+      "en": "Convalidare / Timbrare — stamping the ticket. Travelling with an invalid ticket means a fine of €50–100 from the inspector (controllore).",
+      "es": "Convalidare / Timbrare: picar el billete. Viajar con un billete no validado supone una multa de 50 a 100 euros del revisor (controllore).",
+      "fr": "Convalidare / Timbrare : compostage du ticket. Un trajet sans ticket validé entraîne une amende de 50 à 100 euros du contrôleur (controllore).",
+      "ro": "Convalidare / Timbrare — compostarea biletului. Călătoria cu bilet nevalidat înseamnă amendă de 50–100 de euro de la controlor (controllore)."
+    },
+    {
+      "uk": "Binario — номер колії/платформи на залізничному вокзалі. Завжди перевіряйте інформаційне табло (tabellone) за номером поїзда.",
+      "en": "Binario — the track/platform number at a railway station. Always check the information board (tabellone) for your train number.",
+      "es": "Binario: el número de vía/andén en la estación. Compruebe siempre el panel (tabellone) con el número de tren.",
+      "fr": "Binario : le numéro de voie/quai en gare. Vérifiez toujours le tableau (tabellone) avec le numéro de train.",
+      "ro": "Binario — numărul liniei/peronului în gară. Verifică întotdeauna panoul (tabellone) după numărul trenului."
+    }
   ],
   "grammar": {
-    "title": "Прийменники напрямку: 'In' (транспорт) та 'A / Da' (станції та міста)",
+    "title": {
+      "uk": "Прийменники напрямку: 'In' (транспорт) та 'A / Da' (станції та міста)",
+      "en": "Direction prepositions: 'In' (transport) and 'A / Da' (stations and cities)",
+      "es": "Preposiciones de dirección: 'In' (transporte) y 'A / Da' (estaciones y ciudades)",
+      "fr": "Prépositions de direction : 'In' (transport) et 'A / Da' (gares et villes)",
+      "ro": "Prepoziții de direcție: 'In' (transport) și 'A / Da' (gări și orașe)"
+    },
     "rules": [
       {
-        "rule": "Прийменник 'In' для видів транспорту: 'In autobus' (автобусом), 'In treno' (поїздом), 'In macchina' (машиною).",
+        "rule": {
+          "uk": "Прийменник 'In' для видів транспорту: 'In autobus' (автобусом), 'In treno' (поїздом), 'In macchina' (машиною).",
+          "en": "Preposition 'In' for means of transport: 'In autobus' (by bus), 'In treno' (by train), 'In macchina' (by car).",
+          "es": "Preposición 'In' para medios de transporte: 'In autobus' (en autobús), 'In treno' (en tren), 'In macchina' (en coche).",
+          "fr": "Préposition 'In' pour les transports : 'In autobus' (en bus), 'In treno' (en train), 'In macchina' (en voiture).",
+          "ro": "Prepoziția 'In' pentru mijloace de transport: 'In autobus' (cu autobuzul), 'In treno' (cu trenul), 'In macchina' (cu mașina)."
+        },
         "examples": [
           {
             "italian": "Vado al lavoro in autobus.",
-            "ukrainian": "Їду на роботу автобусом."
+            "ukrainian": {
+              "uk": "Їду на роботу автобусом.",
+              "en": "I go to work by bus.",
+              "es": "Voy al trabajo en autobús.",
+              "fr": "Je vais au travail en bus.",
+              "ro": "Merg la muncă cu autobuzul."
+            },
+            "translation": {
+              "uk": "Їду на роботу автобусом.",
+              "en": "I go to work by bus.",
+              "es": "Voy al trabajo en autobús.",
+              "fr": "Je vais au travail en bus.",
+              "ro": "Merg la muncă cu autobuzul."
+            }
           },
           {
             "italian": "Viaggiamo in treno.",
-            "ukrainian": "Ми їдемо потягом."
+            "ukrainian": {
+              "uk": "Ми їдемо потягом.",
+              "en": "We're traveling by train.",
+              "es": "Viajamos en tren.",
+              "fr": "Nous voyageons en train.",
+              "ro": "Călătorim cu trenul."
+            },
+            "translation": {
+              "uk": "Ми їдемо потягом.",
+              "en": "We're traveling by train.",
+              "es": "Viajamos en tren.",
+              "fr": "Nous voyageons en train.",
+              "ro": "Călătorim cu trenul."
+            }
           }
         ]
       },
       {
-        "rule": "Прийменники напрямку: 'A' (до міста/станції) та 'Da' (від/з якоїсь колії).",
+        "rule": {
+          "uk": "Прийменники напрямку: 'A' (до міста/станції) та 'Da' (від/з якоїсь колії).",
+          "en": "Direction prepositions: 'A' (to a city/station) and 'Da' (from a track/platform).",
+          "es": "Preposiciones de dirección: 'A' (a una ciudad/estación) y 'Da' (desde una vía).",
+          "fr": "Prépositions de direction : 'A' (vers une ville/gare) et 'Da' (depuis une voie).",
+          "ro": "Prepoziții de direcție: 'A' (spre un oraș/gară) și 'Da' (de la o linie)."
+        },
         "examples": [
           {
             "italian": "Prendo il treno per andare a Milano.",
-            "ukrainian": "Беру потяг, щоб поїхати до Мілана."
+            "ukrainian": {
+              "uk": "Беру потяг, щоб поїхати до Мілана.",
+              "en": "I'm taking the train to go to Milan.",
+              "es": "Cojo el tren para ir a Milán.",
+              "fr": "Je prends le train pour aller à Milan.",
+              "ro": "Iau trenul ca să merg la Milano."
+            },
+            "translation": {
+              "uk": "Беру потяг, щоб поїхати до Мілана.",
+              "en": "I'm taking the train to go to Milan.",
+              "es": "Cojo el tren para ir a Milán.",
+              "fr": "Je prends le train pour aller à Milan.",
+              "ro": "Iau trenul ca să merg la Milano."
+            }
           },
           {
             "italian": "Parte dal binario 3.",
-            "ukrainian": "Відправляється з колії 3."
+            "ukrainian": {
+              "uk": "Відправляється з колії 3.",
+              "en": "It leaves from platform 3.",
+              "es": "Sale del andén 3.",
+              "fr": "Il part du quai 3.",
+              "ro": "Pleacă de pe peronul 3."
+            },
+            "translation": {
+              "uk": "Відправляється з колії 3.",
+              "en": "It leaves from platform 3.",
+              "es": "Sale del andén 3.",
+              "fr": "Il part du quai 3.",
+              "ro": "Pleacă de pe peronul 3."
+            }
           }
         ]
       }
     ]
   },
-  "culturaTip": "На залізничних станціях в Італії паперові квитки без вказаного часу та місця потрібно обов'язково компостувати в зелених або жовтих валидаторах (macchinette) біля виходу на перони!"
+  "culturaTip": {
+    "uk": "На залізничних станціях в Італії паперові квитки без вказаного часу та місця потрібно обов'язково компостувати в зелених або жовтих валидаторах (macchinette) біля виходу на перони!",
+    "en": "At Italian railway stations, paper tickets without a set time and seat must be stamped in the green or yellow validators (macchinette) near the platform exits!",
+    "es": "En las estaciones italianas, los billetes de papel sin hora ni asiento hay que picarlos en las validadoras verdes o amarillas (macchinette) junto a la salida a los andenes.",
+    "fr": "Dans les gares italiennes, les billets papier sans horaire ni place doivent être compostés dans les valideurs verts ou jaunes (macchinette) près de la sortie vers les quais !",
+    "ro": "În gările din Italia, biletele pe hârtie fără oră și loc trebuie compostate obligatoriu în validatoarele verzi sau galbene (macchinette) de lângă ieșirea spre peroane!"
+  }
 }

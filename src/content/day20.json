@@ -1,9 +1,27 @@
 {
   "day": 20,
-  "title": "Живий діалог: Ранкова кава та замовлення біля стійки",
+  "title": {
+    "uk": "Живий діалог: Ранкова кава та замовлення біля стійки",
+    "en": "Live dialogue: Morning coffee and ordering at the counter",
+    "es": "Diálogo en vivo: café de la mañana y pedido en la barra",
+    "fr": "Dialogue vivant : café du matin et commande au comptoir",
+    "ro": "Dialog viu: cafeaua de dimineață și comanda la tejghea"
+  },
   "module": "Il Bar Italiano e il Caffè",
-  "type": "Interactive Dialogue",
-  "story": "Марко підходить до каси бару, купує чек, а потім замовляє сніданок у бариста біля стійки.",
+  "type": {
+    "uk": "Інтерактивний діалог",
+    "en": "Interactive Dialogue",
+    "es": "Diálogo interactivo",
+    "fr": "Dialogue interactif",
+    "ro": "Dialog interactiv"
+  },
+  "story": {
+    "uk": "Марко підходить до каси бару, купує чек, а потім замовляє сніданок у бариста біля стійки.",
+    "en": "Marco goes to the bar till, buys a receipt, then orders breakfast from the barista at the counter.",
+    "es": "Marco se acerca a la caja del bar, compra el ticket y luego pide el desayuno al barista en la barra.",
+    "fr": "Marco va à la caisse du bar, achète le ticket, puis commande le petit-déjeuner au barista au comptoir.",
+    "ro": "Marco merge la casa barului, cumpără bonul, apoi comandă micul dejun de la barista la tejghea."
+  },
   "dialogue": [
     {
       "step": 1,
@@ -12,24 +30,66 @@
       "options": [
         {
           "text": "Buongiorno! Vorrei un cappuccino, un caffè macchiato e due brioche.",
-          "translation": "Доброго дня! Я хотів би капучино, каву макіато і дві бріоші.",
+          "translation": {
+            "uk": "Доброго дня! Я хотів би капучино, каву макіато і дві бріоші.",
+            "en": "Good morning! I'd like a cappuccino, a caffè macchiato and two brioches.",
+            "es": "¡Buenos días! Quisiera un cappuccino, un caffè macchiato y dos brioches.",
+            "fr": "Bonjour ! Je voudrais un cappuccino, un caffè macchiato et deux brioches.",
+            "ro": "Bună dimineața! Aș vrea un cappuccino, un caffè macchiato și două brioche."
+          },
           "isCorrect": true,
-          "feedback": "Чудово! Ви чітко назвали замовлення на касі."
+          "feedback": {
+            "uk": "Доброго дня! Я хотів би капучино, каву макіато і дві бріоші.",
+            "en": "Good morning! I'd like a cappuccino, a caffè macchiato and two brioches.",
+            "es": "¡Buenos días! Quisiera un cappuccino, un caffè macchiato y dos brioches.",
+            "fr": "Bonjour ! Je voudrais un cappuccino, un caffè macchiato et deux brioches.",
+            "ro": "Bună dimineața! Aș vrea un cappuccino, un caffè macchiato și două brioche."
+          }
         },
         {
           "text": "Vorrei un pranzo di tre portate e il conto separato per dieci.",
-          "translation": "Хочу обід із трьох страв і окремий рахунок на десятьох.",
+          "translation": {
+            "uk": "Хочу обід із трьох страв і окремий рахунок на десятьох.",
+            "en": "I'd like a three-course lunch and a split bill for ten people.",
+            "es": "Quiero un almuerzo de tres platos y la cuenta separada para diez.",
+            "fr": "Je voudrais un déjeuner de trois plats et l'addition séparée pour dix.",
+            "ro": "Aș vrea un prânz de trei feluri și nota separat pentru zece."
+          },
           "isCorrect": false,
-          "feedback": "У барі зранку замовляють каву і brioche, не повноцінний обід."
+          "feedback": {
+            "uk": "Хочу обід із трьох страв і окремий рахунок на десятьох.",
+            "en": "I'd like a three-course lunch and a split bill for ten people.",
+            "es": "Quiero un almuerzo de tres platos y la cuenta separada para diez.",
+            "fr": "Je voudrais un déjeuner de trois plats et l'addition séparée pour dix.",
+            "ro": "Aș vrea un prânz de trei feluri și nota separat pentru zece."
+          }
         },
         {
           "text": "Ciao, dammi una pizza grande.",
-          "translation": "Привіт, дай велику піцу.",
+          "translation": {
+            "uk": "Привіт, дай велику піцу.",
+            "en": "Hi, give me a large pizza.",
+            "es": "Hola, dame una pizza grande.",
+            "fr": "Salut, donne-moi une grande pizza.",
+            "ro": "Salut, dă-mi o pizza mare."
+          },
           "isCorrect": false,
-          "feedback": "Зранку в барі замовляють каву та випічку (cornetto/brioche)."
+          "feedback": {
+            "uk": "Привіт, дай велику піцу.",
+            "en": "Hi, give me a large pizza.",
+            "es": "Hola, dame una pizza grande.",
+            "fr": "Salut, donne-moi une grande pizza.",
+            "ro": "Salut, dă-mi o pizza mare."
+          }
         }
       ],
-      "translation": "Доброго дня! Що вам приготувати?"
+      "translation": {
+        "uk": "Доброго дня! Що вам приготувати?",
+        "en": "Good morning! What can I get you?",
+        "es": "¡Buenos días! ¿Qué le preparo?",
+        "fr": "Bonjour ! Qu'est-ce que je vous prépare ?",
+        "ro": "Bună dimineața! Ce vă pregătesc?"
+      }
     },
     {
       "step": 2,
@@ -38,24 +98,66 @@
       "options": [
         {
           "text": "Voglio il codice fiscale.",
-          "translation": "Хочу код фіскале.",
+          "translation": {
+            "uk": "Хочу код фіскале.",
+            "en": "I want the codice fiscale.",
+            "es": "Quiero el codice fiscale.",
+            "fr": "Je veux le codice fiscale.",
+            "ro": "Vreau codice fiscale."
+          },
           "isCorrect": false,
-          "feedback": "Це не стосується вибору випічки в барі."
+          "feedback": {
+            "uk": "Хочу код фіскале.",
+            "en": "I want the codice fiscale.",
+            "es": "Quiero el codice fiscale.",
+            "fr": "Je veux le codice fiscale.",
+            "ro": "Vreau codice fiscale."
+          }
         },
         {
           "text": "Vorrei una alla marmellata e una al cioccolato, per favore.",
-          "translation": "Одну з джемом і одну з шоколадом, будь ласка.",
+          "translation": {
+            "uk": "Одну з джемом і одну з шоколадом, будь ласка.",
+            "en": "I'd like one with jam and one with chocolate, please.",
+            "es": "Una de mermelada y una de chocolate, por favor.",
+            "fr": "Une à la confiture et une au chocolat, s'il vous plaît.",
+            "ro": "Una cu gem și una cu ciocolată, vă rog."
+          },
           "isCorrect": true,
-          "feedback": "Ідеально! Ви обрали начинку для випічки."
+          "feedback": {
+            "uk": "Одну з джемом і одну з шоколадом, будь ласка.",
+            "en": "I'd like one with jam and one with chocolate, please.",
+            "es": "Una de mermelada y una de chocolate, por favor.",
+            "fr": "Une à la confiture et une au chocolat, s'il vous plaît.",
+            "ro": "Una cu gem și una cu ciocolată, vă rog."
+          }
         },
         {
           "text": "Tutte e due vuote, ma con panna e nutella sopra, da asporto caldo.",
-          "translation": "Обидві порожні, але зі збитими вершками і нутеллою зверху, на виніс гарячими.",
+          "translation": {
+            "uk": "Обидві порожні, але зі збитими вершками і нутеллою зверху, на виніс гарячими.",
+            "en": "Both plain, but with cream and Nutella on top, takeaway hot.",
+            "es": "Las dos vacías, pero con nata y Nutella encima, para llevar calientes.",
+            "fr": "Les deux nature, mais avec crème et Nutella dessus, à emporter chaudes.",
+            "ro": "Amândouă goale, dar cu frișcă și Nutella deasupra, la pachet calde."
+          },
           "isCorrect": false,
-          "feedback": "Касир пропонує vuote, marmellata або cioccolato — оберіть із цих начинок."
+          "feedback": {
+            "uk": "Обидві порожні, але зі збитими вершками і нутеллою зверху, на виніс гарячими.",
+            "en": "Both plain, but with cream and Nutella on top, takeaway hot.",
+            "es": "Las dos vacías, pero con nata y Nutella encima, para llevar calientes.",
+            "fr": "Les deux nature, mais avec crème et Nutella dessus, à emporter chaudes.",
+            "ro": "Amândouă goale, dar cu frișcă și Nutella deasupra, la pachet calde."
+          }
         }
       ],
-      "translation": "Чудово. Які бріоші бажаєте? Є порожні, з джемом або з шоколадом."
+      "translation": {
+        "uk": "Чудово. Які бріоші бажаєте? Є порожні, з джемом або з шоколадом.",
+        "en": "Perfect. How would you like the brioches? We have plain, jam, or chocolate.",
+        "es": "Perfecto. ¿Cómo prefiere las brioches? Tenemos vacías, de mermelada o de chocolate.",
+        "fr": "Parfait. Comment les préférez-vous, les brioches ? On a nature, à la confiture ou au chocolat.",
+        "ro": "Perfect. Cum doriți brioche-urile? Avem goale, cu gem sau cu ciocolată."
+      }
     },
     {
       "step": 3,
@@ -64,24 +166,66 @@
       "options": [
         {
           "text": "Porti tutto al tavolo con il servizio al tavolo, come al ristorante.",
-          "translation": "Несіть усе за столик з обслуговуванням, як у ресторані.",
+          "translation": {
+            "uk": "Несіть усе за столик з обслуговуванням, як у ресторані.",
+            "en": "Bring everything to the table with table service, like in a restaurant.",
+            "es": "Lleve todo a la mesa con servicio de mesa, como en un restaurante.",
+            "fr": "Apportez tout à table avec le service à table, comme au restaurant.",
+            "ro": "Aduceți totul la masă cu serviciu la masă, ca la restaurant."
+          },
           "isCorrect": false,
-          "feedback": "У типовому барі після каси йдуть al banco, не чекають офіціанта."
+          "feedback": {
+            "uk": "Несіть усе за столик з обслуговуванням, як у ресторані.",
+            "en": "Bring everything to the table with table service, like in a restaurant.",
+            "es": "Lleve todo a la mesa con servicio de mesa, como en un restaurante.",
+            "fr": "Apportez tout à table avec le service à table, comme au restaurant.",
+            "ro": "Aduceți totul la masă cu serviciu la masă, ca la restaurant."
+          }
         },
         {
           "text": "Lo scontrino lo lascio a casa, vado al tavolo senza pagare.",
-          "translation": "Чек залишу вдома, піду за столик не платячи.",
+          "translation": {
+            "uk": "Чек залишу вдома, піду за столик не платячи.",
+            "en": "I'll leave the receipt at home and go to the table without paying.",
+            "es": "El ticket lo dejo en casa, voy a la mesa sin pagar.",
+            "fr": "Je laisse le ticket à la maison, je vais à table sans payer.",
+            "ro": "Las bonul acasă, mă duc la masă fără să plătesc."
+          },
           "isCorrect": false,
-          "feedback": "Чек відносять бариста на стійку (banco), оплата вже на касі."
+          "feedback": {
+            "uk": "Чек залишу вдома, піду за столик не платячи.",
+            "en": "I'll leave the receipt at home and go to the table without paying.",
+            "es": "El ticket lo dejo en casa, voy a la mesa sin pagar.",
+            "fr": "Je laisse le ticket à la maison, je vais à table sans payer.",
+            "ro": "Las bonul acasă, mă duc la masă fără să plătesc."
+          }
         },
         {
           "text": "Grazie mille! Vado subito al banco.",
-          "translation": "Дуже дякую! Зараз іду до стійки.",
+          "translation": {
+            "uk": "Дуже дякую! Зараз іду до стійки.",
+            "en": "Thank you so much! I'm going to the counter right now.",
+            "es": "¡Muchas gracias! Voy ahora mismo al mostrador.",
+            "fr": "Merci beaucoup ! Je vais tout de suite au comptoir.",
+            "ro": "Mulțumesc frumos! Merg imediat la tejghea."
+          },
           "isCorrect": true,
-          "feedback": "Правильно! Тепер з чеком підходимо до бариста."
+          "feedback": {
+            "uk": "Дуже дякую! Зараз іду до стійки.",
+            "en": "Thank you so much! I'm going to the counter right now.",
+            "es": "¡Muchas gracias! Voy ahora mismo al mostrador.",
+            "fr": "Merci beaucoup ! Je vais tout de suite au comptoir.",
+            "ro": "Mulțumesc frumos! Merg imediat la tejghea."
+          }
         }
       ],
-      "translation": "Разом 5 євро 20. Прошу, ось чек. Можете залишити його на стійці."
+      "translation": {
+        "uk": "Разом 5 євро 20. Прошу, ось чек. Можете залишити його на стійці.",
+        "en": "That's 5 euros 20 in total. Here you go, here's the receipt. You can leave it at the counter.",
+        "es": "Son 5 euros y 20 en total. Aquí tiene el ticket. Puede dejarlo en el mostrador.",
+        "fr": "Ça fait 5 euros 20 au total. Voici le ticket. Vous pouvez le laisser au comptoir.",
+        "ro": "Sunt 5 euro și 20 în total. Poftiți, iată bonul. Îl puteți lăsa la tejghea."
+      }
     },
     {
       "step": 4,
@@ -90,24 +234,66 @@
       "options": [
         {
           "text": "Vorrei un macchiato ghiacciato con panna e sciroppo, e niente acqua.",
-          "translation": "Хочу макіато з льодом, вершками і сиропом, і без води.",
+          "translation": {
+            "uk": "Хочу макіато з льодом, вершками і сиропом, і без води.",
+            "en": "I'd like an iced macchiato with cream and syrup, and no water.",
+            "es": "Quisiera un macchiato con hielo, nata y sirope, y nada de agua.",
+            "fr": "Je voudrais un macchiato glacé avec crème et sirop, et pas d'eau.",
+            "ro": "Aș vrea un macchiato cu gheață, frișcă și sirop, și fără apă."
+          },
           "isCorrect": false,
-          "feedback": "Бариста питає caldo або freddo; вода naturale — звичайне ввічливе доповнення."
+          "feedback": {
+            "uk": "Хочу макіато з льодом, вершками і сиропом, і без води.",
+            "en": "I'd like an iced macchiato with cream and syrup, and no water.",
+            "es": "Quisiera un macchiato con hielo, nata y sirope, y nada de agua.",
+            "fr": "Je voudrais un macchiato glacé avec crème et sirop, et pas d'eau.",
+            "ro": "Aș vrea un macchiato cu gheață, frișcă și sirop, și fără apă."
+          }
         },
         {
           "text": "Vorrei il macchiato caldo, per favore. E possiamo avere anche due bicchieri d'acqua naturale?",
-          "translation": "Макіато гаряче, будь ласка. І можна ще дві склянки негазованої води?",
+          "translation": {
+            "uk": "Макіато гаряче, будь ласка. І можна ще дві склянки негазованої води?",
+            "en": "I'd like the macchiato hot, please. And could we also have two glasses of still water?",
+            "es": "El macchiato caliente, por favor. ¿Y podemos tener también dos vasos de agua sin gas?",
+            "fr": "Le macchiato chaud, s'il vous plaît. Et pourrions-nous aussi avoir deux verres d'eau plate ?",
+            "ro": "Macchiato cald, vă rog. Și putem avea și două pahare de apă plată?"
+          },
           "isCorrect": true,
-          "feedback": "Чудово! Ви уточнили температуру молока та попросили воду."
+          "feedback": {
+            "uk": "Макіато гаряче, будь ласка. І можна ще дві склянки негазованої води?",
+            "en": "I'd like the macchiato hot, please. And could we also have two glasses of still water?",
+            "es": "El macchiato caliente, por favor. ¿Y podemos tener también dos vasos de agua sin gas?",
+            "fr": "Le macchiato chaud, s'il vous plaît. Et pourrions-nous aussi avoir deux verres d'eau plate ?",
+            "ro": "Macchiato cald, vă rog. Și putem avea și două pahare de apă plată?"
+          }
         },
         {
           "text": "Non voglio il caffè.",
-          "translation": "Я не хочу каву.",
+          "translation": {
+            "uk": "Я не хочу каву.",
+            "en": "I don't want coffee.",
+            "es": "No quiero café.",
+            "fr": "Je ne veux pas de café.",
+            "ro": "Nu vreau cafea."
+          },
           "isCorrect": false,
-          "feedback": "Ви вже оплатили каву на касі."
+          "feedback": {
+            "uk": "Я не хочу каву.",
+            "en": "I don't want coffee.",
+            "es": "No quiero café.",
+            "fr": "Je ne veux pas de café.",
+            "ro": "Nu vreau cafea."
+          }
         }
       ],
-      "translation": "Доброго дня! Залиште чек. Макіато хочете гаряче чи холодне?"
+      "translation": {
+        "uk": "Доброго дня! Залиште чек. Макіато хочете гаряче чи холодне?",
+        "en": "Good morning! Please leave me the receipt. Would you like the macchiato hot or cold?",
+        "es": "¡Buenos días! Déjeme el ticket. ¿El macchiato lo prefiere caliente o frío?",
+        "fr": "Bonjour ! Laissez-moi le ticket. Vous préférez le macchiato chaud ou froid ?",
+        "ro": "Bună dimineața! Lăsați-mi bonul. Macchiato-ul îl doriți cald sau rece?"
+      }
     },
     {
       "step": 5,
@@ -116,25 +302,73 @@
       "options": [
         {
           "text": "Grazie mille, gentilissimo! Buona giornata.",
-          "translation": "Дуже дякую, дуже люб’язно! Гарного дня.",
+          "translation": {
+            "uk": "Дуже дякую, дуже люб’язно! Гарного дня.",
+            "en": "Thank you so much, that's very kind! Have a good day.",
+            "es": "¡Muchas gracias, muy amable! Que tenga un buen día.",
+            "fr": "Merci beaucoup, c'est très gentil ! Bonne journée.",
+            "ro": "Mulțumesc frumos, foarte amabil! O zi bună."
+          },
           "isCorrect": true,
-          "feedback": "Ввічливий і гарний фінал спілкування з бариста!"
+          "feedback": {
+            "uk": "Дуже дякую, дуже люб’язно! Гарного дня.",
+            "en": "Thank you so much, that's very kind! Have a good day.",
+            "es": "¡Muchas gracias, muy amable! Que tenga un buen día.",
+            "fr": "Merci beaucoup, c'est très gentil ! Bonne journée.",
+            "ro": "Mulțumesc frumos, foarte amabil! O zi bună."
+          }
         },
         {
           "text": "Il cappuccino è troppo italiano, lo cambio con una pizza.",
-          "translation": "Капучино занадто італійський, міняю на піцу.",
+          "translation": {
+            "uk": "Капучино занадто італійський, міняю на піцу.",
+            "en": "The cappuccino is too Italian; I'll swap it for a pizza.",
+            "es": "El cappuccino es demasiado italiano, lo cambio por una pizza.",
+            "fr": "Le cappuccino est trop italien, je l'échange contre une pizza.",
+            "ro": "Cappuccino-ul e prea italian, îl schimb cu o pizza."
+          },
           "isCorrect": false,
-          "feedback": "Замовлення вже готове; дякують і бажають гарного дня."
+          "feedback": {
+            "uk": "Капучино занадто італійський, міняю на піцу.",
+            "en": "The cappuccino is too Italian; I'll swap it for a pizza.",
+            "es": "El cappuccino es demasiado italiano, lo cambio por una pizza.",
+            "fr": "Le cappuccino est trop italien, je l'échange contre une pizza.",
+            "ro": "Cappuccino-ul e prea italian, îl schimb cu o pizza."
+          }
         },
         {
           "text": "Non dico grazie, qui non si usa.",
-          "translation": "Не кажу дякую, тут так не заведено.",
+          "translation": {
+            "uk": "Не кажу дякую, тут так не заведено.",
+            "en": "I don't say thank you; that's not how it's done here.",
+            "es": "No digo gracias, aquí no se usa.",
+            "fr": "Je ne dis pas merci, ici ce n'est pas l'usage.",
+            "ro": "Nu zic mulțumesc, aici nu se obișnuiește."
+          },
           "isCorrect": false,
-          "feedback": "Подяка бариста — нормальна ввічливість."
+          "feedback": {
+            "uk": "Не кажу дякую, тут так не заведено.",
+            "en": "I don't say thank you; that's not how it's done here.",
+            "es": "No digo gracias, aquí no se usa.",
+            "fr": "Je ne dis pas merci, ici ce n'est pas l'usage.",
+            "ro": "Nu zic mulțumesc, aici nu se obișnuiește."
+          }
         }
       ],
-      "translation": "Ось вам! Капучино, гаряче макіато, дві бріоші і вода. Смачного!"
+      "translation": {
+        "uk": "Ось вам! Капучино, гаряче макіато, дві бріоші і вода. Смачного!",
+        "en": "Here you are! A cappuccino, a hot macchiato, the two brioches and water. Enjoy!",
+        "es": "¡Aquí tiene! Un cappuccino, un macchiato caliente, las dos brioches y el agua. ¡Buen provecho!",
+        "fr": "Voilà ! Un cappuccino, un macchiato chaud, les deux brioches et l'eau. Bon appétit !",
+        "ro": "Poftiți! Un cappuccino, un macchiato cald, cele două brioche și apa. Poftă bună!"
+      }
     }
   ],
-  "culturaTip": "Чайові (mancia) в італійських барах не є обов'язковими. Проте люди часто залишають монету 20 або 50 центів на чеку біля стійки як знак подяки."
+  "culturaTip": {
+    "uk": "Чайові (mancia) в італійських барах не є обов'язковими. Проте люди часто залишають монету 20 або 50 центів на чеку біля стійки як знак подяки.",
+    "en": "Tips (mancia) are not required in Italian bars. People often still leave a 20 or 50 cent coin on the receipt at the counter as a thank-you.",
+    "es": "La propina (mancia) no es obligatoria en los bares italianos. Aun así, mucha gente deja una moneda de 20 o 50 céntimos sobre el ticket en la barra como gesto de agradecimiento.",
+    "fr": "Le pourboire (mancia) n’est pas obligatoire dans les bars italiens. On laisse souvent une pièce de 20 ou 50 centimes sur le ticket au comptoir en remerciement.",
+    "ro": "Bacșișul (mancia) nu e obligatoriu în barurile italiene. Totuși, oamenii lasă adesea o monedă de 20 sau 50 de cenți pe bon, la tejghea, ca semn de mulțumire."
+  }
 }

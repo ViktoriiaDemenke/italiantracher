@@ -1,66 +1,156 @@
 {
   "day": 18,
-  "title": "Boss Level 🏆: Симуляція оформлення допомоги у Patronato",
+  "title": {
+    "uk": "Boss Level 🏆: Симуляція оформлення допомоги у Patronato",
+    "en": "Boss Level 🏆: Simulation of applying for benefits at the Patronato",
+    "es": "Boss Level 🏆: Simulación de tramitar una prestación en el Patronato",
+    "fr": "Boss Level 🏆 : Simulation d’une demande d’aide au Patronato",
+    "ro": "Boss Level 🏆: Simulare de solicitare a unui ajutor la Patronato"
+  },
   "module": "Patronato e Assistenza Sociale",
-  "type": "Boss Level Simulation",
-  "story": "Фінальний іспит модуля! Ви самостійно приходите на прийом у Patronato/CAF, подаєте документи для ISEE та виплат на дитину. Підказки та переклад вимкнено!",
+  "type": {
+    "uk": "Симуляція бос-рівня",
+    "en": "Boss Level Simulation",
+    "es": "Simulación de nivel jefe",
+    "fr": "Simulation Boss Level",
+    "ro": "Simulare nivel boss"
+  },
+  "story": {
+    "uk": "Фінальний іспит модуля! Ви самостійно приходите на прийом у Patronato/CAF, подаєте документи для ISEE та виплат на дитину. Підказки та переклад вимкнено!",
+    "en": "Final exam of the module! You go to an appointment at the Patronato/CAF on your own and submit documents for ISEE and child benefits. Hints and translation are off!",
+    "es": "¡Examen final del módulo! Acudes por tu cuenta a una cita en el Patronato/CAF y entregas documentos para el ISEE y las prestaciones por hijo. ¡Pistas y traducción desactivadas!",
+    "fr": "Examen final du module ! Vous vous présentez seul au rendez-vous Patronato/CAF et déposez les documents pour l’ISEE et les allocations enfant. Indices et traduction désactivés !",
+    "ro": "Examenul final al modulului! Mergi singur la programare la Patronato/CAF și depui documente pentru ISEE și alocațiile pentru copil. Indiciile și traducerea sunt dezactivate!"
+  },
   "questions": [
     {
       "id": "p1",
-      "question": "Що таке довідка 'ISEE' в Італії?",
+      "question": {
+        "uk": "Що таке довідка 'ISEE' в Італії?",
+        "en": "What is the 'ISEE' certificate in Italy?",
+        "es": "¿Qué es el certificado 'ISEE' en Italia?",
+        "fr": "Qu’est-ce que l’attestation 'ISEE' en Italie ?",
+        "ro": "Ce este certificatul 'ISEE' în Italia?"
+      },
       "options": [
         "Офіційний розрахунок фінансового стану родини для отримання пільг та допомог.",
         "Квитанція за проїзд у міському транспорті.",
         "Рецепт від сімейного лікаря."
       ],
       "correctAnswer": 0,
-      "explanation": "ISEE — показник майнового стану для розрахунку соціальних пільг."
+      "explanation": {
+        "uk": "ISEE — показник майнового стану для розрахунку соціальних пільг.",
+        "en": "ISEE is a means-test indicator used to calculate social benefits.",
+        "es": "El ISEE es un indicador de situación patrimonial para calcular las ayudas sociales.",
+        "fr": "L’ISEE est un indicateur de situation patrimoniale pour calculer les aides sociales.",
+        "ro": "ISEE este un indicator al situației patrimoniale pentru calculul ajutoarelor sociale."
+      }
     },
     {
       "id": "p2",
-      "question": "Як називається щомісячна державна допомога на дитину в Італії?",
+      "question": {
+        "uk": "Як називається щомісячна державна допомога на дитину в Італії?",
+        "en": "What is the monthly state child benefit in Italy called?",
+        "es": "¿Cómo se llama la prestación estatal mensual por hijo en Italia?",
+        "fr": "Comment s’appelle l’allocation étatique mensuelle pour enfant en Italie ?",
+        "ro": "Cum se numește alocația de stat lunară pentru copil în Italia?"
+      },
       "options": [
         "L'Assegno Unico Universale.",
         "Codice Fiscale.",
         "Le spese condominiali."
       ],
       "correctAnswer": 0,
-      "explanation": "'Assegno Unico' — головна виплата на дітей у країні."
+      "explanation": {
+        "uk": "'Assegno Unico' — головна виплата на дітей у країні.",
+        "en": "'Assegno Unico' is the main child benefit in the country.",
+        "es": "'Assegno Unico' es la principal prestación por hijos del país.",
+        "fr": "'Assegno Unico' est la principale allocation pour enfants du pays.",
+        "ro": "'Assegno Unico' este principala plată pentru copii din țară."
+      }
     },
     {
       "id": "p3",
-      "question": "Як сказати консультанту 'Я б хотів(ла) подати заявку на виплату на дитину'?",
+      "question": {
+        "uk": "Як сказати консультанту 'Я б хотів(ла) подати заявку на виплату на дитину'?",
+        "en": "How do you tell the consultant “I would like to apply for the child benefit”?",
+        "es": "¿Cómo se le dice al consultor «Me gustaría presentar la solicitud de la prestación por hijo»?",
+        "fr": "Comment dire au conseiller « Je voudrais déposer une demande d’allocation pour enfant » ?",
+        "ro": "Cum spui consultantului «Aș dori să depun cererea pentru alocația pentru copil»?"
+      },
       "options": [
         "Vorrei fare la domanda per l'Assegno Unico.",
         "Vorrei prenotare un tavolo per stasera.",
         "Ho bisogno di un'acqua frizzante."
       ],
       "correctAnswer": 0,
-      "explanation": "'Fare la domanda' = подати заявку."
+      "explanation": {
+        "uk": "'Fare la domanda' = подати заявку.",
+        "en": "'Fare la domanda' = to submit an application.",
+        "es": "'Fare la domanda' = presentar una solicitud.",
+        "fr": "'Fare la domanda' = déposer une demande.",
+        "ro": "'Fare la domanda' = a depune o cerere."
+      }
     },
     {
       "id": "p4",
-      "question": "Який реквізит потрібен для зарахування щомісячних виплат від INPS?",
+      "question": {
+        "uk": "Який реквізит потрібен для зарахування щомісячних виплат від INPS?",
+        "en": "Which bank detail is needed for monthly payments from INPS?",
+        "es": "¿Qué dato se necesita para ingresar los pagos mensuales de INPS?",
+        "fr": "Quelle coordonnée faut-il pour le versement mensuel de l’INPS ?",
+        "ro": "Ce date sunt necesare pentru virarea plăților lunare de la INPS?"
+      },
       "options": [
         "Код IBAN банківського рахунку.",
         "Номер чека з супермаркету.",
         "Індекс поштового відділення."
       ],
       "correctAnswer": 0,
-      "explanation": "Виплати перераховуються на банківський рахунок за кодом IBAN."
+      "explanation": {
+        "uk": "Виплати перераховуються на банківський рахунок за кодом IBAN.",
+        "en": "Payments are transferred to a bank account using the IBAN code.",
+        "es": "Los pagos se ingresan en una cuenta bancaria mediante el código IBAN.",
+        "fr": "Les versements sont virés sur un compte bancaire via le code IBAN.",
+        "ro": "Plățile se virează într-un cont bancar după codul IBAN."
+      }
     },
     {
       "id": "p5",
-      "question": "Як запитати консультанта: «Які документи потрібні для подання заяви?»",
+      "question": {
+        "uk": "Як запитати консультанта: «Які документи потрібні для подання заяви?»",
+        "en": "How do you ask the consultant: “Which documents are needed to submit the application?”",
+        "es": "¿Cómo preguntar al consultor: «¿Qué documentos hacen falta para presentar la solicitud?»",
+        "fr": "Comment demander au conseiller : « Quels documents faut-il pour déposer la demande ? »",
+        "ro": "Cum întrebi consultantul: «Ce documente sunt necesare pentru depunerea cererii?»"
+      },
       "options": [
         "Quali documenti servono per la richiesta?",
         "Quanto costa la pizza margherita?",
         "Dove si trova la stazione di Treviso?"
       ],
       "correctAnswer": 0,
-      "explanation": "'Quali documenti servono...?' = 'Які документи потрібні...?'"
+      "explanation": {
+        "uk": "'Quali documenti servono...?' = 'Які документи потрібні...?'",
+        "en": "'Quali documenti servono...?' = 'Which documents are needed...?'",
+        "es": "'Quali documenti servono...?' = '¿Qué documentos hacen falta...?'",
+        "fr": "'Quali documenti servono...?' = 'Quels documents faut-il... ?'",
+        "ro": "'Quali documenti servono...?' = 'Ce documente sunt necesare...?'"
+      }
     }
   ],
-  "successBadge": "Esperto di Patronato 📋",
-  "successMessage": "Вітаємо! Ви повністю орієнтуєтеся у функціях Patronato/CAF, знаєте, як оформити ISEE, Assegno Unico та працювати із соціальними виплатами в Італії!"
+  "successBadge": {
+    "uk": "Експерт Патронату 📋",
+    "en": "Patronato expert 📋",
+    "es": "Experto de Patronato 📋",
+    "fr": "Expert Patronato 📋",
+    "ro": "Expert Patronato 📋"
+  },
+  "successMessage": {
+    "uk": "Вітаємо! Ви повністю орієнтуєтеся у функціях Patronato/CAF, знаєте, як оформити ISEE, Assegno Unico та працювати із соціальними виплатами в Італії!",
+    "en": "Congratulations! You fully understand Patronato/CAF services and know how to complete ISEE, Assegno Unico and handle social benefits in Italy!",
+    "es": "¡Enhorabuena! Te orientas por completo en las funciones del Patronato/CAF, sabes tramitar el ISEE, el Assegno Unico y gestionar las prestaciones sociales en Italia.",
+    "fr": "Félicitations ! Vous maîtrisez le rôle du Patronato/CAF, savez constituer l’ISEE, l’Assegno Unico et gérer les prestations sociales en Italie !",
+    "ro": "Felicitări! Te orientezi complet în funcțiile Patronato/CAF, știi cum să faci ISEE, Assegno Unico și să lucrezi cu prestațiile sociale în Italia!"
+  }
 }

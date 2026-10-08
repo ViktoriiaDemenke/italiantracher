@@ -1,9 +1,27 @@
 {
   "day": 29,
-  "title": "Живий діалог: Запис по телефону та візит Марка й Лаури до салону",
+  "title": {
+    "uk": "Живий діалог: Запис по телефону та візит Марка й Лаури до салону",
+    "en": "Live dialogue: Phone booking and Marco and Laura’s salon visit",
+    "es": "Diálogo en vivo: cita por teléfono y visita de Marco y Laura al salón",
+    "fr": "Dialogue vivant : prise de rendez-vous au téléphone et visite de Marco et Laura au salon",
+    "ro": "Dialog viu: programare telefonică și vizita lui Marco și Laura la salon"
+  },
   "module": "Salone di Bellezza: Parrucchiere e Manicure",
-  "type": "Interactive Dialogue",
-  "story": "Лаура телефонує в салон, щоб записати чоловіка Марка на стрижку бороди й волосся, а себе — на манікюр та укладку. Потім вони приходять на процедури.",
+  "type": {
+    "uk": "Інтерактивний діалог",
+    "en": "Interactive Dialogue",
+    "es": "Diálogo interactivo",
+    "fr": "Dialogue interactif",
+    "ro": "Dialog interactiv"
+  },
+  "story": {
+    "uk": "Лаура телефонує в салон, щоб записати чоловіка Марка на стрижку бороди й волосся, а себе — на манікюр та укладку. Потім вони приходять на процедури.",
+    "en": "Laura calls the salon to book her husband Marco for a hair and beard cut, and herself for a manicure and styling. Then they come in for the treatments.",
+    "es": "Laura llama al salón para citar a su marido Marco para corte de pelo y barba, y a ella para manicura y peinado. Luego van a las citas.",
+    "fr": "Laura téléphone au salon pour prendre rendez-vous pour son mari Marco (coupe et barbe) et pour elle (manucure et brushing). Puis ils viennent pour les soins.",
+    "ro": "Laura sună la salon să-l programeze pe soțul Marco la tuns păr și barbă, iar pe ea la manichiură și coafat. Apoi vin la proceduri."
+  },
   "dialogue": [
     {
       "step": 1,
@@ -12,24 +30,66 @@
       "options": [
         {
           "text": "Buongiorno! Vorrei prendere un appuntamento per venerdì: un taglio uomo con barba e una manicure con semipermanente.",
-          "translation": "Доброго дня! Хочу записатися на п’ятницю: чоловіча стрижка з бородою і манікюр із гель-лаком.",
+          "translation": {
+            "uk": "Доброго дня! Хочу записатися на п’ятницю: чоловіча стрижка з бородою і манікюр із гель-лаком.",
+            "en": "Good morning! I'd like to book an appointment for Friday: a men's haircut with beard and a manicure with gel polish.",
+            "es": "¡Buenos días! Quisiera pedir cita para el viernes: un corte de hombre con barba y una manicura con semipermanente.",
+            "fr": "Bonjour ! Je voudrais prendre rendez-vous pour vendredi : une coupe homme avec barbe et une manucure avec semipermanente.",
+            "ro": "Bună dimineața! Aș vrea o programare vineri: tunsoare bărbătească cu barbă și manichiură cu semipermanente."
+          },
           "isCorrect": true,
-          "feedback": "Чудово! Ви одразу назвали всі потрібні послуги для чоловіка та жінки."
+          "feedback": {
+            "uk": "Доброго дня! Хочу записатися на п’ятницю: чоловіча стрижка з бородою і манікюр із гель-лаком.",
+            "en": "Good morning! I'd like to book an appointment for Friday: a men's haircut with beard and a manicure with gel polish.",
+            "es": "¡Buenos días! Quisiera pedir cita para el viernes: un corte de hombre con barba y una manicura con semipermanente.",
+            "fr": "Bonjour ! Je voudrais prendre rendez-vous pour vendredi : une coupe homme avec barbe et une manucure avec semipermanente.",
+            "ro": "Bună dimineața! Aș vrea o programare vineri: tunsoare bărbătească cu barbă și manichiură cu semipermanente."
+          }
         },
         {
           "text": "Vorrei un appuntamento per il medico di base e la voltura del gas.",
-          "translation": "Хочу запис до сімейного лікаря і переоформлення газу.",
+          "translation": {
+            "uk": "Хочу запис до сімейного лікаря і переоформлення газу.",
+            "en": "I'd like an appointment for the family doctor and the gas account transfer.",
+            "es": "Quisiera una cita para el médico de cabecera y la voltura del gas.",
+            "fr": "Je voudrais un rendez-vous pour le médecin de famille et la voltura du gaz.",
+            "ro": "Aș vrea o programare la medicul de familie și voltura la gaz."
+          },
           "isCorrect": false,
-          "feedback": "У салоні записуються на стрижку, бороду, манікюр — не на ASL чи комуналку."
+          "feedback": {
+            "uk": "Хочу запис до сімейного лікаря і переоформлення газу.",
+            "en": "I'd like an appointment for the family doctor and the gas account transfer.",
+            "es": "Quisiera una cita para el médico de cabecera y la voltura del gas.",
+            "fr": "Je voudrais un rendez-vous pour le médecin de famille et la voltura du gaz.",
+            "ro": "Aș vrea o programare la medicul de familie și voltura la gaz."
+          }
         },
         {
           "text": "Ciao, vorrei comprare un biglietto per l'autobus.",
-          "translation": "Привіт, хочу купити квиток на автобус.",
+          "translation": {
+            "uk": "Привіт, хочу купити квиток на автобус.",
+            "en": "Hi, I'd like to buy a bus ticket.",
+            "es": "Hola, quisiera comprar un billete de autobús.",
+            "fr": "Salut, je voudrais acheter un ticket de bus.",
+            "ro": "Salut, aș vrea să cumpăr un bilet de autobuz."
+          },
           "isCorrect": false,
-          "feedback": "У салоні краси не продають автобусні квитки."
+          "feedback": {
+            "uk": "Привіт, хочу купити квиток на автобус.",
+            "en": "Hi, I'd like to buy a bus ticket.",
+            "es": "Hola, quisiera comprar un billete de autobús.",
+            "fr": "Salut, je voudrais acheter un ticket de bus.",
+            "ro": "Salut, aș vrea să cumpăr un bilet de autobuz."
+          }
         }
       ],
-      "translation": "Салон Bella Vita, доброго дня! Чим можу допомогти?"
+      "translation": {
+        "uk": "Салон Bella Vita, доброго дня! Чим можу допомогти?",
+        "en": "Salone Bella Vita, good morning! How can I help you?",
+        "es": "Salone Bella Vita, ¡buenos días! ¿En qué puedo ayudarle?",
+        "fr": "Salone Bella Vita, bonjour ! Comment puis-je vous aider ?",
+        "ro": "Salone Bella Vita, bună dimineața! Cu ce vă pot ajuta?"
+      }
     },
     {
       "step": 2,
@@ -38,24 +98,66 @@
       "options": [
         {
           "text": "No, vorrei fare la dichiarazione dei redditi.",
-          "translation": "Ні, хочу подати декларацію про доходи.",
+          "translation": {
+            "uk": "Ні, хочу подати декларацію про доходи.",
+            "en": "No, I'd like to do the tax return.",
+            "es": "No, quisiera hacer la declaración de la renta.",
+            "fr": "Non, je voudrais faire la déclaration de revenus.",
+            "ro": "Nu, aș vrea să fac declarația de venit."
+          },
           "isCorrect": false,
-          "feedback": "Це стосується бухгалтерських послуг, а не манікюру."
+          "feedback": {
+            "uk": "Ні, хочу подати декларацію про доходи.",
+            "en": "No, I'd like to do the tax return.",
+            "es": "No, quisiera hacer la declaración de la renta.",
+            "fr": "Non, je voudrais faire la déclaration de revenus.",
+            "ro": "Nu, aș vrea să fac declarația de venit."
+          }
         },
         {
           "text": "Sì, devo togliere il gel vecchio e fare la manicure completa.",
-          "translation": "Так, треба зняти старий гель і зробити повний манікюр.",
+          "translation": {
+            "uk": "Так, треба зняти старий гель і зробити повний манікюр.",
+            "en": "Yes, I need to remove the old gel and have a full manicure.",
+            "es": "Sí, tengo que quitar el gel viejo y hacer la manicura completa.",
+            "fr": "Oui, je dois enlever le gel ancien et faire la manucure complète.",
+            "ro": "Da, trebuie să dau jos gelul vechi și să fac manichiura completă."
+          },
           "isCorrect": true,
-          "feedback": "Ідеально! Попередження про зняття гель-лаку важливе для розрахунку часу."
+          "feedback": {
+            "uk": "Так, треба зняти старий гель і зробити повний манікюр.",
+            "en": "Yes, I need to remove the old gel and have a full manicure.",
+            "es": "Sí, tengo que quitar el gel viejo y hacer la manicura completa.",
+            "fr": "Oui, je dois enlever le gel ancien et faire la manucure complète.",
+            "ro": "Da, trebuie să dau jos gelul vechi și să fac manichiura completă."
+          }
         },
         {
           "text": "No, lascio lo smalto vecchio e aggiungo tre strati sopra, via WhatsApp.",
-          "translation": "Ні, залишу старий лак і додам три шари зверху через WhatsApp.",
+          "translation": {
+            "uk": "Ні, залишу старий лак і додам три шари зверху через WhatsApp.",
+            "en": "No, I'll leave the old polish and add three layers on top, via WhatsApp.",
+            "es": "No, dejo el esmalte viejo y añado tres capas encima, por WhatsApp.",
+            "fr": "Non, je laisse le vernis ancien et j'ajoute trois couches par-dessus, via WhatsApp.",
+            "ro": "Nu, las oja veche și adaug trei straturi deasupra, pe WhatsApp."
+          },
           "isCorrect": false,
-          "feedback": "Для нової процедури часто треба зняти старий гель; майстер питає саме це."
+          "feedback": {
+            "uk": "Ні, залишу старий лак і додам три шари зверху через WhatsApp.",
+            "en": "No, I'll leave the old polish and add three layers on top, via WhatsApp.",
+            "es": "No, dejo el esmalte viejo y añado tres capas encima, por WhatsApp.",
+            "fr": "Non, je laisse le vernis ancien et j'ajoute trois couches par-dessus, via WhatsApp.",
+            "ro": "Nu, las oja veche și adaug trei straturi deasupra, pe WhatsApp."
+          }
         }
       ],
-      "translation": "Чудово. Для манікюру потрібно також зняти попередній лак?"
+      "translation": {
+        "uk": "Чудово. Для манікюру потрібно також зняти попередній лак?",
+        "en": "Perfect. For the manicure, do you also need to remove the previous polish?",
+        "es": "Perfecto. Para la manicura, ¿hay que quitar también el esmalte anterior?",
+        "fr": "Parfait. Pour la manucure, faut-il aussi enlever le vernis précédent ?",
+        "ro": "Perfect. Pentru manichiură trebuie și să dați jos oja anterioară?"
+      }
     },
     {
       "step": 3,
@@ -64,24 +166,66 @@
       "options": [
         {
           "text": "Alle 15:00 vengo solo io, Marco si taglia i capelli da solo a casa.",
-          "translation": "О 15:00 прийду лише я, Марко сам підстрижеться вдома.",
+          "translation": {
+            "uk": "О 15:00 прийду лише я, Марко сам підстрижеться вдома.",
+            "en": "At 3:00 p.m. only I will come; Marco will cut his hair himself at home.",
+            "es": "A las 15:00 vengo solo yo, Marco se corta el pelo solo en casa.",
+            "fr": "À 15 h je viens seule, Marco se coupe les cheveux tout seul à la maison.",
+            "ro": "La 15:00 vin doar eu, Marco se tunde singur acasă."
+          },
           "isCorrect": false,
-          "feedback": "Запис був на двох; підтверджують обидва імена."
+          "feedback": {
+            "uk": "О 15:00 прийду лише я, Марко сам підстрижеться вдома.",
+            "en": "At 3:00 p.m. only I will come; Marco will cut his hair himself at home.",
+            "es": "A las 15:00 vengo solo yo, Marco se corta el pelo solo en casa.",
+            "fr": "À 15 h je viens seule, Marco se coupe les cheveux tout seul à la maison.",
+            "ro": "La 15:00 vin doar eu, Marco se tunde singur acasă."
+          }
         },
         {
           "text": "Venerdì no, vengo quando c’è posto, senza nome.",
-          "translation": "У п’ятницю ні, прийду коли буде місце, без імені.",
+          "translation": {
+            "uk": "У п’ятницю ні, прийду коли буде місце, без імені.",
+            "en": "Not Friday; I'll come when there's a slot, without a name.",
+            "es": "El viernes no, vengo cuando haya sitio, sin nombre.",
+            "fr": "Vendredi non, je viens quand il y a de la place, sans nom.",
+            "ro": "Vineri nu, vin când e loc, fără nume."
+          },
           "isCorrect": false,
-          "feedback": "Потрібно підтвердити день, годину і імена для запису."
+          "feedback": {
+            "uk": "У п’ятницю ні, прийду коли буде місце, без імені.",
+            "en": "Not Friday; I'll come when there's a slot, without a name.",
+            "es": "El viernes no, vengo cuando haya sitio, sin nombre.",
+            "fr": "Vendredi non, je viens quand il y a de la place, sans nom.",
+            "ro": "Vineri nu, vin când e loc, fără nume."
+          }
         },
         {
           "text": "Ottimo, venerdì alle 15:00! A nome di Laura e Marco. Grazie mille e arrivederci!",
-          "translation": "Чудово, п’ятниця о 15:00! На ім’я Лаура і Марко. Дуже дякую, до побачення!",
+          "translation": {
+            "uk": "Чудово, п’ятниця о 15:00! На ім’я Лаура і Марко. Дуже дякую, до побачення!",
+            "en": "Great, Friday at 3:00 p.m.! Under the names Laura and Marco. Thank you so much and goodbye!",
+            "es": "¡Estupendo, viernes a las 15:00! A nombre de Laura y Marco. ¡Muchas gracias y hasta luego!",
+            "fr": "Parfait, vendredi à 15 h ! Au nom de Laura et Marco. Merci beaucoup et au revoir !",
+            "ro": "Excelent, vineri la 15:00! Pe numele Laura și Marco. Mulțumesc frumos și la revedere!"
+          },
           "isCorrect": true,
-          "feedback": "Правильно! Ви підтвердили час та залишили ім'я для запису."
+          "feedback": {
+            "uk": "Чудово, п’ятниця о 15:00! На ім’я Лаура і Марко. Дуже дякую, до побачення!",
+            "en": "Great, Friday at 3:00 p.m.! Under the names Laura and Marco. Thank you so much and goodbye!",
+            "es": "¡Estupendo, viernes a las 15:00! A nombre de Laura y Marco. ¡Muchas gracias y hasta luego!",
+            "fr": "Parfait, vendredi à 15 h ! Au nom de Laura et Marco. Merci beaucoup et au revoir !",
+            "ro": "Excelent, vineri la 15:00! Pe numele Laura și Marco. Mulțumesc frumos și la revedere!"
+          }
         }
       ],
-      "translation": "Добре, у п’ятницю о 15:00 є місце для обох. До зустрічі в п’ятницю!"
+      "translation": {
+        "uk": "Добре, у п’ятницю о 15:00 є місце для обох. До зустрічі в п’ятницю!",
+        "en": "All right, we have a slot on Friday at 3:00 p.m. for both. See you Friday!",
+        "es": "De acuerdo, tenemos sitio el viernes a las 15:00 para los dos. ¡Nos vemos el viernes!",
+        "fr": "D'accord, nous avons de la place vendredi à 15 h pour les deux. À vendredi !",
+        "ro": "Bine, avem loc vineri la 15:00 pentru amândoi. Ne vedem vineri!"
+      }
     },
     {
       "step": 4,
@@ -90,24 +234,66 @@
       "options": [
         {
           "text": "Faccia tutto rasato a zero, anche le sopracciglia, senza chiedere.",
-          "translation": "Зробіть усе налисо, навіть брови, не питаючи.",
+          "translation": {
+            "uk": "Зробіть усе налисо, навіть брови, не питаючи.",
+            "en": "Shave everything to zero, even the eyebrows, without asking.",
+            "es": "Hágalo todo rapado a cero, incluso las cejas, sin preguntar.",
+            "fr": "Faites tout rasé à zéro, même les sourcils, sans demander.",
+            "ro": "Faceți totul ras pe zero, inclusiv sprâncenele, fără să întrebați."
+          },
           "isCorrect": false,
-          "feedback": "Марко просить трохи вкоротити боки і акуратно підрівняти бороду, не налисо."
+          "feedback": {
+            "uk": "Зробіть усе налисо, навіть брови, не питаючи.",
+            "en": "Shave everything to zero, even the eyebrows, without asking.",
+            "es": "Hágalo todo rapado a cero, incluso las cejas, sin preguntar.",
+            "fr": "Faites tout rasé à zéro, même les sourcils, sans demander.",
+            "ro": "Faceți totul ras pe zero, inclusiv sprâncenele, fără să întrebați."
+          }
         },
         {
           "text": "Buongiorno! Vorrei accorciare i capelli ai lati e regolare la barba, ma senza tagliarla troppo corta.",
-          "translation": "Доброго дня! Хочу вкоротити волосся з боків і підрівняти бороду, але не стригти її занадто коротко.",
+          "translation": {
+            "uk": "Доброго дня! Хочу вкоротити волосся з боків і підрівняти бороду, але не стригти її занадто коротко.",
+            "en": "Good morning! I'd like to shorten the hair on the sides and tidy the beard, but without cutting it too short.",
+            "es": "¡Buenos días! Quisiera acortar el pelo a los lados y arreglar la barba, pero sin cortarla demasiado corta.",
+            "fr": "Bonjour ! Je voudrais raccourcir les cheveux sur les côtés et régler la barbe, mais sans la couper trop courte.",
+            "ro": "Bună dimineața! Aș vrea să scurt părul pe laterale și să aranjez barba, dar fără să o tunzi prea scurt."
+          },
           "isCorrect": true,
-          "feedback": "Чудово! Марко чітко пояснив бачення своєї стрижки та бороди."
+          "feedback": {
+            "uk": "Доброго дня! Хочу вкоротити волосся з боків і підрівняти бороду, але не стригти її занадто коротко.",
+            "en": "Good morning! I'd like to shorten the hair on the sides and tidy the beard, but without cutting it too short.",
+            "es": "¡Buenos días! Quisiera acortar el pelo a los lados y arreglar la barba, pero sin cortarla demasiado corta.",
+            "fr": "Bonjour ! Je voudrais raccourcir les cheveux sur les côtés et régler la barbe, mais sans la couper trop courte.",
+            "ro": "Bună dimineața! Aș vrea să scurt părul pe laterale și să aranjez barba, dar fără să o tunzi prea scurt."
+          }
         },
         {
           "text": "Vorrei convalidare il biglietto del treno.",
-          "translation": "Хочу прокомпостувати квиток на потяг.",
+          "translation": {
+            "uk": "Хочу прокомпостувати квиток на потяг.",
+            "en": "I'd like to validate the train ticket.",
+            "es": "Quisiera validar el billete de tren.",
+            "fr": "Je voudrais composter le billet de train.",
+            "ro": "Aș vrea să validez biletul de tren."
+          },
           "isCorrect": false,
-          "feedback": "Квитки компостують на вокзалі, а не в кріслі барбера."
+          "feedback": {
+            "uk": "Хочу прокомпостувати квиток на потяг.",
+            "en": "I'd like to validate the train ticket.",
+            "es": "Quisiera validar el billete de tren.",
+            "fr": "Je voudrais composter le billet de train.",
+            "ro": "Aș vrea să validez biletul de tren."
+          }
         }
       ],
-      "translation": "Доброго дня, Марко! Як сьогодні зробимо волосся і бороду?"
+      "translation": {
+        "uk": "Доброго дня, Марко! Як сьогодні зробимо волосся і бороду?",
+        "en": "Good morning, Marco! How shall we do the hair and beard today?",
+        "es": "¡Buenos días, Marco! ¿Cómo hacemos hoy con el pelo y la barba?",
+        "fr": "Bonjour Marco ! Comment on fait aujourd'hui pour les cheveux et la barbe ?",
+        "ro": "Bună dimineața, Marco! Cum facem azi cu părul și barba?"
+      }
     },
     {
       "step": 5,
@@ -116,24 +302,66 @@
       "options": [
         {
           "text": "Buongiorno! Vorrei la forma mandorla e un colore nudo naturale con il semipermanente.",
-          "translation": "Доброго дня! Хочу форму мигдалю і природний нюдовий колір із гель-лаком.",
+          "translation": {
+            "uk": "Доброго дня! Хочу форму мигдалю і природний нюдовий колір із гель-лаком.",
+            "en": "Good morning! I'd like an almond shape and a natural nude color with gel polish.",
+            "es": "¡Buenos días! Quisiera la forma almendra y un color nude natural con el semipermanente.",
+            "fr": "Bonjour ! Je voudrais la forme amande et une couleur nude naturelle avec le semipermanente.",
+            "ro": "Bună dimineața! Aș vrea forma migdală și o culoare nude naturală cu semipermanente."
+          },
           "isCorrect": true,
-          "feedback": "Чудово! Лаура обрала форму (мигдаль) та природний колір."
+          "feedback": {
+            "uk": "Доброго дня! Хочу форму мигдалю і природний нюдовий колір із гель-лаком.",
+            "en": "Good morning! I'd like an almond shape and a natural nude color with gel polish.",
+            "es": "¡Buenos días! Quisiera la forma almendra y un color nude natural con el semipermanente.",
+            "fr": "Bonjour ! Je voudrais la forme amande et une couleur nude naturelle avec le semipermanente.",
+            "ro": "Bună dimineața! Aș vrea forma migdală și o culoare nude naturală cu semipermanente."
+          }
         },
         {
           "text": "Ho la febbre e il naso che cola.",
-          "translation": "У мене температура і нежить.",
+          "translation": {
+            "uk": "У мене температура і нежить.",
+            "en": "I have a fever and a runny nose.",
+            "es": "Tengo fiebre y la nariz que gotea.",
+            "fr": "J'ai de la fièvre et le nez qui coule.",
+            "ro": "Am febră și nasul curgător."
+          },
           "isCorrect": false,
-          "feedback": "Це симптоми хвороби для лікаря, а не для майстра манікюру."
+          "feedback": {
+            "uk": "У мене температура і нежить.",
+            "en": "I have a fever and a runny nose.",
+            "es": "Tengo fiebre y la nariz que gotea.",
+            "fr": "J'ai de la fièvre et le nez qui coule.",
+            "ro": "Am febră și nasul curgător."
+          }
         },
         {
           "text": "Vorrei unghie lunghissime stiletto rosso fluo e glitter in tre minuti.",
-          "translation": "Хочу дуже довгі нігті стилет, флуоресцентний червоний і глітер за три хвилини.",
+          "translation": {
+            "uk": "Хочу дуже довгі нігті стилет, флуоресцентний червоний і глітер за три хвилини.",
+            "en": "I'd like very long stiletto nails, fluorescent red and glitter, in three minutes.",
+            "es": "Quisiera uñas larguísimas stiletto rojo flúor y glitter en tres minutos.",
+            "fr": "Je voudrais des ongles très longs stiletto rouge fluo et glitter en trois minutes.",
+            "ro": "Aș vrea unghii foarte lungi stiletto, roșu fluorescent și glitter în trei minute."
+          },
           "isCorrect": false,
-          "feedback": "Лаура обирає форму mandorla і спокійний nude, не екстремальний дизайн за три хвилини."
+          "feedback": {
+            "uk": "Хочу дуже довгі нігті стилет, флуоресцентний червоний і глітер за три хвилини.",
+            "en": "I'd like very long stiletto nails, fluorescent red and glitter, in three minutes.",
+            "es": "Quisiera uñas larguísimas stiletto rojo flúor y glitter en tres minutos.",
+            "fr": "Je voudrais des ongles très longs stiletto rouge fluo et glitter en trois minutes.",
+            "ro": "Aș vrea unghii foarte lungi stiletto, roșu fluorescent și glitter în trei minute."
+          }
         }
       ],
-      "translation": "Доброго дня, Лауро! Яку форму і який колір нігтів бажаєте сьогодні?"
+      "translation": {
+        "uk": "Доброго дня, Лауро! Яку форму і який колір нігтів бажаєте сьогодні?",
+        "en": "Good morning, Laura! What shape and color would you like for your nails today?",
+        "es": "¡Buenos días, Laura! ¿Qué forma y qué color prefiere para las uñas hoy?",
+        "fr": "Bonjour Laura ! Quelle forme et quelle couleur préférez-vous pour les ongles aujourd'hui ?",
+        "ro": "Bună dimineața, Laura! Ce formă și ce culoare doriți pentru unghii astăzi?"
+      }
     },
     {
       "step": 6,
@@ -142,25 +370,73 @@
       "options": [
         {
           "text": "Paghiamo in francobolli e torniamo dopo per il resto.",
-          "translation": "Платимо марками і повернемося потім по решту.",
+          "translation": {
+            "uk": "Платимо марками і повернемося потім по решту.",
+            "en": "We'll pay in stamps and come back later for the rest.",
+            "es": "Pagamos en sellos y volvemos luego por el resto.",
+            "fr": "On paie en timbres et on revient après pour le reste.",
+            "ro": "Plătim cu timbre și ne întoarcem după pentru rest."
+          },
           "isCorrect": false,
-          "feedback": "Рахунок закривають одразу карткою або готівкою, разом чи окремо."
+          "feedback": {
+            "uk": "Платимо марками і повернемося потім по решту.",
+            "en": "We'll pay in stamps and come back later for the rest.",
+            "es": "Pagamos en sellos y volvemos luego por el resto.",
+            "fr": "On paie en timbres et on revient après pour le reste.",
+            "ro": "Plătim cu timbre și ne întoarcem după pentru rest."
+          }
         },
         {
           "text": "Paghiamo separati, ma Laura paga anche il taglio di Marco in contanti ucraini.",
-          "translation": "Платимо окремо, але Лаура платить і за стрижку Марка українською готівкою.",
+          "translation": {
+            "uk": "Платимо окремо, але Лаура платить і за стрижку Марка українською готівкою.",
+            "en": "We'll pay separately, but Laura will also pay for Marco's haircut in Ukrainian cash.",
+            "es": "Pagamos por separado, pero Laura paga también el corte de Marco en efectivo ucraniano.",
+            "fr": "On paie séparément, mais Laura paie aussi la coupe de Marco en espèces ukrainiennes.",
+            "ro": "Plătim separat, dar Laura plătește și tunsoarea lui Marco cu numerar ucrainean."
+          },
           "isCorrect": false,
-          "feedback": "Платять у євро прийнятим способом; тут логічно разом карткою."
+          "feedback": {
+            "uk": "Платимо окремо, але Лаура платить і за стрижку Марка українською готівкою.",
+            "en": "We'll pay separately, but Laura will also pay for Marco's haircut in Ukrainian cash.",
+            "es": "Pagamos por separado, pero Laura paga también el corte de Marco en efectivo ucraniano.",
+            "fr": "On paie séparément, mais Laura paie aussi la coupe de Marco en espèces ukrainiennes.",
+            "ro": "Plătim separat, dar Laura plătește și tunsoarea lui Marco cu numerar ucrainean."
+          }
         },
         {
           "text": "Paghiamo insieme con la carta. Grazie mille, siamo molto contenti del risultato!",
-          "translation": "Платимо разом карткою. Дуже дякуємо, ми дуже задоволені результатом!",
+          "translation": {
+            "uk": "Платимо разом карткою. Дуже дякуємо, ми дуже задоволені результатом!",
+            "en": "We'll pay together by card. Thank you so much, we're very happy with the result!",
+            "es": "Pagamos juntos con tarjeta. ¡Muchas gracias, estamos muy contentos con el resultado!",
+            "fr": "On paie ensemble par carte. Merci beaucoup, nous sommes très contents du résultat !",
+            "ro": "Plătim împreună cu cardul. Mulțumim frumos, suntem foarte mulțumiți de rezultat!"
+          },
           "isCorrect": true,
-          "feedback": "Відмінно! Ви зробили оплату карткою та подякували майстрам."
+          "feedback": {
+            "uk": "Платимо разом карткою. Дуже дякуємо, ми дуже задоволені результатом!",
+            "en": "We'll pay together by card. Thank you so much, we're very happy with the result!",
+            "es": "Pagamos juntos con tarjeta. ¡Muchas gracias, estamos muy contentos con el resultado!",
+            "fr": "On paie ensemble par carte. Merci beaucoup, nous sommes très contents du résultat !",
+            "ro": "Plătim împreună cu cardul. Mulțumim frumos, suntem foarte mulțumiți de rezultat!"
+          }
         }
       ],
-      "translation": "Ось вам! Разом за чоловічу стрижку, бороду, манікюр і гель-лак 65 євро. Платите разом чи окремо?"
+      "translation": {
+        "uk": "Ось вам! Разом за чоловічу стрижку, бороду, манікюр і гель-лак 65 євро. Платите разом чи окремо?",
+        "en": "Here you go! In total for the men's haircut, beard, manicure and gel polish it's 65 euros. Paying together or separately?",
+        "es": "¡Aquí tiene! En total por el corte de hombre, barba, manicura y semipermanente son 65 euros. ¿Pagan juntos o por separado?",
+        "fr": "Voilà ! Au total pour la coupe homme, la barbe, la manucure et le semipermanente, 65 euros. Vous payez ensemble ou séparément ?",
+        "ro": "Poftiți! În total pentru tunsoarea bărbătească, barbă, manichiură și semipermanente sunt 65 de euro. Plătiți împreună sau separat?"
+      }
     }
   ],
-  "culturaTip": "В італійських салонах краси завжди цінують зворотний зв'язок під час процедури. Якщо вода занадто гаряча або майстер зрізає забагато довжини, спокійно скажіть: 'Scusi, l'acqua è troppo calda' або 'Un po' più lungo, per favore'."
+  "culturaTip": {
+    "uk": "В італійських салонах краси завжди цінують зворотний зв'язок під час процедури. Якщо вода занадто гаряча або майстер зрізає забагато довжини, спокійно скажіть: 'Scusi, l'acqua è troppo calda' або 'Un po' più lungo, per favore'.",
+    "en": "Italian salons appreciate feedback during the treatment. If the water is too hot or too much length is being cut, calmly say: 'Scusi, l'acqua è troppo calda' or 'Un po' più lungo, per favore'.",
+    "es": "En los salones italianos se valora el feedback durante el servicio. Si el agua está demasiado caliente o se corta demasiado, dígase con calma: 'Scusi, l'acqua è troppo calda' o 'Un po' più lungo, per favore'.",
+    "fr": "Dans les salons italiens, on apprécie un retour pendant le soin. Si l’eau est trop chaude ou si l’on coupe trop, dites calmement : 'Scusi, l'acqua è troppo calda' ou 'Un po' più lungo, per favore'.",
+    "ro": "În saloanele italiene se apreciază feedback-ul în timpul procedurii. Dacă apa e prea fierbinte sau se taie prea mult, spune calm: 'Scusi, l'acqua è troppo calda' sau 'Un po' più lungo, per favore'."
+  }
 }

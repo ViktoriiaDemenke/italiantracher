@@ -10,6 +10,7 @@ export const DEFAULT_STATE = {
   reviewItems: [],
   streak: 0,
   lastActivityDate: null,
+  uiScreen: 'home',
 }
 
 export function todayISO(date = new Date()) {

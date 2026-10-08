@@ -2,7 +2,10 @@
   min-height: 100vh;
   width: 100%;
   background: var(--bg);
-  padding: var(--space-lg) var(--space-md) 6rem;
+  padding-top: var(--space-lg);
+  padding-right: calc(var(--space-md) + env(safe-area-inset-right, 0px));
+  padding-bottom: calc(6rem + env(safe-area-inset-bottom, 0px));
+  padding-left: calc(var(--space-md) + env(safe-area-inset-left, 0px));
   max-width: var(--container);
   margin: 0 auto;
 }

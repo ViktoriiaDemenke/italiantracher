@@ -1,77 +1,179 @@
 {
   "day": 6,
-  "title": "Boss Level 🏆: Симуляція реєстрації в ASL",
+  "title": {
+    "uk": "Boss Level 🏆: Симуляція реєстрації в ASL",
+    "en": "Boss Level 🏆: ASL registration simulation",
+    "es": "Boss Level 🏆: Simulación de inscripción en la ASL",
+    "fr": "Boss Level 🏆 : Simulation d’inscription à l’ASL",
+    "ro": "Boss Level 🏆: Simulare de înscriere la ASL"
+  },
   "module": "Iscriversi al SSN e Medico di Base",
-  "type": "Boss Level Simulation",
-  "story": "Фінальний іспит модуля! Лаура проходить весь шлях у Падуї самостійно: від перевірки документів до вибору лікаря та розрізнення Guardia Medica і Pronto Soccorso. Підказки та переклад вимкнено!",
+  "type": {
+    "uk": "Симуляція бос-рівня",
+    "en": "Boss Level Simulation",
+    "es": "Simulación de nivel jefe",
+    "fr": "Simulation Boss Level",
+    "ro": "Simulare nivel boss"
+  },
+  "story": {
+    "uk": "Фінальний іспит модуля! Лаура проходить весь шлях у Падуї самостійно: від перевірки документів до вибору лікаря та розрізнення Guardia Medica і Pronto Soccorso. Підказки та переклад вимкнено!",
+    "en": "Final exam of the module! Laura goes through the whole path in Padua on her own: from checking documents to choosing a doctor and telling Guardia Medica from Pronto Soccorso. Hints and translation are off!",
+    "es": "¡Examen final del módulo! Laura recorre todo el camino en Padua sola: de la comprobación de documentos a elegir médico y distinguir Guardia Medica y Pronto Soccorso. ¡Pistas y traducción desactivadas!",
+    "fr": "Examen final du module ! Laura parcourt tout le parcours à Padoue seule : des documents au choix du médecin et à la distinction Guardia Medica / Pronto Soccorso. Indices et traduction désactivés !",
+    "ro": "Examenul final al modulului! Laura parcurge tot drumul la Padova singură: de la verificarea documentelor până la alegerea medicului și deosebirea Guardia Medica de Pronto Soccorso. Indiciile și traducerea sunt dezactivate!"
+  },
   "questions": [
     {
       "id": "p1",
-      "question": "Як сказати працівнику ASL, що вам потрібно зареєструватися в системі охорони здоров'я?",
+      "question": {
+        "uk": "Як сказати працівнику ASL, що вам потрібно зареєструватися в системі охорони здоров'я?",
+        "en": "How do you tell an ASL clerk that you need to enrol in the healthcare system?",
+        "es": "¿Cómo decirle al empleado de la ASL que necesitas inscribirte en el sistema sanitario?",
+        "fr": "Comment dire à l’employé de l’ASL que vous devez vous inscrire au système de santé ?",
+        "ro": "Cum spui angajatului ASL că trebuie să te înscrii în sistemul de sănătate?"
+      },
       "options": [
         "Devo iscrivermi al Servizio Sanitario Nazionale.",
         "Vorrei comprare una ricetta medica.",
         "Cerco un appartamento in affitto."
       ],
       "correctAnswer": 0,
-      "explanation": "'Devo iscrivermi...' = 'Мені потрібно зареєструватися...'"
+      "explanation": {
+        "uk": "'Devo iscrivermi...' = 'Мені потрібно зареєструватися...'",
+        "en": "'Devo iscrivermi...' = 'I need to register...'",
+        "es": "'Devo iscrivermi...' = 'Necesito inscribirme...'",
+        "fr": "« Devo iscrivermi... » = « Je dois m’inscrire... »",
+        "ro": "«Devo iscrivermi...» = «Trebuie să mă înscriu...»"
+      }
     },
     {
       "id": "p2",
-      "question": "Яку фразу ви використаєте, щоб попросити обрати сімейного лікаря?",
+      "question": {
+        "uk": "Яку фразу ви використаєте, щоб попросити обрати сімейного лікаря?",
+        "en": "Which phrase do you use to ask to choose a family doctor?",
+        "es": "¿Qué frase usarías para pedir elegir un médico de familia?",
+        "fr": "Quelle phrase utilisez-vous pour demander à choisir un médecin de famille ?",
+        "ro": "Ce frază folosești ca să ceri să alegi un medic de familie?"
+      },
       "options": [
         "Devo cambiare il passaporto.",
         "Devo scegliere un medico di base.",
         "Ho già un appuntamento all'Anagrafe."
       ],
       "correctAnswer": 1,
-      "explanation": "'Medico di base' — це сімейний лікар."
+      "explanation": {
+        "uk": "'Medico di base' — це сімейний лікар.",
+        "en": "'Medico di base' is the family doctor.",
+        "es": "'Medico di base' es el médico de familia.",
+        "fr": "« Medico di base » est le médecin de famille.",
+        "ro": "«Medico di base» este medicul de familie."
+      }
     },
     {
       "id": "p3",
-      "question": "Як уточнити, чи лікар близько до вашого помешкання?",
+      "question": {
+        "uk": "Як уточнити, чи лікар близько до вашого помешкання?",
+        "en": "How do you check whether the doctor is close to your home?",
+        "es": "¿Cómo preguntar si el médico está cerca de tu vivienda?",
+        "fr": "Comment préciser si le médecin est près de chez vous ?",
+        "ro": "Cum precizezi dacă medicul e aproape de locuința ta?"
+      },
       "options": [
         "Il medico è aperto 24 ore su 24?",
         "È vicino a casa mia?",
         "Ho bisogno di un codice fiscale."
       ],
       "correctAnswer": 1,
-      "explanation": "'È vicino a casa mia?' = 'Це близько до мого дому?'"
+      "explanation": {
+        "uk": "'È vicino a casa mia?' = 'Це близько до мого дому?'",
+        "en": "'È vicino a casa mia?' = 'Is it close to my home?'",
+        "es": "'È vicino a casa mia?' = '¿Está cerca de mi casa?'",
+        "fr": "« È vicino a casa mia? » = « C’est près de chez moi ? »",
+        "ro": "«È vicino a casa mia?» = «E aproape de casa mea?»"
+      }
     },
     {
       "id": "p4",
-      "question": "Куди слід звертатися у разі важкої та цілодобової загрози здоров'ю?",
+      "question": {
+        "uk": "Куди слід звертатися у разі важкої та цілодобової загрози здоров'ю?",
+        "en": "Where should you go in case of a serious, round-the-clock threat to health?",
+        "es": "¿Adónde acudir ante una amenaza grave y continua para la salud?",
+        "fr": "Où s’adresser en cas de menace grave et permanente pour la santé ?",
+        "ro": "Unde trebuie să te adresezi în caz de pericol grav și continuu pentru sănătate?"
+      },
       "options": [
         "All'ufficio Anagrafe.",
         "Al Pronto Soccorso.",
         "Allo sportello della posta."
       ],
       "correctAnswer": 1,
-      "explanation": "'Pronto Soccorso' — відділення невідкладної допомоги (24/7)."
+      "explanation": {
+        "uk": "'Pronto Soccorso' — відділення невідкладної допомоги (24/7).",
+        "en": "'Pronto Soccorso' — the emergency department (24/7).",
+        "es": "'Pronto Soccorso' — servicio de urgencias (24/7).",
+        "fr": "« Pronto Soccorso » — service d’urgences (24/7).",
+        "ro": "«Pronto Soccorso» — secția de urgență (24/7)."
+      }
     },
     {
       "id": "p5",
-      "question": "Що відповість працівник на питання про вартість реєстрації з Permesso di Soggiorno?",
+      "question": {
+        "uk": "Що відповість працівник на питання про вартість реєстрації з Permesso di Soggiorno?",
+        "en": "What will the clerk reply about the cost of registration with a Permesso di Soggiorno?",
+        "es": "¿Qué responderá el empleado sobre el coste de inscripción con Permesso di Soggiorno?",
+        "fr": "Que répondra l’employé sur le coût de l’inscription avec Permesso di Soggiorno ?",
+        "ro": "Ce va răspunde angajatul despre costul înscrierii cu Permesso di Soggiorno?"
+      },
       "options": [
         "Ha diritto all’iscrizione gratuita.",
         "Deve pagare la marca da bollo.",
         "L'iscrizione costa cento euro."
       ],
       "correctAnswer": 0,
-      "explanation": "Реєстрація в SSN за наявності дозволу на проживання є безкоштовною."
+      "explanation": {
+        "uk": "Реєстрація в SSN за наявності дозволу на проживання є безкоштовною.",
+        "en": "Enrolment in the SSN with a residence permit is free.",
+        "es": "La inscripción en el SSN con permiso de residencia es gratuita.",
+        "fr": "L’inscription au SSN avec un permis de séjour est gratuite.",
+        "ro": "Înscrierea în SSN cu permis de ședere este gratuită."
+      }
     },
     {
       "id": "p6",
-      "question": "A chi bisogna rivolgersi per le urgenze mediche durante la notte o nei giorni festivi?",
+      "question": {
+        "uk": "До кого звертатися при медичних невідкладних випадках уночі або у святкові дні?",
+        "en": "Who should you contact for medical emergencies at night or on public holidays?",
+        "es": "¿A quién hay que dirigirse para urgencias médicas por la noche o en festivos?",
+        "fr": "À qui s’adresser pour les urgences médicales la nuit ou les jours fériés ?",
+        "ro": "Cui trebuie să te adresezi pentru urgențe medicale noaptea sau în sărbători?"
+      },
       "options": [
         "Alla Guardia Medica.",
         "All'Ufficio Postale.",
         "Al Comune di Padova."
       ],
       "correctAnswer": 0,
-      "explanation": "'Guardia Medica' — нічна та святкова чергова служба."
+      "explanation": {
+        "uk": "'Guardia Medica' — нічна та святкова чергова служба.",
+        "en": "'Guardia Medica' — the night and holiday on-call service.",
+        "es": "'Guardia Medica' — servicio de guardia nocturno y festivo.",
+        "fr": "« Guardia Medica » — service de garde de nuit et les jours fériés.",
+        "ro": "«Guardia Medica» — serviciul de gardă noaptea și de sărbători."
+      }
     }
   ],
-  "successBadge": "Membro del SSN 🏥",
-  "successMessage": "Вітаємо! Ви успішно пройшли симуляцію, отримали Tessera Sanitaria та обрали сімейного лікаря в Італії!"
+  "successBadge": {
+    "uk": "Учасник SSN 🏥",
+    "en": "SSN member 🏥",
+    "es": "Miembro del SSN 🏥",
+    "fr": "Membre du SSN 🏥",
+    "ro": "Membru SSN 🏥"
+  },
+  "successMessage": {
+    "uk": "Вітаємо! Ви успішно пройшли симуляцію, отримали Tessera Sanitaria та обрали сімейного лікаря в Італії!",
+    "en": "Congratulations! You successfully completed the simulation, received a Tessera Sanitaria and chose a family doctor in Italy!",
+    "es": "¡Enhorabuena! Has superado la simulación, obtenido la Tessera Sanitaria y elegido un médico de familia en Italia.",
+    "fr": "Félicitations ! Vous avez réussi la simulation, obtenu la Tessera Sanitaria et choisi un médecin de famille en Italie !",
+    "ro": "Felicitări! Ați trecut simularea, ați obținut Tessera Sanitaria și ați ales un medic de familie în Italia!"
+  }
 }

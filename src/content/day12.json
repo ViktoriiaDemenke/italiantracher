@@ -1,66 +1,156 @@
 {
   "day": 12,
-  "title": "Boss Level 🏆: Симуляція пошуку та оренди квартири",
+  "title": {
+    "uk": "Boss Level 🏆: Симуляція пошуку та оренди квартири",
+    "en": "Boss Level 🏆: Simulation of finding and renting an apartment",
+    "es": "Boss Level 🏆: Simulación de búsqueda y alquiler de piso",
+    "fr": "Boss Level 🏆 : Simulation de recherche et location d’appartement",
+    "ro": "Boss Level 🏆: Simulare de căutare și închiriere a unui apartament"
+  },
   "module": "La Casa: Affitto e Condominio",
-  "type": "Boss Level Simulation",
-  "story": "Фінальний іспит модуля! Ви самостійно телефонуєте орендодавцю, дізнаєтеся деталі про плату за кондомініум, заставу та домовляєтеся про перегляд квартири. Підказки та переклад вимкнено!",
+  "type": {
+    "uk": "Симуляція бос-рівня",
+    "en": "Boss Level Simulation",
+    "es": "Simulación de nivel jefe",
+    "fr": "Simulation Boss Level",
+    "ro": "Simulare nivel boss"
+  },
+  "story": {
+    "uk": "Фінальний іспит модуля! Ви самостійно телефонуєте орендодавцю, дізнаєтеся деталі про плату за кондомініум, заставу та домовляєтеся про перегляд квартири. Підказки та переклад вимкнено!",
+    "en": "Final exam of the module! You call the landlord yourself, learn about condominium charges and the deposit, and arrange a viewing. Hints and translation are off!",
+    "es": "¡Examen final del módulo! Llamas tú al casero, te informas de comunidad y fianza y conciertas una visita. ¡Pistas y traducción desactivadas!",
+    "fr": "Examen final du module ! Vous appelez le propriétaire, vous renseignez sur les charges et la caution et convenez d’une visite. Indices et traduction désactivés !",
+    "ro": "Examenul final al modulului! Sunați singuri proprietarul, aflați despre cheltuielile de condominiu și garanție și conveniți o vizionare. Indiciile și traducerea sunt dezactivate!"
+  },
   "questions": [
     {
       "id": "p1",
-      "question": "Як запитати синьйора Маріо, чи квартира з оголошення ще вільна?",
+      "question": {
+        "uk": "Як запитати синьйора Маріо, чи квартира з оголошення ще вільна?",
+        "en": "How do you ask Signor Mario if the apartment in the listing is still free?",
+        "es": "¿Cómo preguntar a Signor Mario si el piso del anuncio sigue libre?",
+        "fr": "Comment demander à Signor Mario si l’appartement de l’annonce est encore libre ?",
+        "ro": "Cum îl întrebi pe Signor Mario dacă apartamentul din anunț e încă liber?"
+      },
       "options": [
         "L'appartamento è ancora disponibile?",
         "Dove si trova il medico di base?",
         "Possiamo avere il conto, per favore?"
       ],
       "correctAnswer": 0,
-      "explanation": "'È ancora disponibile?' = 'Це ще доступно / вільно?'"
+      "explanation": {
+        "uk": "'È ancora disponibile?' = 'Це ще доступно / вільно?'",
+        "en": "'È ancora disponibile?' = 'Is it still available / free?'",
+        "es": "'È ancora disponibile?' = '¿Sigue disponible / libre?'",
+        "fr": "« È ancora disponibile? » = « C’est encore disponible / libre ? »",
+        "ro": "«È ancora disponibile?» = «E încă disponibil / liber?»"
+      }
     },
     {
       "id": "p2",
-      "question": "Що означають 'Spese condominiali' при оренді житла?",
+      "question": {
+        "uk": "Що означають 'Spese condominiali' при оренді житла?",
+        "en": "What do 'Spese condominiali' mean when renting?",
+        "es": "¿Qué significan las 'Spese condominiali' al alquilar?",
+        "fr": "Que signifient « Spese condominiali » en location ?",
+        "ro": "Ce înseamnă «Spese condominiali» la închiriere?"
+      },
       "options": [
         "Платежі за обслуговування спільних частин будинку (прибирання, ліфт, освітлення під'їзду).",
         "Податок на купівлю меблів.",
         "Плата за паркування на міській вулиці."
       ],
       "correctAnswer": 0,
-      "explanation": "'Spese condominiali' — витрати на утримання будинку та під'їзду."
+      "explanation": {
+        "uk": "'Spese condominiali' — витрати на утримання будинку та під'їзду.",
+        "en": "'Spese condominiali' — costs of maintaining the building and stairwell.",
+        "es": "'Spese condominiali' — gastos de mantenimiento del edificio y el portal.",
+        "fr": "« Spese condominiali » — frais d’entretien de l’immeuble et de l’escalier.",
+        "ro": "«Spese condominiali» — cheltuieli de întreținere a clădirii și a scării."
+      }
     },
     {
       "id": "p3",
-      "question": "Що таке 'Caparra' (або 'Deposito cauzionale')?",
+      "question": {
+        "uk": "Що таке 'Caparra' (або 'Deposito cauzionale')?",
+        "en": "What is a 'Caparra' (or 'Deposito cauzionale')?",
+        "es": "¿Qué es una 'Caparra' (o 'Deposito cauzionale')?",
+        "fr": "Qu’est-ce qu’une « Caparra » (ou « Deposito cauzionale ») ?",
+        "ro": "Ce este «Caparra» (sau «Deposito cauzionale»)?"
+      },
       "options": [
         "Гарантійна застава за збереження майна, яка повертається при виїзді.",
         "Щомісячна плата за інтернет.",
         "Одноразова оплата послуг прибиральниці."
       ],
       "correctAnswer": 0,
-      "explanation": "Застава (caparra) зазвичай дорівнює орендній платі за 2–3 місяці."
+      "explanation": {
+        "uk": "Застава (caparra) зазвичай дорівнює орендній платі за 2–3 місяці.",
+        "en": "The deposit (caparra) is usually equal to 2–3 months’ rent.",
+        "es": "La fianza (caparra) suele equivaler a 2–3 meses de alquiler.",
+        "fr": "La caution (caparra) équivaut en général à 2–3 mois de loyer.",
+        "ro": "Garanția (caparra) e de obicei egală cu chiria pe 2–3 luni."
+      }
     },
     {
       "id": "p4",
-      "question": "Як сказати орендодавцю 'Коли ми можемо домовитися про зустріч, щоб подивитися квартиру?'",
+      "question": {
+        "uk": "Як сказати орендодавцю 'Коли ми можемо домовитися про зустріч, щоб подивитися квартиру?'",
+        "en": "How do you tell the landlord 'When can we arrange a meeting to see the apartment?'",
+        "es": "¿Cómo decir al casero '¿Cuándo podemos concertar una visita para ver el piso?'",
+        "fr": "Comment dire au propriétaire « Quand pouvons-nous convenir d’une visite pour voir l’appartement ? »",
+        "ro": "Cum spui proprietarului «Când putem conveni o întâlnire să vedem apartamentul?»"
+      },
       "options": [
         "Quando possiamo fissare un appuntamento per visitare l'appartamento?",
         "Vorrei prenotare un tavolo per stasera.",
         "Ho bisogno della tessera sanitaria."
       ],
       "correctAnswer": 0,
-      "explanation": "'Fissare un appuntamento' = призначити зустріч/візит."
+      "explanation": {
+        "uk": "'Fissare un appuntamento' = призначити зустріч/візит.",
+        "en": "'Fissare un appuntamento' = to make an appointment / visit.",
+        "es": "'Fissare un appuntamento' = fijar una cita/visita.",
+        "fr": "« Fissare un appuntamento » = prendre rendez-vous / une visite.",
+        "ro": "«Fissare un appuntamento» = a programa o întâlnire/vizită."
+      }
     },
     {
       "id": "p5",
-      "question": "Що означає термін 'Bilocale' в оголошеннях про нерухомість?",
+      "question": {
+        "uk": "Що означає термін 'Bilocale' в оголошеннях про нерухомість?",
+        "en": "What does the term 'Bilocale' mean in property listings?",
+        "es": "¿Qué significa 'Bilocale' en anuncios inmobiliarios?",
+        "fr": "Que signifie « Bilocale » dans les annonces immobilières ?",
+        "ro": "Ce înseamnă termenul «Bilocale» în anunțurile imobiliare?"
+      },
       "options": [
         "Двокімнатна квартира (спальня + вітальня/кухня).",
         "Двоповерховий приватний будинок.",
         "Кімната на двох осіб у гуртожитку."
       ],
       "correctAnswer": 0,
-      "explanation": "'Bilocale' = двокімнатне житло."
+      "explanation": {
+        "uk": "'Bilocale' = двокімнатне житло.",
+        "en": "'Bilocale' = a two-room dwelling.",
+        "es": "'Bilocale' = vivienda de dos estancias.",
+        "fr": "« Bilocale » = logement de deux pièces.",
+        "ro": "«Bilocale» = locuință cu două camere."
+      }
     }
   ],
-  "successBadge": "Esperto di Casa 🔑",
-  "successMessage": "Вітаємо! Ви вільно орієнтуєтеся в термінах оренди житла в Італії, розумієте розрахунок кондомініуму та вмієте домовлятися про огляд!"
+  "successBadge": {
+    "uk": "Експерт з житла 🔑",
+    "en": "Housing expert 🔑",
+    "es": "Experto en vivienda 🔑",
+    "fr": "Expert logement 🔑",
+    "ro": "Expert în locuință 🔑"
+  },
+  "successMessage": {
+    "uk": "Вітаємо! Ви вільно орієнтуєтеся в термінах оренди житла в Італії, розумієте розрахунок кондомініуму та вмієте домовлятися про огляд!",
+    "en": "Congratulations! You know Italian rental terms, understand condominium charges and can arrange a viewing!",
+    "es": "¡Enhorabuena! Te orientas en los términos de alquiler en Italia, entiendes los gastos de comunidad y sabes concertar una visita.",
+    "fr": "Félicitations ! Vous maîtrisez les termes de location en Italie, comprenez les charges de copropriété et savez convenir d’une visite !",
+    "ro": "Felicitări! Vă orientați în termenii de închiriere din Italia, înțelegeți calculul condominiului și știți să conveniți o vizionare!"
+  }
 }

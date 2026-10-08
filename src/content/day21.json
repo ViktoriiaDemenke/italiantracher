@@ -1,66 +1,156 @@
 {
   "day": 21,
-  "title": "Boss Level 🏆: Симуляція замовлення в італійському барі",
+  "title": {
+    "uk": "Boss Level 🏆: Симуляція замовлення в італійському барі",
+    "en": "Boss Level 🏆: Simulation of ordering in an Italian bar",
+    "es": "Boss Level 🏆: Simulación de un pedido en un bar italiano",
+    "fr": "Boss Level 🏆 : Simulation d’une commande dans un bar italien",
+    "ro": "Boss Level 🏆: Simulare de comandă într-un bar italian"
+  },
   "module": "Il Bar Italiano e il Caffè",
-  "type": "Boss Level Simulation",
-  "story": "Фінальний іспит модуля! Ви самостійно замовляєте каву та випічку, спілкуєтеся з касиром та бариста біля стійки. Підказки та переклад вимкнено!",
+  "type": {
+    "uk": "Симуляція бос-рівня",
+    "en": "Boss Level Simulation",
+    "es": "Simulación de nivel jefe",
+    "fr": "Simulation Boss Level",
+    "ro": "Simulare nivel boss"
+  },
+  "story": {
+    "uk": "Фінальний іспит модуля! Ви самостійно замовляєте каву та випічку, спілкуєтеся з касиром та бариста біля стійки. Підказки та переклад вимкнено!",
+    "en": "Final exam of the module! You order coffee and pastry yourself and talk to the cashier and barista at the counter. Hints and translation are off!",
+    "es": "¡Examen final del módulo! Pides café y bollería por tu cuenta y hablas con el cajero y el barista en la barra. ¡Pistas y traducción desactivadas!",
+    "fr": "Examen final du module ! Vous commandez café et viennoiserie seul et parlez au caissier et au barista au comptoir. Indices et traduction désactivés !",
+    "ro": "Examenul final al modulului! Comanzi singur cafea și patiserie și vorbești cu casierul și barista la tejghea. Indiciile și traducerea sunt dezactivate!"
+  },
   "questions": [
     {
       "id": "p1",
-      "question": "Чому пити каву біля стійки (al banco) зазвичай дешевше, ніж за столиком (al tavolo)?",
+      "question": {
+        "uk": "Чому пити каву біля стійки (al banco) зазвичай дешевше, ніж за столиком (al tavolo)?",
+        "en": "Why is coffee at the counter (al banco) usually cheaper than at a table (al tavolo)?",
+        "es": "¿Por qué beber café en la barra (al banco) suele ser más barato que en mesa (al tavolo)?",
+        "fr": "Pourquoi le café au comptoir (al banco) est-il généralement moins cher qu’à table (al tavolo) ?",
+        "ro": "De ce cafeaua la tejghea (al banco) e de obicei mai ieftină decât la masă (al tavolo)?"
+      },
       "options": [
         "Тому що за столиком ви сплачуєте додатковий збір за обслуговування (servizio).",
         "Тому що біля стійки подають меншу порцію кави.",
         "Тому що за столиком кава завжди холодніша."
       ],
       "correctAnswer": 0,
-      "explanation": "Обслуговування за столиком включає надбавку 'servizio al tavolo'."
+      "explanation": {
+        "uk": "Обслуговування за столиком включає надбавку 'servizio al tavolo'.",
+        "en": "Table service includes a surcharge called 'servizio al tavolo'.",
+        "es": "El servicio en mesa incluye un recargo 'servizio al tavolo'.",
+        "fr": "Le service à table inclut un supplément 'servizio al tavolo'.",
+        "ro": "Serviciul la masă include un adaos 'servizio al tavolo'."
+      }
     },
     {
       "id": "p2",
-      "question": "Що таке 'Caffè Macchiato'?",
+      "question": {
+        "uk": "Що таке 'Caffè Macchiato'?",
+        "en": "What is a 'Caffè Macchiato'?",
+        "es": "¿Qué es un 'Caffè Macchiato'?",
+        "fr": "Qu’est-ce qu’un 'Caffè Macchiato' ?",
+        "ro": "Ce este un 'Caffè Macchiato'?"
+      },
       "options": [
         "Еспресо з додаванням невеликої кількості збитого молока.",
         "Велика склянка гарячого молока без кави.",
         "Холодний кавовий коктейль із лікером."
       ],
       "correctAnswer": 0,
-      "explanation": "'Macchiato' означає 'плямистий' — еспресо з краплею молока."
+      "explanation": {
+        "uk": "'Macchiato' означає 'плямистий' — еспресо з краплею молока.",
+        "en": "'Macchiato' means “stained” — espresso with a drop of milk.",
+        "es": "'Macchiato' significa «manchado»: un espresso con una gota de leche.",
+        "fr": "'Macchiato' signifie « taché » : un espresso avec une goutte de lait.",
+        "ro": "'Macchiato' înseamnă «pătat» — espresso cu o picătură de lapte."
+      }
     },
     {
       "id": "p3",
-      "question": "Як попросити круасан із шоколадом італійською?",
+      "question": {
+        "uk": "Як попросити круасан із шоколадом італійською?",
+        "en": "How do you ask for a chocolate croissant in Italian?",
+        "es": "¿Cómo se pide un cruasán de chocolate en italiano?",
+        "fr": "Comment demander un croissant au chocolat en italien ?",
+        "ro": "Cum ceri un croissant cu ciocolată în italiană?"
+      },
       "options": [
         "Un cornetto / una brioche al cioccolato.",
         "Un bollettino postale.",
         "Un'acqua frizzante senza bicchiere."
       ],
       "correctAnswer": 0,
-      "explanation": "'Cornetto al cioccolato' = круасан із шоколадом."
+      "explanation": {
+        "uk": "'Cornetto al cioccolato' = круасан із шоколадом.",
+        "en": "'Cornetto al cioccolato' = croissant with chocolate.",
+        "es": "'Cornetto al cioccolato' = cruasán de chocolate.",
+        "fr": "'Cornetto al cioccolato' = croissant au chocolat.",
+        "ro": "'Cornetto al cioccolato' = croissant cu ciocolată."
+      }
     },
     {
       "id": "p4",
-      "question": "Що потрібно зробити з чеком (scontrino) біля стійки бариста?",
+      "question": {
+        "uk": "Що потрібно зробити з чеком (scontrino) біля стійки бариста?",
+        "en": "What should you do with the receipt (scontrino) at the barista’s counter?",
+        "es": "¿Qué hay que hacer con el ticket (scontrino) en la barra del barista?",
+        "fr": "Que faut-il faire du ticket (scontrino) au comptoir du barista ?",
+        "ro": "Ce trebuie să faci cu bonul (scontrino) la tejgheaua barista-ului?"
+      },
       "options": [
         "Покласти його на стійку (lasciare al banco), щоб бариста бачив замовлення.",
         "Сховати у гаманець і нікому не показувати.",
         "Віддати іншому покупцю."
       ],
       "correctAnswer": 0,
-      "explanation": "Чек залишають на стійці як підтвердження оплати."
+      "explanation": {
+        "uk": "Чек залишають на стійці як підтвердження оплати.",
+        "en": "You leave the receipt on the counter as proof of payment.",
+        "es": "El ticket se deja en la barra como comprobante de pago.",
+        "fr": "On laisse le ticket sur le comptoir comme preuve de paiement.",
+        "ro": "Bonul se lasă pe tejghea ca dovadă a plății."
+      }
     },
     {
       "id": "p5",
-      "question": "Як ввічливо попросити склянку води до кави?",
+      "question": {
+        "uk": "Як ввічливо попросити склянку води до кави?",
+        "en": "How do you politely ask for a glass of water with your coffee?",
+        "es": "¿Cómo se pide con educación un vaso de agua con el café?",
+        "fr": "Comment demander poliment un verre d’eau avec le café ?",
+        "ro": "Cum ceri politicos un pahar de apă la cafea?"
+      },
       "options": [
         "Un bicchiere d'acqua, per favore.",
         "Vorrei fare la domanda per l'ISEE.",
         "Quanto costa l'affitto mensile?"
       ],
       "correctAnswer": 0,
-      "explanation": "'Un bicchiere d'acqua, per favore' = 'Склянку води, будь ласка'."
+      "explanation": {
+        "uk": "'Un bicchiere d'acqua, per favore' = 'Склянку води, будь ласка'.",
+        "en": "'Un bicchiere d'acqua, per favore' = 'A glass of water, please'.",
+        "es": "'Un bicchiere d'acqua, per favore' = 'Un vaso de agua, por favor'.",
+        "fr": "'Un bicchiere d'acqua, per favore' = 'Un verre d’eau, s’il vous plaît'.",
+        "ro": "'Un bicchiere d'acqua, per favore' = 'Un pahar de apă, vă rog'."
+      }
     }
   ],
-  "successBadge": "Maestro del Caffè ☕",
-  "successMessage": "Вітаємо! Ви досконало засвоїли кавову культуру Італії, вільно замовляєте сніданок біля стійки та знаєте всі тонкощі бару!"
+  "successBadge": {
+    "uk": "Майстер кави ☕",
+    "en": "Coffee maestro ☕",
+    "es": "Maestro del café ☕",
+    "fr": "Maître du café ☕",
+    "ro": "Maestru al cafelei ☕"
+  },
+  "successMessage": {
+    "uk": "Вітаємо! Ви досконало засвоїли кавову культуру Італії, вільно замовляєте сніданок біля стійки та знаєте всі тонкощі бару!",
+    "en": "Congratulations! You have mastered Italy’s coffee culture, order breakfast at the counter with ease and know the bar’s little rules!",
+    "es": "¡Enhorabuena! Has asimilado a fondo la cultura del café en Italia, pides el desayuno en la barra con soltura y conoces los matices del bar.",
+    "fr": "Félicitations ! Vous maîtrisez la culture du café en Italie, commandez le petit-déjeuner au comptoir et connaissez les subtilités du bar !",
+    "ro": "Felicitări! Ai stăpânit cultura cafelei din Italia, comanzi cu ușurință micul dejun la tejghea și cunoști nuanțele barului!"
+  }
 }

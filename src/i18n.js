@@ -1,6 +1,5 @@
 import { createContext, createElement, useCallback, useContext, useMemo, useState } from 'react'
 import ua from './locales/ua.json'
-import it from './locales/it.json'
 import en from './locales/en.json'
 import es from './locales/es.json'
 import ro from './locales/ro.json'
@@ -11,14 +10,14 @@ export const THEME_KEY = 'italian_tracker_theme_v1'
 
 export const LOCALES = [
   { id: 'ua', label: 'UA' },
-  { id: 'it', label: 'IT' },
   { id: 'en', label: 'EN' },
   { id: 'es', label: 'ES' },
   { id: 'ro', label: 'RO' },
   { id: 'fr', label: 'FR' },
 ]
 
-const DICTS = { ua, it, en, es, ro, fr }
+const DICTS = { ua, en, es, ro, fr }
+const UI_LOCALE_IDS = new Set(LOCALES.map((item) => item.id))
 
 function lookup(dict, path) {
   return path.split('.').reduce((node, key) => node?.[key], dict)
@@ -38,7 +37,6 @@ export function detectBrowserLocale() {
   for (const raw of candidates) {
     const tag = String(raw || '').toLowerCase()
     if (tag.startsWith('uk') || tag.startsWith('ua')) return 'ua'
-    if (tag.startsWith('it')) return 'it'
     if (tag.startsWith('en')) return 'en'
     if (tag.startsWith('es')) return 'es'
     if (tag.startsWith('ro')) return 'ro'
@@ -50,7 +48,7 @@ export function detectBrowserLocale() {
 export function loadLocale() {
   try {
     const stored = localStorage.getItem(LOCALE_KEY)
-    if (stored && DICTS[stored]) return stored
+    if (stored && UI_LOCALE_IDS.has(stored)) return stored
   } catch {
     /* ignore */
   }
@@ -97,7 +95,7 @@ export function PrefsProvider({ children }) {
   })
 
   const setLocale = useCallback((next) => {
-    if (!DICTS[next]) return
+    if (!UI_LOCALE_IDS.has(next)) return
     setLocaleState(next)
     localStorage.setItem(LOCALE_KEY, next)
   }, [])

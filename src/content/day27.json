@@ -1,66 +1,156 @@
 {
   "day": 27,
-  "title": "Boss Level 🏆: Симуляція поїздки громадським транспортом",
+  "title": {
+    "uk": "Boss Level 🏆: Симуляція поїздки громадським транспортом",
+    "en": "Boss Level 🏆: Simulation of a public transport trip",
+    "es": "Boss Level 🏆: Simulación de un viaje en transporte público",
+    "fr": "Boss Level 🏆 : Simulation d’un trajet en transports en commun",
+    "ro": "Boss Level 🏆: Simulare de călătorie cu transportul public"
+  },
   "module": "Trasporto Pubblico e Biglietti",
-  "type": "Boss Level Simulation",
-  "story": "Фінальний іспит модуля! Ви самостійно купуєте квитки, орієнтуєтеся на вокзалі, перевіряєте колію та спілкуєтеся з контролером. Підказки та переклад вимкнено!",
+  "type": {
+    "uk": "Симуляція бос-рівня",
+    "en": "Boss Level Simulation",
+    "es": "Simulación de nivel jefe",
+    "fr": "Simulation Boss Level",
+    "ro": "Simulare nivel boss"
+  },
+  "story": {
+    "uk": "Фінальний іспит модуля! Ви самостійно купуєте квитки, орієнтуєтеся на вокзалі, перевіряєте колію та спілкуєтеся з контролером. Підказки та переклад вимкнено!",
+    "en": "Final exam of the module! You buy tickets yourself, find your way at the station, check the platform and talk to the inspector. Hints and translation are off!",
+    "es": "¡Examen final del módulo! Compras billetes por tu cuenta, te orientas en la estación, compruebas la vía y hablas con el revisor. ¡Pistas y traducción desactivadas!",
+    "fr": "Examen final du module ! Vous achetez les tickets seul, vous vous orientez en gare, vérifiez la voie et parlez au contrôleur. Indices et traduction désactivés !",
+    "ro": "Examenul final al modulului! Cumperi bilete singur, te orientezi în gară, verifici linia și vorbești cu controlorul. Indiciile și traducerea sunt dezactivate!"
+  },
   "questions": [
     {
       "id": "p1",
-      "question": "Де найпростіше та найдешевше купити квиток на міський автобус в Італії?",
+      "question": {
+        "uk": "Де найпростіше та найдешевше купити квиток на міський автобус в Італії?",
+        "en": "Where is it simplest and cheapest to buy a city bus ticket in Italy?",
+        "es": "¿Dónde es más fácil y barato comprar un billete de autobús urbano en Italia?",
+        "fr": "Où est-il le plus simple et le moins cher d’acheter un ticket de bus urbain en Italie ?",
+        "ro": "Unde e cel mai simplu și mai ieftin să cumperi un bilet de autobuz urban în Italia?"
+      },
       "options": [
         "У тютюновому (Tabacchi) або газетному кіоску (Edicola).",
         "У супермаркеті на касі овочів.",
         "У аптеці за рецептом."
       ],
       "correctAnswer": 0,
-      "explanation": "Кіоски Tabacchi та Edicola — основні точки продажу квитків."
+      "explanation": {
+        "uk": "Кіоски Tabacchi та Edicola — основні точки продажу квитків.",
+        "en": "Tabacchi and Edicola kiosks are the main ticket outlets.",
+        "es": "Los kioscos Tabacchi y Edicola son los principales puntos de venta de billetes.",
+        "fr": "Les kiosques Tabacchi et Edicola sont les principaux points de vente de tickets.",
+        "ro": "Chioșcurile Tabacchi și Edicola sunt principalele puncte de vânzare a biletelor."
+      }
     },
     {
       "id": "p2",
-      "question": "Що означає дієслово 'Convalidare' або 'Timbrare' у транспорті?",
+      "question": {
+        "uk": "Що означає дієслово 'Convalidare' або 'Timbrare' у транспорті?",
+        "en": "What do the verbs 'Convalidare' or 'Timbrare' mean on transport?",
+        "es": "¿Qué significan los verbos 'Convalidare' o 'Timbrare' en el transporte?",
+        "fr": "Que signifient les verbes 'Convalidare' ou 'Timbrare' dans les transports ?",
+        "ro": "Ce înseamnă verbele 'Convalidare' sau 'Timbrare' în transport?"
+      },
       "options": [
         "Прокомпостувати/завалідувати квиток у спеціальному автоматі.",
         "Попросити водія зупинити автобус.",
         "Купити новий капелюх."
       ],
       "correctAnswer": 0,
-      "explanation": "'Convalidare' / 'Timbrare' — це активація/компостування квитка."
+      "explanation": {
+        "uk": "'Convalidare' / 'Timbrare' — це активація/компостування квитка.",
+        "en": "'Convalidare' / 'Timbrare' means activating/stamping the ticket.",
+        "es": "'Convalidare' / 'Timbrare' es activar/picar el billete.",
+        "fr": "'Convalidare' / 'Timbrare' : activer/composter le ticket.",
+        "ro": "'Convalidare' / 'Timbrare' înseamnă activarea/compostarea biletului."
+      }
     },
     {
       "id": "p3",
-      "question": "Як запитати на вокзалі 'З якої колії відправляється поїзд?'",
+      "question": {
+        "uk": "Як запитати на вокзалі 'З якої колії відправляється поїзд?'",
+        "en": "How do you ask at the station “Which platform does the train leave from?”",
+        "es": "¿Cómo se pregunta en la estación «¿De qué vía sale el tren?»",
+        "fr": "Comment demander en gare « De quelle voie part le train ? »",
+        "ro": "Cum întrebi în gară «De la ce linie pleacă trenul?»"
+      },
       "options": [
         "Da quale binario parte il treno?",
         "Quanto costa una pizza margherita?",
         "Quali documenti servono per l'ISEE?"
       ],
       "correctAnswer": 0,
-      "explanation": "'Binario' означає залізничну колію/платформу."
+      "explanation": {
+        "uk": "'Binario' означає залізничну колію/платформу.",
+        "en": "'Binario' means railway track/platform.",
+        "es": "'Binario' significa vía/andén ferroviario.",
+        "fr": "'Binario' désigne la voie/le quai ferroviaire.",
+        "ro": "'Binario' înseamnă linia/peronul feroviar."
+      }
     },
     {
       "id": "p4",
-      "question": "Що загрожує пасажиру за проїзд без прокомпостованого квитка?",
+      "question": {
+        "uk": "Що загрожує пасажиру за проїзд без прокомпостованого квитка?",
+        "en": "What happens to a passenger who travels without a stamped ticket?",
+        "es": "¿Qué le espera al pasajero que viaja sin billete picado?",
+        "fr": "Que risque un passager qui voyage sans ticket composté ?",
+        "ro": "Ce riscă pasagerul care călătorește fără bilet compostat?"
+      },
       "options": [
         "Штраф від контролера (controllore).",
         "Безкоштовна кава від водія.",
         "Знижка на наступну поїздку."
       ],
       "correctAnswer": 0,
-      "explanation": "За відсутність валідації контролер виписує грошовий штраф."
+      "explanation": {
+        "uk": "За відсутність валідації контролер виписує грошовий штраф.",
+        "en": "Without validation the inspector issues a cash fine.",
+        "es": "Por falta de validación el revisor impone una multa económica.",
+        "fr": "Sans validation, le contrôleur dresse une amende.",
+        "ro": "Pentru lipsa validării, controlorul dă o amendă bănească."
+      }
     },
     {
       "id": "p5",
-      "question": "Як перекладається слово 'Stazione'?",
+      "question": {
+        "uk": "Як перекладається слово 'Stazione'?",
+        "en": "How is the word 'Stazione' translated?",
+        "es": "¿Cómo se traduce la palabra 'Stazione'?",
+        "fr": "Comment se traduit le mot 'Stazione' ?",
+        "ro": "Cum se traduce cuvântul 'Stazione'?"
+      },
       "options": [
         "Вокзал / Станція.",
         "Зупинка таксі.",
         "Аеропорт."
       ],
       "correctAnswer": 0,
-      "explanation": "'Stazione' = залізничний або автобусний вокзал."
+      "explanation": {
+        "uk": "'Stazione' = залізничний або автобусний вокзал.",
+        "en": "'Stazione' = railway or bus station.",
+        "es": "'Stazione' = estación de tren o de autobús.",
+        "fr": "'Stazione' = gare ferroviaire ou routière.",
+        "ro": "'Stazione' = gară feroviară sau de autobuz."
+      }
     }
   ],
-  "successBadge": "Viaggiatore Esperto 🚆",
-  "successMessage": "Вітаємо! Ви вільно володієте всією лексикою громадського транспорту в Італії, легко купуєте квитки та орієнтуєтеся на вокзалах!"
+  "successBadge": {
+    "uk": "Досвідчений мандрівник 🚆",
+    "en": "Seasoned traveller 🚆",
+    "es": "Viajero experto 🚆",
+    "fr": "Voyageur expert 🚆",
+    "ro": "Călător experimentat 🚆"
+  },
+  "successMessage": {
+    "uk": "Вітаємо! Ви вільно володієте всією лексикою громадського транспорту в Італії, легко купуєте квитки та орієнтуєтеся на вокзалах!",
+    "en": "Congratulations! You know Italian public-transport vocabulary, buy tickets easily and find your way in stations!",
+    "es": "¡Enhorabuena! Dominas el léxico del transporte público en Italia, compras billetes con facilidad y te orientas en las estaciones.",
+    "fr": "Félicitations ! Vous maîtrisez le lexique des transports en Italie, achetez des tickets facilement et vous orientez en gare !",
+    "ro": "Felicitări! Stăpânești lexicul transportului public din Italia, cumperi bilete cu ușurință și te orientezi în gări!"
+  }
 }

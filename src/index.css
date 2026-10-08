@@ -44,23 +44,23 @@
   --bg: #f3f5f8;
   --card: #ffffff;
   --card-elevated: #eef1f5;
-  --border: #d5dbe3;
+  --border: #b4becb;
   --text: #12181f;
-  --muted: #5b6573;
+  --muted: #3a4452;
   --primary: #d97706;
   --primary-hover: #f59e0b;
   --primary-active: #b45309;
   --on-primary: #ffffff;
   --badge-bg: #fef3c7;
   --badge-text: #92400e;
-  --success: #166534;
+  --success: #14532d;
   --success-bg: #dcfce7;
-  --success-border: #16a34a;
+  --success-border: #15803d;
   --danger: #991b1b;
   --danger-bg: #fee2e2;
   --danger-border: #dc2626;
   --overlay: rgba(18, 24, 31, 0.45);
-  --shadow: 0 8px 24px rgba(18, 24, 31, 0.12);
+  --shadow: 0 1px 2px rgba(18, 24, 31, 0.06), 0 6px 16px rgba(18, 24, 31, 0.08);
   --glow: rgba(217, 119, 6, 0.22);
 }
 
@@ -75,7 +75,9 @@ body,
 #root {
   margin: 0;
   min-height: 100%;
+  min-height: 100dvh;
   font-family: var(--font);
+  background: var(--bg);
 }
 
 body {
@@ -230,4 +232,41 @@ h3,
   background: var(--badge-bg);
   border-color: var(--badge-bg);
   color: var(--badge-text);
+}
+
+[data-theme='light'] .home__lead {
+  color: #334155;
+  font-weight: 500;
+}
+
+[data-theme='light'] .card,
+[data-theme='light'] .phrase-card,
+[data-theme='light'] .option-card,
+[data-theme='light'] .dialogue-card,
+[data-theme='light'] .quiz-card,
+[data-theme='light'] .flip-card__face,
+[data-theme='light'] .progress-overview,
+[data-theme='light'] .cultura,
+[data-theme='light'] .result-card,
+[data-theme='light'] .quiz-option {
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow);
+}
+
+[data-theme='light'] .cycle-nav__btn {
+  border: 1px solid var(--border);
+  background: var(--card);
+  box-shadow: 0 1px 2px rgba(18, 24, 31, 0.05);
+}
+
+[data-theme='light'] .cycle-nav__btn--on {
+  border-color: var(--primary);
+  box-shadow: 0 0 0 1px var(--primary);
+}
+
+[data-theme='light'] .cycle-nav__btn--locked {
+  opacity: 1;
+  color: #1e293b;
+  background: #dce2ea;
+  border-color: #64748b;
 }

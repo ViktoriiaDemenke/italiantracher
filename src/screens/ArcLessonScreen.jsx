@@ -23,30 +23,48 @@ import {
   upsertMistake,
 } from '../learn/mistakes.js'
 import { useI18n } from '../i18n.js'
+import { resolveContentText } from '../content/localize.js'
 import '../screens/HomeScreen.css'
 import './Lesson.css'
 import './Day1Screen.css'
 import '../components/Learn.css'
+
+function tipKey(item) {
+  if (typeof item === 'string') return item
+  return item?.uk || item?.en || JSON.stringify(item)
+}
+
+function TipList({ items, heading, locale }) {
+  if (!items?.length) return null
+  return (
+    <>
+      <h2 className="day__section">{heading}</h2>
+      <ul className="doc-list">
+        {items.map((item) => (
+          <li key={tipKey(item)} className="phrase-card doc-card">
+            <p className="phrase-card__it">{resolveContentText(item, locale)}</p>
+          </li>
+        ))}
+      </ul>
+    </>
+  )
+}
 
 function mergeDayPhrases(savedPhrases, lesson) {
   const others = savedPhrases.filter((item) => item.day !== lesson.day)
   const incoming = lesson.phrases.map((phrase) => ({
     id: phrase.audio_id,
     it: phrase.italian,
-    uk: phrase.ukrainian,
+    translation: phrase.translation ?? phrase.ukrainian,
+    uk: phrase.ukrainian ?? phrase.translation,
     day: lesson.day,
   }))
   return [...others, ...incoming]
 }
 
-function LessonProgress({ day, step, steps }) {
+function LessonProgress({ day }) {
   const { t } = useI18n()
   const dayPercent = Math.round((day / TOTAL_DAYS) * 100)
-  const totalSteps = Math.max(steps, 0)
-  const currentStep =
-    totalSteps > 0 ? Math.min(Math.max(step, 1), totalSteps) : 0
-  const stepPercent =
-    totalSteps > 0 ? Math.round((currentStep / totalSteps) * 100) : 0
 
   return (
     <section className="lesson-progress" aria-label={t('lessonProgress')}>
@@ -60,22 +78,6 @@ function LessonProgress({ day, step, steps }) {
       >
         <span className="progress-bar__fill" style={{ width: `${dayPercent}%` }} />
       </div>
-      {steps > 0 ? (
-        <>
-          <p className="lesson-progress__label">
-            {t('stepOf', { step: currentStep, total: steps })}
-          </p>
-          <div
-            className="progress-bar"
-            role="progressbar"
-            aria-valuemin={0}
-            aria-valuemax={100}
-            aria-valuenow={stepPercent}
-          >
-            <span className="progress-bar__fill" style={{ width: `${stepPercent}%` }} />
-          </div>
-        </>
-      ) : null}
     </section>
   )
 }
@@ -88,12 +90,12 @@ function toneClass(tone, selected) {
 }
 
 function DialogueStep({ step, boss, picked, onPick }) {
-  const { t } = useI18n()
+  const { t, locale } = useI18n()
   const [slow, setSlow] = useState(true)
   const [showUk, setShowUk] = useState(false)
   const rate = slow ? DEFAULT_SPEECH_RATE : FAST_SPEECH_RATE
   const choices = Array.isArray(step?.options) ? step.options : []
-  const lineUk = step?.translation || step?.ukrainian
+  const lineUk = resolveContentText(step?.translation ?? step?.ukrainian, locale)
 
   return (
     <article className="dialogue-card">
@@ -131,8 +133,10 @@ function DialogueStep({ step, boss, picked, onPick }) {
               <p className="option-card__text">{option.text}</p>
               <SpeakButton text={option.text} rate={rate} />
             </div>
-            {!boss && showUk && (option.translation || option.ukrainian) ? (
-              <p className="phrase-card__uk">{option.translation || option.ukrainian}</p>
+            {!boss && showUk && resolveContentText(option.translation || option.ukrainian, locale) ? (
+              <p className="phrase-card__uk">
+                {resolveContentText(option.translation || option.ukrainian, locale)}
+              </p>
             ) : null}
             <button
               className="btn-primary"
@@ -155,7 +159,7 @@ function DialogueStep({ step, boss, picked, onPick }) {
                 : 'dialogue-feedback--wrong'
           }`}
         >
-          {picked.feedback}
+          {resolveContentText(picked.feedback, locale)}
         </p>
       ) : null}
     </article>
@@ -173,7 +177,7 @@ export default function ArcLessonScreen({
   onQuizError,
   onStartNextDay,
 }) {
-  const { t } = useI18n()
+  const { t, locale } = useI18n()
   const boss = lesson.mode === 'boss'
   const hideTranslation = boss
   const quiz = lesson.questions
@@ -194,8 +198,8 @@ export default function ArcLessonScreen({
   const advanceTimer = useRef(null)
   const savedPhrases = state?.savedPhrases ?? []
   const deck = useMemo(
-    () => buildPracticeDeck(lesson).filter((card) => card.day === lesson.day),
-    [lesson],
+    () => buildPracticeDeck(lesson, locale).filter((card) => card.day === lesson.day),
+    [lesson, locale],
   )
   const miniQuestions = useMemo(
     () => buildMiniQuiz(deck, lesson.day),
@@ -313,7 +317,7 @@ export default function ArcLessonScreen({
     }
     if (picked && !boss) return
     if (isWrongChoice(option)) {
-      rememberSessionMistake(fromDialogueStep(current, lesson.day, safeIndex))
+      rememberSessionMistake(fromDialogueStep(current, lesson.day, safeIndex, locale))
     } else {
       forgetSessionMistake(`dlg-${lesson.day}-${current.step ?? safeIndex}`)
     }
@@ -333,7 +337,7 @@ export default function ArcLessonScreen({
       return
     }
     const correct = index === current.correctAnswer
-    const reviewItem = fromBossQuestion(current, lesson.day, stepIndex)
+    const reviewItem = fromBossQuestion(current, lesson.day, stepIndex, locale)
     if (!correct) {
       rememberSessionMistake(reviewItem)
       const item = {
@@ -434,10 +438,11 @@ export default function ArcLessonScreen({
         <section className="result-card">
           <span className="badge">{t('dayCompleteTitle', { day: lesson.day })}</span>
           <h1 className="day__title">
-            {lesson.successTitle || t('dayCompleteTitle', { day: lesson.day })}
+            {resolveContentText(lesson.successTitle, locale) ||
+              t('dayCompleteTitle', { day: lesson.day })}
           </h1>
-          {lesson.successMessage ? (
-            <p className="day__lead">{lesson.successMessage}</p>
+          {resolveContentText(lesson.successMessage, locale) ? (
+            <p className="day__lead">{resolveContentText(lesson.successMessage, locale)}</p>
           ) : null}
         </section>
         {nextDay ? (
@@ -463,19 +468,16 @@ export default function ArcLessonScreen({
         <button className="back-btn" type="button" onClick={onBack}>
           {t('back')}
         </button>
-        <LessonProgress
-          day={lesson.day}
-          step={flowIndex + 1}
-          steps={daySteps.length}
-        />
+        <LessonProgress day={lesson.day} />
       </header>
 
       <section className="day__hero">
         <span className="badge">
-          {lesson.type || (boss ? `День ${lesson.day} · Boss Level 🏆` : `День ${lesson.day}`)}
+          {resolveContentText(lesson.type, locale) ||
+            (boss ? `День ${lesson.day} · Boss Level 🏆` : `День ${lesson.day}`)}
         </span>
         {lesson.module ? <p className="day__lead">{lesson.module}</p> : null}
-        <h1 className="day__title">{lesson.title}</h1>
+        <h1 className="day__title">{resolveContentText(lesson.title, locale)}</h1>
         <DayStepsNav
           stages={dayStages}
           activeKind={flowKind}
@@ -489,9 +491,11 @@ export default function ArcLessonScreen({
       </section>
 
       <div id="day-step-text">
-      {lesson.story ? (
+      {resolveContentText(lesson.story, locale) ? (
         <article className="phrase-card">
-          <p className={boss ? 'phrase-card__it' : 'day__lead'}>{lesson.story}</p>
+          <p className={boss ? 'phrase-card__it' : 'day__lead'}>
+            {resolveContentText(lesson.story, locale)}
+          </p>
         </article>
       ) : null}
 
@@ -505,8 +509,10 @@ export default function ArcLessonScreen({
                   <p className="phrase-card__it">{doc.item}</p>
                   <SpeakButton text={doc.item} />
                 </div>
-                {!hideTranslation && doc.ukrainian ? (
-                  <p className="phrase-card__uk">{doc.ukrainian}</p>
+                {!hideTranslation && resolveContentText(doc.translation ?? doc.ukrainian, locale) ? (
+                  <p className="phrase-card__uk">
+                    {resolveContentText(doc.translation ?? doc.ukrainian, locale)}
+                  </p>
                 ) : null}
               </li>
             ))}
@@ -514,109 +520,14 @@ export default function ArcLessonScreen({
         </>
       ) : null}
 
-      {lesson.restaurantEtiquette?.length > 0 ? (
-        <>
-          <h2 className="day__section">{t('etiquette')}</h2>
-          <ul className="doc-list">
-            {lesson.restaurantEtiquette.map((item) => (
-              <li key={item} className="phrase-card doc-card">
-                <p className="phrase-card__it">{item}</p>
-              </li>
-            ))}
-          </ul>
-        </>
-      ) : null}
-
-      {lesson.housingNuances?.length > 0 ? (
-        <>
-          <h2 className="day__section">{t('housing')}</h2>
-          <ul className="doc-list">
-            {lesson.housingNuances.map((item) => (
-              <li key={item} className="phrase-card doc-card">
-                <p className="phrase-card__it">{item}</p>
-              </li>
-            ))}
-          </ul>
-        </>
-      ) : null}
-
-      {lesson.postOfficeTips?.length > 0 ? (
-        <>
-          <h2 className="day__section">{t('postePractice')}</h2>
-          <ul className="doc-list">
-            {lesson.postOfficeTips.map((item) => (
-              <li key={item} className="phrase-card doc-card">
-                <p className="phrase-card__it">{item}</p>
-              </li>
-            ))}
-          </ul>
-        </>
-      ) : null}
-
-      {lesson.patronatoTips?.length > 0 ? (
-        <>
-          <h2 className="day__section">{t('patronatoPractice')}</h2>
-          <ul className="doc-list">
-            {lesson.patronatoTips.map((item) => (
-              <li key={item} className="phrase-card doc-card">
-                <p className="phrase-card__it">{item}</p>
-              </li>
-            ))}
-          </ul>
-        </>
-      ) : null}
-
-      {lesson.barRules?.length > 0 ? (
-        <>
-          <h2 className="day__section">{t('barRules')}</h2>
-          <ul className="doc-list">
-            {lesson.barRules.map((item) => (
-              <li key={item} className="phrase-card doc-card">
-                <p className="phrase-card__it">{item}</p>
-              </li>
-            ))}
-          </ul>
-        </>
-      ) : null}
-
-      {lesson.supermarketEtiquette?.length > 0 ? (
-        <>
-          <h2 className="day__section">{t('shopEtiquette')}</h2>
-          <ul className="doc-list">
-            {lesson.supermarketEtiquette.map((item) => (
-              <li key={item} className="phrase-card doc-card">
-                <p className="phrase-card__it">{item}</p>
-              </li>
-            ))}
-          </ul>
-        </>
-      ) : null}
-
-      {lesson.transportTips?.length > 0 ? (
-        <>
-          <h2 className="day__section">{t('transportPractice')}</h2>
-          <ul className="doc-list">
-            {lesson.transportTips.map((item) => (
-              <li key={item} className="phrase-card doc-card">
-                <p className="phrase-card__it">{item}</p>
-              </li>
-            ))}
-          </ul>
-        </>
-      ) : null}
-
-      {lesson.beautyTips?.length > 0 ? (
-        <>
-          <h2 className="day__section">{t('salonPractice')}</h2>
-          <ul className="doc-list">
-            {lesson.beautyTips.map((item) => (
-              <li key={item} className="phrase-card doc-card">
-                <p className="phrase-card__it">{item}</p>
-              </li>
-            ))}
-          </ul>
-        </>
-      ) : null}
+      <TipList items={lesson.restaurantEtiquette} heading={t('etiquette')} locale={locale} />
+      <TipList items={lesson.housingNuances} heading={t('housing')} locale={locale} />
+      <TipList items={lesson.postOfficeTips} heading={t('postePractice')} locale={locale} />
+      <TipList items={lesson.patronatoTips} heading={t('patronatoPractice')} locale={locale} />
+      <TipList items={lesson.barRules} heading={t('barRules')} locale={locale} />
+      <TipList items={lesson.supermarketEtiquette} heading={t('shopEtiquette')} locale={locale} />
+      <TipList items={lesson.transportTips} heading={t('transportPractice')} locale={locale} />
+      <TipList items={lesson.beautyTips} heading={t('salonPractice')} locale={locale} />
 
       {lesson.phrases.length > 0 ? (
         <>
@@ -626,7 +537,11 @@ export default function ArcLessonScreen({
               <PhraseCard
                 key={phrase.audio_id}
                 hideTranslation={hideTranslation}
-                phrase={{ it: phrase.italian, uk: phrase.ukrainian }}
+                phrase={{
+                  it: phrase.italian,
+                  translation: phrase.translation ?? phrase.ukrainian,
+                  uk: phrase.ukrainian,
+                }}
               />
             ))}
           </div>
@@ -635,24 +550,27 @@ export default function ArcLessonScreen({
 
       {lesson.grammar ? (
         <>
-          <h2 className="day__section">{lesson.grammar.title}</h2>
+          <h2 className="day__section">{resolveContentText(lesson.grammar.title, locale)}</h2>
           <div className="day__phrase-list">
             {lesson.grammar.rules.map((item) => (
-              <article key={item.rule} className="phrase-card">
-                <p className="phrase-card__it">{item.rule}</p>
+              <article key={resolveContentText(item.rule, 'uk')} className="phrase-card">
+                <p className="phrase-card__it">{resolveContentText(item.rule, locale)}</p>
                 {item.examples?.map((example) => {
                   const italian =
                     typeof example === 'string' ? example : example.italian
-                  const ukrainian =
+                  const translated =
                     typeof example === 'string'
                       ? ''
-                      : example.ukrainian || example.translation || ''
+                      : resolveContentText(
+                          example.translation || example.ukrainian,
+                          locale,
+                        )
                   return (
                     <div key={italian} className="it-line">
                       <div>
                         <p className="phrase-card__it">{italian}</p>
-                        {ukrainian ? (
-                          <p className="phrase-card__uk">{ukrainian}</p>
+                        {translated ? (
+                          <p className="phrase-card__uk">{translated}</p>
                         ) : null}
                       </div>
                       <SpeakButton text={italian} />
@@ -665,7 +583,7 @@ export default function ArcLessonScreen({
         </>
       ) : null}
 
-      {!boss && lesson.culturaTip ? (
+      {!boss && resolveContentText(lesson.culturaTip, locale) ? (
         <section className="cultura">
           <button
             className="cultura__toggle"
@@ -676,7 +594,9 @@ export default function ArcLessonScreen({
             {t('cultura')}
             <span>{culturaOpen ? '−' : '+'}</span>
           </button>
-          {culturaOpen ? <p className="cultura__body">{lesson.culturaTip}</p> : null}
+          {culturaOpen ? (
+            <p className="cultura__body">{resolveContentText(lesson.culturaTip, locale)}</p>
+          ) : null}
         </section>
       ) : null}
       </div>
@@ -684,10 +604,11 @@ export default function ArcLessonScreen({
       {finished && boss ? (
         <section className="result-card">
           <span className="badge">
-            {lesson.successBadge || 'Boss Level 🏆'}
+            {resolveContentText(lesson.successBadge, locale) || 'Boss Level 🏆'}
           </span>
           <h1 className="day__title">
-            {lesson.successTitle || lesson.successMessage}
+            {resolveContentText(lesson.successTitle, locale) ||
+              resolveContentText(lesson.successMessage, locale)}
           </h1>
           <p className="result-score">{t('score')}</p>
           <p className="result-score__value">
@@ -702,7 +623,9 @@ export default function ArcLessonScreen({
             {t('simulation')} · {stepIndex + 1}/{quiz.length}
           </h2>
           <article className="dialogue-card">
-            <p className="phrase-card__it">{question.question}</p>
+            <p className="phrase-card__it">
+              {resolveContentText(question.question, locale)}
+            </p>
             <div className="dialogue-options">
               {(question.options ?? []).map((option, index) => (
                 <article key={option} className="option-card">

@@ -1,39 +1,129 @@
 {
   "day": 5,
-  "title": "Візит до ASL: Оформлення картки та вибір лікаря",
+  "title": {
+    "uk": "Візит до ASL: Оформлення картки та вибір лікаря",
+    "en": "Visit to the ASL: Card registration and choosing a doctor",
+    "es": "Visita a la ASL: Tramitar la tarjeta y elegir médico",
+    "fr": "Visite à l’ASL : Carte et choix du médecin",
+    "ro": "Vizită la ASL: Eliberarea cardului și alegerea medicului"
+  },
   "module": "Iscriversi al SSN e Medico di Base",
-  "type": "Interactive Dialogue",
-  "story": "Лаура заходить у відділення ASL і підходить до віконця (sportello). Працівниця перевіряє її документи та підтверджує право на безкоштовну реєстрацію в SSN.",
+  "type": {
+    "uk": "Інтерактивний діалог",
+    "en": "Interactive Dialogue",
+    "es": "Diálogo interactivo",
+    "fr": "Dialogue interactif",
+    "ro": "Dialog interactiv"
+  },
+  "story": {
+    "uk": "Лаура заходить у відділення ASL і підходить до віконця (sportello). Працівниця перевіряє її документи та підтверджує право на безкоштовну реєстрацію в SSN.",
+    "en": "Laura enters the ASL office and goes to the window (sportello). The clerk checks her documents and confirms her right to free enrolment in the SSN.",
+    "es": "Laura entra en la oficina de la ASL y se acerca a la ventanilla (sportello). La empleada comprueba sus documentos y confirma el derecho a la inscripción gratuita en el SSN.",
+    "fr": "Laura entre dans le service ASL et s’approche du guichet (sportello). L’employée vérifie ses documents et confirme le droit à l’inscription gratuite au SSN.",
+    "ro": "Laura intră în sediul ASL și se apropie de ghișeu (sportello). Angajata verifică documentele și confirmă dreptul la înscriere gratuită în SSN."
+  },
   "phrases": [
     {
       "italian": "Buongiorno, mi scusi. Devo iscrivermi al Servizio Sanitario Nazionale. È questo lo sportello giusto?",
-      "translation": "Доброго дня, вибачте. Мені потрібно зареєструватися в Національній службі охорони здоров'я. Це правильне віконце?",
-      "ukrainian": "Доброго дня, вибачте. Мені потрібно зареєструватися в Національній службі охорони здоров'я. Це правильне віконце?"
+      "translation": {
+        "uk": "Доброго дня, вибачте. Мені потрібно зареєструватися в Національній службі охорони здоров'я. Це правильне віконце?",
+        "en": "Good morning, excuse me. I need to register with the Servizio Sanitario Nazionale. Is this the right sportello?",
+        "es": "Buenos días, disculpe. Debo inscribirme en el Servizio Sanitario Nazionale. ¿Es este el sportello correcto?",
+        "fr": "Bonjour, excusez-moi. Je dois m'inscrire au Servizio Sanitario Nazionale. Est-ce le bon sportello ?",
+        "ro": "Bună dimineața, scuzați-mă. Trebuie să mă înscriu la Servizio Sanitario Nazionale. Acesta este sportello potrivit?"
+      },
+      "ukrainian": {
+        "uk": "Доброго дня, вибачте. Мені потрібно зареєструватися в Національній службі охорони здоров'я. Це правильне віконце?",
+        "en": "Good morning, excuse me. I need to register with the Servizio Sanitario Nazionale. Is this the right sportello?",
+        "es": "Buenos días, disculpe. Debo inscribirme en el Servizio Sanitario Nazionale. ¿Es este el sportello correcto?",
+        "fr": "Bonjour, excusez-moi. Je dois m'inscrire au Servizio Sanitario Nazionale. Est-ce le bon sportello ?",
+        "ro": "Bună dimineața, scuzați-mă. Trebuie să mă înscriu la Servizio Sanitario Nazionale. Acesta este sportello potrivit?"
+      }
     },
     {
       "italian": "Ecco il passaporto, il permesso di soggiorno, il codice fiscale e la dichiarazione di residenza.",
-      "translation": "Ось паспорт, дозвіл на проживання, податковий код і декларація про місце проживання.",
-      "ukrainian": "Ось паспорт, дозвіл на проживання, податковий код і декларація про місце проживання."
+      "translation": {
+        "uk": "Ось паспорт, дозвіл на проживання, податковий код і декларація про місце проживання.",
+        "en": "Here are the passport, the permesso di soggiorno, the codice fiscale and the dichiarazione di residenza.",
+        "es": "Aquí están el pasaporte, el permesso di soggiorno, el codice fiscale y la dichiarazione di residenza.",
+        "fr": "Voici le passeport, le permesso di soggiorno, le codice fiscale et la dichiarazione di residenza.",
+        "ro": "Iată pașaportul, permesso di soggiorno, codice fiscale și dichiarazione di residenza."
+      },
+      "ukrainian": {
+        "uk": "Ось паспорт, дозвіл на проживання, податковий код і декларація про місце проживання.",
+        "en": "Here are the passport, the permesso di soggiorno, the codice fiscale and the dichiarazione di residenza.",
+        "es": "Aquí están el pasaporte, el permesso di soggiorno, el codice fiscale y la dichiarazione di residenza.",
+        "fr": "Voici le passeport, le permesso di soggiorno, le codice fiscale et la dichiarazione di residenza.",
+        "ro": "Iată pașaportul, permesso di soggiorno, codice fiscale și dichiarazione di residenza."
+      }
     },
     {
       "italian": "No, non ancora. Come posso sceglierlo? Posso vedere la lista dei medici disponibili?",
-      "translation": "Ні, ще ні. Як я можу його обрати? Можу подивитися список доступних лікарів?",
-      "ukrainian": "Ні, ще ні. Як я можу його обрати? Можу подивитися список доступних лікарів?"
+      "translation": {
+        "uk": "Ні, ще ні. Як я можу його обрати? Можу подивитися список доступних лікарів?",
+        "en": "No, not yet. How can I choose one? May I see the list of available doctors?",
+        "es": "No, todavía no. ¿Cómo puedo elegirlo? ¿Puedo ver la lista de médicos disponibles?",
+        "fr": "Non, pas encore. Comment puis-je le choisir ? Puis-je voir la liste des médecins disponibles ?",
+        "ro": "Nu, încă nu. Cum pot să-l aleg? Pot să văd lista medicilor disponibili?"
+      },
+      "ukrainian": {
+        "uk": "Ні, ще ні. Як я можу його обрати? Можу подивитися список доступних лікарів?",
+        "en": "No, not yet. How can I choose one? May I see the list of available doctors?",
+        "es": "No, todavía no. ¿Cómo puedo elegirlo? ¿Puedo ver la lista de médicos disponibles?",
+        "fr": "Non, pas encore. Comment puis-je le choisir ? Puis-je voir la liste des médecins disponibles ?",
+        "ro": "Nu, încă nu. Cum pot să-l aleg? Pot să văd lista medicilor disponibili?"
+      }
     },
     {
       "italian": "Sì, mi sembra comodo. È vicino a casa mia, scelgo questo.",
-      "translation": "Так, мені здається зручним. Він близько від дому, обираю цього.",
-      "ukrainian": "Так, мені здається зручним. Він близько від дому, обираю цього."
+      "translation": {
+        "uk": "Так, мені здається зручним. Він близько від дому, обираю цього.",
+        "en": "Yes, it seems convenient. It's close to my home, I'll choose this one.",
+        "es": "Sí, me parece cómodo. Está cerca de mi casa, elijo este.",
+        "fr": "Oui, ça me semble pratique. C'est près de chez moi, je choisis celui-ci.",
+        "ro": "Da, mi se pare convenabil. E aproape de casă, îl aleg pe acesta."
+      },
+      "ukrainian": {
+        "uk": "Так, мені здається зручним. Він близько від дому, обираю цього.",
+        "en": "Yes, it seems convenient. It's close to my home, I'll choose this one.",
+        "es": "Sí, me parece cómodo. Está cerca de mi casa, elijo este.",
+        "fr": "Oui, ça me semble pratique. C'est près de chez moi, je choisis celui-ci.",
+        "ro": "Da, mi se pare convenabil. E aproape de casă, îl aleg pe acesta."
+      }
     },
     {
       "italian": "Grazie! E se ho un problema urgente la sera o nel fine settimana?",
-      "translation": "Дякую! А якщо в мене термінова проблема ввечері або у вихідні?",
-      "ukrainian": "Дякую! А якщо в мене термінова проблема ввечері або у вихідні?"
+      "translation": {
+        "uk": "Дякую! А якщо в мене термінова проблема ввечері або у вихідні?",
+        "en": "Thank you! And if I have an urgent problem in the evening or at the weekend?",
+        "es": "¡Gracias! ¿Y si tengo un problema urgente por la noche o el fin de semana?",
+        "fr": "Merci ! Et si j'ai un problème urgent le soir ou le week-end ?",
+        "ro": "Mulțumesc! Și dacă am o problemă urgentă seara sau în weekend?"
+      },
+      "ukrainian": {
+        "uk": "Дякую! А якщо в мене термінова проблема ввечері або у вихідні?",
+        "en": "Thank you! And if I have an urgent problem in the evening or at the weekend?",
+        "es": "¡Gracias! ¿Y si tengo un problema urgente por la noche o el fin de semana?",
+        "fr": "Merci ! Et si j'ai un problème urgent le soir ou le week-end ?",
+        "ro": "Mulțumesc! Și dacă am o problemă urgentă seara sau în weekend?"
+      }
     },
     {
       "italian": "Molte grazie per la spiegazione! Buona giornata.",
-      "translation": "Щиро дякую за пояснення! Гарного дня.",
-      "ukrainian": "Щиро дякую за пояснення! Гарного дня."
+      "translation": {
+        "uk": "Щиро дякую за пояснення! Гарного дня.",
+        "en": "Many thanks for the explanation! Have a good day.",
+        "es": "¡Muchas gracias por la explicación! Que tenga un buen día.",
+        "fr": "Merci beaucoup pour l'explication ! Bonne journée.",
+        "ro": "Mulțumesc frumos pentru explicație! O zi bună."
+      },
+      "ukrainian": {
+        "uk": "Щиро дякую за пояснення! Гарного дня.",
+        "en": "Many thanks for the explanation! Have a good day.",
+        "es": "¡Muchas gracias por la explicación! Que tenga un buen día.",
+        "fr": "Merci beaucoup pour l'explication ! Bonne journée.",
+        "ro": "Mulțumesc frumos pentru explicație! O zi bună."
+      }
     }
   ],
   "dialogue": [
@@ -45,23 +135,65 @@
         {
           "text": "Buongiorno, mi scusi. Devo iscrivermi al Servizio Sanitario Nazionale. È questo lo sportello giusto?",
           "isCorrect": true,
-          "translation": "Доброго дня, вибачте. Мені потрібно зареєструватися в Національній службі охорони здоров'я. Це правильне віконце?",
-          "feedback": "Чудово! Дуже ввічливий та чіткий початок розмови."
+          "translation": {
+            "uk": "Доброго дня, вибачте. Мені потрібно зареєструватися в Національній службі охорони здоров'я. Це правильне віконце?",
+            "en": "Good morning, excuse me. I need to register with the Servizio Sanitario Nazionale. Is this the right sportello?",
+            "es": "Buenos días, disculpe. Debo inscribirme en el Servizio Sanitario Nazionale. ¿Es este el sportello correcto?",
+            "fr": "Bonjour, excusez-moi. Je dois m'inscrire au Servizio Sanitario Nazionale. Est-ce le bon sportello ?",
+            "ro": "Bună dimineața, scuzați-mă. Trebuie să mă înscriu la Servizio Sanitario Nazionale. Acesta este sportello potrivit?"
+          },
+          "feedback": {
+            "uk": "Доброго дня, вибачте. Мені потрібно зареєструватися в Національній службі охорони здоров'я. Це правильне віконце?",
+            "en": "Good morning, excuse me. I need to register with the Servizio Sanitario Nazionale. Is this the right sportello?",
+            "es": "Buenos días, disculpe. Debo inscribirme en el Servizio Sanitario Nazionale. ¿Es este el sportello correcto?",
+            "fr": "Bonjour, excusez-moi. Je dois m'inscrire au Servizio Sanitario Nazionale. Est-ce le bon sportello ?",
+            "ro": "Bună dimineața, scuzați-mă. Trebuie să mă înscriu la Servizio Sanitario Nazionale. Acesta este sportello potrivit?"
+          }
         },
         {
           "text": "Scusi, sono qui per il rinnovo del passaporto. Dove faccio la coda?",
-          "translation": "Вибачте, я тут для продовження паспорта. Де черга?",
+          "translation": {
+            "uk": "Вибачте, я тут для продовження паспорта. Де черга?",
+            "en": "Excuse me, I'm here for passport renewal. Where do I queue?",
+            "es": "Disculpe, estoy aquí para la renovación del pasaporte. ¿Dónde hago cola?",
+            "fr": "Excusez-moi, je suis ici pour le renouvellement du passeport. Où dois-je faire la queue ?",
+            "ro": "Scuzați-mă, sunt aici pentru reînnoirea pașaportului. Unde stau la coadă?"
+          },
           "isCorrect": false,
-          "feedback": "Паспорт тут не продовжують. В ASL оформлюють реєстрацію в SSN і сімейного лікаря."
+          "feedback": {
+            "uk": "Вибачте, я тут для продовження паспорта. Де черга?",
+            "en": "Excuse me, I'm here for passport renewal. Where do I queue?",
+            "es": "Disculpe, estoy aquí para la renovación del pasaporte. ¿Dónde hago cola?",
+            "fr": "Excusez-moi, je suis ici pour le renouvellement du passeport. Où dois-je faire la queue ?",
+            "ro": "Scuzați-mă, sunt aici pentru reînnoirea pașaportului. Unde stau la coadă?"
+          }
         },
         {
           "text": "Ciao, voglio la tessera sanitaria subito.",
-          "translation": "Привіт, хочу tessera sanitaria негайно.",
+          "translation": {
+            "uk": "Привіт, хочу tessera sanitaria негайно.",
+            "en": "Hi, I want the tessera sanitaria right now.",
+            "es": "Hola, quiero la tessera sanitaria ahora mismo.",
+            "fr": "Salut, je veux la tessera sanitaria tout de suite.",
+            "ro": "Salut, vreau tessera sanitaria imediat."
+          },
           "isCorrect": false,
-          "feedback": "Занадто грубо. Завжди кажемо 'Buongiorno' та використовуємо 'Devo...' або 'Vorrei...'."
+          "feedback": {
+            "uk": "Привіт, хочу tessera sanitaria негайно.",
+            "en": "Hi, I want the tessera sanitaria right now.",
+            "es": "Hola, quiero la tessera sanitaria ahora mismo.",
+            "fr": "Salut, je veux la tessera sanitaria tout de suite.",
+            "ro": "Salut, vreau tessera sanitaria imediat."
+          }
         }
       ],
-      "translation": "Доброго дня. Скажіть, чим можу допомогти?"
+      "translation": {
+        "uk": "Доброго дня. Скажіть, чим можу допомогти?",
+        "en": "Good morning. Tell me, how can I help you?",
+        "es": "Buenos días. Dígame, ¿en qué puedo ayudarle?",
+        "fr": "Bonjour. Dites-moi, comment puis-je vous aider ?",
+        "ro": "Bună dimineața. Spuneți-mi, cu ce vă pot ajuta?"
+      }
     },
     {
       "step": 2,
@@ -70,24 +202,66 @@
       "options": [
         {
           "text": "Ho solo la carta d'identità.",
-          "translation": "У мене лише посвідчення особи.",
+          "translation": {
+            "uk": "У мене лише посвідчення особи.",
+            "en": "I only have the carta d'identità.",
+            "es": "Solo tengo la carta d'identità.",
+            "fr": "Je n'ai que la carta d'identità.",
+            "ro": "Am doar carta d'identità."
+          },
           "isCorrect": false,
-          "feedback": "Неповний комплект. Для первинної реєстрації в ASL обов'язково потрібен також Permesso di Soggiorno та Codice Fiscale."
+          "feedback": {
+            "uk": "У мене лише посвідчення особи.",
+            "en": "I only have the carta d'identità.",
+            "es": "Solo tengo la carta d'identità.",
+            "fr": "Je n'ai que la carta d'identità.",
+            "ro": "Am doar carta d'identità."
+          }
         },
         {
           "text": "Ecco il passaporto, il permesso di soggiorno, il codice fiscale e la dichiarazione di residenza.",
           "isCorrect": true,
-          "translation": "Ось паспорт, дозвіл на проживання, податковий код і декларація про місце проживання.",
-          "feedback": "Ідеально! Ви надали повний необхідний пакет документів."
+          "translation": {
+            "uk": "Ось паспорт, дозвіл на проживання, податковий код і декларація про місце проживання.",
+            "en": "Here are the passport, the permesso di soggiorno, the codice fiscale and the dichiarazione di residenza.",
+            "es": "Aquí están el pasaporte, el permesso di soggiorno, el codice fiscale y la dichiarazione di residenza.",
+            "fr": "Voici le passeport, le permesso di soggiorno, le codice fiscale et la dichiarazione di residenza.",
+            "ro": "Iată pașaportul, permesso di soggiorno, codice fiscale și dichiarazione di residenza."
+          },
+          "feedback": {
+            "uk": "Ось паспорт, дозвіл на проживання, податковий код і декларація про місце проживання.",
+            "en": "Here are the passport, the permesso di soggiorno, the codice fiscale and the dichiarazione di residenza.",
+            "es": "Aquí están el pasaporte, el permesso di soggiorno, el codice fiscale y la dichiarazione di residenza.",
+            "fr": "Voici le passeport, le permesso di soggiorno, le codice fiscale et la dichiarazione di residenza.",
+            "ro": "Iată pașaportul, permesso di soggiorno, codice fiscale și dichiarazione di residenza."
+          }
         },
         {
           "text": "I documenti sono a casa, li mando dopo per email.",
-          "translation": "Документи вдома, надішлю потім електронною поштою.",
+          "translation": {
+            "uk": "Документи вдома, надішлю потім електронною поштою.",
+            "en": "The documents are at home, I'll send them later by email.",
+            "es": "Los documentos están en casa, los mando después por email.",
+            "fr": "Les documents sont à la maison, je les envoie après par email.",
+            "ro": "Documentele sunt acasă, le trimit după pe email."
+          },
           "isCorrect": false,
-          "feedback": "Для реєстрації в ASL потрібні оригінали документів одразу, не пізніше поштою."
+          "feedback": {
+            "uk": "Документи вдома, надішлю потім електронною поштою.",
+            "en": "The documents are at home, I'll send them later by email.",
+            "es": "Los documentos están en casa, los mando después por email.",
+            "fr": "Les documents sont à la maison, je les envoie après par email.",
+            "ro": "Documentele sunt acasă, le trimit după pe email."
+          }
         }
       ],
-      "translation": "Так, доброго дня. Покажіть документи, будь ласка."
+      "translation": {
+        "uk": "Так, доброго дня. Покажіть документи, будь ласка.",
+        "en": "Yes, good morning. Please show me the documents.",
+        "es": "Sí, buenos días. Muéstreme los documentos, por favor.",
+        "fr": "Oui, bonjour. Montrez-moi les documents, s'il vous plaît.",
+        "ro": "Da, bună dimineața. Arătați-mi documentele, vă rog."
+      }
     },
     {
       "step": 3,
@@ -96,24 +270,66 @@
       "options": [
         {
           "text": "Sì, ho già il medico di base in Ucraina. Va bene lo stesso?",
-          "translation": "Так, у мене вже є сімейний лікар в Україні. Так теж підходить?",
+          "translation": {
+            "uk": "Так, у мене вже є сімейний лікар в Україні. Так теж підходить?",
+            "en": "Yes, I already have a medico di base in Ukraine. Is that all right anyway?",
+            "es": "Sí, ya tengo el medico di base en Ucrania. ¿Vale igual?",
+            "fr": "Oui, j'ai déjà le medico di base en Ukraine. Ça va quand même ?",
+            "ro": "Da, am deja medico di base în Ucraina. Merge și așa?"
+          },
           "isCorrect": false,
-          "feedback": "Для SSN потрібен лікар, який працює в Італії, у вашому районі ASL."
+          "feedback": {
+            "uk": "Так, у мене вже є сімейний лікар в Україні. Так теж підходить?",
+            "en": "Yes, I already have a medico di base in Ukraine. Is that all right anyway?",
+            "es": "Sí, ya tengo el medico di base en Ucrania. ¿Vale igual?",
+            "fr": "Oui, j'ai déjà le medico di base en Ukraine. Ça va quand même ?",
+            "ro": "Da, am deja medico di base în Ucraina. Merge și așa?"
+          }
         },
         {
           "text": "Sì, ho già la ricevuta dell'Anagrafe.",
-          "translation": "Так, у мене вже є квитанція з Anagrafe.",
+          "translation": {
+            "uk": "Так, у мене вже є квитанція з Anagrafe.",
+            "en": "Yes, I already have the receipt from the Anagrafe.",
+            "es": "Sí, ya tengo el recibo del Anagrafe.",
+            "fr": "Oui, j'ai déjà le reçu de l'Anagrafe.",
+            "ro": "Da, am deja chitanța de la Anagrafe."
+          },
           "isCorrect": false,
-          "feedback": "Не за адресою. Квитанція з Anagrafe — це документ про резиденцію, а не обраний сімейний лікар."
+          "feedback": {
+            "uk": "Так, у мене вже є квитанція з Anagrafe.",
+            "en": "Yes, I already have the receipt from the Anagrafe.",
+            "es": "Sí, ya tengo el recibo del Anagrafe.",
+            "fr": "Oui, j'ai déjà le reçu de l'Anagrafe.",
+            "ro": "Da, am deja chitanța de la Anagrafe."
+          }
         },
         {
           "text": "No, non ancora. Come posso sceglierlo? Posso vedere la lista dei medici disponibili?",
           "isCorrect": true,
-          "translation": "Ні, ще ні. Як я можу його обрати? Можу подивитися список доступних лікарів?",
-          "feedback": "Правильно! Ви запитуєте про список доступних лікарів у вашому районі."
+          "translation": {
+            "uk": "Ні, ще ні. Як я можу його обрати? Можу подивитися список доступних лікарів?",
+            "en": "No, not yet. How can I choose one? May I see the list of available doctors?",
+            "es": "No, todavía no. ¿Cómo puedo elegirlo? ¿Puedo ver la lista de médicos disponibles?",
+            "fr": "Non, pas encore. Comment puis-je le choisir ? Puis-je voir la liste des médecins disponibles ?",
+            "ro": "Nu, încă nu. Cum pot să-l aleg? Pot să văd lista medicilor disponibili?"
+          },
+          "feedback": {
+            "uk": "Ні, ще ні. Як я можу його обрати? Можу подивитися список доступних лікарів?",
+            "en": "No, not yet. How can I choose one? May I see the list of available doctors?",
+            "es": "No, todavía no. ¿Cómo puedo elegirlo? ¿Puedo ver la lista de médicos disponibles?",
+            "fr": "Non, pas encore. Comment puis-je le choisir ? Puis-je voir la liste des médecins disponibles ?",
+            "ro": "Nu, încă nu. Cum pot să-l aleg? Pot să văd lista medicilor disponibili?"
+          }
         }
       ],
-      "translation": "Чудово. З вашим permesso di soggiorno ви маєте право на безкоштовну реєстрацію. У вас уже є сімейний лікар?"
+      "translation": {
+        "uk": "Чудово. З вашим permesso di soggiorno ви маєте право на безкоштовну реєстрацію. У вас уже є сімейний лікар?",
+        "en": "Perfect. With your permesso di soggiorno you are entitled to free registration. Do you already have a medico di base?",
+        "es": "Perfecto. Con su permesso di soggiorno tiene derecho a la inscripción gratuita. ¿Tiene ya un medico di base?",
+        "fr": "Parfait. Avec votre permesso di soggiorno, vous avez droit à l'inscription gratuite. Avez-vous déjà un medico di base ?",
+        "ro": "Perfect. Cu permesso di soggiorno al dumneavoastră aveți dreptul la înscriere gratuită. Aveți deja un medico di base?"
+      }
     },
     {
       "step": 4,
@@ -122,24 +338,66 @@
       "options": [
         {
           "text": "Mi dia il primo della lista, non importa chi è.",
-          "translation": "Дайте першого зі списку, байдуже хто.",
+          "translation": {
+            "uk": "Дайте першого зі списку, байдуже хто.",
+            "en": "Give me the first on the list, it doesn't matter who it is.",
+            "es": "Deme el primero de la lista, no importa quién sea.",
+            "fr": "Donnez-moi le premier de la liste, peu importe qui c'est.",
+            "ro": "Dați-mi primul din listă, nu contează cine e."
+          },
           "isCorrect": false,
-          "feedback": "Краще свідомо обрати лікаря з доступних у вашому районі."
+          "feedback": {
+            "uk": "Дайте першого зі списку, байдуже хто.",
+            "en": "Give me the first on the list, it doesn't matter who it is.",
+            "es": "Deme el primero de la lista, no importa quién sea.",
+            "fr": "Donnez-moi le premier de la liste, peu importe qui c'est.",
+            "ro": "Dați-mi primul din listă, nu contează cine e."
+          }
         },
         {
           "text": "Sì, mi sembra comodo. È vicino a casa mia, scelgo questo.",
           "isCorrect": true,
-          "translation": "Так, мені здається зручним. Він близько від дому, обираю цього.",
-          "feedback": "Чудово! Ви підтвердили свій вибір."
+          "translation": {
+            "uk": "Так, мені здається зручним. Він близько від дому, обираю цього.",
+            "en": "Yes, it seems convenient. It's close to my home, I'll choose this one.",
+            "es": "Sí, me parece cómodo. Está cerca de mi casa, elijo este.",
+            "fr": "Oui, ça me semble pratique. C'est près de chez moi, je choisis celui-ci.",
+            "ro": "Da, mi se pare convenabil. E aproape de casă, îl aleg pe acesta."
+          },
+          "feedback": {
+            "uk": "Так, мені здається зручним. Він близько від дому, обираю цього.",
+            "en": "Yes, it seems convenient. It's close to my home, I'll choose this one.",
+            "es": "Sí, me parece cómodo. Está cerca de mi casa, elijo este.",
+            "fr": "Oui, ça me semble pratique. C'est près de chez moi, je choisis celui-ci.",
+            "ro": "Da, mi se pare convenabil. E aproape de casă, îl aleg pe acesta."
+          }
         },
         {
           "text": "No, preferisco un medico in un’altra città, lontano da casa.",
-          "translation": "Ні, я хочу лікаря в іншому місті, далеко від дому.",
+          "translation": {
+            "uk": "Ні, я хочу лікаря в іншому місті, далеко від дому.",
+            "en": "No, I prefer a doctor in another city, far from home.",
+            "es": "No, prefiero un médico en otra ciudad, lejos de casa.",
+            "fr": "Non, je préfère un médecin dans une autre ville, loin de chez moi.",
+            "ro": "Nu, prefer un medic în alt oraș, departe de casă."
+          },
           "isCorrect": false,
-          "feedback": "Зазвичай обирають лікаря з місцями саме у своїй зоні ASL, ближче до дому."
+          "feedback": {
+            "uk": "Ні, я хочу лікаря в іншому місті, далеко від дому.",
+            "en": "No, I prefer a doctor in another city, far from home.",
+            "es": "No, prefiero un médico en otra ciudad, lejos de casa.",
+            "fr": "Non, je préfère un médecin dans une autre ville, loin de chez moi.",
+            "ro": "Nu, prefer un medic în alt oraș, departe de casă."
+          }
         }
       ],
-      "translation": "Показую список доступних лікарів у вашому районі. Цей лікар близько від вашого дому і має місце."
+      "translation": {
+        "uk": "Показую список доступних лікарів у вашому районі. Цей лікар близько від вашого дому і має місце.",
+        "en": "I'll show you a list of available doctors in your area. This doctor is close to your home and has a place.",
+        "es": "Le muestro una lista de médicos disponibles en su zona. Este médico está cerca de su casa y tiene plaza.",
+        "fr": "Je vous montre une liste des médecins disponibles dans votre zone. Ce médecin est près de chez vous et a de la place.",
+        "ro": "Vă arăt o listă a medicilor disponibili în zona dumneavoastră. Acest medic e aproape de casa dumneavoastră și are loc."
+      }
     },
     {
       "step": 5,
@@ -149,23 +407,65 @@
         {
           "text": "Grazie! E se ho un problema urgente la sera o nel fine settimana?",
           "isCorrect": true,
-          "translation": "Дякую! А якщо в мене термінова проблема ввечері або у вихідні?",
-          "feedback": "Дуже практичне запитання щодо чергової медичної служби!"
+          "translation": {
+            "uk": "Дякую! А якщо в мене термінова проблема ввечері або у вихідні?",
+            "en": "Thank you! And if I have an urgent problem in the evening or at the weekend?",
+            "es": "¡Gracias! ¿Y si tengo un problema urgente por la noche o el fin de semana?",
+            "fr": "Merci ! Et si j'ai un problème urgent le soir ou le week-end ?",
+            "ro": "Mulțumesc! Și dacă am o problemă urgentă seara sau în weekend?"
+          },
+          "feedback": {
+            "uk": "Дякую! А якщо в мене термінова проблема ввечері або у вихідні?",
+            "en": "Thank you! And if I have an urgent problem in the evening or at the weekend?",
+            "es": "¡Gracias! ¿Y si tengo un problema urgente por la noche o el fin de semana?",
+            "fr": "Merci ! Et si j'ai un problème urgent le soir ou le week-end ?",
+            "ro": "Mulțumesc! Și dacă am o problemă urgentă seara sau în weekend?"
+          }
         },
         {
           "text": "Devo pagare duecento euro per la tessera, vero?",
-          "translation": "Я маю заплатити двісті євро за картку, так?",
+          "translation": {
+            "uk": "Я маю заплатити двісті євро за картку, так?",
+            "en": "I have to pay two hundred euros for the card, right?",
+            "es": "Debo pagar doscientos euros por la tarjeta, ¿verdad?",
+            "fr": "Je dois payer deux cents euros pour la carte, n'est-ce pas ?",
+            "ro": "Trebuie să plătesc două sute de euro pentru card, nu-i așa?"
+          },
           "isCorrect": false,
-          "feedback": "З permesso di soggiorno реєстрація в SSN для цього випадку безкоштовна."
+          "feedback": {
+            "uk": "Я маю заплатити двісті євро за картку, так?",
+            "en": "I have to pay two hundred euros for the card, right?",
+            "es": "Debo pagar doscientos euros por la tarjeta, ¿verdad?",
+            "fr": "Je dois payer deux cents euros pour la carte, n'est-ce pas ?",
+            "ro": "Trebuie să plătesc două sute de euro pentru card, nu-i așa?"
+          }
         },
         {
           "text": "La tessera definitiva arriva oggi, la aspetto qui tre ore.",
-          "translation": "Остаточна картка прийде сьогодні, почекаю тут три години.",
+          "translation": {
+            "uk": "Остаточна картка прийде сьогодні, почекаю тут три години.",
+            "en": "The definitive card arrives today, I'll wait here for three hours.",
+            "es": "La tarjeta definitiva llega hoy, la espero aquí tres horas.",
+            "fr": "La carte définitive arrive aujourd'hui, je l'attends ici trois heures.",
+            "ro": "Cardul definitiv sosește azi, îl aștept aici trei ore."
+          },
           "isCorrect": false,
-          "feedback": "Сьогодні видають тимчасову картку; пластикову надсилають пізніше."
+          "feedback": {
+            "uk": "Остаточна картка прийде сьогодні, почекаю тут три години.",
+            "en": "The definitive card arrives today, I'll wait here for three hours.",
+            "es": "La tarjeta definitiva llega hoy, la espero aquí tres horas.",
+            "fr": "La carte définitive arrive aujourd'hui, je l'attends ici trois heures.",
+            "ro": "Cardul definitiv sosește azi, îl aștept aici trei ore."
+          }
         }
       ],
-      "translation": "Чудово, зараз зареєструю. Ось ваша тимчасова медична картка."
+      "translation": {
+        "uk": "Чудово, зараз зареєструю. Ось ваша тимчасова медична картка.",
+        "en": "Perfect, I'll register it right away. Here is your temporary tessera sanitaria.",
+        "es": "Perfecto, lo registro ahora mismo. Aquí tiene su tessera sanitaria provisional.",
+        "fr": "Parfait, je l'enregistre tout de suite. Voici votre tessera sanitaria provisoire.",
+        "ro": "Perfect, îl înregistrez imediat. Iată tessera sanitaria provizorie."
+      }
     },
     {
       "step": 6,
@@ -174,25 +474,73 @@
       "options": [
         {
           "text": "Allora vado sempre al pronto soccorso anche per un raffreddore.",
-          "translation": "Тоді завжди йду в pronto soccorso навіть із застудою.",
+          "translation": {
+            "uk": "Тоді завжди йду в pronto soccorso навіть із застудою.",
+            "en": "Then I always go to the pronto soccorso even for a cold.",
+            "es": "Entonces voy siempre al pronto soccorso incluso por un resfriado.",
+            "fr": "Alors je vais toujours au pronto soccorso même pour un rhume.",
+            "ro": "Atunci merg mereu la pronto soccorso chiar și pentru o răceală."
+          },
           "isCorrect": false,
-          "feedback": "Pronto soccorso — для важких випадків. Для звичайних — сімейний лікар або guardia medica."
+          "feedback": {
+            "uk": "Тоді завжди йду в pronto soccorso навіть із застудою.",
+            "en": "Then I always go to the pronto soccorso even for a cold.",
+            "es": "Entonces voy siempre al pronto soccorso incluso por un resfriado.",
+            "fr": "Alors je vais toujours au pronto soccorso même pour un rhume.",
+            "ro": "Atunci merg mereu la pronto soccorso chiar și pentru o răceală."
+          }
         },
         {
           "text": "La guardia medica è solo per i turisti, vero?",
-          "translation": "Guardia medica лише для туристів, так?",
+          "translation": {
+            "uk": "Guardia medica лише для туристів, так?",
+            "en": "The guardia medica is only for tourists, right?",
+            "es": "La guardia medica es solo para turistas, ¿verdad?",
+            "fr": "La guardia medica est seulement pour les touristes, n'est-ce pas ?",
+            "ro": "Guardia medica e doar pentru turiști, nu-i așa?"
+          },
           "isCorrect": false,
-          "feedback": "Guardia medica — нічна/вихідна допомога для жителів, не лише для туристів."
+          "feedback": {
+            "uk": "Guardia medica лише для туристів, так?",
+            "en": "The guardia medica is only for tourists, right?",
+            "es": "La guardia medica es solo para turistas, ¿verdad?",
+            "fr": "La guardia medica est seulement pour les touristes, n'est-ce pas ?",
+            "ro": "Guardia medica e doar pentru turiști, nu-i așa?"
+          }
         },
         {
           "text": "Molte grazie per la spiegazione! Buona giornata.",
           "isCorrect": true,
-          "translation": "Щиро дякую за пояснення! Гарного дня.",
-          "feedback": "Чудовий фінал розмови!"
+          "translation": {
+            "uk": "Щиро дякую за пояснення! Гарного дня.",
+            "en": "Many thanks for the explanation! Have a good day.",
+            "es": "¡Muchas gracias por la explicación! Que tenga un buen día.",
+            "fr": "Merci beaucoup pour l'explication ! Bonne journée.",
+            "ro": "Mulțumesc frumos pentru explicație! O zi bună."
+          },
+          "feedback": {
+            "uk": "Щиро дякую за пояснення! Гарного дня.",
+            "en": "Many thanks for the explanation! Have a good day.",
+            "es": "¡Muchas gracias por la explicación! Que tenga un buen día.",
+            "fr": "Merci beaucoup pour l'explication ! Bonne journée.",
+            "ro": "Mulțumesc frumos pentru explicație! O zi bună."
+          }
         }
       ],
-      "translation": "Для вечірніх і святкових невідкладних випадків є guardia medica. Для важких — pronto soccorso, відкритий цілодобово."
+      "translation": {
+        "uk": "Для вечірніх і святкових невідкладних випадків є guardia medica. Для важких — pronto soccorso, відкритий цілодобово.",
+        "en": "For evening and holiday urgencies there is the guardia medica. For serious emergencies there is the pronto soccorso, open 24 hours a day.",
+        "es": "Para las urgencias nocturnas y festivas está la guardia medica. Para las emergencias graves está el pronto soccorso, abierto las 24 horas.",
+        "fr": "Pour les urgences du soir et les jours fériés, il y a la guardia medica. Pour les urgences graves, il y a le pronto soccorso, ouvert 24 heures sur 24.",
+        "ro": "Pentru urgențe seara și în sărbători există guardia medica. Pentru urgențe grave există pronto soccorso, deschis 24 de ore din 24."
+      }
     }
   ],
-  "culturaTip": "Пам'ятайте різницю: Guardia Medica працює вночі та у вихідні дні для невідкладних побутових випадків. Pronto Soccorso — це цілодобова швидка/приймальне відділення для важких та загрозливих ситуацій."
+  "culturaTip": {
+    "uk": "Пам'ятайте різницю: Guardia Medica працює вночі та у вихідні дні для невідкладних побутових випадків. Pronto Soccorso — це цілодобова швидка/приймальне відділення для важких та загрозливих ситуацій.",
+    "en": "Remember the difference: Guardia Medica works at night and on weekends for urgent everyday cases. Pronto Soccorso is the 24/7 emergency / A&E for serious and life-threatening situations.",
+    "es": "Recuerda la diferencia: Guardia Medica trabaja de noche y los fines de semana para urgencias cotidianas. Pronto Soccorso es urgencias 24/7 para situaciones graves y de riesgo.",
+    "fr": "Rappelez-vous la différence : Guardia Medica fonctionne la nuit et le week-end pour les urgences du quotidien. Pronto Soccorso, c’est les urgences 24/7 pour les cas graves et vitaux.",
+    "ro": "Rețineți diferența: Guardia Medica lucrează noaptea și în weekend pentru urgențe casnice. Pronto Soccorso este urgența 24/7 pentru situații grave și care pun viața în pericol."
+  }
 }

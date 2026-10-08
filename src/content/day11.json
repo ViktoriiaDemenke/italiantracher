@@ -1,9 +1,27 @@
 {
   "day": 11,
-  "title": "Живий діалог: Дзвінок орендодавцю та узгодження умов",
+  "title": {
+    "uk": "Живий діалог: Дзвінок орендодавцю та узгодження умов",
+    "en": "Live dialogue: Calling the landlord and agreeing terms",
+    "es": "Diálogo en vivo: Llamada al casero y acuerdo de condiciones",
+    "fr": "Dialogue vivant : Appel au propriétaire et accord",
+    "ro": "Dialog viu: Apel la proprietar și acordarea condițiilor"
+  },
   "module": "La Casa: Affitto e Condominio",
-  "type": "Interactive Dialogue",
-  "story": "Лаура телефонує власнику квартири — синьйору Маріо (Signor Mario), щоб розпитати про деталі оголошення та домовитися про огляд житла.",
+  "type": {
+    "uk": "Інтерактивний діалог",
+    "en": "Interactive Dialogue",
+    "es": "Diálogo interactivo",
+    "fr": "Dialogue interactif",
+    "ro": "Dialog interactiv"
+  },
+  "story": {
+    "uk": "Лаура телефонує власнику квартири — синьйору Маріо (Signor Mario), щоб розпитати про деталі оголошення та домовитися про огляд житла.",
+    "en": "Laura calls the apartment owner — Signor Mario — to ask about the listing details and arrange a viewing.",
+    "es": "Laura llama al dueño del piso — Signor Mario — para preguntar detalles del anuncio y concertar una visita.",
+    "fr": "Laura appelle le propriétaire — Signor Mario — pour les détails de l’annonce et convenir d’une visite.",
+    "ro": "Laura sună proprietarul — Signor Mario — ca să întrebe detaliile anunțului și să convină o vizionare."
+  },
   "dialogue": [
     {
       "step": 1,
@@ -12,24 +30,66 @@
       "options": [
         {
           "text": "Buongiorno Signor Mario, sono Laura. Chiamo per l'annuncio dell'appartamento in affitto. È ancora disponibile?",
-          "translation": "Доброго дня, синьйоре Маріо, я Лаура. Дзвоню щодо оголошення про квартиру в оренду. Вона ще вільна?",
+          "translation": {
+            "uk": "Доброго дня, синьйоре Маріо, я Лаура. Дзвоню щодо оголошення про квартиру в оренду. Вона ще вільна?",
+            "en": "Good morning Signor Mario, this is Laura. I'm calling about the advertisement for the apartment for rent. Is it still available?",
+            "es": "Buenos días Signor Mario, soy Laura. Llamo por el anuncio del apartamento en alquiler. ¿Sigue disponible?",
+            "fr": "Bonjour Signor Mario, je suis Laura. J'appelle pour l'annonce de l'appartement en location. Est-il encore disponible ?",
+            "ro": "Bună dimineața Signor Mario, sunt Laura. Sun pentru anunțul apartamentului de închiriat. Mai este disponibil?"
+          },
           "isCorrect": true,
-          "feedback": "Чудово! Чітке та ввічливе привітання з поясненням мети дзвінка."
+          "feedback": {
+            "uk": "Доброго дня, синьйоре Маріо, я Лаура. Дзвоню щодо оголошення про квартиру в оренду. Вона ще вільна?",
+            "en": "Good morning Signor Mario, this is Laura. I'm calling about the advertisement for the apartment for rent. Is it still available?",
+            "es": "Buenos días Signor Mario, soy Laura. Llamo por el anuncio del apartamento en alquiler. ¿Sigue disponible?",
+            "fr": "Bonjour Signor Mario, je suis Laura. J'appelle pour l'annonce de l'appartement en location. Est-il encore disponible ?",
+            "ro": "Bună dimineața Signor Mario, sunt Laura. Sun pentru anunțul apartamentului de închiriat. Mai este disponibil?"
+          }
         },
         {
           "text": "Ciao Mario, voglio la tua casa. Quanto costa?",
-          "translation": "Привіт, Маріо, хочу твою квартиру. Скільки коштує?",
+          "translation": {
+            "uk": "Привіт, Маріо, хочу твою квартиру. Скільки коштує?",
+            "en": "Hi Mario, I want your house. How much does it cost?",
+            "es": "Hola Mario, quiero tu casa. ¿Cuánto cuesta?",
+            "fr": "Salut Mario, je veux ta maison. Combien ça coûte ?",
+            "ro": "Salut Mario, vreau casa ta. Cât costă?"
+          },
           "isCorrect": false,
-          "feedback": "Занадто панібратсько. З власником житла спочатку спілкуємося на 'Lei' та кажемо 'Buongiorno Signor...'."
+          "feedback": {
+            "uk": "Привіт, Маріо, хочу твою квартиру. Скільки коштує?",
+            "en": "Hi Mario, I want your house. How much does it cost?",
+            "es": "Hola Mario, quiero tu casa. ¿Cuánto cuesta?",
+            "fr": "Salut Mario, je veux ta maison. Combien ça coûte ?",
+            "ro": "Salut Mario, vreau casa ta. Cât costă?"
+          }
         },
         {
           "text": "Pronto, sono un’agenzia. Mandi le chiavi per corriere oggi.",
-          "translation": "Алло, я агенція. Надішліть ключі кур’єром сьогодні.",
+          "translation": {
+            "uk": "Алло, я агенція. Надішліть ключі кур’єром сьогодні.",
+            "en": "Hello, this is an agency. Send the keys by courier today.",
+            "es": "Diga, soy una agencia. Envíe las llaves por mensajería hoy.",
+            "fr": "Allô, je suis une agence. Envoyez les clés par coursier aujourd'hui.",
+            "ro": "Alo, sunt o agenție. Trimiteți cheile prin curier astăzi."
+          },
           "isCorrect": false,
-          "feedback": "Спочатку представитися, назвати оголошення і запитати, чи житло вільне."
+          "feedback": {
+            "uk": "Алло, я агенція. Надішліть ключі кур’єром сьогодні.",
+            "en": "Hello, this is an agency. Send the keys by courier today.",
+            "es": "Diga, soy una agencia. Envíe las llaves por mensajería hoy.",
+            "fr": "Allô, je suis une agence. Envoyez les clés par coursier aujourd'hui.",
+            "ro": "Alo, sunt o agenție. Trimiteți cheile prin curier astăzi."
+          }
         }
       ],
-      "translation": "Алло! Хто говорить?"
+      "translation": {
+        "uk": "Алло! Хто говорить?",
+        "en": "Hello! Who's speaking?",
+        "es": "¡Diga! ¿Quién habla?",
+        "fr": "Allô ! Qui est à l'appareil ?",
+        "ro": "Alo! Cine vorbește?"
+      }
     },
     {
       "step": 2,
@@ -38,24 +98,66 @@
       "options": [
         {
           "text": "Bene, vengo a dormire stasera.",
-          "translation": "Добре, приїду ночувати сьогодні ввечері.",
+          "translation": {
+            "uk": "Добре, приїду ночувати сьогодні ввечері.",
+            "en": "Fine, I'll come to sleep there tonight.",
+            "es": "Bien, vengo a dormir esta noche.",
+            "fr": "Bien, je viens dormir ce soir.",
+            "ro": "Bine, vin să dorm diseară."
+          },
           "isCorrect": false,
-          "feedback": "Занадто квапливо. Спочатку потрібно дізнатися ціну та умови оренди."
+          "feedback": {
+            "uk": "Добре, приїду ночувати сьогодні ввечері.",
+            "en": "Fine, I'll come to sleep there tonight.",
+            "es": "Bien, vengo a dormir esta noche.",
+            "fr": "Bien, je viens dormir ce soir.",
+            "ro": "Bine, vin să dorm diseară."
+          }
         },
         {
           "text": "Va bene, ma voglio un contratto solo di una settimana, in nero.",
-          "translation": "Добре, але хочу договір лише на тиждень, неофіційно.",
+          "translation": {
+            "uk": "Добре, але хочу договір лише на тиждень, неофіційно.",
+            "en": "All right, but I want a contract for one week only, off the books.",
+            "es": "Vale, pero quiero un contrato solo de una semana, en negro.",
+            "fr": "D'accord, mais je veux un contrat d'une semaine seulement, au noir.",
+            "ro": "Bine, dar vreau un contract doar de o săptămână, la negru."
+          },
           "isCorrect": false,
-          "feedback": "Потрібен офіційний договір і зрозумілі умови ціни, не «чорна» оренда."
+          "feedback": {
+            "uk": "Добре, але хочу договір лише на тиждень, неофіційно.",
+            "en": "All right, but I want a contract for one week only, off the books.",
+            "es": "Vale, pero quiero un contrato solo de una semana, en negro.",
+            "fr": "D'accord, mais je veux un contrat d'une semaine seulement, au noir.",
+            "ro": "Bine, dar vreau un contract doar de o săptămână, la negru."
+          }
         },
         {
           "text": "Perfetto! Mi dice il prezzo mensile? Le spese condominiali sono incluse nel prezzo?",
-          "translation": "Чудово! Скажіть місячну ціну? Комунальні витрати кондомініуму входять у ціну?",
+          "translation": {
+            "uk": "Чудово! Скажіть місячну ціну? Комунальні витрати кондомініуму входять у ціну?",
+            "en": "Perfect! Could you tell me the monthly price? Are the spese condominiali included in the price?",
+            "es": "¡Perfecto! ¿Me dice el precio mensual? ¿Las spese condominiali están incluidas en el precio?",
+            "fr": "Parfait ! Pouvez-vous me dire le prix mensuel ? Les spese condominiali sont-elles incluses dans le prix ?",
+            "ro": "Perfect! Îmi spuneți prețul lunar? Spese condominiali sunt incluse în preț?"
+          },
           "isCorrect": true,
-          "feedback": "Правильно! Ви одразу уточнюєте ключове питання щодо комуналки кондомініуму."
+          "feedback": {
+            "uk": "Чудово! Скажіть місячну ціну? Комунальні витрати кондомініуму входять у ціну?",
+            "en": "Perfect! Could you tell me the monthly price? Are the spese condominiali included in the price?",
+            "es": "¡Perfecto! ¿Me dice el precio mensual? ¿Las spese condominiali están incluidas en el precio?",
+            "fr": "Parfait ! Pouvez-vous me dire le prix mensuel ? Les spese condominiali sont-elles incluses dans le prix ?",
+            "ro": "Perfect! Îmi spuneți prețul lunar? Spese condominiali sunt incluse în preț?"
+          }
         }
       ],
-      "translation": "Так, доброго дня, Лауро. Квартира ще вільна. Це мебльована двокімнатна на другому поверсі з ліфтом."
+      "translation": {
+        "uk": "Так, доброго дня, Лауро. Квартира ще вільна. Це мебльована двокімнатна на другому поверсі з ліфтом.",
+        "en": "Yes, good morning Laura. The apartment is still free. It's a furnished bilocale on the second floor with a lift.",
+        "es": "Sí, buenos días Laura. El apartamento sigue libre. Es un bilocale amueblado en el segundo piso con ascensor.",
+        "fr": "Oui, bonjour Laura. L'appartement est encore libre. C'est un bilocale meublé au deuxième étage avec ascenseur.",
+        "ro": "Da, bună dimineața Laura. Apartamentul e încă liber. Este un bilocale mobilat la etajul doi, cu lift."
+      }
     },
     {
       "step": 3,
@@ -64,24 +166,66 @@
       "options": [
         {
           "text": "Ho capito. E per quanto riguarda le utenze di luce e gas, sono da volturare a mio nome?",
-          "translation": "Зрозуміла. А щодо рахунків за світло і газ — їх треба переоформити на моє ім’я?",
+          "translation": {
+            "uk": "Зрозуміла. А щодо рахунків за світло і газ — їх треба переоформити на моє ім’я?",
+            "en": "I see. And as for the electricity and gas utilities, do they need to be transferred into my name?",
+            "es": "Entendido. Y respecto a las utenze de luz y gas, ¿hay que hacer la voltura a mi nombre?",
+            "fr": "J'ai compris. Et pour ce qui est des utenze d'électricité et de gaz, faut-il les volturare à mon nom ?",
+            "ro": "Am înțeles. Iar în privința utenze de lumină și gaz, trebuie volturate pe numele meu?"
+          },
           "isCorrect": true,
-          "feedback": "Дуже грамотне запитання про переоформлення рахунків (voltura) на світло та газ!"
+          "feedback": {
+            "uk": "Зрозуміла. А щодо рахунків за світло і газ — їх треба переоформити на моє ім’я?",
+            "en": "I see. And as for the electricity and gas utilities, do they need to be transferred into my name?",
+            "es": "Entendido. Y respecto a las utenze de luz y gas, ¿hay que hacer la voltura a mi nombre?",
+            "fr": "J'ai compris. Et pour ce qui est des utenze d'électricité et de gaz, faut-il les volturare à mon nom ?",
+            "ro": "Am înțeles. Iar în privința utenze de lumină și gaz, trebuie volturate pe numele meu?"
+          }
         },
         {
           "text": "Le utenze restano a nome suo per sempre, io non firmo niente.",
-          "translation": "Комунальні рахунки назавжди залишаються на вашому імені, я нічого не підписую.",
+          "translation": {
+            "uk": "Комунальні рахунки назавжди залишаються на вашому імені, я нічого не підписую.",
+            "en": "The utility bills stay in your name forever; I won't sign anything.",
+            "es": "Las facturas de suministros quedan a su nombre para siempre, yo no firmo nada.",
+            "fr": "Les factures restent à votre nom pour toujours, je ne signe rien.",
+            "ro": "Facturile la utilități rămân pe numele dumneavoastră pentru totdeauna, eu nu semnez nimic."
+          },
           "isCorrect": false,
-          "feedback": "Світло і газ зазвичай переоформлюють (voltura) на орендаря."
+          "feedback": {
+            "uk": "Комунальні рахунки назавжди залишаються на вашому імені, я нічого не підписую.",
+            "en": "The utility bills stay in your name forever; I won't sign anything.",
+            "es": "Las facturas de suministros quedan a su nombre para siempre, yo no firmo nada.",
+            "fr": "Les factures restent à votre nom pour toujours, je ne signe rien.",
+            "ro": "Facturile la utilități rămân pe numele dumneavoastră pentru totdeauna, eu nu semnez nimic."
+          }
         },
         {
           "text": "Non voglio pagare le spese condominiali.",
-          "translation": "Я не хочу платити витрати кондомініуму.",
+          "translation": {
+            "uk": "Я не хочу платити витрати кондомініуму.",
+            "en": "I don't want to pay the condominium expenses.",
+            "es": "No quiero pagar los gastos de comunidad.",
+            "fr": "Je ne veux pas payer les charges de copropriété.",
+            "ro": "Nu vreau să plătesc cheltuielile de condominium."
+          },
           "isCorrect": false,
-          "feedback": "У багатьох будинках 'spese condominiali' є обов'язковою частиною проживання, їх не можна просто скасувати."
+          "feedback": {
+            "uk": "Я не хочу платити витрати кондомініуму.",
+            "en": "I don't want to pay the condominium expenses.",
+            "es": "No quiero pagar los gastos de comunidad.",
+            "fr": "Je ne veux pas payer les charges de copropriété.",
+            "ro": "Nu vreau să plătesc cheltuielile de condominium."
+          }
         }
       ],
-      "translation": "Оренда 650 євро на місяць. Комуналка кондомініуму — 80 євро окремо і включає воду та прибирання сходів."
+      "translation": {
+        "uk": "Оренда 650 євро на місяць. Комуналка кондомініуму — 80 євро окремо і включає воду та прибирання сходів.",
+        "en": "The rent is 650 euros a month. The spese condominiali are 80 euros extra and include water and cleaning of the stairs.",
+        "es": "El alquiler es de 650 euros al mes. Las spese condominiali son 80 euros aparte e incluyen el agua y la limpieza de las escaleras.",
+        "fr": "Le loyer est de 650 euros par mois. Les spese condominiali sont 80 euros en plus et comprennent l'eau et le nettoyage des escaliers.",
+        "ro": "Chiria este de 650 de euro pe lună. Spese condominiali sunt 80 de euro separat și includ apa și curățenia scărilor."
+      }
     },
     {
       "step": 4,
@@ -90,24 +234,66 @@
       "options": [
         {
           "text": "La caparra è gratis, vero?",
-          "translation": "Завдаток безкоштовний, так?",
+          "translation": {
+            "uk": "Завдаток безкоштовний, так?",
+            "en": "The deposit is free, right?",
+            "es": "La caparra es gratis, ¿verdad?",
+            "fr": "La caparra est gratuite, n'est-ce pas ?",
+            "ro": "Caparra e gratuită, nu-i așa?"
+          },
           "isCorrect": false,
-          "feedback": "Ні, застава (caparra) завжди сплачується заздалегідь перед заселенням."
+          "feedback": {
+            "uk": "Завдаток безкоштовний, так?",
+            "en": "The deposit is free, right?",
+            "es": "La caparra es gratis, ¿verdad?",
+            "fr": "La caparra est gratuite, n'est-ce pas ?",
+            "ro": "Caparra e gratuită, nu-i așa?"
+          }
         },
         {
           "text": "Va bene, è chiaro. Quando possiamo fissare un appuntamento per visitare l'appartamento?",
-          "translation": "Добре, зрозуміло. Коли можемо призначити зустріч, щоб подивитися квартиру?",
+          "translation": {
+            "uk": "Добре, зрозуміло. Коли можемо призначити зустріч, щоб подивитися квартиру?",
+            "en": "All right, that's clear. When can we make an appointment to view the apartment?",
+            "es": "De acuerdo, está claro. ¿Cuándo podemos concertar una cita para ver el piso?",
+            "fr": "D'accord, c'est clair. Quand pouvons-nous prendre rendez-vous pour visiter l'appartement ?",
+            "ro": "Bine, e clar. Când putem programa o întâlnire ca să vedem apartamentul?"
+          },
           "isCorrect": true,
-          "feedback": "Чудово! Ви погодили умови застави та запитуєте про огляд."
+          "feedback": {
+            "uk": "Добре, зрозуміло. Коли можемо призначити зустріч, щоб подивитися квартиру?",
+            "en": "All right, that's clear. When can we make an appointment to view the apartment?",
+            "es": "De acuerdo, está claro. ¿Cuándo podemos concertar una cita para ver el piso?",
+            "fr": "D'accord, c'est clair. Quand pouvons-nous prendre rendez-vous pour visiter l'appartement ?",
+            "ro": "Bine, e clar. Când putem programa o întâlnire ca să vedem apartamentul?"
+          }
         },
         {
           "text": "La caparra la pago dopo tre mesi, se mi piace la casa.",
-          "translation": "Завдаток заплачу через три місяці, якщо квартира сподобається.",
+          "translation": {
+            "uk": "Завдаток заплачу через три місяці, якщо квартира сподобається.",
+            "en": "I'll pay the deposit after three months, if I like the house.",
+            "es": "Pago la caparra a los tres meses, si me gusta la casa.",
+            "fr": "Je paie la caparra après trois mois, si la maison me plaît.",
+            "ro": "Plătesc caparra după trei luni, dacă îmi place casa."
+          },
           "isCorrect": false,
-          "feedback": "Caparra confirmatoria сплачують до заселення, зазвичай кілька місяців оренди."
+          "feedback": {
+            "uk": "Завдаток заплачу через три місяці, якщо квартира сподобається.",
+            "en": "I'll pay the deposit after three months, if I like the house.",
+            "es": "Pago la caparra a los tres meses, si me gusta la casa.",
+            "fr": "Je paie la caparra après trois mois, si la maison me plaît.",
+            "ro": "Plătesc caparra după trei luni, dacă îmi place casa."
+          }
         }
       ],
-      "translation": "Так, рахунки треба оформити на вас. Також просимо три місяці завдатку."
+      "translation": {
+        "uk": "Так, рахунки треба оформити на вас. Також просимо три місяці завдатку.",
+        "en": "Yes, the utilities should be put in your name. We're also asking for three months' deposit.",
+        "es": "Sí, los suministros hay que ponerlos a su nombre. Pedimos también tres mensualidades de caparra confirmatoria.",
+        "fr": "Oui, les factures doivent être à votre nom. Nous demandons aussi trois mois de caparra confirmatoria.",
+        "ro": "Da, utilitățile trebuie puse pe numele dumneavoastră. Cerem și trei luni de caparra confirmatoria."
+      }
     },
     {
       "step": 5,
@@ -116,24 +302,66 @@
       "options": [
         {
           "text": "Domani alle 17:00 è troppo presto. Vengo a mezzanotte.",
-          "translation": "Завтра о 17:00 занадто рано. Приїду опівночі.",
+          "translation": {
+            "uk": "Завтра о 17:00 занадто рано. Приїду опівночі.",
+            "en": "Tomorrow at 5:00 p.m. is too early. I'll come at midnight.",
+            "es": "Mañana a las 17:00 es demasiado pronto. Vengo a medianoche.",
+            "fr": "Demain à 17 h, c'est trop tôt. Je viens à minuit.",
+            "ro": "Mâine la 17:00 e prea devreme. Vin la miezul nopții."
+          },
           "isCorrect": false,
-          "feedback": "Потрібно підтвердити запропонований денний час огляду."
+          "feedback": {
+            "uk": "Завтра о 17:00 занадто рано. Приїду опівночі.",
+            "en": "Tomorrow at 5:00 p.m. is too early. I'll come at midnight.",
+            "es": "Mañana a las 17:00 es demasiado pronto. Vengo a medianoche.",
+            "fr": "Demain à 17 h, c'est trop tôt. Je viens à minuit.",
+            "ro": "Mâine la 17:00 e prea devreme. Vin la miezul nopții."
+          }
         },
         {
           "text": "No, vengo senza preavviso stasera tardi, suoni il citofono.",
-          "translation": "Ні, прийду без попередження сьогодні пізно, подзвоніть у домофон.",
+          "translation": {
+            "uk": "Ні, прийду без попередження сьогодні пізно, подзвоніть у домофон.",
+            "en": "No, I'll come unannounced late tonight; ring the intercom.",
+            "es": "No, vengo sin avisar esta noche tarde, toque el portero automático.",
+            "fr": "Non, je viens sans prévenir tard ce soir, sonnez à l'interphone.",
+            "ro": "Nu, vin fără anunț diseară târziu, sunați la interfon."
+          },
           "isCorrect": false,
-          "feedback": "Огляд узгоджують на конкретний час і просять точну адресу."
+          "feedback": {
+            "uk": "Ні, прийду без попередження сьогодні пізно, подзвоніть у домофон.",
+            "en": "No, I'll come unannounced late tonight; ring the intercom.",
+            "es": "No, vengo sin avisar esta noche tarde, toque el portero automático.",
+            "fr": "Non, je viens sans prévenir tard ce soir, sonnez à l'interphone.",
+            "ro": "Nu, vin fără anunț diseară târziu, sunați la interfon."
+          }
         },
         {
           "text": "Sì, perfetto! Domani alle 17:00. Mi può mandare l'indirizzo esatto via messaggio?",
-          "translation": "Так, ідеально! Завтра о 17:00. Можете надіслати точну адресу повідомленням?",
+          "translation": {
+            "uk": "Так, ідеально! Завтра о 17:00. Можете надіслати точну адресу повідомленням?",
+            "en": "Yes, perfect! Tomorrow at 5:00 p.m. Could you send me the exact address by message?",
+            "es": "¡Sí, perfecto! Mañana a las 17:00. ¿Puede enviarme la dirección exacta por mensaje?",
+            "fr": "Oui, parfait ! Demain à 17 h. Pouvez-vous m'envoyer l'adresse exacte par message ?",
+            "ro": "Da, perfect! Mâine la 17:00. Îmi puteți trimite adresa exactă prin mesaj?"
+          },
           "isCorrect": true,
-          "feedback": "Ідеально! Ви підтвердили час та попросили точну адресу."
+          "feedback": {
+            "uk": "Так, ідеально! Завтра о 17:00. Можете надіслати точну адресу повідомленням?",
+            "en": "Yes, perfect! Tomorrow at 5:00 p.m. Could you send me the exact address by message?",
+            "es": "¡Sí, perfecto! Mañana a las 17:00. ¿Puede enviarme la dirección exacta por mensaje?",
+            "fr": "Oui, parfait ! Demain à 17 h. Pouvez-vous m'envoyer l'adresse exacte par message ?",
+            "ro": "Da, perfect! Mâine la 17:00. Îmi puteți trimite adresa exactă prin mesaj?"
+          }
         }
       ],
-      "translation": "Можемо зустрітися завтра після обіду близько 17:00 біля під’їзду. Вам підходить?"
+      "translation": {
+        "uk": "Можемо зустрітися завтра після обіду близько 17:00 біля під’їзду. Вам підходить?",
+        "en": "We can meet tomorrow afternoon around 5:00 p.m. in front of the building entrance. Does that work for you?",
+        "es": "Podemos vernos mañana por la tarde hacia las 17:00 delante del portal. ¿Le va bien?",
+        "fr": "On peut se voir demain après-midi vers 17 h devant le portail. Ça vous va ?",
+        "ro": "Putem să ne vedem mâine după-amiază pe la 17:00 în fața porții. Vă convine?"
+      }
     },
     {
       "step": 6,
@@ -142,25 +370,73 @@
       "options": [
         {
           "text": "Se piove, non vengo. La chiamo tra un mese.",
-          "translation": "Якщо дощ, не прийду. Зателефоную через місяць.",
+          "translation": {
+            "uk": "Якщо дощ, не прийду. Зателефоную через місяць.",
+            "en": "If it rains, I won't come. I'll call you in a month.",
+            "es": "Si llueve, no vengo. Le llamo dentro de un mes.",
+            "fr": "S'il pleut, je ne viens pas. Je vous appelle dans un mois.",
+            "ro": "Dacă plouă, nu vin. Vă sun peste o lună."
+          },
           "isCorrect": false,
-          "feedback": "Ввічливо підтвердити «a domani», а не скасовувати без причини."
+          "feedback": {
+            "uk": "Якщо дощ, не прийду. Зателефоную через місяць.",
+            "en": "If it rains, I won't come. I'll call you in a month.",
+            "es": "Si llueve, no vengo. Le llamo dentro de un mes.",
+            "fr": "S'il pleut, je ne viens pas. Je vous appelle dans un mois.",
+            "ro": "Dacă plouă, nu vin. Vă sun peste o lună."
+          }
         },
         {
           "text": "Molte grazie Signor Mario, a domani! Buona giornata.",
-          "translation": "Щиро дякую, синьйоре Маріо, до завтра! Гарного дня.",
+          "translation": {
+            "uk": "Щиро дякую, синьйоре Маріо, до завтра! Гарного дня.",
+            "en": "Thank you very much, Mr. Mario, see you tomorrow! Have a good day.",
+            "es": "Muchas gracias, señor Mario, ¡hasta mañana! Que tenga un buen día.",
+            "fr": "Merci beaucoup Monsieur Mario, à demain ! Bonne journée.",
+            "ro": "Mulțumesc frumos, signor Mario, pe mâine! O zi bună."
+          },
           "isCorrect": true,
-          "feedback": "Ввічливий і професійний фінал розмови!"
+          "feedback": {
+            "uk": "Щиро дякую, синьйоре Маріо, до завтра! Гарного дня.",
+            "en": "Thank you very much, Mr. Mario, see you tomorrow! Have a good day.",
+            "es": "Muchas gracias, señor Mario, ¡hasta mañana! Que tenga un buen día.",
+            "fr": "Merci beaucoup Monsieur Mario, à demain ! Bonne journée.",
+            "ro": "Mulțumesc frumos, signor Mario, pe mâine! O zi bună."
+          }
         },
         {
           "text": "Ok, ma mandi anche le chiavi su WhatsApp in foto, basta così.",
-          "translation": "Ок, але надішліть ще ключі фото в WhatsApp, цього досить.",
+          "translation": {
+            "uk": "Ок, але надішліть ще ключі фото в WhatsApp, цього досить.",
+            "en": "OK, but also send photos of the keys on WhatsApp; that's enough.",
+            "es": "Vale, pero mande también las llaves en foto por WhatsApp, con eso basta.",
+            "fr": "OK, mais envoyez aussi les clés en photo sur WhatsApp, ça suffit.",
+            "ro": "Ok, dar trimiteți și cheile pe WhatsApp în poză, e de ajuns."
+          },
           "isCorrect": false,
-          "feedback": "Ключі не замінює фото. Дякують і підтверджують зустріч."
+          "feedback": {
+            "uk": "Ок, але надішліть ще ключі фото в WhatsApp, цього досить.",
+            "en": "OK, but also send photos of the keys on WhatsApp; that's enough.",
+            "es": "Vale, pero mande también las llaves en foto por WhatsApp, con eso basta.",
+            "fr": "OK, mais envoyez aussi les clés en photo sur WhatsApp, ça suffit.",
+            "ro": "Ok, dar trimiteți și cheile pe WhatsApp în poză, e de ajuns."
+          }
         }
       ],
-      "translation": "Звісно, зараз надішлю SMS з адресою. Тоді до завтра!"
+      "translation": {
+        "uk": "Звісно, зараз надішлю SMS з адресою. Тоді до завтра!",
+        "en": "Of course, I'll send you an SMS with the address right away. See you tomorrow then!",
+        "es": "Por supuesto, le envío ahora un SMS con la dirección. ¡Hasta mañana entonces!",
+        "fr": "Bien sûr, je vous envoie tout de suite un SMS avec l'adresse. À demain alors !",
+        "ro": "Desigur, vă trimit imediat un SMS cu adresa. Atunci, pe mâine!"
+      }
     }
   ],
-  "culturaTip": "Термін 'Voltura' означає переоформлення існуючих договорів на світло/газ на ваше ім'я, а 'Subentro' — нове підключення, якщо лічильники були опломбовані."
+  "culturaTip": {
+    "uk": "Термін 'Voltura' означає переоформлення існуючих договорів на світло/газ на ваше ім'я, а 'Subentro' — нове підключення, якщо лічильники були опломбовані.",
+    "en": "The term 'Voltura' means transferring existing electricity/gas contracts into your name, and 'Subentro' is a new connection if the meters were sealed.",
+    "es": "'Voltura' es el traspaso de contratos de luz/gas a tu nombre, y 'Subentro' es una nueva alta si los contadores estaban precintados.",
+    "fr": "« Voltura » signifie le transfert des contrats électricité/gaz à votre nom, et « Subentro » un nouveau raccordement si les compteurs étaient scellés.",
+    "ro": "Termenul «Voltura» înseamnă transferul contractelor de lumină/gaz pe numele vostru, iar «Subentro» e o racordare nouă dacă contoarele erau sigilate."
+  }
 }

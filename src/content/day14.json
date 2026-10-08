@@ -1,9 +1,27 @@
 {
   "day": 14,
-  "title": "Живий діалог: Оплата квитанції та відправка посилки",
+  "title": {
+    "uk": "Живий діалог: Оплата квитанції та відправка посилки",
+    "en": "Live dialogue: Paying a bill and sending a parcel",
+    "es": "Diálogo en vivo: Pagar un recibo y enviar un paquete",
+    "fr": "Dialogue vivant : Payer une quittance et envoyer un colis",
+    "ro": "Dialog viu: Plata unei chitanțe și trimiterea unui colet"
+  },
   "module": "Poste Italiane e Servizi Postali",
-  "type": "Interactive Dialogue",
-  "story": "Лаура бере талончик і підходить до віконця (sportello) після того, як її номер загорівся на табло.",
+  "type": {
+    "uk": "Інтерактивний діалог",
+    "en": "Interactive Dialogue",
+    "es": "Diálogo interactivo",
+    "fr": "Dialogue interactif",
+    "ro": "Dialog interactiv"
+  },
+  "story": {
+    "uk": "Лаура бере талончик і підходить до віконця (sportello) після того, як її номер загорівся на табло.",
+    "en": "Laura takes a ticket and goes to the window (sportello) after her number lights up on the board.",
+    "es": "Laura coge un ticket y se acerca a la ventanilla (sportello) cuando su número aparece en el tablero.",
+    "fr": "Laura prend un ticket et s’approche du guichet (sportello) quand son numéro s’affiche.",
+    "ro": "Laura ia un bilet și se apropie de ghișeu (sportello) după ce numărul ei s-a aprins pe tablou."
+  },
   "dialogue": [
     {
       "step": 1,
@@ -12,24 +30,66 @@
       "options": [
         {
           "text": "Buongiorno! Devo spedire questo pacco in Ucraina e pagare un bollettino.",
-          "translation": "Доброго дня! Мені потрібно відправити цю посилку в Україну і оплатити квитанцію.",
+          "translation": {
+            "uk": "Доброго дня! Мені потрібно відправити цю посилку в Україну і оплатити квитанцію.",
+            "en": "Good morning! I need to send this parcel to Ukraine and pay a postal slip.",
+            "es": "¡Buenos días! Tengo que enviar este paquete a Ucrania y pagar un bollettino.",
+            "fr": "Bonjour ! Je dois envoyer ce colis en Ukraine et payer un bollettino.",
+            "ro": "Bună dimineața! Trebuie să trimit acest colet în Ucraina și să plătesc un bollettino."
+          },
           "isCorrect": true,
-          "feedback": "Чудово! Ви чітко озвучили обидві мети вашого візиту."
+          "feedback": {
+            "uk": "Доброго дня! Мені потрібно відправити цю посилку в Україну і оплатити квитанцію.",
+            "en": "Good morning! I need to send this parcel to Ukraine and pay a postal slip.",
+            "es": "¡Buenos días! Tengo que enviar este paquete a Ucrania y pagar un bollettino.",
+            "fr": "Bonjour ! Je dois envoyer ce colis en Ukraine et payer un bollettino.",
+            "ro": "Bună dimineața! Trebuie să trimit acest colet în Ucraina și să plătesc un bollettino."
+          }
         },
         {
           "text": "Devo ritirare la pensione e cambiare l’ISEE, per favore.",
-          "translation": "Мені треба отримати пенсію і змінити ISEE, будь ласка.",
+          "translation": {
+            "uk": "Мені треба отримати пенсію і змінити ISEE, будь ласка.",
+            "en": "I need to collect my pension and change the ISEE, please.",
+            "es": "Tengo que cobrar la pensión y cambiar el ISEE, por favor.",
+            "fr": "Je dois retirer la pension et changer l'ISEE, s'il vous plaît.",
+            "ro": "Trebuie să ridic pensia și să schimb ISEE, vă rog."
+          },
           "isCorrect": false,
-          "feedback": "На цьому віконці — посилка і bollettino, не пенсія чи ISEE."
+          "feedback": {
+            "uk": "Мені треба отримати пенсію і змінити ISEE, будь ласка.",
+            "en": "I need to collect my pension and change the ISEE, please.",
+            "es": "Tengo que cobrar la pensión y cambiar el ISEE, por favor.",
+            "fr": "Je dois retirer la pension et changer l'ISEE, s'il vous plaît.",
+            "ro": "Trebuie să ridic pensia și să schimb ISEE, vă rog."
+          }
         },
         {
           "text": "Ciao, voglio comprare una pizza.",
-          "translation": "Привіт, хочу купити піцу.",
+          "translation": {
+            "uk": "Привіт, хочу купити піцу.",
+            "en": "Hi, I want to buy a pizza.",
+            "es": "Hola, quiero comprar una pizza.",
+            "fr": "Salut, je veux acheter une pizza.",
+            "ro": "Salut, vreau să cumpăr o pizza."
+          },
           "isCorrect": false,
-          "feedback": "Пошта не надає послуг громадського харчування."
+          "feedback": {
+            "uk": "Привіт, хочу купити піцу.",
+            "en": "Hi, I want to buy a pizza.",
+            "es": "Hola, quiero comprar una pizza.",
+            "fr": "Salut, je veux acheter une pizza.",
+            "ro": "Salut, vreau să cumpăr o pizza."
+          }
         }
       ],
-      "translation": "Доброго дня! Номер P045! Скажіть, чим можу допомогти?"
+      "translation": {
+        "uk": "Доброго дня! Номер P045! Скажіть, чим можу допомогти?",
+        "en": "Good morning! Number P045! How can I help you?",
+        "es": "¡Buenos días! ¡Número P045! Dígame, ¿en qué puedo ayudarle?",
+        "fr": "Bonjour ! Numéro P045 ! Dites-moi, comment puis-je vous aider ?",
+        "ro": "Bună dimineața! Numărul P045! Spuneți-mi, cu ce vă pot ajuta?"
+      }
     },
     {
       "step": 2,
@@ -38,24 +98,66 @@
       "options": [
         {
           "text": "Non voglio pesare il pacco.",
-          "translation": "Я не хочу зважувати посилку.",
+          "translation": {
+            "uk": "Я не хочу зважувати посилку.",
+            "en": "I don't want to weigh the parcel.",
+            "es": "No quiero pesar el paquete.",
+            "fr": "Je ne veux pas peser le colis.",
+            "ro": "Nu vreau să cântăresc coletul."
+          },
           "isCorrect": false,
-          "feedback": "Зважування посилки обов'язкове для розрахунку вартості відправки."
+          "feedback": {
+            "uk": "Я не хочу зважувати посилку.",
+            "en": "I don't want to weigh the parcel.",
+            "es": "No quiero pesar el paquete.",
+            "fr": "Je ne veux pas peser le colis.",
+            "ro": "Nu vreau să cântăresc coletul."
+          }
         },
         {
           "text": "La spedizione standard va benissimo. Quanto tempo ci vuole per la consegna?",
-          "translation": "Стандартна відправка цілком підходить. Скільки часу займе доставка?",
+          "translation": {
+            "uk": "Стандартна відправка цілком підходить. Скільки часу займе доставка?",
+            "en": "Standard shipping is fine. How long does delivery take?",
+            "es": "El envío estándar me va muy bien. ¿Cuánto tarda la entrega?",
+            "fr": "L'envoi standard convient très bien. Combien de temps faut-il pour la livraison ?",
+            "ro": "Expedierea standard e perfectă. Cât durează livrarea?"
+          },
           "isCorrect": true,
-          "feedback": "Ідеально! Ви обрали тип відправки та уточнили терміни доставки."
+          "feedback": {
+            "uk": "Стандартна відправка цілком підходить. Скільки часу займе доставка?",
+            "en": "Standard shipping is fine. How long does delivery take?",
+            "es": "El envío estándar me va muy bien. ¿Cuánto tarda la entrega?",
+            "fr": "L'envoi standard convient très bien. Combien de temps faut-il pour la livraison ?",
+            "ro": "Expedierea standard e perfectă. Cât durează livrarea?"
+          }
         },
         {
           "text": "Vorrei la spedizione più cara possibile, anche se arriva tra due mesi.",
-          "translation": "Хочу найдорожчу відправку, навіть якщо приїде через два місяці.",
+          "translation": {
+            "uk": "Хочу найдорожчу відправку, навіть якщо приїде через два місяці.",
+            "en": "I'd like the most expensive shipping possible, even if it arrives in two months.",
+            "es": "Quiero el envío más caro posible, aunque llegue dentro de dos meses.",
+            "fr": "Je voudrais l'envoi le plus cher possible, même s'il arrive dans deux mois.",
+            "ro": "Aș vrea cea mai scumpă expediere posibilă, chiar dacă ajunge peste două luni."
+          },
           "isCorrect": false,
-          "feedback": "Треба обрати standard або espressa і запитати терміни доставки."
+          "feedback": {
+            "uk": "Хочу найдорожчу відправку, навіть якщо приїде через два місяці.",
+            "en": "I'd like the most expensive shipping possible, even if it arrives in two months.",
+            "es": "Quiero el envío más caro posible, aunque llegue dentro de dos meses.",
+            "fr": "Je voudrais l'envoi le plus cher possible, même s'il arrive dans deux mois.",
+            "ro": "Aș vrea cea mai scumpă expediere posibilă, chiar dacă ajunge peste două luni."
+          }
         }
       ],
-      "translation": "Так, звісно. Покладіть посилку на ваги. Хочете стандартну чи експрес-відправку?"
+      "translation": {
+        "uk": "Так, звісно. Покладіть посилку на ваги. Хочете стандартну чи експрес-відправку?",
+        "en": "Yes, of course. Please put the parcel on the scale. Would you like standard or express shipping?",
+        "es": "Sí, claro. Ponga el paquete en la báscula. ¿Quiere envío estándar o exprés?",
+        "fr": "Oui, bien sûr. Posez le colis sur la balance. Vous voulez l'envoi standard ou express ?",
+        "ro": "Da, desigur. Puneți coletul pe cântar. Doriți expediere standard sau expres?"
+      }
     },
     {
       "step": 3,
@@ -64,24 +166,66 @@
       "options": [
         {
           "text": "Ho scritto solo il mio nome, il resto lo fate voi.",
-          "translation": "Я написав лише своє ім’я, решту зробите ви.",
+          "translation": {
+            "uk": "Я написав лише своє ім’я, решту зробите ви.",
+            "en": "I only wrote my name; you do the rest.",
+            "es": "Solo he escrito mi nombre, el resto lo hacéis vosotros.",
+            "fr": "J'ai écrit seulement mon nom, le reste c'est vous qui le faites.",
+            "ro": "Am scris doar numele meu, restul îl faceți voi."
+          },
           "isCorrect": false,
-          "feedback": "На посилці мають бути mittente і destinatario з адресою."
+          "feedback": {
+            "uk": "Я написав лише своє ім’я, решту зробите ви.",
+            "en": "I only wrote my name; you do the rest.",
+            "es": "Solo he escrito mi nombre, el resto lo hacéis vosotros.",
+            "fr": "J'ai écrit seulement mon nom, le reste c'est vous qui le faites.",
+            "ro": "Am scris doar numele meu, restul îl faceți voi."
+          }
         },
         {
           "text": "No, non conosco l'indirizzo.",
-          "translation": "Ні, я не знаю адреси.",
+          "translation": {
+            "uk": "Ні, я не знаю адреси.",
+            "en": "No, I don't know the address.",
+            "es": "No, no conozco la dirección.",
+            "fr": "Non, je ne connais pas l'adresse.",
+            "ro": "Nu, nu știu adresa."
+          },
           "isCorrect": false,
-          "feedback": "Без адреси одержувача поштову відправку оформити неможливо."
+          "feedback": {
+            "uk": "Ні, я не знаю адреси.",
+            "en": "No, I don't know the address.",
+            "es": "No, no conozco la dirección.",
+            "fr": "Non, je ne connais pas l'adresse.",
+            "ro": "Nu, nu știu adresa."
+          }
         },
         {
           "text": "Sì, ho scritto tutto sul pacco: indirizzo, mittente e destinatario.",
-          "translation": "Так, я все написав на посилці: адресу, відправника і одержувача.",
+          "translation": {
+            "uk": "Так, я все написав на посилці: адресу, відправника і одержувача.",
+            "en": "Yes, I wrote everything on the parcel: address, sender and recipient.",
+            "es": "Sí, lo he escrito todo en el paquete: dirección, remitente y destinatario.",
+            "fr": "Oui, j'ai tout écrit sur le colis : adresse, expéditeur et destinataire.",
+            "ro": "Da, am scris totul pe colet: adresa, expeditorul și destinatarul."
+          },
           "isCorrect": true,
-          "feedback": "Чудово! На посилці мають бути вказані і відправник (mittente), і одержувач (destinatario)."
+          "feedback": {
+            "uk": "Так, я все написав на посилці: адресу, відправника і одержувача.",
+            "en": "Yes, I wrote everything on the parcel: address, sender and recipient.",
+            "es": "Sí, lo he escrito todo en el paquete: dirección, remitente y destinatario.",
+            "fr": "Oui, j'ai tout écrit sur le colis : adresse, expéditeur et destinataire.",
+            "ro": "Da, am scris totul pe colet: adresa, expeditorul și destinatarul."
+          }
         }
       ],
-      "translation": "Зазвичай потрібно близько 7–10 робочих днів. Ви вже заповнили бланк з адресою одержувача?"
+      "translation": {
+        "uk": "Зазвичай потрібно близько 7–10 робочих днів. Ви вже заповнили бланк з адресою одержувача?",
+        "en": "It usually takes about 7–10 working days. Have you already filled in the form with the recipient's address?",
+        "es": "Suelen hacer falta unos 7-10 días laborables. ¿Ha rellenado ya el formulario con la dirección del destinatario?",
+        "fr": "En général il faut environ 7 à 10 jours ouvrables. Avez-vous déjà rempli le formulaire avec l'adresse du destinataire ?",
+        "ro": "De obicei durează circa 7-10 zile lucrătoare. Ați completat deja formularul cu adresa destinatarului?"
+      }
     },
     {
       "step": 4,
@@ -90,24 +234,66 @@
       "options": [
         {
           "text": "Posso pagare il bollettino senza documento, è più veloce.",
-          "translation": "Можу оплатити квитанцію без документа, так швидше.",
+          "translation": {
+            "uk": "Можу оплатити квитанцію без документа, так швидше.",
+            "en": "I can pay the slip without ID; it's faster.",
+            "es": "Puedo pagar el bollettino sin documento, es más rápido.",
+            "fr": "Je peux payer le bollettino sans pièce d'identité, c'est plus rapide.",
+            "ro": "Pot plăti bollettino fără act, e mai rapid."
+          },
           "isCorrect": false,
-          "feedback": "Для bollettino зазвичай потрібне посвідчення особи."
+          "feedback": {
+            "uk": "Можу оплатити квитанцію без документа, так швидше.",
+            "en": "I can pay the slip without ID; it's faster.",
+            "es": "Puedo pagar el bollettino sin documento, es más rápido.",
+            "fr": "Je peux payer le bollettino sans pièce d'identité, c'est plus rapide.",
+            "ro": "Pot plăti bollettino fără act, e mai rapid."
+          }
         },
         {
           "text": "Certamente, ecco la mia carta d'identità e il codice fiscale.",
-          "translation": "Звісно, ось моє посвідчення особи і код фіскале.",
+          "translation": {
+            "uk": "Звісно, ось моє посвідчення особи і код фіскале.",
+            "en": "Of course, here's my identity card and my codice fiscale.",
+            "es": "Por supuesto, aquí está mi DNI y el codice fiscale.",
+            "fr": "Bien sûr, voici ma carte d'identité et le codice fiscale.",
+            "ro": "Desigur, iată cartea mea de identitate și codice fiscale."
+          },
           "isCorrect": true,
-          "feedback": "Правильно! Ви надали потрібні документи."
+          "feedback": {
+            "uk": "Звісно, ось моє посвідчення особи і код фіскале.",
+            "en": "Of course, here's my identity card and my codice fiscale.",
+            "es": "Por supuesto, aquí está mi DNI y el codice fiscale.",
+            "fr": "Bien sûr, voici ma carte d'identité et le codice fiscale.",
+            "ro": "Desigur, iată cartea mea de identitate și codice fiscale."
+          }
         },
         {
           "text": "Ho solo la ricevuta del ristorante.",
-          "translation": "У мене лише чек із ресторану.",
+          "translation": {
+            "uk": "У мене лише чек із ресторану.",
+            "en": "I only have the restaurant receipt.",
+            "es": "Solo tengo el ticket del restaurante.",
+            "fr": "Je n'ai que le ticket du restaurant.",
+            "ro": "Am doar chitanța de la restaurant."
+          },
           "isCorrect": false,
-          "feedback": "Чек з ресторану не є посвідченням особи."
+          "feedback": {
+            "uk": "У мене лише чек із ресторану.",
+            "en": "I only have the restaurant receipt.",
+            "es": "Solo tengo el ticket del restaurante.",
+            "fr": "Je n'ai que le ticket du restaurant.",
+            "ro": "Am doar chitanța de la restaurant."
+          }
         }
       ],
-      "translation": "Чудово. Тепер квитанція. Можете показати документ, що посвідчує особу?"
+      "translation": {
+        "uk": "Чудово. Тепер квитанція. Можете показати документ, що посвідчує особу?",
+        "en": "Perfect. Now let's move on to the postal slip. Can you show me your ID?",
+        "es": "Perfecto. Ahora pasamos al bollettino. ¿Puede mostrarme el documento de identidad?",
+        "fr": "Parfait. Passons au bollettino. Pouvez-vous me montrer votre pièce d'identité ?",
+        "ro": "Perfect. Acum trecem la bollettino. Îmi puteți arăta actul de identitate?"
+      }
     },
     {
       "step": 5,
@@ -116,24 +302,66 @@
       "options": [
         {
           "text": "Pago con la carta, grazie.",
-          "translation": "Плачу карткою, дякую.",
+          "translation": {
+            "uk": "Плачу карткою, дякую.",
+            "en": "I'll pay by card, thanks.",
+            "es": "Pago con tarjeta, gracias.",
+            "fr": "Je paie par carte, merci.",
+            "ro": "Plătesc cu cardul, mulțumesc."
+          },
           "isCorrect": true,
-          "feedback": "Чудово! Ви вибрали безготівковий розрахунок."
+          "feedback": {
+            "uk": "Плачу карткою, дякую.",
+            "en": "I'll pay by card, thanks.",
+            "es": "Pago con tarjeta, gracias.",
+            "fr": "Je paie par carte, merci.",
+            "ro": "Plătesc cu cardul, mulțumesc."
+          }
         },
         {
           "text": "Pago la prossima settimana, ora non ho soldi.",
-          "translation": "Заплачу наступного тижня, зараз немає грошей.",
+          "translation": {
+            "uk": "Заплачу наступного тижня, зараз немає грошей.",
+            "en": "I'll pay next week; I don't have money now.",
+            "es": "Pago la semana que viene, ahora no tengo dinero.",
+            "fr": "Je paie la semaine prochaine, je n'ai pas d'argent maintenant.",
+            "ro": "Plătesc săptămâna viitoare, acum n-am bani."
+          },
           "isCorrect": false,
-          "feedback": "Оплату посилки і квитанції роблять одразу: картка або готівка."
+          "feedback": {
+            "uk": "Заплачу наступного тижня, зараз немає грошей.",
+            "en": "I'll pay next week; I don't have money now.",
+            "es": "Pago la semana que viene, ahora no tengo dinero.",
+            "fr": "Je paie la semaine prochaine, je n'ai pas d'argent maintenant.",
+            "ro": "Plătesc săptămâna viitoare, acum n-am bani."
+          }
         },
         {
           "text": "C'è lo sconto studente, vero? Allora pago solo un euro.",
-          "translation": "Є студентська знижка, так? Тоді плачу лише євро.",
+          "translation": {
+            "uk": "Є студентська знижка, так? Тоді плачу лише євро.",
+            "en": "There's a student discount, right? Then I'll only pay one euro.",
+            "es": "Hay descuento de estudiante, ¿verdad? Entonces pago solo un euro.",
+            "fr": "Il y a une réduction étudiant, n'est-ce pas ? Alors je ne paie qu'un euro.",
+            "ro": "Există reducere de student, nu-i așa? Atunci plătesc doar un euro."
+          },
           "isCorrect": false,
-          "feedback": "Ціна вже названа; обирають спосіб оплати, не торгуються так."
+          "feedback": {
+            "uk": "Є студентська знижка, так? Тоді плачу лише євро.",
+            "en": "There's a student discount, right? Then I'll only pay one euro.",
+            "es": "Hay descuento de estudiante, ¿verdad? Entonces pago solo un euro.",
+            "fr": "Il y a une réduction étudiant, n'est-ce pas ? Alors je ne paie qu'un euro.",
+            "ro": "Există reducere de student, nu-i așa? Atunci plătesc doar un euro."
+          }
         }
       ],
-      "translation": "Разом 22 євро за посилку і 45 євро за квитанцію. Платите готівкою чи карткою?"
+      "translation": {
+        "uk": "Разом 22 євро за посилку і 45 євро за квитанцію. Платите готівкою чи карткою?",
+        "en": "That's 22 euros for the parcel and 45 euros for the slip in total. Cash or card?",
+        "es": "En total son 22 euros por el paquete y 45 por el bollettino. ¿Paga en efectivo o con tarjeta?",
+        "fr": "Au total, 22 euros pour le colis et 45 euros pour le bollettino. Vous payez en espèces ou par carte ?",
+        "ro": "În total sunt 22 de euro pentru colet și 45 de euro pentru bollettino. Plătiți cu numerar sau cu cardul?"
+      }
     },
     {
       "step": 6,
@@ -142,25 +370,73 @@
       "options": [
         {
           "text": "Il codice di tracciamento lo butto, non mi serve.",
-          "translation": "Код відстеження викину, він мені не потрібен.",
+          "translation": {
+            "uk": "Код відстеження викину, він мені не потрібен.",
+            "en": "I'll throw away the tracking code; I don't need it.",
+            "es": "El código de seguimiento lo tiro, no me sirve.",
+            "fr": "Je jette le code de suivi, je n'en ai pas besoin.",
+            "ro": "Arunc codul de urmărire, nu-mi trebuie."
+          },
           "isCorrect": false,
-          "feedback": "Код відстеження треба зберегти, щоб перевірити посилку."
+          "feedback": {
+            "uk": "Код відстеження викину, він мені не потрібен.",
+            "en": "I'll throw away the tracking code; I don't need it.",
+            "es": "El código de seguimiento lo tiro, no me sirve.",
+            "fr": "Je jette le code de suivi, je n'en ai pas besoin.",
+            "ro": "Arunc codul de urmărire, nu-mi trebuie."
+          }
         },
         {
           "text": "Può consegnare il pacco a casa mia stasera a mano?",
-          "translation": "Можете доставити посилку мені додому сьогодні ввечері особисто?",
+          "translation": {
+            "uk": "Можете доставити посилку мені додому сьогодні ввечері особисто?",
+            "en": "Can you deliver the parcel to my house by hand this evening?",
+            "es": "¿Puede entregar el paquete en mi casa esta noche a mano?",
+            "fr": "Pouvez-vous livrer le colis chez moi ce soir en main propre ?",
+            "ro": "Puteți livra coletul acasă la mine diseară personal?"
+          },
           "isCorrect": false,
-          "feedback": "Працівник пошти не везе посилку особисто додому ввечері."
+          "feedback": {
+            "uk": "Можете доставити посилку мені додому сьогодні ввечері особисто?",
+            "en": "Can you deliver the parcel to my house by hand this evening?",
+            "es": "¿Puede entregar el paquete en mi casa esta noche a mano?",
+            "fr": "Pouvez-vous livrer le colis chez moi ce soir en main propre ?",
+            "ro": "Puteți livra coletul acasă la mine diseară personal?"
+          }
         },
         {
           "text": "Molte grazie! Buona giornata anche a lei.",
-          "translation": "Щиро дякую! І вам гарного дня.",
+          "translation": {
+            "uk": "Щиро дякую! І вам гарного дня.",
+            "en": "Thank you very much! Have a good day too.",
+            "es": "¡Muchas gracias! Buen día también para usted.",
+            "fr": "Merci beaucoup ! Bonne journée à vous aussi.",
+            "ro": "Mulțumesc frumos! O zi bună și dumneavoastră."
+          },
           "isCorrect": true,
-          "feedback": "Ввічливе та правильне завершення розмови."
+          "feedback": {
+            "uk": "Щиро дякую! І вам гарного дня.",
+            "en": "Thank you very much! Have a good day too.",
+            "es": "¡Muchas gracias! Buen día también para usted.",
+            "fr": "Merci beaucoup ! Bonne journée à vous aussi.",
+            "ro": "Mulțumesc frumos! O zi bună și dumneavoastră."
+          }
         }
       ],
-      "translation": "Ось квитанція про оплату і код відстеження посилки. Гарного дня!"
+      "translation": {
+        "uk": "Ось квитанція про оплату і код відстеження посилки. Гарного дня!",
+        "en": "Here's the payment receipt and the tracking code for the parcel. Have a good day!",
+        "es": "Aquí tiene el recibo de pago y el código de seguimiento del paquete. ¡Buen día!",
+        "fr": "Voici le reçu de paiement et le code de suivi du colis. Bonne journée !",
+        "ro": "Iată chitanța de plată și codul de urmărire al coletului. O zi bună!"
+      }
     }
   ],
-  "culturaTip": "Код відстеження називається 'Codice di tracciamento' або 'Numero di raccomandata'. Його можна ввести на сайті Poste Italiane у розділі 'Cerca spedizioni'."
+  "culturaTip": {
+    "uk": "Код відстеження називається 'Codice di tracciamento' або 'Numero di raccomandata'. Його можна ввести на сайті Poste Italiane у розділі 'Cerca spedizioni'.",
+    "en": "The tracking code is called 'Codice di tracciamento' or 'Numero di raccomandata'. You can enter it on the Poste Italiane website under 'Cerca spedizioni'.",
+    "es": "El código de seguimiento se llama 'Codice di tracciamento' o 'Numero di raccomandata'. Se introduce en la web de Poste Italiane en 'Cerca spedizioni'.",
+    "fr": "Le code de suivi s’appelle « Codice di tracciamento » ou « Numero di raccomandata ». On le saisit sur le site Poste Italiane dans « Cerca spedizioni ».",
+    "ro": "Codul de urmărire se numește «Codice di tracciamento» sau «Numero di raccomandata». Îl poți introduce pe site-ul Poste Italiane la «Cerca spedizioni»."
+  }
 }

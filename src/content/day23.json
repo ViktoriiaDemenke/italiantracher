@@ -1,9 +1,27 @@
 {
   "day": 23,
-  "title": "Живий діалог: На касі та у відділі гастрономії",
+  "title": {
+    "uk": "Живий діалог: На касі та у відділі гастрономії",
+    "en": "Live dialogue: At the till and at the deli counter",
+    "es": "Diálogo en vivo: en caja y en el mostrador de charcutería",
+    "fr": "Dialogue vivant : à la caisse et au rayon traiteur",
+    "ro": "Dialog viu: la casă și la raionul de gastronomie"
+  },
   "module": "Fare la Spesa al Supermercato",
-  "type": "Interactive Dialogue",
-  "story": "Марко підходить до гастрономічного відділу (banco frigo/gastronomia), а потім прямує на касу (cassa).",
+  "type": {
+    "uk": "Інтерактивний діалог",
+    "en": "Interactive Dialogue",
+    "es": "Diálogo interactivo",
+    "fr": "Dialogue interactif",
+    "ro": "Dialog interactiv"
+  },
+  "story": {
+    "uk": "Марко підходить до гастрономічного відділу (banco frigo/gastronomia), а потім прямує на касу (cassa).",
+    "en": "Marco goes to the deli counter (banco frigo/gastronomia), then to the till (cassa).",
+    "es": "Marco se acerca al mostrador de charcutería (banco frigo/gastronomia) y luego va a caja (cassa).",
+    "fr": "Marco s’approche du rayon traiteur (banco frigo/gastronomia), puis va à la caisse (cassa).",
+    "ro": "Marco se apropie de raionul de gastronomie (banco frigo/gastronomia), apoi merge la casă (cassa)."
+  },
   "dialogue": [
     {
       "step": 1,
@@ -12,24 +30,66 @@
       "options": [
         {
           "text": "Il numero non conta, passo avanti perché ho fretta.",
-          "translation": "Номер не важливий, проходжу вперед, бо поспішаю.",
+          "translation": {
+            "uk": "Номер не важливий, проходжу вперед, бо поспішаю.",
+            "en": "The number doesn't count; I'm going ahead because I'm in a hurry.",
+            "es": "El número no cuenta, paso delante porque tengo prisa.",
+            "fr": "Le numéro ne compte pas, je passe devant parce que je suis pressé.",
+            "ro": "Numărul nu contează, trec înainte că mă grăbesc."
+          },
           "isCorrect": false,
-          "feedback": "У гастрономії черга за номером; відповідають, коли викликали ваш."
+          "feedback": {
+            "uk": "Номер не важливий, проходжу вперед, бо поспішаю.",
+            "en": "The number doesn't count; I'm going ahead because I'm in a hurry.",
+            "es": "El número no cuenta, paso delante porque tengo prisa.",
+            "fr": "Le numéro ne compte pas, je passe devant parce que je suis pressé.",
+            "ro": "Numărul nu contează, trec înainte că mă grăbesc."
+          }
         },
         {
           "text": "Ciao, voglio formaggio subito.",
-          "translation": "Привіт, хочу сир зараз.",
+          "translation": {
+            "uk": "Привіт, хочу сир зараз.",
+            "en": "Hi, I want cheese right now.",
+            "es": "Hola, quiero queso ahora mismo.",
+            "fr": "Salut, je veux du fromage tout de suite.",
+            "ro": "Salut, vreau brânză imediat."
+          },
           "isCorrect": false,
-          "feedback": "Не забувайте про ввічливість та дотримання черги."
+          "feedback": {
+            "uk": "Привіт, хочу сир зараз.",
+            "en": "Hi, I want cheese right now.",
+            "es": "Hola, quiero queso ahora mismo.",
+            "fr": "Salut, je veux du fromage tout de suite.",
+            "ro": "Salut, vreau brânză imediat."
+          }
         },
         {
           "text": "Buongiorno! Sono io il numero 42.",
-          "translation": "Доброго дня! Це я, номер 42.",
+          "translation": {
+            "uk": "Доброго дня! Це я, номер 42.",
+            "en": "Good morning! I'm number 42.",
+            "es": "¡Buenos días! Soy yo el número 42.",
+            "fr": "Bonjour ! C'est moi, le numéro 42.",
+            "ro": "Bună dimineața! Eu sunt numărul 42."
+          },
           "isCorrect": true,
-          "feedback": "Чудово! Ви вчасно відповіли на свій номер у черзі."
+          "feedback": {
+            "uk": "Доброго дня! Це я, номер 42.",
+            "en": "Good morning! I'm number 42.",
+            "es": "¡Buenos días! Soy yo el número 42.",
+            "fr": "Bonjour ! C'est moi, le numéro 42.",
+            "ro": "Bună dimineața! Eu sunt numărul 42."
+          }
         }
       ],
-      "translation": "Доброго дня! Хто наступний? Номер 42!"
+      "translation": {
+        "uk": "Доброго дня! Хто наступний? Номер 42!",
+        "en": "Good morning! Who's next? Number 42!",
+        "es": "¡Buenos días! ¿Quién es el siguiente? ¡Número 42!",
+        "fr": "Bonjour ! Qui est le suivant ? Numéro 42 !",
+        "ro": "Bună dimineața! Cine e următorul? Numărul 42!"
+      }
     },
     {
       "step": 2,
@@ -38,24 +98,66 @@
       "options": [
         {
           "text": "Vorrei un chilo di latte e due bottiglie di pane, tagliati sottili.",
-          "translation": "Хочу кіло молока і дві пляшки хліба, тонко нарізані.",
+          "translation": {
+            "uk": "Хочу кіло молока і дві пляшки хліба, тонко нарізані.",
+            "en": "I'd like a kilo of milk and two bottles of bread, thinly sliced.",
+            "es": "Quisiera un kilo de leche y dos botellas de pan, cortadas finas.",
+            "fr": "Je voudrais un kilo de lait et deux bouteilles de pain, coupées fines.",
+            "ro": "Aș vrea un kilogram de lapte și două sticle de pâine, tăiate subțire."
+          },
           "isCorrect": false,
-          "feedback": "Тут замовляють нарізку: etti/grammi прошуто і шматок пармезану."
+          "feedback": {
+            "uk": "Хочу кіло молока і дві пляшки хліба, тонко нарізані.",
+            "en": "I'd like a kilo of milk and two bottles of bread, thinly sliced.",
+            "es": "Quisiera un kilo de leche y dos botellas de pan, cortadas finas.",
+            "fr": "Je voudrais un kilo de lait et deux bouteilles de pain, coupées fines.",
+            "ro": "Aș vrea un kilogram de lapte și două sticle de pâine, tăiate subțire."
+          }
         },
         {
           "text": "Vorrei due etti di prosciutto di Parma e un pezzo di Parmigiano Reggiano, per favore.",
-          "translation": "Я хотів би два етто пармської шинки і шматок пармезану Реджано, будь ласка.",
+          "translation": {
+            "uk": "Я хотів би два етто пармської шинки і шматок пармезану Реджано, будь ласка.",
+            "en": "I'd like two etti of Prosciutto di Parma and a piece of Parmigiano Reggiano, please.",
+            "es": "Quisiera dos etti de Prosciutto di Parma y un trozo de Parmigiano Reggiano, por favor.",
+            "fr": "Je voudrais deux etti de Prosciutto di Parma et un morceau de Parmigiano Reggiano, s'il vous plaît.",
+            "ro": "Aș vrea două etti de Prosciutto di Parma și o bucată de Parmigiano Reggiano, vă rog."
+          },
           "isCorrect": true,
-          "feedback": "Ідеально! Ви правильно використали одиницю виміру 'due etti' (200 грамів)."
+          "feedback": {
+            "uk": "Я хотів би два етто пармської шинки і шматок пармезану Реджано, будь ласка.",
+            "en": "I'd like two etti of Prosciutto di Parma and a piece of Parmigiano Reggiano, please.",
+            "es": "Quisiera dos etti de Prosciutto di Parma y un trozo de Parmigiano Reggiano, por favor.",
+            "fr": "Je voudrais deux etti de Prosciutto di Parma et un morceau de Parmigiano Reggiano, s'il vous plaît.",
+            "ro": "Aș vrea două etti de Prosciutto di Parma și o bucată de Parmigiano Reggiano, vă rog."
+          }
         },
         {
           "text": "Dammi tre litri di prosciutto.",
-          "translation": "Дай три літри шинки.",
+          "translation": {
+            "uk": "Дай три літри шинки.",
+            "en": "Give me three liters of ham.",
+            "es": "Dame tres litros de jamón.",
+            "fr": "Donne-moi trois litres de jambon.",
+            "ro": "Dă-mi trei litri de șuncă."
+          },
           "isCorrect": false,
-          "feedback": "Прошутто вимірюється в грамах/кілограмах ('etti' або 'grammi'), а не в літрах."
+          "feedback": {
+            "uk": "Дай три літри шинки.",
+            "en": "Give me three liters of ham.",
+            "es": "Dame tres litros de jamón.",
+            "fr": "Donne-moi trois litres de jambon.",
+            "ro": "Dă-mi trei litri de șuncă."
+          }
         }
       ],
-      "translation": "Кажіть, що вам приготувати?"
+      "translation": {
+        "uk": "Кажіть, що вам приготувати?",
+        "en": "Go ahead, what can I get you?",
+        "es": "Diga, ¿qué le preparo?",
+        "fr": "Dites donc, qu'est-ce que je vous prépare ?",
+        "ro": "Spuneți, ce vă pregătesc?"
+      }
     },
     {
       "step": 3,
@@ -64,24 +166,66 @@
       "options": [
         {
           "text": "Sì, il prosciutto lo voglio tagliato sottile. E il pezzo di formaggio va benissimo, grazie.",
-          "translation": "Так, шинку тонко. І шматок сиру цілком підходить, дякую.",
+          "translation": {
+            "uk": "Так, шинку тонко. І шматок сиру цілком підходить, дякую.",
+            "en": "Yes, I want the ham sliced thinly. And the piece of cheese is perfect, thank you.",
+            "es": "Sí, el jamón lo quiero cortado fino. Y el trozo de queso va perfecto, gracias.",
+            "fr": "Oui, je veux le jambon coupé fin. Et le morceau de fromage convient très bien, merci.",
+            "ro": "Da, șunca o vreau tăiată subțire. Iar bucata de brânză e perfectă, mulțumesc."
+          },
           "isCorrect": true,
-          "feedback": "Чудово! Ви уточнили нарізку ('tagliato sottile' = тонко нарізаний)."
+          "feedback": {
+            "uk": "Так, шинку тонко. І шматок сиру цілком підходить, дякую.",
+            "en": "Yes, I want the ham sliced thinly. And the piece of cheese is perfect, thank you.",
+            "es": "Sí, el jamón lo quiero cortado fino. Y el trozo de queso va perfecto, gracias.",
+            "fr": "Oui, je veux le jambon coupé fin. Et le morceau de fromage convient très bien, merci.",
+            "ro": "Da, șunca o vreau tăiată subțire. Iar bucata de brânză e perfectă, mulțumesc."
+          }
         },
         {
           "text": "No, non mi piace l'Anagrafe.",
-          "translation": "Ні, мені не подобається Anagrafe.",
+          "translation": {
+            "uk": "Ні, мені не подобається Anagrafe.",
+            "en": "No, I don't like the Anagrafe.",
+            "es": "No, no me gusta el Anagrafe.",
+            "fr": "Non, je n'aime pas l'Anagrafe.",
+            "ro": "Nu, nu-mi place Anagrafe."
+          },
           "isCorrect": false,
-          "feedback": "Це не стосується покупки продуктів."
+          "feedback": {
+            "uk": "Ні, мені не подобається Anagrafe.",
+            "en": "No, I don't like the Anagrafe.",
+            "es": "No, no me gusta el Anagrafe.",
+            "fr": "Non, je n'aime pas l'Anagrafe.",
+            "ro": "Nu, nu-mi place Anagrafe."
+          }
         },
         {
           "text": "Lo tagli a cubetti grandi e il formaggio lo assaggio tutto prima.",
-          "translation": "Наріжте великими кубиками, а сир я весь спробую спочатку.",
+          "translation": {
+            "uk": "Наріжте великими кубиками, а сир я весь спробую спочатку.",
+            "en": "Cut it into large cubes, and I'll taste all the cheese first.",
+            "es": "Córtelo a cubos grandes y el queso lo pruebo todo primero.",
+            "fr": "Coupez-le en gros cubes et le fromage je le goûte tout d'abord.",
+            "ro": "Tăiați-l cuburi mari, iar brânza o gust toată mai întâi."
+          },
           "isCorrect": false,
-          "feedback": "Уточнюють нарізку (sottile) і чи підходить шматок сиру, а не дегустацію всього."
+          "feedback": {
+            "uk": "Наріжте великими кубиками, а сир я весь спробую спочатку.",
+            "en": "Cut it into large cubes, and I'll taste all the cheese first.",
+            "es": "Córtelo a cubos grandes y el queso lo pruebo todo primero.",
+            "fr": "Coupez-le en gros cubes et le fromage je le goûte tout d'abord.",
+            "ro": "Tăiați-l cuburi mari, iar brânza o gust toată mai întâi."
+          }
         }
       ],
-      "translation": "Нарізати шинку тонко? А пармезан — підходить цей шматок на триста грамів?"
+      "translation": {
+        "uk": "Нарізати шинку тонко? А пармезан — підходить цей шматок на триста грамів?",
+        "en": "Shall I slice the ham thinly? And for the Parmigiano, is this three-hundred-gram piece all right?",
+        "es": "¿Lo corto fino, el jamón? ¿Y para el Parmigiano vale este trozo de trescientos gramos?",
+        "fr": "Je coupe le jambon fin ? Et pour le Parmigiano, ce morceau de trois cents grammes convient ?",
+        "ro": "Tăiem șunca subțire? Iar pentru Parmigiano, e bună bucata asta de trei sute de grame?"
+      }
     },
     {
       "step": 4,
@@ -90,24 +234,66 @@
       "options": [
         {
           "text": "Ho solo il medico di base.",
-          "translation": "У мене лише сімейний лікар.",
+          "translation": {
+            "uk": "У мене лише сімейний лікар.",
+            "en": "I only have the family doctor.",
+            "es": "Solo tengo el médico de cabecera.",
+            "fr": "Je n'ai que le médecin de famille.",
+            "ro": "Am doar medicul de familie."
+          },
           "isCorrect": false,
-          "feedback": "Медичний лікар не має відношення до картки супермаркету."
+          "feedback": {
+            "uk": "У мене лише сімейний лікар.",
+            "en": "I only have the family doctor.",
+            "es": "Solo tengo el médico de cabecera.",
+            "fr": "Je n'ai que le médecin de famille.",
+            "ro": "Am doar medicul de familie."
+          }
         },
         {
           "text": "Sì, ho la tessera sanitaria, è la stessa cosa.",
-          "translation": "Так, у мене tessera sanitaria, це те саме.",
+          "translation": {
+            "uk": "Так, у мене tessera sanitaria, це те саме.",
+            "en": "Yes, I have the tessera sanitaria; it's the same thing.",
+            "es": "Sí, tengo la tessera sanitaria, es lo mismo.",
+            "fr": "Oui, j'ai la tessera sanitaria, c'est la même chose.",
+            "ro": "Da, am tessera sanitaria, e același lucru."
+          },
           "isCorrect": false,
-          "feedback": "Carta fedeltà супермаркету — не tessera sanitaria."
+          "feedback": {
+            "uk": "Так, у мене tessera sanitaria, це те саме.",
+            "en": "Yes, I have the tessera sanitaria; it's the same thing.",
+            "es": "Sí, tengo la tessera sanitaria, es lo mismo.",
+            "fr": "Oui, j'ai la tessera sanitaria, c'est la même chose.",
+            "ro": "Da, am tessera sanitaria, e același lucru."
+          }
         },
         {
           "text": "Buongiorno! No, non ce l'ho. Posso farla adesso?",
-          "translation": "Доброго дня! Ні, немає. Можна оформити зараз?",
+          "translation": {
+            "uk": "Доброго дня! Ні, немає. Можна оформити зараз?",
+            "en": "Good morning! No, I don't have one. Can I get one now?",
+            "es": "¡Buenos días! No, no la tengo. ¿Puedo hacerla ahora?",
+            "fr": "Bonjour ! Non, je ne l'ai pas. Je peux la faire maintenant ?",
+            "ro": "Bună dimineața! Nu, n-o am. Pot să o fac acum?"
+          },
           "isCorrect": true,
-          "feedback": "Правильно! Ви запитали про можливість оформити карту лояльності."
+          "feedback": {
+            "uk": "Доброго дня! Ні, немає. Можна оформити зараз?",
+            "en": "Good morning! No, I don't have one. Can I get one now?",
+            "es": "¡Buenos días! No, no la tengo. ¿Puedo hacerla ahora?",
+            "fr": "Bonjour ! Non, je ne l'ai pas. Je peux la faire maintenant ?",
+            "ro": "Bună dimineața! Nu, n-o am. Pot să o fac acum?"
+          }
         }
       ],
-      "translation": "Доброго дня! У вас є наша карта лояльності?"
+      "translation": {
+        "uk": "Доброго дня! У вас є наша карта лояльності?",
+        "en": "Good morning! Do you have our loyalty card?",
+        "es": "¡Buenos días! ¿Tiene nuestra tarjeta de fidelidad?",
+        "fr": "Bonjour ! Vous avez notre carte de fidélité ?",
+        "ro": "Bună dimineața! Aveți cardul nostru de fidelitate?"
+      }
     },
     {
       "step": 5,
@@ -116,24 +302,66 @@
       "options": [
         {
           "text": "Sì, vorrei un sacchetto biodegradabile, per favore. E pago con la carta di credito.",
-          "translation": "Так, біопакет, будь ласка. І плачу кредитною карткою.",
+          "translation": {
+            "uk": "Так, біопакет, будь ласка. І плачу кредитною карткою.",
+            "en": "Yes, I'd like a biodegradable bag, please. And I'll pay by credit card.",
+            "es": "Sí, quisiera una bolsa biodegradable, por favor. Y pago con tarjeta de crédito.",
+            "fr": "Oui, je voudrais un sac biodégradable, s'il vous plaît. Et je paie par carte de crédit.",
+            "ro": "Da, aș vrea o pungă biodegradabilă, vă rog. Și plătesc cu cardul de credit."
+          },
           "isCorrect": true,
-          "feedback": "Чудово! Ви попросили пакет та вказали спосіб оплати."
+          "feedback": {
+            "uk": "Так, біопакет, будь ласка. І плачу кредитною карткою.",
+            "en": "Yes, I'd like a biodegradable bag, please. And I'll pay by credit card.",
+            "es": "Sí, quisiera una bolsa biodegradable, por favor. Y pago con tarjeta de crédito.",
+            "fr": "Oui, je voudrais un sac biodégradable, s'il vous plaît. Et je paie par carte de crédit.",
+            "ro": "Da, aș vrea o pungă biodegradabilă, vă rog. Și plătesc cu cardul de credit."
+          }
         },
         {
           "text": "Il sacchetto è gratis sempre, per legge, senza chiedere.",
-          "translation": "Пакет завжди безкоштовний за законом, без прохання.",
+          "translation": {
+            "uk": "Пакет завжди безкоштовний за законом, без прохання.",
+            "en": "The bag is always free by law, without asking.",
+            "es": "La bolsa es siempre gratis, por ley, sin pedirla.",
+            "fr": "Le sac est toujours gratuit, par la loi, sans demander.",
+            "ro": "Punga e mereu gratuită, prin lege, fără să ceri."
+          },
           "isCorrect": false,
-          "feedback": "Біопакети зазвичай платні; їх просять окремо."
+          "feedback": {
+            "uk": "Пакет завжди безкоштовний за законом, без прохання.",
+            "en": "The bag is always free by law, without asking.",
+            "es": "La bolsa es siempre gratis, por ley, sin pedirla.",
+            "fr": "Le sac est toujours gratuit, par la loi, sans demander.",
+            "ro": "Punga e mereu gratuită, prin lege, fără să ceri."
+          }
         },
         {
           "text": "No, metto tutto nelle tasche. Pago in francobolli.",
-          "translation": "Ні, покладу все по кишенях. Плачу марками.",
+          "translation": {
+            "uk": "Ні, покладу все по кишенях. Плачу марками.",
+            "en": "No, I'll put everything in my pockets. I'll pay with stamps.",
+            "es": "No, lo meto todo en los bolsillos. Pago con sellos.",
+            "fr": "Non, je mets tout dans les poches. Je paie en timbres.",
+            "ro": "Nu, pun totul în buzunare. Plătesc cu timbre."
+          },
           "isCorrect": false,
-          "feedback": "Потрібен пакет і звичайна оплата карткою або готівкою."
+          "feedback": {
+            "uk": "Ні, покладу все по кишенях. Плачу марками.",
+            "en": "No, I'll put everything in my pockets. I'll pay with stamps.",
+            "es": "No, lo meto todo en los bolsillos. Pago con sellos.",
+            "fr": "Non, je mets tout dans les poches. Je paie en timbres.",
+            "ro": "Nu, pun totul în buzunare. Plătesc cu timbre."
+          }
         }
       ],
-      "translation": "Так, можна попросити потім в інформаційному вікні. Потрібен пакет для покупок?"
+      "translation": {
+        "uk": "Так, можна попросити потім в інформаційному вікні. Потрібен пакет для покупок?",
+        "en": "Yes, you can ask for it at the information desk afterwards. Do you need a shopping bag?",
+        "es": "Sí, puede pedirla en el mostrador de información después. ¿Le hace falta una bolsa para la compra?",
+        "fr": "Oui, vous pouvez la demander au box informations après. Il vous faut un sac pour les courses ?",
+        "ro": "Da, o puteți cere la ghișeul de informații după. Aveți nevoie de o pungă pentru cumpărături?"
+      }
     },
     {
       "step": 6,
@@ -142,25 +370,73 @@
       "options": [
         {
           "text": "Lo scontrino lo lascio in cassa, non mi serve all’uscita.",
-          "translation": "Чек залишу на касі, на виході він не потрібен.",
+          "translation": {
+            "uk": "Чек залишу на касі, на виході він не потрібен.",
+            "en": "I'll leave the receipt at the till; I don't need it at the exit.",
+            "es": "El ticket lo dejo en caja, no me hace falta a la salida.",
+            "fr": "Je laisse le ticket à la caisse, je n'en ai pas besoin à la sortie.",
+            "ro": "Las bonul la casă, nu-mi trebuie la ieșire."
+          },
           "isCorrect": false,
-          "feedback": "Чек варто взяти з собою до виходу з магазину."
+          "feedback": {
+            "uk": "Чек залишу на касі, на виході він не потрібен.",
+            "en": "I'll leave the receipt at the till; I don't need it at the exit.",
+            "es": "El ticket lo dejo en caja, no me hace falta a la salida.",
+            "fr": "Je laisse le ticket à la caisse, je n'en ai pas besoin à la sortie.",
+            "ro": "Las bonul la casă, nu-mi trebuie la ieșire."
+          }
         },
         {
           "text": "Grazie mille, buona giornata anche a lei!",
-          "translation": "Дуже дякую, і вам гарного дня!",
+          "translation": {
+            "uk": "Дуже дякую, і вам гарного дня!",
+            "en": "Thank you so much, have a good day too!",
+            "es": "¡Muchas gracias, buen día también para usted!",
+            "fr": "Merci beaucoup, bonne journée à vous aussi !",
+            "ro": "Mulțumesc frumos, o zi bună și dumneavoastră!"
+          },
           "isCorrect": true,
-          "feedback": "Приємний та ввічливий фінал розмови на касі!"
+          "feedback": {
+            "uk": "Дуже дякую, і вам гарного дня!",
+            "en": "Thank you so much, have a good day too!",
+            "es": "¡Muchas gracias, buen día también para usted!",
+            "fr": "Merci beaucoup, bonne journée à vous aussi !",
+            "ro": "Mulțumesc frumos, o zi bună și dumneavoastră!"
+          }
         },
         {
           "text": "C’è un errore di mille euro, non pago e lascio la spesa qui in silenzio.",
-          "translation": "Помилка на тисячу євро, не плачу і мовчки лишаю покупки тут.",
+          "translation": {
+            "uk": "Помилка на тисячу євро, не плачу і мовчки лишаю покупки тут.",
+            "en": "There's a thousand-euro error; I won't pay and I'll leave the shopping here in silence.",
+            "es": "Hay un error de mil euros, no pago y dejo la compra aquí en silencio.",
+            "fr": "Il y a une erreur de mille euros, je ne paie pas et je laisse les courses ici en silence.",
+            "ro": "E o eroare de o mie de euro, nu plătesc și las cumpărăturile aici în tăcere."
+          },
           "isCorrect": false,
-          "feedback": "Якщо сума правильна — дякують і забирають чек."
+          "feedback": {
+            "uk": "Помилка на тисячу євро, не плачу і мовчки лишаю покупки тут.",
+            "en": "There's a thousand-euro error; I won't pay and I'll leave the shopping here in silence.",
+            "es": "Hay un error de mil euros, no pago y dejo la compra aquí en silencio.",
+            "fr": "Il y a une erreur de mille euros, je ne paie pas et je laisse les courses ici en silence.",
+            "ro": "E o eroare de o mie de euro, nu plătesc și las cumpărăturile aici în tăcere."
+          }
         }
       ],
-      "translation": "34 євро 50 центів. Прикладіть картку до POS... Чудово. Ось чек. Гарного дня!"
+      "translation": {
+        "uk": "34 євро 50 центів. Прикладіть картку до POS... Чудово. Ось чек. Гарного дня!",
+        "en": "That's 34 euros and 50 cents. Please tap the card on the POS... Perfect. Here's the receipt. Have a good day!",
+        "es": "Son 34 euros y 50 céntimos. Apoye la tarjeta en el POS... Perfecto. Aquí tiene el ticket. ¡Buen día!",
+        "fr": "Ça fait 34 euros et 50 centimes. Posez la carte sur le POS... Parfait. Voici le ticket. Bonne journée !",
+        "ro": "Sunt 34 de euro și 50 de cenți. Așezați cardul pe POS... Perfect. Iată bonul. O zi bună!"
+      }
     }
   ],
-  "culturaTip": "'Lo scontrino' (чек) обов'язково потрібно зберігати до виходу з супермаркету чи магазину — у разі перевірки фінансовою поліцією його можуть попросити показати."
+  "culturaTip": {
+    "uk": "'Lo scontrino' (чек) обов'язково потрібно зберігати до виходу з супермаркету чи магазину — у разі перевірки фінансовою поліцією його можуть попросити показати.",
+    "en": "Keep 'Lo scontrino' (the receipt) until you leave the supermarket or shop — the tax police may ask to see it.",
+    "es": "Hay que guardar 'Lo scontrino' (el ticket) hasta salir del supermercado o tienda: la policía tributaria puede pedirlo.",
+    "fr": "Il faut garder 'Lo scontrino' (le ticket) jusqu’à la sortie du supermarché ou du magasin : la police fiscale peut le demander.",
+    "ro": "'Lo scontrino' (bonul) trebuie păstrat până la ieșirea din supermarket sau magazin — poliția fiscală îl poate cere."
+  }
 }

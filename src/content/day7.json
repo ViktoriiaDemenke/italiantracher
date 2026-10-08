@@ -1,66 +1,226 @@
 {
   "day": 7,
-  "title": "Ресторан та Траторія: Бронювання та культура їжі",
+  "title": {
+    "uk": "Ресторан та Траторія: Бронювання та культура їжі",
+    "en": "Restaurant and trattoria: Booking and food culture",
+    "es": "Restaurante y trattoria: Reserva y cultura de la mesa",
+    "fr": "Restaurant et trattoria : Réservation et culture de la table",
+    "ro": "Restaurant și trattoria: Rezervare și cultura mesei"
+  },
   "module": "Al Ristorante e in Trattoria",
-  "type": "Immersion & Vocabulary",
-  "story": "Марко та Лаура вирішили пообідати у місцевій сімейній траторії в Treviso. В Італії культурі харчування приділяють особливу увагу: важливо знати, як забронювати столик, замовити воду, зрозуміти, що таке 'coperto' у чеку, та як правильно попросити каву після обіду.",
+  "type": {
+    "uk": "Занурення та словник",
+    "en": "Immersion & Vocabulary",
+    "es": "Inmersión y vocabulario",
+    "fr": "Immersion et vocabulaire",
+    "ro": "Imersiune și vocabular"
+  },
+  "story": {
+    "uk": "Марко та Лаура вирішили пообідати у місцевій сімейній траторії в Treviso. В Італії культурі харчування приділяють особливу увагу: важливо знати, як забронювати столик, замовити воду, зрозуміти, що таке 'coperto' у чеку, та як правильно попросити каву після обіду.",
+    "en": "Marco and Laura decided to have lunch at a local family trattoria in Treviso. In Italy food culture gets special attention: it is important to know how to book a table, order water, understand what 'coperto' on the bill is, and how to ask for coffee after lunch.",
+    "es": "Marco y Laura deciden almorzar en una trattoria familiar de Treviso. En Italia la cultura de la mesa importa: hay que saber reservar mesa, pedir agua, entender el 'coperto' en la cuenta y pedir café después del almuerzo.",
+    "fr": "Marco et Laura décident de déjeuner dans une trattoria familiale à Trévise. En Italie, la culture de la table compte : savoir réserver, commander de l’eau, comprendre le « coperto » sur l’addition et demander un café après le repas.",
+    "ro": "Marco și Laura decid să ia prânzul la o trattoria de familie din Treviso. În Italia cultura mesei contează: e important să știi să rezervi masă, să comanzi apă, să înțelegi «coperto» pe notă și cum să ceri cafea după prânz."
+  },
   "phrases": [
     {
       "italian": "Vorrei prenotare un tavolo per due persone per stasera.",
-      "ukrainian": "Я хотів би забронювати столик на двох на сьогодні на вечір.",
-      "translation": "Я хотів би забронювати столик на двох на сьогодні на вечір."
+      "ukrainian": {
+        "uk": "Я хотів би забронювати столик на двох на сьогодні на вечір.",
+        "en": "I would like to book a table for two for this evening.",
+        "es": "Quisiera reservar una mesa para dos personas para esta noche.",
+        "fr": "Je voudrais réserver une table pour deux personnes pour ce soir.",
+        "ro": "Aș dori să rezerv o masă pentru două persoane pentru diseară."
+      },
+      "translation": {
+        "uk": "Я хотів би забронювати столик на двох на сьогодні на вечір.",
+        "en": "I would like to book a table for two for this evening.",
+        "es": "Quisiera reservar una mesa para dos personas para esta noche.",
+        "fr": "Je voudrais réserver une table pour deux personnes pour ce soir.",
+        "ro": "Aș dori să rezerv o masă pentru două persoane pentru diseară."
+      }
     },
     {
       "italian": "Avete un tavolo libero per due?",
-      "ukrainian": "У вас є вільний столик на двох?",
-      "translation": "У вас є вільний столик на двох?"
+      "ukrainian": {
+        "uk": "У вас є вільний столик на двох?",
+        "en": "Do you have a free table for two?",
+        "es": "¿Tienen una mesa libre para dos?",
+        "fr": "Avez-vous une table libre pour deux ?",
+        "ro": "Aveți o masă liberă pentru doi?"
+      },
+      "translation": {
+        "uk": "У вас є вільний столик на двох?",
+        "en": "Do you have a free table for two?",
+        "es": "¿Tienen una mesa libre para dos?",
+        "fr": "Avez-vous une table libre pour deux ?",
+        "ro": "Aveți o masă liberă pentru doi?"
+      }
     },
     {
       "italian": "Vorrei una bottiglia d'acqua naturale o frizzante, per favore.",
-      "ukrainian": "Я хотів би пляшку води без газу або з газом, будь ласка.",
-      "translation": "Я хотів би пляшку води без газу або з газом, будь ласка."
+      "ukrainian": {
+        "uk": "Я хотів би пляшку води без газу або з газом, будь ласка.",
+        "en": "I would like a bottle of still or sparkling water, please.",
+        "es": "Quisiera una botella de agua natural o con gas, por favor.",
+        "fr": "Je voudrais une bouteille d'eau plate ou gazeuse, s'il vous plaît.",
+        "ro": "Aș dori o sticlă de apă plată sau carbogazoasă, vă rog."
+      },
+      "translation": {
+        "uk": "Я хотів би пляшку води без газу або з газом, будь ласка.",
+        "en": "I would like a bottle of still or sparkling water, please.",
+        "es": "Quisiera una botella de agua natural o con gas, por favor.",
+        "fr": "Je voudrais une bouteille d'eau plate ou gazeuse, s'il vous plaît.",
+        "ro": "Aș dori o sticlă de apă plată sau carbogazoasă, vă rog."
+      }
     },
     {
       "italian": "Possiamo avere il menu, per favore?",
-      "ukrainian": "Можна нам меню, будь ласка?",
-      "translation": "Можна нам меню, будь ласка?"
+      "ukrainian": {
+        "uk": "Можна нам меню, будь ласка?",
+        "en": "Could we have the menu, please?",
+        "es": "¿Podemos tener el menú, por favor?",
+        "fr": "Pouvons-nous avoir le menu, s'il vous plaît ?",
+        "ro": "Putem avea meniul, vă rog?"
+      },
+      "translation": {
+        "uk": "Можна нам меню, будь ласка?",
+        "en": "Could we have the menu, please?",
+        "es": "¿Podemos tener el menú, por favor?",
+        "fr": "Pouvons-nous avoir le menu, s'il vous plaît ?",
+        "ro": "Putem avea meniul, vă rog?"
+      }
     }
   ],
   "restaurantEtiquette": [
-    "Coperto — це плата за хліб та сервірування (зазвичай 1.50€–3.00€ з особи, вказується в меню).",
-    "Cappuccino в Італії п'ють тільки до 11:00 ранку. Після обіду замовляють Caffè espresso або Macchiato.",
-    "Воду завжди подають у пляшках: треба уточнити 'naturale' (без газу) чи 'frizzante' (з газом)."
+    {
+      "uk": "Coperto — це плата за хліб та сервірування (зазвичай 1.50€–3.00€ з особи, вказується в меню).",
+      "en": "Coperto is a charge for bread and table setting (usually €1.50–€3.00 per person, listed on the menu).",
+      "es": "Coperto es un cargo por pan y cubierto (suele ser 1,50€–3,00€ por persona, indicado en la carta).",
+      "fr": "Coperto est un frais pour le pain et le couvert (souvent 1,50 €–3,00 € par personne, indiqué au menu).",
+      "ro": "Coperto e taxa pentru pâine și servire (de obicei 1,50€–3,00€ de persoană, trecută în meniu)."
+    },
+    {
+      "uk": "Cappuccino в Італії п'ють тільки до 11:00 ранку. Після обіду замовляють Caffè espresso або Macchiato.",
+      "en": "Cappuccino in Italy is drunk only until 11:00 in the morning. After lunch people order Caffè espresso or Macchiato.",
+      "es": "El Cappuccino en Italia se bebe solo hasta las 11:00. Después del almuerzo se pide Caffè espresso o Macchiato.",
+      "fr": "Le Cappuccino en Italie se boit seulement jusqu’à 11 h. Après le repas on commande un Caffè espresso ou un Macchiato.",
+      "ro": "Cappuccino în Italia se bea doar până la 11:00. După prânz se comandă Caffè espresso sau Macchiato."
+    },
+    {
+      "uk": "Воду завжди подають у пляшках: треба уточнити 'naturale' (без газу) чи 'frizzante' (з газом).",
+      "en": "Water is always served in bottles: you must specify 'naturale' (still) or 'frizzante' (sparkling).",
+      "es": "El agua siempre se sirve en botella: hay que precisar 'naturale' (sin gas) o 'frizzante' (con gas).",
+      "fr": "L’eau est toujours servie en bouteille : il faut préciser « naturale » (plate) ou « frizzante » (pétillante).",
+      "ro": "Apa se servește mereu la sticlă: trebuie precizat «naturale» (fără gaz) sau «frizzante» (cu gaz)."
+    }
   ],
   "grammar": {
-    "title": "Ввічливі прохання через 'Vorrei' та 'Possiamo'",
+    "title": {
+      "uk": "Ввічливі прохання через 'Vorrei' та 'Possiamo'",
+      "en": "Polite requests with 'Vorrei' and 'Possiamo'",
+      "es": "Peticiones corteses con 'Vorrei' y 'Possiamo'",
+      "fr": "Demandes polies avec « Vorrei » et « Possiamo »",
+      "ro": "Cereri politicoase cu «Vorrei» și «Possiamo»"
+    },
     "rules": [
       {
-        "rule": "Використання 'Vorrei + інфінітив' замість 'Voglio' (Я б хотів/хотіла...).",
+        "rule": {
+          "uk": "Використання 'Vorrei + інфінітив' замість 'Voglio' (Я б хотів/хотіла...).",
+          "en": "Using 'Vorrei + infinitive' instead of 'Voglio' (I would like...).",
+          "es": "Usar 'Vorrei + infinitivo' en lugar de 'Voglio' (Me gustaría...).",
+          "fr": "Utiliser « Vorrei + infinitif » au lieu de « Voglio » (Je voudrais...).",
+          "ro": "Folosirea «Vorrei + infinitiv» în loc de «Voglio» (Aș dori...)."
+        },
         "examples": [
           {
             "italian": "Vorrei ordinare.",
-            "ukrainian": "Я хотів би замовити."
+            "ukrainian": {
+              "uk": "Я хотів би замовити.",
+              "en": "I would like to order.",
+              "es": "Quisiera pedir.",
+              "fr": "Je voudrais commander.",
+              "ro": "Aș dori să comand."
+            },
+            "translation": {
+              "uk": "Я хотів би замовити.",
+              "en": "I would like to order.",
+              "es": "Quisiera pedir.",
+              "fr": "Je voudrais commander.",
+              "ro": "Aș dori să comand."
+            }
           },
           {
             "italian": "Vorrei un tavolo all'aperto.",
-            "ukrainian": "Я хотів би столик на відкритому повітрі."
+            "ukrainian": {
+              "uk": "Я хотів би столик на відкритому повітрі.",
+              "en": "I would like a table outside.",
+              "es": "Quisiera una mesa al aire libre.",
+              "fr": "Je voudrais une table à l'extérieur.",
+              "ro": "Aș dori o masă în aer liber."
+            },
+            "translation": {
+              "uk": "Я хотів би столик на відкритому повітрі.",
+              "en": "I would like a table outside.",
+              "es": "Quisiera una mesa al aire libre.",
+              "fr": "Je voudrais une table à l'extérieur.",
+              "ro": "Aș dori o masă în aer liber."
+            }
           }
         ]
       },
       {
-        "rule": "Запитання 'Possiamo + інфінітив' (Чи можемо ми...).",
+        "rule": {
+          "uk": "Запитання 'Possiamo + інфінітив' (Чи можемо ми...).",
+          "en": "The question 'Possiamo + infinitive' (Can we...).",
+          "es": "La pregunta 'Possiamo + infinitivo' (¿Podemos...?).",
+          "fr": "La question « Possiamo + infinitif » (Pouvons-nous...).",
+          "ro": "Întrebarea «Possiamo + infinitiv» (Putem...?)."
+        },
         "examples": [
           {
             "italian": "Possiamo sederci qui?",
-            "ukrainian": "Можемо сісти тут?"
+            "ukrainian": {
+              "uk": "Можемо сісти тут?",
+              "en": "May we sit here?",
+              "es": "¿Podemos sentarnos aquí?",
+              "fr": "Pouvons-nous nous asseoir ici ?",
+              "ro": "Putem să ne așezăm aici?"
+            },
+            "translation": {
+              "uk": "Можемо сісти тут?",
+              "en": "May we sit here?",
+              "es": "¿Podemos sentarnos aquí?",
+              "fr": "Pouvons-nous nous asseoir ici ?",
+              "ro": "Putem să ne așezăm aici?"
+            }
           },
           {
             "italian": "Possiamo avere il conto?",
-            "ukrainian": "Можемо отримати рахунок?"
+            "ukrainian": {
+              "uk": "Можемо отримати рахунок?",
+              "en": "Could we have the bill?",
+              "es": "¿Podemos tener la cuenta?",
+              "fr": "Pouvons-nous avoir l'addition ?",
+              "ro": "Putem avea nota de plată?"
+            },
+            "translation": {
+              "uk": "Можемо отримати рахунок?",
+              "en": "Could we have the bill?",
+              "es": "¿Podemos tener la cuenta?",
+              "fr": "Pouvons-nous avoir l'addition ?",
+              "ro": "Putem avea nota de plată?"
+            }
           }
         ]
       }
     ]
   },
-  "culturaTip": "В італійських ресторанах обід (pranzo) зазвичай триває з 12:30 до 14:30, а вечеря (cena) розпочинається не раніше 19:30 або 20:00."
+  "culturaTip": {
+    "uk": "В італійських ресторанах обід (pranzo) зазвичай триває з 12:30 до 14:30, а вечеря (cena) розпочинається не раніше 19:30 або 20:00.",
+    "en": "In Italian restaurants lunch (pranzo) usually runs from 12:30 to 14:30, and dinner (cena) does not start before 19:30 or 20:00.",
+    "es": "En los restaurantes italianos el almuerzo (pranzo) suele ser de 12:30 a 14:30, y la cena (cena) no empieza antes de las 19:30 o las 20:00.",
+    "fr": "Dans les restaurants italiens, le déjeuner (pranzo) va en général de 12 h 30 à 14 h 30, et le dîner (cena) ne commence pas avant 19 h 30 ou 20 h.",
+    "ro": "În restaurantele italiene prânzul (pranzo) e de obicei 12:30–14:30, iar cina (cena) nu începe înainte de 19:30 sau 20:00."
+  }
 }

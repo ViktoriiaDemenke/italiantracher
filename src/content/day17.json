@@ -1,9 +1,27 @@
 {
   "day": 17,
-  "title": "Живий діалог: Консультація та подача документів в Patronato",
+  "title": {
+    "uk": "Живий діалог: Консультація та подача документів в Patronato",
+    "en": "Live dialogue: Consultation and submitting documents at the Patronato",
+    "es": "Diálogo en vivo: consulta y entrega de documentos en el Patronato",
+    "fr": "Dialogue vivant : consultation et dépôt de documents au Patronato",
+    "ro": "Dialog viu: consultație și depunerea documentelor la Patronato"
+  },
   "module": "Patronato e Assistenza Sociale",
-  "type": "Interactive Dialogue",
-  "story": "Лаура приходить на прийом до консультанта Patronato (Operatore CAF) за попереднім записом, щоб оформити Assegno Unico на 3-річну доньку.",
+  "type": {
+    "uk": "Інтерактивний діалог",
+    "en": "Interactive Dialogue",
+    "es": "Diálogo interactivo",
+    "fr": "Dialogue interactif",
+    "ro": "Dialog interactiv"
+  },
+  "story": {
+    "uk": "Лаура приходить на прийом до консультанта Patronato (Operatore CAF) за попереднім записом, щоб оформити Assegno Unico на 3-річну доньку.",
+    "en": "Laura arrives for an appointment with a Patronato consultant (Operatore CAF) to apply for Assegno Unico for her 3-year-old daughter.",
+    "es": "Laura acude a una cita con un consultor del Patronato (Operatore CAF) para tramitar el Assegno Unico para su hija de 3 años.",
+    "fr": "Laura se présente à un rendez-vous chez un conseiller du Patronato (Operatore CAF) pour demander l’Assegno Unico pour sa fille de 3 ans.",
+    "ro": "Laura vine la programare la un consultant Patronato (Operatore CAF) pentru a solicita Assegno Unico pentru fiica ei de 3 ani."
+  },
   "dialogue": [
     {
       "step": 1,
@@ -12,24 +30,66 @@
       "options": [
         {
           "text": "No, non ho appuntamento. Passavo per caso, faccio tutto adesso.",
-          "translation": "Ні, запису немає. Я зайшла випадково, зроблю все зараз.",
+          "translation": {
+            "uk": "Ні, запису немає. Я зайшла випадково, зроблю все зараз.",
+            "en": "No, I don't have an appointment. I was just passing by; I'll do everything now.",
+            "es": "No, no tengo cita. Pasaba por casualidad, lo hago todo ahora.",
+            "fr": "Non, je n'ai pas de rendez-vous. Je passais par hasard, je fais tout maintenant.",
+            "ro": "Nu, nu am programare. Treceam întâmplător, fac totul acum."
+          },
           "isCorrect": false,
-          "feedback": "У Patronato зазвичай працюють за записом; треба підтвердити prenotazione."
+          "feedback": {
+            "uk": "Ні, запису немає. Я зайшла випадково, зроблю все зараз.",
+            "en": "No, I don't have an appointment. I was just passing by; I'll do everything now.",
+            "es": "No, no tengo cita. Pasaba por casualidad, lo hago todo ahora.",
+            "fr": "Non, je n'ai pas de rendez-vous. Je passais par hasard, je fais tout maintenant.",
+            "ro": "Nu, nu am programare. Treceam întâmplător, fac totul acum."
+          }
         },
         {
           "text": "Ciao, voglio i soldi per la spesa.",
-          "translation": "Привіт, хочу гроші на продукти.",
+          "translation": {
+            "uk": "Привіт, хочу гроші на продукти.",
+            "en": "Hi, I want money for groceries.",
+            "es": "Hola, quiero dinero para la compra.",
+            "fr": "Salut, je veux de l'argent pour les courses.",
+            "ro": "Salut, vreau bani pentru cumpărături."
+          },
           "isCorrect": false,
-          "feedback": "Спілкування у соціальних службах вимагає ввічливого тону."
+          "feedback": {
+            "uk": "Привіт, хочу гроші на продукти.",
+            "en": "Hi, I want money for groceries.",
+            "es": "Hola, quiero dinero para la compra.",
+            "fr": "Salut, je veux de l'argent pour les courses.",
+            "ro": "Salut, vreau bani pentru cumpărături."
+          }
         },
         {
           "text": "Buongiorno! Sì, esattamente. Ho la prenotazione per le 10:00.",
-          "translation": "Доброго дня! Так, саме так. У мене бронювання на 10:00.",
+          "translation": {
+            "uk": "Доброго дня! Так, саме так. У мене бронювання на 10:00.",
+            "en": "Good morning! Yes, exactly. I have a booking for 10:00.",
+            "es": "¡Buenos días! Sí, exactamente. Tengo reserva para las 10:00.",
+            "fr": "Bonjour ! Oui, exactement. J'ai une réservation pour 10 h.",
+            "ro": "Bună dimineața! Da, exact. Am rezervare la 10:00."
+          },
           "isCorrect": true,
-          "feedback": "Чудово! Ви підтвердили свій запис на прийом."
+          "feedback": {
+            "uk": "Доброго дня! Так, саме так. У мене бронювання на 10:00.",
+            "en": "Good morning! Yes, exactly. I have a booking for 10:00.",
+            "es": "¡Buenos días! Sí, exactamente. Tengo reserva para las 10:00.",
+            "fr": "Bonjour ! Oui, exactement. J'ai une réservation pour 10 h.",
+            "ro": "Bună dimineața! Da, exact. Am rezervare la 10:00."
+          }
         }
       ],
-      "translation": "Доброго дня, синьйоро! Прошу, сідайте. У вас був запис на ім’я Лаура?"
+      "translation": {
+        "uk": "Доброго дня, синьйоро! Прошу, сідайте. У вас був запис на ім’я Лаура?",
+        "en": "Good morning, ma'am! Please, take a seat. Did you have an appointment under the name Laura?",
+        "es": "¡Buenos días, señora! Por favor, siéntese. ¿Tenía cita a nombre de Laura?",
+        "fr": "Bonjour Madame ! Je vous en prie, asseyez-vous. Vous aviez rendez-vous au nom de Laura ?",
+        "ro": "Bună dimineața, doamnă! Vă rog, luați loc. Aveați programare pe numele Laura?"
+      }
     },
     {
       "step": 2,
@@ -38,24 +98,66 @@
       "options": [
         {
           "text": "Vorrei solo una copia della carta d’identità, niente pratiche.",
-          "translation": "Хочу лише копію посвідчення особи, без жодних заяв.",
+          "translation": {
+            "uk": "Хочу лише копію посвідчення особи, без жодних заяв.",
+            "en": "I'd just like a copy of the identity card, no paperwork.",
+            "es": "Solo quiero una copia del documento de identidad, sin trámites.",
+            "fr": "Je voudrais seulement une copie de la carte d'identité, pas de dossiers.",
+            "ro": "Aș vrea doar o copie a cărții de identitate, fără dosare."
+          },
           "isCorrect": false,
-          "feedback": "Тут оформлюють соціальні заяви, наприклад Assegno Unico, не ксерокопії."
+          "feedback": {
+            "uk": "Хочу лише копію посвідчення особи, без жодних заяв.",
+            "en": "I'd just like a copy of the identity card, no paperwork.",
+            "es": "Solo quiero una copia del documento de identidad, sin trámites.",
+            "fr": "Je voudrais seulement une copie de la carte d'identité, pas de dossiers.",
+            "ro": "Aș vrea doar o copie a cărții de identitate, fără dosare."
+          }
         },
         {
           "text": "Vorrei fare la domanda per l'Assegno Unico per mia figlia di 3 anni. Ho già fatto l'ISEE.",
-          "translation": "Я хотіла б подати заяву на Assegno Unico для моєї 3-річної доньки. ISEE я вже зробила.",
+          "translation": {
+            "uk": "Я хотіла б подати заяву на Assegno Unico для моєї 3-річної доньки. ISEE я вже зробила.",
+            "en": "I'd like to apply for Assegno Unico for my 3-year-old daughter. I've already done the ISEE.",
+            "es": "Quisiera presentar la solicitud del Assegno Unico para mi hija de 3 años. Ya he hecho el ISEE.",
+            "fr": "Je voudrais faire la demande d'Assegno Unico pour ma fille de 3 ans. J'ai déjà fait l'ISEE.",
+            "ro": "Aș vrea să depun cererea pentru Assegno Unico pentru fiica mea de 3 ani. Am făcut deja ISEE."
+          },
           "isCorrect": true,
-          "feedback": "Ідеально! Ви чітко пояснили мету візиту та згадали наявність ISEE."
+          "feedback": {
+            "uk": "Я хотіла б подати заяву на Assegno Unico для моєї 3-річної доньки. ISEE я вже зробила.",
+            "en": "I'd like to apply for Assegno Unico for my 3-year-old daughter. I've already done the ISEE.",
+            "es": "Quisiera presentar la solicitud del Assegno Unico para mi hija de 3 años. Ya he hecho el ISEE.",
+            "fr": "Je voudrais faire la demande d'Assegno Unico pour ma fille de 3 ans. J'ai déjà fait l'ISEE.",
+            "ro": "Aș vrea să depun cererea pentru Assegno Unico pentru fiica mea de 3 ani. Am făcut deja ISEE."
+          }
         },
         {
           "text": "Devo spedire un pacco in Ucraina.",
-          "translation": "Мені треба відправити посилку в Україну.",
+          "translation": {
+            "uk": "Мені треба відправити посилку в Україну.",
+            "en": "I need to send a parcel to Ukraine.",
+            "es": "Tengo que enviar un paquete a Ucrania.",
+            "fr": "Je dois envoyer un colis en Ukraine.",
+            "ro": "Trebuie să trimit un colet în Ucraina."
+          },
           "isCorrect": false,
-          "feedback": "Відправкою посилок займається пошта (Poste Italiane), а не Patronato."
+          "feedback": {
+            "uk": "Мені треба відправити посилку в Україну.",
+            "en": "I need to send a parcel to Ukraine.",
+            "es": "Tengo que enviar un paquete a Ucrania.",
+            "fr": "Je dois envoyer un colis en Ukraine.",
+            "ro": "Trebuie să trimit un colet în Ucraina."
+          }
         }
       ],
-      "translation": "Добре. Чим сьогодні можу допомогти?"
+      "translation": {
+        "uk": "Добре. Чим сьогодні можу допомогти?",
+        "en": "Good. How can I help you today?",
+        "es": "Bien. ¿En qué puedo ayudarla hoy?",
+        "fr": "Bien. En quoi puis-je vous aider aujourd'hui ?",
+        "ro": "Bine. Cu ce vă pot ajuta astăzi?"
+      }
     },
     {
       "step": 3,
@@ -64,24 +166,66 @@
       "options": [
         {
           "text": "Certamente! Ecco la mia Carta d'Identità, il Codice Fiscale mio e di mia figlia, e il modello ISEE.",
-          "translation": "Звісно! Ось моє посвідчення особи, мій код фіскале і доньки, і модель ISEE.",
+          "translation": {
+            "uk": "Звісно! Ось моє посвідчення особи, мій код фіскале і доньки, і модель ISEE.",
+            "en": "Of course! Here's my identity card, my Codice Fiscale and my daughter's, and the ISEE form.",
+            "es": "¡Por supuesto! Aquí está mi Carta d'Identità, el Codice Fiscale mío y de mi hija, y el modello ISEE.",
+            "fr": "Bien sûr ! Voici ma Carta d'Identità, le Codice Fiscale à moi et à ma fille, et le modello ISEE.",
+            "ro": "Desigur! Iată Carta d'Identità, Codice Fiscale al meu și al fiicei, și modello ISEE."
+          },
           "isCorrect": true,
-          "feedback": "Чудово! Ви надали весь необхідний пакет документів."
+          "feedback": {
+            "uk": "Звісно! Ось моє посвідчення особи, мій код фіскале і доньки, і модель ISEE.",
+            "en": "Of course! Here's my identity card, my Codice Fiscale and my daughter's, and the ISEE form.",
+            "es": "¡Por supuesto! Aquí está mi Carta d'Identità, el Codice Fiscale mío y de mi hija, y el modello ISEE.",
+            "fr": "Bien sûr ! Voici ma Carta d'Identità, le Codice Fiscale à moi et à ma fille, et le modello ISEE.",
+            "ro": "Desigur! Iată Carta d'Identità, Codice Fiscale al meu și al fiicei, și modello ISEE."
+          }
         },
         {
           "text": "Non ho nessun documento con me.",
-          "translation": "У мене з собою немає жодного документа.",
+          "translation": {
+            "uk": "У мене з собою немає жодного документа.",
+            "en": "I don't have any documents with me.",
+            "es": "No tengo ningún documento conmigo.",
+            "fr": "Je n'ai aucun document sur moi.",
+            "ro": "Nu am niciun document la mine."
+          },
           "isCorrect": false,
-          "feedback": "Без документів консультант не зможе зареєструвати заявку в системі INPS."
+          "feedback": {
+            "uk": "У мене з собою немає жодного документа.",
+            "en": "I don't have any documents with me.",
+            "es": "No tengo ningún documento conmigo.",
+            "fr": "Je n'ai aucun document sur moi.",
+            "ro": "Nu am niciun document la mine."
+          }
         },
         {
           "text": "Ho solo lo scontrino del bar, i documenti sono in auto.",
-          "translation": "У мене лише чек із бару, документи в машині.",
+          "translation": {
+            "uk": "У мене лише чек із бару, документи в машині.",
+            "en": "I only have the café receipt; the documents are in the car.",
+            "es": "Solo tengo el ticket del bar, los documentos están en el coche.",
+            "fr": "Je n'ai que le ticket du bar, les documents sont dans la voiture.",
+            "ro": "Am doar bonul de la bar, documentele sunt în mașină."
+          },
           "isCorrect": false,
-          "feedback": "Потрібні документи батьків і дитини, ISEE і коди fiscale."
+          "feedback": {
+            "uk": "У мене лише чек із бару, документи в машині.",
+            "en": "I only have the café receipt; the documents are in the car.",
+            "es": "Solo tengo el ticket del bar, los documentos están en el coche.",
+            "fr": "Je n'ai que le ticket du bar, les documents sont dans la voiture.",
+            "ro": "Am doar bonul de la bar, documentele sunt în mașină."
+          }
         }
       ],
-      "translation": "Чудово! Якщо ISEE вже є, усе простіше. Покажете документи й коди fiscale?"
+      "translation": {
+        "uk": "Чудово! Якщо ISEE вже є, усе простіше. Покажете документи й коди fiscale?",
+        "en": "Great! If you already have the ISEE, everything is simpler. Can you show me the ID documents and the tax codes?",
+        "es": "¡Estupendo! Si ya tiene el ISEE, todo es más sencillo. ¿Me muestra los documentos de identidad y los codici fiscali?",
+        "fr": "Parfait ! Si vous avez déjà l'ISEE, tout est plus simple. Vous me montrez les pièces d'identité et les codici fiscali ?",
+        "ro": "Excelent! Dacă aveți deja ISEE, totul e mai simplu. Îmi arătați actele de identitate și codici fiscali?"
+      }
     },
     {
       "step": 4,
@@ -90,24 +234,66 @@
       "options": [
         {
           "text": "Pago in contanti alla cassa.",
-          "translation": "Плачу готівкою на касі.",
+          "translation": {
+            "uk": "Плачу готівкою на касі.",
+            "en": "I'll pay in cash at the till.",
+            "es": "Pago en efectivo en caja.",
+            "fr": "Je paie en espèces à la caisse.",
+            "ro": "Plătesc cu numerar la casă."
+          },
           "isCorrect": false,
-          "feedback": "Соціальні допомоги в Італії виплачуються безпосередньо на банківський рахунок (IBAN)."
+          "feedback": {
+            "uk": "Плачу готівкою на касі.",
+            "en": "I'll pay in cash at the till.",
+            "es": "Pago en efectivo en caja.",
+            "fr": "Je paie en espèces à la caisse.",
+            "ro": "Plătesc cu numerar la casă."
+          }
         },
         {
           "text": "L’IBAN è di un amico, lui ritira i soldi per me.",
-          "translation": "IBAN друга, він отримує гроші за мене.",
+          "translation": {
+            "uk": "IBAN друга, він отримує гроші за мене.",
+            "en": "The IBAN belongs to a friend; he collects the money for me.",
+            "es": "El IBAN es de un amigo, él cobra el dinero por mí.",
+            "fr": "L'IBAN est à un ami, c'est lui qui retire l'argent pour moi.",
+            "ro": "IBAN-ul e al unui prieten, el ridică banii pentru mine."
+          },
           "isCorrect": false,
-          "feedback": "Рахунок для виплати має бути на ім’я заявника."
+          "feedback": {
+            "uk": "IBAN друга, він отримує гроші за мене.",
+            "en": "The IBAN belongs to a friend; he collects the money for me.",
+            "es": "El IBAN es de un amigo, él cobra el dinero por mí.",
+            "fr": "L'IBAN est à un ami, c'est lui qui retire l'argent pour moi.",
+            "ro": "IBAN-ul e al unui prieten, el ridică banii pentru mine."
+          }
         },
         {
           "text": "Sì, il conto è intestato a me. Ecco il codice IBAN del mio conto bancario.",
-          "translation": "Так, рахунок на моє ім’я. Ось код IBAN мого банківського рахунку.",
+          "translation": {
+            "uk": "Так, рахунок на моє ім’я. Ось код IBAN мого банківського рахунку.",
+            "en": "Yes, the account is in my name. Here's the IBAN of my bank account.",
+            "es": "Sí, la cuenta está a mi nombre. Aquí está el código IBAN de mi cuenta bancaria.",
+            "fr": "Oui, le compte est à mon nom. Voici le code IBAN de mon compte bancaire.",
+            "ro": "Da, contul e pe numele meu. Iată codul IBAN al contului meu bancar."
+          },
           "isCorrect": true,
-          "feedback": "Правильно! Ви підтвердили власнику рахунку та надали IBAN."
+          "feedback": {
+            "uk": "Так, рахунок на моє ім’я. Ось код IBAN мого банківського рахунку.",
+            "en": "Yes, the account is in my name. Here's the IBAN of my bank account.",
+            "es": "Sí, la cuenta está a mi nombre. Aquí está el código IBAN de mi cuenta bancaria.",
+            "fr": "Oui, le compte est à mon nom. Voici le code IBAN de mon compte bancaire.",
+            "ro": "Da, contul e pe numele meu. Iată codul IBAN al contului meu bancar."
+          }
         }
       ],
-      "translation": "Чудово. Потрібен також IBAN вашого поточного рахунку для щомісячної виплати. Він на ваше ім’я?"
+      "translation": {
+        "uk": "Чудово. Потрібен також IBAN вашого поточного рахунку для щомісячної виплати. Він на ваше ім’я?",
+        "en": "Perfect. I also need the IBAN of your current account for the monthly payment. Is it in your name?",
+        "es": "Perfecto. También necesito el IBAN de su cuenta corriente para el pago mensual. ¿Está a su nombre?",
+        "fr": "Parfait. Il me faut aussi l'IBAN de votre compte courant pour le versement mensuel. Est-il à votre nom ?",
+        "ro": "Perfect. Îmi trebuie și IBAN-ul contului dumneavoastră curent pentru plata lunară. Este pe numele dumneavoastră?"
+      }
     },
     {
       "step": 5,
@@ -116,24 +302,66 @@
       "options": [
         {
           "text": "Va benissimo, dove devo firmare?",
-          "translation": "Добре, де мені підписати?",
+          "translation": {
+            "uk": "Добре, де мені підписати?",
+            "en": "That's fine, where do I sign?",
+            "es": "Perfecto, ¿dónde debo firmar?",
+            "fr": "Très bien, où dois-je signer ?",
+            "ro": "Foarte bine, unde trebuie să semnez?"
+          },
           "isCorrect": true,
-          "feedback": "Чудово! Ви готові підписати документи."
+          "feedback": {
+            "uk": "Добре, де мені підписати?",
+            "en": "That's fine, where do I sign?",
+            "es": "Perfecto, ¿dónde debo firmar?",
+            "fr": "Très bien, où dois-je signer ?",
+            "ro": "Foarte bine, unde trebuie să semnez?"
+          }
         },
         {
           "text": "Firmi lei al posto mio, io ho fretta.",
-          "translation": "Підпишіть ви замість мене, я поспішаю.",
+          "translation": {
+            "uk": "Підпишіть ви замість мене, я поспішаю.",
+            "en": "You sign for me; I'm in a hurry.",
+            "es": "Firme usted por mí, tengo prisa.",
+            "fr": "Signez à ma place, je suis pressé.",
+            "ro": "Semnați dumneavoastră în locul meu, mă grăbesc."
+          },
           "isCorrect": false,
-          "feedback": "Підпис має поставити заявник, не оператор замість вас."
+          "feedback": {
+            "uk": "Підпишіть ви замість мене, я поспішаю.",
+            "en": "You sign for me; I'm in a hurry.",
+            "es": "Firme usted por mí, tengo prisa.",
+            "fr": "Signez à ma place, je suis pressé.",
+            "ro": "Semnați dumneavoastră în locul meu, mă grăbesc."
+          }
         },
         {
           "text": "Non firmo niente senza il notaio e tre testimoni.",
-          "translation": "Нічого не підписую без нотаріуса і трьох свідків.",
+          "translation": {
+            "uk": "Нічого не підписую без нотаріуса і трьох свідків.",
+            "en": "I won't sign anything without a notary and three witnesses.",
+            "es": "No firmo nada sin notario y tres testigos.",
+            "fr": "Je ne signe rien sans notaire et trois témoins.",
+            "ro": "Nu semnez nimic fără notar și trei martori."
+          },
           "isCorrect": false,
-          "feedback": "У Patronato підписують ricevuta і delega на місці, без нотаріуса."
+          "feedback": {
+            "uk": "Нічого не підписую без нотаріуса і трьох свідків.",
+            "en": "I won't sign anything without a notary and three witnesses.",
+            "es": "No firmo nada sin notario y tres testigos.",
+            "fr": "Je ne signe rien sans notaire et trois témoins.",
+            "ro": "Nu semnez nimic fără notar și trei martori."
+          }
         }
       ],
-      "translation": "Дуже добре. Вношу дані в систему INPS. Потрібно лише підписати цю квитанцію і бланк доручення."
+      "translation": {
+        "uk": "Дуже добре. Вношу дані в систему INPS. Потрібно лише підписати цю квитанцію і бланк доручення.",
+        "en": "Very good. I'm entering the data in the INPS system. You only need to sign this receipt and the authorization form.",
+        "es": "Muy bien. Estoy introduciendo los datos en el sistema INPS. Solo tiene que firmar este recibo y el formulario de delega.",
+        "fr": "Très bien. J'entre les données dans le système INPS. Vous n'avez qu'à signer ce reçu et le formulaire de delega.",
+        "ro": "Foarte bine. Introduc datele în sistemul INPS. Trebuie doar să semnați această chitanță și formularul de delega."
+      }
     },
     {
       "step": 6,
@@ -142,25 +370,73 @@
       "options": [
         {
           "text": "I soldi arrivano oggi in contanti, vero? Li aspetto qui.",
-          "translation": "Гроші прийдуть сьогодні готівкою, так? Почекаю тут.",
+          "translation": {
+            "uk": "Гроші прийдуть сьогодні готівкою, так? Почекаю тут.",
+            "en": "The money arrives today in cash, right? I'll wait here.",
+            "es": "El dinero llega hoy en efectivo, ¿verdad? Lo espero aquí.",
+            "fr": "L'argent arrive aujourd'hui en espèces, n'est-ce pas ? Je l'attends ici.",
+            "ro": "Banii sosesc azi cash, nu-i așa? Îi aștept aici."
+          },
           "isCorrect": false,
-          "feedback": "Виплата йде на IBAN наступного місяця, не готівкою одразу."
+          "feedback": {
+            "uk": "Гроші прийдуть сьогодні готівкою, так? Почекаю тут.",
+            "en": "The money arrives today in cash, right? I'll wait here.",
+            "es": "El dinero llega hoy en efectivo, ¿verdad? Lo espero aquí.",
+            "fr": "L'argent arrive aujourd'hui en espèces, n'est-ce pas ? Je l'attends ici.",
+            "ro": "Banii sosesc azi cash, nu-i așa? Îi aștept aici."
+          }
         },
         {
           "text": "La ringrazio molto per l'aiuto! Buona giornata e buon lavoro.",
-          "translation": "Щиро дякую за допомогу! Гарного дня і успіхів у роботі.",
+          "translation": {
+            "uk": "Щиро дякую за допомогу! Гарного дня і успіхів у роботі.",
+            "en": "Thank you very much for your help! Have a good day and good luck with your work.",
+            "es": "¡Muchas gracias por la ayuda! Buen día y buen trabajo.",
+            "fr": "Je vous remercie beaucoup pour l'aide ! Bonne journée et bon travail.",
+            "ro": "Vă mulțumesc mult pentru ajutor! O zi bună și spor la muncă."
+          },
           "isCorrect": true,
-          "feedback": "Ввічливий і професійний фінал розмови!"
+          "feedback": {
+            "uk": "Щиро дякую за допомогу! Гарного дня і успіхів у роботі.",
+            "en": "Thank you very much for your help! Have a good day and good luck with your work.",
+            "es": "¡Muchas gracias por la ayuda! Buen día y buen trabajo.",
+            "fr": "Je vous remercie beaucoup pour l'aide ! Bonne journée et bon travail.",
+            "ro": "Vă mulțumesc mult pentru ajutor! O zi bună și spor la muncă."
+          }
         },
         {
           "text": "Mandi l’Assegno Unico a un altro CAF, cambio idea.",
-          "translation": "Надішліть Assegno Unico в інший CAF, я передумала.",
+          "translation": {
+            "uk": "Надішліть Assegno Unico в інший CAF, я передумала.",
+            "en": "Send the Assegno Unico to another CAF; I've changed my mind.",
+            "es": "Mande el Assegno Unico a otro CAF, cambio de idea.",
+            "fr": "Envoyez l'Assegno Unico à un autre CAF, je change d'avis.",
+            "ro": "Trimiteți Assegno Unico la alt CAF, m-am răzgândit."
+          },
           "isCorrect": false,
-          "feedback": "Заяву вже подано; ввічливо подякувати і піти."
+          "feedback": {
+            "uk": "Надішліть Assegno Unico в інший CAF, я передумала.",
+            "en": "Send the Assegno Unico to another CAF; I've changed my mind.",
+            "es": "Mande el Assegno Unico a otro CAF, cambio de idea.",
+            "fr": "Envoyez l'Assegno Unico à un autre CAF, je change d'avis.",
+            "ro": "Trimiteți Assegno Unico la alt CAF, m-am răzgândit."
+          }
         }
       ],
-      "translation": "Ось копія надісланої заяви. Виплата надійде наступного місяця на ваш рахунок. Гарного дня!"
+      "translation": {
+        "uk": "Ось копія надісланої заяви. Виплата надійде наступного місяця на ваш рахунок. Гарного дня!",
+        "en": "Here's a copy of the submitted application. The payment will arrive next month in your account. Have a good day!",
+        "es": "Aquí tiene la copia de la solicitud enviada. El pago llegará el mes que viene a su cuenta. ¡Buen día!",
+        "fr": "Voici la copie de la demande envoyée. Le paiement arrivera le mois prochain sur votre compte. Bonne journée !",
+        "ro": "Iată copia cererii trimise. Plata va ajunge luna viitoare în contul dumneavoastră. O zi bună!"
+      }
     }
   ],
-  "culturaTip": "Більшість дитячих виплат та пільг обробляються державним органом INPS (Istituto Nazionale della Previdenza Sociale), а Patronato є офіційним посередником у передачі документів."
+  "culturaTip": {
+    "uk": "Більшість дитячих виплат та пільг обробляються державним органом INPS (Istituto Nazionale della Previdenza Sociale), а Patronato є офіційним посередником у передачі документів.",
+    "en": "Most child benefits and allowances are processed by INPS (Istituto Nazionale della Previdenza Sociale); the Patronato is the official intermediary for submitting documents.",
+    "es": "La mayoría de las prestaciones y ayudas por hijos las gestiona el organismo estatal INPS (Istituto Nazionale della Previdenza Sociale); el Patronato es el intermediario oficial para entregar documentos.",
+    "fr": "La plupart des allocations et aides pour enfants sont traitées par l’INPS (Istituto Nazionale della Previdenza Sociale) ; le Patronato est l’intermédiaire officiel pour transmettre les documents.",
+    "ro": "Majoritatea alocațiilor și ajutoarelor pentru copii sunt procesate de instituția de stat INPS (Istituto Nazionale della Previdenza Sociale), iar Patronato este intermediarul oficial pentru transmiterea documentelor."
+  }
 }

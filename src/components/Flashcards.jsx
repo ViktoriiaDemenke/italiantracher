@@ -2,10 +2,11 @@ import { useMemo, useState } from 'react'
 import SpeakButton from './SpeakButton.jsx'
 import { shuffleList } from '../learn/practice.js'
 import { useI18n } from '../i18n.js'
+import { resolveContentText } from '../content/localize.js'
 import './Learn.css'
 
 export default function Flashcards({ deck }) {
-  const { t } = useI18n()
+  const { t, locale } = useI18n()
   const [order, setOrder] = useState(() => deck.map((_, index) => index))
   const [index, setIndex] = useState(0)
   const [flipped, setFlipped] = useState(false)
@@ -54,9 +55,13 @@ export default function Flashcards({ deck }) {
           </span>
           <span className="flip-card__face flip-card__face--back">
             <span className="flip-card__kicker">{t('translation')}</span>
-            <span className="flip-card__uk">{card.translation || card.uk || '—'}</span>
+            <span className="flip-card__uk">
+              {resolveContentText(card.translation ?? card.uk, locale) || '—'}
+            </span>
             {card.hint ? (
-              <span className="flip-card__context">{card.hint}</span>
+              <span className="flip-card__context">
+                {resolveContentText(card.hint, locale)}
+              </span>
             ) : null}
           </span>
         </span>

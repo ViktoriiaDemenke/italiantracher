@@ -2,22 +2,26 @@ import { useState } from 'react'
 import SpeakButton from './SpeakButton.jsx'
 import { DEFAULT_SPEECH_RATE, FAST_SPEECH_RATE } from '../lib/speech.js'
 import { useI18n } from '../i18n.js'
+import { resolveContentText } from '../content/localize.js'
 
 export default function PhraseCard({ phrase, onChoose, hideTranslation = false }) {
-  const { t } = useI18n()
+  const { t, locale } = useI18n()
   const [slow, setSlow] = useState(true)
   const [showUk, setShowUk] = useState(false)
   const rate = slow ? DEFAULT_SPEECH_RATE : FAST_SPEECH_RATE
+  const translated = resolveContentText(phrase.translation ?? phrase.uk, locale)
 
   return (
     <article className={`phrase-card${onChoose ? ' phrase-card--choice' : ''}`}>
-      {phrase.hint ? <p className="phrase-card__hint">{phrase.hint}</p> : null}
+      {phrase.hint ? (
+        <p className="phrase-card__hint">{resolveContentText(phrase.hint, locale)}</p>
+      ) : null}
       <div className="it-line">
         <p className="phrase-card__it">{phrase.it}</p>
         <SpeakButton text={phrase.it} rate={rate} />
       </div>
-      {!hideTranslation && showUk ? (
-        <p className="phrase-card__uk">{phrase.uk}</p>
+      {!hideTranslation && showUk && translated ? (
+        <p className="phrase-card__uk">{translated}</p>
       ) : null}
 
       {onChoose ? (

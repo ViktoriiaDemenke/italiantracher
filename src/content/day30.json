@@ -1,66 +1,156 @@
 {
   "day": 30,
-  "title": "Boss Level 🏆: Симуляція візиту в салон краси (для чоловіків та жінок)",
+  "title": {
+    "uk": "Boss Level 🏆: Симуляція візиту в салон краси (для чоловіків та жінок)",
+    "en": "Boss Level 🏆: Simulation of a beauty salon visit (for men and women)",
+    "es": "Boss Level 🏆: Simulación de una visita al salón de belleza (hombres y mujeres)",
+    "fr": "Boss Level 🏆 : Simulation d’une visite au salon de beauté (hommes et femmes)",
+    "ro": "Boss Level 🏆: Simulare de vizită la salon (pentru bărbați și femei)"
+  },
   "module": "Salone di Bellezza: Parrucchiere e Manicure",
-  "type": "Boss Level Simulation",
-  "story": "Фінальний іспит модуля! Ви самостійно записуєтеся в салон краси, пояснюєте майстру бажану стрижку, догляд за бородою, форму нігтів та покриття. Підказки та переклад вимкнено!",
+  "type": {
+    "uk": "Симуляція бос-рівня",
+    "en": "Boss Level Simulation",
+    "es": "Simulación de nivel jefe",
+    "fr": "Simulation Boss Level",
+    "ro": "Simulare nivel boss"
+  },
+  "story": {
+    "uk": "Фінальний іспит модуля! Ви самостійно записуєтеся в салон краси, пояснюєте майстру бажану стрижку, догляд за бородою, форму нігтів та покриття. Підказки та переклад вимкнено!",
+    "en": "Final exam of the module! You book a salon yourself and explain the haircut, beard care, nail shape and polish you want. Hints and translation are off!",
+    "es": "¡Examen final del módulo! Te citas por tu cuenta en el salón y explicas el corte, el cuidado de la barba, la forma de las uñas y el esmalte. ¡Pistas y traducción desactivadas!",
+    "fr": "Examen final du module ! Vous prenez rendez-vous seul et expliquez la coupe, le soin de barbe, la forme des ongles et le vernis souhaités. Indices et traduction désactivés !",
+    "ro": "Examenul final al modulului! Te programezi singur la salon și explici tunsoarea, îngrijirea bărbii, forma unghiilor și acoperirea dorite. Indiciile și traducerea sunt dezactivate!"
+  },
   "questions": [
     {
       "id": "p1",
-      "question": "Як італійською ввічливо сказати 'Я б хотів(ла) записатися на прийом'?",
+      "question": {
+        "uk": "Як італійською ввічливо сказати 'Я б хотів(ла) записатися на прийом'?",
+        "en": "How do you politely say in Italian “I would like to book an appointment”?",
+        "es": "¿Cómo se dice con educación en italiano «Me gustaría pedir cita»?",
+        "fr": "Comment dire poliment en italien « Je voudrais prendre rendez-vous » ?",
+        "ro": "Cum spui politicos în italiană «Aș dori să mă programez»?"
+      },
       "options": [
         "Vorrei prendere un appuntamento.",
         "Devo convalidare lo scontrino.",
         "Quanto costa l'affitto al mese?"
       ],
       "correctAnswer": 0,
-      "explanation": "'Prendere un appuntamento' — це стандартна фраза для запису."
+      "explanation": {
+        "uk": "'Prendere un appuntamento' — це стандартна фраза для запису.",
+        "en": "'Prendere un appuntamento' is the standard phrase for booking.",
+        "es": "'Prendere un appuntamento' es la frase habitual para citarse.",
+        "fr": "'Prendere un appuntamento' est la formule standard pour un rendez-vous.",
+        "ro": "'Prendere un appuntamento' este fraza standard pentru programare."
+      }
     },
     {
       "id": "p2",
-      "question": "Як чоловікові попросити вкоротити волосся з боків та підрівняти бороду?",
+      "question": {
+        "uk": "Як чоловікові попросити вкоротити волосся з боків та підрівняти бороду?",
+        "en": "How should a man ask to shorten the hair on the sides and tidy the beard?",
+        "es": "¿Cómo pide un hombre acortar el pelo de los laterales e igualar la barba?",
+        "fr": "Comment un homme demande-t-il de raccourcir les côtés et d’égaliser la barbe ?",
+        "ro": "Cum cere un bărbat să scurteze părul pe laterale și să îndrepte barba?"
+      },
       "options": [
         "Vorrei accorciare i capelli ai lati e regolare la barba.",
         "Vorrei un cappuccino con latte di avena.",
         "Mi serve il codice fiscale per la detrazione."
       ],
       "correctAnswer": 0,
-      "explanation": "'Accorciare ai lati' (вкоротити з боків) та 'regolare la barba' (підрівняти бороду)."
+      "explanation": {
+        "uk": "'Accorciare ai lati' (вкоротити з боків) та 'regolare la barba' (підрівняти бороду).",
+        "en": "'Accorciare ai lati' (shorten the sides) and 'regolare la barba' (tidy the beard).",
+        "es": "'Accorciare ai lati' (acortar los laterales) y 'regolare la barba' (igualar la barba).",
+        "fr": "'Accorciare ai lati' (raccourcir sur les côtés) et 'regolare la barba' (égaliser la barbe).",
+        "ro": "'Accorciare ai lati' (a scurta pe laterale) și 'regolare la barba' (a îndrepta barba)."
+      }
     },
     {
       "id": "p3",
-      "question": "Що означає слово 'Spuntare' стосовно волосся?",
+      "question": {
+        "uk": "Що означає слово 'Spuntare' стосовно волосся?",
+        "en": "What does 'Spuntare' mean for hair?",
+        "es": "¿Qué significa 'Spuntare' referido al pelo?",
+        "fr": "Que signifie 'Spuntare' pour les cheveux ?",
+        "ro": "Ce înseamnă 'Spuntare' în legătură cu părul?"
+      },
       "options": [
         "Тільки трохи підрівняти/підрізати кінчики.",
         "Пофарбувати волосся в зелений колір.",
         "Повністю збрити волосся."
       ],
       "correctAnswer": 0,
-      "explanation": "'Spuntare' означає зрізати лише самі кінчики (le punte)."
+      "explanation": {
+        "uk": "'Spuntare' означає зрізати лише самі кінчики (le punte).",
+        "en": "'Spuntare' means cutting only the very ends (le punte).",
+        "es": "'Spuntare' significa cortar solo las puntas (le punte).",
+        "fr": "'Spuntare' signifie ne couper que les pointes (le punte).",
+        "ro": "'Spuntare' înseamnă să tai doar vârfurile (le punte)."
+      }
     },
     {
       "id": "p4",
-      "question": "Як сказати майстру манікюру, що потрібно зняти старий гель-лак?",
+      "question": {
+        "uk": "Як сказати майстру манікюру, що потрібно зняти старий гель-лак?",
+        "en": "How do you tell the nail technician that the old gel polish must be removed?",
+        "es": "¿Cómo se le dice a la manicurista que hay que quitar el esmalte semipermanente viejo?",
+        "fr": "Comment dire à la manucure qu’il faut retirer l’ancien vernis gel ?",
+        "ro": "Cum spui manichiuristei că trebuie scos gelul vechi?"
+      },
       "options": [
         "Devo togliere lo smalto semipermanente vecchio.",
         "Vorrei comprare un farmaco per la tosse.",
         "Da quale binario parte l'autobus?"
       ],
       "correctAnswer": 0,
-      "explanation": "'Togliere lo smalto vecchio' = зняти старий лак/покриття."
+      "explanation": {
+        "uk": "'Togliere lo smalto vecchio' = зняти старий лак/покриття.",
+        "en": "'Togliere lo smalto vecchio' = to remove the old polish/coating.",
+        "es": "'Togliere lo smalto vecchio' = quitar el esmalte/recubrimiento viejo.",
+        "fr": "'Togliere lo smalto vecchio' = enlever l’ancien vernis/gel.",
+        "ro": "'Togliere lo smalto vecchio' = a scoate oja/acoperirea veche."
+      }
     },
     {
       "id": "p5",
-      "question": "Що таке 'Piega' в італійському перукарському салоні?",
+      "question": {
+        "uk": "Що таке 'Piega' в італійському перукарському салоні?",
+        "en": "What is 'Piega' in an Italian hair salon?",
+        "es": "¿Qué es 'Piega' en una peluquería italiana?",
+        "fr": "Qu’est-ce que 'Piega' dans un salon de coiffure italien ?",
+        "ro": "Ce este 'Piega' într-un salon de coafură italian?"
+      },
       "options": [
         "Укладка феном після миття голови.",
         "Масаж ніг.",
         "Чистка обличчя."
       ],
       "correctAnswer": 0,
-      "explanation": "'Piega' — це укладка волосся."
+      "explanation": {
+        "uk": "'Piega' — це укладка волосся.",
+        "en": "'Piega' is hair styling (blow-dry).",
+        "es": "'Piega' es el peinado/brushing.",
+        "fr": "'Piega' est le brushing / mise en forme des cheveux.",
+        "ro": "'Piega' este coafarea părului."
+      }
     }
   ],
-  "successBadge": "Maestro di Stile e Bellezza 💇‍♂️💅",
-  "successMessage": "Вітаємо! Ви вдосконалили знання італійської лексики для салонів краси, вільно замовляєте стрижку, догляд за бородою, манікюр та укладку!"
+  "successBadge": {
+    "uk": "Майстер стилю та краси 💇‍♂️💅",
+    "en": "Style and beauty maestro 💇‍♂️💅",
+    "es": "Maestro de estilo y belleza 💇‍♂️💅",
+    "fr": "Maître du style et de la beauté 💇‍♂️💅",
+    "ro": "Maestru de stil și frumusețe 💇‍♂️💅"
+  },
+  "successMessage": {
+    "uk": "Вітаємо! Ви вдосконалили знання італійської лексики для салонів краси, вільно замовляєте стрижку, догляд за бородою, манікюр та укладку!",
+    "en": "Congratulations! You have improved Italian salon vocabulary and can order a haircut, beard care, manicure and styling with ease!",
+    "es": "¡Enhorabuena! Has mejorado el léxico italiano de salones y pides con soltura corte, cuidado de barba, manicura y peinado.",
+    "fr": "Félicitations ! Vous avez enrichi le lexique italien des salons et commandez facilement coupe, soin de barbe, manucure et brushing !",
+    "ro": "Felicitări! Ți-ai îmbunătățit lexicul italian pentru saloane și comanzi cu ușurință tuns, îngrijirea bărbii, manichiură și coafat!"
+  }
 }

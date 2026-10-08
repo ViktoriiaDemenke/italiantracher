@@ -1,9 +1,10 @@
 import SpeakButton from './SpeakButton.jsx'
 import { useI18n } from '../i18n.js'
+import { resolveContentText } from '../content/localize.js'
 import './Learn.css'
 
 export default function SavedPhrasesSheet({ open, phrases, onClose }) {
-  const { t } = useI18n()
+  const { t, locale } = useI18n()
   if (!open) return null
 
   return (
@@ -45,7 +46,11 @@ export default function SavedPhrasesSheet({ open, phrases, onClose }) {
                     <p className="card__title">{phrase.it}</p>
                     <SpeakButton text={phrase.it} />
                   </div>
-                  {phrase.uk ? <p className="card__subtitle">{phrase.uk}</p> : null}
+                  {resolveContentText(phrase.translation ?? phrase.uk, locale) ? (
+                    <p className="card__subtitle">
+                      {resolveContentText(phrase.translation ?? phrase.uk, locale)}
+                    </p>
+                  ) : null}
                 </div>
               </li>
             ))}

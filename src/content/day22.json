@@ -1,66 +1,226 @@
 {
   "day": 22,
-  "title": "У супермаркеті: Ваги, відділи та продукти",
+  "title": {
+    "uk": "У супермаркеті: Ваги, відділи та продукти",
+    "en": "At the supermarket: Scales, departments and products",
+    "es": "En el supermercado: básculas, secciones y productos",
+    "fr": "Au supermarché : balances, rayons et produits",
+    "ro": "La supermarket: cântare, raioane și produse"
+  },
   "module": "Fare la Spesa al Supermercato",
-  "type": "Immersion & Vocabulary",
-  "story": "Марко та Лаура йдуть до місцевого супермаркету в Тревізо, щоб закупити продукти на тиждень. В Італії є важливі правила купівельного етикету: овочі та фрукти обов'язково треба зважувати самостійно, надягаючи одноразові рукавички (guanti monouso), а біля гастрономічного відділу (banco gastronomia) часто потрібно брати номер у черзі (biglietto).",
+  "type": {
+    "uk": "Занурення та словник",
+    "en": "Immersion & Vocabulary",
+    "es": "Inmersión y vocabulario",
+    "fr": "Immersion et vocabulaire",
+    "ro": "Imersiune și vocabular"
+  },
+  "story": {
+    "uk": "Марко та Лаура йдуть до місцевого супермаркету в Тревізо, щоб закупити продукти на тиждень. В Італії є важливі правила купівельного етикету: овочі та фрукти обов'язково треба зважувати самостійно, надягаючи одноразові рукавички (guanti monouso), а біля гастрономічного відділу (banco gastronomia) часто потрібно брати номер у черзі (biglietto).",
+    "en": "Marco and Laura go to a local supermarket in Treviso to shop for the week. In Italy shopping etiquette matters: you must weigh fruit and vegetables yourself, wearing disposable gloves (guanti monouso), and at the deli counter (banco gastronomia) you often take a queue ticket (biglietto).",
+    "es": "Marco y Laura van a un supermercado de Treviso a comprar para la semana. En Italia hay reglas de etiqueta: hay que pesar fruta y verdura uno mismo, con guantes de un solo uso (guanti monouso), y en el mostrador de charcutería (banco gastronomia) a menudo hay que coger un número (biglietto).",
+    "fr": "Marco et Laura vont au supermarché de Treviso pour les courses de la semaine. En Italie, l’étiquette compte : il faut peser fruits et légumes soi-même, avec des gants jetables (guanti monouso), et au rayon traiteur (banco gastronomia) on prend souvent un ticket de file (biglietto).",
+    "ro": "Marco și Laura merg la un supermarket din Treviso pentru cumpărăturile săptămânii. În Italia există reguli de etichetă: fructele și legumele trebuie cântărite singur, cu mănuși de unică folosință (guanti monouso), iar la raionul de gastronomie (banco gastronomia) adesea trebuie luat un număr (biglietto)."
+  },
   "phrases": [
     {
       "italian": "Dove posso trovare l'olio d'oliva?",
-      "ukrainian": "Де я можу знайти оливкову олію?",
-      "translation": "Де я можу знайти оливкову олію?"
+      "ukrainian": {
+        "uk": "Де я можу знайти оливкову олію?",
+        "en": "Where can I find the olive oil?",
+        "es": "¿Dónde puedo encontrar el aceite de oliva?",
+        "fr": "Où puis-je trouver l'huile d'olive ?",
+        "ro": "Unde pot găsi uleiul de măsline?"
+      },
+      "translation": {
+        "uk": "Де я можу знайти оливкову олію?",
+        "en": "Where can I find the olive oil?",
+        "es": "¿Dónde puedo encontrar el aceite de oliva?",
+        "fr": "Où puis-je trouver l'huile d'olive ?",
+        "ro": "Unde pot găsi uleiul de măsline?"
+      }
     },
     {
       "italian": "Devo pesare la frutta qui o alla cassa?",
-      "ukrainian": "Мені потрібно зважувати фрукти тут чи на касі?",
-      "translation": "Мені потрібно зважувати фрукти тут чи на касі?"
+      "ukrainian": {
+        "uk": "Мені потрібно зважувати фрукти тут чи на касі?",
+        "en": "Do I weigh the fruit here or at the till?",
+        "es": "¿Debo pesar la fruta aquí o en caja?",
+        "fr": "Je dois peser les fruits ici ou à la caisse ?",
+        "ro": "Trebuie să cântăresc fructele aici sau la casă?"
+      },
+      "translation": {
+        "uk": "Мені потрібно зважувати фрукти тут чи на касі?",
+        "en": "Do I weigh the fruit here or at the till?",
+        "es": "¿Debo pesar la fruta aquí o en caja?",
+        "fr": "Je dois peser les fruits ici ou à la caisse ?",
+        "ro": "Trebuie să cântăresc fructele aici sau la casă?"
+      }
     },
     {
       "italian": "Vorrei duecento grammi di prosciutto crudo, per favore.",
-      "ukrainian": "Я б хотів(ла) двісті грамів прошутто крудо, будь ласка.",
-      "translation": "Я б хотів(ла) двісті грамів прошутто крудо, будь ласка."
+      "ukrainian": {
+        "uk": "Я б хотів(ла) двісті грамів прошутто крудо, будь ласка.",
+        "en": "I'd like two hundred grams of prosciutto crudo, please.",
+        "es": "Quisiera doscientos gramos de prosciutto crudo, por favor.",
+        "fr": "Je voudrais deux cents grammes de prosciutto crudo, s'il vous plaît.",
+        "ro": "Aș vrea două sute de grame de prosciutto crudo, vă rog."
+      },
+      "translation": {
+        "uk": "Я б хотів(ла) двісті грамів прошутто крудо, будь ласка.",
+        "en": "I'd like two hundred grams of prosciutto crudo, please.",
+        "es": "Quisiera doscientos gramos de prosciutto crudo, por favor.",
+        "fr": "Je voudrais deux cents grammes de prosciutto crudo, s'il vous plaît.",
+        "ro": "Aș vrea două sute de grame de prosciutto crudo, vă rog."
+      }
     },
     {
       "italian": "Ha la carta fedeltà / carta fidaty?",
-      "ukrainian": "У вас є картка лояльності / дисконтна картка?",
-      "translation": "У вас є картка лояльності / дисконтна картка?"
+      "ukrainian": {
+        "uk": "У вас є картка лояльності / дисконтна картка?",
+        "en": "Do you have a loyalty card / carta fidaty?",
+        "es": "¿Tiene la tarjeta de fidelidad / carta fidaty?",
+        "fr": "Vous avez la carte de fidélité / carta fidaty ?",
+        "ro": "Aveți cardul de fidelitate / carta fidaty?"
+      },
+      "translation": {
+        "uk": "У вас є картка лояльності / дисконтна картка?",
+        "en": "Do you have a loyalty card / carta fidaty?",
+        "es": "¿Tiene la tarjeta de fidelidad / carta fidaty?",
+        "fr": "Vous avez la carte de fidélité / carta fidaty ?",
+        "ro": "Aveți cardul de fidelitate / carta fidaty?"
+      }
     }
   ],
   "supermarketEtiquette": [
-    "Для вибору свіжих овочів та фруктів обов'язково одягайте пластикові рукавички (guanti) з гігієнічних міркувань.",
-    "На вагах зазвичай вказано номер товару, який ви бачите на ціннику (наприклад, Tasto 14). Вставляти номер треба самостійно й наклеювати наліпку на пакет.",
-    "У відділі м'яса та сирів (Banco Gastronomia) замовляють за вагою в грамах: 'Un etto' = 100 грамів, 'Due etti' = 200 грамів."
+    {
+      "uk": "Для вибору свіжих овочів та фруктів обов'язково одягайте пластикові рукавички (guanti) з гігієнічних міркувань.",
+      "en": "When choosing fresh fruit and vegetables you must wear plastic gloves (guanti) for hygiene.",
+      "es": "Para elegir fruta y verdura fresca hay que ponerse guantes de plástico (guanti) por higiene.",
+      "fr": "Pour choisir fruits et légumes frais, mettez obligatoirement des gants en plastique (guanti) pour l’hygiène.",
+      "ro": "Pentru alegerea fructelor și legumelor proaspete poartă obligatoriu mănuși de plastic (guanti) din motive de igienă."
+    },
+    {
+      "uk": "На вагах зазвичай вказано номер товару, який ви бачите на ціннику (наприклад, Tasto 14). Вставляти номер треба самостійно й наклеювати наліпку на пакет.",
+      "en": "The scales usually show the product number from the price tag (for example Tasto 14). You enter the number yourself and stick the label on the bag.",
+      "es": "En la báscula suele aparecer el número del producto del precio (por ejemplo, Tasto 14). Hay que teclearlo uno mismo y pegar la etiqueta en la bolsa.",
+      "fr": "Sur la balance figure en général le numéro du produit indiqué sur l’étiquette (par ex. Tasto 14). On saisit le numéro soi-même et on colle l’étiquette sur le sachet.",
+      "ro": "Pe cântar apare de obicei numărul produsului de pe etichetă (de exemplu Tasto 14). Introduci numărul tu însuți și lipești eticheta pe pungă."
+    },
+    {
+      "uk": "У відділі м'яса та сирів (Banco Gastronomia) замовляють за вагою в грамах: 'Un etto' = 100 грамів, 'Due etti' = 200 грамів.",
+      "en": "At the meat and cheese counter (Banco Gastronomia) you order by weight in grams: 'Un etto' = 100 g, 'Due etti' = 200 g.",
+      "es": "En el mostrador de carne y quesos (Banco Gastronomia) se pide por peso en gramos: 'Un etto' = 100 g, 'Due etti' = 200 g.",
+      "fr": "Au rayon viande et fromages (Banco Gastronomia) on commande au poids en grammes : 'Un etto' = 100 g, 'Due etti' = 200 g.",
+      "ro": "La raionul de carne și brânzeturi (Banco Gastronomia) se comandă după greutate în grame: 'Un etto' = 100 g, 'Due etti' = 200 g."
+    }
   ],
   "grammar": {
-    "title": "Одиниці виміру 'Un etto / Due etti' та вказівні займенники 'Questo / Quello'",
+    "title": {
+      "uk": "Одиниці виміру 'Un etto / Due etti' та вказівні займенники 'Questo / Quello'",
+      "en": "Units of measure 'Un etto / Due etti' and demonstratives 'Questo / Quello'",
+      "es": "Unidades de medida 'Un etto / Due etti' y demostrativos 'Questo / Quello'",
+      "fr": "Unités de mesure 'Un etto / Due etti' et démonstratifs 'Questo / Quello'",
+      "ro": "Unități de măsură 'Un etto / Due etti' și pronume demonstrative 'Questo / Quello'"
+    },
     "rules": [
       {
-        "rule": "Замовлення за вагою: 'Un etto' (100г), 'Due etti' (200г), 'Un chilo' (1кг).",
+        "rule": {
+          "uk": "Замовлення за вагою: 'Un etto' (100г), 'Due etti' (200г), 'Un chilo' (1кг).",
+          "en": "Ordering by weight: 'Un etto' (100 g), 'Due etti' (200 g), 'Un chilo' (1 kg).",
+          "es": "Pedido por peso: 'Un etto' (100 g), 'Due etti' (200 g), 'Un chilo' (1 kg).",
+          "fr": "Commande au poids : 'Un etto' (100 g), 'Due etti' (200 g), 'Un chilo' (1 kg).",
+          "ro": "Comandă după greutate: 'Un etto' (100 g), 'Due etti' (200 g), 'Un chilo' (1 kg)."
+        },
         "examples": [
           {
             "italian": "Vorrei un etto di parmigiano.",
-            "ukrainian": "Я хотів би етто пармезану."
+            "ukrainian": {
+              "uk": "Я хотів би етто пармезану.",
+              "en": "I'd like one etto of Parmigiano.",
+              "es": "Quisiera un etto de Parmigiano.",
+              "fr": "Je voudrais un etto de Parmigiano.",
+              "ro": "Aș vrea un etto de Parmigiano."
+            },
+            "translation": {
+              "uk": "Я хотів би етто пармезану.",
+              "en": "I'd like one etto of Parmigiano.",
+              "es": "Quisiera un etto de Parmigiano.",
+              "fr": "Je voudrais un etto de Parmigiano.",
+              "ro": "Aș vrea un etto de Parmigiano."
+            }
           },
           {
             "italian": "Prendo due etti di prosciutto cotto.",
-            "ukrainian": "Візьму два етто вареної шинки."
+            "ukrainian": {
+              "uk": "Візьму два етто вареної шинки.",
+              "en": "I'll take two etti of cooked ham.",
+              "es": "Cojo dos etti de jamón cocido.",
+              "fr": "Je prends deux etti de jambon cuit.",
+              "ro": "Iau două etti de șuncă fiartă."
+            },
+            "translation": {
+              "uk": "Візьму два етто вареної шинки.",
+              "en": "I'll take two etti of cooked ham.",
+              "es": "Cojo dos etti de jamón cocido.",
+              "fr": "Je prends deux etti de jambon cuit.",
+              "ro": "Iau două etti de șuncă fiartă."
+            }
           }
         ]
       },
       {
-        "rule": "Вказування на товар: 'Questo' (цей поруч) / 'Quello' (той далі).",
+        "rule": {
+          "uk": "Вказування на товар: 'Questo' (цей поруч) / 'Quello' (той далі).",
+          "en": "Pointing at products: 'Questo' (this one, nearby) / 'Quello' (that one, further away).",
+          "es": "Señalar un producto: 'Questo' (este, cerca) / 'Quello' (ese, más lejos).",
+          "fr": "Désigner un produit : 'Questo' (celui-ci, près) / 'Quello' (celui-là, plus loin).",
+          "ro": "Indicarea produsului: 'Questo' (acesta, aproape) / 'Quello' (acela, mai departe)."
+        },
         "examples": [
           {
             "italian": "Mi dà questo pezzo di formaggio?",
-            "ukrainian": "Дасте цей шматок сиру?"
+            "ukrainian": {
+              "uk": "Дасте цей шматок сиру?",
+              "en": "Could you give me this piece of cheese?",
+              "es": "¿Me da este trozo de queso?",
+              "fr": "Vous me donnez ce morceau de fromage ?",
+              "ro": "Îmi dați bucata asta de brânză?"
+            },
+            "translation": {
+              "uk": "Дасте цей шматок сиру?",
+              "en": "Could you give me this piece of cheese?",
+              "es": "¿Me da este trozo de queso?",
+              "fr": "Vous me donnez ce morceau de fromage ?",
+              "ro": "Îmi dați bucata asta de brânză?"
+            }
           },
           {
             "italian": "Vorrei quello a fette.",
-            "ukrainian": "Я хотів би нарізаний скибками."
+            "ukrainian": {
+              "uk": "Я хотів би нарізаний скибками.",
+              "en": "I'd like it sliced.",
+              "es": "Lo quiero en lonchas.",
+              "fr": "Je le voudrais en tranches.",
+              "ro": "Aș vrea feliat."
+            },
+            "translation": {
+              "uk": "Я хотів би нарізаний скибками.",
+              "en": "I'd like it sliced.",
+              "es": "Lo quiero en lonchas.",
+              "fr": "Je le voudrais en tranches.",
+              "ro": "Aș vrea feliat."
+            }
           }
         ]
       }
     ]
   },
-  "culturaTip": "Пакет на касі в Італії купується окремо та називається 'sacchetto' або 'busta'. Багато італійців ходять за покупками зі своїми багаторазовими сумками (borse della spesa)."
+  "culturaTip": {
+    "uk": "Пакет на касі в Італії купується окремо та називається 'sacchetto' або 'busta'. Багато італійців ходять за покупками зі своїми багаторазовими сумками (borse della spesa).",
+    "en": "At the till in Italy a bag is paid for separately and is called 'sacchetto' or 'busta'. Many Italians shop with their own reusable bags (borse della spesa).",
+    "es": "En caja en Italia la bolsa se paga aparte y se llama 'sacchetto' o 'busta'. Muchos italianos llevan bolsas reutilizables (borse della spesa).",
+    "fr": "À la caisse en Italie, le sac s’achète à part et s’appelle 'sacchetto' ou 'busta'. Beaucoup d’Italiens font les courses avec leurs sacs réutilisables (borse della spesa).",
+    "ro": "Punga de la casă în Italia se cumpără separat și se numește 'sacchetto' sau 'busta'. Mulți italieni merg la cumpărături cu sacoșe reutilizabile (borse della spesa)."
+  }
 }

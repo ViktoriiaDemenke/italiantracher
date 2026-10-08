@@ -1,66 +1,156 @@
 {
   "day": 15,
-  "title": "Boss Level 🏆: Симуляція візиту на пошту (Poste Italiane)",
+  "title": {
+    "uk": "Boss Level 🏆: Симуляція візиту на пошту (Poste Italiane)",
+    "en": "Boss Level 🏆: Simulation of a visit to the post office (Poste Italiane)",
+    "es": "Boss Level 🏆: Simulación de una visita a correos (Poste Italiane)",
+    "fr": "Boss Level 🏆 : Simulation d’une visite à la poste (Poste Italiane)",
+    "ro": "Boss Level 🏆: Simulare a unei vizite la poștă (Poste Italiane)"
+  },
   "module": "Poste Italiane e Servizi Postali",
-  "type": "Boss Level Simulation",
-  "story": "Фінальний іспит модуля! Ви самостійно обираєте послугу в терміналі, спілкуєтеся з працівником пошти, відправляєте лист та сплачуєте квитанцію. Підказки та переклад вимкнено!",
+  "type": {
+    "uk": "Симуляція бос-рівня",
+    "en": "Boss Level Simulation",
+    "es": "Simulación de nivel jefe",
+    "fr": "Simulation Boss Level",
+    "ro": "Simulare nivel boss"
+  },
+  "story": {
+    "uk": "Фінальний іспит модуля! Ви самостійно обираєте послугу в терміналі, спілкуєтеся з працівником пошти, відправляєте лист та сплачуєте квитанцію. Підказки та переклад вимкнено!",
+    "en": "Final exam of the module! You choose the service at the terminal yourself, talk to the clerk, send a letter and pay a bill. Hints and translation are off!",
+    "es": "¡Examen final del módulo! Eliges el servicio en el terminal, hablas con el empleado, envías una carta y pagas un recibo. ¡Pistas y traducción desactivadas!",
+    "fr": "Examen final du module ! Vous choisissez le service au terminal, parlez à l’employé, envoyez une lettre et payez une quittance. Indices et traduction désactivés !",
+    "ro": "Examenul final al modulului! Alegeți singuri serviciul la terminal, vorbiți cu angajatul, trimiteți o scrisoare și plătiți o chitanță. Indiciile și traducerea sunt dezactivate!"
+  },
   "questions": [
     {
       "id": "p1",
-      "question": "Що потрібно зробити одразу при вході до відділення Poste Italiane?",
+      "question": {
+        "uk": "Що потрібно зробити одразу при вході до відділення Poste Italiane?",
+        "en": "What should you do as soon as you enter a Poste Italiane office?",
+        "es": "¿Qué hay que hacer nada más entrar en una oficina de Poste Italiane?",
+        "fr": "Que faut-il faire dès l’entrée dans un bureau de Poste Italiane ?",
+        "ro": "Ce trebuie să faci imediat ce intri într-un oficiu Poste Italiane?"
+      },
       "options": [
         "Взяти талончик (ticket) в електронному терміналі біля входу.",
         "Одразу йти до віконця без черги.",
         "Заплатити за вхід у касу."
       ],
       "correctAnswer": 0,
-      "explanation": "В Італії на пошті обов'язкова система електронної черги через термінал (totem)."
+      "explanation": {
+        "uk": "В Італії на пошті обов'язкова система електронної черги через термінал (totem).",
+        "en": "In Italy, the post office uses a mandatory electronic queue via a terminal (totem).",
+        "es": "En Italia, en correos es obligatorio el sistema de turno electrónico a través del terminal (totem).",
+        "fr": "En Italie, à la poste, la file électronique via le terminal (totem) est obligatoire.",
+        "ro": "În Italia, la poștă este obligatoriu sistemul de coadă electronică prin terminal (totem)."
+      }
     },
     {
       "id": "p2",
-      "question": "Як сказати 'Мені потрібно відправити посилку' італійською?",
+      "question": {
+        "uk": "Як сказати 'Мені потрібно відправити посилку' італійською?",
+        "en": "How do you say “I need to send a parcel” in Italian?",
+        "es": "¿Cómo se dice «Necesito enviar un paquete» en italiano?",
+        "fr": "Comment dit-on « J’ai besoin d’envoyer un colis » en italien ?",
+        "ro": "Cum spui «Trebuie să trimit un colet» în italiană?"
+      },
       "options": [
         "Devo spedire un pacco.",
         "Devo pagare un caffè.",
         "Ho bisogno di un medico."
       ],
       "correctAnswer": 0,
-      "explanation": "'Spedire un pacco' = відправити посилку."
+      "explanation": {
+        "uk": "'Spedire un pacco' = відправити посилку.",
+        "en": "'Spedire un pacco' = to send a parcel.",
+        "es": "'Spedire un pacco' = enviar un paquete.",
+        "fr": "'Spedire un pacco' = envoyer un colis.",
+        "ro": "'Spedire un pacco' = a trimite un colet."
+      }
     },
     {
       "id": "p3",
-      "question": "Що таке 'Raccomandata'?",
+      "question": {
+        "uk": "Що таке 'Raccomandata'?",
+        "en": "What is a 'Raccomandata'?",
+        "es": "¿Qué es una 'Raccomandata'?",
+        "fr": "Qu’est-ce qu’une 'Raccomandata' ?",
+        "ro": "Ce este o 'Raccomandata'?"
+      },
       "options": [
         "Рекомендований лист, що вручається під особистий підпис з офіційним сповіщенням.",
         "Звичайний рекламний буклет у поштовій скриньці.",
         "Електронний чек з супермаркету."
       ],
       "correctAnswer": 0,
-      "explanation": "'Raccomandata' — офіційний рекомендований лист із юридичною силою."
+      "explanation": {
+        "uk": "'Raccomandata' — офіційний рекомендований лист із юридичною силою.",
+        "en": "'Raccomandata' is an official registered letter with legal value.",
+        "es": "'Raccomandata' es una carta certificada oficial con valor jurídico.",
+        "fr": "'Raccomandata' est une lettre recommandée officielle avec valeur juridique.",
+        "ro": "'Raccomandata' este o scrisoare recomandată oficială cu valoare juridică."
+      }
     },
     {
       "id": "p4",
-      "question": "Хто такий 'Mittente' на поштовому конверті чи коробці?",
+      "question": {
+        "uk": "Хто такий 'Mittente' на поштовому конверті чи коробці?",
+        "en": "Who is the 'Mittente' on a postal envelope or box?",
+        "es": "¿Quién es el 'Mittente' en un sobre o caja postal?",
+        "fr": "Qui est le 'Mittente' sur une enveloppe ou un colis postal ?",
+        "ro": "Cine este 'Mittente' pe un plic sau o cutie poștală?"
+      },
       "options": [
         "Відправник.",
         "Одержувач.",
         "Поштовий кур'єр."
       ],
       "correctAnswer": 0,
-      "explanation": "'Mittente' = відправник, а 'Destinatario' = одержувач."
+      "explanation": {
+        "uk": "'Mittente' = відправник, а 'Destinatario' = одержувач.",
+        "en": "'Mittente' = sender, and 'Destinatario' = recipient.",
+        "es": "'Mittente' = remitente, y 'Destinatario' = destinatario.",
+        "fr": "'Mittente' = expéditeur, et 'Destinatario' = destinataire.",
+        "ro": "'Mittente' = expeditor, iar 'Destinatario' = destinatar."
+      }
     },
     {
       "id": "p5",
-      "question": "Як називається номер для перевірки статусу та місцезнаходження посилки в інтернеті?",
+      "question": {
+        "uk": "Як називається номер для перевірки статусу та місцезнаходження посилки в інтернеті?",
+        "en": "What is the number called for checking a parcel’s status and location online?",
+        "es": "¿Cómo se llama el número para consultar el estado y la ubicación de un paquete en internet?",
+        "fr": "Comment s’appelle le numéro pour suivre le statut et la localisation d’un colis en ligne ?",
+        "ro": "Cum se numește numărul pentru verificarea statusului și locației coletului pe internet?"
+      },
       "options": [
         "Il codice fiscale.",
         "Il codice di tracciamento.",
         "Il numero di telefono."
       ],
       "correctAnswer": 1,
-      "explanation": "'Codice di tracciamento' = трек-номер для відстеження."
+      "explanation": {
+        "uk": "'Codice di tracciamento' = трек-номер для відстеження.",
+        "en": "'Codice di tracciamento' = tracking number.",
+        "es": "'Codice di tracciamento' = número de seguimiento.",
+        "fr": "'Codice di tracciamento' = numéro de suivi.",
+        "ro": "'Codice di tracciamento' = număr de urmărire."
+      }
     }
   ],
-  "successBadge": "Esperto di Poste ✉️",
-  "successMessage": "Вітаємо! Ви вільно орієнтуєтеся в послугах Poste Italiane, можете відправляти посилки, рекомендовані листи та сплачувати квитанції!"
+  "successBadge": {
+    "uk": "Експерт пошти ✉️",
+    "en": "Post office expert ✉️",
+    "es": "Experto de correos ✉️",
+    "fr": "Expert des Poste ✉️",
+    "ro": "Expert Poștă ✉️"
+  },
+  "successMessage": {
+    "uk": "Вітаємо! Ви вільно орієнтуєтеся в послугах Poste Italiane, можете відправляти посилки, рекомендовані листи та сплачувати квитанції!",
+    "en": "Congratulations! You can confidently use Poste Italiane services: send parcels, recommended letters, and pay bills!",
+    "es": "¡Enhorabuena! Te orientas con soltura en los servicios de Poste Italiane: puedes enviar paquetes, cartas certificadas y pagar recibos.",
+    "fr": "Félicitations ! Vous vous repérez facilement dans les services de Poste Italiane : colis, lettres recommandées et paiement des factures.",
+    "ro": "Felicitări! Te orientezi cu ușurință în serviciile Poste Italiane: poți trimite colete, scrisori recomandate și plăti facturi!"
+  }
 }

@@ -2,12 +2,13 @@ import { useMemo, useState } from 'react'
 import SpeakButton from '../components/SpeakButton.jsx'
 import { dueReviewItems } from '../storage.js'
 import { useI18n } from '../i18n.js'
+import { resolveContentText } from '../content/localize.js'
 import '../screens/HomeScreen.css'
 import './Lesson.css'
 import '../components/Learn.css'
 
 export default function ReviewScreen({ state, onGrade, onBack }) {
-  const { t } = useI18n()
+  const { t, locale } = useI18n()
   const due = useMemo(() => dueReviewItems(state), [state])
   const [index, setIndex] = useState(0)
   const [flipped, setFlipped] = useState(false)
@@ -55,7 +56,9 @@ export default function ReviewScreen({ state, onGrade, onBack }) {
               </span>
               <span className="flip-card__face flip-card__face--back">
                 <span className="flip-card__kicker">{t('translation')}</span>
-                <span className="flip-card__uk">{card.uk || '—'}</span>
+                <span className="flip-card__uk">
+                  {resolveContentText(card.translation ?? card.uk, locale) || '—'}
+                </span>
                 {card.day ? (
                   <span className="flip-card__context">{t('dayN', { day: card.day })}</span>
                 ) : null}

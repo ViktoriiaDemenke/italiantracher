@@ -1,9 +1,27 @@
 {
   "day": 26,
-  "title": "Живий діалог: Купівля квитка в Tabacchi та поїздка на вокзал",
+  "title": {
+    "uk": "Живий діалог: Купівля квитка в Tabacchi та поїздка на вокзал",
+    "en": "Live dialogue: Buying a ticket at Tabacchi and going to the station",
+    "es": "Diálogo en vivo: comprar un billete en Tabacchi e ir a la estación",
+    "fr": "Dialogue vivant : achat d’un ticket au Tabacchi et trajet vers la gare",
+    "ro": "Dialog viu: cumpărarea biletului la Tabacchi și drumul spre gară"
+  },
   "module": "Trasporto Pubblico e Biglietti",
-  "type": "Interactive Dialogue",
-  "story": "Марко заходить до кіоску Tabacchi, щоб купити квитки на автобус, а потім запитує перехожого на зупинці про розклад.",
+  "type": {
+    "uk": "Інтерактивний діалог",
+    "en": "Interactive Dialogue",
+    "es": "Diálogo interactivo",
+    "fr": "Dialogue interactif",
+    "ro": "Dialog interactiv"
+  },
+  "story": {
+    "uk": "Марко заходить до кіоску Tabacchi, щоб купити квитки на автобус, а потім запитує перехожого на зупинці про розклад.",
+    "en": "Marco goes into a Tabacchi shop to buy bus tickets, then asks a passer-by at the stop about the timetable.",
+    "es": "Marco entra en un Tabacchi a comprar billetes de autobús y luego pregunta a un viandante en la parada por el horario.",
+    "fr": "Marco entre dans un Tabacchi pour acheter des tickets de bus, puis demande l’horaire à un passant à l’arrêt.",
+    "ro": "Marco intră într-un Tabacchi să cumpere bilete de autobuz, apoi întreabă un trecător la stație despre orar."
+  },
   "dialogue": [
     {
       "step": 1,
@@ -12,24 +30,66 @@
       "options": [
         {
           "text": "Buongiorno! Vorrei due biglietti per l'autobus urbano, per favore.",
-          "translation": "Доброго дня! Два квитки на міський автобус, будь ласка.",
+          "translation": {
+            "uk": "Доброго дня! Два квитки на міський автобус, будь ласка.",
+            "en": "Good morning! I'd like two tickets for the city bus, please.",
+            "es": "¡Buenos días! Quisiera dos billetes de autobús urbano, por favor.",
+            "fr": "Bonjour ! Je voudrais deux tickets pour l'autobus urbain, s'il vous plaît.",
+            "ro": "Bună dimineața! Aș vrea două bilete pentru autobuzul urban, vă rog."
+          },
           "isCorrect": true,
-          "feedback": "Чудово! Ви чітко попросили міські квитки."
+          "feedback": {
+            "uk": "Доброго дня! Два квитки на міський автобус, будь ласка.",
+            "en": "Good morning! I'd like two tickets for the city bus, please.",
+            "es": "¡Buenos días! Quisiera dos billetes de autobús urbano, por favor.",
+            "fr": "Bonjour ! Je voudrais deux tickets pour l'autobus urbain, s'il vous plaît.",
+            "ro": "Bună dimineața! Aș vrea două bilete pentru autobuzul urban, vă rog."
+          }
         },
         {
           "text": "Ciao, vorrei fare la domanda per l'ISEE.",
-          "translation": "Привіт, хочу подати заяву на ISEE.",
+          "translation": {
+            "uk": "Привіт, хочу подати заяву на ISEE.",
+            "en": "Hi, I'd like to apply for the ISEE.",
+            "es": "Hola, quisiera presentar la solicitud del ISEE.",
+            "fr": "Salut, je voudrais faire la demande pour l'ISEE.",
+            "ro": "Salut, aș vrea să depun cererea pentru ISEE."
+          },
           "isCorrect": false,
-          "feedback": "У тютюновому кіоску не оформлюють соціальні довідки ISEE."
+          "feedback": {
+            "uk": "Привіт, хочу подати заяву на ISEE.",
+            "en": "Hi, I'd like to apply for the ISEE.",
+            "es": "Hola, quisiera presentar la solicitud del ISEE.",
+            "fr": "Salut, je voudrais faire la demande pour l'ISEE.",
+            "ro": "Salut, aș vrea să depun cererea pentru ISEE."
+          }
         },
         {
           "text": "Vorrei due marche da bollo e una ricetta del medico, per l’autobus.",
-          "translation": "Дві марки da bollo і рецепт лікаря для автобуса.",
+          "translation": {
+            "uk": "Дві марки da bollo і рецепт лікаря для автобуса.",
+            "en": "I'd like two marche da bollo and a doctor's prescription, for the bus.",
+            "es": "Quisiera dos marche da bollo y una receta del médico, para el autobús.",
+            "fr": "Je voudrais deux marche da bollo et une ordonnance du médecin, pour le bus.",
+            "ro": "Aș vrea două marche da bollo și o rețetă de la medic, pentru autobuz."
+          },
           "isCorrect": false,
-          "feedback": "У Tabacchi для цієї сцени купують міські квитки, не марки й не рецепти."
+          "feedback": {
+            "uk": "Дві марки da bollo і рецепт лікаря для автобуса.",
+            "en": "I'd like two marche da bollo and a doctor's prescription, for the bus.",
+            "es": "Quisiera dos marche da bollo y una receta del médico, para el autobús.",
+            "fr": "Je voudrais deux marche da bollo et une ordonnance du médecin, pour le bus.",
+            "ro": "Aș vrea două marche da bollo și o rețetă de la medic, pentru autobuz."
+          }
         }
       ],
-      "translation": "Доброго дня! Кажіть, будь ласка."
+      "translation": {
+        "uk": "Доброго дня! Кажіть, будь ласка.",
+        "en": "Good morning! Go ahead.",
+        "es": "¡Buenos días! Diga.",
+        "fr": "Bonjour ! Dites donc.",
+        "ro": "Bună dimineața! Spuneți, vă rog."
+      }
     },
     {
       "step": 2,
@@ -38,24 +98,66 @@
       "options": [
         {
           "text": "Non voglio pagare il biglietto.",
-          "translation": "Я не хочу платити за квиток.",
+          "translation": {
+            "uk": "Я не хочу платити за квиток.",
+            "en": "I don't want to pay for the ticket.",
+            "es": "No quiero pagar el billete.",
+            "fr": "Je ne veux pas payer le ticket.",
+            "ro": "Nu vreau să plătesc biletul."
+          },
           "isCorrect": false,
-          "feedback": "Без квитка ви ризикуєте отримати штраф у транспорті."
+          "feedback": {
+            "uk": "Я не хочу платити за квиток.",
+            "en": "I don't want to pay for the ticket.",
+            "es": "No quiero pagar el billete.",
+            "fr": "Je ne veux pas payer le ticket.",
+            "ro": "Nu vreau să plătesc biletul."
+          }
         },
         {
           "text": "No, vorrei un abbonamento annuale del treno regionale, lo stampi ora.",
-          "translation": "Ні, хочу річний абонемент на регіональний потяг, роздрукуйте зараз.",
+          "translation": {
+            "uk": "Ні, хочу річний абонемент на регіональний потяг, роздрукуйте зараз.",
+            "en": "No, I'd like an annual regional train pass; print it now.",
+            "es": "No, quiero un abono anual del tren regional, imprímalo ahora.",
+            "fr": "Non, je voudrais un abonnement annuel du train régional, imprimez-le maintenant.",
+            "ro": "Nu, aș vrea un abonament anual la trenul regional, tipăriți-l acum."
+          },
           "isCorrect": false,
-          "feedback": "Йдеться про прості квитки 90 хвилин; їх треба оплатити й компостувати в автобусі."
+          "feedback": {
+            "uk": "Ні, хочу річний абонемент на регіональний потяг, роздрукуйте зараз.",
+            "en": "No, I'd like an annual regional train pass; print it now.",
+            "es": "No, quiero un abono anual del tren regional, imprímalo ahora.",
+            "fr": "Non, je voudrais un abonnement annuel du train régional, imprimez-le maintenant.",
+            "ro": "Nu, aș vrea un abonament anual la trenul regional, tipăriți-l acum."
+          }
         },
         {
           "text": "Sì, va benissimo. Ecco 3 euro. Devo convalidarli a bordo?",
-          "translation": "Так, добре. Ось 3 євро. Їх треба компостувати в салоні?",
+          "translation": {
+            "uk": "Так, добре. Ось 3 євро. Їх треба компостувати в салоні?",
+            "en": "Yes, that's fine. Here's 3 euros. Do I have to validate them on board?",
+            "es": "Sí, perfecto. Aquí tiene 3 euros. ¿Debo validarlos a bordo?",
+            "fr": "Oui, très bien. Voici 3 euros. Je dois les composter à bord ?",
+            "ro": "Da, e bine. Iată 3 euro. Trebuie să le validez la bord?"
+          },
           "isCorrect": true,
-          "feedback": "Ідеально! Ви розплатилися та уточнили правило компостування."
+          "feedback": {
+            "uk": "Так, добре. Ось 3 євро. Їх треба компостувати в салоні?",
+            "en": "Yes, that's fine. Here's 3 euros. Do I have to validate them on board?",
+            "es": "Sí, perfecto. Aquí tiene 3 euros. ¿Debo validarlos a bordo?",
+            "fr": "Oui, très bien. Voici 3 euros. Je dois les composter à bord ?",
+            "ro": "Da, e bine. Iată 3 euro. Trebuie să le validez la bord?"
+          }
         }
       ],
-      "translation": "Звісно. Це проста поїздка на 90 хвилин? Разом 3 євро."
+      "translation": {
+        "uk": "Звісно. Це проста поїздка на 90 хвилин? Разом 3 євро.",
+        "en": "Certainly. Is it a simple 90-minute ride? That's 3 euros in total.",
+        "es": "Por supuesto. ¿Es un trayecto simple de 90 minutos? Son 3 euros en total.",
+        "fr": "Bien sûr. C'est un trajet simple de 90 minutes ? Ça fait 3 euros au total.",
+        "ro": "Desigur. E o cursă simplă de 90 de minute? Sunt 3 euro în total."
+      }
     },
     {
       "step": 3,
@@ -64,24 +166,66 @@
       "options": [
         {
           "text": "Perfetto, grazie mille e buona giornata!",
-          "translation": "Чудово, дуже дякую і гарного дня!",
+          "translation": {
+            "uk": "Чудово, дуже дякую і гарного дня!",
+            "en": "Perfect, thank you so much and have a good day!",
+            "es": "¡Perfecto, muchas gracias y buen día!",
+            "fr": "Parfait, merci beaucoup et bonne journée !",
+            "ro": "Perfect, mulțumesc frumos și o zi bună!"
+          },
           "isCorrect": true,
-          "feedback": "Дякуємо та прямуємо на зупинку."
+          "feedback": {
+            "uk": "Чудово, дуже дякую і гарного дня!",
+            "en": "Perfect, thank you so much and have a good day!",
+            "es": "¡Perfecto, muchas gracias y buen día!",
+            "fr": "Parfait, merci beaucoup et bonne journée !",
+            "ro": "Perfect, mulțumesc frumos și o zi bună!"
+          }
         },
         {
           "text": "Allora non serve il biglietto, c’è sempre il controllore amico.",
-          "translation": "Тоді квиток не потрібен, контролер завжди свій.",
+          "translation": {
+            "uk": "Тоді квиток не потрібен, контролер завжди свій.",
+            "en": "Then you don't need a ticket; the inspector is always a friend.",
+            "es": "Entonces no hace falta el billete, el revisor es siempre amigo.",
+            "fr": "Alors le ticket n'est pas nécessaire, le contrôleur est toujours un ami.",
+            "ro": "Atunci nu trebuie bilet, controlorul e mereu al nostru."
+          },
           "isCorrect": false,
-          "feedback": "Квиток обов’язковий; контролер перевіряє саме прокомпостований."
+          "feedback": {
+            "uk": "Тоді квиток не потрібен, контролер завжди свій.",
+            "en": "Then you don't need a ticket; the inspector is always a friend.",
+            "es": "Entonces no hace falta el billete, el revisor es siempre amigo.",
+            "fr": "Alors le ticket n'est pas nécessaire, le contrôleur est toujours un ami.",
+            "ro": "Atunci nu trebuie bilet, controlorul e mereu al nostru."
+          }
         },
         {
           "text": "Timbro il biglietto a casa, prima di uscire, così è più comodo.",
-          "translation": "Проштампую квиток удома, перед виходом, так зручніше.",
+          "translation": {
+            "uk": "Проштампую квиток удома, перед виходом, так зручніше.",
+            "en": "I'll stamp the ticket at home before going out; it's more convenient.",
+            "es": "Pico el billete en casa, antes de salir, así es más cómodo.",
+            "fr": "Je tamponne le ticket à la maison, avant de sortir, c'est plus pratique.",
+            "ro": "Ștampilez biletul acasă, înainte să ies, e mai comod."
+          },
           "isCorrect": false,
-          "feedback": "Компостують після посадки в автобус, у валідаторі."
+          "feedback": {
+            "uk": "Проштампую квиток удома, перед виходом, так зручніше.",
+            "en": "I'll stamp the ticket at home before going out; it's more convenient.",
+            "es": "Pico el billete en casa, antes de salir, así es más cómodo.",
+            "fr": "Je tamponne le ticket à la maison, avant de sortir, c'est plus pratique.",
+            "ro": "Ștampilez biletul acasă, înainte să ies, e mai comod."
+          }
         }
       ],
-      "translation": "Так, саме так! Щойно сядете в автобус, проштампуйте квиток у апараті. До побачення!"
+      "translation": {
+        "uk": "Так, саме так! Щойно сядете в автобус, проштампуйте квиток у апараті. До побачення!",
+        "en": "Yes, exactly! As soon as you get on the bus you must stamp the ticket in the machine. Goodbye!",
+        "es": "¡Sí, exactamente! En cuanto suba al autobús debe picar el billete en la máquina. ¡Hasta luego!",
+        "fr": "Oui, exactement ! Dès que vous montez dans le bus, vous devez tamponner le ticket dans la machine. Au revoir !",
+        "ro": "Da, exact! De îndată ce urcați în autobuz trebuie să ștampilați biletul în aparat. La revedere!"
+      }
     },
     {
       "step": 4,
@@ -90,24 +234,66 @@
       "options": [
         {
           "text": "Vorrei un cornetto al cioccolato.",
-          "translation": "Я хотів би круасан з шоколадом.",
+          "translation": {
+            "uk": "Я хотів би круасан з шоколадом.",
+            "en": "I'd like a chocolate cornetto.",
+            "es": "Quisiera un cornetto de chocolate.",
+            "fr": "Je voudrais un cornetto au chocolat.",
+            "ro": "Aș vrea un cornetto cu ciocolată."
+          },
           "isCorrect": false,
-          "feedback": "На зупинці автобуса не замовляють випічку."
+          "feedback": {
+            "uk": "Я хотів би круасан з шоколадом.",
+            "en": "I'd like a chocolate cornetto.",
+            "es": "Quisiera un cornetto de chocolate.",
+            "fr": "Je voudrais un cornetto au chocolat.",
+            "ro": "Aș vrea un cornetto cu ciocolată."
+          }
         },
         {
           "text": "Buongiorno! Sì, sa a che ora passa il prossimo autobus?",
-          "translation": "Доброго дня! Так, ви не знаєте, о котрій наступний автобус?",
+          "translation": {
+            "uk": "Доброго дня! Так, ви не знаєте, о котрій наступний автобус?",
+            "en": "Good morning! Yes, do you know what time the next bus comes?",
+            "es": "¡Buenos días! Sí, ¿sabe a qué hora pasa el próximo autobús?",
+            "fr": "Bonjour ! Oui, vous savez à quelle heure passe le prochain bus ?",
+            "ro": "Bună dimineața! Da, știți la ce oră trece următorul autobuz?"
+          },
           "isCorrect": true,
-          "feedback": "Чудово! Ви ввічливо дізналися розклад у пасажира."
+          "feedback": {
+            "uk": "Доброго дня! Так, ви не знаєте, о котрій наступний автобус?",
+            "en": "Good morning! Yes, do you know what time the next bus comes?",
+            "es": "¡Buenos días! Sí, ¿sabe a qué hora pasa el próximo autobús?",
+            "fr": "Bonjour ! Oui, vous savez à quelle heure passe le prochain bus ?",
+            "ro": "Bună dimineața! Da, știți la ce oră trece următorul autobuz?"
+          }
         },
         {
           "text": "No, aspetto il taxi per l’aeroporto. Che vino avete?",
-          "translation": "Ні, чекаю таксі в аеропорт. Яке у вас вино?",
+          "translation": {
+            "uk": "Ні, чекаю таксі в аеропорт. Яке у вас вино?",
+            "en": "No, I'm waiting for a taxi to the airport. What wine do you have?",
+            "es": "No, espero el taxi para el aeropuerto. ¿Qué vino tienen?",
+            "fr": "Non, j'attends le taxi pour l'aéroport. Quel vin avez-vous ?",
+            "ro": "Nu, aștept taxiul spre aeroport. Ce vin aveți?"
+          },
           "isCorrect": false,
-          "feedback": "На зупинці питають про автобус і розклад, не про вино."
+          "feedback": {
+            "uk": "Ні, чекаю таксі в аеропорт. Яке у вас вино?",
+            "en": "No, I'm waiting for a taxi to the airport. What wine do you have?",
+            "es": "No, espero el taxi para el aeropuerto. ¿Qué vino tienen?",
+            "fr": "Non, j'attends le taxi pour l'aéroport. Quel vin avez-vous ?",
+            "ro": "Nu, aștept taxiul spre aeroport. Ce vin aveți?"
+          }
         }
       ],
-      "translation": "Доброго дня! Ви теж чекаєте сімку до вокзалу?"
+      "translation": {
+        "uk": "Доброго дня! Ви теж чекаєте сімку до вокзалу?",
+        "en": "Good morning! Are you also waiting for the number 7 to the station?",
+        "es": "¡Buenos días! ¿Espera también usted el número 7 para la estación?",
+        "fr": "Bonjour ! Vous attendez aussi le numéro 7 pour la gare ?",
+        "ro": "Bună dimineața! Așteptați și dumneavoastră linia 7 spre gară?"
+      }
     },
     {
       "step": 5,
@@ -116,24 +302,66 @@
       "options": [
         {
           "text": "Convalido il biglietto del vicino, il mio lo tengo pulito.",
-          "translation": "Прокомпостую квиток сусіда, свій залишу чистим.",
+          "translation": {
+            "uk": "Прокомпостую квиток сусіда, свій залишу чистим.",
+            "en": "I'll validate the neighbor's ticket and keep mine unused.",
+            "es": "Valido el billete del vecino, el mío lo dejo limpio.",
+            "fr": "Je composte le ticket du voisin, le mien je le garde propre.",
+            "ro": "Validez biletul vecinului, pe al meu îl țin neatins."
+          },
           "isCorrect": false,
-          "feedback": "Кожен пасажир валідує свій квиток."
+          "feedback": {
+            "uk": "Прокомпостую квиток сусіда, свій залишу чистим.",
+            "en": "I'll validate the neighbor's ticket and keep mine unused.",
+            "es": "Valido el billete del vecino, el mío lo dejo limpio.",
+            "fr": "Je composte le ticket du voisin, le mien je le garde propre.",
+            "ro": "Validez biletul vecinului, pe al meu îl țin neatins."
+          }
         },
         {
           "text": "Salgo senza convalidare, tanto sono solo due fermate.",
-          "translation": "Сяду без компостування, лише дві зупинки.",
+          "translation": {
+            "uk": "Сяду без компостування, лише дві зупинки.",
+            "en": "I'll get on without validating; it's only two stops.",
+            "es": "Subo sin validar, total solo son dos paradas.",
+            "fr": "Je monte sans composter, ce n'est que deux arrêts.",
+            "ro": "Urc fără validare, oricum sunt doar două stații."
+          },
           "isCorrect": false,
-          "feedback": "Квиток компостують одразу після посадки, навіть на коротку поїздку."
+          "feedback": {
+            "uk": "Сяду без компостування, лише дві зупинки.",
+            "en": "I'll get on without validating; it's only two stops.",
+            "es": "Subo sin validar, total solo son dos paradas.",
+            "fr": "Je monte sans composter, ce n'est que deux arrêts.",
+            "ro": "Urc fără validare, oricum sunt doar două stații."
+          }
         },
         {
           "text": "Ottimo, grazie! Ricordiamoci di convalidare il biglietto appena saliamo.",
-          "translation": "Чудово, дякую! Не забуваймо прокомпостувати квиток, щойно сядемо.",
+          "translation": {
+            "uk": "Чудово, дякую! Не забуваймо прокомпостувати квиток, щойно сядемо.",
+            "en": "Great, thanks! Let's remember to validate the ticket as soon as we get on.",
+            "es": "¡Estupendo, gracias! Recordemos validar el billete en cuanto subamos.",
+            "fr": "Parfait, merci ! Pensons à composter le ticket dès que nous montons.",
+            "ro": "Excelent, mulțumesc! Să nu uităm să validăm biletul de îndată ce urcăm."
+          },
           "isCorrect": true,
-          "feedback": "Правильно! Головне — одразу завалідувати квиток."
+          "feedback": {
+            "uk": "Чудово, дякую! Не забуваймо прокомпостувати квиток, щойно сядемо.",
+            "en": "Great, thanks! Let's remember to validate the ticket as soon as we get on.",
+            "es": "¡Estupendo, gracias! Recordemos validar el billete en cuanto subamos.",
+            "fr": "Parfait, merci ! Pensons à composter le ticket dès que nous montons.",
+            "ro": "Excelent, mulțumesc! Să nu uităm să validăm biletul de îndată ce urcăm."
+          }
         }
       ],
-      "translation": "Має бути хвилин за п’ять. Дивіться, він саме під’їжджає!"
+      "translation": {
+        "uk": "Має бути хвилин за п’ять. Дивіться, він саме під’їжджає!",
+        "en": "It should arrive in five minutes. Look, it's coming right now!",
+        "es": "Debería llegar en cinco minutos. ¡Mire, está llegando ahora mismo!",
+        "fr": "Il devrait arriver dans cinq minutes. Regardez, il arrive juste maintenant !",
+        "ro": "Ar trebui să sosească în cinci minute. Uitați, tocmai sosește!"
+      }
     },
     {
       "step": 6,
@@ -142,25 +370,73 @@
       "options": [
         {
           "text": "Non parlo italiano, quindi il controllo non vale.",
-          "translation": "Я не розмовляю італійською, тому перевірка не діє.",
+          "translation": {
+            "uk": "Я не розмовляю італійською, тому перевірка не діє.",
+            "en": "I don't speak Italian, so the check doesn't apply.",
+            "es": "No hablo italiano, así que el control no vale.",
+            "fr": "Je ne parle pas italien, donc le contrôle ne compte pas.",
+            "ro": "Nu vorbesc italiana, deci controlul nu se aplică."
+          },
           "isCorrect": false,
-          "feedback": "Контроль діє для всіх; квиток треба показати."
+          "feedback": {
+            "uk": "Я не розмовляю італійською, тому перевірка не діє.",
+            "en": "I don't speak Italian, so the check doesn't apply.",
+            "es": "No hablo italiano, así que el control no vale.",
+            "fr": "Je ne parle pas italien, donc le contrôle ne compte pas.",
+            "ro": "Nu vorbesc italiana, deci controlul nu se aplică."
+          }
         },
         {
           "text": "Buongiorno! Certamente, ecco il mio biglietto timbrato poco fa.",
-          "translation": "Доброго дня! Звісно, ось мій квиток, щойно проштампований.",
+          "translation": {
+            "uk": "Доброго дня! Звісно, ось мій квиток, щойно проштампований.",
+            "en": "Good morning! Of course, here's my ticket, stamped just now.",
+            "es": "¡Buenos días! Por supuesto, aquí está mi billete picado hace un momento.",
+            "fr": "Bonjour ! Bien sûr, voici mon ticket tamponné il y a un instant.",
+            "ro": "Bună dimineața! Desigur, iată biletul meu ștampilat adineauri."
+          },
           "isCorrect": true,
-          "feedback": "Чудово! Ваш квиток прокомпостований і поїздка проходить безтурботно."
+          "feedback": {
+            "uk": "Доброго дня! Звісно, ось мій квиток, щойно проштампований.",
+            "en": "Good morning! Of course, here's my ticket, stamped just now.",
+            "es": "¡Buenos días! Por supuesto, aquí está mi billete picado hace un momento.",
+            "fr": "Bonjour ! Bien sûr, voici mon ticket tamponné il y a un instant.",
+            "ro": "Bună dimineața! Desigur, iată biletul meu ștampilat adineauri."
+          }
         },
         {
           "text": "Il biglietto l’ho lasciato in tabaccheria, mi riconosce.",
-          "translation": "Квиток я залишив у тютюновій крамниці, ви мене впізнаєте.",
+          "translation": {
+            "uk": "Квиток я залишив у тютюновій крамниці, ви мене впізнаєте.",
+            "en": "I left the ticket at the tobacconist's; you recognize me.",
+            "es": "El billete lo he dejado en el estanco, usted me reconoce.",
+            "fr": "J'ai laissé le ticket au tabac, vous me reconnaissez.",
+            "ro": "Biletul l-am lăsat la tutungerie, mă recunoașteți."
+          },
           "isCorrect": false,
-          "feedback": "Контролеру показують проштампований квиток."
+          "feedback": {
+            "uk": "Квиток я залишив у тютюновій крамниці, ви мене впізнаєте.",
+            "en": "I left the ticket at the tobacconist's; you recognize me.",
+            "es": "El billete lo he dejado en el estanco, usted me reconoce.",
+            "fr": "J'ai laissé le ticket au tabac, vous me reconnaissez.",
+            "ro": "Biletul l-am lăsat la tutungerie, mă recunoașteți."
+          }
         }
       ],
-      "translation": "Доброго дня, перевірка квитків! Покажіть прокомпостований квиток, будь ласка?"
+      "translation": {
+        "uk": "Доброго дня, перевірка квитків! Покажіть прокомпостований квиток, будь ласка?",
+        "en": "Good morning, ticket inspection! May I see your validated ticket, please?",
+        "es": "Buenos días, control de billetes. ¿Me muestra su billete validado, por favor?",
+        "fr": "Bonjour, contrôle des billets ! Vous me montrez votre ticket composté, s'il vous plaît ?",
+        "ro": "Bună dimineața, control de bilete! Îmi arătați biletul validat, vă rog?"
+      }
     }
   ],
-  "culturaTip": "В італійських міських автобусах вхід зазвичай здійснюється через передні або задні двері, а вихід — через середні (Uscita)."
+  "culturaTip": {
+    "uk": "В італійських міських автобусах вхід зазвичай здійснюється через передні або задні двері, а вихід — через середні (Uscita).",
+    "en": "On Italian city buses you usually enter through the front or rear doors and exit through the middle (Uscita).",
+    "es": "En los autobuses urbanos italianos se entra por las puertas delantera o trasera y se sale por las del medio (Uscita).",
+    "fr": "Dans les bus urbains italiens, on entre par l’avant ou l’arrière et on sort par le milieu (Uscita).",
+    "ro": "În autobuzele urbane italiene se urcă de obicei pe ușa din față sau din spate, iar ieșirea e pe ușa din mijloc (Uscita)."
+  }
 }

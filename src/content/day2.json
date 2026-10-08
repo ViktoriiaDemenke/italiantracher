@@ -1,41 +1,119 @@
 {
   "day": 2,
   "mode": "dialogue",
-  "title": "Anagrafe: Sportello",
-  "story": "Номер Марка випав. Він підходить до sportello 4. За віконцем — impiegato. Тут уже не тотем, а жива розмова: мета візиту, документи, бланк, якого бракує, і спокійний Lei до arrivederci.",
+  "title": {
+    "uk": "Anagrafe: Sportello",
+    "en": "Anagrafe: Sportello",
+    "es": "Anagrafe: Sportello",
+    "fr": "Anagrafe : Sportello",
+    "ro": "Anagrafe: Sportello"
+  },
+  "story": {
+    "uk": "Номер Марка випав. Він підходить до sportello 4. За віконцем — impiegato. Тут уже не тотем, а жива розмова: мета візиту, документи, бланк, якого бракує, і спокійний Lei до arrivederci.",
+    "en": "Marco’s number comes up. He goes to sportello 4. Behind the window is an impiegato. This is no longer the totem, but a live conversation: purpose of the visit, documents, a missing form, and calm Lei until arrivederci.",
+    "es": "Sale el número de Marco. Se acerca al sportello 4. Detrás de la ventanilla hay un impiegato. Ya no es el totem, sino una conversación real: motivo de la visita, documentos, el formulario que falta, y un Lei tranquilo hasta arrivederci.",
+    "fr": "Le numéro de Marco s’affiche. Il s’approche du sportello 4. Derrière le guichet, un impiegato. Ce n’est plus le totem, mais une conversation réelle : but de la visite, documents, le formulaire manquant, et un Lei calme jusqu’à arrivederci.",
+    "ro": "Numărul lui Marco a apărut. Se apropie de sportello 4. La ghișeu e un impiegato. Aici nu mai e totemul, ci o conversație vie: scopul vizitei, documente, formularul care lipsește și un Lei calm până la arrivederci."
+  },
   "phrases": [
     {
       "italian": "Buongiorno, vorrei presentare la dichiarazione di residenza.",
-      "ukrainian": "Доброго дня, я хотів би подати декларацію про місце проживання.",
+      "ukrainian": {
+        "uk": "Доброго дня, я хотів би подати декларацію про місце проживання.",
+        "en": "Good morning, I would like to submit the dichiarazione di residenza.",
+        "es": "Buenos días, quisiera presentar la dichiarazione di residenza.",
+        "fr": "Bonjour, je voudrais présenter la dichiarazione di residenza.",
+        "ro": "Bună dimineața, aș dori să prezint dichiarazione di residenza."
+      },
       "audio_id": "d2_p1",
-      "translation": "Доброго дня, я хотів би подати декларацію про місце проживання."
+      "translation": {
+        "uk": "Доброго дня, я хотів би подати декларацію про місце проживання.",
+        "en": "Good morning, I would like to submit the dichiarazione di residenza.",
+        "es": "Buenos días, quisiera presentar la dichiarazione di residenza.",
+        "fr": "Bonjour, je voudrais présenter la dichiarazione di residenza.",
+        "ro": "Bună dimineața, aș dori să prezint dichiarazione di residenza."
+      }
     },
     {
       "italian": "Ecco il passaporto, il codice fiscale e il permesso.",
-      "ukrainian": "Ось паспорт, код фіскале і пермессо.",
+      "ukrainian": {
+        "uk": "Ось паспорт, код фіскале і пермессо.",
+        "en": "Here are the passport, the codice fiscale and the permesso.",
+        "es": "Aquí están el pasaporte, el codice fiscale y el permesso.",
+        "fr": "Voici le passeport, le codice fiscale et le permesso.",
+        "ro": "Iată pașaportul, codice fiscale și permesso."
+      },
       "audio_id": "d2_p2",
-      "translation": "Ось паспорт, код фіскале і пермессо."
+      "translation": {
+        "uk": "Ось паспорт, код фіскале і пермессо.",
+        "en": "Here are the passport, the codice fiscale and the permesso.",
+        "es": "Aquí están el pasaporte, el codice fiscale y el permesso.",
+        "fr": "Voici le passeport, le codice fiscale et le permesso.",
+        "ro": "Iată pașaportul, codice fiscale și permesso."
+      }
     },
     {
       "italian": "Il modulo non l'ho compilato. Me lo dà lei, per favore?",
-      "ukrainian": "Бланк я не заповнив. Дасте мені його, будь ласка?",
+      "ukrainian": {
+        "uk": "Бланк я не заповнив. Дасте мені його, будь ласка?",
+        "en": "I haven't filled in the form. Could you give it to me, please?",
+        "es": "No he rellenado el formulario. ¿Me lo da usted, por favor?",
+        "fr": "Je n'ai pas rempli le formulaire. Pouvez-vous me le donner, s'il vous plaît ?",
+        "ro": "Nu am completat formularul. Mi-l dați dumneavoastră, vă rog?"
+      },
       "audio_id": "d2_p3",
-      "translation": "Бланк я не заповнив. Дасте мені його, будь ласка?"
+      "translation": {
+        "uk": "Бланк я не заповнив. Дасте мені його, будь ласка?",
+        "en": "I haven't filled in the form. Could you give it to me, please?",
+        "es": "No he rellenado el formulario. ¿Me lo da usted, por favor?",
+        "fr": "Je n'ai pas rempli le formulaire. Pouvez-vous me le donner, s'il vous plaît ?",
+        "ro": "Nu am completat formularul. Mi-l dați dumneavoastră, vă rog?"
+      }
     },
     {
       "italian": "Abito in via Roma dodici, con mia moglie e mia figlia.",
-      "ukrainian": "Живу на via Roma 12, з дружиною і донькою.",
+      "ukrainian": {
+        "uk": "Живу на via Roma 12, з дружиною і донькою.",
+        "en": "I live at via Roma twelve, with my wife and my daughter.",
+        "es": "Vivo en via Roma doce, con mi mujer y mi hija.",
+        "fr": "J'habite via Roma douze, avec ma femme et ma fille.",
+        "ro": "Locuiesc pe via Roma doisprezece, cu soția și fiica mea."
+      },
       "audio_id": "d2_p4",
-      "translation": "Живу на via Roma 12, з дружиною і донькою."
+      "translation": {
+        "uk": "Живу на via Roma 12, з дружиною і донькою.",
+        "en": "I live at via Roma twelve, with my wife and my daughter.",
+        "es": "Vivo en via Roma doce, con mi mujer y mi hija.",
+        "fr": "J'habite via Roma douze, avec ma femme et ma fille.",
+        "ro": "Locuiesc pe via Roma doisprezece, cu soția și fiica mea."
+      }
     },
     {
       "italian": "Posso avere la ricevuta, per favore?",
-      "ukrainian": "Можна квитанцію, будь ласка?",
+      "ukrainian": {
+        "uk": "Можна квитанцію, будь ласка?",
+        "en": "May I have the receipt, please?",
+        "es": "¿Puedo tener el recibo, por favor?",
+        "fr": "Puis-je avoir le reçu, s'il vous plaît ?",
+        "ro": "Pot să am chitanța, vă rog?"
+      },
       "audio_id": "d2_p5",
-      "translation": "Можна квитанцію, будь ласка?"
+      "translation": {
+        "uk": "Можна квитанцію, будь ласка?",
+        "en": "May I have the receipt, please?",
+        "es": "¿Puedo tener el recibo, por favor?",
+        "fr": "Puis-je avoir le reçu, s'il vous plaît ?",
+        "ro": "Pot să am chitanța, vă rog?"
+      }
     }
   ],
-  "culturaTip": "За sportello одна відповідь — на одне питання. Якщо бракує modulo, спокійно скажіть і попросіть бланк. Не виправдовуйтесь довго. Ім'я диктуйте як у паспорті або покажіть документ. Lei тримайте до Grazie, arrivederci.",
+  "culturaTip": {
+    "uk": "За sportello одна відповідь — на одне питання. Якщо бракує modulo, спокійно скажіть і попросіть бланк. Не виправдовуйтесь довго. Ім'я диктуйте як у паспорті або покажіть документ. Lei тримайте до Grazie, arrivederci.",
+    "en": "At the sportello, one answer for one question. If a modulo is missing, say so calmly and ask for the form. Do not excuse yourself at length. Spell your name as in the passport or show the document. Keep Lei until Grazie, arrivederci.",
+    "es": "En el sportello, una respuesta por pregunta. Si falta un modulo, dilo con calma y pide el formulario. No te justifiques largo. Deletrea el nombre como en el pasaporte o muestra el documento. Mantén Lei hasta Grazie, arrivederci.",
+    "fr": "Au sportello, une réponse par question. S’il manque un modulo, dites-le calmement et demandez le formulaire. Ne vous justifiez pas longuement. Épelez le nom comme dans le passeport ou montrez le document. Gardez Lei jusqu’à Grazie, arrivederci.",
+    "ro": "La sportello, un răspuns la o întrebare. Dacă lipsește un modulo, spuneți calm și cereți formularul. Nu vă scuzați îndelung. Dictați numele ca în pașaport sau arătați documentul. Păstrați Lei până la Grazie, arrivederci."
+  },
   "dialogue": [
     {
       "step": 1,
@@ -45,23 +123,65 @@
         {
           "tone": "natural",
           "text": "Buongiorno, vorrei presentare la dichiarazione di residenza. Mi sono trasferito a Treviso da poco.",
-          "translation": "Доброго дня, я хотів би подати декларацію про місце проживання. Я нещодавно переїхав до Тревізо.",
-          "feedback": "Чітка мета, Lei, без біографії на п'ять хвилин."
+          "translation": {
+            "uk": "Доброго дня, я хотів би подати декларацію про місце проживання. Я нещодавно переїхав до Тревізо.",
+            "en": "Good morning, I would like to submit the dichiarazione di residenza. I recently moved to Treviso.",
+            "es": "Buenos días, quisiera presentar la dichiarazione di residenza. Me he mudado a Treviso hace poco.",
+            "fr": "Bonjour, je voudrais présenter la dichiarazione di residenza. J'ai emménagé à Treviso récemment.",
+            "ro": "Bună dimineața, aș dori să prezint dichiarazione di residenza. M-am mutat recent la Treviso."
+          },
+          "feedback": {
+            "uk": "Доброго дня, я хотів би подати декларацію про місце проживання. Я нещодавно переїхав до Тревізо.",
+            "en": "Good morning, I would like to submit the dichiarazione di residenza. I recently moved to Treviso.",
+            "es": "Buenos días, quisiera presentar la dichiarazione di residenza. Me he mudado a Treviso hace poco.",
+            "fr": "Bonjour, je voudrais présenter la dichiarazione di residenza. J'ai emménagé à Treviso récemment.",
+            "ro": "Bună dimineața, aș dori să prezint dichiarazione di residenza. M-am mutat recent la Treviso."
+          }
         },
         {
           "tone": "bookish",
           "text": "Desidererei sottoporre all'attenzione dell'ufficio l'istanza di iscrizione anagrafica.",
-          "translation": "Бажав би подати на розгляд установи заяву про анаграфічну реєстрацію.",
-          "feedback": "Зміст ок, тон як з підручника права. У віконці кажуть простіше."
+          "translation": {
+            "uk": "Бажав би подати на розгляд установи заяву про анаграфічну реєстрацію.",
+            "en": "I would like to submit to the office the application for iscrizione anagrafica.",
+            "es": "Desearía someter a la atención de la oficina la instancia de iscrizione anagrafica.",
+            "fr": "Je souhaiterais soumettre à l'attention du bureau l'instance d'iscrizione anagrafica.",
+            "ro": "Aș dori să supun atenției biroului cererea de iscrizione anagrafica."
+          },
+          "feedback": {
+            "uk": "Бажав би подати на розгляд установи заяву про анаграфічну реєстрацію.",
+            "en": "I would like to submit to the office the application for iscrizione anagrafica.",
+            "es": "Desearía someter a la atención de la oficina la instancia de iscrizione anagrafica.",
+            "fr": "Je souhaiterais soumettre à l'attention du bureau l'instance d'iscrizione anagrafica.",
+            "ro": "Aș dori să supun atenției biroului cererea de iscrizione anagrafica."
+          }
         },
         {
           "tone": "wrong",
           "text": "Ciao, fammi la residenza adesso.",
-          "translation": "Привіт, зроби мені резиденцію зараз.",
-          "feedback": "Ciao і наказ. Тут Buongiorno і vorrei."
+          "translation": {
+            "uk": "Привіт, зроби мені резиденцію зараз.",
+            "en": "Hi, do my residence for me now.",
+            "es": "Hola, hazme la residencia ahora.",
+            "fr": "Salut, fais-moi la résidence maintenant.",
+            "ro": "Salut, fă-mi residenza acum."
+          },
+          "feedback": {
+            "uk": "Привіт, зроби мені резиденцію зараз.",
+            "en": "Hi, do my residence for me now.",
+            "es": "Hola, hazme la residencia ahora.",
+            "fr": "Salut, fais-moi la résidence maintenant.",
+            "ro": "Salut, fă-mi residenza acum."
+          }
         }
       ],
-      "translation": "Доброго дня, слухаю вас."
+      "translation": {
+        "uk": "Доброго дня, слухаю вас.",
+        "en": "Good morning, how can I help you?",
+        "es": "Buenos días, dígame.",
+        "fr": "Bonjour, je vous écoute.",
+        "ro": "Bună dimineața, vă ascult."
+      }
     },
     {
       "step": 2,
@@ -71,23 +191,65 @@
         {
           "tone": "bookish",
           "text": "Ho ottemperato alla procedura di prenotazione mediante il totem elettronico.",
-          "translation": "Я виконав процедуру бронювання за допомогою електронного тотема.",
-          "feedback": "Занадто канцелярськи. Достатньо: ho preso il biglietto."
+          "translation": {
+            "uk": "Я виконав процедуру бронювання за допомогою електронного тотема.",
+            "en": "I have complied with the booking procedure by means of the electronic totem.",
+            "es": "He cumplido el procedimiento de reserva mediante el totem electrónico.",
+            "fr": "J'ai satisfait à la procédure de réservation au moyen du totem électronique.",
+            "ro": "Am îndeplinit procedura de programare prin totemul electronic."
+          },
+          "feedback": {
+            "uk": "Я виконав процедуру бронювання за допомогою електронного тотема.",
+            "en": "I have complied with the booking procedure by means of the electronic totem.",
+            "es": "He cumplido el procedimiento de reserva mediante el totem electrónico.",
+            "fr": "J'ai satisfait à la procédure de réservation au moyen du totem électronique.",
+            "ro": "Am îndeplinit procedura de programare prin totemul electronic."
+          }
         },
         {
           "tone": "wrong",
           "text": "Non ho il numero, ma la coda è lunga e io lavoro.",
-          "translation": "У мене немає номера, але черга довга, а я працюю.",
-          "feedback": "Без номера вас не візьмуть «поза чергою»."
+          "translation": {
+            "uk": "У мене немає номера, але черга довга, а я працюю.",
+            "en": "I don't have a number, but the queue is long and I have to work.",
+            "es": "No tengo número, pero la cola es larga y yo trabajo.",
+            "fr": "Je n'ai pas le numéro, mais la file est longue et je travaille.",
+            "ro": "Nu am număr, dar coada e lungă și eu lucrez."
+          },
+          "feedback": {
+            "uk": "У мене немає номера, але черга довга, а я працюю.",
+            "en": "I don't have a number, but the queue is long and I have to work.",
+            "es": "No tengo número, pero la cola es larga y yo trabajo.",
+            "fr": "Je n'ai pas le numéro, mais la file est longue et je travaille.",
+            "ro": "Nu am număr, dar coada e lungă și eu lucrez."
+          }
         },
         {
           "tone": "natural",
           "text": "Ho preso il biglietto al totem, categoria Anagrafe. Questo è il mio numero.",
-          "translation": "Я взяв талончик на тотемі, категорія Anagrafe. Це мій номер.",
-          "feedback": "Показуєте талон і категорію. Працівник одразу розуміє чергу."
+          "translation": {
+            "uk": "Я взяв талончик на тотемі, категорія Anagrafe. Це мій номер.",
+            "en": "I took the ticket at the totem, category Anagrafe. This is my number.",
+            "es": "He cogido el ticket en el totem, categoría Anagrafe. Este es mi número.",
+            "fr": "J'ai pris le ticket au totem, catégorie Anagrafe. Voici mon numéro.",
+            "ro": "Am luat tichetul de la totem, categoria Anagrafe. Acesta este numărul meu."
+          },
+          "feedback": {
+            "uk": "Я взяв талончик на тотемі, категорія Anagrafe. Це мій номер.",
+            "en": "I took the ticket at the totem, category Anagrafe. This is my number.",
+            "es": "He cogido el ticket en el totem, categoría Anagrafe. Este es mi número.",
+            "fr": "J'ai pris le ticket au totem, catégorie Anagrafe. Voici mon numéro.",
+            "ro": "Am luat tichetul de la totem, categoria Anagrafe. Acesta este numărul meu."
+          }
         }
       ],
-      "translation": "Добре. У вас уже є запис чи ви зайшли з номером із тотема?"
+      "translation": {
+        "uk": "Добре. У вас уже є запис чи ви зайшли з номером із тотема?",
+        "en": "All right. Do you already have an appointment, or did you come with the totem number?",
+        "es": "De acuerdo. ¿Tiene ya cita o ha venido con el número del totem?",
+        "fr": "Très bien. Avez-vous déjà un rendez-vous ou êtes-vous passé avec le numéro du totem ?",
+        "ro": "Bine. Aveți deja o programare sau ați venit cu numărul de la totem?"
+      }
     },
     {
       "step": 3,
@@ -97,23 +259,65 @@
         {
           "tone": "natural",
           "text": "Sì, ecco il passaporto, il codice fiscale, il permesso e il contratto d'affitto. Li metto qui.",
-          "translation": "Так, ось паспорт, код фіскале, пермессо і договір оренди. Кладу їх тут.",
-          "feedback": "Усе на стійку, коротко по списку. Так і роблять."
+          "translation": {
+            "uk": "Так, ось паспорт, код фіскале, пермессо і договір оренди. Кладу їх тут.",
+            "en": "Yes, here are the passport, the codice fiscale, the permesso and the rental contract. I'll put them here.",
+            "es": "Sí, aquí están el pasaporte, el codice fiscale, el permesso y el contrato de alquiler. Los pongo aquí.",
+            "fr": "Oui, voici le passeport, le codice fiscale, le permesso et le contrat de location. Je les mets ici.",
+            "ro": "Da, iată pașaportul, codice fiscale, permesso și contractul de închiriere. Le pun aici."
+          },
+          "feedback": {
+            "uk": "Так, ось паспорт, код фіскале, пермессо і договір оренди. Кладу їх тут.",
+            "en": "Yes, here are the passport, the codice fiscale, the permesso and the rental contract. I'll put them here.",
+            "es": "Sí, aquí están el pasaporte, el codice fiscale, el permesso y el contrato de alquiler. Los pongo aquí.",
+            "fr": "Oui, voici le passeport, le codice fiscale, le permesso et le contrat de location. Je les mets ici.",
+            "ro": "Da, iată pașaportul, codice fiscale, permesso și contractul de închiriere. Le pun aici."
+          }
         },
         {
           "tone": "wrong",
           "text": "Guardi sul telefono, ho le foto. Gli originali sono a casa.",
-          "translation": "Подивіться в телефоні, у мене фото. Оригінали вдома.",
-          "feedback": "Для residenza оригінали потрібні на столі, не в галереї телефону."
+          "translation": {
+            "uk": "Подивіться в телефоні, у мене фото. Оригінали вдома.",
+            "en": "Look on the phone, I have photos. The originals are at home.",
+            "es": "Mire en el teléfono, tengo las fotos. Los originales están en casa.",
+            "fr": "Regardez sur le téléphone, j'ai les photos. Les originaux sont à la maison.",
+            "ro": "Uitați-vă pe telefon, am poze. Originalele sunt acasă."
+          },
+          "feedback": {
+            "uk": "Подивіться в телефоні, у мене фото. Оригінали вдома.",
+            "en": "Look on the phone, I have photos. The originals are at home.",
+            "es": "Mire en el teléfono, tengo las fotos. Los originales están en casa.",
+            "fr": "Regardez sur le téléphone, j'ai les photos. Les originaux sont à la maison.",
+            "ro": "Uitați-vă pe telefon, am poze. Originalele sunt acasă."
+          }
         },
         {
           "tone": "bookish",
           "text": "Le consegno qui di seguito l'intera documentazione identificativa e contrattuale in originale.",
-          "translation": "Передаю вам далі всю ідентифікаційну та договірну документацію в оригіналі.",
-          "feedback": "Можна простіше: ecco i documenti."
+          "translation": {
+            "uk": "Передаю вам далі всю ідентифікаційну та договірну документацію в оригіналі.",
+            "en": "I hereby hand over the entire identification and contractual documentation in original.",
+            "es": "Le entrego a continuación toda la documentación identificativa y contractual en original.",
+            "fr": "Je vous remets ci-après l'ensemble de la documentation identificative et contractuelle en original.",
+            "ro": "Vă predau în continuare întreaga documentație de identitate și contractuală în original."
+          },
+          "feedback": {
+            "uk": "Передаю вам далі всю ідентифікаційну та договірну документацію в оригіналі.",
+            "en": "I hereby hand over the entire identification and contractual documentation in original.",
+            "es": "Le entrego a continuación toda la documentación identificativa y contractual en original.",
+            "fr": "Je vous remets ci-après l'ensemble de la documentation identificative et contractuelle en original.",
+            "ro": "Vă predau în continuare întreaga documentație de identitate și contractuală în original."
+          }
         }
       ],
-      "translation": "Документи, будь ласка: паспорт, код фіскале, дозвіл на проживання і договір оренди."
+      "translation": {
+        "uk": "Документи, будь ласка: паспорт, код фіскале, дозвіл на проживання і договір оренди.",
+        "en": "The documents, please: the passport, the codice fiscale, the permesso di soggiorno and the rental contract.",
+        "es": "Los documentos, por favor: el pasaporte, el codice fiscale, el permesso di soggiorno y el contrato de alquiler.",
+        "fr": "Les documents, s'il vous plaît : le passeport, le codice fiscale, le permesso di soggiorno et le contrat de location.",
+        "ro": "Documentele, vă rog: pașaportul, codice fiscale, permesso di soggiorno și contractul de închiriere."
+      }
     },
     {
       "step": 4,
@@ -123,23 +327,65 @@
         {
           "tone": "bookish",
           "text": "Lamentabilmente non ho provveduto alla previa compilazione del modulo scaricato dal portale istituzionale.",
-          "translation": "На жаль, я не забезпечив попереднього заповнення бланка, завантаженого з інституційного порталу.",
-          "feedback": "Зміст «не заповнив», але речення важке. Краще: non l'ho compilato."
+          "translation": {
+            "uk": "На жаль, я не забезпечив попереднього заповнення бланка, завантаженого з інституційного порталу.",
+            "en": "Regrettably I have not proceeded with the prior completion of the form downloaded from the institutional portal.",
+            "es": "Lamentablemente no he procedido a la previa cumplimentación del formulario descargado del portal institucional.",
+            "fr": "Malheureusement, je n'ai pas procédé à la compilation préalable du formulaire téléchargé depuis le portail institutionnel.",
+            "ro": "Din păcate nu am procedat la completarea prealabilă a formularului descărcat de pe portalul instituțional."
+          },
+          "feedback": {
+            "uk": "На жаль, я не забезпечив попереднього заповнення бланка, завантаженого з інституційного порталу.",
+            "en": "Regrettably I have not proceeded with the prior completion of the form downloaded from the institutional portal.",
+            "es": "Lamentablemente no he procedido a la previa cumplimentación del formulario descargado del portal institucional.",
+            "fr": "Malheureusement, je n'ai pas procédé à la compilation préalable du formulaire téléchargé depuis le portail institutionnel.",
+            "ro": "Din păcate nu am procedat la completarea prealabilă a formularului descărcat de pe portalul instituțional."
+          }
         },
         {
           "tone": "natural",
           "text": "No, non l'ho compilato. Me lo dà lei adesso, per favore? Lo riempio qui.",
-          "translation": "Ні, я його не заповнив. Дасте мені його зараз, будь ласка? Заповню тут.",
-          "feedback": "Чесно і ввічливо. Бланк часто дають на місці, якщо ви не друкували з сайту."
+          "translation": {
+            "uk": "Ні, я його не заповнив. Дасте мені його зараз, будь ласка? Заповню тут.",
+            "en": "No, I haven't filled it in. Could you give it to me now, please? I'll fill it in here.",
+            "es": "No, no lo he rellenado. ¿Me lo da usted ahora, por favor? Lo relleno aquí.",
+            "fr": "Non, je ne l'ai pas rempli. Pouvez-vous me le donner maintenant, s'il vous plaît ? Je le remplis ici.",
+            "ro": "Nu, nu l-am completat. Mi-l dați acum, vă rog? Îl completez aici."
+          },
+          "feedback": {
+            "uk": "Ні, я його не заповнив. Дасте мені його зараз, будь ласка? Заповню тут.",
+            "en": "No, I haven't filled it in. Could you give it to me now, please? I'll fill it in here.",
+            "es": "No, no lo he rellenado. ¿Me lo da usted ahora, por favor? Lo relleno aquí.",
+            "fr": "Non, je ne l'ai pas rempli. Pouvez-vous me le donner maintenant, s'il vous plaît ? Je le remplis ici.",
+            "ro": "Nu, nu l-am completat. Mi-l dați acum, vă rog? Îl completez aici."
+          }
         },
         {
           "tone": "wrong",
           "text": "Non è un problema mio, lo deve fare lei.",
-          "translation": "Це не моя проблема, це маєте зробити ви.",
-          "feedback": "Грубо. Бланк заповнює заявник, працівник допомагає з полями."
+          "translation": {
+            "uk": "Це не моя проблема, це маєте зробити ви.",
+            "en": "That's not my problem, you have to do it.",
+            "es": "No es un problema mío, lo tiene que hacer usted.",
+            "fr": "Ce n'est pas mon problème, c'est vous qui devez le faire.",
+            "ro": "Nu e problema mea, trebuie să o faceți dumneavoastră."
+          },
+          "feedback": {
+            "uk": "Це не моя проблема, це маєте зробити ви.",
+            "en": "That's not my problem, you have to do it.",
+            "es": "No es un problema mío, lo tiene que hacer usted.",
+            "fr": "Ce n'est pas mon problème, c'est vous qui devez le faire.",
+            "ro": "Nu e problema mea, trebuie să o faceți dumneavoastră."
+          }
         }
       ],
-      "translation": "Договір є. Але я не бачу вже заповненого бланка декларації. Ви роздрукували його з сайту комуни?"
+      "translation": {
+        "uk": "Договір є. Але я не бачу вже заповненого бланка декларації. Ви роздрукували його з сайту комуни?",
+        "en": "The contract is here. But I don't see the already completed dichiarazione form. Did you print it from the Comune website?",
+        "es": "El contrato está. Pero no veo el formulario de la dichiarazione ya rellenado. ¿Lo ha impreso del sitio del Comune?",
+        "fr": "Le contrat est là. Mais je ne vois pas le formulaire de dichiarazione déjà rempli. L'avez-vous imprimé depuis le site du Comune ?",
+        "ro": "Contractul este. Dar nu văd formularul de dichiarazione deja completat. L-ați printat de pe site-ul Comune?"
+      }
     },
     {
       "step": 5,
@@ -149,23 +395,65 @@
         {
           "tone": "wrong",
           "text": "Lo firmi lei, tanto è uguale.",
-          "translation": "Підпишіть ви, це все одно.",
-          "feedback": "Підпис і дані — ваші. Працівник не підписує замість вас."
+          "translation": {
+            "uk": "Підпишіть ви, це все одно.",
+            "en": "You sign it, it's the same anyway.",
+            "es": "Fírmelo usted, total da igual.",
+            "fr": "Signez-le vous, c'est pareil de toute façon.",
+            "ro": "Semnați dumneavoastră, oricum e la fel."
+          },
+          "feedback": {
+            "uk": "Підпишіть ви, це все одно.",
+            "en": "You sign it, it's the same anyway.",
+            "es": "Fírmelo usted, total da igual.",
+            "fr": "Signez-le vous, c'est pareil de toute façon.",
+            "ro": "Semnați dumneavoastră, oricum e la fel."
+          }
         },
         {
           "tone": "bookish",
           "text": "La prego di illustrarmi analogamente ciascun campo del formulario.",
-          "translation": "Прошу аналогічно пояснити мені кожне поле формуляра.",
-          "feedback": "Занадто урочисто. Достатньо спитати про riga dell'indirizzo."
+          "translation": {
+            "uk": "Прошу аналогічно пояснити мені кожне поле формуляра.",
+            "en": "I kindly ask you to likewise explain each field of the form to me.",
+            "es": "Le ruego que me ilustre análogamente cada campo del formulario.",
+            "fr": "Je vous prie de m'illustrer de même chaque champ du formulaire.",
+            "ro": "Vă rog să-mi explicați analog fiecare câmp al formularului."
+          },
+          "feedback": {
+            "uk": "Прошу аналогічно пояснити мені кожне поле формуляра.",
+            "en": "I kindly ask you to likewise explain each field of the form to me.",
+            "es": "Le ruego que me ilustre análogamente cada campo del formulario.",
+            "fr": "Je vous prie de m'illustrer de même chaque champ du formulaire.",
+            "ro": "Vă rog să-mi explicați analog fiecare câmp al formularului."
+          }
         },
         {
           "tone": "natural",
           "text": "Sì, grazie. Quale riga per l'indirizzo e per i familiari, scusi?",
-          "translation": "Так, дякую. Який рядок для адреси і для членів сім’ї, вибачте?",
-          "feedback": "Просите орієнтир по рядках. Це нормально і не гальмує вікно."
+          "translation": {
+            "uk": "Так, дякую. Який рядок для адреси і для членів сім’ї, вибачте?",
+            "en": "Yes, thank you. Which line is for the address and for family members, sorry?",
+            "es": "Sí, gracias. ¿Qué línea es para la dirección y para los familiares, disculpe?",
+            "fr": "Oui, merci. Quelle ligne pour l'adresse et pour les proches, excusez-moi ?",
+            "ro": "Da, mulțumesc. Care rând este pentru adresă și pentru membrii familiei, scuzați?"
+          },
+          "feedback": {
+            "uk": "Так, дякую. Який рядок для адреси і для членів сім’ї, вибачте?",
+            "en": "Yes, thank you. Which line is for the address and for family members, sorry?",
+            "es": "Sí, gracias. ¿Qué línea es para la dirección y para los familiares, disculpe?",
+            "fr": "Oui, merci. Quelle ligne pour l'adresse et pour les proches, excusez-moi ?",
+            "ro": "Da, mulțumesc. Care rând este pentru adresă și pentru membrii familiei, scuzați?"
+          }
         }
       ],
-      "translation": "Даю вам бланк. Ім’я, прізвище, дата і місце народження, адреса, члени сім’ї. Є ручка?"
+      "translation": {
+        "uk": "Даю вам бланк. Ім’я, прізвище, дата і місце народження, адреса, члени сім’ї. Є ручка?",
+        "en": "I'll give you the form. First name, last name, date and place of birth, address, household members. Do you have a pen?",
+        "es": "Le doy el formulario. Nombre, apellidos, fecha y lugar de nacimiento, dirección, componentes del núcleo. ¿Tiene un bolígrafo?",
+        "fr": "Je vous donne le formulaire. Prénom, nom, date et lieu de naissance, adresse, membres du nucleo. Avez-vous un stylo ?",
+        "ro": "Vă dau formularul. Prenume, nume, data și locul nașterii, adresă, membrii nucleului. Aveți un pix?"
+      }
     },
     {
       "step": 6,
@@ -175,23 +463,65 @@
         {
           "tone": "wrong",
           "text": "Sì, abito da solo. Gli altri non servono.",
-          "translation": "Так, живу сам. Інші не потрібні.",
-          "feedback": "Якщо сім'я живе з вами, їх треба заявити. Інакше residenza буде неточною."
+          "translation": {
+            "uk": "Так, живу сам. Інші не потрібні.",
+            "en": "Yes, I live alone. The others aren't needed.",
+            "es": "Sí, vivo solo. Los demás no hacen falta.",
+            "fr": "Oui, j'habite seul. Les autres ne sont pas nécessaires.",
+            "ro": "Da, locuiesc singur. Ceilalți nu sunt necesari."
+          },
+          "feedback": {
+            "uk": "Так, живу сам. Інші не потрібні.",
+            "en": "Yes, I live alone. The others aren't needed.",
+            "es": "Sí, vivo solo. Los demás no hacen falta.",
+            "fr": "Oui, j'habite seul. Les autres ne sont pas nécessaires.",
+            "ro": "Da, locuiesc singur. Ceilalți nu sunt necesari."
+          }
         },
         {
           "tone": "natural",
           "text": "No, vivo con mia moglie e mia figlia. Ho anche i loro documenti, se li vuole vedere.",
-          "translation": "Ні, живу з дружиною і донькою. Маю також їхні документи, якщо хочете подивитися.",
-          "feedback": "Пряма відповідь на питання про nucleo. Документи сім'ї тримайте готовими."
+          "translation": {
+            "uk": "Ні, живу з дружиною і донькою. Маю також їхні документи, якщо хочете подивитися.",
+            "en": "No, I live with my wife and my daughter. I also have their documents, if you want to see them.",
+            "es": "No, vivo con mi mujer y mi hija. Tengo también sus documentos, si quiere verlos.",
+            "fr": "Non, je vis avec ma femme et ma fille. J'ai aussi leurs documents, si vous voulez les voir.",
+            "ro": "Nu, locuiesc cu soția și fiica mea. Am și documentele lor, dacă vreți să le vedeți."
+          },
+          "feedback": {
+            "uk": "Ні, живу з дружиною і донькою. Маю також їхні документи, якщо хочете подивитися.",
+            "en": "No, I live with my wife and my daughter. I also have their documents, if you want to see them.",
+            "es": "No, vivo con mi mujer y mi hija. Tengo también sus documentos, si quiere verlos.",
+            "fr": "Non, je vis avec ma femme et ma fille. J'ai aussi leurs documents, si vous voulez les voir.",
+            "ro": "Nu, locuiesc cu soția și fiica mea. Am și documentele lor, dacă vreți să le vedeți."
+          }
         },
         {
           "tone": "bookish",
           "text": "Il mio nucleo familiare risulta composto da coniuge e figlia conviventi presso il medesimo indirizzo.",
-          "translation": "Мій сімейний склад складається з дружини і доньки, які проживають за тією самою адресою.",
-          "feedback": "Книжежно. У віконці: vivo con mia moglie e mia figlia."
+          "translation": {
+            "uk": "Мій сімейний склад складається з дружини і доньки, які проживають за тією самою адресою.",
+            "en": "My household consists of a spouse and a daughter living at the same address.",
+            "es": "Mi nucleo familiare resulta compuesto por cónyuge e hija convivientes en el mismo domicilio.",
+            "fr": "Mon nucleo familiare est composé du conjoint et de la fille cohabitant à la même adresse.",
+            "ro": "Nucleo familiare al meu este format din soție și fiică care locuiesc la aceeași adresă."
+          },
+          "feedback": {
+            "uk": "Мій сімейний склад складається з дружини і доньки, які проживають за тією самою адресою.",
+            "en": "My household consists of a spouse and a daughter living at the same address.",
+            "es": "Mi nucleo familiare resulta compuesto por cónyuge e hija convivientes en el mismo domicilio.",
+            "fr": "Mon nucleo familiare est composé du conjoint et de la fille cohabitant à la même adresse.",
+            "ro": "Nucleo familiare al meu este format din soție și fiică care locuiesc la aceeași adresă."
+          }
         }
       ],
-      "translation": "Ви живете самі чи з іншими членами сім’ї? Потрібні документи всіх."
+      "translation": {
+        "uk": "Ви живете самі чи з іншими членами сім’ї? Потрібні документи всіх.",
+        "en": "Do you live alone or with other family members? We need everyone's documents.",
+        "es": "¿Vive solo o con otros familiares? Hacen falta los documentos de todos.",
+        "fr": "Habitez-vous seul ou avec d'autres membres de la famille ? Il faut les documents de tous.",
+        "ro": "Locuiți singur sau cu alți membri ai familiei? Sunt necesare documentele tuturor."
+      }
     },
     {
       "step": 7,
@@ -201,23 +531,65 @@
         {
           "tone": "natural",
           "text": "Sì, ce l'ho. L'ho comprata in tabaccheria stamattina. Ecco.",
-          "translation": "Так, є. Купив її в тютюновій крамниці сьогодні вранці. Ось.",
-          "feedback": "Марку кладете разом із бланком. Так заява може піти далі."
+          "translation": {
+            "uk": "Так, є. Купив її в тютюновій крамниці сьогодні вранці. Ось.",
+            "en": "Yes, I have it. I bought it at the tabaccheria this morning. Here it is.",
+            "es": "Sí, la tengo. La compré en la tabaccheria esta mañana. Aquí.",
+            "fr": "Oui, je l'ai. Je l'ai achetée en tabaccheria ce matin. Voilà.",
+            "ro": "Da, o am. Am cumpărat-o de la tabaccheria dimineața asta. Iată."
+          },
+          "feedback": {
+            "uk": "Так, є. Купив її в тютюновій крамниці сьогодні вранці. Ось.",
+            "en": "Yes, I have it. I bought it at the tabaccheria this morning. Here it is.",
+            "es": "Sí, la tengo. La compré en la tabaccheria esta mañana. Aquí.",
+            "fr": "Oui, je l'ai. Je l'ai achetée en tabaccheria ce matin. Voilà.",
+            "ro": "Da, o am. Am cumpărat-o de la tabaccheria dimineața asta. Iată."
+          }
         },
         {
           "tone": "bookish",
           "text": "Ho provveduto all'acquisto del contrassegno telematico dell'imposta di bollo prevista.",
-          "translation": "Я забезпечив придбання телематичного знака передбаченого гербового збору.",
-          "feedback": "Можна просто: sì, la marca da bollo ce l'ho."
+          "translation": {
+            "uk": "Я забезпечив придбання телематичного знака передбаченого гербового збору.",
+            "en": "I have proceeded with the purchase of the required telematic stamp for the imposta di bollo.",
+            "es": "He procedido a la compra del contrassegno telematico de la imposta di bollo prevista.",
+            "fr": "J'ai procédé à l'achat du contrassegno telematico de l'imposta di bollo prévue.",
+            "ro": "Am procedat la achiziționarea contrassegno telematico al imposta di bollo prevăzute."
+          },
+          "feedback": {
+            "uk": "Я забезпечив придбання телематичного знака передбаченого гербового збору.",
+            "en": "I have proceeded with the purchase of the required telematic stamp for the imposta di bollo.",
+            "es": "He procedido a la compra del contrassegno telematico de la imposta di bollo prevista.",
+            "fr": "J'ai procédé à l'achat du contrassegno telematico de l'imposta di bollo prévue.",
+            "ro": "Am procedat la achiziționarea contrassegno telematico al imposta di bollo prevăzute."
+          }
         },
         {
           "tone": "wrong",
           "text": "Pago dopo, quando mi date la residenza.",
-          "translation": "Заплачу потім, коли дасте мені резиденцію.",
-          "feedback": "Марку просять разом із заявою, не «після результату»."
+          "translation": {
+            "uk": "Заплачу потім, коли дасте мені резиденцію.",
+            "en": "I'll pay later, when you give me the residence.",
+            "es": "Pago después, cuando me den la residencia.",
+            "fr": "Je paie après, quand vous me donnerez la résidence.",
+            "ro": "Plătesc după, când îmi dați residenza."
+          },
+          "feedback": {
+            "uk": "Заплачу потім, коли дасте мені резиденцію.",
+            "en": "I'll pay later, when you give me the residence.",
+            "es": "Pago después, cuando me den la residencia.",
+            "fr": "Je paie après, quand vous me donnerez la résidence.",
+            "ro": "Plătesc după, când îmi dați residenza."
+          }
         }
       ],
-      "translation": "Бракує ще марки da bollo на 16 євро. Вона у вас є?"
+      "translation": {
+        "uk": "Бракує ще марки da bollo на 16 євро. Вона у вас є?",
+        "en": "The 16-euro marca da bollo is still missing. Do you have it?",
+        "es": "Falta todavía la marca da bollo de 16 euros. ¿La tiene?",
+        "fr": "Il manque encore la marca da bollo de 16 euros. L'avez-vous ?",
+        "ro": "Mai lipsește marca da bollo de 16 euro. O aveți?"
+      }
     },
     {
       "step": 8,
@@ -227,23 +599,65 @@
         {
           "tone": "bookish",
           "text": "Apporrò la mia sottoscrizione nello spazio deputato e resterò a disposizione per eventuali rettifiche.",
-          "translation": "Поставлю свій підпис у відведеному місці і залишатимусь у розпорядженні для можливих виправлень.",
-          "feedback": "Занадто канцелярія. Firmo qui — достатньо."
+          "translation": {
+            "uk": "Поставлю свій підпис у відведеному місці і залишатимусь у розпорядженні для можливих виправлень.",
+            "en": "I shall affix my signature in the designated space and remain available for any corrections.",
+            "es": "Apondré mi firma en el espacio destinado y quedaré a disposición para eventuales rectificaciones.",
+            "fr": "J'apposerai ma signature dans l'espace prévu et resterai à disposition pour d'éventuelles rectifications.",
+            "ro": "Voi pune semnătura în spațiul destinat și rămân la dispoziție pentru eventuale rectificări."
+          },
+          "feedback": {
+            "uk": "Поставлю свій підпис у відведеному місці і залишатимусь у розпорядженні для можливих виправлень.",
+            "en": "I shall affix my signature in the designated space and remain available for any corrections.",
+            "es": "Apondré mi firma en el espacio destinado y quedaré a disposición para eventuales rectificaciones.",
+            "fr": "J'apposerai ma signature dans l'espace prévu et resterai à disposition pour d'éventuelles rectifications.",
+            "ro": "Voi pune semnătura în spațiul destinat și rămân la dispoziție pentru eventuale rectificări."
+          }
         },
         {
           "tone": "wrong",
           "text": "Non firmo se prima non mi date la carta.",
-          "translation": "Не підпишу, якщо спочатку не дасте картку.",
-          "feedback": "Спочатку бланк і підпис, потім ricevuta. Не торг."
+          "translation": {
+            "uk": "Не підпишу, якщо спочатку не дасте картку.",
+            "en": "I won't sign unless you give me the card first.",
+            "es": "No firmo si primero no me dan la tarjeta.",
+            "fr": "Je ne signe pas si vous ne me donnez pas d'abord la carte.",
+            "ro": "Nu semnez dacă nu-mi dați mai întâi cartea."
+          },
+          "feedback": {
+            "uk": "Не підпишу, якщо спочатку не дасте картку.",
+            "en": "I won't sign unless you give me the card first.",
+            "es": "No firmo si primero no me dan la tarjeta.",
+            "fr": "Je ne signe pas si vous ne me donnez pas d'abord la carte.",
+            "ro": "Nu semnez dacă nu-mi dați mai întâi cartea."
+          }
         },
         {
           "tone": "natural",
           "text": "Firmo qui. Se una lettera del cognome non è chiara, lo spello, se vuole.",
-          "translation": "Підписую тут. Якщо літера прізвища неясна, продиктую по літерах, якщо хочете.",
-          "feedback": "Підпис + готовність продиктувати прізвище. Типово для іноземного імені."
+          "translation": {
+            "uk": "Підписую тут. Якщо літера прізвища неясна, продиктую по літерах, якщо хочете.",
+            "en": "I'll sign here. If a letter of the surname isn't clear, I'll spell it, if you wish.",
+            "es": "Firmo aquí. Si una letra del apellido no está clara, lo deletreo, si quiere.",
+            "fr": "Je signe ici. Si une lettre du nom n'est pas claire, je l'épelle, si vous voulez.",
+            "ro": "Semnez aici. Dacă o literă a numelui nu e clară, o silabisesc, dacă doriți."
+          },
+          "feedback": {
+            "uk": "Підписую тут. Якщо літера прізвища неясна, продиктую по літерах, якщо хочете.",
+            "en": "I'll sign here. If a letter of the surname isn't clear, I'll spell it, if you wish.",
+            "es": "Firmo aquí. Si una letra del apellido no está clara, lo deletreo, si quiere.",
+            "fr": "Je signe ici. Si une lettre du nom n'est pas claire, je l'épelle, si vous voulez.",
+            "ro": "Semnez aici. Dacă o literă a numelui nu e clară, o silabisesc, dacă doriți."
+          }
         }
       ],
-      "translation": "Добре. Унизу є підпис. Потім поверніть мені бланк. Перевірю дані з паспортом."
+      "translation": {
+        "uk": "Добре. Унизу є підпис. Потім поверніть мені бланк. Перевірю дані з паспортом.",
+        "en": "Good. The signature is at the bottom. Then bring it back to me. I'll check the details against the passport.",
+        "es": "Bien. Al final está la firma. Luego me lo trae. Compruebo los datos con el pasaporte.",
+        "fr": "Bien. En bas il y a la signature. Ensuite vous me le rapportez. Je contrôle les données avec le passeport.",
+        "ro": "Bine. Jos este semnătura. Apoi mi-l aduceți înapoi. Verific datele cu pașaportul."
+      }
     },
     {
       "step": 9,
@@ -253,23 +667,65 @@
         {
           "tone": "natural",
           "text": "Certo, aspetto. Non c'è fretta. Grazie.",
-          "translation": "Звісно, чекаю. Нікуди не поспішаю. Дякую.",
-          "feedback": "Стоїте біля вікна, не сперечаєтеся із чергою позаду."
+          "translation": {
+            "uk": "Звісно, чекаю. Нікуди не поспішаю. Дякую.",
+            "en": "Of course, I'll wait. There's no hurry. Thank you.",
+            "es": "Claro, espero. No hay prisa. Gracias.",
+            "fr": "Bien sûr, j'attends. Il n'y a pas d'urgence. Merci.",
+            "ro": "Desigur, aștept. Nu e grabă. Mulțumesc."
+          },
+          "feedback": {
+            "uk": "Звісно, чекаю. Нікуди не поспішаю. Дякую.",
+            "en": "Of course, I'll wait. There's no hurry. Thank you.",
+            "es": "Claro, espero. No hay prisa. Gracias.",
+            "fr": "Bien sûr, j'attends. Il n'y a pas d'urgence. Merci.",
+            "ro": "Desigur, aștept. Nu e grabă. Mulțumesc."
+          }
         },
         {
           "tone": "wrong",
           "text": "Svelto, ho un autobus. Faccia prima me.",
-          "translation": "Швидше, у мене автобус. Зробіть мене першим.",
-          "feedback": "Підганяти sportello — поганий тон і не прискорює систему."
+          "translation": {
+            "uk": "Швидше, у мене автобус. Зробіть мене першим.",
+            "en": "Hurry up, I have a bus. Do me first.",
+            "es": "Rápido, tengo un autobús. Hágame a mí primero.",
+            "fr": "Dépêchez-vous, j'ai un bus. Faites-moi en premier.",
+            "ro": "Mai iute, am un autobuz. Faceți-mă pe mine primul."
+          },
+          "feedback": {
+            "uk": "Швидше, у мене автобус. Зробіть мене першим.",
+            "en": "Hurry up, I have a bus. Do me first.",
+            "es": "Rápido, tengo un autobús. Hágame a mí primero.",
+            "fr": "Dépêchez-vous, j'ai un bus. Faites-moi en premier.",
+            "ro": "Mai iute, am un autobuz. Faceți-mă pe mine primul."
+          }
         },
         {
           "tone": "bookish",
           "text": "Attenderò pazientemente il completamento dell'inserimento informatico dei dati.",
-          "translation": "Терпляче чекатиму завершення комп’ютерного внесення даних.",
-          "feedback": "Книжежно. Простіше: aspetto, grazie."
+          "translation": {
+            "uk": "Терпляче чекатиму завершення комп’ютерного внесення даних.",
+            "en": "I shall patiently await the completion of the computer data entry.",
+            "es": "Esperaré pacientemente la finalización de la inserción informática de los datos.",
+            "fr": "J'attendrai patiemment l'achèvement de la saisie informatique des données.",
+            "ro": "Voi aștepta cu răbdare finalizarea introducerii informatice a datelor."
+          },
+          "feedback": {
+            "uk": "Терпляче чекатиму завершення комп’ютерного внесення даних.",
+            "en": "I shall patiently await the completion of the computer data entry.",
+            "es": "Esperaré pacientemente la finalización de la inserción informática de los datos.",
+            "fr": "J'attendrai patiemment l'achèvement de la saisie informatique des données.",
+            "ro": "Voi aștepta cu răbdare finalizarea introducerii informatice a datelor."
+          }
         }
       ],
-      "translation": "Хвилинку, завантажую все. Система повільна. Залишайтеся тут, будь ласка. Потім поясню перевірки місцевої поліції."
+      "translation": {
+        "uk": "Хвилинку, завантажую все. Система повільна. Залишайтеся тут, будь ласка. Потім поясню перевірки місцевої поліції.",
+        "en": "One moment while I load everything. The system is slow. Please stay here. Then I'll explain the Polizia Locale checks.",
+        "es": "Un momento, que cargo todo. El sistema es lento. Quédese aquí, por favor. Luego le explico los controles de la Polizia Locale.",
+        "fr": "Un instant, je charge tout. Le système est lent. Restez ici, s'il vous plaît. Ensuite je vous expliquerai les contrôles de la Polizia Locale.",
+        "ro": "Un moment, încarc totul. Sistemul e lent. Rămâneți aici, vă rog. Apoi vă explic controalele Polizia Locale."
+      }
     },
     {
       "step": 10,
@@ -279,23 +735,65 @@
         {
           "tone": "bookish",
           "text": "La ringrazio sentitamente per la solerte trattazione del procedimento amministrativo.",
-          "translation": "Щиро дякую за оперативний розгляд адміністративної процедури.",
-          "feedback": "Подяка ок, стиль надмірний. Grazie, arrivederci — норма комуни."
+          "translation": {
+            "uk": "Щиро дякую за оперативний розгляд адміністративної процедури.",
+            "en": "I thank you sincerely for the prompt handling of the administrative procedure.",
+            "es": "Le agradezco sinceramente la diligente tramitación del procedimiento administrativo.",
+            "fr": "Je vous remercie sincèrement pour le traitement diligent de la procédure administrative.",
+            "ro": "Vă mulțumesc călduros pentru tratarea promptă a procedurii administrative."
+          },
+          "feedback": {
+            "uk": "Щиро дякую за оперативний розгляд адміністративної процедури.",
+            "en": "I thank you sincerely for the prompt handling of the administrative procedure.",
+            "es": "Le agradezco sinceramente la diligente tramitación del procedimiento administrativo.",
+            "fr": "Je vous remercie sincèrement pour le traitement diligent de la procédure administrative.",
+            "ro": "Vă mulțumesc călduros pentru tratarea promptă a procedurii administrative."
+          }
         },
         {
           "tone": "natural",
           "text": "No, è tutto chiaro. Grazie, è stato gentile. Arrivederci.",
-          "translation": "Ні, усе зрозуміло. Дякую, ви були люб’язні. До побачення.",
-          "feedback": "Квитанцію в папку, ввічливий вихід. Перевірка за адресою — звичайна частина residenza."
+          "translation": {
+            "uk": "Ні, усе зрозуміло. Дякую, ви були люб’язні. До побачення.",
+            "en": "No, everything is clear. Thank you, you've been kind. Goodbye.",
+            "es": "No, está todo claro. Gracias, ha sido amable. Hasta luego.",
+            "fr": "Non, tout est clair. Merci, vous avez été aimable. Au revoir.",
+            "ro": "Nu, totul e clar. Mulțumesc, ați fost amabil. La revedere."
+          },
+          "feedback": {
+            "uk": "Ні, усе зрозуміло. Дякую, ви були люб’язні. До побачення.",
+            "en": "No, everything is clear. Thank you, you've been kind. Goodbye.",
+            "es": "No, está todo claro. Gracias, ha sido amable. Hasta luego.",
+            "fr": "Non, tout est clair. Merci, vous avez été aimable. Au revoir.",
+            "ro": "Nu, totul e clar. Mulțumesc, ați fost amabil. La revedere."
+          }
         },
         {
           "tone": "wrong",
           "text": "Allora perché non mi date subito la carta d'identità?",
-          "translation": "Тоді чому мені одразу не дають посвідчення особи?",
-          "feedback": "Сьогодні ви подали dichiarazione. CIE — інша черга і інші терміни."
+          "translation": {
+            "uk": "Тоді чому мені одразу не дають посвідчення особи?",
+            "en": "Then why don't you give me the carta d'identità right away?",
+            "es": "Entonces ¿por qué no me dan ahora mismo la carta d'identità?",
+            "fr": "Alors pourquoi ne me donnez-vous pas tout de suite la carta d'identità ?",
+            "ro": "Atunci de ce nu-mi dați imediat carta d'identità?"
+          },
+          "feedback": {
+            "uk": "Тоді чому мені одразу не дають посвідчення особи?",
+            "en": "Then why don't you give me the carta d'identità right away?",
+            "es": "Entonces ¿por qué no me dan ahora mismo la carta d'identità?",
+            "fr": "Alors pourquoi ne me donnez-vous pas tout de suite la carta d'identità ?",
+            "ro": "Atunci de ce nu-mi dați imediat carta d'identità?"
+          }
         }
       ],
-      "translation": "Готово. Візьміть квитанцію. У наступні дні можуть прийти муніципальні поліцейські перевірити, що ви справді там живете. Інші запитання?"
+      "translation": {
+        "uk": "Готово. Візьміть квитанцію. У наступні дні можуть прийти муніципальні поліцейські перевірити, що ви справді там живете. Інші запитання?",
+        "en": "Done. Keep the receipt. In the following days the municipal police may come to check that you really live there. Any other questions?",
+        "es": "Hecho. Quédese con el recibo. En los días siguientes pueden llegar los vigili para verificar que vive realmente allí. ¿Otras preguntas?",
+        "fr": "C'est fait. Gardez le reçu. Dans les jours suivants, les vigili peuvent venir vérifier que vous habitez vraiment là. D'autres questions ?",
+        "ro": "Gata. Păstrați chitanța. În zilele următoare pot veni vigili să verifice că locuiți într-adevăr acolo. Alte întrebări?"
+      }
     }
   ]
 }

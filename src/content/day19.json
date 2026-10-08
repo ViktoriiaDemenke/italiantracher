@@ -1,66 +1,226 @@
 {
   "day": 19,
-  "title": "У барі: Кавова культура, випічка та оплата на касі",
+  "title": {
+    "uk": "У барі: Кавова культура, випічка та оплата на касі",
+    "en": "At the bar: Coffee culture, pastry and paying at the till",
+    "es": "En el bar: cultura del café, bollería y pago en caja",
+    "fr": "Au bar : culture du café, viennoiseries et paiement à la caisse",
+    "ro": "La bar: cultura cafelei, patiserie și plata la casă"
+  },
   "module": "Il Bar Italiano e il Caffè",
-  "type": "Immersion & Vocabulary",
-  "story": "Марко та Лаура заходять до місцевого бару на ранковий сніданок (colazione). В Італії бар — це не нічний заклад, а головне місце для ранкової кави, зустрічей з сусідами та легкого перекусу. Тут є важливе правило: спочатку часто платять на касі, отримують чек (scontrino), а потім з ним підходять до стійки (al banco).",
+  "type": {
+    "uk": "Занурення та словник",
+    "en": "Immersion & Vocabulary",
+    "es": "Inmersión y vocabulario",
+    "fr": "Immersion et vocabulaire",
+    "ro": "Imersiune și vocabular"
+  },
+  "story": {
+    "uk": "Марко та Лаура заходять до місцевого бару на ранковий сніданок (colazione). В Італії бар — це не нічний заклад, а головне місце для ранкової кави, зустрічей з сусідами та легкого перекусу. Тут є важливе правило: спочатку часто платять на касі, отримують чек (scontrino), а потім з ним підходять до стійки (al banco).",
+    "en": "Marco and Laura go into a local bar for breakfast (colazione). In Italy a bar is not a nightclub: it is the main place for morning coffee, chatting with neighbours and a light snack. An important rule: you often pay at the till first, get a receipt (scontrino), then take it to the counter (al banco).",
+    "es": "Marco y Laura entran en un bar local a desayunar (colazione). En Italia el bar no es un local nocturno, sino el sitio principal para el café de la mañana, ver a los vecinos y un tentempié. Regla importante: a menudo se paga primero en caja, se recibe el ticket (scontrino) y luego se va con él a la barra (al banco).",
+    "fr": "Marco et Laura entrent dans un bar du quartier pour le petit-déjeuner (colazione). En Italie, le bar n’est pas un lieu de nuit, mais l’endroit principal pour le café du matin, les voisins et un en-cas. Règle importante : on paie souvent d’abord à la caisse, on reçoit le ticket (scontrino), puis on va au comptoir (al banco).",
+    "ro": "Marco și Laura intră într-un bar local la micul dejun (colazione). În Italia, barul nu e un local de noapte, ci locul principal pentru cafeaua de dimineață, întâlniri cu vecinii și o gustare. Regulă importantă: adesea plătești mai întâi la casă, primești bonul (scontrino), apoi te duci cu el la tejghea (al banco)."
+  },
   "phrases": [
     {
       "italian": "Vorrei un caffè espresso e un cornetto alla crema, per favore.",
-      "ukrainian": "Я хотів би еспресо та круасан із кремом, будь ласка.",
-      "translation": "Я хотів би еспресо та круасан із кремом, будь ласка."
+      "ukrainian": {
+        "uk": "Я хотів би еспресо та круасан із кремом, будь ласка.",
+        "en": "I'd like an espresso and a cream cornetto, please.",
+        "es": "Quisiera un café espresso y un cornetto de crema, por favor.",
+        "fr": "Je voudrais un café espresso et un cornetto à la crème, s'il vous plaît.",
+        "ro": "Aș vrea un caffè espresso și un cornetto cu cremă, vă rog."
+      },
+      "translation": {
+        "uk": "Я хотів би еспресо та круасан із кремом, будь ласка.",
+        "en": "I'd like an espresso and a cream cornetto, please.",
+        "es": "Quisiera un café espresso y un cornetto de crema, por favor.",
+        "fr": "Je voudrais un café espresso et un cornetto à la crème, s'il vous plaît.",
+        "ro": "Aș vrea un caffè espresso și un cornetto cu cremă, vă rog."
+      }
     },
     {
       "italian": "Possiamo sederci al tavolo o si paga di più?",
-      "ukrainian": "Ми можемо сісти за столик чи це коштує дорожче?",
-      "translation": "Ми можемо сісти за столик чи це коштує дорожче?"
+      "ukrainian": {
+        "uk": "Ми можемо сісти за столик чи це коштує дорожче?",
+        "en": "Can we sit at a table, or does it cost extra?",
+        "es": "¿Podemos sentarnos en la mesa o se paga más?",
+        "fr": "On peut s'asseoir à table ou ça coûte plus cher ?",
+        "ro": "Putem să stăm la masă sau se plătește mai mult?"
+      },
+      "translation": {
+        "uk": "Ми можемо сісти за столик чи це коштує дорожче?",
+        "en": "Can we sit at a table, or does it cost extra?",
+        "es": "¿Podemos sentarnos en la mesa o se paga más?",
+        "fr": "On peut s'asseoir à table ou ça coûte plus cher ?",
+        "ro": "Putem să stăm la masă sau se plătește mai mult?"
+      }
     },
     {
       "italian": "Vorrei un macchiato caldo e un bicchiere d'acqua, grazie.",
-      "ukrainian": "Я хотів би гаряче макіато та склянку води, дякую.",
-      "translation": "Я хотів би гаряче макіато та склянку води, дякую."
+      "ukrainian": {
+        "uk": "Я хотів би гаряче макіато та склянку води, дякую.",
+        "en": "I'd like a hot macchiato and a glass of water, thanks.",
+        "es": "Quisiera un macchiato caliente y un vaso de agua, gracias.",
+        "fr": "Je voudrais un macchiato chaud et un verre d'eau, merci.",
+        "ro": "Aș vrea un macchiato cald și un pahar cu apă, mulțumesc."
+      },
+      "translation": {
+        "uk": "Я хотів би гаряче макіато та склянку води, дякую.",
+        "en": "I'd like a hot macchiato and a glass of water, thanks.",
+        "es": "Quisiera un macchiato caliente y un vaso de agua, gracias.",
+        "fr": "Je voudrais un macchiato chaud et un verre d'eau, merci.",
+        "ro": "Aș vrea un macchiato cald și un pahar cu apă, mulțumesc."
+      }
     },
     {
       "italian": "Faccio prima lo scontrino alla cassa?",
-      "ukrainian": "Мені спочатку вибити чек на касі?",
-      "translation": "Мені спочатку вибити чек на касі?"
+      "ukrainian": {
+        "uk": "Мені спочатку вибити чек на касі?",
+        "en": "Do I get the receipt at the till first?",
+        "es": "¿Hago primero el ticket en caja?",
+        "fr": "Je prends d'abord le ticket à la caisse ?",
+        "ro": "Fac mai întâi bonul la casă?"
+      },
+      "translation": {
+        "uk": "Мені спочатку вибити чек на касі?",
+        "en": "Do I get the receipt at the till first?",
+        "es": "¿Hago primero el ticket en caja?",
+        "fr": "Je prends d'abord le ticket à la caisse ?",
+        "ro": "Fac mai întâi bonul la casă?"
+      }
     }
   ],
   "barRules": [
-    "Al banco vs Al tavolo — пити каву біля стійки (al banco) дешевше, ніж за столиком (al tavolo), де додається плата за обслуговування.",
-    "Prima la cassa — у багатьох популярних барах спочатку замовляють і оплачують на касі, а потім віддають чек бариста зі словами 'Un caffè, per favore'.",
-    "Cornetto / Brioche — італійський круасан. На півночі Італії його частіше називають 'brioche', а в центрі та на півдні — 'cornetto'."
+    {
+      "uk": "Al banco vs Al tavolo — пити каву біля стійки (al banco) дешевше, ніж за столиком (al tavolo), де додається плата за обслуговування.",
+      "en": "Al banco vs Al tavolo — coffee at the counter (al banco) is cheaper than at a table (al tavolo), where a service charge is added.",
+      "es": "Al banco vs Al tavolo: tomar café en la barra (al banco) es más barato que en mesa (al tavolo), donde se añade el servicio.",
+      "fr": "Al banco vs Al tavolo : le café au comptoir (al banco) est moins cher qu’à table (al tavolo), où s’ajoute un service.",
+      "ro": "Al banco vs Al tavolo — cafeaua la tejghea (al banco) e mai ieftină decât la masă (al tavolo), unde se adaugă taxa de serviciu."
+    },
+    {
+      "uk": "Prima la cassa — у багатьох популярних барах спочатку замовляють і оплачують на касі, а потім віддають чек бариста зі словами 'Un caffè, per favore'.",
+      "en": "Prima la cassa — in many busy bars you order and pay at the till first, then give the receipt to the barista with “Un caffè, per favore”.",
+      "es": "Prima la cassa: en muchos bares concurridos se pide y se paga primero en caja, y luego se entrega el ticket al barista diciendo «Un caffè, per favore».",
+      "fr": "Prima la cassa : dans beaucoup de bars fréquentés, on commande et on paie d’abord à la caisse, puis on donne le ticket au barista en disant « Un caffè, per favore ».",
+      "ro": "Prima la cassa — în multe baruri aglomerate comanzi și plătești mai întâi la casă, apoi dai bonul barista-ului cu «Un caffè, per favore»."
+    },
+    {
+      "uk": "Cornetto / Brioche — італійський круасан. На півночі Італії його частіше називають 'brioche', а в центрі та на півдні — 'cornetto'.",
+      "en": "Cornetto / Brioche — the Italian croissant. In northern Italy it is more often called 'brioche'; in the centre and south, 'cornetto'.",
+      "es": "Cornetto / Brioche: el cruasán italiano. En el norte de Italia suele llamarse 'brioche'; en el centro y el sur, 'cornetto'.",
+      "fr": "Cornetto / Brioche : le croissant italien. Dans le nord de l’Italie on dit plus souvent 'brioche' ; au centre et au sud, 'cornetto'.",
+      "ro": "Cornetto / Brioche — croissantul italian. În nordul Italiei se spune mai des 'brioche', în centru și sud — 'cornetto'."
+    }
   ],
   "grammar": {
-    "title": "Різновиди кави та прийменник 'con' / 'senza'",
+    "title": {
+      "uk": "Різновиди кави та прийменник 'con' / 'senza'",
+      "en": "Coffee types and the prepositions 'con' / 'senza'",
+      "es": "Tipos de café y las preposiciones 'con' / 'senza'",
+      "fr": "Types de café et les prépositions 'con' / 'senza'",
+      "ro": "Tipuri de cafea și prepozițiile 'con' / 'senza'"
+    },
     "rules": [
       {
-        "rule": "Основні види кави: Caffè (еспресо), Macchiato (еспресо з краплею молока), Decaffeinato (без кофеїну), Cappuccino.",
+        "rule": {
+          "uk": "Основні види кави: Caffè (еспресо), Macchiato (еспресо з краплею молока), Decaffeinato (без кофеїну), Cappuccino.",
+          "en": "Main coffee types: Caffè (espresso), Macchiato (espresso with a drop of milk), Decaffeinato (decaf), Cappuccino.",
+          "es": "Tipos principales de café: Caffè (espresso), Macchiato (espresso con una gota de leche), Decaffeinato (descafeinado), Cappuccino.",
+          "fr": "Principaux cafés : Caffè (espresso), Macchiato (espresso avec une goutte de lait), Decaffeinato (décaféiné), Cappuccino.",
+          "ro": "Tipuri principale de cafea: Caffè (espresso), Macchiato (espresso cu o picătură de lapte), Decaffeinato (fără cofeină), Cappuccino."
+        },
         "examples": [
           {
             "italian": "Vorrei un decaffeinato, per favore.",
-            "ukrainian": "Я хотів би декаф, будь ласка."
+            "ukrainian": {
+              "uk": "Я хотів би декаф, будь ласка.",
+              "en": "I'd like a decaf, please.",
+              "es": "Quisiera un descafeinado, por favor.",
+              "fr": "Je voudrais un décaféiné, s'il vous plaît.",
+              "ro": "Aș vrea un decaffeinato, vă rog."
+            },
+            "translation": {
+              "uk": "Я хотів би декаф, будь ласка.",
+              "en": "I'd like a decaf, please.",
+              "es": "Quisiera un descafeinado, por favor.",
+              "fr": "Je voudrais un décaféiné, s'il vous plaît.",
+              "ro": "Aș vrea un decaffeinato, vă rog."
+            }
           },
           {
             "italian": "Vorrei un macchiato freddo.",
-            "ukrainian": "Я хотів би холодне макіато."
+            "ukrainian": {
+              "uk": "Я хотів би холодне макіато.",
+              "en": "I'd like a cold macchiato.",
+              "es": "Quisiera un macchiato frío.",
+              "fr": "Je voudrais un macchiato froid.",
+              "ro": "Aș vrea un macchiato rece."
+            },
+            "translation": {
+              "uk": "Я хотів би холодне макіато.",
+              "en": "I'd like a cold macchiato.",
+              "es": "Quisiera un macchiato frío.",
+              "fr": "Je voudrais un macchiato froid.",
+              "ro": "Aș vrea un macchiato rece."
+            }
           }
         ]
       },
       {
-        "rule": "Уточнення складників: 'Con' (з) та 'Senza' (без).",
+        "rule": {
+          "uk": "Уточнення складників: 'Con' (з) та 'Senza' (без).",
+          "en": "Specifying ingredients: 'Con' (with) and 'Senza' (without).",
+          "es": "Precisar ingredientes: 'Con' (con) y 'Senza' (sin).",
+          "fr": "Préciser les ingrédients : 'Con' (avec) et 'Senza' (sans).",
+          "ro": "Precizarea ingredientelor: 'Con' (cu) și 'Senza' (fără)."
+        },
         "examples": [
           {
             "italian": "Vorrei un cappuccino con latte di avena.",
-            "ukrainian": "Я хотів би капучино з вівсяним молоком."
+            "ukrainian": {
+              "uk": "Я хотів би капучино з вівсяним молоком.",
+              "en": "I'd like a cappuccino with oat milk.",
+              "es": "Quisiera un cappuccino con leche de avena.",
+              "fr": "Je voudrais un cappuccino au lait d'avoine.",
+              "ro": "Aș vrea un cappuccino cu lapte de ovăz."
+            },
+            "translation": {
+              "uk": "Я хотів би капучино з вівсяним молоком.",
+              "en": "I'd like a cappuccino with oat milk.",
+              "es": "Quisiera un cappuccino con leche de avena.",
+              "fr": "Je voudrais un cappuccino au lait d'avoine.",
+              "ro": "Aș vrea un cappuccino cu lapte de ovăz."
+            }
           },
           {
             "italian": "Vorrei un cornetto senza zucchero.",
-            "ukrainian": "Я хотів би круасан без цукру."
+            "ukrainian": {
+              "uk": "Я хотів би круасан без цукру.",
+              "en": "I'd like a sugar-free cornetto.",
+              "es": "Quisiera un cornetto sin azúcar.",
+              "fr": "Je voudrais un cornetto sans sucre.",
+              "ro": "Aș vrea un cornetto fără zahăr."
+            },
+            "translation": {
+              "uk": "Я хотів би круасан без цукру.",
+              "en": "I'd like a sugar-free cornetto.",
+              "es": "Quisiera un cornetto sin azúcar.",
+              "fr": "Je voudrais un cornetto sans sucre.",
+              "ro": "Aș vrea un cornetto fără zahăr."
+            }
           }
         ]
       }
     ]
   },
-  "culturaTip": "В Італії до кави біля стійки часто безкоштовно подають маленьку склянку води (un bicchierino d'acqua). Якщо її не дали, можна просто ввічливо попросити: 'Un bicchiere d'acqua, per favore'."
+  "culturaTip": {
+    "uk": "В Італії до кави біля стійки часто безкоштовно подають маленьку склянку води (un bicchierino d'acqua). Якщо її не дали, можна просто ввічливо попросити: 'Un bicchiere d'acqua, per favore'.",
+    "en": "In Italy, coffee at the counter often comes with a small free glass of water (un bicchierino d'acqua). If they forget, you can politely ask: 'Un bicchiere d'acqua, per favore'.",
+    "es": "En Italia, con el café en barra a menudo sirven gratis un vasito de agua (un bicchierino d'acqua). Si no lo dan, se puede pedir con educación: 'Un bicchiere d'acqua, per favore'.",
+    "fr": "En Italie, au comptoir on sert souvent gratuitement un petit verre d’eau (un bicchierino d'acqua). S’il manque, on peut demander poliment : 'Un bicchiere d'acqua, per favore'.",
+    "ro": "În Italia, la cafeaua de la tejghea se oferă adesea gratuit un pahar mic de apă (un bicchierino d'acqua). Dacă nu l-au adus, poți cere politicos: 'Un bicchiere d'acqua, per favore'."
+  }
 }

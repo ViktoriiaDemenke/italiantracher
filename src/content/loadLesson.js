@@ -1,3 +1,5 @@
+import { asTranslationMap } from './localize.js'
+
 function asObject(raw) {
   if (raw && typeof raw === 'object' && !Array.isArray(raw)) return raw
   if (typeof raw !== 'string') return {}
@@ -21,9 +23,9 @@ function asOptions(options) {
       text: String(option.text ?? ''),
       tone,
       isCorrect: tone === 'natural' || Boolean(option.isCorrect),
-      feedback: String(option.feedback ?? ''),
-      translation: String(option.translation ?? option.ukrainian ?? ''),
-      hint: String(option.hint ?? ''),
+      feedback: asTranslationMap(option.feedback),
+      translation: asTranslationMap(option.translation ?? option.ukrainian),
+      hint: asTranslationMap(option.hint),
       points,
     }
   })
@@ -44,10 +46,11 @@ export function loadLesson(raw, fallbackDay) {
     : Array.isArray(data.documentsRequired)
       ? data.documentsRequired.map((item) =>
           typeof item === 'string'
-            ? { item, ukrainian: '' }
+            ? { item, ukrainian: asTranslationMap(''), translation: asTranslationMap('') }
             : {
                 item: String(item.item ?? ''),
-                ukrainian: String(item.ukrainian ?? item.translation ?? ''),
+                ukrainian: asTranslationMap(item.ukrainian ?? item.translation),
+                translation: asTranslationMap(item.translation ?? item.ukrainian),
               },
         )
       : []
@@ -55,19 +58,19 @@ export function loadLesson(raw, fallbackDay) {
     ? data.phrases.map((phrase, index) => ({
         ...phrase,
         italian: String(phrase.italian ?? ''),
-        ukrainian: String(phrase.ukrainian ?? phrase.translation ?? ''),
-        translation: String(phrase.translation ?? phrase.ukrainian ?? ''),
-        hint: String(phrase.hint ?? ''),
+        ukrainian: asTranslationMap(phrase.ukrainian ?? phrase.translation),
+        translation: asTranslationMap(phrase.translation ?? phrase.ukrainian),
+        hint: asTranslationMap(phrase.hint),
         audio_id: phrase.audio_id ?? `d${data.day ?? fallbackDay}_p${index + 1}`,
       }))
     : []
 
   return {
     day: fallbackDay ?? data.day,
-    title: String(data.title ?? ''),
+    title: asTranslationMap(data.title),
     module: String(data.module ?? ''),
-    type: String(data.type ?? ''),
-    story: String(data.story ?? ''),
+    type: asTranslationMap(data.type),
+    story: asTranslationMap(data.story),
     mode: inferMode(data),
     phrases,
     documents,
@@ -95,17 +98,24 @@ export function loadLesson(raw, fallbackDay) {
       ? data.transportTips
       : [],
     beautyTips: Array.isArray(data.beautyTips) ? data.beautyTips : [],
-    questions: Array.isArray(data.questions) ? data.questions : [],
-    culturaTip: String(data.culturaTip ?? ''),
-    successTitle: String(data.successTitle ?? ''),
-    successMessage: String(data.successMessage ?? ''),
-    successBadge: String(data.successBadge ?? ''),
+    questions: Array.isArray(data.questions)
+      ? data.questions.map((question) => ({
+          ...question,
+          question: asTranslationMap(question.question),
+          explanation: asTranslationMap(question.explanation),
+          options: Array.isArray(question.options) ? question.options : [],
+        }))
+      : [],
+    culturaTip: asTranslationMap(data.culturaTip),
+    successTitle: asTranslationMap(data.successTitle),
+    successMessage: asTranslationMap(data.successMessage),
+    successBadge: asTranslationMap(data.successBadge),
     dialogue: Array.isArray(data.dialogue)
       ? data.dialogue.map((step, index) => ({
           step: step.step ?? index + 1,
           speaker: String(step.speaker ?? ''),
           text: String(step.text ?? ''),
-          translation: String(step.translation ?? step.ukrainian ?? ''),
+          translation: asTranslationMap(step.translation ?? step.ukrainian),
           options: asOptions(step.options),
         }))
       : [],

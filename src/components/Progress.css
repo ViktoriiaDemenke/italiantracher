@@ -121,6 +121,12 @@
   color: var(--success);
 }
 
+.day-tile--done .day-tile__mark {
+  font-size: 0.72rem;
+  font-weight: 800;
+  color: var(--success-border);
+}
+
 .day-tile--active {
   border-color: var(--primary);
   box-shadow: 0 0 0 1px var(--primary), 0 0 14px var(--glow);
@@ -132,6 +138,49 @@
   color: var(--muted);
 }
 
+[data-theme='light'] .day-tile {
+  border: 1.5px solid var(--border);
+  box-shadow: 0 1px 2px rgba(18, 24, 31, 0.06);
+}
+
+[data-theme='light'] .day-tile--locked {
+  opacity: 1;
+  background: #dce2ea;
+  border: 1.5px solid #64748b;
+  color: #1e293b;
+  box-shadow: none;
+}
+
+[data-theme='light'] .day-tile--locked .day-tile__num,
+[data-theme='light'] .day-tile--locked .day-tile__mark {
+  color: #1e293b;
+  opacity: 1;
+}
+
+[data-theme='light'] .day-tile--locked .day-tile__num {
+  font-weight: 700;
+}
+
+[data-theme='light'] .day-tile--locked .day-tile__mark {
+  font-size: 0.62rem;
+}
+
+[data-theme='light'] .day-tile--done {
+  border: 2px solid var(--success-border);
+  color: #14532d;
+  box-shadow: 0 1px 2px rgba(21, 128, 61, 0.18);
+}
+
+[data-theme='light'] .day-tile--done .day-tile__mark {
+  color: #15803d;
+  font-size: 0.78rem;
+}
+
+[data-theme='light'] .day-tile--active {
+  border: 2px solid var(--primary);
+  box-shadow: 0 0 0 2px #ffffff, 0 0 0 4px var(--primary);
+}
+
 .day-tile:not(:disabled):hover {
   border-color: var(--primary);
 }
@@ -139,7 +188,7 @@
 .toast {
   position: fixed;
   left: 50%;
-  bottom: var(--space-lg);
+  bottom: calc(var(--space-lg) + env(safe-area-inset-bottom, 0px));
   transform: translateX(-50%);
   z-index: 40;
   background: var(--card);

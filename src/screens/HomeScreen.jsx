@@ -99,7 +99,7 @@ export default function HomeScreen({
                   </span>
                   <span>
                     <h3 className="card__title">{mod.title}</h3>
-                    <p className="card__subtitle">{t(`module.${mod.id}`)}</p>
+                    <p className="card__subtitle">{t(mod.subtitleKey)}</p>
                   </span>
                 </button>
                 {MODULE_CYCLES[mod.id] ? (

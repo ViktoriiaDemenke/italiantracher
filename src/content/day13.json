@@ -1,66 +1,226 @@
 {
   "day": 13,
-  "title": "У поштовому відділенні: Черга, квитанції та відправлення",
+  "title": {
+    "uk": "У поштовому відділенні: Черга, квитанції та відправлення",
+    "en": "At the post office: Queue, bills and shipments",
+    "es": "En correos: Cola, recibos y envíos",
+    "fr": "Au bureau de poste : File, quittances et envois",
+    "ro": "La oficiul poștal: Coadă, chitanțe și trimiteri"
+  },
   "module": "Poste Italiane e Servizi Postali",
-  "type": "Immersion & Vocabulary",
-  "story": "Марко та Лаура прийшли до відділення Poste Italiane. В Італії пошта — це не лише відправка посилок, а й центр сплати комунальних рахунків, отримання офіційних листів та фінансових послуг. При вході обов'язково потрібно взяти талончик у терміналі (ticket) відповідно до теми вашого звернення.",
+  "type": {
+    "uk": "Занурення та словник",
+    "en": "Immersion & Vocabulary",
+    "es": "Inmersión y vocabulario",
+    "fr": "Immersion et vocabulaire",
+    "ro": "Imersiune și vocabular"
+  },
+  "story": {
+    "uk": "Марко та Лаура прийшли до відділення Poste Italiane. В Італії пошта — це не лише відправка посилок, а й центр сплати комунальних рахунків, отримання офіційних листів та фінансових послуг. При вході обов'язково потрібно взяти талончик у терміналі (ticket) відповідно до теми вашого звернення.",
+    "en": "Marco and Laura have come to a Poste Italiane office. In Italy the post office is not only parcels, but also a place to pay utility bills, collect official letters and use financial services. At the entrance you must take a ticket from the terminal according to your request.",
+    "es": "Marco y Laura llegan a una oficina de Poste Italiane. En Italia correos no es solo paquetes: también se pagan recibos, se recogen cartas oficiales y hay servicios financieros. En la entrada hay que coger un ticket en el terminal según el tema.",
+    "fr": "Marco et Laura sont à un bureau Poste Italiane. En Italie la poste n’est pas que les colis : on y paie les factures, on retire du courrier officiel et on trouve des services financiers. À l’entrée il faut prendre un ticket au terminal selon le motif.",
+    "ro": "Marco și Laura au venit la o sucursală Poste Italiane. În Italia poșta nu e doar colete, ci și centru de plată a facturilor, ridicare de scrisori oficiale și servicii financiare. La intrare trebuie luat un bilet de la terminal după tema cererii."
+  },
   "phrases": [
     {
       "italian": "Devo spedire questo pacco / questa lettera in Ucraina.",
-      "ukrainian": "Мені потрібно відправити цю посилку / цей лист в Україну.",
-      "translation": "Мені потрібно відправити цю посилку / цей лист в Україну."
+      "ukrainian": {
+        "uk": "Мені потрібно відправити цю посилку / цей лист в Україну.",
+        "en": "I need to send this parcel / this letter to Ukraine.",
+        "es": "Tengo que enviar este paquete / esta carta a Ucrania.",
+        "fr": "Je dois envoyer ce colis / cette lettre en Ukraine.",
+        "ro": "Trebuie să trimit acest colet / această scrisoare în Ucraina."
+      },
+      "translation": {
+        "uk": "Мені потрібно відправити цю посилку / цей лист в Україну.",
+        "en": "I need to send this parcel / this letter to Ukraine.",
+        "es": "Tengo que enviar este paquete / esta carta a Ucrania.",
+        "fr": "Je dois envoyer ce colis / cette lettre en Ukraine.",
+        "ro": "Trebuie să trimit acest colet / această scrisoare în Ucraina."
+      }
     },
     {
       "italian": "Devo pagare questo bollettino postale.",
-      "ukrainian": "Мені потрібно оплатити цю поштову квитанцію.",
-      "translation": "Мені потрібно оплатити цю поштову квитанцію."
+      "ukrainian": {
+        "uk": "Мені потрібно оплатити цю поштову квитанцію.",
+        "en": "I need to pay this postal payment slip.",
+        "es": "Tengo que pagar este bollettino postale.",
+        "fr": "Je dois payer ce bollettino postale.",
+        "ro": "Trebuie să plătesc acest bollettino postale."
+      },
+      "translation": {
+        "uk": "Мені потрібно оплатити цю поштову квитанцію.",
+        "en": "I need to pay this postal payment slip.",
+        "es": "Tengo que pagar este bollettino postale.",
+        "fr": "Je dois payer ce bollettino postale.",
+        "ro": "Trebuie să plătesc acest bollettino postale."
+      }
     },
     {
       "italian": "Ho ricevuto un avviso di giacenza per una raccomandata.",
-      "ukrainian": "Я отримав(ла) повідомлення про надходження рекомендованого листа.",
-      "translation": "Я отримав(ла) повідомлення про надходження рекомендованого листа."
+      "ukrainian": {
+        "uk": "Я отримав(ла) повідомлення про надходження рекомендованого листа.",
+        "en": "I received a pickup notice for a registered letter.",
+        "es": "He recibido un aviso de llegada de una carta certificada.",
+        "fr": "J'ai reçu un avis de mise en instance pour une lettre recommandée.",
+        "ro": "Am primit un aviz de păstrare pentru o scrisoare recomandată."
+      },
+      "translation": {
+        "uk": "Я отримав(ла) повідомлення про надходження рекомендованого листа.",
+        "en": "I received a pickup notice for a registered letter.",
+        "es": "He recibido un aviso de llegada de una carta certificada.",
+        "fr": "J'ai reçu un avis de mise en instance pour une lettre recommandée.",
+        "ro": "Am primit un aviz de păstrare pentru o scrisoare recomandată."
+      }
     },
     {
       "italian": "Quale tasto devo premere per prendere il biglietto?",
-      "ukrainian": "Яку кнопку мені потрібно натиснути, щоб взяти талончик?",
-      "translation": "Яку кнопку мені потрібно натиснути, щоб взяти талончик?"
+      "ukrainian": {
+        "uk": "Яку кнопку мені потрібно натиснути, щоб взяти талончик?",
+        "en": "Which button do I have to press to get a ticket?",
+        "es": "¿Qué botón debo pulsar para coger el ticket?",
+        "fr": "Quel bouton dois-je appuyer pour prendre le ticket ?",
+        "ro": "Ce buton trebuie să apăs ca să iau biletul?"
+      },
+      "translation": {
+        "uk": "Яку кнопку мені потрібно натиснути, щоб взяти талончик?",
+        "en": "Which button do I have to press to get a ticket?",
+        "es": "¿Qué botón debo pulsar para coger el ticket?",
+        "fr": "Quel bouton dois-je appuyer pour prendre le ticket ?",
+        "ro": "Ce buton trebuie să apăs ca să iau biletul?"
+      }
     }
   ],
   "postOfficeTips": [
-    "Ticket al totem — при вході на терміналі обирають потрібний розділ: 'Spedizioni e Pacchi' (відправлення), 'Pagamenti' (квитанції/оплати) або 'Ritiro' (отримання).",
-    "Raccomandata — рекомендований лист, який вручається під особистий підпис. Якщо вас не було вдома, листоноша залишає жовту картку 'Avviso di giacenza'.",
-    "Bollettino — бланкова або штрихкодова квитанція для оплати комунальних послуг, штрафів та державних зборів."
+    {
+      "uk": "Ticket al totem — при вході на терміналі обирають потрібний розділ: 'Spedizioni e Pacchi' (відправлення), 'Pagamenti' (квитанції/оплати) або 'Ritiro' (отримання).",
+      "en": "Ticket al totem — at the entrance on the terminal you choose the section: 'Spedizioni e Pacchi' (shipments), 'Pagamenti' (bills/payments) or 'Ritiro' (collection).",
+      "es": "Ticket al totem — en la entrada eliges en el terminal: 'Spedizioni e Pacchi' (envíos), 'Pagamenti' (recibos/pagos) o 'Ritiro' (recogida).",
+      "fr": "Ticket al totem — à l’entrée on choisit : « Spedizioni e Pacchi » (envois), « Pagamenti » (quittances/paiements) ou « Ritiro » (retrait).",
+      "ro": "Ticket al totem — la intrare pe terminal alegeți: «Spedizioni e Pacchi» (trimiteri), «Pagamenti» (chitanțe/plăți) sau «Ritiro» (ridicare)."
+    },
+    {
+      "uk": "Raccomandata — рекомендований лист, який вручається під особистий підпис. Якщо вас не було вдома, листоноша залишає жовту картку 'Avviso di giacenza'.",
+      "en": "Raccomandata — a registered letter delivered against a personal signature. If you were not home, the postman leaves a yellow 'Avviso di giacenza' card.",
+      "es": "Raccomandata — carta certificada que se entrega con firma. Si no estás, el cartero deja una tarjeta amarilla 'Avviso di giacenza'.",
+      "fr": "Raccomandata — lettre recommandée remise contre signature. Si vous étiez absent, le facteur laisse une carte jaune « Avviso di giacenza ».",
+      "ro": "Raccomandata — scrisoare recomandată predată contra semnătură. Dacă nu erai acasă, poștașul lasă un cartonaș galben «Avviso di giacenza»."
+    },
+    {
+      "uk": "Bollettino — бланкова або штрихкодова квитанція для оплати комунальних послуг, штрафів та державних зборів.",
+      "en": "Bollettino — a paper or barcode slip for paying utilities, fines and state fees.",
+      "es": "Bollettino — recibo en impreso o código de barras para pagar servicios, multas y tasas.",
+      "fr": "Bollettino — quittance papier ou code-barres pour payer charges, amendes et taxes.",
+      "ro": "Bollettino — chitanță pe formular sau cu cod de bare pentru utilități, amenzi și taxe de stat."
+    }
   ],
   "grammar": {
-    "title": "Дієслово 'Spedire' (відправляти) та 'Pagare' (оплачувати)",
+    "title": {
+      "uk": "Дієслово 'Spedire' (відправляти) та 'Pagare' (оплачувати)",
+      "en": "The verb 'Spedire' (to send) and 'Pagare' (to pay)",
+      "es": "El verbo 'Spedire' (enviar) y 'Pagare' (pagar)",
+      "fr": "Le verbe « Spedire » (envoyer) et « Pagare » (payer)",
+      "ro": "Verbul «Spedire» (a trimite) și «Pagare» (a plăti)"
+    },
     "rules": [
       {
-        "rule": "Відмінювання 'Spedire' (ISC-група): Io spedisco, Tu spedisci, Lui/Lei spedisce.",
+        "rule": {
+          "uk": "Відмінювання 'Spedire' (ISC-група): Io spedisco, Tu spedisci, Lui/Lei spedisce.",
+          "en": "Conjugation of 'Spedire' (ISC group): Io spedisco, Tu spedisci, Lui/Lei spedisce.",
+          "es": "Conjugación de 'Spedire' (grupo ISC): Io spedisco, Tu spedisci, Lui/Lei spedisce.",
+          "fr": "Conjugaison de « Spedire » (groupe ISC) : Io spedisco, Tu spedisci, Lui/Lei spedisce.",
+          "ro": "Conjugarea «Spedire» (grupa ISC): Io spedisco, Tu spedisci, Lui/Lei spedisce."
+        },
         "examples": [
           {
             "italian": "Spedisco un pacco a mia madre.",
-            "ukrainian": "Відправляю посилку мамі."
+            "ukrainian": {
+              "uk": "Відправляю посилку мамі.",
+              "en": "I'm sending a parcel to my mother.",
+              "es": "Envío un paquete a mi madre.",
+              "fr": "J'envoie un colis à ma mère.",
+              "ro": "Trimit un colet mamei."
+            },
+            "translation": {
+              "uk": "Відправляю посилку мамі.",
+              "en": "I'm sending a parcel to my mother.",
+              "es": "Envío un paquete a mi madre.",
+              "fr": "J'envoie un colis à ma mère.",
+              "ro": "Trimit un colet mamei."
+            }
           },
           {
             "italian": "Vuole spedire con posta prioritaria?",
-            "ukrainian": "Хочете відправити пріоритетною поштою?"
+            "ukrainian": {
+              "uk": "Хочете відправити пріоритетною поштою?",
+              "en": "Would you like to send it by priority mail?",
+              "es": "¿Quiere enviarlo por correo prioritario?",
+              "fr": "Vous voulez envoyer en poste prioritaire ?",
+              "ro": "Doriți să trimiteți cu poștă prioritară?"
+            },
+            "translation": {
+              "uk": "Хочете відправити пріоритетною поштою?",
+              "en": "Would you like to send it by priority mail?",
+              "es": "¿Quiere enviarlo por correo prioritario?",
+              "fr": "Vous voulez envoyer en poste prioritaire ?",
+              "ro": "Doriți să trimiteți cu poștă prioritară?"
+            }
           }
         ]
       },
       {
-        "rule": "Вирази з 'Prendere / Ritirare': 'Ritirare un pacco' (Забрати посилку).",
+        "rule": {
+          "uk": "Вирази з 'Prendere / Ritirare': 'Ritirare un pacco' (Забрати посилку).",
+          "en": "Expressions with 'Prendere / Ritirare': 'Ritirare un pacco' (To pick up a parcel).",
+          "es": "Expresiones con 'Prendere / Ritirare': 'Ritirare un pacco' (Recoger un paquete).",
+          "fr": "Expressions avec « Prendere / Ritirare » : « Ritirare un pacco » (Retirer un colis).",
+          "ro": "Expresii cu «Prendere / Ritirare»: «Ritirare un pacco» (A ridica un colet)."
+        },
         "examples": [
           {
             "italian": "Devo ritirare una raccomandata.",
-            "ukrainian": "Мені потрібно отримати рекомендований лист."
+            "ukrainian": {
+              "uk": "Мені потрібно отримати рекомендований лист.",
+              "en": "I need to pick up a registered letter.",
+              "es": "Tengo que recoger una carta certificada.",
+              "fr": "Je dois retirer une lettre recommandée.",
+              "ro": "Trebuie să ridic o scrisoare recomandată."
+            },
+            "translation": {
+              "uk": "Мені потрібно отримати рекомендований лист.",
+              "en": "I need to pick up a registered letter.",
+              "es": "Tengo que recoger una carta certificada.",
+              "fr": "Je dois retirer une lettre recommandée.",
+              "ro": "Trebuie să ridic o scrisoare recomandată."
+            }
           },
           {
             "italian": "Dove posso ritirare il pacco?",
-            "ukrainian": "Де я можу отримати посилку?"
+            "ukrainian": {
+              "uk": "Де я можу отримати посилку?",
+              "en": "Where can I pick up the parcel?",
+              "es": "¿Dónde puedo recoger el paquete?",
+              "fr": "Où puis-je retirer le colis ?",
+              "ro": "Unde pot ridica coletul?"
+            },
+            "translation": {
+              "uk": "Де я можу отримати посилку?",
+              "en": "Where can I pick up the parcel?",
+              "es": "¿Dónde puedo recoger el paquete?",
+              "fr": "Où puis-je retirer le colis ?",
+              "ro": "Unde pot ridica coletul?"
+            }
           }
         ]
       }
     ]
   },
-  "culturaTip": "Для отримання посилки чи рекомендованого листа на пошті обов'язково потрібно мати із собою закордонний паспорт або Carta d'identità та ваш Codice Fiscale."
+  "culturaTip": {
+    "uk": "Для отримання посилки чи рекомендованого листа на пошті обов'язково потрібно мати із собою закордонний паспорт або Carta d'identità та ваш Codice Fiscale.",
+    "en": "To collect a parcel or registered letter at the post office you must have a passport or Carta d'identità and your Codice Fiscale.",
+    "es": "Para recoger un paquete o una carta certificada en correos hay que llevar pasaporte o Carta d'identità y el Codice Fiscale.",
+    "fr": "Pour retirer un colis ou une recommandée à la poste, il faut un passeport ou une Carta d’identità et votre Codice Fiscale.",
+    "ro": "Pentru a ridica un colet sau o scrisoare recomandată la poștă trebuie pașaport sau Carta d'identità și Codice Fiscale."
+  }
 }

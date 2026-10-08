@@ -36,7 +36,8 @@ export function rememberSavedPhrases(state, phrases) {
     list.push({
       id,
       it: String(phrase.it ?? ''),
-      uk: String(phrase.uk ?? ''),
+      uk: phrase.uk ?? phrase.translation ?? '',
+      translation: phrase.translation ?? phrase.uk ?? '',
       day: Number(phrase.day) || 0,
       source: 'saved',
       box: 1,
@@ -56,7 +57,8 @@ export function rememberQuizError(state, item) {
   const nextItem = {
     id,
     it: String(item.it ?? ''),
-    uk: String(item.uk ?? ''),
+    uk: item.uk ?? item.translation ?? '',
+    translation: item.translation ?? item.uk ?? '',
     day: Number(item.day) || 0,
     source: 'quiz',
     box: 1,

@@ -1,66 +1,156 @@
 {
   "day": 9,
-  "title": "Boss Level 🏆: Симуляція обіду в італійському ресторані",
+  "title": {
+    "uk": "Boss Level 🏆: Симуляція обіду в італійському ресторані",
+    "en": "Boss Level 🏆: Simulation of lunch in an Italian restaurant",
+    "es": "Boss Level 🏆: Simulación de un almuerzo en un restaurante italiano",
+    "fr": "Boss Level 🏆 : Simulation d’un déjeuner au restaurant italien",
+    "ro": "Boss Level 🏆: Simulare de prânz într-un restaurant italian"
+  },
   "module": "Al Ristorante e in Trattoria",
-  "type": "Boss Level Simulation",
-  "story": "Фінальний іспит модуля! Ви самостійно замовляєте обід у траторії, спілкуєтеся з офіціантом, обираєте правильні напої та розраховуєтеся. Підказки та переклад вимкнено!",
+  "type": {
+    "uk": "Симуляція бос-рівня",
+    "en": "Boss Level Simulation",
+    "es": "Simulación de nivel jefe",
+    "fr": "Simulation Boss Level",
+    "ro": "Simulare nivel boss"
+  },
+  "story": {
+    "uk": "Фінальний іспит модуля! Ви самостійно замовляєте обід у траторії, спілкуєтеся з офіціантом, обираєте правильні напої та розраховуєтеся. Підказки та переклад вимкнено!",
+    "en": "Final exam of the module! You order lunch in a trattoria on your own, talk to the waiter, choose the right drinks and pay. Hints and translation are off!",
+    "es": "¡Examen final del módulo! Pides el almuerzo en una trattoria tú solo, hablas con el camarero, eliges las bebidas correctas y pagas. ¡Pistas y traducción desactivadas!",
+    "fr": "Examen final du module ! Vous commandez seul dans une trattoria, parlez au serveur, choisissez les bonnes boissons et réglez. Indices et traduction désactivés !",
+    "ro": "Examenul final al modulului! Comandați singuri prânzul la trattoria, vorbiți cu chelnerul, alegeți băuturile potrivite și plătiți. Indiciile și traducerea sunt dezactivate!"
+  },
   "questions": [
     {
       "id": "p1",
-      "question": "Як ввічливо попросити забронювати столик на вечір?",
+      "question": {
+        "uk": "Як ввічливо попросити забронювати столик на вечір?",
+        "en": "How do you politely ask to book a table for the evening?",
+        "es": "¿Cómo pedir cortésmente reservar una mesa para la noche?",
+        "fr": "Comment demander poliment de réserver une table pour le soir ?",
+        "ro": "Cum ceri politicos să rezervi o masă pentru seară?"
+      },
       "options": [
         "Vorrei prenotare un tavolo per due per stasera.",
         "Voglio un tavolo subito per me.",
         "Avete un appartamento libero?"
       ],
       "correctAnswer": 0,
-      "explanation": "'Vorrei prenotare...' = 'Я хотів би забронювати...'"
+      "explanation": {
+        "uk": "'Vorrei prenotare...' = 'Я хотів би забронювати...'",
+        "en": "'Vorrei prenotare...' = 'I would like to book...'",
+        "es": "'Vorrei prenotare...' = 'Me gustaría reservar...'",
+        "fr": "« Vorrei prenotare... » = « Je voudrais réserver... »",
+        "ro": "«Vorrei prenotare...» = «Aș dori să rezerv...»"
+      }
     },
     {
       "id": "p2",
-      "question": "Що означає позиція 'Coperto' у ресторані?",
+      "question": {
+        "uk": "Що означає позиція 'Coperto' у ресторані?",
+        "en": "What does the 'Coperto' line mean in a restaurant?",
+        "es": "¿Qué significa la partida 'Coperto' en el restaurante?",
+        "fr": "Que signifie la ligne « Coperto » au restaurant ?",
+        "ro": "Ce înseamnă poziția «Coperto» în restaurant?"
+      },
       "options": [
         "Плата за хліб та сервірування столу.",
         "Обов'язкові чайові офіціанту 20%.",
         "Штраф за спізнення."
       ],
       "correctAnswer": 0,
-      "explanation": "'Coperto' — фіксована плата за посуд, хліб та сервірування."
+      "explanation": {
+        "uk": "'Coperto' — фіксована плата за посуд, хліб та сервірування.",
+        "en": "'Coperto' is a fixed charge for crockery, bread and table setting.",
+        "es": "'Coperto' es un cargo fijo por cubierto, pan y servicio de mesa.",
+        "fr": "« Coperto » est un forfait pour la vaisselle, le pain et le couvert.",
+        "ro": "«Coperto» e o taxă fixă pentru veselă, pâine și servire."
+      }
     },
     {
       "id": "p3",
-      "question": "Яку каву прийнято замовляти в Італії одразу після обіду?",
+      "question": {
+        "uk": "Яку каву прийнято замовляти в Італії одразу після обіду?",
+        "en": "Which coffee is customary to order in Italy right after lunch?",
+        "es": "¿Qué café se suele pedir en Italia justo después del almuerzo?",
+        "fr": "Quel café commande-t-on en Italie juste après le repas ?",
+        "ro": "Ce cafea se obișnuiește să comanzi în Italia imediat după prânz?"
+      },
       "options": [
         "Vorrei un cappuccino grande.",
         "Vorrei un caffè espresso.",
         "Vorrei un tè freddo con latte."
       ],
       "correctAnswer": 1,
-      "explanation": "Після їжі італійці п'ють еспресо для покращення травлення."
+      "explanation": {
+        "uk": "Після їжі італійці п'ють еспресо для покращення травлення.",
+        "en": "After a meal Italians drink espresso to aid digestion.",
+        "es": "Después de comer los italianos beben espresso para ayudar a la digestión.",
+        "fr": "Après le repas, les Italiens boivent un espresso pour aider la digestion.",
+        "ro": "După masă italienii beau espresso pentru digestie."
+      }
     },
     {
       "id": "p4",
-      "question": "Як правильно просити чек в офіціанта?",
+      "question": {
+        "uk": "Як правильно просити чек в офіціанта?",
+        "en": "How do you correctly ask the waiter for the bill?",
+        "es": "¿Cómo pedir correctamente la cuenta al camarero?",
+        "fr": "Comment demander correctement l’addition au serveur ?",
+        "ro": "Cum ceri corect nota chelnerului?"
+      },
       "options": [
         "Possiamo avere il conto, per favore?",
         "Dammi il prezzo della pizza.",
         "Devo fare la residenza."
       ],
       "correctAnswer": 0,
-      "explanation": "'Il conto, per favore' = 'Чек, будь ласка'."
+      "explanation": {
+        "uk": "'Il conto, per favore' = 'Чек, будь ласка'.",
+        "en": "'Il conto, per favore' = 'The bill, please'.",
+        "es": "'Il conto, per favore' = 'La cuenta, por favor'.",
+        "fr": "« Il conto, per favore » = « L’addition, s’il vous plaît ».",
+        "ro": "«Il conto, per favore» = «Nota, vă rog»."
+      }
     },
     {
       "id": "p5",
-      "question": "Як уточнити офіціанту, що ви бажаєте звичайну воду без газу?",
+      "question": {
+        "uk": "Як уточнити офіціанту, що ви бажаєте звичайну воду без газу?",
+        "en": "How do you tell the waiter you want still water, without gas?",
+        "es": "¿Cómo precisar al camarero que quieres agua sin gas?",
+        "fr": "Comment préciser au serveur que vous voulez de l’eau plate ?",
+        "ro": "Cum precizezi chelnerului că vrei apă fără gaz?"
+      },
       "options": [
         "Vorrei dell'acqua frizzante.",
         "Vorrei dell'acqua naturale.",
         "Vorrei dell'acqua con il vino."
       ],
       "correctAnswer": 1,
-      "explanation": "'Acqua naturale' = вода без газу."
+      "explanation": {
+        "uk": "'Acqua naturale' = вода без газу.",
+        "en": "'Acqua naturale' = still water.",
+        "es": "'Acqua naturale' = agua sin gas.",
+        "fr": "« Acqua naturale » = eau plate.",
+        "ro": "«Acqua naturale» = apă fără gaz."
+      }
     }
   ],
-  "successBadge": "Maestro del Ristorante 🍝",
-  "successMessage": "Вітаємо! Ви повністю засвоїли етикет італійських ресторанів, легко замовляєте страви та орієнтуєтеся в чеку!"
+  "successBadge": {
+    "uk": "Майстер ресторану 🍝",
+    "en": "Restaurant maestro 🍝",
+    "es": "Maestro del restaurante 🍝",
+    "fr": "Maître du restaurant 🍝",
+    "ro": "Maestru al restaurantului 🍝"
+  },
+  "successMessage": {
+    "uk": "Вітаємо! Ви повністю засвоїли етикет італійських ресторанів, легко замовляєте страви та орієнтуєтеся в чеку!",
+    "en": "Congratulations! You have fully learned Italian restaurant etiquette, you order dishes easily and you can read the bill!",
+    "es": "¡Enhorabuena! Has asimilado el etiquette de los restaurantes italianos, pides con facilidad y te orientas en la cuenta.",
+    "fr": "Félicitations ! Vous maîtrisez l’étiquette des restaurants italiens, commandez facilement et lisez l’addition !",
+    "ro": "Felicitări! Ați însușit eticheta restaurantelor italiene, comandați ușor felurile și vă orientați pe notă!"
+  }
 }

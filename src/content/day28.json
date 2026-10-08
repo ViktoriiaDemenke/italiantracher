@@ -1,66 +1,226 @@
 {
   "day": 28,
-  "title": "Салон краси: Запис на стрижку, манікюр та догляд",
+  "title": {
+    "uk": "Салон краси: Запис на стрижку, манікюр та догляд",
+    "en": "Beauty salon: Booking a haircut, manicure and care",
+    "es": "Salón de belleza: cita para corte, manicura y cuidado",
+    "fr": "Salon de beauté : rendez-vous pour coupe, manucure et soins",
+    "ro": "Salon de înfrumusețare: programare pentru tuns, manichiură și îngrijire"
+  },
   "module": "Salone di Bellezza: Parrucchiere e Manicure",
-  "type": "Immersion & Vocabulary",
-  "story": "Марко та Лаура планують візит до салону краси. В Італії до перукаря (parrucchiere / barbiere) та майстра манікюру (onicotecnica / estetista) майже завжди потрібно записуватися заздалегідь по телефону або особисто (prendere un appuntamento). Вкрай важливо чітко пояснити свої побажання: від довжини волосся та форми нігтів до вибору типу покриття чи стрижки бороди.",
+  "type": {
+    "uk": "Занурення та словник",
+    "en": "Immersion & Vocabulary",
+    "es": "Inmersión y vocabulario",
+    "fr": "Immersion et vocabulaire",
+    "ro": "Imersiune și vocabular"
+  },
+  "story": {
+    "uk": "Марко та Лаура планують візит до салону краси. В Італії до перукаря (parrucchiere / barbiere) та майстра манікюру (onicotecnica / estetista) майже завжди потрібно записуватися заздалегідь по телефону або особисто (prendere un appuntamento). Вкрай важливо чітко пояснити свої побажання: від довжини волосся та форми нігтів до вибору типу покриття чи стрижки бороди.",
+    "en": "Marco and Laura plan a visit to a beauty salon. In Italy you almost always book ahead by phone or in person (prendere un appuntamento) with the hairdresser (parrucchiere / barbiere) and nail technician (onicotecnica / estetista). It is essential to explain clearly what you want: hair length, nail shape, type of polish or beard trim.",
+    "es": "Marco y Laura planean una visita al salón de belleza. En Italia casi siempre hay que citarse de antemano por teléfono o en persona (prendere un appuntamento) con el peluquero (parrucchiere / barbiere) y la manicurista (onicotecnica / estetista). Es muy importante explicar con claridad lo que se desea: largo del pelo, forma de las uñas, tipo de esmalte o recorte de barba.",
+    "fr": "Marco et Laura prévoient une visite au salon de beauté. En Italie, on prend presque toujours rendez-vous à l’avance par téléphone ou sur place (prendere un appuntamento) chez le coiffeur (parrucchiere / barbiere) et l’esthéticienne ongles (onicotecnica / estetista). Il faut clairement expliquer ses souhaits : longueur des cheveux, forme des ongles, type de vernis ou coupe de barbe.",
+    "ro": "Marco și Laura planifică o vizită la salon. În Italia, la frizer/coafor (parrucchiere / barbiere) și la manichiuristă (onicotecnica / estetista) aproape întotdeauna trebuie să te programezi dinainte la telefon sau personal (prendere un appuntamento). E esențial să explici clar dorințele: lungimea părului, forma unghiilor, tipul de oja sau tunsul bărbii."
+  },
   "phrases": [
     {
       "italian": "Vorrei prendere un appuntamento per un taglio uomo e una manicure.",
-      "ukrainian": "Я б хотів(ла) записатися на чоловічу стрижку та манікюр.",
-      "translation": "Я б хотів(ла) записатися на чоловічу стрижку та манікюр."
+      "ukrainian": {
+        "uk": "Я б хотів(ла) записатися на чоловічу стрижку та манікюр.",
+        "en": "I'd like to book an appointment for a men's haircut and a manicure.",
+        "es": "Quisiera pedir cita para un corte de hombre y una manicura.",
+        "fr": "Je voudrais prendre rendez-vous pour une coupe homme et une manucure.",
+        "ro": "Aș vrea să fac o programare pentru o tunsoare bărbătească și o manichiură."
+      },
+      "translation": {
+        "uk": "Я б хотів(ла) записатися на чоловічу стрижку та манікюр.",
+        "en": "I'd like to book an appointment for a men's haircut and a manicure.",
+        "es": "Quisiera pedir cita para un corte de hombre y una manicura.",
+        "fr": "Je voudrais prendre rendez-vous pour une coupe homme et une manucure.",
+        "ro": "Aș vrea să fac o programare pentru o tunsoare bărbătească și o manichiură."
+      }
     },
     {
       "italian": "Vorrei solo una spuntata alle punte e la piega, per favore.",
-      "ukrainian": "Тільки підрівняти кінчики та зробити укладку, будь ласка.",
-      "translation": "Тільки підрівняти кінчики та зробити укладку, будь ласка."
+      "ukrainian": {
+        "uk": "Тільки підрівняти кінчики та зробити укладку, будь ласка.",
+        "en": "I'd just like a trim of the ends and a blow-dry, please.",
+        "es": "Solo un recorte de puntas y el peinado, por favor.",
+        "fr": "Juste une coupe des pointes et le brushing, s'il vous plaît.",
+        "ro": "Doar o ajustare la vârfuri și coafatul, vă rog."
+      },
+      "translation": {
+        "uk": "Тільки підрівняти кінчики та зробити укладку, будь ласка.",
+        "en": "I'd just like a trim of the ends and a blow-dry, please.",
+        "es": "Solo un recorte de puntas y el peinado, por favor.",
+        "fr": "Juste une coupe des pointes et le brushing, s'il vous plaît.",
+        "ro": "Doar o ajustare la vârfuri și coafatul, vă rog."
+      }
     },
     {
       "italian": "Vorrei fare lo smalto semipermanente e togliere quello vecchio.",
-      "ukrainian": "Я б хотіла зробити гель-лак (семіперманент) та зняти старий.",
-      "translation": "Я б хотіла зробити гель-лак (семіперманент) та зняти старий."
+      "ukrainian": {
+        "uk": "Я б хотіла зробити гель-лак (семіперманент) та зняти старий.",
+        "en": "I'd like a gel polish (semipermanente) and to have the old one removed.",
+        "es": "Quisiera hacerme el esmalte semipermanente y quitar el viejo.",
+        "fr": "Je voudrais faire le vernis semipermanente et enlever l'ancien.",
+        "ro": "Aș vrea să fac ojă semipermanente și să o dau jos pe cea veche."
+      },
+      "translation": {
+        "uk": "Я б хотіла зробити гель-лак (семіперманент) та зняти старий.",
+        "en": "I'd like a gel polish (semipermanente) and to have the old one removed.",
+        "es": "Quisiera hacerme el esmalte semipermanente y quitar el viejo.",
+        "fr": "Je voudrais faire le vernis semipermanente et enlever l'ancien.",
+        "ro": "Aș vrea să fac ojă semipermanente și să o dau jos pe cea veche."
+      }
     },
     {
       "italian": "Vorrei accorciare i capelli ai lati e regolare la barba.",
-      "ukrainian": "Я б хотів вкоротити волосся з боків та підрівняти бороду.",
-      "translation": "Я б хотів вкоротити волосся з боків та підрівняти бороду."
+      "ukrainian": {
+        "uk": "Я б хотів вкоротити волосся з боків та підрівняти бороду.",
+        "en": "I'd like to shorten the hair on the sides and tidy the beard.",
+        "es": "Quisiera acortar el pelo a los lados y arreglar la barba.",
+        "fr": "Je voudrais raccourcir les cheveux sur les côtés et régler la barbe.",
+        "ro": "Aș vrea să scurteze părul pe laterale și să aranjeze barba."
+      },
+      "translation": {
+        "uk": "Я б хотів вкоротити волосся з боків та підрівняти бороду.",
+        "en": "I'd like to shorten the hair on the sides and tidy the beard.",
+        "es": "Quisiera acortar el pelo a los lados y arreglar la barba.",
+        "fr": "Je voudrais raccourcir les cheveux sur les côtés et régler la barbe.",
+        "ro": "Aș vrea să scurteze părul pe laterale și să aranjeze barba."
+      }
     }
   ],
   "beautyTips": [
-    "Prendere un appuntamento — запис на конкретний час є обов'язковим. Якщо ви запізнюєтеся навіть на 10-15 хвилин, варто зателефонувати й попередити.",
-    "Piega — укладка феном після миття голови. В італійських салонах ціна за стрижку (taglio) часто вказується окремо від укладки (piega) та миття (shampoo).",
-    "Smalto semipermanente — гель-лак. Якщо потрібно зняти попереднє покриття, обов'язково попередьте під час запису: 'Devo anche togliere il gel vecchio'."
+    {
+      "uk": "Prendere un appuntamento — запис на конкретний час є обов'язковим. Якщо ви запізнюєтеся навіть на 10-15 хвилин, варто зателефонувати й попередити.",
+      "en": "Prendere un appuntamento — booking a specific time is required. If you are even 10–15 minutes late, you should call and let them know.",
+      "es": "Prendere un appuntamento: la cita a una hora concreta es obligatoria. Si te retrasas 10-15 minutos, conviene llamar y avisar.",
+      "fr": "Prendere un appuntamento : le rendez-vous à une heure précise est obligatoire. En cas de retard de 10-15 minutes, il faut téléphoner et prévenir.",
+      "ro": "Prendere un appuntamento — programarea la o oră anume e obligatorie. Dacă întârzi chiar și 10–15 minute, merită să suni și să anunți."
+    },
+    {
+      "uk": "Piega — укладка феном після миття голови. В італійських салонах ціна за стрижку (taglio) часто вказується окремо від укладки (piega) та миття (shampoo).",
+      "en": "Piega — blow-dry styling after washing. In Italian salons the haircut price (taglio) is often listed separately from styling (piega) and shampoo.",
+      "es": "Piega: el peinado con secador tras el lavado. En los salones italianos el precio del corte (taglio) suele ir aparte del peinado (piega) y del lavado (shampoo).",
+      "fr": "Piega : brushing après le shampooing. Dans les salons italiens, le prix de la coupe (taglio) est souvent indiqué à part du brushing (piega) et du shampooing (shampoo).",
+      "ro": "Piega — coafarea cu uscătorul după spălare. În saloanele italiene prețul tunsorii (taglio) e adesea separat de coafat (piega) și spălat (shampoo)."
+    },
+    {
+      "uk": "Smalto semipermanente — гель-лак. Якщо потрібно зняти попереднє покриття, обов'язково попередьте під час запису: 'Devo anche togliere il gel vecchio'.",
+      "en": "Smalto semipermanente — gel polish. If the old coating must be removed, say so when booking: 'Devo anche togliere il gel vecchio'.",
+      "es": "Smalto semipermanente: esmalte semipermanente. Si hay que quitar el recubrimiento anterior, avise al citarse: 'Devo anche togliere il gel vecchio'.",
+      "fr": "Smalto semipermanente : vernis semi-permanent. S’il faut retirer l’ancien gel, prévenez à la prise de rendez-vous : 'Devo anche togliere il gel vecchio'.",
+      "ro": "Smalto semipermanente — oja semipermanentă. Dacă trebuie îndepărtat acoperirea veche, anunță la programare: 'Devo anche togliere il gel vecchio'."
+    }
   ],
   "grammar": {
-    "title": "Дієслова для запису та побажань: 'Vorrei + Інфінітив' та 'Accorciare / Spuntare'",
+    "title": {
+      "uk": "Дієслова для запису та побажань: 'Vorrei + Інфінітив' та 'Accorciare / Spuntare'",
+      "en": "Verbs for booking and requests: 'Vorrei + infinitive' and 'Accorciare / Spuntare'",
+      "es": "Verbos para citarse y pedir: 'Vorrei + infinitivo' y 'Accorciare / Spuntare'",
+      "fr": "Verbes pour le rendez-vous et les souhaits : 'Vorrei + infinitif' et 'Accorciare / Spuntare'",
+      "ro": "Verbe pentru programare și dorințe: 'Vorrei + infinitiv' și 'Accorciare / Spuntare'"
+    },
     "rules": [
       {
-        "rule": "Ввічливий запис через 'Vorrei': 'Vorrei prenotare...' (Я б хотів(ла) забронювати...), 'Vorrei fare...' (Я б хотів(ла) зробити...).",
+        "rule": {
+          "uk": "Ввічливий запис через 'Vorrei': 'Vorrei prenotare...' (Я б хотів(ла) забронювати...), 'Vorrei fare...' (Я б хотів(ла) зробити...).",
+          "en": "Polite booking with 'Vorrei': 'Vorrei prenotare...' (I would like to book...), 'Vorrei fare...' (I would like to have...).",
+          "es": "Cita educada con 'Vorrei': 'Vorrei prenotare...' (Me gustaría reservar...), 'Vorrei fare...' (Me gustaría hacer...).",
+          "fr": "Rendez-vous poli avec 'Vorrei' : 'Vorrei prenotare...' (Je voudrais réserver...), 'Vorrei fare...' (Je voudrais faire...).",
+          "ro": "Programare politicoasă cu 'Vorrei': 'Vorrei prenotare...' (Aș dori să rezerv...), 'Vorrei fare...' (Aș dori să fac...)."
+        },
         "examples": [
           {
             "italian": "Vorrei prenotare per giovedì pomeriggio.",
-            "ukrainian": "Я хотів би записатися на четвер після обіду."
+            "ukrainian": {
+              "uk": "Я хотів би записатися на четвер після обіду.",
+              "en": "I'd like to book for Thursday afternoon.",
+              "es": "Quisiera reservar para el jueves por la tarde.",
+              "fr": "Je voudrais réserver pour jeudi après-midi.",
+              "ro": "Aș vrea să rezerv joi după-amiaza."
+            },
+            "translation": {
+              "uk": "Я хотів би записатися на четвер після обіду.",
+              "en": "I'd like to book for Thursday afternoon.",
+              "es": "Quisiera reservar para el jueves por la tarde.",
+              "fr": "Je voudrais réserver pour jeudi après-midi.",
+              "ro": "Aș vrea să rezerv joi după-amiaza."
+            }
           },
           {
             "italian": "Vorrei fare la barba.",
-            "ukrainian": "Я хотів би підстригти бороду / поголитися."
+            "ukrainian": {
+              "uk": "Я хотів би підстригти бороду / поголитися.",
+              "en": "I'd like a beard trim / a shave.",
+              "es": "Quisiera hacerme la barba.",
+              "fr": "Je voudrais faire la barbe.",
+              "ro": "Aș vrea să fac barba."
+            },
+            "translation": {
+              "uk": "Я хотів би підстригти бороду / поголитися.",
+              "en": "I'd like a beard trim / a shave.",
+              "es": "Quisiera hacerme la barba.",
+              "fr": "Je voudrais faire la barbe.",
+              "ro": "Aș vrea să fac barba."
+            }
           }
         ]
       },
       {
-        "rule": "Дії з волоссям та нігтями: 'Accorciare' (вкорочувати), 'Spuntare' (підрізати кінчики), 'Togliere' (знімати).",
+        "rule": {
+          "uk": "Дії з волоссям та нігтями: 'Accorciare' (вкорочувати), 'Spuntare' (підрізати кінчики), 'Togliere' (знімати).",
+          "en": "Actions on hair and nails: 'Accorciare' (to shorten), 'Spuntare' (to trim the ends), 'Togliere' (to remove).",
+          "es": "Acciones con pelo y uñas: 'Accorciare' (acortar), 'Spuntare' (cortar las puntas), 'Togliere' (quitar).",
+          "fr": "Actions sur cheveux et ongles : 'Accorciare' (raccourcir), 'Spuntare' (couper les pointes), 'Togliere' (enlever).",
+          "ro": "Acțiuni la păr și unghii: 'Accorciare' (a scurta), 'Spuntare' (a tăia vârfurile), 'Togliere' (a îndepărta)."
+        },
         "examples": [
           {
             "italian": "Vorrei solo spuntare di un centimetro.",
-            "ukrainian": "Хочу лише підрівняти на сантиметр."
+            "ukrainian": {
+              "uk": "Хочу лише підрівняти на сантиметр.",
+              "en": "I'd just like to trim one centimeter.",
+              "es": "Solo quiero recortar un centímetro.",
+              "fr": "Je voudrais seulement couper d'un centimètre.",
+              "ro": "Vreau doar să ajustez cu un centimetru."
+            },
+            "translation": {
+              "uk": "Хочу лише підрівняти на сантиметр.",
+              "en": "I'd just like to trim one centimeter.",
+              "es": "Solo quiero recortar un centímetro.",
+              "fr": "Je voudrais seulement couper d'un centimètre.",
+              "ro": "Vreau doar să ajustez cu un centimetru."
+            }
           },
           {
             "italian": "Devo togliere lo smalto.",
-            "ukrainian": "Мені потрібно зняти лак."
+            "ukrainian": {
+              "uk": "Мені потрібно зняти лак.",
+              "en": "I need to have the polish removed.",
+              "es": "Tengo que quitarme el esmalte.",
+              "fr": "Je dois enlever le vernis.",
+              "ro": "Trebuie să dau jos oja."
+            },
+            "translation": {
+              "uk": "Мені потрібно зняти лак.",
+              "en": "I need to have the polish removed.",
+              "es": "Tengo que quitarme el esmalte.",
+              "fr": "Je dois enlever le vernis.",
+              "ro": "Trebuie să dau jos oja."
+            }
           }
         ]
       }
     ]
   },
-  "culturaTip": "В Італії барбершопи (barbiere) та жіночі салони часто зачинені в неділю та понеділок. З вівторка по суботу салон може працювати з перервою на обід (pausa pranzo) з 12:30 до 15:30, якщо це не мережевий заклад у торговому центрі."
+  "culturaTip": {
+    "uk": "В Італії барбершопи (barbiere) та жіночі салони часто зачинені в неділю та понеділок. З вівторка по суботу салон може працювати з перервою на обід (pausa pranzo) з 12:30 до 15:30, якщо це не мережевий заклад у торговому центрі.",
+    "en": "In Italy barbershops (barbiere) and women’s salons are often closed on Sunday and Monday. Tuesday to Saturday a salon may close for lunch (pausa pranzo) from 12:30 to 15:30, unless it is a chain in a shopping centre.",
+    "es": "En Italia las barberías (barbiere) y los salones de señoras suelen cerrar el domingo y el lunes. De martes a sábado el salón puede hacer pausa de comida (pausa pranzo) de 12:30 a 15:30, salvo que sea una cadena en un centro comercial.",
+    "fr": "En Italie, les barbiers (barbiere) et salons pour femmes sont souvent fermés le dimanche et le lundi. Du mardi au samedi, le salon peut faire une pause déjeuner (pausa pranzo) de 12 h 30 à 15 h 30, sauf s’il s’agit d’une chaîne en centre commercial.",
+    "ro": "În Italia, frizeriile (barbiere) și saloanele pentru femei sunt adesea închise duminica și lunea. De marți până sâmbătă salonul poate avea pauză de prânz (pausa pranzo) între 12:30 și 15:30, dacă nu e un lanț dintr-un mall."
+  }
 }

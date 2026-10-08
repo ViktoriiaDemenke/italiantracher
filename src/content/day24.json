@@ -1,66 +1,156 @@
 {
   "day": 24,
-  "title": "Boss Level 🏆: Симуляція покупок у супермаркеті",
+  "title": {
+    "uk": "Boss Level 🏆: Симуляція покупок у супермаркеті",
+    "en": "Boss Level 🏆: Simulation of supermarket shopping",
+    "es": "Boss Level 🏆: Simulación de compras en el supermercado",
+    "fr": "Boss Level 🏆 : Simulation des courses au supermarché",
+    "ro": "Boss Level 🏆: Simulare de cumpărături la supermarket"
+  },
   "module": "Fare la Spesa al Supermercato",
-  "type": "Boss Level Simulation",
-  "story": "Фінальний іспит модуля! Ви самостійно купуєте продукти, замовляєте нарізку у відділі гастрономії та розраховуєтеся на касі. Підказки та переклад вимкнено!",
+  "type": {
+    "uk": "Симуляція бос-рівня",
+    "en": "Boss Level Simulation",
+    "es": "Simulación de nivel jefe",
+    "fr": "Simulation Boss Level",
+    "ro": "Simulare nivel boss"
+  },
+  "story": {
+    "uk": "Фінальний іспит модуля! Ви самостійно купуєте продукти, замовляєте нарізку у відділі гастрономії та розраховуєтеся на касі. Підказки та переклад вимкнено!",
+    "en": "Final exam of the module! You shop on your own, order sliced goods at the deli and pay at the till. Hints and translation are off!",
+    "es": "¡Examen final del módulo! Compras por tu cuenta, pides fiambre en charcutería y pagas en caja. ¡Pistas y traducción desactivadas!",
+    "fr": "Examen final du module ! Vous faites les courses seul, commandez au traiteur et payez à la caisse. Indices et traduction désactivés !",
+    "ro": "Examenul final al modulului! Cumperi singur, comanzi la gastronomie și plătești la casă. Indiciile și traducerea sunt dezactivate!"
+  },
   "questions": [
     {
       "id": "p1",
-      "question": "Скільки грамів продукту ви замовляєте, якщо кажете 'Due etti'?",
+      "question": {
+        "uk": "Скільки грамів продукту ви замовляєте, якщо кажете 'Due etti'?",
+        "en": "How many grams are you ordering if you say 'Due etti'?",
+        "es": "¿Cuántos gramos pides si dices 'Due etti'?",
+        "fr": "Combien de grammes commandez-vous si vous dites 'Due etti' ?",
+        "ro": "Câte grame comanzi dacă spui 'Due etti'?"
+      },
       "options": [
         "200 грамів.",
         "20 грамів.",
         "2 кілограми."
       ],
       "correctAnswer": 0,
-      "explanation": "Un etto = 100 грамів, відповідно Due etti = 200 грамів."
+      "explanation": {
+        "uk": "Un etto = 100 грамів, відповідно Due etti = 200 грамів.",
+        "en": "Un etto = 100 grams, so Due etti = 200 grams.",
+        "es": "Un etto = 100 gramos, por tanto Due etti = 200 gramos.",
+        "fr": "Un etto = 100 grammes, donc Due etti = 200 grammes.",
+        "ro": "Un etto = 100 de grame, deci Due etti = 200 de grame."
+      }
     },
     {
       "id": "p2",
-      "question": "Що обов'язково потрібно зробити перед тим, як брати свіжі фрукти чи овочі у супермаркеті?",
+      "question": {
+        "uk": "Що обов'язково потрібно зробити перед тим, як брати свіжі фрукти чи овочі у супермаркеті?",
+        "en": "What must you do before picking up fresh fruit or vegetables in a supermarket?",
+        "es": "¿Qué hay que hacer obligatoriamente antes de coger fruta o verdura fresca en el supermercado?",
+        "fr": "Que faut-il absolument faire avant de prendre des fruits ou légumes frais au supermarché ?",
+        "ro": "Ce trebuie să faci obligatoriu înainte de a lua fructe sau legume proaspete la supermarket?"
+      },
       "options": [
         "Одягнути одноразові пластикові рукавички (guanti).",
         "Оплатити їх на касі заздалегідь.",
         "Запитати дозвіл в охоронця."
       ],
       "correctAnswer": 0,
-      "explanation": "Правила гігієни в Італії вимагають використання рукавичок для вибору овочів/фруктів."
+      "explanation": {
+        "uk": "Правила гігієни в Італії вимагають використання рукавичок для вибору овочів/фруктів.",
+        "en": "Hygiene rules in Italy require gloves when choosing vegetables/fruit.",
+        "es": "Las normas de higiene en Italia exigen usar guantes para elegir verdura/fruta.",
+        "fr": "Les règles d’hygiène en Italie imposent des gants pour choisir légumes/fruits.",
+        "ro": "Regulile de igienă din Italia cer folosirea mănușilor la alegerea legumelor/fructelor."
+      }
     },
     {
       "id": "p3",
-      "question": "Як запитати касира про пакет для покупок?",
+      "question": {
+        "uk": "Як запитати касира про пакет для покупок?",
+        "en": "How do you ask the cashier for a shopping bag?",
+        "es": "¿Cómo se le pide al cajero una bolsa para la compra?",
+        "fr": "Comment demander un sac de courses au caissier ?",
+        "ro": "Cum ceri casierului o pungă pentru cumpărături?"
+      },
       "options": [
         "Le serve un sacchetto, per favore?",
         "Posso avere un sacchetto per la spesa?",
         "Dove si trova la guardia medica?"
       ],
       "correctAnswer": 1,
-      "explanation": "'Un sacchetto per la spesa' = пакет для покупок."
+      "explanation": {
+        "uk": "'Un sacchetto per la spesa' = пакет для покупок.",
+        "en": "'Un sacchetto per la spesa' = a shopping bag.",
+        "es": "'Un sacchetto per la spesa' = una bolsa para la compra.",
+        "fr": "'Un sacchetto per la spesa' = un sac de courses.",
+        "ro": "'Un sacchetto per la spesa' = o pungă pentru cumpărături."
+      }
     },
     {
       "id": "p4",
-      "question": "Що таке 'Lo scontrino'?",
+      "question": {
+        "uk": "Що таке 'Lo scontrino'?",
+        "en": "What is 'Lo scontrino'?",
+        "es": "¿Qué es 'Lo scontrino'?",
+        "fr": "Qu’est-ce que 'Lo scontrino' ?",
+        "ro": "Ce este 'Lo scontrino'?"
+      },
       "options": [
         "Касовий чек, який слід зберігати після покупки.",
         "Знижка на другу категорію товарів.",
         "Візок для покупок."
       ],
       "correctAnswer": 0,
-      "explanation": "'Lo scontrino' — це фіскальний чек."
+      "explanation": {
+        "uk": "'Lo scontrino' — це фіскальний чек.",
+        "en": "'Lo scontrino' is the fiscal receipt.",
+        "es": "'Lo scontrino' es el ticket fiscal.",
+        "fr": "'Lo scontrino' est le ticket de caisse fiscal.",
+        "ro": "'Lo scontrino' este bonul fiscal."
+      }
     },
     {
       "id": "p5",
-      "question": "Як попросити тонко нарізати шинку (прошутто)?",
+      "question": {
+        "uk": "Як попросити тонко нарізати шинку (прошутто)?",
+        "en": "How do you ask for ham (prosciutto) to be sliced thinly?",
+        "es": "¿Cómo se pide cortar el jamón (prosciutto) fino?",
+        "fr": "Comment demander de trancher le jambon (prosciutto) finement ?",
+        "ro": "Cum ceri să taie șunca (prosciutto) subțire?"
+      },
       "options": [
         "Lo tagli sottile, per favore.",
         "Lo voglio in un pezzo grande.",
         "Lo voglio senza acqua frizzante."
       ],
       "correctAnswer": 0,
-      "explanation": "'Tagliato sottile' = тонко нарізаний."
+      "explanation": {
+        "uk": "'Tagliato sottile' = тонко нарізаний.",
+        "en": "'Tagliato sottile' = thinly sliced.",
+        "es": "'Tagliato sottile' = cortado fino.",
+        "fr": "'Tagliato sottile' = tranché fin.",
+        "ro": "'Tagliato sottile' = tăiat subțire."
+      }
     }
   ],
-  "successBadge": "Esperto della Spesa 🛒",
-  "successMessage": "Вітаємо! Ви повністю засвоїли правила покупок в італійському супермаркеті, вмієте зважувати продукти та спілкуватися на касі!"
+  "successBadge": {
+    "uk": "Експерт покупок 🛒",
+    "en": "Shopping expert 🛒",
+    "es": "Experto de la compra 🛒",
+    "fr": "Expert courses 🛒",
+    "ro": "Expert la cumpărături 🛒"
+  },
+  "successMessage": {
+    "uk": "Вітаємо! Ви повністю засвоїли правила покупок в італійському супермаркеті, вмієте зважувати продукти та спілкуватися на касі!",
+    "en": "Congratulations! You have fully learned Italian supermarket rules, can weigh products and talk at the till!",
+    "es": "¡Enhorabuena! Has asimilado las reglas de compra en un supermercado italiano, sabes pesar productos y hablar en caja.",
+    "fr": "Félicitations ! Vous maîtrisez les règles des courses en supermarché italien, savez peser les produits et parler à la caisse !",
+    "ro": "Felicitări! Ai învățat regulile cumpărăturilor într-un supermarket italian, știi să cântărești produsele și să vorbești la casă!"
+  }
 }

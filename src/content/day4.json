@@ -1,79 +1,273 @@
 {
   "day": 4,
-  "title": "ASL i Tessera Sanitaria: Реєстрація в медичній системі",
+  "title": {
+    "uk": "ASL i Tessera Sanitaria: Реєстрація в медичній системі",
+    "en": "ASL and Tessera Sanitaria: Registering in the healthcare system",
+    "es": "ASL y Tessera Sanitaria: Registro en el sistema sanitario",
+    "fr": "ASL et Tessera Sanitaria : Inscription au système de santé",
+    "ro": "ASL și Tessera Sanitaria: Înregistrare în sistemul medical"
+  },
   "module": "Iscriversi al SSN e Medico di Base",
-  "type": "Immersion & Vocabulary",
-  "story": "Лаура нещодавно переїхала до Падуї. Після оформлення резиденції в Anagrafe вона робить наступний важливий крок — іде до ASL (Azienda Sanitaria Locale), щоб зареєструватися в SSN (Servizio Sanitario Nazionale), отримати Tessera Sanitaria та обрати сімейного лікаря (Medico di base). З собою вона має: passaporto, permesso di soggiorno, codice fiscale та dichiarazione di residenza.",
+  "type": {
+    "uk": "Занурення та словник",
+    "en": "Immersion & Vocabulary",
+    "es": "Inmersión y vocabulario",
+    "fr": "Immersion et vocabulaire",
+    "ro": "Imersiune și vocabular"
+  },
+  "story": {
+    "uk": "Лаура нещодавно переїхала до Падуї. Після оформлення резиденції в Anagrafe вона робить наступний важливий крок — іде до ASL (Azienda Sanitaria Locale), щоб зареєструватися в SSN (Servizio Sanitario Nazionale), отримати Tessera Sanitaria та обрати сімейного лікаря (Medico di base). З собою вона має: passaporto, permesso di soggiorno, codice fiscale та dichiarazione di residenza.",
+    "en": "Laura has recently moved to Padua. After registering her residenza at the Anagrafe she takes the next important step — she goes to the ASL (Azienda Sanitaria Locale) to enrol in the SSN (Servizio Sanitario Nazionale), get a Tessera Sanitaria and choose a family doctor (Medico di base). She has with her: passaporto, permesso di soggiorno, codice fiscale and dichiarazione di residenza.",
+    "es": "Laura se ha mudado hace poco a Padua. Tras tramitar la residenza en el Anagrafe da el siguiente paso importante: va a la ASL (Azienda Sanitaria Locale) para inscribirse en el SSN (Servizio Sanitario Nazionale), obtener la Tessera Sanitaria y elegir un médico de familia (Medico di base). Lleva: passaporto, permesso di soggiorno, codice fiscale y dichiarazione di residenza.",
+    "fr": "Laura a récemment emménagé à Padoue. Après avoir fait sa residenza à l’Anagrafe, elle passe à l’étape suivante : elle va à l’ASL (Azienda Sanitaria Locale) pour s’inscrire au SSN (Servizio Sanitario Nazionale), obtenir la Tessera Sanitaria et choisir un médecin de famille (Medico di base). Elle a : passaporto, permesso di soggiorno, codice fiscale et dichiarazione di residenza.",
+    "ro": "Laura s-a mutat de curând la Padova. După înregistrarea residenza la Anagrafe face următorul pas important — merge la ASL (Azienda Sanitaria Locale) să se înscrie în SSN (Servizio Sanitario Nazionale), să obțină Tessera Sanitaria și să aleagă un medic de familie (Medico di base). Are la ea: passaporto, permesso di soggiorno, codice fiscale și dichiarazione di residenza."
+  },
   "phrases": [
     {
       "italian": "Devo iscrivermi al Servizio Sanitario Nazionale.",
-      "ukrainian": "Мені потрібно зареєструватися в Національній службі охорони здоров'я.",
-      "translation": "Мені потрібно зареєструватися в Національній службі охорони здоров'я."
+      "ukrainian": {
+        "uk": "Мені потрібно зареєструватися в Національній службі охорони здоров'я.",
+        "en": "I need to register with the Servizio Sanitario Nazionale.",
+        "es": "Debo inscribirme en el Servizio Sanitario Nazionale.",
+        "fr": "Je dois m'inscrire au Servizio Sanitario Nazionale.",
+        "ro": "Trebuie să mă înscriu la Servizio Sanitario Nazionale."
+      },
+      "translation": {
+        "uk": "Мені потрібно зареєструватися в Національній службі охорони здоров'я.",
+        "en": "I need to register with the Servizio Sanitario Nazionale.",
+        "es": "Debo inscribirme en el Servizio Sanitario Nazionale.",
+        "fr": "Je dois m'inscrire au Servizio Sanitario Nazionale.",
+        "ro": "Trebuie să mă înscriu la Servizio Sanitario Nazionale."
+      }
     },
     {
       "italian": "Devo scegliere un medico di base.",
-      "ukrainian": "Мені потрібно обрати сімейного лікаря.",
-      "translation": "Мені потрібно обрати сімейного лікаря."
+      "ukrainian": {
+        "uk": "Мені потрібно обрати сімейного лікаря.",
+        "en": "I need to choose a medico di base.",
+        "es": "Debo elegir un medico di base.",
+        "fr": "Je dois choisir un medico di base.",
+        "ro": "Trebuie să aleg un medico di base."
+      },
+      "translation": {
+        "uk": "Мені потрібно обрати сімейного лікаря.",
+        "en": "I need to choose a medico di base.",
+        "es": "Debo elegir un medico di base.",
+        "fr": "Je dois choisir un medico di base.",
+        "ro": "Trebuie să aleg un medico di base."
+      }
     },
     {
       "italian": "È vicino a casa mia.",
-      "ukrainian": "Це близько до мого дому.",
-      "translation": "Це близько до мого дому."
+      "ukrainian": {
+        "uk": "Це близько до мого дому.",
+        "en": "It's close to my home.",
+        "es": "Está cerca de mi casa.",
+        "fr": "C'est près de chez moi.",
+        "ro": "Este aproape de casa mea."
+      },
+      "translation": {
+        "uk": "Це близько до мого дому.",
+        "en": "It's close to my home.",
+        "es": "Está cerca de mi casa.",
+        "fr": "C'est près de chez moi.",
+        "ro": "Este aproape de casa mea."
+      }
     },
     {
       "italian": "Dove devo andare in caso di emergenza?",
-      "ukrainian": "Куди мені звертатися у разі невідкладної ситуації?",
-      "translation": "Куди мені звертатися у разі невідкладної ситуації?"
+      "ukrainian": {
+        "uk": "Куди мені звертатися у разі невідкладної ситуації?",
+        "en": "Where should I go in case of emergency?",
+        "es": "¿Dónde debo ir en caso de emergencia?",
+        "fr": "Où dois-je aller en cas d'urgence ?",
+        "ro": "Unde trebuie să merg în caz de urgență?"
+      },
+      "translation": {
+        "uk": "Куди мені звертатися у разі невідкладної ситуації?",
+        "en": "Where should I go in case of emergency?",
+        "es": "¿Dónde debo ir en caso de emergencia?",
+        "fr": "Où dois-je aller en cas d'urgence ?",
+        "ro": "Unde trebuie să merg în caz de urgență?"
+      }
     }
   ],
   "documentsRequired": [
     {
       "item": "Passaporto / Carta d'identità",
-      "ukrainian": "Паспорт / посвідчення особи"
+      "ukrainian": {
+        "uk": "Паспорт / посвідчення особи",
+        "en": "Passport / ID card",
+        "es": "Pasaporte / documento de identidad",
+        "fr": "Passeport / pièce d’identité",
+        "ro": "Pașaport / act de identitate"
+      },
+      "translation": {
+        "uk": "Паспорт / посвідчення особи",
+        "en": "Passport / ID card",
+        "es": "Pasaporte / documento de identidad",
+        "fr": "Passeport / pièce d’identité",
+        "ro": "Pașaport / act de identitate"
+      }
     },
     {
       "item": "Permesso di soggiorno",
-      "ukrainian": "Дозвіл на проживання"
+      "ukrainian": {
+        "uk": "Дозвіл на проживання",
+        "en": "Residence permit",
+        "es": "Permiso de residencia",
+        "fr": "Permis de séjour",
+        "ro": "Permis de ședere"
+      },
+      "translation": {
+        "uk": "Дозвіл на проживання",
+        "en": "Residence permit",
+        "es": "Permiso de residencia",
+        "fr": "Permis de séjour",
+        "ro": "Permis de ședere"
+      }
     },
     {
       "item": "Codice fiscale",
-      "ukrainian": "Податковий код"
+      "ukrainian": {
+        "uk": "Податковий код",
+        "en": "Tax code",
+        "es": "Código fiscal",
+        "fr": "Code fiscal",
+        "ro": "Cod fiscal"
+      },
+      "translation": {
+        "uk": "Податковий код",
+        "en": "Tax code",
+        "es": "Código fiscal",
+        "fr": "Code fiscal",
+        "ro": "Cod fiscal"
+      }
     },
     {
       "item": "Dichiarazione di residenza",
-      "ukrainian": "Декларація про місце проживання"
+      "ukrainian": {
+        "uk": "Декларація про місце проживання",
+        "en": "Declaration of residence",
+        "es": "Declaración de residencia",
+        "fr": "Déclaration de résidence",
+        "ro": "Declarație de reședință"
+      },
+      "translation": {
+        "uk": "Декларація про місце проживання",
+        "en": "Declaration of residence",
+        "es": "Declaración de residencia",
+        "fr": "Déclaration de résidence",
+        "ro": "Declarație de reședință"
+      }
     }
   ],
   "grammar": {
-    "title": "Медична термінологія та право на допомогу",
+    "title": {
+      "uk": "Медична термінологія та право на допомогу",
+      "en": "Medical terminology and the right to care",
+      "es": "Terminología médica y derecho a la asistencia",
+      "fr": "Terminologie médicale et droit aux soins",
+      "ro": "Terminologie medicală și dreptul la asistență"
+    },
     "rules": [
       {
-        "rule": "Використання виразу 'Avere diritto a...' (Ha diritto all'iscrizione).",
+        "rule": {
+          "uk": "Використання виразу 'Avere diritto a...' (Ha diritto all'iscrizione).",
+          "en": "Using the expression 'Avere diritto a...' (Ha diritto all'iscrizione).",
+          "es": "Uso de la expresión 'Avere diritto a...' (Ha diritto all'iscrizione).",
+          "fr": "Utilisation de l’expression « Avere diritto a... » (Ha diritto all'iscrizione).",
+          "ro": "Folosirea expresiei «Avere diritto a...» (Ha diritto all'iscrizione)."
+        },
         "examples": [
           {
             "italian": "Ha diritto all'iscrizione gratuita.",
-            "ukrainian": "Ви маєте право на безкоштовну реєстрацію."
+            "ukrainian": {
+              "uk": "Ви маєте право на безкоштовну реєстрацію.",
+              "en": "You are entitled to free registration.",
+              "es": "Tiene derecho a la inscripción gratuita.",
+              "fr": "Vous avez droit à l'inscription gratuite.",
+              "ro": "Aveți dreptul la înscriere gratuită."
+            },
+            "translation": {
+              "uk": "Ви маєте право на безкоштовну реєстрацію.",
+              "en": "You are entitled to free registration.",
+              "es": "Tiene derecho a la inscripción gratuita.",
+              "fr": "Vous avez droit à l'inscription gratuite.",
+              "ro": "Aveți dreptul la înscriere gratuită."
+            }
           },
           {
             "italian": "Ho diritto al medico di base.",
-            "ukrainian": "Я маю право на сімейного лікаря."
+            "ukrainian": {
+              "uk": "Я маю право на сімейного лікаря.",
+              "en": "I am entitled to a medico di base.",
+              "es": "Tengo derecho al medico di base.",
+              "fr": "J'ai droit au medico di base.",
+              "ro": "Am dreptul la medico di base."
+            },
+            "translation": {
+              "uk": "Я маю право на сімейного лікаря.",
+              "en": "I am entitled to a medico di base.",
+              "es": "Tengo derecho al medico di base.",
+              "fr": "J'ai droit au medico di base.",
+              "ro": "Am dreptul la medico di base."
+            }
           }
         ]
       },
       {
-        "rule": "Вказування відстані: 'vicino a...' (близько до...).",
+        "rule": {
+          "uk": "Вказування відстані: 'vicino a...' (близько до...).",
+          "en": "Indicating distance: 'vicino a...' (close to...).",
+          "es": "Indicar la distancia: 'vicino a...' (cerca de...).",
+          "fr": "Indiquer la distance : « vicino a... » (près de...).",
+          "ro": "Indicarea distanței: «vicino a...» (aproape de...)."
+        },
         "examples": [
           {
             "italian": "Il medico è vicino a casa mia.",
-            "ukrainian": "Лікар близько від мого дому."
+            "ukrainian": {
+              "uk": "Лікар близько від мого дому.",
+              "en": "The doctor is close to my home.",
+              "es": "El médico está cerca de mi casa.",
+              "fr": "Le médecin est près de chez moi.",
+              "ro": "Medicul este aproape de casa mea."
+            },
+            "translation": {
+              "uk": "Лікар близько від мого дому.",
+              "en": "The doctor is close to my home.",
+              "es": "El médico está cerca de mi casa.",
+              "fr": "Le médecin est près de chez moi.",
+              "ro": "Medicul este aproape de casa mea."
+            }
           },
           {
             "italian": "L'ufficio è vicino al Comune.",
-            "ukrainian": "Офіс близько від комуни."
+            "ukrainian": {
+              "uk": "Офіс близько від комуни.",
+              "en": "The office is close to the Comune.",
+              "es": "La oficina está cerca del Comune.",
+              "fr": "Le bureau est près du Comune.",
+              "ro": "Biroul este aproape de Comune."
+            },
+            "translation": {
+              "uk": "Офіс близько від комуни.",
+              "en": "The office is close to the Comune.",
+              "es": "La oficina está cerca del Comune.",
+              "fr": "Le bureau est près du Comune.",
+              "ro": "Biroul este aproape de Comune."
+            }
           }
         ]
       }
     ]
   },
-  "culturaTip": "Реєстрація в SSN за наявності дозволу на проживання (Permesso di soggiorno) є абсолютно безкоштовною. Звертаючись до працівників ASL, завжди вживайте ввічливу форму 'Lei' та вітайтеся 'Buongiorno'."
+  "culturaTip": {
+    "uk": "Реєстрація в SSN за наявності дозволу на проживання (Permesso di soggiorno) є абсолютно безкоштовною. Звертаючись до працівників ASL, завжди вживайте ввічливу форму 'Lei' та вітайтеся 'Buongiorno'.",
+    "en": "Enrolment in the SSN with a residence permit (Permesso di soggiorno) is completely free. When speaking to ASL staff, always use the polite form 'Lei' and greet with 'Buongiorno'.",
+    "es": "La inscripción en el SSN con permiso de residencia (Permesso di soggiorno) es totalmente gratuita. Al dirigirte al personal de la ASL, usa siempre la forma de cortesía 'Lei' y saluda con 'Buongiorno'.",
+    "fr": "L’inscription au SSN avec un permis de séjour (Permesso di soggiorno) est entièrement gratuite. En vous adressant au personnel de l’ASL, utilisez toujours la forme de politesse « Lei » et saluez par « Buongiorno ».",
+    "ro": "Înscrierea în SSN cu permis de ședere (Permesso di soggiorno) este complet gratuită. Când vorbiți cu personalul ASL, folosiți întotdeauna forma politicoasă «Lei» și salutați cu «Buongiorno»."
+  }
 }

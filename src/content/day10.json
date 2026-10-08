@@ -1,67 +1,233 @@
 {
   "day": 10,
-  "title": "Шукаємо житло: Оголошення, застава та кондомініум",
+  "title": {
+    "uk": "Шукаємо житло: Оголошення, застава та кондомініум",
+    "en": "Looking for a home: Listings, deposit and condominium",
+    "es": "Buscamos piso: Anuncios, fianza y condominio",
+    "fr": "Chercher un logement : Annonces, caution et copropriété",
+    "ro": "Căutăm locuință: Anunțuri, garanție și condominiu"
+  },
   "module": "La Casa: Affitto e Condominio",
-  "type": "Immersion & Vocabulary",
-  "story": "Лаура шукає нову квартиру в Падуї/Тревізо. На порталі оголошень вона знайшла привабливий варіант, але щоб зняти житло в Італії, потрібно орієнтуватися у термінах: розрізняти 'monolocale' та 'trilocale', розуміти, що таке 'spese condominiali' (комунальні послуги будинку) та скільки місяців складає 'caparra' (застава).",
+  "type": {
+    "uk": "Занурення та словник",
+    "en": "Immersion & Vocabulary",
+    "es": "Inmersión y vocabulario",
+    "fr": "Immersion et vocabulaire",
+    "ro": "Imersiune și vocabular"
+  },
+  "story": {
+    "uk": "Лаура шукає нову квартиру в Падуї/Тревізо. На порталі оголошень вона знайшла привабливий варіант, але щоб зняти житло в Італії, потрібно орієнтуватися у термінах: розрізняти 'monolocale' та 'trilocale', розуміти, що таке 'spese condominiali' (комунальні послуги будинку) та скільки місяців складає 'caparra' (застава).",
+    "en": "Laura is looking for a new apartment in Padua/Treviso. On a listings portal she found an attractive option, but to rent in Italy you need the terms: tell 'monolocale' from 'trilocale', understand 'spese condominiali' (building charges) and how many months the 'caparra' (deposit) is.",
+    "es": "Laura busca un piso nuevo en Padua/Treviso. En un portal vio una opción atractiva, pero para alquilar en Italia hay que orientarse: distinguir 'monolocale' y 'trilocale', entender 'spese condominiali' (gastos de comunidad) y cuántos meses es la 'caparra' (fianza).",
+    "fr": "Laura cherche un appartement à Padoue/Trévise. Sur un portail elle a trouvé une offre, mais pour louer en Italie il faut les termes : distinguer « monolocale » et « trilocale », comprendre « spese condominiali » (charges de copropriété) et de combien de mois est la « caparra » (caution).",
+    "ro": "Laura caută un apartament nou în Padova/Treviso. Pe un portal a găsit o ofertă atractivă, dar ca să închiriezi în Italia trebuie să te orientezi: să deosebești «monolocale» de «trilocale», să înțelegi «spese condominiali» (cheltuieli de condominiu) și câte luni are «caparra» (garanția)."
+  },
   "phrases": [
     {
       "italian": "Ho visto il suo annuncio per l'appartamento in affitto.",
-      "ukrainian": "Я побачив(ла) ваше оголошення про оренду квартири.",
-      "translation": "Я побачив(ла) ваше оголошення про оренду квартири."
+      "ukrainian": {
+        "uk": "Я побачив(ла) ваше оголошення про оренду квартири.",
+        "en": "I saw your advertisement for the apartment for rent.",
+        "es": "He visto su anuncio del apartamento en alquiler.",
+        "fr": "J'ai vu votre annonce pour l'appartement en location.",
+        "ro": "Am văzut anunțul dumneavoastră pentru apartamentul de închiriat."
+      },
+      "translation": {
+        "uk": "Я побачив(ла) ваше оголошення про оренду квартири.",
+        "en": "I saw your advertisement for the apartment for rent.",
+        "es": "He visto su anuncio del apartamento en alquiler.",
+        "fr": "J'ai vu votre annonce pour l'appartement en location.",
+        "ro": "Am văzut anunțul dumneavoastră pentru apartamentul de închiriat."
+      }
     },
     {
       "italian": "È ancora disponibile l'appartamento?",
-      "ukrainian": "Квартира ще вільна (доступна)?",
-      "translation": "Квартира ще вільна (доступна)?"
+      "ukrainian": {
+        "uk": "Квартира ще вільна (доступна)?",
+        "en": "Is the apartment still available?",
+        "es": "¿Sigue disponible el apartamento?",
+        "fr": "L'appartement est-il encore disponible ?",
+        "ro": "Mai este disponibil apartamentul?"
+      },
+      "translation": {
+        "uk": "Квартира ще вільна (доступна)?",
+        "en": "Is the apartment still available?",
+        "es": "¿Sigue disponible el apartamento?",
+        "fr": "L'appartement est-il encore disponible ?",
+        "ro": "Mai este disponibil apartamentul?"
+      }
     },
     {
       "italian": "Le spese condominiali sono incluse nel prezzo?",
-      "ukrainian": "Витрати на кондомініум включені в ціну?",
-      "translation": "Витрати на кондомініум включені в ціну?"
+      "ukrainian": {
+        "uk": "Витрати на кондомініум включені в ціну?",
+        "en": "Are the spese condominiali included in the price?",
+        "es": "¿Las spese condominiali están incluidas en el precio?",
+        "fr": "Les spese condominiali sont-elles incluses dans le prix ?",
+        "ro": "Spese condominiali sunt incluse în preț?"
+      },
+      "translation": {
+        "uk": "Витрати на кондомініум включені в ціну?",
+        "en": "Are the spese condominiali included in the price?",
+        "es": "¿Las spese condominiali están incluidas en el precio?",
+        "fr": "Les spese condominiali sont-elles incluses dans le prix ?",
+        "ro": "Spese condominiali sunt incluse în preț?"
+      }
     },
     {
       "italian": "Quando possiamo fissare un appuntamento per vederlo?",
-      "ukrainian": "Коли ми можемо домовитися про зустріч, щоб оглянути її?",
-      "translation": "Коли ми можемо домовитися про зустріч, щоб оглянути її?"
+      "ukrainian": {
+        "uk": "Коли ми можемо домовитися про зустріч, щоб оглянути її?",
+        "en": "When can we make an appointment to see it?",
+        "es": "¿Cuándo podemos fijar una cita para verlo?",
+        "fr": "Quand pouvons-nous fixer un rendez-vous pour le voir ?",
+        "ro": "Când putem stabili o programare ca să-l vedem?"
+      },
+      "translation": {
+        "uk": "Коли ми можемо домовитися про зустріч, щоб оглянути її?",
+        "en": "When can we make an appointment to see it?",
+        "es": "¿Cuándo podemos fijar una cita para verlo?",
+        "fr": "Quand pouvons-nous fixer un rendez-vous pour le voir ?",
+        "ro": "Când putem stabili o programare ca să-l vedem?"
+      }
     }
   ],
   "housingNuances": [
-    "Monolocale — 1-кімнатна квартира (студія). Bilocale — 2-кімнатна (спальня + вітальня з кухнею). Trilocale — 3-кімнатна.",
-    "Spese condominiali — платежі за прибирання під'їзду, ліфт, освітлення та догляд за подвір'ям. Вони частіше виставляються окремо від оренди.",
-    "Caparra / Deposito cauzionale — гарантійна застава, яка зазвичай складає від 2 до 3 місяців оренди і повертається при виїзді.",
-    "Contratto 4+4 o 3+2 — найпопулярніші види довгострокових договорів оренди в Італії."
+    {
+      "uk": "Monolocale — 1-кімнатна квартира (студія). Bilocale — 2-кімнатна (спальня + вітальня з кухнею). Trilocale — 3-кімнатна.",
+      "en": "Monolocale — a 1-room apartment (studio). Bilocale — 2 rooms (bedroom + living room with kitchen). Trilocale — 3 rooms.",
+      "es": "Monolocale — piso de 1 estancia (estudio). Bilocale — 2 estancias (dormitorio + salón con cocina). Trilocale — 3 estancias.",
+      "fr": "Monolocale — appartement d’une pièce (studio). Bilocale — 2 pièces (chambre + salon avec cuisine). Trilocale — 3 pièces.",
+      "ro": "Monolocale — apartament cu 1 cameră (studio). Bilocale — 2 camere (dormitor + living cu bucătărie). Trilocale — 3 camere."
+    },
+    {
+      "uk": "Spese condominiali — платежі за прибирання під'їзду, ліфт, освітлення та догляд за подвір'ям. Вони частіше виставляються окремо від оренди.",
+      "en": "Spese condominiali — charges for cleaning the stairwell, lift, lighting and courtyard upkeep. They are more often billed separately from the rent.",
+      "es": "Spese condominiali — pagos por limpieza del portal, ascensor, luz y cuidado del patio. Suelen facturarse aparte del alquiler.",
+      "fr": "Spese condominiali — charges pour le ménage de l’escalier, l’ascenseur, l’éclairage et l’entretien de la cour. Elles sont plus souvent facturées à part du loyer.",
+      "ro": "Spese condominiali — plăți pentru curățenia scării, lift, iluminat și îngrijirea curții. De cele mai multe ori se facturează separat de chirie."
+    },
+    {
+      "uk": "Caparra / Deposito cauzionale — гарантійна застава, яка зазвичай складає від 2 до 3 місяців оренди і повертається при виїзді.",
+      "en": "Caparra / Deposito cauzionale — a security deposit, usually 2 to 3 months’ rent, returned when you leave.",
+      "es": "Caparra / Deposito cauzionale — fianza de garantía, suele ser de 2 a 3 meses de alquiler y se devuelve al salir.",
+      "fr": "Caparra / Deposito cauzionale — caution, généralement 2 à 3 mois de loyer, rendue au départ.",
+      "ro": "Caparra / Deposito cauzionale — garanție, de obicei 2–3 luni de chirie, restituită la plecare."
+    },
+    {
+      "uk": "Contratto 4+4 o 3+2 — найпопулярніші види довгострокових договорів оренди в Італії.",
+      "en": "Contratto 4+4 or 3+2 — the most common types of long-term rental contracts in Italy.",
+      "es": "Contratto 4+4 o 3+2 — los tipos más habituales de contratos de alquiler de larga duración en Italia.",
+      "fr": "Contratto 4+4 ou 3+2 — les types de baux longue durée les plus courants en Italie.",
+      "ro": "Contratto 4+4 sau 3+2 — cele mai populare tipuri de contracte de închiriere pe termen lung în Italia."
+    }
   ],
   "grammar": {
-    "title": "Уточнення умов через 'Sono inclusi/e...?' та 'Vorrei fissare...'",
+    "title": {
+      "uk": "Уточнення умов через 'Sono inclusi/e...?' та 'Vorrei fissare...'",
+      "en": "Clarifying terms with 'Sono inclusi/e...?' and 'Vorrei fissare...'",
+      "es": "Aclarar condiciones con 'Sono inclusi/e...?' y 'Vorrei fissare...'",
+      "fr": "Préciser les conditions avec « Sono inclusi/e...? » et « Vorrei fissare... »",
+      "ro": "Precizarea condițiilor cu «Sono inclusi/e...?» și «Vorrei fissare...»"
+    },
     "rules": [
       {
-        "rule": "Запитання про включені послуги: 'Sono inclusi/e...?' (Чи включені...?).",
+        "rule": {
+          "uk": "Запитання про включені послуги: 'Sono inclusi/e...?' (Чи включені...?).",
+          "en": "Asking about included services: 'Sono inclusi/e...?' (Are ... included?).",
+          "es": "Pregunta sobre servicios incluidos: 'Sono inclusi/e...?' (¿Están incluidos...?).",
+          "fr": "Question sur les services inclus : « Sono inclusi/e...? » (Est-ce inclus... ?).",
+          "ro": "Întrebare despre servicii incluse: «Sono inclusi/e...?» (Sunt incluse...?)."
+        },
         "examples": [
           {
             "italian": "I consumi di acqua e gas sono inclusi?",
-            "ukrainian": "Витрати на воду і газ входять?"
+            "ukrainian": {
+              "uk": "Витрати на воду і газ входять?",
+              "en": "Are water and gas consumption included?",
+              "es": "¿Los consumos de agua y gas están incluidos?",
+              "fr": "Les consommations d'eau et de gaz sont-elles incluses ?",
+              "ro": "Consumul de apă și gaz este inclus?"
+            },
+            "translation": {
+              "uk": "Витрати на воду і газ входять?",
+              "en": "Are water and gas consumption included?",
+              "es": "¿Los consumos de agua y gas están incluidos?",
+              "fr": "Les consommations d'eau et de gaz sont-elles incluses ?",
+              "ro": "Consumul de apă și gaz este inclus?"
+            }
           },
           {
             "italian": "Le spese condominiali sono escluse.",
-            "ukrainian": "Витрати кондомініуму не входять."
+            "ukrainian": {
+              "uk": "Витрати кондомініуму не входять.",
+              "en": "The spese condominiali are excluded.",
+              "es": "Las spese condominiali están excluidas.",
+              "fr": "Les spese condominiali sont exclues.",
+              "ro": "Spese condominiali sunt excluse."
+            },
+            "translation": {
+              "uk": "Витрати кондомініуму не входять.",
+              "en": "The spese condominiali are excluded.",
+              "es": "Las spese condominiali están excluidas.",
+              "fr": "Les spese condominiali sont exclues.",
+              "ro": "Spese condominiali sunt excluse."
+            }
           }
         ]
       },
       {
-        "rule": "Домовленість про час: 'Fissare un appuntamento' (Призначити зустріч).",
+        "rule": {
+          "uk": "Домовленість про час: 'Fissare un appuntamento' (Призначити зустріч).",
+          "en": "Agreeing a time: 'Fissare un appuntamento' (To make an appointment).",
+          "es": "Acordar hora: 'Fissare un appuntamento' (Fijar una cita).",
+          "fr": "Fixer l’heure : « Fissare un appuntamento » (Prendre rendez-vous).",
+          "ro": "Stabilirea orei: «Fissare un appuntamento» (A programa o întâlnire)."
+        },
         "examples": [
           {
             "italian": "Vorrei fissare una visita.",
-            "ukrainian": "Я хотів би призначити огляд."
+            "ukrainian": {
+              "uk": "Я хотів би призначити огляд.",
+              "en": "I would like to arrange a viewing.",
+              "es": "Quisiera fijar una visita.",
+              "fr": "Je voudrais fixer une visite.",
+              "ro": "Aș dori să stabilesc o vizionare."
+            },
+            "translation": {
+              "uk": "Я хотів би призначити огляд.",
+              "en": "I would like to arrange a viewing.",
+              "es": "Quisiera fijar una visita.",
+              "fr": "Je voudrais fixer une visite.",
+              "ro": "Aș dori să stabilesc o vizionare."
+            }
           },
           {
             "italian": "Posso venire a vedere la casa domani?",
-            "ukrainian": "Можу прийти подивитися квартиру завтра?"
+            "ukrainian": {
+              "uk": "Можу прийти подивитися квартиру завтра?",
+              "en": "Can I come to see the house tomorrow?",
+              "es": "¿Puedo venir a ver la casa mañana?",
+              "fr": "Puis-je venir voir le logement demain ?",
+              "ro": "Pot veni să văd casa mâine?"
+            },
+            "translation": {
+              "uk": "Можу прийти подивитися квартиру завтра?",
+              "en": "Can I come to see the house tomorrow?",
+              "es": "¿Puedo venir a ver la casa mañana?",
+              "fr": "Puis-je venir voir le logement demain ?",
+              "ro": "Pot veni să văd casa mâine?"
+            }
           }
         ]
       }
     ]
   },
-  "culturaTip": "В Італії орендодавці майже завжди запитують 'busta paga' (довідку про доходи/зарплату) або гаранта перед підписанням договору, щоб переконатися у вашій платоспроможності."
+  "culturaTip": {
+    "uk": "В Італії орендодавці майже завжди запитують 'busta paga' (довідку про доходи/зарплату) або гаранта перед підписанням договору, щоб переконатися у вашій платоспроможності.",
+    "en": "In Italy landlords almost always ask for a 'busta paga' (payslip / income proof) or a guarantor before signing, to check you can pay.",
+    "es": "En Italia los caseros casi siempre piden 'busta paga' (nómina/justificante de ingresos) o un fiador antes de firmar, para comprobar tu solvencia.",
+    "fr": "En Italie les propriétaires demandent presque toujours une « busta paga » (fiche de paie) ou un garant avant de signer, pour vérifier votre solvabilité.",
+    "ro": "În Italia proprietarii cer aproape mereu «busta paga» (fluturaș/dovadă de venit) sau un garant înainte de semnare, ca să se asigure că puteți plăti."
+  }
 }

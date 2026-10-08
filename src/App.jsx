@@ -4,10 +4,27 @@ import ArcLessonScreen from './screens/ArcLessonScreen.jsx'
 import ReviewScreen from './screens/ReviewScreen.jsx'
 import Header from './components/Header.jsx'
 import { getLesson, OPEN_DAYS } from './data/lessons.js'
-import { uniqueDays, TOTAL_DAYS } from './progress.js'
+import { isDayUnlocked, uniqueDays, TOTAL_DAYS } from './progress.js'
+import { loadState } from './storage.js'
 import { useChallengeProgress } from './hooks/useChallengeProgress.js'
 import { useI18n } from './i18n.js'
 import './components/Progress.css'
+
+function restoreUiScreen() {
+  const saved = loadState()
+  const raw = saved.uiScreen || 'home'
+  if (raw === 'home' || raw === 'review') return raw
+  const match = /^day(\d+)$/.exec(raw)
+  if (!match) return 'home'
+  const day = Number(match[1])
+  if (
+    getLesson(day) &&
+    isDayUnlocked(day, saved.completedDays, saved.unlockedDays)
+  ) {
+    return raw
+  }
+  return 'home'
+}
 
 function Toast({ toast }) {
   if (!toast) return null
@@ -19,7 +36,6 @@ function Toast({ toast }) {
 }
 
 export default function App() {
-  const [screen, setScreen] = useState('home')
   const { t } = useI18n()
   const progress = useChallengeProgress()
   const {
@@ -33,9 +49,15 @@ export default function App() {
     exportBackup,
     importBackup,
   } = progress
+  const [screen, setScreen] = useState(restoreUiScreen)
+
+  function goTo(next) {
+    setScreen(next)
+    persist((prev) => ({ ...prev, uiScreen: next }))
+  }
 
   function goHome() {
-    setScreen('home')
+    goTo('home')
   }
 
   function openDay(day) {
@@ -43,7 +65,12 @@ export default function App() {
       progress.showToast(t('lockedDay'))
       return
     }
-    persist((prev) => ({ ...prev, started: true, currentDay: day }))
+    persist((prev) => ({
+      ...prev,
+      started: true,
+      currentDay: day,
+      uiScreen: `day${day}`,
+    }))
     setScreen(`day${day}`)
   }
 
@@ -60,13 +87,14 @@ export default function App() {
 
   function startUnlockedDay(nextDay) {
     if (!nextDay || nextDay > TOTAL_DAYS) {
-      setScreen('home')
+      goTo('home')
       return
     }
     persist((prev) => ({
       ...prev,
       started: true,
       currentDay: nextDay,
+      uiScreen: `day${nextDay}`,
       unlockedDays: uniqueDays([...(prev.unlockedDays ?? [1]), nextDay]),
     }))
     setScreen(`day${nextDay}`)
@@ -79,7 +107,7 @@ export default function App() {
       onOpenDay={openDay}
       isUnlocked={isUnlocked}
       onLockedDay={() => progress.showToast(t('lockedDay'))}
-      onOpenReview={() => setScreen('review')}
+      onOpenReview={() => goTo('review')}
       onExport={exportBackup}
       onImportFile={importBackup}
     />
