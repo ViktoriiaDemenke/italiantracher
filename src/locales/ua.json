@@ -47,6 +47,15 @@
   "overallProgress": "Загальний прогрес",
   "themeLight": "Light",
   "themeDark": "Dark",
+  "reminders": {
+    "toggle": "Нагадування про урок",
+    "time": "Час нагадування",
+    "title": "Italian Tracker",
+    "body": "Час для сьогоднішнього уроку італійської.",
+    "on": "Нагадування увімкнено",
+    "off": "Нагадування вимкнено",
+    "denied": "Доступ до сповіщень відхилено"
+  },
   "lang": "Мова",
   "cycleNav": "Цикл модуля",
   "superQuest": "Super Quest",

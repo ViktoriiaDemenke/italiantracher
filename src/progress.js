@@ -12,6 +12,10 @@ export const DEFAULT_STATE = {
   lastActivityDate: null,
   uiScreen: 'home',
   isPremium: false,
+  remindersEnabled: false,
+  reminderHour: 19,
+  reminderMinute: 0,
+  notificationsAsked: false,
 }
 
 export const FREE_DAYS_MAX = 3

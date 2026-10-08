@@ -24,6 +24,9 @@
       "overlaysWebView": true,
       "style": "LIGHT",
       "backgroundColor": "#12181F"
+    },
+    "LocalNotifications": {
+      "iconColor": "#F59E0B"
     }
   }
 }

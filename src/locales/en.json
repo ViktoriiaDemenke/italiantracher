@@ -47,6 +47,15 @@
   "overallProgress": "Overall progress",
   "themeLight": "Light",
   "themeDark": "Dark",
+  "reminders": {
+    "toggle": "Lesson reminder",
+    "time": "Reminder time",
+    "title": "Italian Tracker",
+    "body": "Time for today’s Italian lesson.",
+    "on": "Reminders are on",
+    "off": "Reminders are off",
+    "denied": "Notification permission was denied"
+  },
   "lang": "Language",
   "cycleNav": "Module cycle",
   "superQuest": "Super Quest",

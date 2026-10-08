@@ -47,6 +47,15 @@
   "overallProgress": "Progreso general",
   "themeLight": "Light",
   "themeDark": "Dark",
+  "reminders": {
+    "toggle": "Recordatorio de lección",
+    "time": "Hora del recordatorio",
+    "title": "Italian Tracker",
+    "body": "Es hora de la lección de italiano de hoy.",
+    "on": "Recordatorios activados",
+    "off": "Recordatorios desactivados",
+    "denied": "Se denegó el permiso de notificaciones"
+  },
   "lang": "Idioma",
   "cycleNav": "Ciclo del módulo",
   "superQuest": "Super Quest",

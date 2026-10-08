@@ -1,7 +1,14 @@
 import { LOCALES, useI18n } from '../i18n.js'
+import { formatReminderTime } from '../notifications.js'
 import './Header.css'
 
-export default function Header() {
+export default function Header({
+  remindersEnabled,
+  reminderHour,
+  reminderMinute,
+  onToggleReminders,
+  onReminderTimeChange,
+}) {
   const { locale, setLocale, theme, setTheme, t } = useI18n()
 
   return (
@@ -29,6 +36,23 @@ export default function Header() {
         >
           {theme === 'light' ? t('themeDark') : t('themeLight')}
         </button>
+        <label className="reminder-toggle">
+          <input
+            type="checkbox"
+            checked={Boolean(remindersEnabled)}
+            onChange={(event) => onToggleReminders?.(event.target.checked)}
+          />
+          <span>{t('reminders.toggle')}</span>
+        </label>
+        <label className="reminder-time">
+          <input
+            type="time"
+            aria-label={t('reminders.time')}
+            value={formatReminderTime(reminderHour ?? 19, reminderMinute ?? 0)}
+            disabled={!remindersEnabled}
+            onChange={(event) => onReminderTimeChange?.(event.target.value)}
+          />
+        </label>
       </div>
     </header>
   )

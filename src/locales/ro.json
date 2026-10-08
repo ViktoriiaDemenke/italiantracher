@@ -47,6 +47,15 @@
   "overallProgress": "Progres general",
   "themeLight": "Light",
   "themeDark": "Dark",
+  "reminders": {
+    "toggle": "Memento lecție",
+    "time": "Ora memento-ului",
+    "title": "Italian Tracker",
+    "body": "E timpul pentru lecția de italiană de azi.",
+    "on": "Memento-urile sunt pornite",
+    "off": "Memento-urile sunt oprite",
+    "denied": "Permisiunea pentru notificări a fost refuzată"
+  },
   "lang": "Limbă",
   "cycleNav": "Ciclul modulului",
   "superQuest": "Super Quest",

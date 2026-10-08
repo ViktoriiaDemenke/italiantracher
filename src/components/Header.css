@@ -47,6 +47,31 @@
   min-height: 2.25rem;
 }
 
+.reminder-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  min-height: 2.25rem;
+  color: var(--muted);
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.reminder-toggle input {
+  accent-color: var(--primary);
+}
+
+.reminder-time input {
+  min-height: 2.25rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-pill);
+  background: var(--card);
+  color: var(--text);
+  font: inherit;
+  font-size: 0.8rem;
+  padding: 0.2rem 0.55rem;
+}
+
 .cycle-nav__btn {
   display: flex;
   align-items: center;

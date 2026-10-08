@@ -1,4 +1,5 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
+import { Capacitor } from '@capacitor/core'
 import HomeScreen from './screens/HomeScreen.jsx'
 import ArcLessonScreen from './screens/ArcLessonScreen.jsx'
 import ReviewScreen from './screens/ReviewScreen.jsx'
@@ -15,6 +16,13 @@ import {
 import { loadState } from './storage.js'
 import { useChallengeProgress } from './hooks/useChallengeProgress.js'
 import { useI18n } from './i18n.js'
+import {
+  DEFAULT_REMINDER_HOUR,
+  DEFAULT_REMINDER_MINUTE,
+  parseReminderTime,
+  requestNotificationPermission,
+  syncLessonReminder,
+} from './notifications.js'
 import './components/Progress.css'
 
 function restoreUiScreen() {
@@ -46,7 +54,7 @@ function Toast({ toast }) {
 }
 
 export default function App() {
-  const { t } = useI18n()
+  const { t, locale } = useI18n()
   const progress = useChallengeProgress()
   const {
     state,
@@ -63,6 +71,89 @@ export default function App() {
     restoreAccess,
   } = progress
   const [screen, setScreen] = useState(restoreUiScreen)
+
+  const reminderHour = state.reminderHour ?? DEFAULT_REMINDER_HOUR
+  const reminderMinute = state.reminderMinute ?? DEFAULT_REMINDER_MINUTE
+  const reminderCopy = {
+    title: t('reminders.title'),
+    body: t('reminders.body'),
+  }
+
+  useEffect(() => {
+    let cancelled = false
+    ;(async () => {
+      if (!state.notificationsAsked) {
+        if (!Capacitor.isNativePlatform()) return
+        const granted = await requestNotificationPermission()
+        if (cancelled) return
+        persist((prev) => ({
+          ...prev,
+          notificationsAsked: true,
+          remindersEnabled: granted,
+        }))
+        if (granted) {
+          await syncLessonReminder(
+            true,
+            reminderHour,
+            reminderMinute,
+            reminderCopy,
+          )
+        }
+        return
+      }
+      await syncLessonReminder(
+        Boolean(state.remindersEnabled),
+        reminderHour,
+        reminderMinute,
+        reminderCopy,
+      )
+    })()
+    return () => {
+      cancelled = true
+    }
+  }, [
+    locale,
+    persist,
+    reminderHour,
+    reminderMinute,
+    state.notificationsAsked,
+    state.remindersEnabled,
+    t,
+  ])
+
+  async function handleToggleReminders(nextEnabled) {
+    if (nextEnabled) {
+      const granted = await requestNotificationPermission()
+      if (!granted) {
+        persist((prev) => ({
+          ...prev,
+          notificationsAsked: true,
+          remindersEnabled: false,
+        }))
+        progress.showToast(t('reminders.denied'))
+        return
+      }
+    }
+    persist((prev) => ({
+      ...prev,
+      notificationsAsked: true,
+      remindersEnabled: nextEnabled,
+    }))
+    await syncLessonReminder(nextEnabled, reminderHour, reminderMinute, reminderCopy)
+    progress.showToast(nextEnabled ? t('reminders.on') : t('reminders.off'))
+  }
+
+  async function handleReminderTimeChange(value) {
+    const next = parseReminderTime(value)
+    persist((prev) => ({
+      ...prev,
+      reminderHour: next.hour,
+      reminderMinute: next.minute,
+    }))
+    if (state.remindersEnabled) {
+      await syncLessonReminder(true, next.hour, next.minute, reminderCopy)
+    }
+  }
 
   function goTo(next) {
     setScreen(next)
@@ -192,7 +283,13 @@ export default function App() {
 
   return (
     <>
-      <Header />
+      <Header
+        remindersEnabled={Boolean(state.remindersEnabled)}
+        reminderHour={reminderHour}
+        reminderMinute={reminderMinute}
+        onToggleReminders={handleToggleReminders}
+        onReminderTimeChange={handleReminderTimeChange}
+      />
       {body}
       <Toast toast={toast} />
     </>
