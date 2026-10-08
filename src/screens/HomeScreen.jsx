@@ -14,6 +14,7 @@ export default function HomeScreen({
   isUnlocked,
   onLockedDay,
   onOpenReview,
+  onOpenPaywall,
   onExport,
   onImportFile,
 }) {
@@ -42,6 +43,11 @@ export default function HomeScreen({
           <button className="chip-btn" type="button" onClick={onOpenReview}>
             {t('review')}
           </button>
+          {!state.isPremium ? (
+            <button className="chip-btn" type="button" onClick={onOpenPaywall}>
+              {t('paywall.badge')}
+            </button>
+          ) : null}
           <button className="chip-btn" type="button" onClick={onExport}>
             {t('export')}
           </button>
@@ -77,6 +83,7 @@ export default function HomeScreen({
         completedDays={state.completedDays}
         unlockedDays={state.unlockedDays}
         currentDay={state.currentDay}
+        isPremium={Boolean(state.isPremium)}
         onOpenDay={onOpenDay}
         onLockedDay={onLockedDay}
       />

@@ -14,12 +14,19 @@ import {
   rememberQuizError,
   saveState,
 } from '../storage.js'
+import {
+  getPremiumEntitlement,
+  initPurchases,
+  purchasePremium,
+  restorePremium,
+} from '../billing/purchases.js'
 import { useI18n } from '../i18n.js'
 
 export function useChallengeProgress() {
   const { t } = useI18n()
   const [state, setState] = useState(loadState)
   const [toast, setToast] = useState(null)
+  const [billingBusy, setBillingBusy] = useState(false)
   const toastTimer = useRef(null)
 
   useEffect(() => {
@@ -38,6 +45,14 @@ export function useChallengeProgress() {
     toastTimer.current = window.setTimeout(() => setToast(null), 2400)
   }, [])
 
+  const persist = useCallback((next) => {
+    setState((prev) => {
+      const value = typeof next === 'function' ? next(prev) : next
+      saveState(value)
+      return value
+    })
+  }, [])
+
   useEffect(() => {
     function onVoiceToast() {
       showToast(t('voiceUnavailable'))
@@ -46,13 +61,22 @@ export function useChallengeProgress() {
     return () => window.removeEventListener('italian-tracker:toast', onVoiceToast)
   }, [showToast, t])
 
-  const persist = useCallback((next) => {
-    setState((prev) => {
-      const value = typeof next === 'function' ? next(prev) : next
-      saveState(value)
-      return value
-    })
-  }, [])
+  useEffect(() => {
+    let cancelled = false
+    ;(async () => {
+      try {
+        await initPurchases()
+        const premium = await getPremiumEntitlement()
+        if (cancelled || !premium) return
+        persist((prev) => (prev.isPremium ? prev : { ...prev, isPremium: true }))
+      } catch {
+        /* Store keys may be empty during web/dev setup */
+      }
+    })()
+    return () => {
+      cancelled = true
+    }
+  }, [persist])
 
   const completeDay = useCallback(
     (day) => {
@@ -100,6 +124,55 @@ export function useChallengeProgress() {
     [persist, showToast, t],
   )
 
+  const setPremium = useCallback(
+    (value) => persist((prev) => ({ ...prev, isPremium: Boolean(value) })),
+    [persist],
+  )
+
+  const buyPremium = useCallback(async () => {
+    setBillingBusy(true)
+    try {
+      const ok = await purchasePremium()
+      if (ok) {
+        setPremium(true)
+        return true
+      }
+      showToast(t('paywall.purchaseFailed'))
+      return false
+    } catch (error) {
+      const key =
+        error?.code === 'STORE_UNAVAILABLE'
+          ? 'paywall.storeUnavailable'
+          : 'paywall.purchaseFailed'
+      showToast(t(key))
+      return false
+    } finally {
+      setBillingBusy(false)
+    }
+  }, [setPremium, showToast, t])
+
+  const restoreAccess = useCallback(async () => {
+    setBillingBusy(true)
+    try {
+      const ok = await restorePremium()
+      if (ok) {
+        setPremium(true)
+        return true
+      }
+      showToast(t('paywall.restoreEmpty'))
+      return false
+    } catch (error) {
+      const key =
+        error?.code === 'STORE_UNAVAILABLE'
+          ? 'paywall.storeUnavailable'
+          : 'paywall.purchaseFailed'
+      showToast(t(key))
+      return false
+    } finally {
+      setBillingBusy(false)
+    }
+  }, [setPremium, showToast, t])
+
   return {
     state,
     persist,
@@ -115,6 +188,10 @@ export function useChallengeProgress() {
     gradeReview,
     exportBackup,
     importBackup,
+    billingBusy,
+    buyPremium,
+    restoreAccess,
+    setPremium,
     dismissToast: () => setToast(null),
   }
 }

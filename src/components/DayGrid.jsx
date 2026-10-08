@@ -1,4 +1,9 @@
-import { isDayCompleted, isDayUnlocked, TOTAL_DAYS } from '../progress.js'
+import {
+  isDayCompleted,
+  isDayUnlocked,
+  needsPremium,
+  TOTAL_DAYS,
+} from '../progress.js'
 import { useI18n } from '../i18n.js'
 import './Progress.css'
 
@@ -6,6 +11,7 @@ export default function DayGrid({
   completedDays,
   unlockedDays,
   currentDay,
+  isPremium,
   onOpenDay,
   onLockedDay,
 }) {
@@ -23,12 +29,13 @@ export default function DayGrid({
         {days.map((day) => {
           const done = isDayCompleted(day, completedDays)
           const unlocked = isDayUnlocked(day, completedDays, unlockedDays)
-          const active = currentDay === day && unlocked && !done
+          const premiumGate = unlocked && needsPremium(day) && !isPremium
+          const active = currentDay === day && unlocked && !done && !premiumGate
           const className = [
             'day-tile',
             done ? 'day-tile--done' : '',
             active ? 'day-tile--active' : '',
-            !unlocked ? 'day-tile--locked' : '',
+            !unlocked || premiumGate ? 'day-tile--locked' : '',
           ]
             .filter(Boolean)
             .join(' ')
@@ -42,9 +49,11 @@ export default function DayGrid({
                 aria-label={
                   done
                     ? t('dayDone', { day })
-                    : unlocked
-                      ? t('dayN', { day })
-                      : t('dayLocked', { day })
+                    : premiumGate
+                      ? t('paywallLocked')
+                      : unlocked
+                        ? t('dayN', { day })
+                        : t('dayLocked', { day })
                 }
                 onClick={() => {
                   if (!unlocked) {
@@ -59,7 +68,7 @@ export default function DayGrid({
                     ✓
                   </span>
                 ) : null}
-                {!unlocked ? (
+                {!unlocked || premiumGate ? (
                   <span className="day-tile__mark" aria-hidden="true">
                     🔒
                   </span>

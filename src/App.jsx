@@ -2,9 +2,16 @@ import { useState } from 'react'
 import HomeScreen from './screens/HomeScreen.jsx'
 import ArcLessonScreen from './screens/ArcLessonScreen.jsx'
 import ReviewScreen from './screens/ReviewScreen.jsx'
+import PaywallScreen from './screens/PaywallScreen.jsx'
 import Header from './components/Header.jsx'
 import { getLesson, OPEN_DAYS } from './data/lessons.js'
-import { isDayUnlocked, uniqueDays, TOTAL_DAYS } from './progress.js'
+import {
+  canAccessDay,
+  isDayUnlocked,
+  uniqueDays,
+  TOTAL_DAYS,
+  needsPremium,
+} from './progress.js'
 import { loadState } from './storage.js'
 import { useChallengeProgress } from './hooks/useChallengeProgress.js'
 import { useI18n } from './i18n.js'
@@ -13,15 +20,18 @@ import './components/Progress.css'
 function restoreUiScreen() {
   const saved = loadState()
   const raw = saved.uiScreen || 'home'
-  if (raw === 'home' || raw === 'review') return raw
+  if (raw === 'home' || raw === 'review' || raw === 'paywall') return raw
   const match = /^day(\d+)$/.exec(raw)
   if (!match) return 'home'
   const day = Number(match[1])
+  if (getLesson(day) && canAccessDay(day, saved)) return raw
   if (
     getLesson(day) &&
-    isDayUnlocked(day, saved.completedDays, saved.unlockedDays)
+    isDayUnlocked(day, saved.completedDays, saved.unlockedDays) &&
+    needsPremium(day) &&
+    !saved.isPremium
   ) {
-    return raw
+    return 'paywall'
   }
   return 'home'
 }
@@ -48,6 +58,9 @@ export default function App() {
     gradeReview,
     exportBackup,
     importBackup,
+    billingBusy,
+    buyPremium,
+    restoreAccess,
   } = progress
   const [screen, setScreen] = useState(restoreUiScreen)
 
@@ -63,6 +76,16 @@ export default function App() {
   function openDay(day) {
     if (!isUnlocked(day)) {
       progress.showToast(t('lockedDay'))
+      return
+    }
+    if (needsPremium(day) && !state.isPremium) {
+      persist((prev) => ({
+        ...prev,
+        started: true,
+        currentDay: day,
+        uiScreen: 'paywall',
+      }))
+      setScreen('paywall')
       return
     }
     persist((prev) => ({
@@ -94,10 +117,26 @@ export default function App() {
       ...prev,
       started: true,
       currentDay: nextDay,
-      uiScreen: `day${nextDay}`,
       unlockedDays: uniqueDays([...(prev.unlockedDays ?? [1]), nextDay]),
     }))
-    setScreen(`day${nextDay}`)
+    openDay(nextDay)
+  }
+
+  function enterDayAfterUnlock(day) {
+    const target = needsPremium(day) ? day : 4
+    persist((prev) => ({
+      ...prev,
+      isPremium: true,
+      started: true,
+      currentDay: target,
+      uiScreen: `day${target}`,
+    }))
+    setScreen(`day${target}`)
+  }
+
+  async function handlePurchase() {
+    const ok = await buyPremium()
+    if (ok) enterDayAfterUnlock(state.currentDay)
   }
 
   let body = (
@@ -108,6 +147,7 @@ export default function App() {
       isUnlocked={isUnlocked}
       onLockedDay={() => progress.showToast(t('lockedDay'))}
       onOpenReview={() => goTo('review')}
+      onOpenPaywall={() => goTo('paywall')}
       onExport={exportBackup}
       onImportFile={importBackup}
     />
@@ -115,12 +155,23 @@ export default function App() {
 
   if (screen === 'review') {
     body = <ReviewScreen state={state} onGrade={gradeReview} onBack={goHome} />
+  } else if (screen === 'paywall') {
+    body = (
+      <PaywallScreen
+        isPremium={Boolean(state.isPremium)}
+        busy={billingBusy}
+        onPurchase={handlePurchase}
+        onRestore={restoreAccess}
+        onDevUnlock={() => enterDayAfterUnlock(state.currentDay)}
+        onBack={goHome}
+      />
+    )
   } else {
     const dayMatch = /^day(\d+)$/.exec(screen)
     if (dayMatch) {
       const day = Number(dayMatch[1])
       const lesson = getLesson(day)
-      if (lesson && isUnlocked(day)) {
+      if (lesson && canAccessDay(day, state)) {
         body = (
           <ArcLessonScreen
             key={day}

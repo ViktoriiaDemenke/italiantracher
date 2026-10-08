@@ -11,6 +11,19 @@ export const DEFAULT_STATE = {
   streak: 0,
   lastActivityDate: null,
   uiScreen: 'home',
+  isPremium: false,
+}
+
+export const FREE_DAYS_MAX = 3
+
+export function needsPremium(day) {
+  return Number(day) > FREE_DAYS_MAX
+}
+
+export function canAccessDay(day, state) {
+  if (!isDayUnlocked(day, state.completedDays, state.unlockedDays)) return false
+  if (!needsPremium(day)) return true
+  return Boolean(state.isPremium)
 }
 
 export function todayISO(date = new Date()) {
