@@ -1,0 +1,29 @@
+{
+  "appId": "com.italiantracker.app",
+  "appName": "Italian Tracker",
+  "webDir": "dist",
+  "backgroundColor": "#12181F",
+  "ios": {
+    "contentInset": "automatic",
+    "preferredContentMode": "mobile",
+    "backgroundColor": "#12181F",
+    "scheme": "Italian Tracker"
+  },
+  "android": {
+    "backgroundColor": "#12181F"
+  },
+  "plugins": {
+    "SplashScreen": {
+      "launchAutoHide": true,
+      "backgroundColor": "#12181F",
+      "showSpinner": false,
+      "androidSplashResourceName": "splash",
+      "androidScaleType": "CENTER_CROP"
+    },
+    "StatusBar": {
+      "overlaysWebView": true,
+      "style": "LIGHT",
+      "backgroundColor": "#12181F"
+    }
+  }
+}

@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Italian Tracker</string>
+    <string name="title_activity_main">Italian Tracker</string>
+    <string name="package_name">com.italiantracker.app</string>
+    <string name="custom_url_scheme">com.italiantracker.app</string>
+</resources>
