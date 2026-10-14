@@ -11,15 +11,15 @@
   "type": {
     "uk": "Симуляція бос-рівня",
     "en": "Boss Level Simulation",
-    "es": "Simulación de nivel jefe",
-    "fr": "Simulation Boss Level",
-    "ro": "Simulare nivel boss"
+    "es": "Simulación del nivel Boss",
+    "fr": "Simulation du niveau Boss",
+    "ro": "Simulare a nivelului Boss"
   },
   "story": {
     "uk": "Фінальний іспит модуля! Ви самостійно купуєте квитки, орієнтуєтеся на вокзалі, перевіряєте колію та спілкуєтеся з контролером. Підказки та переклад вимкнено!",
-    "en": "Final exam of the module! You buy tickets yourself, find your way at the station, check the platform and talk to the inspector. Hints and translation are off!",
-    "es": "¡Examen final del módulo! Compras billetes por tu cuenta, te orientas en la estación, compruebas la vía y hablas con el revisor. ¡Pistas y traducción desactivadas!",
-    "fr": "Examen final du module ! Vous achetez les tickets seul, vous vous orientez en gare, vérifiez la voie et parlez au contrôleur. Indices et traduction désactivés !",
+    "en": "Final exam of the module! You buy tickets yourself, find your way at the station, check the platform and talk to the inspector. Hints and translations are off!",
+    "es": "¡Examen final del módulo! Compras billetes por tu cuenta, te orientas en la estación, compruebas la vía y hablas con el revisor. ¡Las pistas y la traducción están desactivadas!",
+    "fr": "Examen final du module ! Vous achetez les tickets seul, vous vous orientez en gare, vérifiez la voie et parlez au contrôleur. Les indices et la traduction sont désactivés !",
     "ro": "Examenul final al modulului! Cumperi bilete singur, te orientezi în gară, verifici linia și vorbești cu controlorul. Indiciile și traducerea sunt dezactivate!"
   },
   "questions": [

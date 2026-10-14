@@ -1,0 +1,4883 @@
+{
+  "generated": "2026-10-08",
+  "days": [
+    {
+      "day": 1,
+      "module": "",
+      "title_uk": "Anagrafe: Реєстрація та документи",
+      "items": [
+        {
+          "kind": "contesto",
+          "it": "",
+          "uk": "Марко нещодавно переїхав до Тревізо. Сьогодні вранці він іде в Comune, в Ufficio Anagrafe, щоб подати dichiarazione di residenza. Біля входу стоїть totem: треба вибрати правильну категорію, взяти biglietto і чекати номер на tabellone. У папці в нього codice fiscale, permesso di soggiorno, contratto d'affitto і marca da bollo da 16€.",
+          "note": ""
+        },
+        {
+          "kind": "documento",
+          "it": "codice fiscale",
+          "uk": "Податковий код. Без нього заяву на residenza зазвичай не закривають.",
+          "note": ""
+        },
+        {
+          "kind": "documento",
+          "it": "permesso di soggiorno",
+          "uk": "Дозвіл на перебування в оригіналі, не лише фото на телефоні.",
+          "note": ""
+        },
+        {
+          "kind": "documento",
+          "it": "contratto d'affitto",
+          "uk": "Договір оренди з адресою в Тревізо, яку Марко хоче заявити.",
+          "note": ""
+        },
+        {
+          "kind": "documento",
+          "it": "marca da bollo 16€",
+          "uk": "Марка на 16 євро для заяви. Її часто купують у tabaccheria перед візитом.",
+          "note": ""
+        },
+        {
+          "kind": "frase",
+          "it": "Buongiorno, vorrei fare la richiesta di residenza.",
+          "uk": "Доброго дня, я хотів би подати заяву на резиденцію.",
+          "note": ""
+        },
+        {
+          "kind": "frase",
+          "it": "Dove posso prendere il biglietto?",
+          "uk": "Де я можу взяти талончик?",
+          "note": ""
+        },
+        {
+          "kind": "frase",
+          "it": "Devo selezionare Anagrafe sul totem?",
+          "uk": "Мені потрібно вибрати Anagrafe на тотемі?",
+          "note": ""
+        },
+        {
+          "kind": "frase",
+          "it": "Qual è la categoria per la dichiarazione di residenza?",
+          "uk": "Яка категорія потрібна для декларації про місце проживання?",
+          "note": ""
+        },
+        {
+          "kind": "frase",
+          "it": "Ho il codice fiscale e il permesso di soggiorno.",
+          "uk": "У мене є код фіскале і дозвіл на перебування.",
+          "note": ""
+        },
+        {
+          "kind": "frase",
+          "it": "Ecco il contratto d'affitto.",
+          "uk": "Ось договір оренди.",
+          "note": ""
+        },
+        {
+          "kind": "frase",
+          "it": "Serve anche la marca da bollo da sedici euro?",
+          "uk": "Чи потрібна також марка на шістнадцять євро?",
+          "note": ""
+        },
+        {
+          "kind": "frase",
+          "it": "Il mio numero è uscito sul tabellone.",
+          "uk": "Мій номер з'явився на табло.",
+          "note": ""
+        },
+        {
+          "kind": "cultura",
+          "it": "",
+          "uk": "У Comune di Treviso, як і в більшості комун, черга йде через totem. Для dichiarazione di residenza беріть категорію Anagrafe, не Carta d'identità. Говоріть на Lei, вітайтеся Buongiorno. Документи тримайте готовими: codice fiscale, permesso, contratto d'affitto, marca da bollo 16€.",
+          "note": ""
+        },
+        {
+          "kind": "npc",
+          "it": "Buongiorno. Per l'Anagrafe il biglietto si prende al totem, lì a sinistra.",
+          "uk": "Доброго дня. Для Anagrafe талончик беруть на тотемі, он там ліворуч.",
+          "note": "speaker: Addetto all'ingresso"
+        },
+        {
+          "kind": "opzione/natural",
+          "it": "Buongiorno, grazie. Devo selezionare Anagrafe per la residenza?",
+          "uk": "Доброго дня, дякую. Мені потрібно вибрати Anagrafe для резиденції?",
+          "note": "feedback UK: Доброго дня, дякую. Мені потрібно вибрати Anagrafe для резиденції? | natural"
+        },
+        {
+          "kind": "opzione/wrong",
+          "it": "Ciao, dammi il numero, ho fretta.",
+          "uk": "Привіт, дай мені номер, я поспішаю.",
+          "note": "feedback UK: Привіт, дай мені номер, я поспішаю. | wrong"
+        },
+        {
+          "kind": "opzione/bookish",
+          "it": "La prego di voler cortesemente indicarmi la procedura telematica di emissione del titolo di coda.",
+          "uk": "Прошу ласкаво вказати мені електронну процедуру видачі талона черги.",
+          "note": "feedback UK: Прошу ласкаво вказати мені електронну процедуру видачі талона черги. | bookish"
+        },
+        {
+          "kind": "npc",
+          "it": "Selezionare: 1 Carta d'identità  2 Anagrafe / residenza  3 Stato civile  4 Pagamenti",
+          "uk": "Обрати: 1 Посвідчення особи  2 Anagrafe / резиденція  3 Цивільний стан  4 Платежі",
+          "note": "speaker: Totem"
+        },
+        {
+          "kind": "opzione/bookish",
+          "it": "Intendo avvalermi dell'opzione inerente all'anagrafe demografica comunale.",
+          "uk": "Маю намір скористатися опцією, що стосується муніципальної анаграфічної служби.",
+          "note": "feedback UK: Маю намір скористатися опцією, що стосується муніципальної анаграфічної служби. | bookish"
+        },
+        {
+          "kind": "opzione/natural",
+          "it": "Scelgo la voce Anagrafe / residenza. Poi aspetto il numero sul tabellone.",
+          "uk": "Обираю Anagrafe / residenza. Потім чекаю номер на табло.",
+          "note": "feedback UK: Обираю Anagrafe / residenza. Потім чекаю номер на табло. | natural"
+        },
+        {
+          "kind": "opzione/wrong",
+          "it": "Prendo la carta d'identità, tanto è lo stesso ufficio.",
+          "uk": "Беру посвідчення особи, це ж той самий офіс.",
+          "note": "feedback UK: Беру посвідчення особи, це ж той самий офіс. | wrong"
+        },
+        {
+          "kind": "npc",
+          "it": "Ha preso il biglietto? Aspetti il suo numero. Non si metta in fila allo sportello senza numero.",
+          "uk": "Ви взяли талончик? Чекайте свій номер. Не ставайте в чергу до віконця без номера.",
+          "note": "speaker: Addetto"
+        },
+        {
+          "kind": "opzione/wrong",
+          "it": "Vado comunque allo sportello, tanto non c'è nessuno.",
+          "uk": "Все одно піду до віконця, там нікого немає.",
+          "note": "feedback UK: Все одно піду до віконця, там нікого немає. | wrong"
+        },
+        {
+          "kind": "opzione/bookish",
+          "it": "Ottempererò scrupolosamente alle disposizioni relative all'ordine di chiamata.",
+          "uk": "Я скрупульозно дотримаюся розпоряджень щодо порядку виклику.",
+          "note": "feedback UK: Я скрупульозно дотримаюся розпоряджень щодо порядку виклику. | bookish"
+        },
+        {
+          "kind": "opzione/natural",
+          "it": "Sì, ho il biglietto. Aspetto qui che esca il mio numero, grazie.",
+          "uk": "Так, у мене є талончик. Чекаю тут, поки з’явиться мій номер, дякую.",
+          "note": "feedback UK: Так, у мене є талончик. Чекаю тут, поки з’явиться мій номер, дякую. | natural"
+        },
+        {
+          "kind": "npc",
+          "it": "È il numero 37, sportello 4.",
+          "uk": "Це номер 37, віконце 4.",
+          "note": "speaker: Tabellone"
+        },
+        {
+          "kind": "opzione/wrong",
+          "it": "Vado allo sportello 1, è più vicino.",
+          "uk": "Піду до віконця 1, воно ближче.",
+          "note": "feedback UK: Піду до віконця 1, воно ближче. | wrong"
+        },
+        {
+          "kind": "opzione/natural",
+          "it": "È il mio numero. Vado allo sportello 4 con i documenti in ordine.",
+          "uk": "Це мій номер. Йду до віконця 4 з документами в порядку.",
+          "note": "feedback UK: Це мій номер. Йду до віконця 4 з документами в порядку. | natural"
+        },
+        {
+          "kind": "opzione/bookish",
+          "it": "Constatato l'avviso elettronico, mi reco immediatamente al bancone indicato.",
+          "uk": "Зафіксувавши електронне оголошення, негайно прямую до вказаної стійки.",
+          "note": "feedback UK: Зафіксувавши електронне оголошення, негайно прямую до вказаної стійки. | bookish"
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "module": "",
+      "title_uk": "Anagrafe: Sportello",
+      "items": [
+        {
+          "kind": "contesto",
+          "it": "",
+          "uk": "Номер Марка випав. Він підходить до sportello 4. За віконцем — impiegato. Тут уже не тотем, а жива розмова: мета візиту, документи, бланк, якого бракує, і спокійний Lei до arrivederci.",
+          "note": ""
+        },
+        {
+          "kind": "frase",
+          "it": "Buongiorno, vorrei presentare la dichiarazione di residenza.",
+          "uk": "Доброго дня, я хотів би подати декларацію про місце проживання.",
+          "note": ""
+        },
+        {
+          "kind": "frase",
+          "it": "Ecco il passaporto, il codice fiscale e il permesso.",
+          "uk": "Ось паспорт, код фіскале і пермессо.",
+          "note": ""
+        },
+        {
+          "kind": "frase",
+          "it": "Il modulo non l'ho compilato. Me lo dà lei, per favore?",
+          "uk": "Бланк я не заповнив. Дасте мені його, будь ласка?",
+          "note": ""
+        },
+        {
+          "kind": "frase",
+          "it": "Abito in via Roma dodici, con mia moglie e mia figlia.",
+          "uk": "Живу на via Roma 12, з дружиною і донькою.",
+          "note": ""
+        },
+        {
+          "kind": "frase",
+          "it": "Posso avere la ricevuta, per favore?",
+          "uk": "Можна квитанцію, будь ласка?",
+          "note": ""
+        },
+        {
+          "kind": "cultura",
+          "it": "",
+          "uk": "За sportello одна відповідь — на одне питання. Якщо бракує modulo, спокійно скажіть і попросіть бланк. Не виправдовуйтесь довго. Ім'я диктуйте як у паспорті або покажіть документ. Lei тримайте до Grazie, arrivederci.",
+          "note": ""
+        },
+        {
+          "kind": "npc",
+          "it": "Buongiorno, mi dica.",
+          "uk": "Доброго дня, слухаю вас.",
+          "note": "speaker: Impiegato"
+        },
+        {
+          "kind": "opzione/natural",
+          "it": "Buongiorno, vorrei presentare la dichiarazione di residenza. Mi sono trasferito a Treviso da poco.",
+          "uk": "Доброго дня, я хотів би подати декларацію про місце проживання. Я нещодавно переїхав до Тревізо.",
+          "note": "feedback UK: Доброго дня, я хотів би подати декларацію про місце проживання. Я нещодавно переїхав до Тревізо. | natural"
+        },
+        {
+          "kind": "opzione/bookish",
+          "it": "Desidererei sottoporre all'attenzione dell'ufficio l'istanza di iscrizione anagrafica.",
+          "uk": "Бажав би подати на розгляд установи заяву про анаграфічну реєстрацію.",
+          "note": "feedback UK: Бажав би подати на розгляд установи заяву про анаграфічну реєстрацію. | bookish"
+        },
+        {
+          "kind": "opzione/wrong",
+          "it": "Ciao, fammi la residenza adesso.",
+          "uk": "Привіт, зроби мені резиденцію зараз.",
+          "note": "feedback UK: Привіт, зроби мені резиденцію зараз. | wrong"
+        },
+        {
+          "kind": "npc",
+          "it": "Va bene. Ha già un appuntamento o è passato col numero del totem?",
+          "uk": "Добре. У вас уже є запис чи ви зайшли з номером із тотема?",
+          "note": "speaker: Impiegato"
+        },
+        {
+          "kind": "opzione/bookish",
+          "it": "Ho ottemperato alla procedura di prenotazione mediante il totem elettronico.",
+          "uk": "Я виконав процедуру бронювання за допомогою електронного тотема.",
+          "note": "feedback UK: Я виконав процедуру бронювання за допомогою електронного тотема. | bookish"
+        },
+        {
+          "kind": "opzione/wrong",
+          "it": "Non ho il numero, ma la coda è lunga e io lavoro.",
+          "uk": "У мене немає номера, але черга довга, а я працюю.",
+          "note": "feedback UK: У мене немає номера, але черга довга, а я працюю. | wrong"
+        },
+        {
+          "kind": "opzione/natural",
+          "it": "Ho preso il biglietto al totem, categoria Anagrafe. Questo è il mio numero.",
+          "uk": "Я взяв талончик на тотемі, категорія Anagrafe. Це мій номер.",
+          "note": "feedback UK: Я взяв талончик на тотемі, категорія Anagrafe. Це мій номер. | natural"
+        },
+        {
+          "kind": "npc",
+          "it": "I documenti, prego: il passaporto, il codice fiscale, il permesso di soggiorno e il contratto d'affitto.",
+          "uk": "Документи, будь ласка: паспорт, код фіскале, дозвіл на проживання і договір оренди.",
+          "note": "speaker: Impiegato"
+        },
+        {
+          "kind": "opzione/natural",
+          "it": "Sì, ecco il passaporto, il codice fiscale, il permesso e il contratto d'affitto. Li metto qui.",
+          "uk": "Так, ось паспорт, код фіскале, пермессо і договір оренди. Кладу їх тут.",
+          "note": "feedback UK: Так, ось паспорт, код фіскале, пермессо і договір оренди. Кладу їх тут. | natural"
+        },
+        {
+          "kind": "opzione/wrong",
+          "it": "Guardi sul telefono, ho le foto. Gli originali sono a casa.",
+          "uk": "Подивіться в телефоні, у мене фото. Оригінали вдома.",
+          "note": "feedback UK: Подивіться в телефоні, у мене фото. Оригінали вдома. | wrong"
+        },
+        {
+          "kind": "opzione/bookish",
+          "it": "Le consegno qui di seguito l'intera documentazione identificativa e contrattuale in originale.",
+          "uk": "Передаю вам далі всю ідентифікаційну та договірну документацію в оригіналі.",
+          "note": "feedback UK: Передаю вам далі всю ідентифікаційну та договірну документацію в оригіналі. | bookish"
+        },
+        {
+          "kind": "npc",
+          "it": "Il contratto c'è. Però non vedo il modulo della dichiarazione già compilato. Lo ha stampato dal sito del Comune?",
+          "uk": "Договір є. Але я не бачу вже заповненого бланка декларації. Ви роздрукували його з сайту комуни?",
+          "note": "speaker: Impiegato"
+        },
+        {
+          "kind": "opzione/bookish",
+          "it": "Lamentabilmente non ho provveduto alla previa compilazione del modulo scaricato dal portale istituzionale.",
+          "uk": "На жаль, я не забезпечив попереднього заповнення бланка, завантаженого з інституційного порталу.",
+          "note": "feedback UK: На жаль, я не забезпечив попереднього заповнення бланка, завантаженого з інституційного порталу. | bookish"
+        },
+        {
+          "kind": "opzione/natural",
+          "it": "No, non l'ho compilato. Me lo dà lei adesso, per favore? Lo riempio qui.",
+          "uk": "Ні, я його не заповнив. Дасте мені його зараз, будь ласка? Заповню тут.",
+          "note": "feedback UK: Ні, я його не заповнив. Дасте мені його зараз, будь ласка? Заповню тут. | natural"
+        },
+        {
+          "kind": "opzione/wrong",
+          "it": "Non è un problema mio, lo deve fare lei.",
+          "uk": "Це не моя проблема, це маєте зробити ви.",
+          "note": "feedback UK: Це не моя проблема, це маєте зробити ви. | wrong"
+        },
+        {
+          "kind": "npc",
+          "it": "Le do il modulo. Nome, cognome, data e luogo di nascita, indirizzo, componenti del nucleo. Ha una penna?",
+          "uk": "Даю вам бланк. Ім’я, прізвище, дата і місце народження, адреса, члени сім’ї. Є ручка?",
+          "note": "speaker: Impiegato"
+        },
+        {
+          "kind": "opzione/wrong",
+          "it": "Lo firmi lei, tanto è uguale.",
+          "uk": "Підпишіть ви, це все одно.",
+          "note": "feedback UK: Підпишіть ви, це все одно. | wrong"
+        },
+        {
+          "kind": "opzione/bookish",
+          "it": "La prego di illustrarmi analogamente ciascun campo del formulario.",
+          "uk": "Прошу аналогічно пояснити мені кожне поле формуляра.",
+          "note": "feedback UK: Прошу аналогічно пояснити мені кожне поле формуляра. | bookish"
+        },
+        {
+          "kind": "opzione/natural",
+          "it": "Sì, grazie. Quale riga per l'indirizzo e per i familiari, scusi?",
+          "uk": "Так, дякую. Який рядок для адреси і для членів сім’ї, вибачте?",
+          "note": "feedback UK: Так, дякую. Який рядок для адреси і для членів сім’ї, вибачте? | natural"
+        },
+        {
+          "kind": "npc",
+          "it": "Abita da solo o con altri familiari? Servono i documenti di tutti.",
+          "uk": "Ви живете самі чи з іншими членами сім’ї? Потрібні документи всіх.",
+          "note": "speaker: Impiegato"
+        },
+        {
+          "kind": "opzione/wrong",
+          "it": "Sì, abito da solo. Gli altri non servono.",
+          "uk": "Так, живу сам. Інші не потрібні.",
+          "note": "feedback UK: Так, живу сам. Інші не потрібні. | wrong"
+        },
+        {
+          "kind": "opzione/natural",
+          "it": "No, vivo con mia moglie e mia figlia. Ho anche i loro documenti, se li vuole vedere.",
+          "uk": "Ні, живу з дружиною і донькою. Маю також їхні документи, якщо хочете подивитися.",
+          "note": "feedback UK: Ні, живу з дружиною і донькою. Маю також їхні документи, якщо хочете подивитися. | natural"
+        },
+        {
+          "kind": "opzione/bookish",
+          "it": "Il mio nucleo familiare risulta composto da coniuge e figlia conviventi presso il medesimo indirizzo.",
+          "uk": "Мій сімейний склад складається з дружини і доньки, які проживають за тією самою адресою.",
+          "note": "feedback UK: Мій сімейний склад складається з дружини і доньки, які проживають за тією самою адресою. | bookish"
+        },
+        {
+          "kind": "npc",
+          "it": "Manca ancora la marca da bollo da 16 euro. Ce l'ha?",
+          "uk": "Бракує ще марки da bollo на 16 євро. Вона у вас є?",
+          "note": "speaker: Impiegato"
+        },
+        {
+          "kind": "opzione/natural",
+          "it": "Sì, ce l'ho. L'ho comprata in tabaccheria stamattina. Ecco.",
+          "uk": "Так, є. Купив її в тютюновій крамниці сьогодні вранці. Ось.",
+          "note": "feedback UK: Так, є. Купив її в тютюновій крамниці сьогодні вранці. Ось. | natural"
+        },
+        {
+          "kind": "opzione/bookish",
+          "it": "Ho provveduto all'acquisto del contrassegno telematico dell'imposta di bollo prevista.",
+          "uk": "Я забезпечив придбання телематичного знака передбаченого гербового збору.",
+          "note": "feedback UK: Я забезпечив придбання телематичного знака передбаченого гербового збору. | bookish"
+        },
+        {
+          "kind": "opzione/wrong",
+          "it": "Pago dopo, quando mi date la residenza.",
+          "uk": "Заплачу потім, коли дасте мені резиденцію.",
+          "note": "feedback UK: Заплачу потім, коли дасте мені резиденцію. | wrong"
+        },
+        {
+          "kind": "npc",
+          "it": "Bene. In fondo c'è la firma. Poi me lo riporti. Controllo i dati con il passaporto.",
+          "uk": "Добре. Унизу є підпис. Потім поверніть мені бланк. Перевірю дані з паспортом.",
+          "note": "speaker: Impiegato"
+        },
+        {
+          "kind": "opzione/bookish",
+          "it": "Apporrò la mia sottoscrizione nello spazio deputato e resterò a disposizione per eventuali rettifiche.",
+          "uk": "Поставлю свій підпис у відведеному місці і залишатимусь у розпорядженні для можливих виправлень.",
+          "note": "feedback UK: Поставлю свій підпис у відведеному місці і залишатимусь у розпорядженні для можливих виправлень. | bookish"
+        },
+        {
+          "kind": "opzione/wrong",
+          "it": "Non firmo se prima non mi date la carta.",
+          "uk": "Не підпишу, якщо спочатку не дасте картку.",
+          "note": "feedback UK: Не підпишу, якщо спочатку не дасте картку. | wrong"
+        },
+        {
+          "kind": "opzione/natural",
+          "it": "Firmo qui. Se una lettera del cognome non è chiara, lo spello, se vuole.",
+          "uk": "Підписую тут. Якщо літера прізвища неясна, продиктую по літерах, якщо хочете.",
+          "note": "feedback UK: Підписую тут. Якщо літера прізвища неясна, продиктую по літерах, якщо хочете. | natural"
+        },
+        {
+          "kind": "npc",
+          "it": "Un attimo che carico tutto. Il sistema è lento. Resti qui, per favore. Poi le spiego i controlli della Polizia Locale.",
+          "uk": "Хвилинку, завантажую все. Система повільна. Залишайтеся тут, будь ласка. Потім поясню перевірки місцевої поліції.",
+          "note": "speaker: Impiegato"
+        },
+        {
+          "kind": "opzione/natural",
+          "it": "Certo, aspetto. Non c'è fretta. Grazie.",
+          "uk": "Звісно, чекаю. Нікуди не поспішаю. Дякую.",
+          "note": "feedback UK: Звісно, чекаю. Нікуди не поспішаю. Дякую. | natural"
+        },
+        {
+          "kind": "opzione/wrong",
+          "it": "Svelto, ho un autobus. Faccia prima me.",
+          "uk": "Швидше, у мене автобус. Зробіть мене першим.",
+          "note": "feedback UK: Швидше, у мене автобус. Зробіть мене першим. | wrong"
+        },
+        {
+          "kind": "opzione/bookish",
+          "it": "Attenderò pazientemente il completamento dell'inserimento informatico dei dati.",
+          "uk": "Терпляче чекатиму завершення комп’ютерного внесення даних.",
+          "note": "feedback UK: Терпляче чекатиму завершення комп’ютерного внесення даних. | bookish"
+        },
+        {
+          "kind": "npc",
+          "it": "Fatto. Tiene la ricevuta. Nei giorni successivi possono arrivare i vigili per verificare che abiti davvero lì. Altre domande?",
+          "uk": "Готово. Візьміть квитанцію. У наступні дні можуть прийти муніципальні поліцейські перевірити, що ви справді там живете. Інші запитання?",
+          "note": "speaker: Impiegato"
+        },
+        {
+          "kind": "opzione/bookish",
+          "it": "La ringrazio sentitamente per la solerte trattazione del procedimento amministrativo.",
+          "uk": "Щиро дякую за оперативний розгляд адміністративної процедури.",
+          "note": "feedback UK: Щиро дякую за оперативний розгляд адміністративної процедури. | bookish"
+        },
+        {
+          "kind": "opzione/natural",
+          "it": "No, è tutto chiaro. Grazie, è stato gentile. Arrivederci.",
+          "uk": "Ні, усе зрозуміло. Дякую, ви були люб’язні. До побачення.",
+          "note": "feedback UK: Ні, усе зрозуміло. Дякую, ви були люб’язні. До побачення. | natural"
+        },
+        {
+          "kind": "opzione/wrong",
+          "it": "Allora perché non mi date subito la carta d'identità?",
+          "uk": "Тоді чому мені одразу не дають посвідчення особи?",
+          "note": "feedback UK: Тоді чому мені одразу не дають посвідчення особи? | wrong"
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "module": "",
+      "title_uk": "Anagrafe: Boss Level",
+      "items": [
+        {
+          "kind": "contesto",
+          "it": "",
+          "uk": "Comune di Treviso, сьогодні вранці. Від тотема до квитанції. Без перекладів і пояснень.",
+          "note": ""
+        },
+        {
+          "kind": "frase",
+          "it": "Buongiorno, grazie. Vado al totem.",
+          "uk": "Доброго дня, дякую. Йду до тотема.",
+          "note": ""
+        },
+        {
+          "kind": "frase",
+          "it": "Seleziono la voce Anagrafe / residenza.",
+          "uk": "Обираю пункт Anagrafe / residenza.",
+          "note": ""
+        },
+        {
+          "kind": "frase",
+          "it": "Va bene, aspetto qui con il biglietto.",
+          "uk": "Добре, чекаю тут із талончиком.",
+          "note": ""
+        },
+        {
+          "kind": "frase",
+          "it": "È il mio numero. Vado allo sportello 4.",
+          "uk": "Це мій номер. Йду до віконця 4.",
+          "note": ""
+        },
+        {
+          "kind": "frase",
+          "it": "Ah, scusi tanto. Vado allo sportello 4, grazie.",
+          "uk": "Ой, дуже перепрошую. Йду до віконця 4, дякую.",
+          "note": ""
+        },
+        {
+          "kind": "frase",
+          "it": "Buongiorno. Sì, numero 37. Vorrei presentare la dichiarazione di residenza.",
+          "uk": "Доброго дня. Так, номер 37. Я хотів би подати декларацію про місце проживання.",
+          "note": ""
+        },
+        {
+          "kind": "frase",
+          "it": "Ecco, sono tutti in originale: il passaporto, il codice fiscale, il permesso e il contratto.",
+          "uk": "Ось, усе в оригіналі: паспорт, код фіскале, пермессо і договір.",
+          "note": ""
+        },
+        {
+          "kind": "frase",
+          "it": "Compilo il modulo qui. La marca da bollo ce l'ho, ecco.",
+          "uk": "Заповню бланк тут. Марка da bollo в мене є, ось.",
+          "note": ""
+        },
+        {
+          "kind": "frase",
+          "it": "Abito in via Roma dodici, interno tre, secondo piano. Vivo con mia moglie e mia figlia.",
+          "uk": "Живу на via Roma дванадцять, квартира три, другий поверх. Живу з дружиною і донькою.",
+          "note": ""
+        },
+        {
+          "kind": "frase",
+          "it": "Firmo qui. Aspetto, grazie.",
+          "uk": "Підписую тут. Чекаю, дякую.",
+          "note": ""
+        },
+        {
+          "kind": "frase",
+          "it": "Va bene, aspetto. Grazie per l'informazione.",
+          "uk": "Добре, чекаю. Дякую за інформацію.",
+          "note": ""
+        },
+        {
+          "kind": "frase",
+          "it": "Grazie, la metto in cartella. Arrivederci, buona giornata.",
+          "uk": "Дякую, кладу в папку. До побачення, гарного дня.",
+          "note": ""
+        },
+        {
+          "kind": "npc",
+          "it": "Buongiorno. Per l'Anagrafe il totem è a sinistra. Poi aspetti il numero.",
+          "uk": "Доброго дня. Для Anagrafe тотем ліворуч. Потім чекайте номер.",
+          "note": "speaker: Ingresso"
+        },
+        {
+          "kind": "opzione/natural",
+          "it": "Buongiorno, grazie. Vado al totem.",
+          "uk": "Доброго дня, дякую. Йду до тотема.",
+          "note": "natural"
+        },
+        {
+          "kind": "opzione/wrong",
+          "it": "Dov'è lo sportello? Non ho tempo per i numeri.",
+          "uk": "Де віконце? Немає часу на номери.",
+          "note": "wrong"
+        },
+        {
+          "kind": "opzione/bookish",
+          "it": "La ringrazio per l'indicazione relativa all'apparato di emissione dei biglietti.",
+          "uk": "Дякую за вказівку щодо апарата видачі талонів.",
+          "note": "bookish"
+        },
+        {
+          "kind": "npc",
+          "it": "1 Carta d'identità  2 Anagrafe / residenza  3 Stato civile  4 Pagamenti",
+          "uk": "1 Посвідчення особи  2 Anagrafe / резиденція  3 Цивільний стан  4 Платежі",
+          "note": "speaker: Totem"
+        },
+        {
+          "kind": "opzione/bookish",
+          "it": "Opto per la voce concernente l'iscrizione anagrafica.",
+          "uk": "Обираю пункт, що стосується анаграфічної реєстрації.",
+          "note": "bookish"
+        },
+        {
+          "kind": "opzione/natural",
+          "it": "Seleziono la voce Anagrafe / residenza.",
+          "uk": "Обираю пункт Anagrafe / residenza.",
+          "note": "natural"
+        },
+        {
+          "kind": "opzione/wrong",
+          "it": "La carta d'identità è più veloce.",
+          "uk": "Посвідчення особи швидше.",
+          "note": "wrong"
+        },
+        {
+          "kind": "npc",
+          "it": "Si sieda. Il numero esce sul tabellone. Non si avvicini allo sportello prima.",
+          "uk": "Сідайте. Номер з’явиться на табло. Не підходьте до віконця раніше.",
+          "note": "speaker: Sala d'attesa"
+        },
+        {
+          "kind": "opzione/wrong",
+          "it": "Chiedo allo sportello se posso passare, tanto c'è posto.",
+          "uk": "Запитаю у віконця, чи можу пройти, там є місце.",
+          "note": "wrong"
+        },
+        {
+          "kind": "opzione/bookish",
+          "it": "Mi conformerò all'ordine di chiamata elettronica.",
+          "uk": "Дотримуватимуся порядку електронного виклику.",
+          "note": "bookish"
+        },
+        {
+          "kind": "opzione/natural",
+          "it": "Va bene, aspetto qui con il biglietto.",
+          "uk": "Добре, чекаю тут із талончиком.",
+          "note": "natural"
+        },
+        {
+          "kind": "npc",
+          "it": "È il numero 37, sportello 4.",
+          "uk": "Це номер 37, віконце 4.",
+          "note": "speaker: Tabellone"
+        },
+        {
+          "kind": "opzione/wrong",
+          "it": "Vado allo sportello 2, c'è meno gente.",
+          "uk": "Піду до віконця 2, там менше людей.",
+          "note": "wrong"
+        },
+        {
+          "kind": "opzione/natural",
+          "it": "È il mio numero. Vado allo sportello 4.",
+          "uk": "Це мій номер. Йду до віконця 4.",
+          "note": "natural"
+        },
+        {
+          "kind": "opzione/bookish",
+          "it": "Mi reco al bancone corrispondente all'avviso luminoso.",
+          "uk": "Прямую до стійки, що відповідає світловому оголошенню.",
+          "note": "bookish"
+        },
+        {
+          "kind": "npc",
+          "it": "Questo sportello è per la carta d'identità. La residenza è allo sportello 4.",
+          "uk": "Це віконце для посвідчення особи. Резиденція — віконце 4.",
+          "note": "speaker: Sportello 2"
+        },
+        {
+          "kind": "opzione/natural",
+          "it": "Ah, scusi tanto. Vado allo sportello 4, grazie.",
+          "uk": "Ой, дуже перепрошую. Йду до віконця 4, дякую.",
+          "note": "natural"
+        },
+        {
+          "kind": "opzione/bookish",
+          "it": "Chiedo venia per l'equivoco e mi dirigo verso lo sportello indicato.",
+          "uk": "Прошу вибачення за непорозуміння і прямую до вказаного віконця.",
+          "note": "bookish"
+        },
+        {
+          "kind": "opzione/wrong",
+          "it": "È lo stesso Comune, può farla lei.",
+          "uk": "Це та сама комуна, можете зробити ви.",
+          "note": "wrong"
+        },
+        {
+          "kind": "npc",
+          "it": "Buongiorno, mi dica. Ha il numero?",
+          "uk": "Доброго дня, слухаю. У вас є номер?",
+          "note": "speaker: Impiegato — sportello 4"
+        },
+        {
+          "kind": "opzione/bookish",
+          "it": "Buongiorno. Le sottopongo il titolo di coda e l'istanza di residenza.",
+          "uk": "Доброго дня. Подаю вам талон черги і заяву на резиденцію.",
+          "note": "bookish"
+        },
+        {
+          "kind": "opzione/wrong",
+          "it": "Ciao. Voglio la residenza, e veloce.",
+          "uk": "Привіт. Хочу резиденцію, і швидко.",
+          "note": "wrong"
+        },
+        {
+          "kind": "opzione/natural",
+          "it": "Buongiorno. Sì, numero 37. Vorrei presentare la dichiarazione di residenza.",
+          "uk": "Доброго дня. Так, номер 37. Я хотів би подати декларацію про місце проживання.",
+          "note": "natural"
+        },
+        {
+          "kind": "npc",
+          "it": "Mi servono i documenti: il passaporto, il codice fiscale, il permesso e il contratto d'affitto.",
+          "uk": "Потрібні документи: паспорт, код фіскале, пермессо, договір оренди.",
+          "note": "speaker: Impiegato"
+        },
+        {
+          "kind": "opzione/natural",
+          "it": "Ecco, sono tutti in originale: il passaporto, il codice fiscale, il permesso e il contratto.",
+          "uk": "Ось, усе в оригіналі: паспорт, код фіскале, пермессо і договір.",
+          "note": "natural"
+        },
+        {
+          "kind": "opzione/wrong",
+          "it": "Le foto sono sul telefono. Gli originali li porto dopo.",
+          "uk": "Фото в телефоні. Оригінали принесу потім.",
+          "note": "wrong"
+        },
+        {
+          "kind": "opzione/bookish",
+          "it": "Le deposito l'intera documentazione in originale come richiesto.",
+          "uk": "Здаю всю документацію в оригіналі, як вимагається.",
+          "note": "bookish"
+        },
+        {
+          "kind": "npc",
+          "it": "Il modulo della dichiarazione non c'è. Lo compila adesso. E la marca da bollo da 16 euro?",
+          "uk": "Бланка декларації немає. Заповнюєте зараз. А марка da bollo на 16 євро?",
+          "note": "speaker: Impiegato"
+        },
+        {
+          "kind": "opzione/bookish",
+          "it": "Provvedo immediatamente alla compilazione e alla consegna del contrassegno di bollo.",
+          "uk": "Негайно забезпечу заповнення і здачу гербової марки.",
+          "note": "bookish"
+        },
+        {
+          "kind": "opzione/natural",
+          "it": "Compilo il modulo qui. La marca da bollo ce l'ho, ecco.",
+          "uk": "Заповню бланк тут. Марка da bollo в мене є, ось.",
+          "note": "natural"
+        },
+        {
+          "kind": "opzione/wrong",
+          "it": "Lo faccia lei. Io firmo dopo, se mi conviene.",
+          "uk": "Зробіть ви. Я підпишу потім, якщо мені вигідно.",
+          "note": "wrong"
+        },
+        {
+          "kind": "npc",
+          "it": "Qual è il nucleo familiare? Mi dica l'indirizzo completo, l'interno e il piano.",
+          "uk": "Який сімейний склад? Назвіть повну адресу, внутрішній номер і поверх.",
+          "note": "speaker: Impiegato"
+        },
+        {
+          "kind": "opzione/wrong",
+          "it": "È una via in centro. I dettagli non li ricordo.",
+          "uk": "Це якась вулиця в центрі. Деталей не пам’ятаю.",
+          "note": "wrong"
+        },
+        {
+          "kind": "opzione/bookish",
+          "it": "L'abitazione è sita in via Roma 12, interno 3, piano secondo, con nucleo familiare convivente.",
+          "uk": "Житло розташоване на via Roma 12, внутрішня 3, другий поверх, із сім’єю, що проживає разом.",
+          "note": "bookish"
+        },
+        {
+          "kind": "opzione/natural",
+          "it": "Abito in via Roma dodici, interno tre, secondo piano. Vivo con mia moglie e mia figlia.",
+          "uk": "Живу на via Roma дванадцять, квартира три, другий поверх. Живу з дружиною і донькою.",
+          "note": "natural"
+        },
+        {
+          "kind": "npc",
+          "it": "Firmi in fondo. Poi resti un attimo: carico i dati.",
+          "uk": "Підпишіть унизу. Потім зачекайте хвилину: завантажую дані.",
+          "note": "speaker: Impiegato"
+        },
+        {
+          "kind": "opzione/wrong",
+          "it": "Torno tra un'ora, mi chiami sul cellulare.",
+          "uk": "Повернуся за годину, зателефонуйте на мобільний.",
+          "note": "wrong"
+        },
+        {
+          "kind": "opzione/natural",
+          "it": "Firmo qui. Aspetto, grazie.",
+          "uk": "Підписую тут. Чекаю, дякую.",
+          "note": "natural"
+        },
+        {
+          "kind": "opzione/bookish",
+          "it": "Apporto la firma e attendo il caricamento del sistema.",
+          "uk": "Ставлю підпис і чекаю завантаження системи.",
+          "note": "bookish"
+        },
+        {
+          "kind": "npc",
+          "it": "Il sistema è lento oggi. Resti qui. Poi può arrivare il controllo dei vigili a casa, nei giorni successivi.",
+          "uk": "Сьогодні система повільна. Залишайтеся тут. Потім може бути перевірка муніципальної поліції вдома в наступні дні.",
+          "note": "speaker: Impiegato"
+        },
+        {
+          "kind": "opzione/natural",
+          "it": "Va bene, aspetto. Grazie per l'informazione.",
+          "uk": "Добре, чекаю. Дякую за інформацію.",
+          "note": "natural"
+        },
+        {
+          "kind": "opzione/bookish",
+          "it": "Prendo atto della possibile verifica della Polizia Locale presso il domicilio.",
+          "uk": "Беру до відома можливу перевірку місцевої поліції за місцем проживання.",
+          "note": "bookish"
+        },
+        {
+          "kind": "opzione/wrong",
+          "it": "I vigili a casa? Allora non firmo niente.",
+          "uk": "Поліція вдома? Тоді я нічого не підписую.",
+          "note": "wrong"
+        },
+        {
+          "kind": "npc",
+          "it": "Fatto. Ecco la ricevuta. La tenga. Buona giornata.",
+          "uk": "Готово. Ось квитанція. Збережіть її. Гарного дня.",
+          "note": "speaker: Impiegato"
+        },
+        {
+          "kind": "opzione/bookish",
+          "it": "La ringrazio per il rilascio della ricevuta e le auguro una buona prosecuzione.",
+          "uk": "Дякую за видачу квитанції і бажаю гарного продовження дня.",
+          "note": "bookish"
+        },
+        {
+          "kind": "opzione/wrong",
+          "it": "Questa carta è la residenza definitiva, vero? Allora dammi anche l'identità.",
+          "uk": "Ця картка — остаточна резиденція, так? Тоді дайте ще й посвідчення особи.",
+          "note": "wrong"
+        },
+        {
+          "kind": "opzione/natural",
+          "it": "Grazie, la metto in cartella. Arrivederci, buona giornata.",
+          "uk": "Дякую, кладу в папку. До побачення, гарного дня.",
+          "note": "natural"
+        },
+        {
+          "kind": "successo_titolo",
+          "it": "",
+          "uk": "Резиденцію успішно отримано!",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "module": "Iscriversi al SSN e Medico di Base",
+      "title_uk": "ASL i Tessera Sanitaria: Реєстрація в медичній системі",
+      "items": [
+        {
+          "kind": "contesto",
+          "it": "",
+          "uk": "Лаура нещодавно переїхала до Падуї. Після оформлення резиденції в Anagrafe вона робить наступний важливий крок — іде до ASL (Azienda Sanitaria Locale), щоб зареєструватися в SSN (Servizio Sanitario Nazionale), отримати Tessera Sanitaria та обрати сімейного лікаря (Medico di base). З собою вона має: passaporto, permesso di soggiorno, codice fiscale та dichiarazione di residenza.",
+          "note": ""
+        },
+        {
+          "kind": "documento",
+          "it": "Passaporto / Carta d'identità",
+          "uk": "Паспорт / посвідчення особи",
+          "note": ""
+        },
+        {
+          "kind": "documento",
+          "it": "Permesso di soggiorno",
+          "uk": "Дозвіл на проживання",
+          "note": ""
+        },
+        {
+          "kind": "documento",
+          "it": "Codice fiscale",
+          "uk": "Податковий код",
+          "note": ""
+        },
+        {
+          "kind": "documento",
+          "it": "Dichiarazione di residenza",
+          "uk": "Декларація про місце проживання",
+          "note": ""
+        },
+        {
+          "kind": "frase",
+          "it": "Devo iscrivermi al Servizio Sanitario Nazionale.",
+          "uk": "Мені потрібно зареєструватися в Національній службі охорони здоров'я.",
+          "note": ""
+        },
+        {
+          "kind": "frase",
+          "it": "Devo scegliere un medico di base.",
+          "uk": "Мені потрібно обрати сімейного лікаря.",
+          "note": ""
+        },
+        {
+          "kind": "frase",
+          "it": "È vicino a casa mia.",
+          "uk": "Це близько до мого дому.",
+          "note": ""
+        },
+        {
+          "kind": "frase",
+          "it": "Dove devo andare in caso di emergenza?",
+          "uk": "Куди мені звертатися у разі невідкладної ситуації?",
+          "note": ""
+        },
+        {
+          "kind": "grammatica_titolo",
+          "it": "",
+          "uk": "Медична термінологія та право на допомогу",
+          "note": ""
+        },
+        {
+          "kind": "regola",
+          "it": "",
+          "uk": "Використання виразу 'Avere diritto a...' (Ha diritto all'iscrizione).",
+          "note": ""
+        },
+        {
+          "kind": "esempio",
+          "it": "Ha diritto all'iscrizione gratuita.",
+          "uk": "Ви маєте право на безкоштовну реєстрацію.",
+          "note": ""
+        },
+        {
+          "kind": "esempio",
+          "it": "Ho diritto al medico di base.",
+          "uk": "Я маю право на сімейного лікаря.",
+          "note": ""
+        },
+        {
+          "kind": "regola",
+          "it": "",
+          "uk": "Вказування відстані: 'vicino a...' (близько до...).",
+          "note": ""
+        },
+        {
+          "kind": "esempio",
+          "it": "Il medico è vicino a casa mia.",
+          "uk": "Лікар близько від мого дому.",
+          "note": ""
+        },
+        {
+          "kind": "esempio",
+          "it": "L'ufficio è vicino al Comune.",
+          "uk": "Офіс близько від комуни.",
+          "note": ""
+        },
+        {
+          "kind": "cultura",
+          "it": "",
+          "uk": "Реєстрація в SSN за наявності дозволу на проживання (Permesso di soggiorno) є абсолютно безкоштовною. Звертаючись до працівників ASL, завжди вживайте ввічливу форму 'Lei' та вітайтеся 'Buongiorno'.",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "module": "Iscriversi al SSN e Medico di Base",
+      "title_uk": "Візит до ASL: Оформлення картки та вибір лікаря",
+      "items": [
+        {
+          "kind": "contesto",
+          "it": "",
+          "uk": "Лаура заходить у відділення ASL і підходить до віконця (sportello). Працівниця перевіряє її документи та підтверджує право на безкоштовну реєстрацію в SSN.",
+          "note": ""
+        },
+        {
+          "kind": "frase",
+          "it": "Buongiorno, mi scusi. Devo iscrivermi al Servizio Sanitario Nazionale. È questo lo sportello giusto?",
+          "uk": "Доброго дня, вибачте. Мені потрібно зареєструватися в Національній службі охорони здоров'я. Це правильне віконце?",
+          "note": ""
+        },
+        {
+          "kind": "frase",
+          "it": "Ecco il passaporto, il permesso di soggiorno, il codice fiscale e la dichiarazione di residenza.",
+          "uk": "Ось паспорт, дозвіл на проживання, податковий код і декларація про місце проживання.",
+          "note": ""
+        },
+        {
+          "kind": "frase",
+          "it": "No, non ancora. Come posso sceglierlo? Posso vedere la lista dei medici disponibili?",
+          "uk": "Ні, ще ні. Як я можу його обрати? Можу подивитися список доступних лікарів?",
+          "note": ""
+        },
+        {
+          "kind": "frase",
+          "it": "Sì, mi sembra comodo. È vicino a casa mia, scelgo questo.",
+          "uk": "Так, мені здається зручним. Він близько від дому, обираю цього.",
+          "note": ""
+        },
+        {
+          "kind": "frase",
+          "it": "Grazie! E se ho un problema urgente la sera o nel fine settimana?",
+          "uk": "Дякую! А якщо в мене термінова проблема ввечері або у вихідні?",
+          "note": ""
+        },
+        {
+          "kind": "frase",
+          "it": "Molte grazie per la spiegazione! Buona giornata.",
+          "uk": "Щиро дякую за пояснення! Гарного дня.",
+          "note": ""
+        },
+        {
+          "kind": "cultura",
+          "it": "",
+          "uk": "Пам'ятайте різницю: Guardia Medica працює вночі та у вихідні дні для невідкладних побутових випадків. Pronto Soccorso — це цілодобова швидка/приймальне відділення для важких та загрозливих ситуацій.",
+          "note": ""
+        },
+        {
+          "kind": "npc",
+          "it": "Buongiorno. Mi dica, come posso aiutarla?",
+          "uk": "Доброго дня. Скажіть, чим можу допомогти?",
+          "note": "speaker: Impiegata"
+        },
+        {
+          "kind": "opzione/natural",
+          "it": "Buongiorno, mi scusi. Devo iscrivermi al Servizio Sanitario Nazionale. È questo lo sportello giusto?",
+          "uk": "Доброго дня, вибачте. Мені потрібно зареєструватися в Національній службі охорони здоров'я. Це правильне віконце?",
+          "note": "feedback UK: Доброго дня, вибачте. Мені потрібно зареєструватися в Національній службі охорони здоров'я. Це правильне віконце? | natural"
+        },
+        {
+          "kind": "opzione",
+          "it": "Scusi, sono qui per il rinnovo del passaporto. Dove faccio la coda?",
+          "uk": "Вибачте, я тут для продовження паспорта. Де черга?",
+          "note": "feedback UK: Вибачте, я тут для продовження паспорта. Де черга?"
+        },
+        {
+          "kind": "opzione",
+          "it": "Ciao, voglio la tessera sanitaria subito.",
+          "uk": "Привіт, хочу tessera sanitaria негайно.",
+          "note": "feedback UK: Привіт, хочу tessera sanitaria негайно."
+        },
+        {
+          "kind": "npc",
+          "it": "Sì, buongiorno. Mi mostri i documenti, per favore.",
+          "uk": "Так, доброго дня. Покажіть документи, будь ласка.",
+          "note": "speaker: Impiegata"
+        },
+        {
+          "kind": "opzione",
+          "it": "Ho solo la carta d'identità.",
+          "uk": "У мене лише посвідчення особи.",
+          "note": "feedback UK: У мене лише посвідчення особи."
+        },
+        {
+          "kind": "opzione/natural",
+          "it": "Ecco il passaporto, il permesso di soggiorno, il codice fiscale e la dichiarazione di residenza.",
+          "uk": "Ось паспорт, дозвіл на проживання, податковий код і декларація про місце проживання.",
+          "note": "feedback UK: Ось паспорт, дозвіл на проживання, податковий код і декларація про місце проживання. | natural"
+        },
+        {
+          "kind": "opzione",
+          "it": "I documenti sono a casa, li mando dopo per email.",
+          "uk": "Документи вдома, надішлю потім електронною поштою.",
+          "note": "feedback UK: Документи вдома, надішлю потім електронною поштою."
+        },
+        {
+          "kind": "npc",
+          "it": "Perfetto. Con il suo permesso di soggiorno ha diritto all’iscrizione gratuita. Ha già un medico di base?",
+          "uk": "Чудово. З вашим permesso di soggiorno ви маєте право на безкоштовну реєстрацію. У вас уже є сімейний лікар?",
+          "note": "speaker: Impiegata"
+        },
+        {
+          "kind": "opzione",
+          "it": "Sì, ho già il medico di base in Ucraina. Va bene lo stesso?",
+          "uk": "Так, у мене вже є сімейний лікар в Україні. Так теж підходить?",
+          "note": "feedback UK: Так, у мене вже є сімейний лікар в Україні. Так теж підходить?"
+        },
+        {
+          "kind": "opzione",
+          "it": "Sì, ho già la ricevuta dell'Anagrafe.",
+          "uk": "Так, у мене вже є квитанція з Anagrafe.",
+          "note": "feedback UK: Так, у мене вже є квитанція з Anagrafe."
+        },
+        {
+          "kind": "opzione/natural",
+          "it": "No, non ancora. Come posso sceglierlo? Posso vedere la lista dei medici disponibili?",
+          "uk": "Ні, ще ні. Як я можу його обрати? Можу подивитися список доступних лікарів?",
+          "note": "feedback UK: Ні, ще ні. Як я можу його обрати? Можу подивитися список доступних лікарів? | natural"
+        },
+        {
+          "kind": "npc",
+          "it": "Le mostro una lista dei medici disponibili nella sua zona. Questo medico è vicino a casa sua e ha posto.",
+          "uk": "Показую список доступних лікарів у вашому районі. Цей лікар близько від вашого дому і має місце.",
+          "note": "speaker: Impiegata"
+        },
+        {
+          "kind": "opzione",
+          "it": "Mi dia il primo della lista, non importa chi è.",
+          "uk": "Дайте першого зі списку, байдуже хто.",
+          "note": "feedback UK: Дайте першого зі списку, байдуже хто."
+        },
+        {
+          "kind": "opzione/natural",
+          "it": "Sì, mi sembra comodo. È vicino a casa mia, scelgo questo.",
+          "uk": "Так, мені здається зручним. Він близько від дому, обираю цього.",
+          "note": "feedback UK: Так, мені здається зручним. Він близько від дому, обираю цього. | natural"
+        },
+        {
+          "kind": "opzione",
+          "it": "No, preferisco un medico in un’altra città, lontano da casa.",
+          "uk": "Ні, я хочу лікаря в іншому місті, далеко від дому.",
+          "note": "feedback UK: Ні, я хочу лікаря в іншому місті, далеко від дому."
+        },
+        {
+          "kind": "npc",
+          "it": "Perfetto, lo registro subito. Ecco la sua tessera sanitaria provvisoria.",
+          "uk": "Чудово, зараз зареєструю. Ось ваша тимчасова медична картка.",
+          "note": "speaker: Impiegata"
+        },
+        {
+          "kind": "opzione/natural",
+          "it": "Grazie! E se ho un problema urgente la sera o nel fine settimana?",
+          "uk": "Дякую! А якщо в мене термінова проблема ввечері або у вихідні?",
+          "note": "feedback UK: Дякую! А якщо в мене термінова проблема ввечері або у вихідні? | natural"
+        },
+        {
+          "kind": "opzione",
+          "it": "Devo pagare duecento euro per la tessera, vero?",
+          "uk": "Я маю заплатити двісті євро за картку, так?",
+          "note": "feedback UK: Я маю заплатити двісті євро за картку, так?"
+        },
+        {
+          "kind": "opzione",
+          "it": "La tessera definitiva arriva oggi, la aspetto qui tre ore.",
+          "uk": "Остаточна картка прийде сьогодні, почекаю тут три години.",
+          "note": "feedback UK: Остаточна картка прийде сьогодні, почекаю тут три години."
+        },
+        {
+          "kind": "npc",
+          "it": "Per le urgenze serali e nei festivi c’è la guardia medica. Per le emergenze gravi c’è il pronto soccorso, aperto 24 ore su 24.",
+          "uk": "Для вечірніх і святкових невідкладних випадків є guardia medica. Для важких — pronto soccorso, відкритий цілодобово.",
+          "note": "speaker: Impiegata"
+        },
+        {
+          "kind": "opzione",
+          "it": "Allora vado sempre al pronto soccorso anche per un raffreddore.",
+          "uk": "Тоді завжди йду в pronto soccorso навіть із застудою.",
+          "note": "feedback UK: Тоді завжди йду в pronto soccorso навіть із застудою."
+        },
+        {
+          "kind": "opzione",
+          "it": "La guardia medica è solo per i turisti, vero?",
+          "uk": "Guardia medica лише для туристів, так?",
+          "note": "feedback UK: Guardia medica лише для туристів, так?"
+        },
+        {
+          "kind": "opzione/natural",
+          "it": "Molte grazie per la spiegazione! Buona giornata.",
+          "uk": "Щиро дякую за пояснення! Гарного дня.",
+          "note": "feedback UK: Щиро дякую за пояснення! Гарного дня. | natural"
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "module": "Iscriversi al SSN e Medico di Base",
+      "title_uk": "Boss Level 🏆: Симуляція реєстрації в ASL",
+      "items": [
+        {
+          "kind": "contesto",
+          "it": "",
+          "uk": "Фінальний іспит модуля! Лаура проходить весь шлях у Падуї самостійно: від перевірки документів до вибору лікаря та розрізнення Guardia Medica і Pronto Soccorso. Підказки та переклад вимкнено!",
+          "note": ""
+        },
+        {
+          "kind": "quiz_domanda",
+          "it": "",
+          "uk": "Як сказати працівнику ASL, що вам потрібно зареєструватися в системі охорони здоров'я?",
+          "note": "id p1"
+        },
+        {
+          "kind": "quiz_opzione",
+          "it": "Devo iscrivermi al Servizio Sanitario Nazionale.",
+          "uk": "",
+          "note": "CORRETTA"
+        },
+        {
+          "kind": "quiz_opzione",
+          "it": "Vorrei comprare una ricetta medica.",
+          "uk": "",
+          "note": ""
+        },
+        {
+          "kind": "quiz_opzione",
+          "it": "Cerco un appartamento in affitto.",
+          "uk": "",
+          "note": ""
+        },
+        {
+          "kind": "quiz_spiegazione",
+          "it": "",
+          "uk": "'Devo iscrivermi...' = 'Мені потрібно зареєструватися...'",
+          "note": ""
+        },
+        {
+          "kind": "quiz_domanda",
+          "it": "",
+          "uk": "Яку фразу ви використаєте, щоб попросити обрати сімейного лікаря?",
+          "note": "id p2"
+        },
+        {
+          "kind": "quiz_opzione",
+          "it": "Devo cambiare il passaporto.",
+          "uk": "",
+          "note": ""
+        },
+        {
+          "kind": "quiz_opzione",
+          "it": "Devo scegliere un medico di base.",
+          "uk": "",
+          "note": "CORRETTA"
+        },
+        {
+          "kind": "quiz_opzione",
+          "it": "Ho già un appuntamento all'Anagrafe.",
+          "uk": "",
+          "note": ""
+        },
+        {
+          "kind": "quiz_spiegazione",
+          "it": "",
+          "uk": "'Medico di base' — це сімейний лікар.",
+          "note": ""
+        },
+        {
+          "kind": "quiz_domanda",
+          "it": "",
+          "uk": "Як уточнити, чи лікар близько до вашого помешкання?",
+          "note": "id p3"
+        },
+        {
+          "kind": "quiz_opzione",
+          "it": "Il medico è aperto 24 ore su 24?",
+          "uk": "",
+          "note": ""
+        },
+        {
+          "kind": "quiz_opzione",
+          "it": "È vicino a casa mia?",
+          "uk": "",
+          "note": "CORRETTA"
+        },
+        {
+          "kind": "quiz_opzione",
+          "it": "Ho bisogno di un codice fiscale.",
+          "uk": "",
+          "note": ""
+        },
+        {
+          "kind": "quiz_spiegazione",
+          "it": "",
+          "uk": "'È vicino a casa mia?' = 'Це близько до мого дому?'",
+          "note": ""
+        },
+        {
+          "kind": "quiz_domanda",
+          "it": "",
+          "uk": "Куди слід звертатися у разі важкої та цілодобової загрози здоров'ю?",
+          "note": "id p4"
+        },
+        {
+          "kind": "quiz_opzione",
+          "it": "All'ufficio Anagrafe.",
+          "uk": "",
+          "note": ""
+        },
+        {
+          "kind": "quiz_opzione",
+          "it": "Al Pronto Soccorso.",
+          "uk": "",
+          "note": "CORRETTA"
+        },
+        {
+          "kind": "quiz_opzione",
+          "it": "Allo sportello della posta.",
+          "uk": "",
+          "note": ""
+        },
+        {
+          "kind": "quiz_spiegazione",
+          "it": "",
+          "uk": "'Pronto Soccorso' — відділення невідкладної допомоги (24/7).",
+          "note": ""
+        },
+        {
+          "kind": "quiz_domanda",
+          "it": "",
+          "uk": "Що відповість працівник на питання про вартість реєстрації з Permesso di Soggiorno?",
+          "note": "id p5"
+        },
+        {
+          "kind": "quiz_opzione",
+          "it": "Ha diritto all’iscrizione gratuita.",
+          "uk": "",
+          "note": "CORRETTA"
+        },
+        {
+          "kind": "quiz_opzione",
+          "it": "Deve pagare la marca da bollo.",
+          "uk": "",
+          "note": ""
+        },
+        {
+          "kind": "quiz_opzione",
+          "it": "L'iscrizione costa cento euro.",
+          "uk": "",
+          "note": ""
+        },
+        {
+          "kind": "quiz_spiegazione",
+          "it": "",
+          "uk": "Реєстрація в SSN за наявності дозволу на проживання є безкоштовною.",
+          "note": ""
+        },
+        {
+          "kind": "quiz_domanda",
+          "it": "",
+          "uk": "До кого звертатися при медичних невідкладних випадках уночі або у святкові дні?",
+          "note": "id p6"
+        },
+        {
+          "kind": "quiz_opzione",
+          "it": "Alla Guardia Medica.",
+          "uk": "",
+          "note": "CORRETTA"
+        },
+        {
+          "kind": "quiz_opzione",
+          "it": "All'Ufficio Postale.",
+          "uk": "",
+          "note": ""
+        },
+        {
+          "kind": "quiz_opzione",
+          "it": "Al Comune di Padova.",
+          "uk": "",
+          "note": ""
+        },
+        {
+          "kind": "quiz_spiegazione",
+          "it": "",
+          "uk": "'Guardia Medica' — нічна та святкова чергова служба.",
+          "note": ""
+        },
+        {
+          "kind": "successo_msg",
+          "it": "",
+          "uk": "Вітаємо! Ви успішно пройшли симуляцію, отримали Tessera Sanitaria та обрали сімейного лікаря в Італії!",
+          "note": ""
+        },
+        {
+          "kind": "badge",
+          "it": "",
+          "uk": "Учасник SSN 🏥",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "module": "Al Ristorante e in Trattoria",
+      "title_uk": "Ресторан та Траторія: Бронювання та культура їжі",
+      "items": [
+        {
+          "kind": "contesto",
+          "it": "",
+          "uk": "Марко та Лаура вирішили пообідати у місцевій сімейній траторії в Treviso. В Італії культурі харчування приділяють особливу увагу: важливо знати, як забронювати столик, замовити воду, зрозуміти, що таке 'coperto' у чеку, та як правильно попросити каву після обіду.",
+          "note": ""
+        },
+        {
+          "kind": "frase",
+          "it": "Vorrei prenotare un tavolo per due persone per stasera.",
+          "uk": "Я хотів би забронювати столик на двох на сьогодні на вечір.",
+          "note": ""
+        },
+        {
+          "kind": "frase",
+          "it": "Avete un tavolo libero per due?",
+          "uk": "У вас є вільний столик на двох?",
+          "note": ""
+        },
+        {
+          "kind": "frase",
+          "it": "Vorrei una bottiglia d'acqua naturale o frizzante, per favore.",
+          "uk": "Я хотів би пляшку води без газу або з газом, будь ласка.",
+          "note": ""
+        },
+        {
+          "kind": "frase",
+          "it": "Possiamo avere il menu, per favore?",
+          "uk": "Можна нам меню, будь ласка?",
+          "note": ""
+        },
+        {
+          "kind": "grammatica_titolo",
+          "it": "",
+          "uk": "Ввічливі прохання через 'Vorrei' та 'Possiamo'",
+          "note": ""
+        },
+        {
+          "kind": "regola",
+          "it": "",
+          "uk": "Використання 'Vorrei + інфінітив' замість 'Voglio' (Я б хотів/хотіла...).",
+          "note": ""
+        },
+        {
+          "kind": "esempio",
+          "it": "Vorrei ordinare.",
+          "uk": "Я хотів би замовити.",
+          "note": ""
+        },
+        {
+          "kind": "esempio",
+          "it": "Vorrei un tavolo all'aperto.",
+          "uk": "Я хотів би столик на відкритому повітрі.",
+          "note": ""
+        },
+        {
+          "kind": "regola",
+          "it": "",
+          "uk": "Запитання 'Possiamo + інфінітив' (Чи можемо ми...).",
+          "note": ""
+        },
+        {
+          "kind": "esempio",
+          "it": "Possiamo sederci qui?",
+          "uk": "Можемо сісти тут?",
+          "note": ""
+        },
+        {
+          "kind": "esempio",
+          "it": "Possiamo avere il conto?",
+          "uk": "Можемо отримати рахунок?",
+          "note": ""
+        },
+        {
+          "kind": "tip",
+          "it": "",
+          "uk": "Coperto — це плата за хліб та сервірування (зазвичай 1.50€–3.00€ з особи, вказується в меню).",
+          "note": ""
+        },
+        {
+          "kind": "tip",
+          "it": "",
+          "uk": "Cappuccino в Італії п'ють тільки до 11:00 ранку. Після обіду замовляють Caffè espresso або Macchiato.",
+          "note": ""
+        },
+        {
+          "kind": "tip",
+          "it": "",
+          "uk": "Воду завжди подають у пляшках: треба уточнити 'naturale' (без газу) чи 'frizzante' (з газом).",
+          "note": ""
+        },
+        {
+          "kind": "cultura",
+          "it": "",
+          "uk": "В італійських ресторанах обід (pranzo) зазвичай триває з 12:30 до 14:30, а вечеря (cena) розпочинається не раніше 19:30 або 20:00.",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "day": 8,
+      "module": "Al Ristorante e in Trattoria",
+      "title_uk": "Живий діалог: Замовлення страв та розрахунок",
+      "items": [
+        {
+          "kind": "contesto",
+          "it": "",
+          "uk": "Марко та Лаура заходять до траторії. Офіціант (Cameriere) зустрічає їх біля входу і проводить до столика.",
+          "note": ""
+        },
+        {
+          "kind": "cultura",
+          "it": "",
+          "uk": "В Італії чек не приносять автоматично одразу після того, як ви доїли — це вважається квапленням гостя. Ви маєте самі сказати офіціанту: 'Il conto, per favore'.",
+          "note": ""
+        },
+        {
+          "kind": "npc",
+          "it": "Buongiorno! Avete prenotato o cercate un tavolo?",
+          "uk": "Доброго дня! Ви бронювали чи шукаєте столик?",
+          "note": "speaker: Cameriere"
+        },
+        {
+          "kind": "opzione",
+          "it": "Abbiamo già mangiato, vogliamo solo usare il bagno.",
+          "uk": "Ми вже поїли, хочемо лише скористатися туалетом.",
+          "note": "feedback UK: Ми вже поїли, хочемо лише скористатися туалетом."
+        },
+        {
+          "kind": "opzione",
+          "it": "Ciao, voglio mangiare subito.",
+          "uk": "Привіт, хочу їсти зараз.",
+          "note": "feedback UK: Привіт, хочу їсти зараз."
+        },
+        {
+          "kind": "opzione/natural",
+          "it": "Buongiorno! Abbiamo una prenotazione a nome Marco per due persone.",
+          "uk": "Доброго дня! У нас бронювання на ім’я Marco на двох осіб.",
+          "note": "feedback UK: Доброго дня! У нас бронювання на ім’я Marco на двох осіб. | natural"
+        },
+        {
+          "kind": "npc",
+          "it": "Perfetto, venite pure. Ecco il menu. Da bere cosa vi porto per iniziare?",
+          "uk": "Чудово, заходьте. Ось меню. Що принести випити на початок?",
+          "note": "speaker: Cameriere"
+        },
+        {
+          "kind": "opzione",
+          "it": "Vorrei due Coca-Cola grandi con ghiaccio e limone, come al fast food.",
+          "uk": "Дві великі кока-коли з льодом і лимоном, як у фастфуді.",
+          "note": "feedback UK: Дві великі кока-коли з льодом і лимоном, як у фастфуді."
+        },
+        {
+          "kind": "opzione/natural",
+          "it": "Una bottiglia d'acqua naturale e due calici di vino della casa, grazie.",
+          "uk": "Пляшку негазованої води і два келихи домашнього вина, дякую.",
+          "note": "feedback UK: Пляшку негазованої води і два келихи домашнього вина, дякую. | natural"
+        },
+        {
+          "kind": "opzione",
+          "it": "Dammi dell'acqua e basta.",
+          "uk": "Дай води і все.",
+          "note": "feedback UK: Дай води і все."
+        },
+        {
+          "kind": "npc",
+          "it": "Siete pronti per ordinare i piatti?",
+          "uk": "Готові замовляти страви?",
+          "note": "speaker: Cameriere"
+        },
+        {
+          "kind": "opzione/natural",
+          "it": "Sì! Come primo prendiamo due tagliatelle al ragù, e come secondo una tagliata di manzo da dividere.",
+          "uk": "Так! На перше візьмемо дві тальятелле з рагу, а на друге — тальяту з яловичини на двох.",
+          "note": "feedback UK: Так! На перше візьмемо дві тальятелле з рагу, а на друге — тальяту з яловичини на двох. | natural"
+        },
+        {
+          "kind": "opzione",
+          "it": "Vorrei un cappuccino e una pizza al ragù.",
+          "uk": "Я хотів би капучино і піцу з рагу.",
+          "note": "feedback UK: Я хотів би капучино і піцу з рагу."
+        },
+        {
+          "kind": "opzione",
+          "it": "Porti tutto insieme, non importa l’ordine dei piatti.",
+          "uk": "Несіть усе разом, порядок страв не важливий.",
+          "note": "feedback UK: Несіть усе разом, порядок страв не важливий."
+        },
+        {
+          "kind": "npc",
+          "it": "Ottima scelta! Desiderate un dolce o un caffè alla fine?",
+          "uk": "Чудовий вибір! Бажаєте десерт чи каву наприкінці?",
+          "note": "speaker: Cameriere"
+        },
+        {
+          "kind": "opzione",
+          "it": "Vorrei due cappuccini grandi, grazie.",
+          "uk": "Два великі капучино, дякую.",
+          "note": "feedback UK: Два великі капучино, дякую."
+        },
+        {
+          "kind": "opzione",
+          "it": "Vorrei un tè al latte e una birra grande, dopo la pasta.",
+          "uk": "Чай з молоком і велике пиво після пасти.",
+          "note": "feedback UK: Чай з молоком і велике пиво після пасти."
+        },
+        {
+          "kind": "opzione/natural",
+          "it": "Vorrei un tiramisù e due caffè espresso, per favore.",
+          "uk": "Тірамісу і дві кави еспресо, будь ласка.",
+          "note": "feedback UK: Тірамісу і дві кави еспресо, будь ласка. | natural"
+        },
+        {
+          "kind": "npc",
+          "it": "Perfetto, arrivano subito. Serve altro?",
+          "uk": "Чудово, зараз принесуть. Ще щось потрібно?",
+          "note": "speaker: Cameriere"
+        },
+        {
+          "kind": "opzione/natural",
+          "it": "No, grazie. Quando è possibile, possiamo avere il conto?",
+          "uk": "Ні, дякую. Коли можна, принесіть рахунок?",
+          "note": "feedback UK: Ні, дякую. Коли можна, принесіть рахунок? | natural"
+        },
+        {
+          "kind": "opzione",
+          "it": "Possiamo uscire senza pagare, torniamo domani.",
+          "uk": "Можемо вийти не платячи, повернемося завтра.",
+          "note": "feedback UK: Можемо вийти не платячи, повернемося завтра."
+        },
+        {
+          "kind": "opzione",
+          "it": "Sì, vorrei un altro primo. Il conto lo porti da solo, senza chiedere.",
+          "uk": "Так, ще одне перше. Рахунок принесіть самі, не питаючи.",
+          "note": "feedback UK: Так, ще одне перше. Рахунок принесіть самі, не питаючи."
+        },
+        {
+          "kind": "npc",
+          "it": "Certamente! Pagate insieme o separati? Accettiamo anche la carta.",
+          "uk": "Звісно! Платите разом чи окремо? Приймаємо також картку.",
+          "note": "speaker: Cameriere"
+        },
+        {
+          "kind": "opzione",
+          "it": "Paghiamo in banconote da duecento, senza mancia e senza scontrino.",
+          "uk": "Платимо купюрами по двісті, без чайових і без чека.",
+          "note": "feedback UK: Платимо купюрами по двісті, без чайових і без чека."
+        },
+        {
+          "kind": "opzione/natural",
+          "it": "Paghiamo con la carta, insieme. Grazie mille, tutto buonissimo!",
+          "uk": "Платимо карткою, разом. Дуже дякуємо, усе було чудово!",
+          "note": "feedback UK: Платимо карткою, разом. Дуже дякуємо, усе було чудово! | natural"
+        },
+        {
+          "kind": "opzione",
+          "it": "Dividiamo il conto in dieci parti uguali, anche per chi non ha mangiato.",
+          "uk": "Поділимо рахунок на десять рівних частин, навіть для тих, хто не їв.",
+          "note": "feedback UK: Поділимо рахунок на десять рівних частин, навіть для тих, хто не їв."
+        }
+      ]
+    },
+    {
+      "day": 9,
+      "module": "Al Ristorante e in Trattoria",
+      "title_uk": "Boss Level 🏆: Симуляція обіду в італійському ресторані",
+      "items": [
+        {
+          "kind": "contesto",
+          "it": "",
+          "uk": "Фінальний іспит модуля! Ви самостійно замовляєте обід у траторії, спілкуєтеся з офіціантом, обираєте правильні напої та розраховуєтеся. Підказки та переклад вимкнено!",
+          "note": ""
+        },
+        {
+          "kind": "quiz_domanda",
+          "it": "",
+          "uk": "Як ввічливо попросити забронювати столик на вечір?",
+          "note": "id p1"
+        },
+        {
+          "kind": "quiz_opzione",
+          "it": "Vorrei prenotare un tavolo per due per stasera.",
+          "uk": "",
+          "note": "CORRETTA"
+        },
+        {
+          "kind": "quiz_opzione",
+          "it": "Voglio un tavolo subito per me.",
+          "uk": "",
+          "note": ""
+        },
+        {
+          "kind": "quiz_opzione",
+          "it": "Avete un appartamento libero?",
+          "uk": "",
+          "note": ""
+        },
+        {
+          "kind": "quiz_spiegazione",
+          "it": "",
+          "uk": "'Vorrei prenotare...' = 'Я хотів би забронювати...'",
+          "note": ""
+        },
+        {
+          "kind": "quiz_domanda",
+          "it": "",
+          "uk": "Що означає позиція 'Coperto' у ресторані?",
+          "note": "id p2"
+        },
+        {
+          "kind": "quiz_opzione",
+          "it": "Плата за хліб та сервірування столу.",
+          "uk": "",
+          "note": "CORRETTA"
+        },
+        {
+          "kind": "quiz_opzione",
+          "it": "Обов'язкові чайові офіціанту 20%.",
+          "uk": "",
+          "note": ""
+        },
+        {
+          "kind": "quiz_opzione",
+          "it": "Штраф за спізнення.",
+          "uk": "",
+          "note": ""
+        },
+        {
+          "kind": "quiz_spiegazione",
+          "it": "",
+          "uk": "'Coperto' — фіксована плата за посуд, хліб та сервірування.",
+          "note": ""
+        },
+        {
+          "kind": "quiz_domanda",
+          "it": "",
+          "uk": "Яку каву прийнято замовляти в Італії одразу після обіду?",
+          "note": "id p3"
+        },
+        {
+          "kind": "quiz_opzione",
+          "it": "Vorrei un cappuccino grande.",
+          "uk": "",
+          "note": ""
+        },
+        {
+          "kind": "quiz_opzione",
+          "it": "Vorrei un caffè espresso.",
+          "uk": "",
+          "note": "CORRETTA"
+        },
+        {
+          "kind": "quiz_opzione",
+          "it": "Vorrei un tè freddo con latte.",
+          "uk": "",
+          "note": ""
+        },
+        {
+          "kind": "quiz_spiegazione",
+          "it": "",
+          "uk": "Після їжі італійці п'ють еспресо для покращення травлення.",
+          "note": ""
+        },
+        {
+          "kind": "quiz_domanda",
+          "it": "",
+          "uk": "Як правильно просити чек в офіціанта?",
+          "note": "id p4"
+        },
+        {
+          "kind": "quiz_opzione",
+          "it": "Possiamo avere il conto, per favore?",
+          "uk": "",
+          "note": "CORRETTA"
+        },
+        {
+          "kind": "quiz_opzione",
+          "it": "Dammi il prezzo della pizza.",
+          "uk": "",
+          "note": ""
+        },
+        {
+          "kind": "quiz_opzione",
+          "it": "Devo fare la residenza.",
+          "uk": "",
+          "note": ""
+        },
+        {
+          "kind": "quiz_spiegazione",
+          "it": "",
+          "uk": "'Il conto, per favore' = 'Чек, будь ласка'.",
+          "note": ""
+        },
+        {
+          "kind": "quiz_domanda",
+          "it": "",
+          "uk": "Як уточнити офіціанту, що ви бажаєте звичайну воду без газу?",
+          "note": "id p5"
+        },
+        {
+          "kind": "quiz_opzione",
+          "it": "Vorrei dell'acqua frizzante.",
+          "uk": "",
+          "note": ""
+        },
+        {
+          "kind": "quiz_opzione",
+          "it": "Vorrei dell'acqua naturale.",
+          "uk": "",
+          "note": "CORRETTA"
+        },
+        {
+          "kind": "quiz_opzione",
+          "it": "Vorrei dell'acqua con il vino.",
+          "uk": "",
+          "note": ""
+        },
+        {
+          "kind": "quiz_spiegazione",
+          "it": "",
+          "uk": "'Acqua naturale' = вода без газу.",
+          "note": ""
+        },
+        {
+          "kind": "successo_msg",
+          "it": "",
+          "uk": "Вітаємо! Ви повністю засвоїли етикет італійських ресторанів, легко замовляєте страви та орієнтуєтеся в чеку!",
+          "note": ""
+        },
+        {
+          "kind": "badge",
+          "it": "",
+          "uk": "Майстер ресторану 🍝",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "day": 10,
+      "module": "La Casa: Affitto e Condominio",
+      "title_uk": "Шукаємо житло: Оголошення, застава та кондомініум",
+      "items": [
+        {
+          "kind": "contesto",
+          "it": "",
+          "uk": "Лаура шукає нову квартиру в Падуї/Тревізо. На порталі оголошень вона знайшла привабливий варіант, але щоб зняти житло в Італії, потрібно орієнтуватися у термінах: розрізняти 'monolocale' та 'trilocale', розуміти, що таке 'spese condominiali' (комунальні послуги будинку) та скільки місяців складає 'caparra' (застава).",
+          "note": ""
+        },
+        {
+          "kind": "frase",
+          "it": "Ho visto il suo annuncio per l'appartamento in affitto.",
+          "uk": "Я побачив(ла) ваше оголошення про оренду квартири.",
+          "note": ""
+        },
+        {
+          "kind": "frase",
+          "it": "È ancora disponibile l'appartamento?",
+          "uk": "Квартира ще вільна (доступна)?",
+          "note": ""
+        },
+        {
+          "kind": "frase",
+          "it": "Le spese condominiali sono incluse nel prezzo?",
+          "uk": "Витрати на кондомініум включені в ціну?",
+          "note": ""
+        },
+        {
+          "kind": "frase",
+          "it": "Quando possiamo fissare un appuntamento per vederlo?",
+          "uk": "Коли ми можемо домовитися про зустріч, щоб оглянути її?",
+          "note": ""
+        },
+        {
+          "kind": "grammatica_titolo",
+          "it": "",
+          "uk": "Уточнення умов через 'Sono inclusi/e...?' та 'Vorrei fissare...'",
+          "note": ""
+        },
+        {
+          "kind": "regola",
+          "it": "",
+          "uk": "Запитання про включені послуги: 'Sono inclusi/e...?' (Чи включені...?).",
+          "note": ""
+        },
+        {
+          "kind": "esempio",
+          "it": "I consumi di acqua e gas sono inclusi?",
+          "uk": "Витрати на воду і газ входять?",
+          "note": ""
+        },
+        {
+          "kind": "esempio",
+          "it": "Le spese condominiali sono escluse.",
+          "uk": "Витрати кондомініуму не входять.",
+          "note": ""
+        },
+        {
+          "kind": "regola",
+          "it": "",
+          "uk": "Домовленість про час: 'Fissare un appuntamento' (Призначити зустріч).",
+          "note": ""
+        },
+        {
+          "kind": "esempio",
+          "it": "Vorrei fissare una visita.",
+          "uk": "Я хотів би призначити огляд.",
+          "note": ""
+        },
+        {
+          "kind": "esempio",
+          "it": "Posso venire a vedere la casa domani?",
+          "uk": "Можу прийти подивитися квартиру завтра?",
+          "note": ""
+        },
+        {
+          "kind": "tip",
+          "it": "",
+          "uk": "Monolocale — 1-кімнатна квартира (студія). Bilocale — 2-кімнатна (спальня + вітальня з кухнею). Trilocale — 3-кімнатна.",
+          "note": ""
+        },
+        {
+          "kind": "tip",
+          "it": "",
+          "uk": "Spese condominiali — платежі за прибирання під'їзду, ліфт, освітлення та догляд за подвір'ям. Вони частіше виставляються окремо від оренди.",
+          "note": ""
+        },
+        {
+          "kind": "tip",
+          "it": "",
+          "uk": "Caparra / Deposito cauzionale — гарантійна застава, яка зазвичай складає від 2 до 3 місяців оренди і повертається при виїзді.",
+          "note": ""
+        },
+        {
+          "kind": "tip",
+          "it": "",
+          "uk": "Contratto 4+4 o 3+2 — найпопулярніші види довгострокових договорів оренди в Італії.",
+          "note": ""
+        },
+        {
+          "kind": "cultura",
+          "it": "",
+          "uk": "В Італії орендодавці майже завжди запитують 'busta paga' (довідку про доходи/зарплату) або гаранта перед підписанням договору, щоб переконатися у вашій платоспроможності.",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "day": 11,
+      "module": "La Casa: Affitto e Condominio",
+      "title_uk": "Живий діалог: Дзвінок орендодавцю та узгодження умов",
+      "items": [
+        {
+          "kind": "contesto",
+          "it": "",
+          "uk": "Лаура телефонує власнику квартири — синьйору Маріо (Signor Mario), щоб розпитати про деталі оголошення та домовитися про огляд житла.",
+          "note": ""
+        },
+        {
+          "kind": "cultura",
+          "it": "",
+          "uk": "Термін 'Voltura' означає переоформлення існуючих договорів на світло/газ на ваше ім'я, а 'Subentro' — нове підключення, якщо лічильники були опломбовані.",
+          "note": ""
+        },
+        {
+          "kind": "npc",
+          "it": "Pronto! Chi parla?",
+          "uk": "Алло! Хто говорить?",
+          "note": "speaker: Signor Mario"
+        },
+        {
+          "kind": "opzione/natural",
+          "it": "Buongiorno Signor Mario, sono Laura. Chiamo per l'annuncio dell'appartamento in affitto. È ancora disponibile?",
+          "uk": "Доброго дня, синьйоре Маріо, я Лаура. Дзвоню щодо оголошення про квартиру в оренду. Вона ще вільна?",
+          "note": "feedback UK: Доброго дня, синьйоре Маріо, я Лаура. Дзвоню щодо оголошення про квартиру в оренду. Вона ще вільна? | natural"
+        },
+        {
+          "kind": "opzione",
+          "it": "Ciao Mario, voglio la tua casa. Quanto costa?",
+          "uk": "Привіт, Маріо, хочу твою квартиру. Скільки коштує?",
+          "note": "feedback UK: Привіт, Маріо, хочу твою квартиру. Скільки коштує?"
+        },
+        {
+          "kind": "opzione",
+          "it": "Pronto, sono un’agenzia. Mandi le chiavi per corriere oggi.",
+          "uk": "Алло, я агенція. Надішліть ключі кур’єром сьогодні.",
+          "note": "feedback UK: Алло, я агенція. Надішліть ключі кур’єром сьогодні."
+        },
+        {
+          "kind": "npc",
+          "it": "Sì, buongiorno Laura. L'appartamento è ancora libero. È un bilocale arredato al secondo piano con ascensore.",
+          "uk": "Так, доброго дня, Лауро. Квартира ще вільна. Це мебльована двокімнатна на другому поверсі з ліфтом.",
+          "note": "speaker: Signor Mario"
+        },
+        {
+          "kind": "opzione",
+          "it": "Bene, vengo a dormire stasera.",
+          "uk": "Добре, приїду ночувати сьогодні ввечері.",
+          "note": "feedback UK: Добре, приїду ночувати сьогодні ввечері."
+        },
+        {
+          "kind": "opzione",
+          "it": "Va bene, ma voglio un contratto solo di una settimana, in nero.",
+          "uk": "Добре, але хочу договір лише на тиждень, неофіційно.",
+          "note": "feedback UK: Добре, але хочу договір лише на тиждень, неофіційно."
+        },
+        {
+          "kind": "opzione/natural",
+          "it": "Perfetto! Mi dice il prezzo mensile? Le spese condominiali sono incluse nel prezzo?",
+          "uk": "Чудово! Скажіть місячну ціну? Комунальні витрати кондомініуму входять у ціну?",
+          "note": "feedback UK: Чудово! Скажіть місячну ціну? Комунальні витрати кондомініуму входять у ціну? | natural"
+        },
+        {
+          "kind": "npc",
+          "it": "L'affitto è di 650 euro al mese. Le spese condominiali sono 80 euro a parte e comprendono l'acqua e la pulizia delle scale.",
+          "uk": "Оренда 650 євро на місяць. Комуналка кондомініуму — 80 євро окремо і включає воду та прибирання сходів.",
+          "note": "speaker: Signor Mario"
+        },
+        {
+          "kind": "opzione/natural",
+          "it": "Ho capito. E per quanto riguarda le utenze di luce e gas, sono da volturare a mio nome?",
+          "uk": "Зрозуміла. А щодо рахунків за світло і газ — їх треба переоформити на моє ім’я?",
+          "note": "feedback UK: Зрозуміла. А щодо рахунків за світло і газ — їх треба переоформити на моє ім’я? | natural"
+        },
+        {
+          "kind": "opzione",
+          "it": "Le utenze restano a nome suo per sempre, io non firmo niente.",
+          "uk": "Комунальні рахунки назавжди залишаються на вашому імені, я нічого не підписую.",
+          "note": "feedback UK: Комунальні рахунки назавжди залишаються на вашому імені, я нічого не підписую."
+        },
+        {
+          "kind": "opzione",
+          "it": "Non voglio pagare le spese condominiali.",
+          "uk": "Я не хочу платити витрати кондомініуму.",
+          "note": "feedback UK: Я не хочу платити витрати кондомініуму."
+        },
+        {
+          "kind": "npc",
+          "it": "Sì, le utenze sono da intestare a lei. Chiediamo anche tre mensilità di caparra confirmatoria.",
+          "uk": "Так, рахунки треба оформити на вас. Також просимо три місяці завдатку.",
+          "note": "speaker: Signor Mario"
+        },
+        {
+          "kind": "opzione",
+          "it": "La caparra è gratis, vero?",
+          "uk": "Завдаток безкоштовний, так?",
+          "note": "feedback UK: Завдаток безкоштовний, так?"
+        },
+        {
+          "kind": "opzione/natural",
+          "it": "Va bene, è chiaro. Quando possiamo fissare un appuntamento per visitare l'appartamento?",
+          "uk": "Добре, зрозуміло. Коли можемо призначити зустріч, щоб подивитися квартиру?",
+          "note": "feedback UK: Добре, зрозуміло. Коли можемо призначити зустріч, щоб подивитися квартиру? | natural"
+        },
+        {
+          "kind": "opzione",
+          "it": "La caparra la pago dopo tre mesi, se mi piace la casa.",
+          "uk": "Завдаток заплачу через три місяці, якщо квартира сподобається.",
+          "note": "feedback UK: Завдаток заплачу через три місяці, якщо квартира сподобається."
+        },
+        {
+          "kind": "npc",
+          "it": "Possiamo vederci domani pomeriggio verso le 17:00 davanti al portone del condominio. Le va bene?",
+          "uk": "Можемо зустрітися завтра після обіду близько 17:00 біля під’їзду. Вам підходить?",
+          "note": "speaker: Signor Mario"
+        },
+        {
+          "kind": "opzione",
+          "it": "Domani alle 17:00 è troppo presto. Vengo a mezzanotte.",
+          "uk": "Завтра о 17:00 занадто рано. Приїду опівночі.",
+          "note": "feedback UK: Завтра о 17:00 занадто рано. Приїду опівночі."
+        },
+        {
+          "kind": "opzione",
+          "it": "No, vengo senza preavviso stasera tardi, suoni il citofono.",
+          "uk": "Ні, прийду без попередження сьогодні пізно, подзвоніть у домофон.",
+          "note": "feedback UK: Ні, прийду без попередження сьогодні пізно, подзвоніть у домофон."
+        },
+        {
+          "kind": "opzione/natural",
+          "it": "Sì, perfetto! Domani alle 17:00. Mi può mandare l'indirizzo esatto via messaggio?",
+          "uk": "Так, ідеально! Завтра о 17:00. Можете надіслати точну адресу повідомленням?",
+          "note": "feedback UK: Так, ідеально! Завтра о 17:00. Можете надіслати точну адресу повідомленням? | natural"
+        },
+        {
+          "kind": "npc",
+          "it": "Certamente, le mando subito un SMS con l'indirizzo. A domani allora!",
+          "uk": "Звісно, зараз надішлю SMS з адресою. Тоді до завтра!",
+          "note": "speaker: Signor Mario"
+        },
+        {
+          "kind": "opzione",
+          "it": "Se piove, non vengo. La chiamo tra un mese.",
+          "uk": "Якщо дощ, не прийду. Зателефоную через місяць.",
+          "note": "feedback UK: Якщо дощ, не прийду. Зателефоную через місяць."
+        },
+        {
+          "kind": "opzione/natural",
+          "it": "Molte grazie Signor Mario, a domani! Buona giornata.",
+          "uk": "Щиро дякую, синьйоре Маріо, до завтра! Гарного дня.",
+          "note": "feedback UK: Щиро дякую, синьйоре Маріо, до завтра! Гарного дня. | natural"
+        },
+        {
+          "kind": "opzione",
+          "it": "Ok, ma mandi anche le chiavi su WhatsApp in foto, basta così.",
+          "uk": "Ок, але надішліть ще ключі фото в WhatsApp, цього досить.",
+          "note": "feedback UK: Ок, але надішліть ще ключі фото в WhatsApp, цього досить."
+        }
+      ]
+    },
+    {
+      "day": 12,
+      "module": "La Casa: Affitto e Condominio",
+      "title_uk": "Boss Level 🏆: Симуляція пошуку та оренди квартири",
+      "items": [
+        {
+          "kind": "contesto",
+          "it": "",
+          "uk": "Фінальний іспит модуля! Ви самостійно телефонуєте орендодавцю, дізнаєтеся деталі про плату за кондомініум, заставу та домовляєтеся про перегляд квартири. Підказки та переклад вимкнено!",
+          "note": ""
+        },
+        {
+          "kind": "quiz_domanda",
+          "it": "",
+          "uk": "Як запитати синьйора Маріо, чи квартира з оголошення ще вільна?",
+          "note": "id p1"
+        },
+        {
+          "kind": "quiz_opzione",
+          "it": "L'appartamento è ancora disponibile?",
+          "uk": "",
+          "note": "CORRETTA"
+        },
+        {
+          "kind": "quiz_opzione",
+          "it": "Dove si trova il medico di base?",
+          "uk": "",
+          "note": ""
+        },
+        {
+          "kind": "quiz_opzione",
+          "it": "Possiamo avere il conto, per favore?",
+          "uk": "",
+          "note": ""
+        },
+        {
+          "kind": "quiz_spiegazione",
+          "it": "",
+          "uk": "'È ancora disponibile?' = 'Це ще доступно / вільно?'",
+          "note": ""
+        },
+        {
+          "kind": "quiz_domanda",
+          "it": "",
+          "uk": "Що означають 'Spese condominiali' при оренді житла?",
+          "note": "id p2"
+        },
+        {
+          "kind": "quiz_opzione",
+          "it": "Платежі за обслуговування спільних частин будинку (прибирання, ліфт, освітлення під'їзду).",
+          "uk": "",
+          "note": "CORRETTA"
+        },
+        {
+          "kind": "quiz_opzione",
+          "it": "Податок на купівлю меблів.",
+          "uk": "",
+          "note": ""
+        },
+        {
+          "kind": "quiz_opzione",
+          "it": "Плата за паркування на міській вулиці.",
+          "uk": "",
+          "note": ""
+        },
+        {
+          "kind": "quiz_spiegazione",
+          "it": "",
+          "uk": "'Spese condominiali' — витрати на утримання будинку та під'їзду.",
+          "note": ""
+        },
+        {
+          "kind": "quiz_domanda",
+          "it": "",
+          "uk": "Що таке 'Caparra' (або 'Deposito cauzionale')?",
+          "note": "id p3"
+        },
+        {
+          "kind": "quiz_opzione",
+          "it": "Гарантійна застава за збереження майна, яка повертається при виїзді.",
+          "uk": "",
+          "note": "CORRETTA"
+        },
+        {
+          "kind": "quiz_opzione",
+          "it": "Щомісячна плата за інтернет.",
+          "uk": "",
+          "note": ""
+        },
+        {
+          "kind": "quiz_opzione",
+          "it": "Одноразова оплата послуг прибиральниці.",
+          "uk": "",
+          "note": ""
+        },
+        {
+          "kind": "quiz_spiegazione",
+          "it": "",
+          "uk": "Застава (caparra) зазвичай дорівнює орендній платі за 2–3 місяці.",
+          "note": ""
+        },
+        {
+          "kind": "quiz_domanda",
+          "it": "",
+          "uk": "Як сказати орендодавцю 'Коли ми можемо домовитися про зустріч, щоб подивитися квартиру?'",
+          "note": "id p4"
+        },
+        {
+          "kind": "quiz_opzione",
+          "it": "Quando possiamo fissare un appuntamento per visitare l'appartamento?",
+          "uk": "",
+          "note": "CORRETTA"
+        },
+        {
+          "kind": "quiz_opzione",
+          "it": "Vorrei prenotare un tavolo per stasera.",
+          "uk": "",
+          "note": ""
+        },
+        {
+          "kind": "quiz_opzione",
+          "it": "Ho bisogno della tessera sanitaria.",
+          "uk": "",
+          "note": ""
+        },
+        {
+          "kind": "quiz_spiegazione",
+          "it": "",
+          "uk": "'Fissare un appuntamento' = призначити зустріч/візит.",
+          "note": ""
+        },
+        {
+          "kind": "quiz_domanda",
+          "it": "",
+          "uk": "Що означає термін 'Bilocale' в оголошеннях про нерухомість?",
+          "note": "id p5"
+        },
+        {
+          "kind": "quiz_opzione",
+          "it": "Двокімнатна квартира (спальня + вітальня/кухня).",
+          "uk": "",
+          "note": "CORRETTA"
+        },
+        {
+          "kind": "quiz_opzione",
+          "it": "Двоповерховий приватний будинок.",
+          "uk": "",
+          "note": ""
+        },
+        {
+          "kind": "quiz_opzione",
+          "it": "Кімната на двох осіб у гуртожитку.",
+          "uk": "",
+          "note": ""
+        },
+        {
+          "kind": "quiz_spiegazione",
+          "it": "",
+          "uk": "'Bilocale' = двокімнатне житло.",
+          "note": ""
+        },
+        {
+          "kind": "successo_msg",
+          "it": "",
+          "uk": "Вітаємо! Ви вільно орієнтуєтеся в термінах оренди житла в Італії, розумієте розрахунок кондомініуму та вмієте домовлятися про огляд!",
+          "note": ""
+        },
+        {
+          "kind": "badge",
+          "it": "",
+          "uk": "Експерт з житла 🔑",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "day": 13,
+      "module": "Poste Italiane e Servizi Postali",
+      "title_uk": "У поштовому відділенні: Черга, квитанції та відправлення",
+      "items": [
+        {
+          "kind": "contesto",
+          "it": "",
+          "uk": "Марко та Лаура прийшли до відділення Poste Italiane. В Італії пошта — це не лише відправка посилок, а й центр сплати комунальних рахунків, отримання офіційних листів та фінансових послуг. При вході обов'язково потрібно взяти талончик у терміналі (ticket) відповідно до теми вашого звернення.",
+          "note": ""
+        },
+        {
+          "kind": "frase",
+          "it": "Devo spedire questo pacco / questa lettera in Ucraina.",
+          "uk": "Мені потрібно відправити цю посилку / цей лист в Україну.",
+          "note": ""
+        },
+        {
+          "kind": "frase",
+          "it": "Devo pagare questo bollettino postale.",
+          "uk": "Мені потрібно оплатити цю поштову квитанцію.",
+          "note": ""
+        },
+        {
+          "kind": "frase",
+          "it": "Ho ricevuto un avviso di giacenza per una raccomandata.",
+          "uk": "Я отримав(ла) повідомлення про надходження рекомендованого листа.",
+          "note": ""
+        },
+        {
+          "kind": "frase",
+          "it": "Quale tasto devo premere per prendere il biglietto?",
+          "uk": "Яку кнопку мені потрібно натиснути, щоб взяти талончик?",
+          "note": ""
+        },
+        {
+          "kind": "grammatica_titolo",
+          "it": "",
+          "uk": "Дієслово 'Spedire' (відправляти) та 'Pagare' (оплачувати)",
+          "note": ""
+        },
+        {
+          "kind": "regola",
+          "it": "",
+          "uk": "Відмінювання 'Spedire' (ISC-група): Io spedisco, Tu spedisci, Lui/Lei spedisce.",
+          "note": ""
+        },
+        {
+          "kind": "esempio",
+          "it": "Spedisco un pacco a mia madre.",
+          "uk": "Відправляю посилку мамі.",
+          "note": ""
+        },
+        {
+          "kind": "esempio",
+          "it": "Vuole spedire con posta prioritaria?",
+          "uk": "Хочете відправити пріоритетною поштою?",
+          "note": ""
+        },
+        {
+          "kind": "regola",
+          "it": "",
+          "uk": "Вирази з 'Prendere / Ritirare': 'Ritirare un pacco' (Забрати посилку).",
+          "note": ""
+        },
+        {
+          "kind": "esempio",
+          "it": "Devo ritirare una raccomandata.",
+          "uk": "Мені потрібно отримати рекомендований лист.",
+          "note": ""
+        },
+        {
+          "kind": "esempio",
+          "it": "Dove posso ritirare il pacco?",
+          "uk": "Де я можу отримати посилку?",
+          "note": ""
+        },
+        {
+          "kind": "tip",
+          "it": "",
+          "uk": "Ticket al totem — при вході на терміналі обирають потрібний розділ: 'Spedizioni e Pacchi' (відправлення), 'Pagamenti' (квитанції/оплати) або 'Ritiro' (отримання).",
+          "note": ""
+        },
+        {
+          "kind": "tip",
+          "it": "",
+          "uk": "Raccomandata — рекомендований лист, який вручається під особистий підпис. Якщо вас не було вдома, листоноша залишає жовту картку 'Avviso di giacenza'.",
+          "note": ""
+        },
+        {
+          "kind": "tip",
+          "it": "",
+          "uk": "Bollettino — бланкова або штрихкодова квитанція для оплати комунальних послуг, штрафів та державних зборів.",
+          "note": ""
+        },
+        {
+          "kind": "cultura",
+          "it": "",
+          "uk": "Для отримання посилки чи рекомендованого листа на пошті обов'язково потрібно мати із собою закордонний паспорт або Carta d'identità та ваш Codice Fiscale.",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "day": 14,
+      "module": "Poste Italiane e Servizi Postali",
+      "title_uk": "Живий діалог: Оплата квитанції та відправка посилки",
+      "items": [
+        {
+          "kind": "contesto",
+          "it": "",
+          "uk": "Лаура бере талончик і підходить до віконця (sportello) після того, як її номер загорівся на табло.",
+          "note": ""
+        },
+        {
+          "kind": "cultura",
+          "it": "",
+          "uk": "Код відстеження називається 'Codice di tracciamento' або 'Numero di raccomandata'. Його можна ввести на сайті Poste Italiane у розділі 'Cerca spedizioni'.",
+          "note": ""
+        },
+        {
+          "kind": "npc",
+          "it": "Buongiorno! Numero P045! Mi dica, come posso aiutarla?",
+          "uk": "Доброго дня! Номер P045! Скажіть, чим можу допомогти?",
+          "note": "speaker: Impiegato"
+        },
+        {
+          "kind": "opzione/natural",
+          "it": "Buongiorno! Devo spedire questo pacco in Ucraina e pagare un bollettino.",
+          "uk": "Доброго дня! Мені потрібно відправити цю посилку в Україну і оплатити квитанцію.",
+          "note": "feedback UK: Доброго дня! Мені потрібно відправити цю посилку в Україну і оплатити квитанцію. | natural"
+        },
+        {
+          "kind": "opzione",
+          "it": "Devo ritirare la pensione e cambiare l’ISEE, per favore.",
+          "uk": "Мені треба отримати пенсію і змінити ISEE, будь ласка.",
+          "note": "feedback UK: Мені треба отримати пенсію і змінити ISEE, будь ласка."
+        },
+        {
+          "kind": "opzione",
+          "it": "Ciao, voglio comprare una pizza.",
+          "uk": "Привіт, хочу купити піцу.",
+          "note": "feedback UK: Привіт, хочу купити піцу."
+        },
+        {
+          "kind": "npc",
+          "it": "Sì, certo. Metta pure il pacco sulla bilancia. Vuole la spedizione standard o espressa?",
+          "uk": "Так, звісно. Покладіть посилку на ваги. Хочете стандартну чи експрес-відправку?",
+          "note": "speaker: Impiegato"
+        },
+        {
+          "kind": "opzione",
+          "it": "Non voglio pesare il pacco.",
+          "uk": "Я не хочу зважувати посилку.",
+          "note": "feedback UK: Я не хочу зважувати посилку."
+        },
+        {
+          "kind": "opzione/natural",
+          "it": "La spedizione standard va benissimo. Quanto tempo ci vuole per la consegna?",
+          "uk": "Стандартна відправка цілком підходить. Скільки часу займе доставка?",
+          "note": "feedback UK: Стандартна відправка цілком підходить. Скільки часу займе доставка? | natural"
+        },
+        {
+          "kind": "opzione",
+          "it": "Vorrei la spedizione più cara possibile, anche se arriva tra due mesi.",
+          "uk": "Хочу найдорожчу відправку, навіть якщо приїде через два місяці.",
+          "note": "feedback UK: Хочу найдорожчу відправку, навіть якщо приїде через два місяці."
+        },
+        {
+          "kind": "npc",
+          "it": "Di solito ci vogliono circa 7-10 giorni lavorativi. Ha già compilato il modulo con l'indirizzo del destinatario?",
+          "uk": "Зазвичай потрібно близько 7–10 робочих днів. Ви вже заповнили бланк з адресою одержувача?",
+          "note": "speaker: Impiegato"
+        },
+        {
+          "kind": "opzione",
+          "it": "Ho scritto solo il mio nome, il resto lo fate voi.",
+          "uk": "Я написав лише своє ім’я, решту зробите ви.",
+          "note": "feedback UK: Я написав лише своє ім’я, решту зробите ви."
+        },
+        {
+          "kind": "opzione",
+          "it": "No, non conosco l'indirizzo.",
+          "uk": "Ні, я не знаю адреси.",
+          "note": "feedback UK: Ні, я не знаю адреси."
+        },
+        {
+          "kind": "opzione/natural",
+          "it": "Sì, ho scritto tutto sul pacco: indirizzo, mittente e destinatario.",
+          "uk": "Так, я все написав на посилці: адресу, відправника і одержувача.",
+          "note": "feedback UK: Так, я все написав на посилці: адресу, відправника і одержувача. | natural"
+        },
+        {
+          "kind": "npc",
+          "it": "Perfetto. Adesso passiamo al bollettino. Può mostrarmi il documento d'identità?",
+          "uk": "Чудово. Тепер квитанція. Можете показати документ, що посвідчує особу?",
+          "note": "speaker: Impiegato"
+        },
+        {
+          "kind": "opzione",
+          "it": "Posso pagare il bollettino senza documento, è più veloce.",
+          "uk": "Можу оплатити квитанцію без документа, так швидше.",
+          "note": "feedback UK: Можу оплатити квитанцію без документа, так швидше."
+        },
+        {
+          "kind": "opzione/natural",
+          "it": "Certamente, ecco la mia carta d'identità e il codice fiscale.",
+          "uk": "Звісно, ось моє посвідчення особи і код фіскале.",
+          "note": "feedback UK: Звісно, ось моє посвідчення особи і код фіскале. | natural"
+        },
+        {
+          "kind": "opzione",
+          "it": "Ho solo la ricevuta del ristorante.",
+          "uk": "У мене лише чек із ресторану.",
+          "note": "feedback UK: У мене лише чек із ресторану."
+        },
+        {
+          "kind": "npc",
+          "it": "In totale sono 22 euro per il pacco e 45 euro per il bollettino. Paga in contanti o con la carta?",
+          "uk": "Разом 22 євро за посилку і 45 євро за квитанцію. Платите готівкою чи карткою?",
+          "note": "speaker: Impiegato"
+        },
+        {
+          "kind": "opzione/natural",
+          "it": "Pago con la carta, grazie.",
+          "uk": "Плачу карткою, дякую.",
+          "note": "feedback UK: Плачу карткою, дякую. | natural"
+        },
+        {
+          "kind": "opzione",
+          "it": "Pago la prossima settimana, ora non ho soldi.",
+          "uk": "Заплачу наступного тижня, зараз немає грошей.",
+          "note": "feedback UK: Заплачу наступного тижня, зараз немає грошей."
+        },
+        {
+          "kind": "opzione",
+          "it": "C'è lo sconto studente, vero? Allora pago solo un euro.",
+          "uk": "Є студентська знижка, так? Тоді плачу лише євро.",
+          "note": "feedback UK: Є студентська знижка, так? Тоді плачу лише євро."
+        },
+        {
+          "kind": "npc",
+          "it": "Ecco la ricevuta di pagamento e il codice di tracciamento per il pacco. Buona giornata!",
+          "uk": "Ось квитанція про оплату і код відстеження посилки. Гарного дня!",
+          "note": "speaker: Impiegato"
+        },
+        {
+          "kind": "opzione",
+          "it": "Il codice di tracciamento lo butto, non mi serve.",
+          "uk": "Код відстеження викину, він мені не потрібен.",
+          "note": "feedback UK: Код відстеження викину, він мені не потрібен."
+        },
+        {
+          "kind": "opzione",
+          "it": "Può consegnare il pacco a casa mia stasera a mano?",
+          "uk": "Можете доставити посилку мені додому сьогодні ввечері особисто?",
+          "note": "feedback UK: Можете доставити посилку мені додому сьогодні ввечері особисто?"
+        },
+        {
+          "kind": "opzione/natural",
+          "it": "Molte grazie! Buona giornata anche a lei.",
+          "uk": "Щиро дякую! І вам гарного дня.",
+          "note": "feedback UK: Щиро дякую! І вам гарного дня. | natural"
+        }
+      ]
+    },
+    {
+      "day": 15,
+      "module": "Poste Italiane e Servizi Postali",
+      "title_uk": "Boss Level 🏆: Симуляція візиту на пошту (Poste Italiane)",
+      "items": [
+        {
+          "kind": "contesto",
+          "it": "",
+          "uk": "Фінальний іспит модуля! Ви самостійно обираєте послугу в терміналі, спілкуєтеся з працівником пошти, відправляєте лист та сплачуєте квитанцію. Підказки та переклад вимкнено!",
+          "note": ""
+        },
+        {
+          "kind": "quiz_domanda",
+          "it": "",
+          "uk": "Що потрібно зробити одразу при вході до відділення Poste Italiane?",
+          "note": "id p1"
+        },
+        {
+          "kind": "quiz_opzione",
+          "it": "Взяти талончик (ticket) в електронному терміналі біля входу.",
+          "uk": "",
+          "note": "CORRETTA"
+        },
+        {
+          "kind": "quiz_opzione",
+          "it": "Одразу йти до віконця без черги.",
+          "uk": "",
+          "note": ""
+        },
+        {
+          "kind": "quiz_opzione",
+          "it": "Заплатити за вхід у касу.",
+          "uk": "",
+          "note": ""
+        },
+        {
+          "kind": "quiz_spiegazione",
+          "it": "",
+          "uk": "В Італії на пошті обов'язкова система електронної черги через термінал (totem).",
+          "note": ""
+        },
+        {
+          "kind": "quiz_domanda",
+          "it": "",
+          "uk": "Як сказати 'Мені потрібно відправити посилку' італійською?",
+          "note": "id p2"
+        },
+        {
+          "kind": "quiz_opzione",
+          "it": "Devo spedire un pacco.",
+          "uk": "",
+          "note": "CORRETTA"
+        },
+        {
+          "kind": "quiz_opzione",
+          "it": "Devo pagare un caffè.",
+          "uk": "",
+          "note": ""
+        },
+        {
+          "kind": "quiz_opzione",
+          "it": "Ho bisogno di un medico.",
+          "uk": "",
+          "note": ""
+        },
+        {
+          "kind": "quiz_spiegazione",
+          "it": "",
+          "uk": "'Spedire un pacco' = відправити посилку.",
+          "note": ""
+        },
+        {
+          "kind": "quiz_domanda",
+          "it": "",
+          "uk": "Що таке 'Raccomandata'?",
+          "note": "id p3"
+        },
+        {
+          "kind": "quiz_opzione",
+          "it": "Рекомендований лист, що вручається під особистий підпис з офіційним сповіщенням.",
+          "uk": "",
+          "note": "CORRETTA"
+        },
+        {
+          "kind": "quiz_opzione",
+          "it": "Звичайний рекламний буклет у поштовій скриньці.",
+          "uk": "",
+          "note": ""
+        },
+        {
+          "kind": "quiz_opzione",
+          "it": "Електронний чек з супермаркету.",
+          "uk": "",
+          "note": ""
+        },
+        {
+          "kind": "quiz_spiegazione",
+          "it": "",
+          "uk": "'Raccomandata' — офіційний рекомендований лист із юридичною силою.",
+          "note": ""
+        },
+        {
+          "kind": "quiz_domanda",
+          "it": "",
+          "uk": "Хто такий 'Mittente' на поштовому конверті чи коробці?",
+          "note": "id p4"
+        },
+        {
+          "kind": "quiz_opzione",
+          "it": "Відправник.",
+          "uk": "",
+          "note": "CORRETTA"
+        },
+        {
+          "kind": "quiz_opzione",
+          "it": "Одержувач.",
+          "uk": "",
+          "note": ""
+        },
+        {
+          "kind": "quiz_opzione",
+          "it": "Поштовий кур'єр.",
+          "uk": "",
+          "note": ""
+        },
+        {
+          "kind": "quiz_spiegazione",
+          "it": "",
+          "uk": "'Mittente' = відправник, а 'Destinatario' = одержувач.",
+          "note": ""
+        },
+        {
+          "kind": "quiz_domanda",
+          "it": "",
+          "uk": "Як називається номер для перевірки статусу та місцезнаходження посилки в інтернеті?",
+          "note": "id p5"
+        },
+        {
+          "kind": "quiz_opzione",
+          "it": "Il codice fiscale.",
+          "uk": "",
+          "note": ""
+        },
+        {
+          "kind": "quiz_opzione",
+          "it": "Il codice di tracciamento.",
+          "uk": "",
+          "note": "CORRETTA"
+        },
+        {
+          "kind": "quiz_opzione",
+          "it": "Il numero di telefono.",
+          "uk": "",
+          "note": ""
+        },
+        {
+          "kind": "quiz_spiegazione",
+          "it": "",
+          "uk": "'Codice di tracciamento' = трек-номер для відстеження.",
+          "note": ""
+        },
+        {
+          "kind": "successo_msg",
+          "it": "",
+          "uk": "Вітаємо! Ви вільно орієнтуєтеся в послугах Poste Italiane, можете відправляти посилки, рекомендовані листи та сплачувати квитанції!",
+          "note": ""
+        },
+        {
+          "kind": "badge",
+          "it": "",
+          "uk": "Експерт пошти ✉️",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "day": 16,
+      "module": "Patronato e Assistenza Sociale",
+      "title_uk": "У Патронаті: Документи, ISEE та дитячі виплати",
+      "items": [
+        {
+          "kind": "contesto",
+          "it": "",
+          "uk": "Марко та Лаура звертаються до офісу Patronato / CAF у своєму місті. В Італії Патронат — це безкоштовна або недорога соціальна служба, яка допомагає іноземцям та сім'ям оформлювати соціальні виплати, подавати декларації, оформлювати ISEE (індекс фінансового стану) та отримувати щомісячну допомогу на дитину (Assegno Unico Universale).",
+          "note": ""
+        },
+        {
+          "kind": "frase",
+          "it": "Vorrei fissare un appuntamento per fare il modello ISEE.",
+          "uk": "Я б хотів(ла) призначити зустріч для оформлення довідки ISEE.",
+          "note": ""
+        },
+        {
+          "kind": "frase",
+          "it": "Vorrei fare la domanda per l'Assegno Unico per mia figlia.",
+          "uk": "Я б хотів(ла) подати заявку на щомісячну допомогу на дитину.",
+          "note": ""
+        },
+        {
+          "kind": "frase",
+          "it": "Quali documenti servono per la richiesta?",
+          "uk": "Які документи потрібні для подання заяви?",
+          "note": ""
+        },
+        {
+          "kind": "frase",
+          "it": "Ho bisogno di aiuto per la dichiarazione dei redditi.",
+          "uk": "Мені потрібна допомога з податковою декларацією.",
+          "note": ""
+        },
+        {
+          "kind": "grammatica_titolo",
+          "it": "",
+          "uk": "Конструкції 'Fare la domanda' (подавати заяву) та 'Servono / Serve' (потрібно)",
+          "note": ""
+        },
+        {
+          "kind": "regola",
+          "it": "",
+          "uk": "Вирази з 'Fare': 'Fare la domanda' (подавати заяву), 'Fare l'ISEE' (робити розрахунок ISEE).",
+          "note": ""
+        },
+        {
+          "kind": "esempio",
+          "it": "Voglio fare la domanda per il bonus nido.",
+          "uk": "Хочу подати заяву на bonus nido.",
+          "note": ""
+        },
+        {
+          "kind": "esempio",
+          "it": "Devo fare l'ISEE aggiornato.",
+          "uk": "Мені потрібно зробити оновлений ISEE.",
+          "note": ""
+        },
+        {
+          "kind": "regola",
+          "it": "",
+          "uk": "Різниця 'Serve' (однина) / 'Servono' (множина): 'Потрібен / Потрібні'.",
+          "note": ""
+        },
+        {
+          "kind": "esempio",
+          "it": "Serve la carta d'identità?",
+          "uk": "Потрібне посвідчення особи?",
+          "note": ""
+        },
+        {
+          "kind": "esempio",
+          "it": "Servono tutti i documenti dei familiari.",
+          "uk": "Потрібні всі документи членів сім’ї.",
+          "note": ""
+        },
+        {
+          "kind": "tip",
+          "it": "",
+          "uk": "Patronato e CAF — установи, що допомагають безкоштовно або за символічну плату з податками, декретними виплатами, бонусами на дітей та пільгами.",
+          "note": ""
+        },
+        {
+          "kind": "tip",
+          "it": "",
+          "uk": "ISEE — це офіційний розрахунок фінансового стану родини. Він потрібен для отримання значних знижок на дитячий садок, шкільні обіди, комунальні бонуси та виплату Assegno Unico.",
+          "note": ""
+        },
+        {
+          "kind": "tip",
+          "it": "",
+          "uk": "Assegno Unico Universale — щомісячна фінансова допомога на кожну неповнолітню дитину в сім'ї.",
+          "note": ""
+        },
+        {
+          "kind": "cultura",
+          "it": "",
+          "uk": "Для подачі заяв у Patronato завжди беріть із собою діючі посвідчення особи (Carta d'Identità), Codice Fiscale усіх членів сім'ї та банківські реквізити (IBAN) для зарахування коштів.",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "day": 17,
+      "module": "Patronato e Assistenza Sociale",
+      "title_uk": "Живий діалог: Консультація та подача документів в Patronato",
+      "items": [
+        {
+          "kind": "contesto",
+          "it": "",
+          "uk": "Лаура приходить на прийом до консультанта Patronato (Operatore CAF) за попереднім записом, щоб оформити Assegno Unico на 3-річну доньку.",
+          "note": ""
+        },
+        {
+          "kind": "cultura",
+          "it": "",
+          "uk": "Більшість дитячих виплат та пільг обробляються державним органом INPS (Istituto Nazionale della Previdenza Sociale), а Patronato є офіційним посередником у передачі документів.",
+          "note": ""
+        },
+        {
+          "kind": "npc",
+          "it": "Buongiorno Signora! Prego, si accomodi. Aveva un appuntamento a nome Laura?",
+          "uk": "Доброго дня, синьйоро! Прошу, сідайте. У вас був запис на ім’я Лаура?",
+          "note": "speaker: Operatore CAF"
+        },
+        {
+          "kind": "opzione",
+          "it": "No, non ho appuntamento. Passavo per caso, faccio tutto adesso.",
+          "uk": "Ні, запису немає. Я зайшла випадково, зроблю все зараз.",
+          "note": "feedback UK: Ні, запису немає. Я зайшла випадково, зроблю все зараз."
+        },
+        {
+          "kind": "opzione",
+          "it": "Ciao, voglio i soldi per la spesa.",
+          "uk": "Привіт, хочу гроші на продукти.",
+          "note": "feedback UK: Привіт, хочу гроші на продукти."
+        },
+        {
+          "kind": "opzione/natural",
+          "it": "Buongiorno! Sì, esattamente. Ho la prenotazione per le 10:00.",
+          "uk": "Доброго дня! Так, саме так. У мене бронювання на 10:00.",
+          "note": "feedback UK: Доброго дня! Так, саме так. У мене бронювання на 10:00. | natural"
+        },
+        {
+          "kind": "npc",
+          "it": "Bene. In cosa posso aiutarla oggi?",
+          "uk": "Добре. Чим сьогодні можу допомогти?",
+          "note": "speaker: Operatore CAF"
+        },
+        {
+          "kind": "opzione",
+          "it": "Vorrei solo una copia della carta d’identità, niente pratiche.",
+          "uk": "Хочу лише копію посвідчення особи, без жодних заяв.",
+          "note": "feedback UK: Хочу лише копію посвідчення особи, без жодних заяв."
+        },
+        {
+          "kind": "opzione/natural",
+          "it": "Vorrei fare la domanda per l'Assegno Unico per mia figlia di 3 anni. Ho già fatto l'ISEE.",
+          "uk": "Я хотіла б подати заяву на Assegno Unico для моєї 3-річної доньки. ISEE я вже зробила.",
+          "note": "feedback UK: Я хотіла б подати заяву на Assegno Unico для моєї 3-річної доньки. ISEE я вже зробила. | natural"
+        },
+        {
+          "kind": "opzione",
+          "it": "Devo spedire un pacco in Ucraina.",
+          "uk": "Мені треба відправити посилку в Україну.",
+          "note": "feedback UK: Мені треба відправити посилку в Україну."
+        },
+        {
+          "kind": "npc",
+          "it": "Ottimo! Se ha già l'ISEE è tutto più semplice. Mi mostra i documenti d'identità e i codici fiscali?",
+          "uk": "Чудово! Якщо ISEE вже є, усе простіше. Покажете документи й коди fiscale?",
+          "note": "speaker: Operatore CAF"
+        },
+        {
+          "kind": "opzione/natural",
+          "it": "Certamente! Ecco la mia Carta d'Identità, il Codice Fiscale mio e di mia figlia, e il modello ISEE.",
+          "uk": "Звісно! Ось моє посвідчення особи, мій код фіскале і доньки, і модель ISEE.",
+          "note": "feedback UK: Звісно! Ось моє посвідчення особи, мій код фіскале і доньки, і модель ISEE. | natural"
+        },
+        {
+          "kind": "opzione",
+          "it": "Non ho nessun documento con me.",
+          "uk": "У мене з собою немає жодного документа.",
+          "note": "feedback UK: У мене з собою немає жодного документа."
+        },
+        {
+          "kind": "opzione",
+          "it": "Ho solo lo scontrino del bar, i documenti sono in auto.",
+          "uk": "У мене лише чек із бару, документи в машині.",
+          "note": "feedback UK: У мене лише чек із бару, документи в машині."
+        },
+        {
+          "kind": "npc",
+          "it": "Perfetto. Mi serve anche l'IBAN del suo conto corrente per il pagamento mensile. È intestato a lei?",
+          "uk": "Чудово. Потрібен також IBAN вашого поточного рахунку для щомісячної виплати. Він на ваше ім’я?",
+          "note": "speaker: Operatore CAF"
+        },
+        {
+          "kind": "opzione",
+          "it": "Pago in contanti alla cassa.",
+          "uk": "Плачу готівкою на касі.",
+          "note": "feedback UK: Плачу готівкою на касі."
+        },
+        {
+          "kind": "opzione",
+          "it": "L’IBAN è di un amico, lui ritira i soldi per me.",
+          "uk": "IBAN друга, він отримує гроші за мене.",
+          "note": "feedback UK: IBAN друга, він отримує гроші за мене."
+        },
+        {
+          "kind": "opzione/natural",
+          "it": "Sì, il conto è intestato a me. Ecco il codice IBAN del mio conto bancario.",
+          "uk": "Так, рахунок на моє ім’я. Ось код IBAN мого банківського рахунку.",
+          "note": "feedback UK: Так, рахунок на моє ім’я. Ось код IBAN мого банківського рахунку. | natural"
+        },
+        {
+          "kind": "npc",
+          "it": "Benissimo. Sto inserendo i dati nel sistema INPS. Deve solo firmare questa ricevuta e il modulo di delega.",
+          "uk": "Дуже добре. Вношу дані в систему INPS. Потрібно лише підписати цю квитанцію і бланк доручення.",
+          "note": "speaker: Operatore CAF"
+        },
+        {
+          "kind": "opzione/natural",
+          "it": "Va benissimo, dove devo firmare?",
+          "uk": "Добре, де мені підписати?",
+          "note": "feedback UK: Добре, де мені підписати? | natural"
+        },
+        {
+          "kind": "opzione",
+          "it": "Firmi lei al posto mio, io ho fretta.",
+          "uk": "Підпишіть ви замість мене, я поспішаю.",
+          "note": "feedback UK: Підпишіть ви замість мене, я поспішаю."
+        },
+        {
+          "kind": "opzione",
+          "it": "Non firmo niente senza il notaio e tre testimoni.",
+          "uk": "Нічого не підписую без нотаріуса і трьох свідків.",
+          "note": "feedback UK: Нічого не підписую без нотаріуса і трьох свідків."
+        },
+        {
+          "kind": "npc",
+          "it": "Ecco qui la copia della domanda inviata. Il pagamento arriverà il mese prossimo sul suo conto. Buona giornata!",
+          "uk": "Ось копія надісланої заяви. Виплата надійде наступного місяця на ваш рахунок. Гарного дня!",
+          "note": "speaker: Operatore CAF"
+        },
+        {
+          "kind": "opzione",
+          "it": "I soldi arrivano oggi in contanti, vero? Li aspetto qui.",
+          "uk": "Гроші прийдуть сьогодні готівкою, так? Почекаю тут.",
+          "note": "feedback UK: Гроші прийдуть сьогодні готівкою, так? Почекаю тут."
+        },
+        {
+          "kind": "opzione/natural",
+          "it": "La ringrazio molto per l'aiuto! Buona giornata e buon lavoro.",
+          "uk": "Щиро дякую за допомогу! Гарного дня і успіхів у роботі.",
+          "note": "feedback UK: Щиро дякую за допомогу! Гарного дня і успіхів у роботі. | natural"
+        },
+        {
+          "kind": "opzione",
+          "it": "Mandi l’Assegno Unico a un altro CAF, cambio idea.",
+          "uk": "Надішліть Assegno Unico в інший CAF, я передумала.",
+          "note": "feedback UK: Надішліть Assegno Unico в інший CAF, я передумала."
+        }
+      ]
+    },
+    {
+      "day": 18,
+      "module": "Patronato e Assistenza Sociale",
+      "title_uk": "Boss Level 🏆: Симуляція оформлення допомоги у Patronato",
+      "items": [
+        {
+          "kind": "contesto",
+          "it": "",
+          "uk": "Фінальний іспит модуля! Ви самостійно приходите на прийом у Patronato/CAF, подаєте документи для ISEE та виплат на дитину. Підказки та переклад вимкнено!",
+          "note": ""
+        },
+        {
+          "kind": "quiz_domanda",
+          "it": "",
+          "uk": "Що таке довідка 'ISEE' в Італії?",
+          "note": "id p1"
+        },
+        {
+          "kind": "quiz_opzione",
+          "it": "Офіційний розрахунок фінансового стану родини для отримання пільг та допомог.",
+          "uk": "",
+          "note": "CORRETTA"
+        },
+        {
+          "kind": "quiz_opzione",
+          "it": "Квитанція за проїзд у міському транспорті.",
+          "uk": "",
+          "note": ""
+        },
+        {
+          "kind": "quiz_opzione",
+          "it": "Рецепт від сімейного лікаря.",
+          "uk": "",
+          "note": ""
+        },
+        {
+          "kind": "quiz_spiegazione",
+          "it": "",
+          "uk": "ISEE — показник майнового стану для розрахунку соціальних пільг.",
+          "note": ""
+        },
+        {
+          "kind": "quiz_domanda",
+          "it": "",
+          "uk": "Як називається щомісячна державна допомога на дитину в Італії?",
+          "note": "id p2"
+        },
+        {
+          "kind": "quiz_opzione",
+          "it": "L'Assegno Unico Universale.",
+          "uk": "",
+          "note": "CORRETTA"
+        },
+        {
+          "kind": "quiz_opzione",
+          "it": "Codice Fiscale.",
+          "uk": "",
+          "note": ""
+        },
+        {
+          "kind": "quiz_opzione",
+          "it": "Le spese condominiali.",
+          "uk": "",
+          "note": ""
+        },
+        {
+          "kind": "quiz_spiegazione",
+          "it": "",
+          "uk": "'Assegno Unico' — головна виплата на дітей у країні.",
+          "note": ""
+        },
+        {
+          "kind": "quiz_domanda",
+          "it": "",
+          "uk": "Як сказати консультанту 'Я б хотів(ла) подати заявку на виплату на дитину'?",
+          "note": "id p3"
+        },
+        {
+          "kind": "quiz_opzione",
+          "it": "Vorrei fare la domanda per l'Assegno Unico.",
+          "uk": "",
+          "note": "CORRETTA"
+        },
+        {
+          "kind": "quiz_opzione",
+          "it": "Vorrei prenotare un tavolo per stasera.",
+          "uk": "",
+          "note": ""
+        },
+        {
+          "kind": "quiz_opzione",
+          "it": "Ho bisogno di un'acqua frizzante.",
+          "uk": "",
+          "note": ""
+        },
+        {
+          "kind": "quiz_spiegazione",
+          "it": "",
+          "uk": "'Fare la domanda' = подати заявку.",
+          "note": ""
+        },
+        {
+          "kind": "quiz_domanda",
+          "it": "",
+          "uk": "Який реквізит потрібен для зарахування щомісячних виплат від INPS?",
+          "note": "id p4"
+        },
+        {
+          "kind": "quiz_opzione",
+          "it": "Код IBAN банківського рахунку.",
+          "uk": "",
+          "note": "CORRETTA"
+        },
+        {
+          "kind": "quiz_opzione",
+          "it": "Номер чека з супермаркету.",
+          "uk": "",
+          "note": ""
+        },
+        {
+          "kind": "quiz_opzione",
+          "it": "Індекс поштового відділення.",
+          "uk": "",
+          "note": ""
+        },
+        {
+          "kind": "quiz_spiegazione",
+          "it": "",
+          "uk": "Виплати перераховуються на банківський рахунок за кодом IBAN.",
+          "note": ""
+        },
+        {
+          "kind": "quiz_domanda",
+          "it": "",
+          "uk": "Як запитати консультанта: «Які документи потрібні для подання заяви?»",
+          "note": "id p5"
+        },
+        {
+          "kind": "quiz_opzione",
+          "it": "Quali documenti servono per la richiesta?",
+          "uk": "",
+          "note": "CORRETTA"
+        },
+        {
+          "kind": "quiz_opzione",
+          "it": "Quanto costa la pizza margherita?",
+          "uk": "",
+          "note": ""
+        },
+        {
+          "kind": "quiz_opzione",
+          "it": "Dove si trova la stazione di Treviso?",
+          "uk": "",
+          "note": ""
+        },
+        {
+          "kind": "quiz_spiegazione",
+          "it": "",
+          "uk": "'Quali documenti servono...?' = 'Які документи потрібні...?'",
+          "note": ""
+        },
+        {
+          "kind": "successo_msg",
+          "it": "",
+          "uk": "Вітаємо! Ви повністю орієнтуєтеся у функціях Patronato/CAF, знаєте, як оформити ISEE, Assegno Unico та працювати із соціальними виплатами в Італії!",
+          "note": ""
+        },
+        {
+          "kind": "badge",
+          "it": "",
+          "uk": "Експерт Патронату 📋",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "day": 19,
+      "module": "Il Bar Italiano e il Caffè",
+      "title_uk": "У барі: Кавова культура, випічка та оплата на касі",
+      "items": [
+        {
+          "kind": "contesto",
+          "it": "",
+          "uk": "Марко та Лаура заходять до місцевого бару на ранковий сніданок (colazione). В Італії бар — це не нічний заклад, а головне місце для ранкової кави, зустрічей з сусідами та легкого перекусу. Тут є важливе правило: спочатку часто платять на касі, отримують чек (scontrino), а потім з ним підходять до стійки (al banco).",
+          "note": ""
+        },
+        {
+          "kind": "frase",
+          "it": "Vorrei un caffè espresso e un cornetto alla crema, per favore.",
+          "uk": "Я хотів би еспресо та круасан із кремом, будь ласка.",
+          "note": ""
+        },
+        {
+          "kind": "frase",
+          "it": "Possiamo sederci al tavolo o si paga di più?",
+          "uk": "Ми можемо сісти за столик чи це коштує дорожче?",
+          "note": ""
+        },
+        {
+          "kind": "frase",
+          "it": "Vorrei un macchiato caldo e un bicchiere d'acqua, grazie.",
+          "uk": "Я хотів би гаряче макіато та склянку води, дякую.",
+          "note": ""
+        },
+        {
+          "kind": "frase",
+          "it": "Faccio prima lo scontrino alla cassa?",
+          "uk": "Мені спочатку вибити чек на касі?",
+          "note": ""
+        },
+        {
+          "kind": "grammatica_titolo",
+          "it": "",
+          "uk": "Різновиди кави та прийменник 'con' / 'senza'",
+          "note": ""
+        },
+        {
+          "kind": "regola",
+          "it": "",
+          "uk": "Основні види кави: Caffè (еспресо), Macchiato (еспресо з краплею молока), Decaffeinato (без кофеїну), Cappuccino.",
+          "note": ""
+        },
+        {
+          "kind": "esempio",
+          "it": "Vorrei un decaffeinato, per favore.",
+          "uk": "Я хотів би декаф, будь ласка.",
+          "note": ""
+        },
+        {
+          "kind": "esempio",
+          "it": "Vorrei un macchiato freddo.",
+          "uk": "Я хотів би холодне макіато.",
+          "note": ""
+        },
+        {
+          "kind": "regola",
+          "it": "",
+          "uk": "Уточнення складників: 'Con' (з) та 'Senza' (без).",
+          "note": ""
+        },
+        {
+          "kind": "esempio",
+          "it": "Vorrei un cappuccino con latte di avena.",
+          "uk": "Я хотів би капучино з вівсяним молоком.",
+          "note": ""
+        },
+        {
+          "kind": "esempio",
+          "it": "Vorrei un cornetto senza zucchero.",
+          "uk": "Я хотів би круасан без цукру.",
+          "note": ""
+        },
+        {
+          "kind": "tip",
+          "it": "",
+          "uk": "Al banco vs Al tavolo — пити каву біля стійки (al banco) дешевше, ніж за столиком (al tavolo), де додається плата за обслуговування.",
+          "note": ""
+        },
+        {
+          "kind": "tip",
+          "it": "",
+          "uk": "Prima la cassa — у багатьох популярних барах спочатку замовляють і оплачують на касі, а потім віддають чек бариста зі словами 'Un caffè, per favore'.",
+          "note": ""
+        },
+        {
+          "kind": "tip",
+          "it": "",
+          "uk": "Cornetto / Brioche — італійський круасан. На півночі Італії його частіше називають 'brioche', а в центрі та на півдні — 'cornetto'.",
+          "note": ""
+        },
+        {
+          "kind": "cultura",
+          "it": "",
+          "uk": "В Італії до кави біля стійки часто безкоштовно подають маленьку склянку води (un bicchierino d'acqua). Якщо її не дали, можна просто ввічливо попросити: 'Un bicchiere d'acqua, per favore'.",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "day": 20,
+      "module": "Il Bar Italiano e il Caffè",
+      "title_uk": "Живий діалог: Ранкова кава та замовлення біля стійки",
+      "items": [
+        {
+          "kind": "contesto",
+          "it": "",
+          "uk": "Марко підходить до каси бару, купує чек, а потім замовляє сніданок у бариста біля стійки.",
+          "note": ""
+        },
+        {
+          "kind": "cultura",
+          "it": "",
+          "uk": "Чайові (mancia) в італійських барах не є обов'язковими. Проте люди часто залишають монету 20 або 50 центів на чеку біля стійки як знак подяки.",
+          "note": ""
+        },
+        {
+          "kind": "npc",
+          "it": "Buongiorno! Cosa le preparo?",
+          "uk": "Доброго дня! Що вам приготувати?",
+          "note": "speaker: Cassiera"
+        },
+        {
+          "kind": "opzione/natural",
+          "it": "Buongiorno! Vorrei un cappuccino, un caffè macchiato e due brioche.",
+          "uk": "Доброго дня! Я хотів би капучино, каву макіато і дві бріоші.",
+          "note": "feedback UK: Доброго дня! Я хотів би капучино, каву макіато і дві бріоші. | natural"
+        },
+        {
+          "kind": "opzione",
+          "it": "Vorrei un pranzo di tre portate e il conto separato per dieci.",
+          "uk": "Хочу обід із трьох страв і окремий рахунок на десятьох.",
+          "note": "feedback UK: Хочу обід із трьох страв і окремий рахунок на десятьох."
+        },
+        {
+          "kind": "opzione",
+          "it": "Ciao, dammi una pizza grande.",
+          "uk": "Привіт, дай велику піцу.",
+          "note": "feedback UK: Привіт, дай велику піцу."
+        },
+        {
+          "kind": "npc",
+          "it": "Perfetto. Le brioche come le preferisce? Abbiamo vuote, alla marmellata o al cioccolato?",
+          "uk": "Чудово. Які бріоші бажаєте? Є порожні, з джемом або з шоколадом.",
+          "note": "speaker: Cassiera"
+        },
+        {
+          "kind": "opzione",
+          "it": "Voglio il codice fiscale.",
+          "uk": "Хочу код фіскале.",
+          "note": "feedback UK: Хочу код фіскале."
+        },
+        {
+          "kind": "opzione/natural",
+          "it": "Vorrei una alla marmellata e una al cioccolato, per favore.",
+          "uk": "Одну з джемом і одну з шоколадом, будь ласка.",
+          "note": "feedback UK: Одну з джемом і одну з шоколадом, будь ласка. | natural"
+        },
+        {
+          "kind": "opzione",
+          "it": "Tutte e due vuote, ma con panna e nutella sopra, da asporto caldo.",
+          "uk": "Обидві порожні, але зі збитими вершками і нутеллою зверху, на виніс гарячими.",
+          "note": "feedback UK: Обидві порожні, але зі збитими вершками і нутеллою зверху, на виніс гарячими."
+        },
+        {
+          "kind": "npc",
+          "it": "Sono 5 euro e 20 in totale. Prego, ecco lo scontrino. Può lasciarlo al banco.",
+          "uk": "Разом 5 євро 20. Прошу, ось чек. Можете залишити його на стійці.",
+          "note": "speaker: Cassiera"
+        },
+        {
+          "kind": "opzione",
+          "it": "Porti tutto al tavolo con il servizio al tavolo, come al ristorante.",
+          "uk": "Несіть усе за столик з обслуговуванням, як у ресторані.",
+          "note": "feedback UK: Несіть усе за столик з обслуговуванням, як у ресторані."
+        },
+        {
+          "kind": "opzione",
+          "it": "Lo scontrino lo lascio a casa, vado al tavolo senza pagare.",
+          "uk": "Чек залишу вдома, піду за столик не платячи.",
+          "note": "feedback UK: Чек залишу вдома, піду за столик не платячи."
+        },
+        {
+          "kind": "opzione/natural",
+          "it": "Grazie mille! Vado subito al banco.",
+          "uk": "Дуже дякую! Зараз іду до стійки.",
+          "note": "feedback UK: Дуже дякую! Зараз іду до стійки. | natural"
+        },
+        {
+          "kind": "npc",
+          "it": "Buongiorno! Mi lascia pure lo scontrino. Il macchiato lo preferisce caldo o freddo?",
+          "uk": "Доброго дня! Залиште чек. Макіато хочете гаряче чи холодне?",
+          "note": "speaker: Barista"
+        },
+        {
+          "kind": "opzione",
+          "it": "Vorrei un macchiato ghiacciato con panna e sciroppo, e niente acqua.",
+          "uk": "Хочу макіато з льодом, вершками і сиропом, і без води.",
+          "note": "feedback UK: Хочу макіато з льодом, вершками і сиропом, і без води."
+        },
+        {
+          "kind": "opzione/natural",
+          "it": "Vorrei il macchiato caldo, per favore. E possiamo avere anche due bicchieri d'acqua naturale?",
+          "uk": "Макіато гаряче, будь ласка. І можна ще дві склянки негазованої води?",
+          "note": "feedback UK: Макіато гаряче, будь ласка. І можна ще дві склянки негазованої води? | natural"
+        },
+        {
+          "kind": "opzione",
+          "it": "Non voglio il caffè.",
+          "uk": "Я не хочу каву.",
+          "note": "feedback UK: Я не хочу каву."
+        },
+        {
+          "kind": "npc",
+          "it": "Ecco a lei! Un cappuccino, un macchiato caldo, le due brioche e l'acqua. Buon appetito!",
+          "uk": "Ось вам! Капучино, гаряче макіато, дві бріоші і вода. Смачного!",
+          "note": "speaker: Barista"
+        },
+        {
+          "kind": "opzione/natural",
+          "it": "Grazie mille, gentilissimo! Buona giornata.",
+          "uk": "Дуже дякую, дуже люб’язно! Гарного дня.",
+          "note": "feedback UK: Дуже дякую, дуже люб’язно! Гарного дня. | natural"
+        },
+        {
+          "kind": "opzione",
+          "it": "Il cappuccino è troppo italiano, lo cambio con una pizza.",
+          "uk": "Капучино занадто італійський, міняю на піцу.",
+          "note": "feedback UK: Капучино занадто італійський, міняю на піцу."
+        },
+        {
+          "kind": "opzione",
+          "it": "Non dico grazie, qui non si usa.",
+          "uk": "Не кажу дякую, тут так не заведено.",
+          "note": "feedback UK: Не кажу дякую, тут так не заведено."
+        }
+      ]
+    },
+    {
+      "day": 21,
+      "module": "Il Bar Italiano e il Caffè",
+      "title_uk": "Boss Level 🏆: Симуляція замовлення в італійському барі",
+      "items": [
+        {
+          "kind": "contesto",
+          "it": "",
+          "uk": "Фінальний іспит модуля! Ви самостійно замовляєте каву та випічку, спілкуєтеся з касиром та бариста біля стійки. Підказки та переклад вимкнено!",
+          "note": ""
+        },
+        {
+          "kind": "quiz_domanda",
+          "it": "",
+          "uk": "Чому пити каву біля стійки (al banco) зазвичай дешевше, ніж за столиком (al tavolo)?",
+          "note": "id p1"
+        },
+        {
+          "kind": "quiz_opzione",
+          "it": "Тому що за столиком ви сплачуєте додатковий збір за обслуговування (servizio).",
+          "uk": "",
+          "note": "CORRETTA"
+        },
+        {
+          "kind": "quiz_opzione",
+          "it": "Тому що біля стійки подають меншу порцію кави.",
+          "uk": "",
+          "note": ""
+        },
+        {
+          "kind": "quiz_opzione",
+          "it": "Тому що за столиком кава завжди холодніша.",
+          "uk": "",
+          "note": ""
+        },
+        {
+          "kind": "quiz_spiegazione",
+          "it": "",
+          "uk": "Обслуговування за столиком включає надбавку 'servizio al tavolo'.",
+          "note": ""
+        },
+        {
+          "kind": "quiz_domanda",
+          "it": "",
+          "uk": "Що таке 'Caffè Macchiato'?",
+          "note": "id p2"
+        },
+        {
+          "kind": "quiz_opzione",
+          "it": "Еспресо з додаванням невеликої кількості збитого молока.",
+          "uk": "",
+          "note": "CORRETTA"
+        },
+        {
+          "kind": "quiz_opzione",
+          "it": "Велика склянка гарячого молока без кави.",
+          "uk": "",
+          "note": ""
+        },
+        {
+          "kind": "quiz_opzione",
+          "it": "Холодний кавовий коктейль із лікером.",
+          "uk": "",
+          "note": ""
+        },
+        {
+          "kind": "quiz_spiegazione",
+          "it": "",
+          "uk": "'Macchiato' означає 'плямистий' — еспресо з краплею молока.",
+          "note": ""
+        },
+        {
+          "kind": "quiz_domanda",
+          "it": "",
+          "uk": "Як попросити круасан із шоколадом італійською?",
+          "note": "id p3"
+        },
+        {
+          "kind": "quiz_opzione",
+          "it": "Un cornetto / una brioche al cioccolato.",
+          "uk": "",
+          "note": "CORRETTA"
+        },
+        {
+          "kind": "quiz_opzione",
+          "it": "Un bollettino postale.",
+          "uk": "",
+          "note": ""
+        },
+        {
+          "kind": "quiz_opzione",
+          "it": "Un'acqua frizzante senza bicchiere.",
+          "uk": "",
+          "note": ""
+        },
+        {
+          "kind": "quiz_spiegazione",
+          "it": "",
+          "uk": "'Cornetto al cioccolato' = круасан із шоколадом.",
+          "note": ""
+        },
+        {
+          "kind": "quiz_domanda",
+          "it": "",
+          "uk": "Що потрібно зробити з чеком (scontrino) біля стійки бариста?",
+          "note": "id p4"
+        },
+        {
+          "kind": "quiz_opzione",
+          "it": "Покласти його на стійку (lasciare al banco), щоб бариста бачив замовлення.",
+          "uk": "",
+          "note": "CORRETTA"
+        },
+        {
+          "kind": "quiz_opzione",
+          "it": "Сховати у гаманець і нікому не показувати.",
+          "uk": "",
+          "note": ""
+        },
+        {
+          "kind": "quiz_opzione",
+          "it": "Віддати іншому покупцю.",
+          "uk": "",
+          "note": ""
+        },
+        {
+          "kind": "quiz_spiegazione",
+          "it": "",
+          "uk": "Чек залишають на стійці як підтвердження оплати.",
+          "note": ""
+        },
+        {
+          "kind": "quiz_domanda",
+          "it": "",
+          "uk": "Як ввічливо попросити склянку води до кави?",
+          "note": "id p5"
+        },
+        {
+          "kind": "quiz_opzione",
+          "it": "Un bicchiere d'acqua, per favore.",
+          "uk": "",
+          "note": "CORRETTA"
+        },
+        {
+          "kind": "quiz_opzione",
+          "it": "Vorrei fare la domanda per l'ISEE.",
+          "uk": "",
+          "note": ""
+        },
+        {
+          "kind": "quiz_opzione",
+          "it": "Quanto costa l'affitto mensile?",
+          "uk": "",
+          "note": ""
+        },
+        {
+          "kind": "quiz_spiegazione",
+          "it": "",
+          "uk": "'Un bicchiere d'acqua, per favore' = 'Склянку води, будь ласка'.",
+          "note": ""
+        },
+        {
+          "kind": "successo_msg",
+          "it": "",
+          "uk": "Вітаємо! Ви досконало засвоїли кавову культуру Італії, вільно замовляєте сніданок біля стійки та знаєте всі тонкощі бару!",
+          "note": ""
+        },
+        {
+          "kind": "badge",
+          "it": "",
+          "uk": "Майстер кави ☕",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "day": 22,
+      "module": "Fare la Spesa al Supermercato",
+      "title_uk": "У супермаркеті: Ваги, відділи та продукти",
+      "items": [
+        {
+          "kind": "contesto",
+          "it": "",
+          "uk": "Марко та Лаура йдуть до місцевого супермаркету в Тревізо, щоб закупити продукти на тиждень. В Італії є важливі правила купівельного етикету: овочі та фрукти обов'язково треба зважувати самостійно, надягаючи одноразові рукавички (guanti monouso), а біля гастрономічного відділу (banco gastronomia) часто потрібно брати номер у черзі (biglietto).",
+          "note": ""
+        },
+        {
+          "kind": "frase",
+          "it": "Dove posso trovare l'olio d'oliva?",
+          "uk": "Де я можу знайти оливкову олію?",
+          "note": ""
+        },
+        {
+          "kind": "frase",
+          "it": "Devo pesare la frutta qui o alla cassa?",
+          "uk": "Мені потрібно зважувати фрукти тут чи на касі?",
+          "note": ""
+        },
+        {
+          "kind": "frase",
+          "it": "Vorrei duecento grammi di prosciutto crudo, per favore.",
+          "uk": "Я б хотів(ла) двісті грамів прошутто крудо, будь ласка.",
+          "note": ""
+        },
+        {
+          "kind": "frase",
+          "it": "Ha la carta fedeltà / carta fidaty?",
+          "uk": "У вас є картка лояльності / дисконтна картка?",
+          "note": ""
+        },
+        {
+          "kind": "grammatica_titolo",
+          "it": "",
+          "uk": "Одиниці виміру 'Un etto / Due etti' та вказівні займенники 'Questo / Quello'",
+          "note": ""
+        },
+        {
+          "kind": "regola",
+          "it": "",
+          "uk": "Замовлення за вагою: 'Un etto' (100г), 'Due etti' (200г), 'Un chilo' (1кг).",
+          "note": ""
+        },
+        {
+          "kind": "esempio",
+          "it": "Vorrei un etto di parmigiano.",
+          "uk": "Я хотів би етто пармезану.",
+          "note": ""
+        },
+        {
+          "kind": "esempio",
+          "it": "Prendo due etti di prosciutto cotto.",
+          "uk": "Візьму два етто вареної шинки.",
+          "note": ""
+        },
+        {
+          "kind": "regola",
+          "it": "",
+          "uk": "Вказування на товар: 'Questo' (цей поруч) / 'Quello' (той далі).",
+          "note": ""
+        },
+        {
+          "kind": "esempio",
+          "it": "Mi dà questo pezzo di formaggio?",
+          "uk": "Дасте цей шматок сиру?",
+          "note": ""
+        },
+        {
+          "kind": "esempio",
+          "it": "Vorrei quello a fette.",
+          "uk": "Я хотів би нарізаний скибками.",
+          "note": ""
+        },
+        {
+          "kind": "tip",
+          "it": "",
+          "uk": "Для вибору свіжих овочів та фруктів обов'язково одягайте пластикові рукавички (guanti) з гігієнічних міркувань.",
+          "note": ""
+        },
+        {
+          "kind": "tip",
+          "it": "",
+          "uk": "На вагах зазвичай вказано номер товару, який ви бачите на ціннику (наприклад, Tasto 14). Вставляти номер треба самостійно й наклеювати наліпку на пакет.",
+          "note": ""
+        },
+        {
+          "kind": "tip",
+          "it": "",
+          "uk": "У відділі м'яса та сирів (Banco Gastronomia) замовляють за вагою в грамах: 'Un etto' = 100 грамів, 'Due etti' = 200 грамів.",
+          "note": ""
+        },
+        {
+          "kind": "cultura",
+          "it": "",
+          "uk": "Пакет на касі в Італії купується окремо та називається 'sacchetto' або 'busta'. Багато італійців ходять за покупками зі своїми багаторазовими сумками (borse della spesa).",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "day": 23,
+      "module": "Fare la Spesa al Supermercato",
+      "title_uk": "Живий діалог: На касі та у відділі гастрономії",
+      "items": [
+        {
+          "kind": "contesto",
+          "it": "",
+          "uk": "Марко підходить до гастрономічного відділу (banco frigo/gastronomia), а потім прямує на касу (cassa).",
+          "note": ""
+        },
+        {
+          "kind": "cultura",
+          "it": "",
+          "uk": "'Lo scontrino' (чек) обов'язково потрібно зберігати до виходу з супермаркету чи магазину — у разі перевірки фінансовою поліцією його можуть попросити показати.",
+          "note": ""
+        },
+        {
+          "kind": "npc",
+          "it": "Buongiorno! Chi è il prossimo? Numero 42!",
+          "uk": "Доброго дня! Хто наступний? Номер 42!",
+          "note": "speaker: Commesso"
+        },
+        {
+          "kind": "opzione",
+          "it": "Il numero non conta, passo avanti perché ho fretta.",
+          "uk": "Номер не важливий, проходжу вперед, бо поспішаю.",
+          "note": "feedback UK: Номер не важливий, проходжу вперед, бо поспішаю."
+        },
+        {
+          "kind": "opzione",
+          "it": "Ciao, voglio formaggio subito.",
+          "uk": "Привіт, хочу сир зараз.",
+          "note": "feedback UK: Привіт, хочу сир зараз."
+        },
+        {
+          "kind": "opzione/natural",
+          "it": "Buongiorno! Sono io il numero 42.",
+          "uk": "Доброго дня! Це я, номер 42.",
+          "note": "feedback UK: Доброго дня! Це я, номер 42. | natural"
+        },
+        {
+          "kind": "npc",
+          "it": "Dica pure, cosa le preparo?",
+          "uk": "Кажіть, що вам приготувати?",
+          "note": "speaker: Commesso"
+        },
+        {
+          "kind": "opzione",
+          "it": "Vorrei un chilo di latte e due bottiglie di pane, tagliati sottili.",
+          "uk": "Хочу кіло молока і дві пляшки хліба, тонко нарізані.",
+          "note": "feedback UK: Хочу кіло молока і дві пляшки хліба, тонко нарізані."
+        },
+        {
+          "kind": "opzione/natural",
+          "it": "Vorrei due etti di prosciutto di Parma e un pezzo di Parmigiano Reggiano, per favore.",
+          "uk": "Я хотів би два етто пармської шинки і шматок пармезану Реджано, будь ласка.",
+          "note": "feedback UK: Я хотів би два етто пармської шинки і шматок пармезану Реджано, будь ласка. | natural"
+        },
+        {
+          "kind": "opzione",
+          "it": "Dammi tre litri di prosciutto.",
+          "uk": "Дай три літри шинки.",
+          "note": "feedback UK: Дай три літри шинки."
+        },
+        {
+          "kind": "npc",
+          "it": "Lo taglio sottile, il prosciutto? E per il Parmigiano va bene questo pezzo da trecento grammi?",
+          "uk": "Нарізати шинку тонко? А пармезан — підходить цей шматок на триста грамів?",
+          "note": "speaker: Commesso"
+        },
+        {
+          "kind": "opzione/natural",
+          "it": "Sì, il prosciutto lo voglio tagliato sottile. E il pezzo di formaggio va benissimo, grazie.",
+          "uk": "Так, шинку тонко. І шматок сиру цілком підходить, дякую.",
+          "note": "feedback UK: Так, шинку тонко. І шматок сиру цілком підходить, дякую. | natural"
+        },
+        {
+          "kind": "opzione",
+          "it": "No, non mi piace l'Anagrafe.",
+          "uk": "Ні, мені не подобається Anagrafe.",
+          "note": "feedback UK: Ні, мені не подобається Anagrafe."
+        },
+        {
+          "kind": "opzione",
+          "it": "Lo tagli a cubetti grandi e il formaggio lo assaggio tutto prima.",
+          "uk": "Наріжте великими кубиками, а сир я весь спробую спочатку.",
+          "note": "feedback UK: Наріжте великими кубиками, а сир я весь спробую спочатку."
+        },
+        {
+          "kind": "npc",
+          "it": "Buongiorno! Ha la nostra carta fedeltà?",
+          "uk": "Доброго дня! У вас є наша карта лояльності?",
+          "note": "speaker: Cassiera"
+        },
+        {
+          "kind": "opzione",
+          "it": "Ho solo il medico di base.",
+          "uk": "У мене лише сімейний лікар.",
+          "note": "feedback UK: У мене лише сімейний лікар."
+        },
+        {
+          "kind": "opzione",
+          "it": "Sì, ho la tessera sanitaria, è la stessa cosa.",
+          "uk": "Так, у мене tessera sanitaria, це те саме.",
+          "note": "feedback UK: Так, у мене tessera sanitaria, це те саме."
+        },
+        {
+          "kind": "opzione/natural",
+          "it": "Buongiorno! No, non ce l'ho. Posso farla adesso?",
+          "uk": "Доброго дня! Ні, немає. Можна оформити зараз?",
+          "note": "feedback UK: Доброго дня! Ні, немає. Можна оформити зараз? | natural"
+        },
+        {
+          "kind": "npc",
+          "it": "Sì, può chiederla al box informazioni dopo. Le serve un sacchetto per la spesa?",
+          "uk": "Так, можна попросити потім в інформаційному вікні. Потрібен пакет для покупок?",
+          "note": "speaker: Cassiera"
+        },
+        {
+          "kind": "opzione/natural",
+          "it": "Sì, vorrei un sacchetto biodegradabile, per favore. E pago con la carta di credito.",
+          "uk": "Так, біопакет, будь ласка. І плачу кредитною карткою.",
+          "note": "feedback UK: Так, біопакет, будь ласка. І плачу кредитною карткою. | natural"
+        },
+        {
+          "kind": "opzione",
+          "it": "Il sacchetto è gratis sempre, per legge, senza chiedere.",
+          "uk": "Пакет завжди безкоштовний за законом, без прохання.",
+          "note": "feedback UK: Пакет завжди безкоштовний за законом, без прохання."
+        },
+        {
+          "kind": "opzione",
+          "it": "No, metto tutto nelle tasche. Pago in francobolli.",
+          "uk": "Ні, покладу все по кишенях. Плачу марками.",
+          "note": "feedback UK: Ні, покладу все по кишенях. Плачу марками."
+        },
+        {
+          "kind": "npc",
+          "it": "Sono 34 euro e 50 centesimi. Appoggi pure la carta sul POS... Perfetto. Ecco lo scontrino. Buona giornata!",
+          "uk": "34 євро 50 центів. Прикладіть картку до POS... Чудово. Ось чек. Гарного дня!",
+          "note": "speaker: Cassiera"
+        },
+        {
+          "kind": "opzione",
+          "it": "Lo scontrino lo lascio in cassa, non mi serve all’uscita.",
+          "uk": "Чек залишу на касі, на виході він не потрібен.",
+          "note": "feedback UK: Чек залишу на касі, на виході він не потрібен."
+        },
+        {
+          "kind": "opzione/natural",
+          "it": "Grazie mille, buona giornata anche a lei!",
+          "uk": "Дуже дякую, і вам гарного дня!",
+          "note": "feedback UK: Дуже дякую, і вам гарного дня! | natural"
+        },
+        {
+          "kind": "opzione",
+          "it": "C’è un errore di mille euro, non pago e lascio la spesa qui in silenzio.",
+          "uk": "Помилка на тисячу євро, не плачу і мовчки лишаю покупки тут.",
+          "note": "feedback UK: Помилка на тисячу євро, не плачу і мовчки лишаю покупки тут."
+        }
+      ]
+    },
+    {
+      "day": 24,
+      "module": "Fare la Spesa al Supermercato",
+      "title_uk": "Boss Level 🏆: Симуляція покупок у супермаркеті",
+      "items": [
+        {
+          "kind": "contesto",
+          "it": "",
+          "uk": "Фінальний іспит модуля! Ви самостійно купуєте продукти, замовляєте нарізку у відділі гастрономії та розраховуєтеся на касі. Підказки та переклад вимкнено!",
+          "note": ""
+        },
+        {
+          "kind": "quiz_domanda",
+          "it": "",
+          "uk": "Скільки грамів продукту ви замовляєте, якщо кажете 'Due etti'?",
+          "note": "id p1"
+        },
+        {
+          "kind": "quiz_opzione",
+          "it": "200 грамів.",
+          "uk": "",
+          "note": "CORRETTA"
+        },
+        {
+          "kind": "quiz_opzione",
+          "it": "20 грамів.",
+          "uk": "",
+          "note": ""
+        },
+        {
+          "kind": "quiz_opzione",
+          "it": "2 кілограми.",
+          "uk": "",
+          "note": ""
+        },
+        {
+          "kind": "quiz_spiegazione",
+          "it": "",
+          "uk": "Un etto = 100 грамів, відповідно Due etti = 200 грамів.",
+          "note": ""
+        },
+        {
+          "kind": "quiz_domanda",
+          "it": "",
+          "uk": "Що обов'язково потрібно зробити перед тим, як брати свіжі фрукти чи овочі у супермаркеті?",
+          "note": "id p2"
+        },
+        {
+          "kind": "quiz_opzione",
+          "it": "Одягнути одноразові пластикові рукавички (guanti).",
+          "uk": "",
+          "note": "CORRETTA"
+        },
+        {
+          "kind": "quiz_opzione",
+          "it": "Оплатити їх на касі заздалегідь.",
+          "uk": "",
+          "note": ""
+        },
+        {
+          "kind": "quiz_opzione",
+          "it": "Запитати дозвіл в охоронця.",
+          "uk": "",
+          "note": ""
+        },
+        {
+          "kind": "quiz_spiegazione",
+          "it": "",
+          "uk": "Правила гігієни в Італії вимагають використання рукавичок для вибору овочів/фруктів.",
+          "note": ""
+        },
+        {
+          "kind": "quiz_domanda",
+          "it": "",
+          "uk": "Як запитати касира про пакет для покупок?",
+          "note": "id p3"
+        },
+        {
+          "kind": "quiz_opzione",
+          "it": "Le serve un sacchetto, per favore?",
+          "uk": "",
+          "note": ""
+        },
+        {
+          "kind": "quiz_opzione",
+          "it": "Posso avere un sacchetto per la spesa?",
+          "uk": "",
+          "note": "CORRETTA"
+        },
+        {
+          "kind": "quiz_opzione",
+          "it": "Dove si trova la guardia medica?",
+          "uk": "",
+          "note": ""
+        },
+        {
+          "kind": "quiz_spiegazione",
+          "it": "",
+          "uk": "'Un sacchetto per la spesa' = пакет для покупок.",
+          "note": ""
+        },
+        {
+          "kind": "quiz_domanda",
+          "it": "",
+          "uk": "Що таке 'Lo scontrino'?",
+          "note": "id p4"
+        },
+        {
+          "kind": "quiz_opzione",
+          "it": "Касовий чек, який слід зберігати після покупки.",
+          "uk": "",
+          "note": "CORRETTA"
+        },
+        {
+          "kind": "quiz_opzione",
+          "it": "Знижка на другу категорію товарів.",
+          "uk": "",
+          "note": ""
+        },
+        {
+          "kind": "quiz_opzione",
+          "it": "Візок для покупок.",
+          "uk": "",
+          "note": ""
+        },
+        {
+          "kind": "quiz_spiegazione",
+          "it": "",
+          "uk": "'Lo scontrino' — це фіскальний чек.",
+          "note": ""
+        },
+        {
+          "kind": "quiz_domanda",
+          "it": "",
+          "uk": "Як попросити тонко нарізати шинку (прошутто)?",
+          "note": "id p5"
+        },
+        {
+          "kind": "quiz_opzione",
+          "it": "Lo tagli sottile, per favore.",
+          "uk": "",
+          "note": "CORRETTA"
+        },
+        {
+          "kind": "quiz_opzione",
+          "it": "Lo voglio in un pezzo grande.",
+          "uk": "",
+          "note": ""
+        },
+        {
+          "kind": "quiz_opzione",
+          "it": "Lo voglio senza acqua frizzante.",
+          "uk": "",
+          "note": ""
+        },
+        {
+          "kind": "quiz_spiegazione",
+          "it": "",
+          "uk": "'Tagliato sottile' = тонко нарізаний.",
+          "note": ""
+        },
+        {
+          "kind": "successo_msg",
+          "it": "",
+          "uk": "Вітаємо! Ви повністю засвоїли правила покупок в італійському супермаркеті, вмієте зважувати продукти та спілкуватися на касі!",
+          "note": ""
+        },
+        {
+          "kind": "badge",
+          "it": "",
+          "uk": "Експерт покупок 🛒",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "day": 25,
+      "module": "Trasporto Pubblico e Biglietti",
+      "title_uk": "У транспорті: Квитки, валідація та поїзди",
+      "items": [
+        {
+          "kind": "contesto",
+          "it": "",
+          "uk": "Марко та Лаура планують поїздку на міському автобусі та поїзді. В Італії квитки на автобус зазвичай купують заздалегідь у тютюнових кіосках (Tabacchi) або газетних кіосках (Edicola). Найголовніше правило італійського транспорту — обов'язково прокомпостувати (завалідувати) квиток одразу при вході в автобус або перед посадкою на пероні поїзда.",
+          "note": ""
+        },
+        {
+          "kind": "frase",
+          "it": "Vorrei due biglietti per l'autobus urbano, per favore.",
+          "uk": "Я б хотів(ла) два квитки на міський автобус, будь ласка.",
+          "note": ""
+        },
+        {
+          "kind": "frase",
+          "it": "Da quale binario parte il treno per Venezia?",
+          "uk": "З якої колії (платформи) відправляється поїзд до Венеції?",
+          "note": ""
+        },
+        {
+          "kind": "frase",
+          "it": "Ricordati di convalidare il biglietto prima di salire!",
+          "uk": "Пам'ятай прокомпостувати квиток перед тим, як зайти!",
+          "note": ""
+        },
+        {
+          "kind": "frase",
+          "it": "A che ora passa il prossimo autobus per la stazione?",
+          "uk": "О котрій годині буде наступний автобус до вокзалу?",
+          "note": ""
+        },
+        {
+          "kind": "grammatica_titolo",
+          "it": "",
+          "uk": "Прийменники напрямку: 'In' (транспорт) та 'A / Da' (станції та міста)",
+          "note": ""
+        },
+        {
+          "kind": "regola",
+          "it": "",
+          "uk": "Прийменник 'In' для видів транспорту: 'In autobus' (автобусом), 'In treno' (поїздом), 'In macchina' (машиною).",
+          "note": ""
+        },
+        {
+          "kind": "esempio",
+          "it": "Vado al lavoro in autobus.",
+          "uk": "Їду на роботу автобусом.",
+          "note": ""
+        },
+        {
+          "kind": "esempio",
+          "it": "Viaggiamo in treno.",
+          "uk": "Ми їдемо потягом.",
+          "note": ""
+        },
+        {
+          "kind": "regola",
+          "it": "",
+          "uk": "Прийменники напрямку: 'A' (до міста/станції) та 'Da' (від/з якоїсь колії).",
+          "note": ""
+        },
+        {
+          "kind": "esempio",
+          "it": "Prendo il treno per andare a Milano.",
+          "uk": "Беру потяг, щоб поїхати до Мілана.",
+          "note": ""
+        },
+        {
+          "kind": "esempio",
+          "it": "Parte dal binario 3.",
+          "uk": "Відправляється з колії 3.",
+          "note": ""
+        },
+        {
+          "kind": "tip",
+          "it": "",
+          "uk": "Tabacchi e Edicola — найпростіше місце для купівлі квитків на автобус. У самому автобусі квиток може коштувати дорожче або взагалі не продаватися.",
+          "note": ""
+        },
+        {
+          "kind": "tip",
+          "it": "",
+          "uk": "Convalidare / Timbrare — компостування квитка. За поїздку з невалідним квитком контролер (controllore) виписує штраф від 50 до 100 євро.",
+          "note": ""
+        },
+        {
+          "kind": "tip",
+          "it": "",
+          "uk": "Binario — номер колії/платформи на залізничному вокзалі. Завжди перевіряйте інформаційне табло (tabellone) за номером поїзда.",
+          "note": ""
+        },
+        {
+          "kind": "cultura",
+          "it": "",
+          "uk": "На залізничних станціях в Італії паперові квитки без вказаного часу та місця потрібно обов'язково компостувати в зелених або жовтих валидаторах (macchinette) біля виходу на перони!",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "day": 26,
+      "module": "Trasporto Pubblico e Biglietti",
+      "title_uk": "Живий діалог: Купівля квитка в Tabacchi та поїздка на вокзал",
+      "items": [
+        {
+          "kind": "contesto",
+          "it": "",
+          "uk": "Марко заходить до кіоску Tabacchi, щоб купити квитки на автобус, а потім запитує перехожого на зупинці про розклад.",
+          "note": ""
+        },
+        {
+          "kind": "cultura",
+          "it": "",
+          "uk": "В італійських міських автобусах вхід зазвичай здійснюється через передні або задні двері, а вихід — через середні (Uscita).",
+          "note": ""
+        },
+        {
+          "kind": "npc",
+          "it": "Buongiorno! Dica pure.",
+          "uk": "Доброго дня! Кажіть, будь ласка.",
+          "note": "speaker: Tabaccaio"
+        },
+        {
+          "kind": "opzione/natural",
+          "it": "Buongiorno! Vorrei due biglietti per l'autobus urbano, per favore.",
+          "uk": "Доброго дня! Два квитки на міський автобус, будь ласка.",
+          "note": "feedback UK: Доброго дня! Два квитки на міський автобус, будь ласка. | natural"
+        },
+        {
+          "kind": "opzione",
+          "it": "Ciao, vorrei fare la domanda per l'ISEE.",
+          "uk": "Привіт, хочу подати заяву на ISEE.",
+          "note": "feedback UK: Привіт, хочу подати заяву на ISEE."
+        },
+        {
+          "kind": "opzione",
+          "it": "Vorrei due marche da bollo e una ricetta del medico, per l’autobus.",
+          "uk": "Дві марки da bollo і рецепт лікаря для автобуса.",
+          "note": "feedback UK: Дві марки da bollo і рецепт лікаря для автобуса."
+        },
+        {
+          "kind": "npc",
+          "it": "Certamente. È una corsa semplice da 90 minuti? Sono 3 euro in totale.",
+          "uk": "Звісно. Це проста поїздка на 90 хвилин? Разом 3 євро.",
+          "note": "speaker: Tabaccaio"
+        },
+        {
+          "kind": "opzione",
+          "it": "Non voglio pagare il biglietto.",
+          "uk": "Я не хочу платити за квиток.",
+          "note": "feedback UK: Я не хочу платити за квиток."
+        },
+        {
+          "kind": "opzione",
+          "it": "No, vorrei un abbonamento annuale del treno regionale, lo stampi ora.",
+          "uk": "Ні, хочу річний абонемент на регіональний потяг, роздрукуйте зараз.",
+          "note": "feedback UK: Ні, хочу річний абонемент на регіональний потяг, роздрукуйте зараз."
+        },
+        {
+          "kind": "opzione/natural",
+          "it": "Sì, va benissimo. Ecco 3 euro. Devo convalidarli a bordo?",
+          "uk": "Так, добре. Ось 3 євро. Їх треба компостувати в салоні?",
+          "note": "feedback UK: Так, добре. Ось 3 євро. Їх треба компостувати в салоні? | natural"
+        },
+        {
+          "kind": "npc",
+          "it": "Sì, esattamente! Appena sale sull'autobus deve timbrare il biglietto nella macchinetta. Arrivederci!",
+          "uk": "Так, саме так! Щойно сядете в автобус, проштампуйте квиток у апараті. До побачення!",
+          "note": "speaker: Tabaccaio"
+        },
+        {
+          "kind": "opzione/natural",
+          "it": "Perfetto, grazie mille e buona giornata!",
+          "uk": "Чудово, дуже дякую і гарного дня!",
+          "note": "feedback UK: Чудово, дуже дякую і гарного дня! | natural"
+        },
+        {
+          "kind": "opzione",
+          "it": "Allora non serve il biglietto, c’è sempre il controllore amico.",
+          "uk": "Тоді квиток не потрібен, контролер завжди свій.",
+          "note": "feedback UK: Тоді квиток не потрібен, контролер завжди свій."
+        },
+        {
+          "kind": "opzione",
+          "it": "Timbro il biglietto a casa, prima di uscire, così è più comodo.",
+          "uk": "Проштампую квиток удома, перед виходом, так зручніше.",
+          "note": "feedback UK: Проштампую квиток удома, перед виходом, так зручніше."
+        },
+        {
+          "kind": "npc",
+          "it": "Buongiorno! Aspetta anche lei il numero 7 per la stazione?",
+          "uk": "Доброго дня! Ви теж чекаєте сімку до вокзалу?",
+          "note": "speaker: Passeggero alla fermata"
+        },
+        {
+          "kind": "opzione",
+          "it": "Vorrei un cornetto al cioccolato.",
+          "uk": "Я хотів би круасан з шоколадом.",
+          "note": "feedback UK: Я хотів би круасан з шоколадом."
+        },
+        {
+          "kind": "opzione/natural",
+          "it": "Buongiorno! Sì, sa a che ora passa il prossimo autobus?",
+          "uk": "Доброго дня! Так, ви не знаєте, о котрій наступний автобус?",
+          "note": "feedback UK: Доброго дня! Так, ви не знаєте, о котрій наступний автобус? | natural"
+        },
+        {
+          "kind": "opzione",
+          "it": "No, aspetto il taxi per l’aeroporto. Che vino avete?",
+          "uk": "Ні, чекаю таксі в аеропорт. Яке у вас вино?",
+          "note": "feedback UK: Ні, чекаю таксі в аеропорт. Яке у вас вино?"
+        },
+        {
+          "kind": "npc",
+          "it": "Dovrebbe arrivare tra cinque minuti. Guardi, sta arrivando proprio adesso!",
+          "uk": "Має бути хвилин за п’ять. Дивіться, він саме під’їжджає!",
+          "note": "speaker: Passeggero alla fermata"
+        },
+        {
+          "kind": "opzione",
+          "it": "Convalido il biglietto del vicino, il mio lo tengo pulito.",
+          "uk": "Прокомпостую квиток сусіда, свій залишу чистим.",
+          "note": "feedback UK: Прокомпостую квиток сусіда, свій залишу чистим."
+        },
+        {
+          "kind": "opzione",
+          "it": "Salgo senza convalidare, tanto sono solo due fermate.",
+          "uk": "Сяду без компостування, лише дві зупинки.",
+          "note": "feedback UK: Сяду без компостування, лише дві зупинки."
+        },
+        {
+          "kind": "opzione/natural",
+          "it": "Ottimo, grazie! Ricordiamoci di convalidare il biglietto appena saliamo.",
+          "uk": "Чудово, дякую! Не забуваймо прокомпостувати квиток, щойно сядемо.",
+          "note": "feedback UK: Чудово, дякую! Не забуваймо прокомпостувати квиток, щойно сядемо. | natural"
+        },
+        {
+          "kind": "npc",
+          "it": "Buongiorno, controllo biglietti! Mi mostra il suo biglietto convalidato, per favore?",
+          "uk": "Доброго дня, перевірка квитків! Покажіть прокомпостований квиток, будь ласка?",
+          "note": "speaker: Controllore"
+        },
+        {
+          "kind": "opzione",
+          "it": "Non parlo italiano, quindi il controllo non vale.",
+          "uk": "Я не розмовляю італійською, тому перевірка не діє.",
+          "note": "feedback UK: Я не розмовляю італійською, тому перевірка не діє."
+        },
+        {
+          "kind": "opzione/natural",
+          "it": "Buongiorno! Certamente, ecco il mio biglietto timbrato poco fa.",
+          "uk": "Доброго дня! Звісно, ось мій квиток, щойно проштампований.",
+          "note": "feedback UK: Доброго дня! Звісно, ось мій квиток, щойно проштампований. | natural"
+        },
+        {
+          "kind": "opzione",
+          "it": "Il biglietto l’ho lasciato in tabaccheria, mi riconosce.",
+          "uk": "Квиток я залишив у тютюновій крамниці, ви мене впізнаєте.",
+          "note": "feedback UK: Квиток я залишив у тютюновій крамниці, ви мене впізнаєте."
+        }
+      ]
+    },
+    {
+      "day": 27,
+      "module": "Trasporto Pubblico e Biglietti",
+      "title_uk": "Boss Level 🏆: Симуляція поїздки громадським транспортом",
+      "items": [
+        {
+          "kind": "contesto",
+          "it": "",
+          "uk": "Фінальний іспит модуля! Ви самостійно купуєте квитки, орієнтуєтеся на вокзалі, перевіряєте колію та спілкуєтеся з контролером. Підказки та переклад вимкнено!",
+          "note": ""
+        },
+        {
+          "kind": "quiz_domanda",
+          "it": "",
+          "uk": "Де найпростіше та найдешевше купити квиток на міський автобус в Італії?",
+          "note": "id p1"
+        },
+        {
+          "kind": "quiz_opzione",
+          "it": "У тютюновому (Tabacchi) або газетному кіоску (Edicola).",
+          "uk": "",
+          "note": "CORRETTA"
+        },
+        {
+          "kind": "quiz_opzione",
+          "it": "У супермаркеті на касі овочів.",
+          "uk": "",
+          "note": ""
+        },
+        {
+          "kind": "quiz_opzione",
+          "it": "У аптеці за рецептом.",
+          "uk": "",
+          "note": ""
+        },
+        {
+          "kind": "quiz_spiegazione",
+          "it": "",
+          "uk": "Кіоски Tabacchi та Edicola — основні точки продажу квитків.",
+          "note": ""
+        },
+        {
+          "kind": "quiz_domanda",
+          "it": "",
+          "uk": "Що означає дієслово 'Convalidare' або 'Timbrare' у транспорті?",
+          "note": "id p2"
+        },
+        {
+          "kind": "quiz_opzione",
+          "it": "Прокомпостувати/завалідувати квиток у спеціальному автоматі.",
+          "uk": "",
+          "note": "CORRETTA"
+        },
+        {
+          "kind": "quiz_opzione",
+          "it": "Попросити водія зупинити автобус.",
+          "uk": "",
+          "note": ""
+        },
+        {
+          "kind": "quiz_opzione",
+          "it": "Купити новий капелюх.",
+          "uk": "",
+          "note": ""
+        },
+        {
+          "kind": "quiz_spiegazione",
+          "it": "",
+          "uk": "'Convalidare' / 'Timbrare' — це активація/компостування квитка.",
+          "note": ""
+        },
+        {
+          "kind": "quiz_domanda",
+          "it": "",
+          "uk": "Як запитати на вокзалі 'З якої колії відправляється поїзд?'",
+          "note": "id p3"
+        },
+        {
+          "kind": "quiz_opzione",
+          "it": "Da quale binario parte il treno?",
+          "uk": "",
+          "note": "CORRETTA"
+        },
+        {
+          "kind": "quiz_opzione",
+          "it": "Quanto costa una pizza margherita?",
+          "uk": "",
+          "note": ""
+        },
+        {
+          "kind": "quiz_opzione",
+          "it": "Quali documenti servono per l'ISEE?",
+          "uk": "",
+          "note": ""
+        },
+        {
+          "kind": "quiz_spiegazione",
+          "it": "",
+          "uk": "'Binario' означає залізничну колію/платформу.",
+          "note": ""
+        },
+        {
+          "kind": "quiz_domanda",
+          "it": "",
+          "uk": "Що загрожує пасажиру за проїзд без прокомпостованого квитка?",
+          "note": "id p4"
+        },
+        {
+          "kind": "quiz_opzione",
+          "it": "Штраф від контролера (controllore).",
+          "uk": "",
+          "note": "CORRETTA"
+        },
+        {
+          "kind": "quiz_opzione",
+          "it": "Безкоштовна кава від водія.",
+          "uk": "",
+          "note": ""
+        },
+        {
+          "kind": "quiz_opzione",
+          "it": "Знижка на наступну поїздку.",
+          "uk": "",
+          "note": ""
+        },
+        {
+          "kind": "quiz_spiegazione",
+          "it": "",
+          "uk": "За відсутність валідації контролер виписує грошовий штраф.",
+          "note": ""
+        },
+        {
+          "kind": "quiz_domanda",
+          "it": "",
+          "uk": "Як перекладається слово 'Stazione'?",
+          "note": "id p5"
+        },
+        {
+          "kind": "quiz_opzione",
+          "it": "Вокзал / Станція.",
+          "uk": "",
+          "note": "CORRETTA"
+        },
+        {
+          "kind": "quiz_opzione",
+          "it": "Зупинка таксі.",
+          "uk": "",
+          "note": ""
+        },
+        {
+          "kind": "quiz_opzione",
+          "it": "Аеропорт.",
+          "uk": "",
+          "note": ""
+        },
+        {
+          "kind": "quiz_spiegazione",
+          "it": "",
+          "uk": "'Stazione' = залізничний або автобусний вокзал.",
+          "note": ""
+        },
+        {
+          "kind": "successo_msg",
+          "it": "",
+          "uk": "Вітаємо! Ви вільно володієте всією лексикою громадського транспорту в Італії, легко купуєте квитки та орієнтуєтеся на вокзалах!",
+          "note": ""
+        },
+        {
+          "kind": "badge",
+          "it": "",
+          "uk": "Досвідчений мандрівник 🚆",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "day": 28,
+      "module": "Salone di Bellezza: Parrucchiere e Manicure",
+      "title_uk": "Салон краси: Запис на стрижку, манікюр та догляд",
+      "items": [
+        {
+          "kind": "contesto",
+          "it": "",
+          "uk": "Марко та Лаура планують візит до салону краси. В Італії до перукаря (parrucchiere / barbiere) та майстра манікюру (onicotecnica / estetista) майже завжди потрібно записуватися заздалегідь по телефону або особисто (prendere un appuntamento). Вкрай важливо чітко пояснити свої побажання: від довжини волосся та форми нігтів до вибору типу покриття чи стрижки бороди.",
+          "note": ""
+        },
+        {
+          "kind": "frase",
+          "it": "Vorrei prendere un appuntamento per un taglio uomo e una manicure.",
+          "uk": "Я б хотів(ла) записатися на чоловічу стрижку та манікюр.",
+          "note": ""
+        },
+        {
+          "kind": "frase",
+          "it": "Vorrei solo una spuntata alle punte e la piega, per favore.",
+          "uk": "Тільки підрівняти кінчики та зробити укладку, будь ласка.",
+          "note": ""
+        },
+        {
+          "kind": "frase",
+          "it": "Vorrei fare lo smalto semipermanente e togliere quello vecchio.",
+          "uk": "Я б хотіла зробити гель-лак (семіперманент) та зняти старий.",
+          "note": ""
+        },
+        {
+          "kind": "frase",
+          "it": "Vorrei accorciare i capelli ai lati e regolare la barba.",
+          "uk": "Я б хотів вкоротити волосся з боків та підрівняти бороду.",
+          "note": ""
+        },
+        {
+          "kind": "grammatica_titolo",
+          "it": "",
+          "uk": "Дієслова для запису та побажань: 'Vorrei + Інфінітив' та 'Accorciare / Spuntare'",
+          "note": ""
+        },
+        {
+          "kind": "regola",
+          "it": "",
+          "uk": "Ввічливий запис через 'Vorrei': 'Vorrei prenotare...' (Я б хотів(ла) забронювати...), 'Vorrei fare...' (Я б хотів(ла) зробити...).",
+          "note": ""
+        },
+        {
+          "kind": "esempio",
+          "it": "Vorrei prenotare per giovedì pomeriggio.",
+          "uk": "Я хотів би записатися на четвер після обіду.",
+          "note": ""
+        },
+        {
+          "kind": "esempio",
+          "it": "Vorrei fare la barba.",
+          "uk": "Я хотів би підстригти бороду / поголитися.",
+          "note": ""
+        },
+        {
+          "kind": "regola",
+          "it": "",
+          "uk": "Дії з волоссям та нігтями: 'Accorciare' (вкорочувати), 'Spuntare' (підрізати кінчики), 'Togliere' (знімати).",
+          "note": ""
+        },
+        {
+          "kind": "esempio",
+          "it": "Vorrei solo spuntare di un centimetro.",
+          "uk": "Хочу лише підрівняти на сантиметр.",
+          "note": ""
+        },
+        {
+          "kind": "esempio",
+          "it": "Devo togliere lo smalto.",
+          "uk": "Мені потрібно зняти лак.",
+          "note": ""
+        },
+        {
+          "kind": "tip",
+          "it": "",
+          "uk": "Prendere un appuntamento — запис на конкретний час є обов'язковим. Якщо ви запізнюєтеся навіть на 10-15 хвилин, варто зателефонувати й попередити.",
+          "note": ""
+        },
+        {
+          "kind": "tip",
+          "it": "",
+          "uk": "Piega — укладка феном після миття голови. В італійських салонах ціна за стрижку (taglio) часто вказується окремо від укладки (piega) та миття (shampoo).",
+          "note": ""
+        },
+        {
+          "kind": "tip",
+          "it": "",
+          "uk": "Smalto semipermanente — гель-лак. Якщо потрібно зняти попереднє покриття, обов'язково попередьте під час запису: 'Devo anche togliere il gel vecchio'.",
+          "note": ""
+        },
+        {
+          "kind": "cultura",
+          "it": "",
+          "uk": "В Італії барбершопи (barbiere) та жіночі салони часто зачинені в неділю та понеділок. З вівторка по суботу салон може працювати з перервою на обід (pausa pranzo) з 12:30 до 15:30, якщо це не мережевий заклад у торговому центрі.",
+          "note": ""
+        }
+      ]
+    },
+    {
+      "day": 29,
+      "module": "Salone di Bellezza: Parrucchiere e Manicure",
+      "title_uk": "Живий діалог: Запис по телефону та візит Марка й Лаури до салону",
+      "items": [
+        {
+          "kind": "contesto",
+          "it": "",
+          "uk": "Лаура телефонує в салон, щоб записати чоловіка Марка на стрижку бороди й волосся, а себе — на манікюр та укладку. Потім вони приходять на процедури.",
+          "note": ""
+        },
+        {
+          "kind": "cultura",
+          "it": "",
+          "uk": "В італійських салонах краси завжди цінують зворотний зв'язок під час процедури. Якщо вода занадто гаряча або майстер зрізає забагато довжини, спокійно скажіть: 'Scusi, l'acqua è troppo calda' або 'Un po' più lungo, per favore'.",
+          "note": ""
+        },
+        {
+          "kind": "npc",
+          "it": "Salone Bella Vita, buongiorno! Come posso aiutarla?",
+          "uk": "Салон Bella Vita, доброго дня! Чим можу допомогти?",
+          "note": "speaker: Receptionist Salone"
+        },
+        {
+          "kind": "opzione/natural",
+          "it": "Buongiorno! Vorrei prendere un appuntamento per venerdì: un taglio uomo con barba e una manicure con semipermanente.",
+          "uk": "Доброго дня! Хочу записатися на п’ятницю: чоловіча стрижка з бородою і манікюр із гель-лаком.",
+          "note": "feedback UK: Доброго дня! Хочу записатися на п’ятницю: чоловіча стрижка з бородою і манікюр із гель-лаком. | natural"
+        },
+        {
+          "kind": "opzione",
+          "it": "Vorrei un appuntamento per il medico di base e la voltura del gas.",
+          "uk": "Хочу запис до сімейного лікаря і переоформлення газу.",
+          "note": "feedback UK: Хочу запис до сімейного лікаря і переоформлення газу."
+        },
+        {
+          "kind": "opzione",
+          "it": "Ciao, vorrei comprare un biglietto per l'autobus.",
+          "uk": "Привіт, хочу купити квиток на автобус.",
+          "note": "feedback UK: Привіт, хочу купити квиток на автобус."
+        },
+        {
+          "kind": "npc",
+          "it": "Perfetto. Per la manicure deve anche rimuovere lo smalto precedente?",
+          "uk": "Чудово. Для манікюру потрібно також зняти попередній лак?",
+          "note": "speaker: Receptionist Salone"
+        },
+        {
+          "kind": "opzione",
+          "it": "No, vorrei fare la dichiarazione dei redditi.",
+          "uk": "Ні, хочу подати декларацію про доходи.",
+          "note": "feedback UK: Ні, хочу подати декларацію про доходи."
+        },
+        {
+          "kind": "opzione/natural",
+          "it": "Sì, devo togliere il gel vecchio e fare la manicure completa.",
+          "uk": "Так, треба зняти старий гель і зробити повний манікюр.",
+          "note": "feedback UK: Так, треба зняти старий гель і зробити повний манікюр. | natural"
+        },
+        {
+          "kind": "opzione",
+          "it": "No, lascio lo smalto vecchio e aggiungo tre strati sopra, via WhatsApp.",
+          "uk": "Ні, залишу старий лак і додам три шари зверху через WhatsApp.",
+          "note": "feedback UK: Ні, залишу старий лак і додам три шари зверху через WhatsApp."
+        },
+        {
+          "kind": "npc",
+          "it": "Va bene, abbiamo posto venerdì alle 15:00 per entrambi. Ci vediamo venerdì!",
+          "uk": "Добре, у п’ятницю о 15:00 є місце для обох. До зустрічі в п’ятницю!",
+          "note": "speaker: Receptionist Salone"
+        },
+        {
+          "kind": "opzione",
+          "it": "Alle 15:00 vengo solo io, Marco si taglia i capelli da solo a casa.",
+          "uk": "О 15:00 прийду лише я, Марко сам підстрижеться вдома.",
+          "note": "feedback UK: О 15:00 прийду лише я, Марко сам підстрижеться вдома."
+        },
+        {
+          "kind": "opzione",
+          "it": "Venerdì no, vengo quando c’è posto, senza nome.",
+          "uk": "У п’ятницю ні, прийду коли буде місце, без імені.",
+          "note": "feedback UK: У п’ятницю ні, прийду коли буде місце, без імені."
+        },
+        {
+          "kind": "opzione/natural",
+          "it": "Ottimo, venerdì alle 15:00! A nome di Laura e Marco. Grazie mille e arrivederci!",
+          "uk": "Чудово, п’ятниця о 15:00! На ім’я Лаура і Марко. Дуже дякую, до побачення!",
+          "note": "feedback UK: Чудово, п’ятниця о 15:00! На ім’я Лаура і Марко. Дуже дякую, до побачення! | natural"
+        },
+        {
+          "kind": "npc",
+          "it": "Buongiorno Marco! Come facciamo oggi con i capelli e la barba?",
+          "uk": "Доброго дня, Марко! Як сьогодні зробимо волосся і бороду?",
+          "note": "speaker: Barbiere (зараз з Марком)"
+        },
+        {
+          "kind": "opzione",
+          "it": "Faccia tutto rasato a zero, anche le sopracciglia, senza chiedere.",
+          "uk": "Зробіть усе налисо, навіть брови, не питаючи.",
+          "note": "feedback UK: Зробіть усе налисо, навіть брови, не питаючи."
+        },
+        {
+          "kind": "opzione/natural",
+          "it": "Buongiorno! Vorrei accorciare i capelli ai lati e regolare la barba, ma senza tagliarla troppo corta.",
+          "uk": "Доброго дня! Хочу вкоротити волосся з боків і підрівняти бороду, але не стригти її занадто коротко.",
+          "note": "feedback UK: Доброго дня! Хочу вкоротити волосся з боків і підрівняти бороду, але не стригти її занадто коротко. | natural"
+        },
+        {
+          "kind": "opzione",
+          "it": "Vorrei convalidare il biglietto del treno.",
+          "uk": "Хочу прокомпостувати квиток на потяг.",
+          "note": "feedback UK: Хочу прокомпостувати квиток на потяг."
+        },
+        {
+          "kind": "npc",
+          "it": "Buongiorno Laura! Che forma e che colore preferisce per le unghie oggi?",
+          "uk": "Доброго дня, Лауро! Яку форму і який колір нігтів бажаєте сьогодні?",
+          "note": "speaker: Estetista (зараз з Лаурою)"
+        },
+        {
+          "kind": "opzione/natural",
+          "it": "Buongiorno! Vorrei la forma mandorla e un colore nudo naturale con il semipermanente.",
+          "uk": "Доброго дня! Хочу форму мигдалю і природний нюдовий колір із гель-лаком.",
+          "note": "feedback UK: Доброго дня! Хочу форму мигдалю і природний нюдовий колір із гель-лаком. | natural"
+        },
+        {
+          "kind": "opzione",
+          "it": "Ho la febbre e il naso che cola.",
+          "uk": "У мене температура і нежить.",
+          "note": "feedback UK: У мене температура і нежить."
+        },
+        {
+          "kind": "opzione",
+          "it": "Vorrei unghie lunghissime stiletto rosso fluo e glitter in tre minuti.",
+          "uk": "Хочу дуже довгі нігті стилет, флуоресцентний червоний і глітер за три хвилини.",
+          "note": "feedback UK: Хочу дуже довгі нігті стилет, флуоресцентний червоний і глітер за три хвилини."
+        },
+        {
+          "kind": "npc",
+          "it": "Ecco a voi! In totale per il taglio uomo, barba, manicure e semipermanente sono 65 euro. Pagate insieme o separatamente?",
+          "uk": "Ось вам! Разом за чоловічу стрижку, бороду, манікюр і гель-лак 65 євро. Платите разом чи окремо?",
+          "note": "speaker: Receptionist Salone"
+        },
+        {
+          "kind": "opzione",
+          "it": "Paghiamo in francobolli e torniamo dopo per il resto.",
+          "uk": "Платимо марками і повернемося потім по решту.",
+          "note": "feedback UK: Платимо марками і повернемося потім по решту."
+        },
+        {
+          "kind": "opzione",
+          "it": "Paghiamo separati, ma Laura paga anche il taglio di Marco in contanti ucraini.",
+          "uk": "Платимо окремо, але Лаура платить і за стрижку Марка українською готівкою.",
+          "note": "feedback UK: Платимо окремо, але Лаура платить і за стрижку Марка українською готівкою."
+        },
+        {
+          "kind": "opzione/natural",
+          "it": "Paghiamo insieme con la carta. Grazie mille, siamo molto contenti del risultato!",
+          "uk": "Платимо разом карткою. Дуже дякуємо, ми дуже задоволені результатом!",
+          "note": "feedback UK: Платимо разом карткою. Дуже дякуємо, ми дуже задоволені результатом! | natural"
+        }
+      ]
+    },
+    {
+      "day": 30,
+      "module": "Salone di Bellezza: Parrucchiere e Manicure",
+      "title_uk": "Boss Level 🏆: Симуляція візиту в салон краси (для чоловіків та жінок)",
+      "items": [
+        {
+          "kind": "contesto",
+          "it": "",
+          "uk": "Фінальний іспит модуля! Ви самостійно записуєтеся в салон краси, пояснюєте майстру бажану стрижку, догляд за бородою, форму нігтів та покриття. Підказки та переклад вимкнено!",
+          "note": ""
+        },
+        {
+          "kind": "quiz_domanda",
+          "it": "",
+          "uk": "Як італійською ввічливо сказати 'Я б хотів(ла) записатися на прийом'?",
+          "note": "id p1"
+        },
+        {
+          "kind": "quiz_opzione",
+          "it": "Vorrei prendere un appuntamento.",
+          "uk": "",
+          "note": "CORRETTA"
+        },
+        {
+          "kind": "quiz_opzione",
+          "it": "Devo convalidare lo scontrino.",
+          "uk": "",
+          "note": ""
+        },
+        {
+          "kind": "quiz_opzione",
+          "it": "Quanto costa l'affitto al mese?",
+          "uk": "",
+          "note": ""
+        },
+        {
+          "kind": "quiz_spiegazione",
+          "it": "",
+          "uk": "'Prendere un appuntamento' — це стандартна фраза для запису.",
+          "note": ""
+        },
+        {
+          "kind": "quiz_domanda",
+          "it": "",
+          "uk": "Як чоловікові попросити вкоротити волосся з боків та підрівняти бороду?",
+          "note": "id p2"
+        },
+        {
+          "kind": "quiz_opzione",
+          "it": "Vorrei accorciare i capelli ai lati e regolare la barba.",
+          "uk": "",
+          "note": "CORRETTA"
+        },
+        {
+          "kind": "quiz_opzione",
+          "it": "Vorrei un cappuccino con latte di avena.",
+          "uk": "",
+          "note": ""
+        },
+        {
+          "kind": "quiz_opzione",
+          "it": "Mi serve il codice fiscale per la detrazione.",
+          "uk": "",
+          "note": ""
+        },
+        {
+          "kind": "quiz_spiegazione",
+          "it": "",
+          "uk": "'Accorciare ai lati' (вкоротити з боків) та 'regolare la barba' (підрівняти бороду).",
+          "note": ""
+        },
+        {
+          "kind": "quiz_domanda",
+          "it": "",
+          "uk": "Що означає слово 'Spuntare' стосовно волосся?",
+          "note": "id p3"
+        },
+        {
+          "kind": "quiz_opzione",
+          "it": "Тільки трохи підрівняти/підрізати кінчики.",
+          "uk": "",
+          "note": "CORRETTA"
+        },
+        {
+          "kind": "quiz_opzione",
+          "it": "Пофарбувати волосся в зелений колір.",
+          "uk": "",
+          "note": ""
+        },
+        {
+          "kind": "quiz_opzione",
+          "it": "Повністю збрити волосся.",
+          "uk": "",
+          "note": ""
+        },
+        {
+          "kind": "quiz_spiegazione",
+          "it": "",
+          "uk": "'Spuntare' означає зрізати лише самі кінчики (le punte).",
+          "note": ""
+        },
+        {
+          "kind": "quiz_domanda",
+          "it": "",
+          "uk": "Як сказати майстру манікюру, що потрібно зняти старий гель-лак?",
+          "note": "id p4"
+        },
+        {
+          "kind": "quiz_opzione",
+          "it": "Devo togliere lo smalto semipermanente vecchio.",
+          "uk": "",
+          "note": "CORRETTA"
+        },
+        {
+          "kind": "quiz_opzione",
+          "it": "Vorrei comprare un farmaco per la tosse.",
+          "uk": "",
+          "note": ""
+        },
+        {
+          "kind": "quiz_opzione",
+          "it": "Da quale binario parte l'autobus?",
+          "uk": "",
+          "note": ""
+        },
+        {
+          "kind": "quiz_spiegazione",
+          "it": "",
+          "uk": "'Togliere lo smalto vecchio' = зняти старий лак/покриття.",
+          "note": ""
+        },
+        {
+          "kind": "quiz_domanda",
+          "it": "",
+          "uk": "Що таке 'Piega' в італійському перукарському салоні?",
+          "note": "id p5"
+        },
+        {
+          "kind": "quiz_opzione",
+          "it": "Укладка феном після миття голови.",
+          "uk": "",
+          "note": "CORRETTA"
+        },
+        {
+          "kind": "quiz_opzione",
+          "it": "Масаж ніг.",
+          "uk": "",
+          "note": ""
+        },
+        {
+          "kind": "quiz_opzione",
+          "it": "Чистка обличчя.",
+          "uk": "",
+          "note": ""
+        },
+        {
+          "kind": "quiz_spiegazione",
+          "it": "",
+          "uk": "'Piega' — це укладка волосся.",
+          "note": ""
+        },
+        {
+          "kind": "successo_msg",
+          "it": "",
+          "uk": "Вітаємо! Ви вдосконалили знання італійської лексики для салонів краси, вільно замовляєте стрижку, догляд за бородою, манікюр та укладку!",
+          "note": ""
+        },
+        {
+          "kind": "badge",
+          "it": "",
+          "uk": "Майстер стилю та краси 💇‍♂️💅",
+          "note": ""
+        }
+      ]
+    }
+  ]
+}

@@ -2,7 +2,7 @@
   "day": 5,
   "title": {
     "uk": "Візит до ASL: Оформлення картки та вибір лікаря",
-    "en": "Visit to the ASL: Card registration and choosing a doctor",
+    "en": "Visit to the ASL: registering for a health card and choosing a doctor",
     "es": "Visita a la ASL: Tramitar la tarjeta y elegir médico",
     "fr": "Visite à l’ASL : Carte et choix du médecin",
     "ro": "Vizită la ASL: Eliberarea cardului și alegerea medicului"
@@ -17,7 +17,7 @@
   },
   "story": {
     "uk": "Лаура заходить у відділення ASL і підходить до віконця (sportello). Працівниця перевіряє її документи та підтверджує право на безкоштовну реєстрацію в SSN.",
-    "en": "Laura enters the ASL office and goes to the window (sportello). The clerk checks her documents and confirms her right to free enrolment in the SSN.",
+    "en": "Laura enters the ASL office and goes to the counter (sportello). The clerk checks her documents and confirms her right to free enrollment in the SSN.",
     "es": "Laura entra en la oficina de la ASL y se acerca a la ventanilla (sportello). La empleada comprueba sus documentos y confirma el derecho a la inscripción gratuita en el SSN.",
     "fr": "Laura entre dans le service ASL et s’approche du guichet (sportello). L’employée vérifie ses documents et confirme le droit à l’inscription gratuite au SSN.",
     "ro": "Laura intră în sediul ASL și se apropie de ghișeu (sportello). Angajata verifică documentele și confirmă dreptul la înscriere gratuită în SSN."
@@ -28,16 +28,16 @@
       "translation": {
         "uk": "Доброго дня, вибачте. Мені потрібно зареєструватися в Національній службі охорони здоров'я. Це правильне віконце?",
         "en": "Good morning, excuse me. I need to register with the Servizio Sanitario Nazionale. Is this the right sportello?",
-        "es": "Buenos días, disculpe. Debo inscribirme en el Servizio Sanitario Nazionale. ¿Es este el sportello correcto?",
-        "fr": "Bonjour, excusez-moi. Je dois m'inscrire au Servizio Sanitario Nazionale. Est-ce le bon sportello ?",
-        "ro": "Bună dimineața, scuzați-mă. Trebuie să mă înscriu la Servizio Sanitario Nazionale. Acesta este sportello potrivit?"
+        "es": "Buenos días, disculpe. Debo inscribirme en el Servizio Sanitario Nazionale. ¿Es esta la ventanilla correcta?",
+        "fr": "Bonjour, excusez-moi. Je dois m’inscrire au Servizio Sanitario Nazionale. Est-ce le bon guichet ?",
+        "ro": "Bună dimineața, scuzați-mă. Trebuie să mă înscriu la Servizio Sanitario Nazionale. Acesta este ghișeul potrivit?"
       },
       "ukrainian": {
         "uk": "Доброго дня, вибачте. Мені потрібно зареєструватися в Національній службі охорони здоров'я. Це правильне віконце?",
         "en": "Good morning, excuse me. I need to register with the Servizio Sanitario Nazionale. Is this the right sportello?",
-        "es": "Buenos días, disculpe. Debo inscribirme en el Servizio Sanitario Nazionale. ¿Es este el sportello correcto?",
-        "fr": "Bonjour, excusez-moi. Je dois m'inscrire au Servizio Sanitario Nazionale. Est-ce le bon sportello ?",
-        "ro": "Bună dimineața, scuzați-mă. Trebuie să mă înscriu la Servizio Sanitario Nazionale. Acesta este sportello potrivit?"
+        "es": "Buenos días, disculpe. Debo inscribirme en el Servizio Sanitario Nazionale. ¿Es esta la ventanilla correcta?",
+        "fr": "Bonjour, excusez-moi. Je dois m’inscrire au Servizio Sanitario Nazionale. Est-ce le bon guichet ?",
+        "ro": "Bună dimineața, scuzați-mă. Trebuie să mă înscriu la Servizio Sanitario Nazionale. Acesta este ghișeul potrivit?"
       }
     },
     {
@@ -78,14 +78,14 @@
       "italian": "Sì, mi sembra comodo. È vicino a casa mia, scelgo questo.",
       "translation": {
         "uk": "Так, мені здається зручним. Він близько від дому, обираю цього.",
-        "en": "Yes, it seems convenient. It's close to my home, I'll choose this one.",
+        "en": "Yes, that seems convenient. It's close to my home — I'll choose this one.",
         "es": "Sí, me parece cómodo. Está cerca de mi casa, elijo este.",
         "fr": "Oui, ça me semble pratique. C'est près de chez moi, je choisis celui-ci.",
         "ro": "Da, mi se pare convenabil. E aproape de casă, îl aleg pe acesta."
       },
       "ukrainian": {
         "uk": "Так, мені здається зручним. Він близько від дому, обираю цього.",
-        "en": "Yes, it seems convenient. It's close to my home, I'll choose this one.",
+        "en": "Yes, that seems convenient. It's close to my home — I'll choose this one.",
         "es": "Sí, me parece cómodo. Está cerca de mi casa, elijo este.",
         "fr": "Oui, ça me semble pratique. C'est près de chez moi, je choisis celui-ci.",
         "ro": "Da, mi se pare convenabil. E aproape de casă, îl aleg pe acesta."
@@ -138,16 +138,16 @@
           "translation": {
             "uk": "Доброго дня, вибачте. Мені потрібно зареєструватися в Національній службі охорони здоров'я. Це правильне віконце?",
             "en": "Good morning, excuse me. I need to register with the Servizio Sanitario Nazionale. Is this the right sportello?",
-            "es": "Buenos días, disculpe. Debo inscribirme en el Servizio Sanitario Nazionale. ¿Es este el sportello correcto?",
-            "fr": "Bonjour, excusez-moi. Je dois m'inscrire au Servizio Sanitario Nazionale. Est-ce le bon sportello ?",
-            "ro": "Bună dimineața, scuzați-mă. Trebuie să mă înscriu la Servizio Sanitario Nazionale. Acesta este sportello potrivit?"
+            "es": "Buenos días, disculpe. Debo inscribirme en el Servizio Sanitario Nazionale. ¿Es esta la ventanilla correcta?",
+            "fr": "Bonjour, excusez-moi. Je dois m’inscrire au Servizio Sanitario Nazionale. Est-ce le bon guichet ?",
+            "ro": "Bună dimineața, scuzați-mă. Trebuie să mă înscriu la Servizio Sanitario Nazionale. Acesta este ghișeul potrivit?"
           },
           "feedback": {
             "uk": "Доброго дня, вибачте. Мені потрібно зареєструватися в Національній службі охорони здоров'я. Це правильне віконце?",
             "en": "Good morning, excuse me. I need to register with the Servizio Sanitario Nazionale. Is this the right sportello?",
-            "es": "Buenos días, disculpe. Debo inscribirme en el Servizio Sanitario Nazionale. ¿Es este el sportello correcto?",
-            "fr": "Bonjour, excusez-moi. Je dois m'inscrire au Servizio Sanitario Nazionale. Est-ce le bon sportello ?",
-            "ro": "Bună dimineața, scuzați-mă. Trebuie să mă înscriu la Servizio Sanitario Nazionale. Acesta este sportello potrivit?"
+            "es": "Buenos días, disculpe. Debo inscribirme en el Servizio Sanitario Nazionale. ¿Es esta la ventanilla correcta?",
+            "fr": "Bonjour, excusez-moi. Je dois m’inscrire au Servizio Sanitario Nazionale. Est-ce le bon guichet ?",
+            "ro": "Bună dimineața, scuzați-mă. Trebuie să mă înscriu la Servizio Sanitario Nazionale. Acesta este ghișeul potrivit?"
           }
         },
         {
@@ -328,13 +328,13 @@
         "en": "Perfect. With your permesso di soggiorno you are entitled to free registration. Do you already have a medico di base?",
         "es": "Perfecto. Con su permesso di soggiorno tiene derecho a la inscripción gratuita. ¿Tiene ya un medico di base?",
         "fr": "Parfait. Avec votre permesso di soggiorno, vous avez droit à l'inscription gratuite. Avez-vous déjà un medico di base ?",
-        "ro": "Perfect. Cu permesso di soggiorno al dumneavoastră aveți dreptul la înscriere gratuită. Aveți deja un medico di base?"
+        "ro": "Perfect. Cu permesso di soggiorno aveți dreptul la înscriere gratuită. Aveți deja un medico di base?"
       }
     },
     {
       "step": 4,
       "speaker": "Impiegata",
-      "text": "Le mostro una lista dei medici disponibili nella sua zona. Questo medico è vicino a casa sua e ha posto.",
+      "text": "Le mostro una lista dei medici disponibili nella sua zona. Questo medico è vicino a casa sua e ha ancora disponibilità.",
       "options": [
         {
           "text": "Mi dia il primo della lista, non importa chi è.",
@@ -359,14 +359,14 @@
           "isCorrect": true,
           "translation": {
             "uk": "Так, мені здається зручним. Він близько від дому, обираю цього.",
-            "en": "Yes, it seems convenient. It's close to my home, I'll choose this one.",
+            "en": "Yes, that seems convenient. It's close to my home — I'll choose this one.",
             "es": "Sí, me parece cómodo. Está cerca de mi casa, elijo este.",
             "fr": "Oui, ça me semble pratique. C'est près de chez moi, je choisis celui-ci.",
             "ro": "Da, mi se pare convenabil. E aproape de casă, îl aleg pe acesta."
           },
           "feedback": {
             "uk": "Так, мені здається зручним. Він близько від дому, обираю цього.",
-            "en": "Yes, it seems convenient. It's close to my home, I'll choose this one.",
+            "en": "Yes, that seems convenient. It's close to my home — I'll choose this one.",
             "es": "Sí, me parece cómodo. Está cerca de mi casa, elijo este.",
             "fr": "Oui, ça me semble pratique. C'est près de chez moi, je choisis celui-ci.",
             "ro": "Da, mi se pare convenabil. E aproape de casă, îl aleg pe acesta."
@@ -393,10 +393,10 @@
       ],
       "translation": {
         "uk": "Показую список доступних лікарів у вашому районі. Цей лікар близько від вашого дому і має місце.",
-        "en": "I'll show you a list of available doctors in your area. This doctor is close to your home and has a place.",
-        "es": "Le muestro una lista de médicos disponibles en su zona. Este médico está cerca de su casa y tiene plaza.",
-        "fr": "Je vous montre une liste des médecins disponibles dans votre zone. Ce médecin est près de chez vous et a de la place.",
-        "ro": "Vă arăt o listă a medicilor disponibili în zona dumneavoastră. Acest medic e aproape de casa dumneavoastră și are loc."
+        "en": "I'll show you a list of available doctors in your area. This doctor is close to your home and still has availability.",
+        "es": "Le muestro una lista de médicos disponibles en su zona. Este médico está cerca de su casa y tiene disponibilidad.",
+        "fr": "Je vous montre une liste des médecins disponibles dans votre secteur. Ce médecin est près de chez vous et a encore des disponibilités.",
+        "ro": "Vă arăt o listă a medicilor disponibili în zona dumneavoastră. Acest medic e aproape de casa dumneavoastră și mai are locuri."
       }
     },
     {
@@ -444,7 +444,7 @@
           "text": "La tessera definitiva arriva oggi, la aspetto qui tre ore.",
           "translation": {
             "uk": "Остаточна картка прийде сьогодні, почекаю тут три години.",
-            "en": "The definitive card arrives today, I'll wait here for three hours.",
+            "en": "The permanent card arrives today; I'll wait here for three hours.",
             "es": "La tarjeta definitiva llega hoy, la espero aquí tres horas.",
             "fr": "La carte définitive arrive aujourd'hui, je l'attends ici trois heures.",
             "ro": "Cardul definitiv sosește azi, îl aștept aici trei ore."
@@ -452,7 +452,7 @@
           "isCorrect": false,
           "feedback": {
             "uk": "Остаточна картка прийде сьогодні, почекаю тут три години.",
-            "en": "The definitive card arrives today, I'll wait here for three hours.",
+            "en": "The permanent card arrives today; I'll wait here for three hours.",
             "es": "La tarjeta definitiva llega hoy, la espero aquí tres horas.",
             "fr": "La carte définitive arrive aujourd'hui, je l'attends ici trois heures.",
             "ro": "Cardul definitiv sosește azi, îl aștept aici trei ore."
@@ -529,7 +529,7 @@
       ],
       "translation": {
         "uk": "Для вечірніх і святкових невідкладних випадків є guardia medica. Для важких — pronto soccorso, відкритий цілодобово.",
-        "en": "For evening and holiday urgencies there is the guardia medica. For serious emergencies there is the pronto soccorso, open 24 hours a day.",
+        "en": "For evening and holiday urgent cases there is the after-hours doctor (guardia medica). For serious emergencies there is the emergency room (pronto soccorso), open 24 hours a day.",
         "es": "Para las urgencias nocturnas y festivas está la guardia medica. Para las emergencias graves está el pronto soccorso, abierto las 24 horas.",
         "fr": "Pour les urgences du soir et les jours fériés, il y a la guardia medica. Pour les urgences graves, il y a le pronto soccorso, ouvert 24 heures sur 24.",
         "ro": "Pentru urgențe seara și în sărbători există guardia medica. Pentru urgențe grave există pronto soccorso, deschis 24 de ore din 24."

@@ -11,15 +11,15 @@
   "type": {
     "uk": "Симуляція бос-рівня",
     "en": "Boss Level Simulation",
-    "es": "Simulación de nivel jefe",
-    "fr": "Simulation Boss Level",
-    "ro": "Simulare nivel boss"
+    "es": "Simulación del nivel Boss",
+    "fr": "Simulation du niveau Boss",
+    "ro": "Simulare a nivelului Boss"
   },
   "story": {
     "uk": "Фінальний іспит модуля! Ви самостійно записуєтеся в салон краси, пояснюєте майстру бажану стрижку, догляд за бородою, форму нігтів та покриття. Підказки та переклад вимкнено!",
-    "en": "Final exam of the module! You book a salon yourself and explain the haircut, beard care, nail shape and polish you want. Hints and translation are off!",
-    "es": "¡Examen final del módulo! Te citas por tu cuenta en el salón y explicas el corte, el cuidado de la barba, la forma de las uñas y el esmalte. ¡Pistas y traducción desactivadas!",
-    "fr": "Examen final du module ! Vous prenez rendez-vous seul et expliquez la coupe, le soin de barbe, la forme des ongles et le vernis souhaités. Indices et traduction désactivés !",
+    "en": "Final exam of the module! You book a salon yourself and explain the haircut, beard care, nail shape and polish you want. Hints and translations are off!",
+    "es": "¡Examen final del módulo! Te citas por tu cuenta en el salón y explicas el corte, el cuidado de la barba, la forma de las uñas y el esmalte. ¡Las pistas y la traducción están desactivadas!",
+    "fr": "Examen final du module ! Vous prenez rendez-vous seul et expliquez la coupe, le soin de barbe, la forme des ongles et le vernis souhaités. Les indices et la traduction sont désactivés !",
     "ro": "Examenul final al modulului! Te programezi singur la salon și explici tunsoarea, îngrijirea bărbii, forma unghiilor și acoperirea dorite. Indiciile și traducerea sunt dezactivate!"
   },
   "questions": [
@@ -134,7 +134,7 @@
         "uk": "'Piega' — це укладка волосся.",
         "en": "'Piega' is hair styling (blow-dry).",
         "es": "'Piega' es el peinado/brushing.",
-        "fr": "'Piega' est le brushing / mise en forme des cheveux.",
+        "fr": "« Piega » est le brushing / la mise en forme des cheveux.",
         "ro": "'Piega' este coafarea părului."
       }
     }

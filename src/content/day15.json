@@ -11,15 +11,15 @@
   "type": {
     "uk": "Симуляція бос-рівня",
     "en": "Boss Level Simulation",
-    "es": "Simulación de nivel jefe",
-    "fr": "Simulation Boss Level",
-    "ro": "Simulare nivel boss"
+    "es": "Simulación del nivel Boss",
+    "fr": "Simulation du niveau Boss",
+    "ro": "Simulare a nivelului Boss"
   },
   "story": {
     "uk": "Фінальний іспит модуля! Ви самостійно обираєте послугу в терміналі, спілкуєтеся з працівником пошти, відправляєте лист та сплачуєте квитанцію. Підказки та переклад вимкнено!",
-    "en": "Final exam of the module! You choose the service at the terminal yourself, talk to the clerk, send a letter and pay a bill. Hints and translation are off!",
-    "es": "¡Examen final del módulo! Eliges el servicio en el terminal, hablas con el empleado, envías una carta y pagas un recibo. ¡Pistas y traducción desactivadas!",
-    "fr": "Examen final du module ! Vous choisissez le service au terminal, parlez à l’employé, envoyez une lettre et payez une quittance. Indices et traduction désactivés !",
+    "en": "Final exam of the module! You choose the service at the terminal yourself, talk to the clerk, send a letter and pay a bill. Hints and translations are off!",
+    "es": "¡Examen final del módulo! Eliges el servicio en el terminal, hablas con el empleado, envías una carta y pagas un recibo. ¡Las pistas y la traducción están desactivadas!",
+    "fr": "Examen final du module ! Vous choisissez le service au terminal, parlez à l’employé, envoyez une lettre et payez un avis de paiement. Les indices et la traduction sont désactivés !",
     "ro": "Examenul final al modulului! Alegeți singuri serviciul la terminal, vorbiți cu angajatul, trimiteți o scrisoare și plătiți o chitanță. Indiciile și traducerea sunt dezactivate!"
   },
   "questions": [
@@ -41,8 +41,8 @@
       "explanation": {
         "uk": "В Італії на пошті обов'язкова система електронної черги через термінал (totem).",
         "en": "In Italy, the post office uses a mandatory electronic queue via a terminal (totem).",
-        "es": "En Italia, en correos es obligatorio el sistema de turno electrónico a través del terminal (totem).",
-        "fr": "En Italie, à la poste, la file électronique via le terminal (totem) est obligatoire.",
+        "es": "En Italia, en correos es obligatorio el sistema de turno electrónico a través del terminal (tótem).",
+        "fr": "En Italie, à la poste, la file électronique via le terminal (borne) est obligatoire.",
         "ro": "În Italia, la poștă este obligatoriu sistemul de coadă electronică prin terminal (totem)."
       }
     },
@@ -121,8 +121,8 @@
         "uk": "Як називається номер для перевірки статусу та місцезнаходження посилки в інтернеті?",
         "en": "What is the number called for checking a parcel’s status and location online?",
         "es": "¿Cómo se llama el número para consultar el estado y la ubicación de un paquete en internet?",
-        "fr": "Comment s’appelle le numéro pour suivre le statut et la localisation d’un colis en ligne ?",
-        "ro": "Cum se numește numărul pentru verificarea statusului și locației coletului pe internet?"
+        "fr": "Comment s’appelle le numéro pour suivre l’état et la localisation d’un colis en ligne ?",
+        "ro": "Cum se numește numărul pentru verificarea stării și locației coletului pe internet?"
       },
       "options": [
         "Il codice fiscale.",
@@ -143,12 +143,12 @@
     "uk": "Експерт пошти ✉️",
     "en": "Post office expert ✉️",
     "es": "Experto de correos ✉️",
-    "fr": "Expert des Poste ✉️",
+    "fr": "Expert des Poste Italiane ✉️",
     "ro": "Expert Poștă ✉️"
   },
   "successMessage": {
     "uk": "Вітаємо! Ви вільно орієнтуєтеся в послугах Poste Italiane, можете відправляти посилки, рекомендовані листи та сплачувати квитанції!",
-    "en": "Congratulations! You can confidently use Poste Italiane services: send parcels, recommended letters, and pay bills!",
+    "en": "Congratulations! You can confidently use Poste Italiane services: send parcels, registered letters, and pay bills!",
     "es": "¡Enhorabuena! Te orientas con soltura en los servicios de Poste Italiane: puedes enviar paquetes, cartas certificadas y pagar recibos.",
     "fr": "Félicitations ! Vous vous repérez facilement dans les services de Poste Italiane : colis, lettres recommandées et paiement des factures.",
     "ro": "Felicitări! Te orientezi cu ușurință în serviciile Poste Italiane: poți trimite colete, scrisori recomandate și plăti facturi!"

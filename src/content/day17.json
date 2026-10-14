@@ -85,7 +85,7 @@
       ],
       "translation": {
         "uk": "Доброго дня, синьйоро! Прошу, сідайте. У вас був запис на ім’я Лаура?",
-        "en": "Good morning, ma'am! Please, take a seat. Did you have an appointment under the name Laura?",
+        "en": "Good morning, ma'am! Please take a seat. Did you have an appointment in the name of Laura?",
         "es": "¡Buenos días, señora! Por favor, siéntese. ¿Tenía cita a nombre de Laura?",
         "fr": "Bonjour Madame ! Je vous en prie, asseyez-vous. Vous aviez rendez-vous au nom de Laura ?",
         "ro": "Bună dimineața, doamnă! Vă rog, luați loc. Aveați programare pe numele Laura?"
@@ -155,7 +155,7 @@
         "uk": "Добре. Чим сьогодні можу допомогти?",
         "en": "Good. How can I help you today?",
         "es": "Bien. ¿En qué puedo ayudarla hoy?",
-        "fr": "Bien. En quoi puis-je vous aider aujourd'hui ?",
+        "fr": "Bien. En quoi puis-je vous aider aujourd’hui ?",
         "ro": "Bine. Cu ce vă pot ajuta astăzi?"
       }
     },
@@ -167,7 +167,7 @@
         {
           "text": "Certamente! Ecco la mia Carta d'Identità, il Codice Fiscale mio e di mia figlia, e il modello ISEE.",
           "translation": {
-            "uk": "Звісно! Ось моє посвідчення особи, мій код фіскале і доньки, і модель ISEE.",
+            "uk": "Звісно! Ось моє посвідчення особи, мій податковий код і доньки, і бланк ISEE.",
             "en": "Of course! Here's my identity card, my Codice Fiscale and my daughter's, and the ISEE form.",
             "es": "¡Por supuesto! Aquí está mi Carta d'Identità, el Codice Fiscale mío y de mi hija, y el modello ISEE.",
             "fr": "Bien sûr ! Voici ma Carta d'Identità, le Codice Fiscale à moi et à ma fille, et le modello ISEE.",
@@ -175,7 +175,7 @@
           },
           "isCorrect": true,
           "feedback": {
-            "uk": "Звісно! Ось моє посвідчення особи, мій код фіскале і доньки, і модель ISEE.",
+            "uk": "Звісно! Ось моє посвідчення особи, мій податковий код і доньки, і бланк ISEE.",
             "en": "Of course! Here's my identity card, my Codice Fiscale and my daughter's, and the ISEE form.",
             "es": "¡Por supuesto! Aquí está mi Carta d'Identità, el Codice Fiscale mío y de mi hija, y el modello ISEE.",
             "fr": "Bien sûr ! Voici ma Carta d'Identità, le Codice Fiscale à moi et à ma fille, et le modello ISEE.",
@@ -375,7 +375,7 @@
             "en": "The money arrives today in cash, right? I'll wait here.",
             "es": "El dinero llega hoy en efectivo, ¿verdad? Lo espero aquí.",
             "fr": "L'argent arrive aujourd'hui en espèces, n'est-ce pas ? Je l'attends ici.",
-            "ro": "Banii sosesc azi cash, nu-i așa? Îi aștept aici."
+            "ro": "Banii sosesc azi în numerar, nu-i așa? Îi aștept aici."
           },
           "isCorrect": false,
           "feedback": {
@@ -383,14 +383,14 @@
             "en": "The money arrives today in cash, right? I'll wait here.",
             "es": "El dinero llega hoy en efectivo, ¿verdad? Lo espero aquí.",
             "fr": "L'argent arrive aujourd'hui en espèces, n'est-ce pas ? Je l'attends ici.",
-            "ro": "Banii sosesc azi cash, nu-i așa? Îi aștept aici."
+            "ro": "Banii sosesc azi în numerar, nu-i așa? Îi aștept aici."
           }
         },
         {
           "text": "La ringrazio molto per l'aiuto! Buona giornata e buon lavoro.",
           "translation": {
             "uk": "Щиро дякую за допомогу! Гарного дня і успіхів у роботі.",
-            "en": "Thank you very much for your help! Have a good day and good luck with your work.",
+            "en": "Thank you very much for your help! Have a good day, and all the best with your work.",
             "es": "¡Muchas gracias por la ayuda! Buen día y buen trabajo.",
             "fr": "Je vous remercie beaucoup pour l'aide ! Bonne journée et bon travail.",
             "ro": "Vă mulțumesc mult pentru ajutor! O zi bună și spor la muncă."
@@ -398,7 +398,7 @@
           "isCorrect": true,
           "feedback": {
             "uk": "Щиро дякую за допомогу! Гарного дня і успіхів у роботі.",
-            "en": "Thank you very much for your help! Have a good day and good luck with your work.",
+            "en": "Thank you very much for your help! Have a good day, and all the best with your work.",
             "es": "¡Muchas gracias por la ayuda! Buen día y buen trabajo.",
             "fr": "Je vous remercie beaucoup pour l'aide ! Bonne journée et bon travail.",
             "ro": "Vă mulțumesc mult pentru ajutor! O zi bună și spor la muncă."

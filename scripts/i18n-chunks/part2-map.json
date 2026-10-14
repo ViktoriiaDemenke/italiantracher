@@ -1,0 +1,1700 @@
+{
+  "Ідеально! Ви одразу уточнили тип води (naturale).": {
+    "en": "Perfect! You clarified the type of water right away (naturale).",
+    "es": "¡Perfecto! De inmediato aclaraste el tipo de agua (naturale).",
+    "fr": "Parfait ! Vous avez précisé tout de suite le type d'eau (naturale).",
+    "ro": "Perfect! Ai clarificat imediat tipul de apă (naturale)."
+  },
+  "Дай води і все.": {
+    "en": "Give me water and that's it.",
+    "es": "Dame agua y ya está.",
+    "fr": "Donne-moi de l'eau et c'est tout.",
+    "ro": "Dă-mi apă și gata."
+  },
+  "Неввічливо (звернення на 'ти'). Краще сказати: 'Un'acqua naturale, per favore'.": {
+    "en": "Impolite (informal \"you\"). Better to say: 'Un'acqua naturale, per favore'.",
+    "es": "Poco educado (trato de «tú»). Mejor decir: «Un'acqua naturale, per favore».",
+    "fr": "Impoli (vouvoiement absent). Mieux vaut dire : « Un'acqua naturale, per favore ».",
+    "ro": "Neprotocolar (apellativ „tu”). Mai bine spui: «Un'acqua naturale, per favore»."
+  },
+  "Чудово, заходьте. Ось меню. Що принести випити на початок?": {
+    "en": "Wonderful, please come in. Here is the menu. What would you like to drink to start?",
+    "es": "Estupendo, pasen. Aquí tienen el menú. ¿Qué les traigo de beber para empezar?",
+    "fr": "Très bien, entrez. Voici le menu. Que puis-je vous apporter à boire pour commencer ?",
+    "ro": "Minunat, intrați. Iată meniul. Ce aduc de băut la început?"
+  },
+  "Так! На перше візьмемо дві тальятелле з рагу, а на друге — тальяту з яловичини на двох.": {
+    "en": "Yes! For the first course we'll have two tagliatelle with ragù, and for the second — tagliata of beef for two.",
+    "es": "¡Sí! De primero dos tagliatelle con ragù y de segundo tagliata de ternera para dos.",
+    "fr": "Oui ! En primo, deux tagliatelle au ragù, et en secondo — tagliata de bœuf pour deux.",
+    "ro": "Da! La primul fel luăm două porții de tagliatelle cu ragù, iar la al doilea — tagliata de vită pentru doi."
+  },
+  "Чудово! Ви правильно розділили замовлення на Primo (перша страва) та Secondo (друга страва).": {
+    "en": "Great! You correctly split the order into Primo (first course) and Secondo (second course).",
+    "es": "¡Genial! Separaste bien el pedido en Primo (primer plato) y Secondo (segundo plato).",
+    "fr": "Super ! Vous avez bien séparé la commande en Primo (premier plat) et Secondo (second plat).",
+    "ro": "Excelent! Ai împărțit corect comanda în Primo (felul întâi) și Secondo (felul doi)."
+  },
+  "Я хотів би капучино і піцу з рагу.": {
+    "en": "I'd like a cappuccino and pizza with ragù.",
+    "es": "Quisiera un cappuccino y una pizza con ragù.",
+    "fr": "Je voudrais un cappuccino et une pizza au ragù.",
+    "ro": "Aș dori un cappuccino și o pizza cu ragù."
+  },
+  "Капучино не замовляють під час обіду з пастою, а 'pizza al ragù' — це нестандартне поєднання.": {
+    "en": "You don't order cappuccino during a pasta lunch, and 'pizza al ragù' is an unusual combination.",
+    "es": "No se pide cappuccino en un almuerzo con pasta, y «pizza al ragù» es una combinación poco habitual.",
+    "fr": "On ne commande pas de cappuccino pendant un déjeuner avec des pâtes, et « pizza al ragù » est une combinaison peu courante.",
+    "ro": "Cappuccino nu se comandă la pranz cu paste, iar «pizza al ragù» e o combinație neobișnuită."
+  },
+  "Несіть усе разом, порядок страв не важливий.": {
+    "en": "Bring everything together; the order of courses doesn't matter.",
+    "es": "Traigan todo junto; el orden de los platos no importa.",
+    "fr": "Apportez tout ensemble ; l'ordre des plats n'a pas d'importance.",
+    "ro": "Aduceți totul odată; ordinea felurilor nu contează."
+  },
+  "В Італії спочатку primo, потім secondo; так і замовляють.": {
+    "en": "In Italy it's primo first, then secondo; that's how people order.",
+    "es": "En Italia primero va el primo y luego el secondo; así se pide.",
+    "fr": "En Italie, d'abord le primo, puis le secondo ; c'est ainsi qu'on commande.",
+    "ro": "În Italia mai întâi primo, apoi secondo; așa se comandă."
+  },
+  "Готові замовляти страви?": {
+    "en": "Ready to order the dishes?",
+    "es": "¿Listos para pedir los platos?",
+    "fr": "Prêts à commander les plats ?",
+    "ro": "Sunteți gata să comandați felurile?"
+  },
+  "Два великі капучино, дякую.": {
+    "en": "Two large cappuccinos, thank you.",
+    "es": "Dos cappuccinos grandes, gracias.",
+    "fr": "Deux grands cappuccinos, merci.",
+    "ro": "Două cappuccino mari, mulțumesc."
+  },
+  "Пам'ятайте: ввечері та після обіду італійці замовляють еспресо, а не капучино.": {
+    "en": "Remember: in the evening and after lunch Italians order espresso, not cappuccino.",
+    "es": "Recuerda: por la noche y después del almuerzo los italianos piden espresso, no cappuccino.",
+    "fr": "Rappel : le soir et après le déjeuner, les Italiens prennent un espresso, pas un cappuccino.",
+    "ro": "Amintește-ți: seara și după pranz italienii comandă espresso, nu cappuccino."
+  },
+  "Чай з молоком і велике пиво після пасти.": {
+    "en": "Tea with milk and a large beer after pasta.",
+    "es": "Té con leche y una cerveza grande después de la pasta.",
+    "fr": "Thé au lait et grande bière après les pâtes.",
+    "ro": "Ceai cu lapte și o bere mare după paste."
+  },
+  "Після обіду типово espresso або десерт, не капучино і не чай з молоком.": {
+    "en": "After lunch it's typical to have espresso or dessert, not cappuccino or tea with milk.",
+    "es": "Después del almuerzo lo habitual es espresso o postre, no cappuccino ni té con leche.",
+    "fr": "Après le déjeuner, on prend plutôt un espresso ou un dessert, pas de cappuccino ni de thé au lait.",
+    "ro": "După pranz e tipic espresso sau desert, nu cappuccino și ceai cu lapte."
+  },
+  "Тірамісу і дві кави еспресо, будь ласка.": {
+    "en": "Tiramisu and two espressos, please.",
+    "es": "Tiramisú y dos cafés espresso, por favor.",
+    "fr": "Tiramisu et deux cafés espresso, s'il vous plaît.",
+    "ro": "Tiramisu și două espresso, vă rog."
+  },
+  "Класичний італійський фінал обіду!": {
+    "en": "A classic Italian end to the meal!",
+    "es": "¡Un final de comida italiano clásico!",
+    "fr": "Une fin de repas italienne classique !",
+    "ro": "Un final clasic italian al mesei!"
+  },
+  "Чудовий вибір! Бажаєте десерт чи каву наприкінці?": {
+    "en": "Great choice! Would you like dessert or coffee at the end?",
+    "es": "¡Buena elección! ¿Desean postre o café al final?",
+    "fr": "Excellent choix ! Souhaitez-vous un dessert ou un café pour finir ?",
+    "ro": "Alegere excelentă! Doriți desert sau cafea la final?"
+  },
+  "Ні, дякую. Коли можна, принесіть рахунок?": {
+    "en": "No, thank you. When you can, could you bring the bill?",
+    "es": "No, gracias. ¿Cuando pueda, trae la cuenta?",
+    "fr": "Non, merci. Quand vous pourrez, apportez l'addition ?",
+    "ro": "Nu, mulțumesc. Când puteți, aduceți nota?"
+  },
+  "Ідеальна фраза для того, щоб попросити чек.": {
+    "en": "The perfect phrase to ask for the bill.",
+    "es": "La frase ideal para pedir la cuenta.",
+    "fr": "La phrase idéale pour demander l'addition.",
+    "ro": "Fraza ideală pentru a cere nota."
+  },
+  "Можемо вийти не платячи, повернемося завтра.": {
+    "en": "We can leave without paying; we'll come back tomorrow.",
+    "es": "Podemos irnos sin pagar; volvemos mañana.",
+    "fr": "On peut partir sans payer, on reviendra demain.",
+    "ro": "Putem pleca fără să plătim, revenim mâine."
+  },
+  "Рахунок треба закрити перед виходом.": {
+    "en": "You need to settle the bill before leaving.",
+    "es": "Hay que pagar la cuenta antes de salir.",
+    "fr": "Il faut régler l'addition avant de partir.",
+    "ro": "Nota trebuie plătită înainte de a pleca."
+  },
+  "Так, ще одне перше. Рахунок принесіть самі, не питаючи.": {
+    "en": "Yes, one more first course. Bring the bill yourself without asking.",
+    "es": "Sí, otro primero. Traigan la cuenta solos, sin preguntar.",
+    "fr": "Oui, encore un primo. Apportez l'addition vous-mêmes, sans demander.",
+    "ro": "Da, încă un fel întâi. Aduceți nota singuri, fără să întrebați."
+  },
+  "Чек просять фразою «Il conto, per favore», його не чекають мовчки і не додають зайву страву без потреби.": {
+    "en": "You ask for the bill with «Il conto, per favore»; you don't wait silently or add an extra dish without need.",
+    "es": "La cuenta se pide con «Il conto, per favore»; no se espera en silencio ni se añade un plato de más sin necesidad.",
+    "fr": "On demande l'addition avec « Il conto, per favore » ; on n'attend pas en silence et on n'ajoute pas un plat inutile.",
+    "ro": "Nota se cere cu «Il conto, per favore»; nu aștepți în tăcere și nu adaugi un fel inutil."
+  },
+  "Чудово, зараз принесуть. Ще щось потрібно?": {
+    "en": "Great, they'll bring it soon. Need anything else?",
+    "es": "Perfecto, ahora la traen. ¿Necesitan algo más?",
+    "fr": "Très bien, ils l'apportent tout de suite. Autre chose ?",
+    "ro": "Perfect, o aduc imediat. Mai doriți ceva?"
+  },
+  "Платимо купюрами по двісті, без чайових і без чека.": {
+    "en": "We'll pay with 200-euro notes, no tip and no receipt.",
+    "es": "Pagamos con billetes de doscientos, sin propina ni ticket.",
+    "fr": "On paie avec des billets de deux cents, sans pourboire ni reçu.",
+    "ro": "Plătim cu bancnote de două sute, fără bacșiș și fără scontrino."
+  },
+  "Нормально платити карткою або готівкою й обов’язково взяти чек.": {
+    "en": "It's normal to pay by card or cash and always take the receipt.",
+    "es": "Es normal pagar con tarjeta o efectivo y llevarse siempre el ticket.",
+    "fr": "Il est normal de payer par carte ou en espèces et de toujours prendre le reçu.",
+    "ro": "E normal să plătești cu cardul sau cash și să iei obligatoriu scontrino."
+  },
+  "Платимо карткою, разом. Дуже дякуємо, усе було чудово!": {
+    "en": "We'll pay by card, together. Thank you very much — everything was wonderful!",
+    "es": "Pagamos con tarjeta, juntos. Muchas gracias, ¡todo estuvo genial!",
+    "fr": "On paie par carte, ensemble. Merci beaucoup, tout était excellent !",
+    "ro": "Plătim cu cardul, împreună. Vă mulțumim mult — totul a fost minunat!"
+  },
+  "Чудове завершення обіду та комплімент кухні!": {
+    "en": "A wonderful end to the meal and a compliment to the kitchen!",
+    "es": "¡Un cierre estupendo de la comida y un cumplido a la cocina!",
+    "fr": "Une belle fin de repas et un compliment à la cuisine !",
+    "ro": "O încheiere minunată a mesei și un compliment bucătăriei!"
+  },
+  "Поділимо рахунок на десять рівних частин, навіть для тих, хто не їв.": {
+    "en": "Let's split the bill into ten equal parts, even for those who didn't eat.",
+    "es": "Dividamos la cuenta en diez partes iguales, incluso para quien no comió.",
+    "fr": "Divisons l'addition en dix parts égales, même pour ceux qui n'ont pas mangé.",
+    "ro": "Împărțim nota în zece părți egale, chiar și pentru cei care n-au mâncat."
+  },
+  "Зазвичай платять insieme або separati на тих, хто сидів за столом.": {
+    "en": "Usually people pay insieme or separati among those at the table.",
+    "es": "Lo habitual es pagar insieme o separati entre quienes estaban en la mesa.",
+    "fr": "En général, on paie insieme ou separati entre ceux qui étaient à table.",
+    "ro": "De obicei se plătește insieme sau separati între cei de la masă."
+  },
+  "Звісно! Платите разом чи окремо? Приймаємо також картку.": {
+    "en": "Of course! Paying together or separately? We also accept cards.",
+    "es": "¡Claro! ¿Pagan juntos o por separado? También aceptamos tarjeta.",
+    "fr": "Bien sûr ! Ensemble ou séparément ? Nous acceptons aussi la carte.",
+    "ro": "Desigur! Plătiți împreună sau separat? Acceptăm și card."
+  },
+  "В Італії чек не приносять автоматично одразу після того, як ви доїли — це вважається квапленням гостя. Ви маєте самі сказати офіціанту: 'Il conto, per favore'.": {
+    "en": "In Italy the bill isn't brought automatically right after you finish eating — that's seen as the guest rushing. You must tell the waiter yourself: 'Il conto, per favore'.",
+    "es": "En Italia no traen la cuenta sola justo al terminar — se considera que el cliente tiene prisa. Debes decir al camarero: «Il conto, per favore».",
+    "fr": "En Italie, l'addition n'est pas apportée automatiquement dès que vous avez fini — cela serait perçu comme une hâte du client. Vous devez dire vous-même au serveur : « Il conto, per favore ».",
+    "ro": "În Italia nota nu vine automat imediat ce ai terminat — e considerată grăbirea clientului. Trebuie să-i spui chelnerului: «Il conto, per favore»."
+  },
+  "Boss Level 🏆: Симуляція обіду в італійському ресторані": {
+    "en": "Boss Level 🏆: Lunch simulation at an Italian restaurant",
+    "es": "Boss Level 🏆: Simulación de comida en un restaurante italiano",
+    "fr": "Boss Level 🏆 : Simulation de déjeuner dans un restaurant italien",
+    "ro": "Boss Level 🏆: Simularea pranzului într-un restaurant italian"
+  },
+  "Фінальний іспит модуля! Ви самостійно замовляєте обід у траторії, спілкуєтеся з офіціантом, обираєте правильні напої та розраховуєтеся. Підказки та переклад вимкнено!": {
+    "en": "Final module exam! You order lunch on your own at a trattoria, talk to the waiter, choose the right drinks, and pay. Hints and translation are off!",
+    "es": "¡Examen final del módulo! Pides el almuerzo solo en una trattoria, hablas con el camarero, eliges las bebidas correctas y pagas. ¡Sin pistas ni traducción!",
+    "fr": "Examen final du module ! Vous commandez seul(e) le déjeuner dans une trattoria, parlez au serveur, choisissez les bonnes boissons et réglez. Indices et traduction désactivés !",
+    "ro": "Examenul final al modulului! Comanzi singur pranzul la o trattoria, vorbești cu chelnerul, alegi băuturile potrivite și plătești. Fără indicii și traduceri!"
+  },
+  "Як ввічливо попросити забронювати столик на вечір?": {
+    "en": "How do you politely ask to book a table for the evening?",
+    "es": "¿Cómo pedir con cortesía reservar una mesa para la noche?",
+    "fr": "Comment demander poliment à réserver une table pour le soir ?",
+    "ro": "Cum ceri politicos să rezervi o masă pentru seară?"
+  },
+  "'Vorrei prenotare...' = 'Я хотів би забронювати...'": {
+    "en": "'Vorrei prenotare...' = 'I would like to book...'",
+    "es": "«Vorrei prenotare...» = «Quisiera reservar...»",
+    "fr": "« Vorrei prenotare... » = « Je voudrais réserver... »",
+    "ro": "«Vorrei prenotare...» = «Aș dori să rezerv...»"
+  },
+  "Що означає позиція 'Coperto' у ресторані?": {
+    "en": "What does the 'Coperto' line on the bill mean in a restaurant?",
+    "es": "¿Qué significa la partida «Coperto» en un restaurante?",
+    "fr": "Que signifie la ligne « Coperto » au restaurant ?",
+    "ro": "Ce înseamnă poziția «Coperto» la restaurant?"
+  },
+  "'Coperto' — фіксована плата за посуд, хліб та сервірування.": {
+    "en": "'Coperto' is a fixed charge for place setting, bread, and service.",
+    "es": "«Coperto» es un cargo fijo por cubiertos, pan y servicio.",
+    "fr": "« Coperto » est un forfait pour le couvert, le pain et le service.",
+    "ro": "«Coperto» e o taxă fixă pentru tacâmuri, pâine și servire."
+  },
+  "Яку каву прийнято замовляти в Італії одразу після обіду?": {
+    "en": "Which coffee is customary to order in Italy right after lunch?",
+    "es": "¿Qué café se suele pedir en Italia justo después de comer?",
+    "fr": "Quel café commande-t-on en Italie juste après le déjeuner ?",
+    "ro": "Ce cafea e obișnuit să comanzi în Italia imediat după pranz?"
+  },
+  "Після їжі італійці п'ють еспресо для покращення травлення.": {
+    "en": "After eating Italians drink espresso to aid digestion.",
+    "es": "Después de comer los italianos toman espresso para favorecer la digestión.",
+    "fr": "Après le repas, les Italiens prennent un espresso pour la digestion.",
+    "ro": "După masă italienii beau espresso pentru digestie."
+  },
+  "Як правильно просити чек в офіціанта?": {
+    "en": "How do you correctly ask the waiter for the bill?",
+    "es": "¿Cómo pedir correctamente la cuenta al camarero?",
+    "fr": "Comment demander correctement l'addition au serveur ?",
+    "ro": "Cum ceri corect nota chelnerului?"
+  },
+  "'Il conto, per favore' = 'Чек, будь ласка'.": {
+    "en": "'Il conto, per favore' = 'The bill, please'.",
+    "es": "«Il conto, per favore» = «La cuenta, por favor».",
+    "fr": "« Il conto, per favore » = « L'addition, s'il vous plaît ».",
+    "ro": "«Il conto, per favore» = «Nota, vă rog»."
+  },
+  "Як уточнити офіціанту, що ви бажаєте звичайну воду без газу?": {
+    "en": "How do you tell the waiter you want still water without gas?",
+    "es": "¿Cómo aclarar al camarero que quieres agua natural sin gas?",
+    "fr": "Comment préciser au serveur que vous voulez de l'eau plate ?",
+    "ro": "Cum îi spui chelnerului că vrei apă plată, fără gaz?"
+  },
+  "'Acqua naturale' = вода без газу.": {
+    "en": "'Acqua naturale' = still water.",
+    "es": "«Acqua naturale» = agua sin gas.",
+    "fr": "« Acqua naturale » = eau plate.",
+    "ro": "«Acqua naturale» = apă plată."
+  },
+  "Вітаємо! Ви повністю засвоїли етикет італійських ресторанів, легко замовляєте страви та орієнтуєтеся в чеку!": {
+    "en": "Congratulations! You've fully mastered Italian restaurant etiquette, order dishes easily, and understand the bill!",
+    "es": "¡Enhorabuena! Dominas la etiqueta del restaurante italiano, pides con soltura y entiendes la cuenta.",
+    "fr": "Félicitations ! Vous maîtrisez l'étiquette des restaurants italiens, commandez facilement et lisez l'addition !",
+    "ro": "Felicitări! Stăpânești eticheta restaurantelor italiene, comanzi ușor și te descurci cu nota!"
+  },
+  "Шукаємо житло: Оголошення, застава та кондомініум": {
+    "en": "Finding housing: Listings, deposit, and condominium fees",
+    "es": "Buscar vivienda: Anuncios, fianza y condominio",
+    "fr": "Chercher un logement : annonces, caution et charges de copropriété",
+    "ro": "Căutarea locuinței: anunțuri, garanție și condominiu"
+  },
+  "Лаура шукає нову квартиру в Падуї/Тревізо. На порталі оголошень вона знайшла привабливий варіант, але щоб зняти житло в Італії, потрібно орієнтуватися у термінах: розрізняти 'monolocale' та 'trilocale', розуміти, що таке 'spese condominiali' (комунальні послуги будинку) та скільки місяців складає 'caparra' (застава).": {
+    "en": "Laura is looking for a new apartment in Padua/Treviso. On a listings portal she found an attractive option, but to rent in Italy you need to know the terms: tell 'monolocale' from 'trilocale', understand 'spese condominiali' (building common charges), and how many months 'caparra' (deposit) is.",
+    "es": "Laura busca un piso nuevo en Padua/Treviso. En un portal encontró una opción atractiva, pero para alquilar en Italia hay que conocer los términos: distinguir «monolocale» y «trilocale», entender «spese condominiali» (gastos del edificio) y cuántos meses es la «caparra» (fianza).",
+    "fr": "Laura cherche un nouvel appartement à Padoue/Trevise. Sur un portail d'annonces elle a trouvé une offre intéressante, mais pour louer en Italie il faut maîtriser le vocabulaire : distinguer « monolocale » et « trilocale », comprendre les « spese condominiali » (charges de l'immeuble) et combien de mois représente la « caparra » (caution).",
+    "ro": "Laura caută un apartament nou la Padova/Treviso. Pe un portal de anunțuri a găsit o variantă atractivă, dar ca să închiriezi în Italia trebuie să cunoști termenii: diferența «monolocale» / «trilocale», ce sunt «spese condominiali» (cheltuieli ale blocului) și câte luni reprezintă «caparra» (garanția)."
+  },
+  "Я побачив(ла) ваше оголошення про оренду квартири.": {
+    "en": "I saw your apartment rental listing.",
+    "es": "Vi su anuncio de alquiler del piso.",
+    "fr": "J'ai vu votre annonce de location d'appartement.",
+    "ro": "Am văzut anunțul dumneavoastră de închiriere a apartamentului."
+  },
+  "Квартира ще вільна (доступна)?": {
+    "en": "Is the apartment still available?",
+    "es": "¿El piso sigue libre (disponible)?",
+    "fr": "L'appartement est-il encore libre (disponible) ?",
+    "ro": "Apartamentul mai e liber (disponibil)?"
+  },
+  "Витрати на кондомініум включені в ціну?": {
+    "en": "Are condominium expenses included in the price?",
+    "es": "¿Los gastos de condominio están incluidos en el precio?",
+    "fr": "Les charges de copropriété sont-elles incluses dans le prix ?",
+    "ro": "Cheltuielile de condominiu sunt incluse în preț?"
+  },
+  "Коли ми можемо домовитися про зустріч, щоб оглянути її?": {
+    "en": "When can we arrange a meeting to view it?",
+    "es": "¿Cuándo podemos quedar para verlo?",
+    "fr": "Quand pouvons-nous fixer un rendez-vous pour le visiter ?",
+    "ro": "Când putem stabili o întâlnire ca să-l vizităm?"
+  },
+  "Monolocale — 1-кімнатна квартира (студія). Bilocale — 2-кімнатна (спальня + вітальня з кухнею). Trilocale — 3-кімнатна.": {
+    "en": "Monolocale — one-room apartment (studio). Bilocale — two-room (bedroom + living room with kitchen). Trilocale — three-room.",
+    "es": "Monolocale — piso de 1 habitación (estudio). Bilocale — de 2 (dormitorio + salón con cocina). Trilocale — de 3.",
+    "fr": "Monolocale — appartement une pièce (studio). Bilocale — deux pièces (chambre + séjour avec cuisine). Trilocale — trois pièces.",
+    "ro": "Monolocale — apartament cu 1 cameră (garsonieră). Bilocale — 2 camere (dormitor + living cu bucătărie). Trilocale — 3 camere."
+  },
+  "Spese condominiali — платежі за прибирання під'їзду, ліфт, освітлення та догляд за подвір'ям. Вони частіше виставляються окремо від оренди.": {
+    "en": "Spese condominiali — payments for stair cleaning, elevator, lighting, and courtyard upkeep. They are often billed separately from rent.",
+    "es": "Spese condominiali — pagos por limpieza de escaleras, ascensor, luz y cuidado del patio. Suele facturarse aparte del alquiler.",
+    "fr": "Spese condominiali — paiements pour le nettoyage des escaliers, l'ascenseur, l'éclairage et l'entretien de la cour. Souvent facturés en plus du loyer.",
+    "ro": "Spese condominiali — plăți pentru curățenia scării, lift, iluminat și întreținerea curții. De obicei sunt facturate separat de chirie."
+  },
+  "Caparra / Deposito cauzionale — гарантійна застава, яка зазвичай складає від 2 до 3 місяців оренди і повертається при виїзді.": {
+    "en": "Caparra / Deposito cauzionale — security deposit, usually 2 to 3 months' rent, returned when you move out.",
+    "es": "Caparra / Deposito cauzionale — fianza, normalmente de 2 a 3 meses de alquiler, devuelta al marcharse.",
+    "fr": "Caparra / Deposito cauzionale — caution, en général 2 à 3 mois de loyer, restituée au départ.",
+    "ro": "Caparra / Deposito cauzionale — garanție, de obicei 2–3 luni de chirie, returnată la plecare."
+  },
+  "Contratto 4+4 o 3+2 — найпопулярніші види довгострокових договорів оренди в Італії.": {
+    "en": "Contratto 4+4 o 3+2 — the most common types of long-term rental contracts in Italy.",
+    "es": "Contratto 4+4 o 3+2 — los tipos de contrato de alquiler a largo plazo más habituales en Italia.",
+    "fr": "Contratto 4+4 o 3+2 — les types de bail long terme les plus courants en Italie.",
+    "ro": "Contratto 4+4 o 3+2 — cele mai populare tipuri de contracte de închiriere pe termen lung în Italia."
+  },
+  "Уточнення умов через 'Sono inclusi/e...?' та 'Vorrei fissare...'": {
+    "en": "Clarifying terms with 'Sono inclusi/e...?' and 'Vorrei fissare...'",
+    "es": "Aclarar condiciones con «Sono inclusi/e...?» y «Vorrei fissare...»",
+    "fr": "Préciser les conditions avec « Sono inclusi/e...? » et « Vorrei fissare... »",
+    "ro": "Clarificarea condițiilor cu «Sono inclusi/e...?» și «Vorrei fissare...»"
+  },
+  "Запитання про включені послуги: 'Sono inclusi/e...?' (Чи включені...?).": {
+    "en": "Asking what's included: 'Sono inclusi/e...?' (Are ... included?).",
+    "es": "Preguntar por lo incluido: «Sono inclusi/e...?» (¿Está incluido/incluida...?).",
+    "fr": "Demander ce qui est inclus : « Sono inclusi/e...? » (Est-ce inclus ?).",
+    "ro": "Întrebarea despre servicii incluse: «Sono inclusi/e...?» (Sunt incluse...?)."
+  },
+  "Витрати на воду і газ входять?": {
+    "en": "Are water and gas costs included?",
+    "es": "¿Están incluidos el agua y el gas?",
+    "fr": "Les charges d'eau et de gaz sont-elles incluses ?",
+    "ro": "Sunt incluse cheltuielile pentru apă și gaz?"
+  },
+  "Витрати кондомініуму не входять.": {
+    "en": "Condominium expenses are not included.",
+    "es": "Los gastos de condominio no están incluidos.",
+    "fr": "Les charges de copropriété ne sont pas incluses.",
+    "ro": "Cheltuielile de condominiu nu sunt incluse."
+  },
+  "Домовленість про час: 'Fissare un appuntamento' (Призначити зустріч).": {
+    "en": "Scheduling: 'Fissare un appuntamento' (Set an appointment).",
+    "es": "Concertar hora: «Fissare un appuntamento» (Fijar una cita).",
+    "fr": "Fixer un horaire : « Fissare un appuntamento » (Prendre rendez-vous).",
+    "ro": "Stabilirea orei: «Fissare un appuntamento» (Programarea unei întâlniri)."
+  },
+  "Я хотів би призначити огляд.": {
+    "en": "I'd like to schedule a viewing.",
+    "es": "Quisiera concertar una visita.",
+    "fr": "Je voudrais fixer une visite.",
+    "ro": "Aș dori să programez o vizionare."
+  },
+  "Можу прийти подивитися квартиру завтра?": {
+    "en": "Can I come see the apartment tomorrow?",
+    "es": "¿Puedo ir a ver el piso mañana?",
+    "fr": "Puis-je venir voir l'appartement demain ?",
+    "ro": "Pot veni să văd apartamentul mâine?"
+  },
+  "В Італії орендодавці майже завжди запитують 'busta paga' (довідку про доходи/зарплату) або гаранта перед підписанням договору, щоб переконатися у вашій платоспроможності.": {
+    "en": "In Italy landlords almost always ask for 'busta paga' (proof of income/pay slip) or a guarantor before signing, to verify you can pay.",
+    "es": "En Italia los propietarios casi siempre piden «busta paga» (justificante de ingresos/nómina) o un aval antes de firmar, para comprobar solvencia.",
+    "fr": "En Italie, les propriétaires demandent presque toujours une « busta paga » (justificatif de revenus/fiche de paie) ou un garant avant la signature, pour vérifier votre solvabilité.",
+    "ro": "În Italia proprietarii cer aproape întotdeauna «busta paga» (dovada veniturilor/fluturaș de salariu) sau un garant înainte de semnare, ca să verifice solvabilitatea."
+  },
+  "Живий діалог: Дзвінок орендодавцю та узгодження умов": {
+    "en": "Live dialogue: Calling the landlord and agreeing on terms",
+    "es": "Diálogo en vivo: Llamada al propietario y acuerdo de condiciones",
+    "fr": "Dialogue en direct : appeler le propriétaire et convenir des conditions",
+    "ro": "Dialog live: Apel la proprietar și stabilirea condițiilor"
+  },
+  "Лаура телефонує власнику квартири — синьйору Маріо (Signor Mario), щоб розпитати про деталі оголошення та домовитися про огляд житла.": {
+    "en": "Laura calls the apartment owner — Signor Mario — to ask about the listing details and arrange a viewing.",
+    "es": "Laura llama al dueño del piso — el señor Mario (Signor Mario) — para preguntar detalles del anuncio y quedar para ver la vivienda.",
+    "fr": "Laura appelle le propriétaire — le signor Mario (Signor Mario) — pour les détails de l'annonce et fixer une visite.",
+    "ro": "Laura sună proprietarul apartamentului — signor Mario (Signor Mario) — pentru detalii despre anunț și programarea vizionării."
+  },
+  "Доброго дня, синьйоре Маріо, я Лаура. Дзвоню щодо оголошення про квартиру в оренду. Вона ще вільна?": {
+    "en": "Good morning, Signor Mario, I'm Laura. I'm calling about your rental listing. Is it still available?",
+    "es": "Buenos días, señor Mario, soy Laura. Llamo por el anuncio de alquiler. ¿Sigue libre?",
+    "fr": "Bonjour, signor Mario, je suis Laura. J'appelle pour l'annonce de location. Est-il encore disponible ?",
+    "ro": "Bună ziua, signor Mario, sunt Laura. Sun referitor la anunțul de închiriere. Mai e liber?"
+  },
+  "Чудово! Чітке та ввічливе привітання з поясненням мети дзвінка.": {
+    "en": "Great! A clear, polite greeting with the purpose of the call.",
+    "es": "¡Genial! Saludo claro y cortés con el motivo de la llamada.",
+    "fr": "Super ! Accueil clair et poli avec l'objet de l'appel.",
+    "ro": "Excelent! Salut clar și politicos cu explicarea scopului apelului."
+  },
+  "Привіт, Маріо, хочу твою квартиру. Скільки коштує?": {
+    "en": "Hi Mario, I want your apartment. How much?",
+    "es": "Hola Mario, quiero tu piso. ¿Cuánto cuesta?",
+    "fr": "Salut Mario, je veux ton appart. Combien ?",
+    "ro": "Salut Mario, vreau apartamentul tău. Cât costă?"
+  },
+  "Занадто панібратсько. З власником житла спочатку спілкуємося на 'Lei' та кажемо 'Buongiorno Signor...'.": {
+    "en": "Too familiar. With a landlord you start with formal 'Lei' and say 'Buongiorno Signor...'.",
+    "es": "Demasiado confianza. Con el propietario se usa «Lei» y «Buongiorno Signor...».",
+    "fr": "Trop familier. Avec un propriétaire, on commence par « Lei » et « Buongiorno Signor... ».",
+    "ro": "Prea familiar. Cu proprietarul începi cu «Lei» și «Buongiorno Signor...»."
+  },
+  "Алло, я агенція. Надішліть ключі кур’єром сьогодні.": {
+    "en": "Hello, I'm an agency. Send the keys by courier today.",
+    "es": "Hola, soy una agencia. Envíen las llaves por mensajero hoy.",
+    "fr": "Allô, je suis une agence. Envoyez les clés par coursier aujourd'hui.",
+    "ro": "Alo, sunt o agenție. Trimiteți cheile prin curier azi."
+  },
+  "Спочатку представитися, назвати оголошення і запитати, чи житло вільне.": {
+    "en": "First introduce yourself, mention the listing, and ask if the place is still free.",
+    "es": "Primero preséntate, cita el anuncio y pregunta si la vivienda sigue libre.",
+    "fr": "D'abord se présenter, citer l'annonce et demander si le logement est encore libre.",
+    "ro": "Mai întâi prezintă-te, menționează anunțul și întreabă dacă locuința mai e liberă."
+  },
+  "Алло! Хто говорить?": {
+    "en": "Hello! Who's speaking?",
+    "es": "¡Hola! ¿Quién habla?",
+    "fr": "Allô ! Qui est à l'appareil ?",
+    "ro": "Alo! Cine vorbește?"
+  },
+  "Добре, приїду ночувати сьогодні ввечері.": {
+    "en": "OK, I'll stay overnight tonight.",
+    "es": "Vale, me quedo a dormir esta noche.",
+    "fr": "D'accord, je viens dormir ce soir.",
+    "ro": "Bine, vin să dorm diseară."
+  },
+  "Занадто квапливо. Спочатку потрібно дізнатися ціну та умови оренди.": {
+    "en": "Too rushed. First you need the price and rental terms.",
+    "es": "Demasiado precipitado. Primero hay que saber precio y condiciones.",
+    "fr": "Trop pressé. Il faut d'abord connaître le prix et les conditions.",
+    "ro": "Prea grăbit. Mai întâi trebuie să afli prețul și condițiile."
+  },
+  "Добре, але хочу договір лише на тиждень, неофіційно.": {
+    "en": "OK, but I want a contract for one week only, unofficially.",
+    "es": "Vale, pero quiero contrato solo una semana, informal.",
+    "fr": "D'accord, mais je veux un contrat d'une semaine seulement, informel.",
+    "ro": "Bine, dar vreau contract doar pe o săptămână, neoficial."
+  },
+  "Потрібен офіційний договір і зрозумілі умови ціни, не «чорна» оренда.": {
+    "en": "You need an official contract and clear pricing — not informal «black» rent.",
+    "es": "Hace falta contrato oficial y condiciones claras, no alquiler «negro».",
+    "fr": "Il faut un contrat officiel et des conditions claires, pas un loyer « au black ».",
+    "ro": "E nevoie de contract oficial și condiții clare de preț, nu chirie «la negru»."
+  },
+  "Чудово! Скажіть місячну ціну? Комунальні витрати кондомініуму входять у ціну?": {
+    "en": "Great! What's the monthly rent? Are condominium utilities included in the price?",
+    "es": "¡Genial! ¿Cuál es el precio mensual? ¿Los gastos de condominio están incluidos?",
+    "fr": "Super ! Quel est le loyer mensuel ? Les charges de copropriété sont-elles incluses ?",
+    "ro": "Excelent! Care e chiria lunară? Cheltuielile de condominiu sunt incluse în preț?"
+  },
+  "Правильно! Ви одразу уточнюєте ключове питання щодо комуналки кондомініуму.": {
+    "en": "Correct! You immediately ask the key question about condominium fees.",
+    "es": "¡Correcto! Preguntas de inmediato lo esencial sobre el condominio.",
+    "fr": "Exact ! Vous posez tout de suite la question clé sur les charges.",
+    "ro": "Corect! Întrebi imediat despre cheltuielile de condominiu."
+  },
+  "Так, доброго дня, Лауро. Квартира ще вільна. Це мебльована двокімнатна на другому поверсі з ліфтом.": {
+    "en": "Yes, good morning, Laura. The apartment is still free. It's a furnished two-room on the second floor with an elevator.",
+    "es": "Sí, buenos días, Laura. El piso sigue libre. Es un bilocale amueblado en el segundo piso con ascensor.",
+    "fr": "Oui, bonjour Laura. L'appartement est encore libre. C'est un deux-pièces meublé au deuxième étage avec ascenseur.",
+    "ro": "Da, bună ziua, Laura. Apartamentul mai e liber. E un bilocale mobilat la etajul doi, cu lift."
+  },
+  "Зрозуміла. А щодо рахунків за світло і газ — їх треба переоформити на моє ім’я?": {
+    "en": "Understood. About the electricity and gas bills — do they need to be transferred to my name?",
+    "es": "Entendido. Sobre las facturas de luz y gas — ¿hay que pasarlas a mi nombre?",
+    "fr": "Compris. Pour l'électricité et le gaz — faut-il les mettre à mon nom ?",
+    "ro": "Am înțeles. Despre facturile la curent și gaz — trebuie trecute pe numele meu?"
+  },
+  "Дуже грамотне запитання про переоформлення рахунків (voltura) на світло та газ!": {
+    "en": "Very smart question about transferring bills (voltura) for electricity and gas!",
+    "es": "¡Muy buena pregunta sobre el cambio de titular (voltura) de luz y gas!",
+    "fr": "Très bonne question sur le transfert des contrats (voltura) électricité/gaz !",
+    "ro": "Întrebare foarte bună despre voltura facturilor la curent și gaz!"
+  },
+  "Комунальні рахунки назавжди залишаються на вашому імені, я нічого не підписую.": {
+    "en": "Utility bills always stay in your name; I won't sign anything.",
+    "es": "Las facturas siempre quedan a tu nombre; yo no firmo nada.",
+    "fr": "Les factures restent toujours à votre nom, je ne signe rien.",
+    "ro": "Facturile rămân mereu pe numele tău, eu nu semnez nimic."
+  },
+  "Світло і газ зазвичай переоформлюють (voltura) на орендаря.": {
+    "en": "Electricity and gas are usually transferred (voltura) to the tenant.",
+    "es": "La luz y el gas suelen pasarse (voltura) al inquilino.",
+    "fr": "Électricité et gaz sont en général transférés (voltura) au locataire.",
+    "ro": "Curentul și gazul se trec de obicei (voltura) pe chiriaș."
+  },
+  "Я не хочу платити витрати кондомініуму.": {
+    "en": "I don't want to pay condominium expenses.",
+    "es": "No quiero pagar los gastos de condominio.",
+    "fr": "Je ne veux pas payer les charges de copropriété.",
+    "ro": "Nu vreau să plătesc cheltuielile de condominiu."
+  },
+  "У багатьох будинках 'spese condominiali' є обов'язковою частиною проживання, їх не можна просто скасувати.": {
+    "en": "In many buildings 'spese condominiali' are mandatory; you can't simply cancel them.",
+    "es": "En muchos edificios las «spese condominiali» son obligatorias; no se pueden anular.",
+    "fr": "Dans beaucoup d'immeubles les « spese condominiali » sont obligatoires ; on ne peut pas les supprimer.",
+    "ro": "În multe blocuri «spese condominiali» sunt obligatorii; nu le poți anula pur și simplu."
+  },
+  "Оренда 650 євро на місяць. Комуналка кондомініуму — 80 євро окремо і включає воду та прибирання сходів.": {
+    "en": "Rent is 650 euros per month. Condominium fees are 80 euros extra and include water and stair cleaning.",
+    "es": "El alquiler es 650 euros al mes. Condominio: 80 euros aparte, incluye agua y limpieza de escaleras.",
+    "fr": "Loyer 650 euros par mois. Charges : 80 euros en plus, eau et nettoyage des escaliers inclus.",
+    "ro": "Chiria e 650 euro pe lună. Condominiu — 80 euro separat, include apă și curățenia scării."
+  },
+  "Завдаток безкоштовний, так?": {
+    "en": "The deposit is free, right?",
+    "es": "La fianza es gratis, ¿no?",
+    "fr": "La caution est gratuite, n'est-ce pas ?",
+    "ro": "Garanția e gratuită, da?"
+  },
+  "Ні, застава (caparra) завжди сплачується заздалегідь перед заселенням.": {
+    "en": "No, the deposit (caparra) is always paid in advance before moving in.",
+    "es": "No, la fianza (caparra) siempre se paga por adelantado antes de entrar.",
+    "fr": "Non, la caution (caparra) se paie toujours à l'avance avant l'emménagement.",
+    "ro": "Nu, garanția (caparra) se plătește întotdeauna în avans înainte de mutare."
+  },
+  "Добре, зрозуміло. Коли можемо призначити зустріч, щоб подивитися квартиру?": {
+    "en": "OK, understood. When can we set a meeting to see the apartment?",
+    "es": "Bien, entendido. ¿Cuándo podemos quedar para ver el piso?",
+    "fr": "D'accord. Quand peut-on fixer un rendez-vous pour visiter ?",
+    "ro": "Bine, am înțeles. Când putem stabili o întâlnire ca să vedem apartamentul?"
+  },
+  "Чудово! Ви погодили умови застави та запитуєте про огляд.": {
+    "en": "Great! You agreed on the deposit terms and ask about a viewing.",
+    "es": "¡Genial! Acordaste la fianza y preguntas por la visita.",
+    "fr": "Super ! Vous avez validé la caution et demandez la visite.",
+    "ro": "Excelent! Ai acceptat condițiile garanției și întrebi de vizionare."
+  },
+  "Завдаток заплачу через три місяці, якщо квартира сподобається.": {
+    "en": "I'll pay the deposit in three months if I like the apartment.",
+    "es": "Pagaré la fianza dentro de tres meses si me gusta el piso.",
+    "fr": "Je paierai la caution dans trois mois si l'appart me plaît.",
+    "ro": "Plătesc garanția peste trei luni dacă îmi place apartamentul."
+  },
+  "Caparra confirmatoria сплачують до заселення, зазвичай кілька місяців оренди.": {
+    "en": "Caparra confirmatoria is paid before move-in, usually several months' rent.",
+    "es": "La caparra confirmatoria se paga antes de entrar, normalmente varios meses de alquiler.",
+    "fr": "La caparra confirmatoria se paie avant l'entrée, en général plusieurs mois de loyer.",
+    "ro": "Caparra confirmatoria se plătește înainte de mutare, de obicei câteva luni de chirie."
+  },
+  "Так, рахунки треба оформити на вас. Також просимо три місяці завдатку.": {
+    "en": "Yes, bills must be in your name. We also ask for three months' deposit.",
+    "es": "Sí, las facturas deben estar a su nombre. También pedimos tres meses de fianza.",
+    "fr": "Oui, les factures doivent être à votre nom. Nous demandons aussi trois mois de caution.",
+    "ro": "Da, facturile trebuie pe numele dumneavoastră. Cerem și trei luni garanție."
+  },
+  "Завтра о 17:00 занадто рано. Приїду опівночі.": {
+    "en": "Tomorrow at 5 p.m. is too early. I'll come at midnight.",
+    "es": "Mañana a las 17:00 es demasiado pronto. Vendré a medianoche.",
+    "fr": "Demain à 17 h, c'est trop tôt. J'arriverai à minuit.",
+    "ro": "Mâine la 17:00 e prea devreme. Vin la miezul nopții."
+  },
+  "Потрібно підтвердити запропонований денний час огляду.": {
+    "en": "You should confirm the proposed daytime viewing slot.",
+    "es": "Hay que confirmar la hora diurna propuesta para la visita.",
+    "fr": "Il faut confirmer le créneau de visite proposé en journée.",
+    "ro": "Trebuie confirmat intervalul propus pentru vizionare, ziua."
+  },
+  "Ні, прийду без попередження сьогодні пізно, подзвоніть у домофон.": {
+    "en": "No, I'll show up unannounced late today; ring the intercom.",
+    "es": "No, iré sin avisar tarde hoy; llame al interfono.",
+    "fr": "Non, je viendrai sans prévenir tard ce soir ; sonnez à l'interphone.",
+    "ro": "Nu, vin fără anunț târziu azi; sunați la interfon."
+  },
+  "Огляд узгоджують на конкретний час і просять точну адресу.": {
+    "en": "Viewings are agreed for a specific time; they ask for the exact address.",
+    "es": "La visita se acuerda a una hora concreta; piden la dirección exacta.",
+    "fr": "La visite se fixe à une heure précise ; on demande l'adresse exacte.",
+    "ro": "Vizionarea se stabilește la o oră fixă; se cere adresa exactă."
+  },
+  "Так, ідеально! Завтра о 17:00. Можете надіслати точну адресу повідомленням?": {
+    "en": "Yes, perfect! Tomorrow at 5 p.m. Can you text me the exact address?",
+    "es": "Sí, ¡perfecto! Mañana a las 17:00. ¿Puede enviarme la dirección exacta por mensaje?",
+    "fr": "Oui, parfait ! Demain à 17 h. Pouvez-vous m'envoyer l'adresse exacte par message ?",
+    "ro": "Da, perfect! Mâine la 17:00. Puteți trimite adresa exactă prin mesaj?"
+  },
+  "Ідеально! Ви підтвердили час та попросили точну адресу.": {
+    "en": "Perfect! You confirmed the time and asked for the exact address.",
+    "es": "¡Perfecto! Confirmaste la hora y pediste la dirección exacta.",
+    "fr": "Parfait ! Vous avez confirmé l'heure et demandé l'adresse exacte.",
+    "ro": "Perfect! Ai confirmat ora și ai cerut adresa exactă."
+  },
+  "Можемо зустрітися завтра після обіду близько 17:00 біля під’їзду. Вам підходить?": {
+    "en": "We can meet tomorrow after lunch around 5 p.m. by the entrance. Does that work for you?",
+    "es": "Podemos vernos mañana después de comer hacia las 17:00 junto a la entrada. ¿Le va bien?",
+    "fr": "On peut se voir demain après le déjeuner vers 17 h près de l'entrée. Ça vous convient ?",
+    "ro": "Ne putem întâlni mâine după pranz, pe la 17:00, la intrare. Vă convine?"
+  },
+  "Якщо дощ, не прийду. Зателефоную через місяць.": {
+    "en": "If it rains I won't come. I'll call in a month.",
+    "es": "Si llueve no voy. Llamaré dentro de un mes.",
+    "fr": "S'il pleut je ne viendrai pas. J'appellerai dans un mois.",
+    "ro": "Dacă plouă, nu vin. Sun peste o lună."
+  },
+  "Ввічливо підтвердити «a domani», а не скасовувати без причини.": {
+    "en": "Politely confirm «a domani» instead of canceling without reason.",
+    "es": "Confirma con cortesía «a domani», no canceles sin motivo.",
+    "fr": "Confirmez poliment « a domani », ne annulez pas sans raison.",
+    "ro": "Confirmă politicos «a domani», nu anula fără motiv."
+  },
+  "Щиро дякую, синьйоре Маріо, до завтра! Гарного дня.": {
+    "en": "Thank you very much, Signor Mario, see you tomorrow! Have a nice day.",
+    "es": "Muchas gracias, señor Mario, ¡hasta mañana! Que tenga buen día.",
+    "fr": "Merci beaucoup, signor Mario, à demain ! Bonne journée.",
+    "ro": "Vă mulțumesc mult, signor Mario, până mâine! O zi bună."
+  },
+  "Ввічливий і професійний фінал розмови!": {
+    "en": "A polite, professional end to the conversation!",
+    "es": "¡Un cierre de conversación cortés y profesional!",
+    "fr": "Une fin de conversation polie et professionnelle !",
+    "ro": "O încheiere politicoasă și profesională a conversației!"
+  },
+  "Ок, але надішліть ще ключі фото в WhatsApp, цього досить.": {
+    "en": "OK, but also send key photos on WhatsApp; that's enough.",
+    "es": "Vale, pero envíe fotos de las llaves por WhatsApp; con eso basta.",
+    "fr": "OK, mais envoyez aussi des photos des clés sur WhatsApp, ça suffit.",
+    "ro": "Ok, dar trimiteți și poze cu cheile pe WhatsApp, e suficient."
+  },
+  "Ключі не замінює фото. Дякують і підтверджують зустріч.": {
+    "en": "Photos don't replace keys. You thank them and confirm the meeting.",
+    "es": "Las fotos no sustituyen las llaves. Se agradece y se confirma la cita.",
+    "fr": "Les photos ne remplacent pas les clés. On remercie et on confirme le rendez-vous.",
+    "ro": "Pozele nu înlocuiesc cheile. Mulțumești și confirmi întâlnirea."
+  },
+  "Звісно, зараз надішлю SMS з адресою. Тоді до завтра!": {
+    "en": "Of course, I'll send an SMS with the address now. See you tomorrow then!",
+    "es": "Claro, ahora le envío un SMS con la dirección. ¡Hasta mañana entonces!",
+    "fr": "Bien sûr, j'envoie tout de suite un SMS avec l'adresse. À demain !",
+    "ro": "Desigur, trimit acum un SMS cu adresa. Atunci până mâine!"
+  },
+  "Термін 'Voltura' означає переоформлення існуючих договорів на світло/газ на ваше ім'я, а 'Subentro' — нове підключення, якщо лічильники були опломбовані.": {
+    "en": "The term 'Voltura' means transferring existing electricity/gas contracts to your name; 'Subentro' is a new connection when meters were sealed.",
+    "es": "«Voltura» significa cambiar a tu nombre contratos existentes de luz/gas; «Subentro» es nueva conexión si los contadores estaban precintados.",
+    "fr": "« Voltura » : transfert des contrats électricité/gaz existants à votre nom ; « Subentro » : nouvelle mise en service si compteurs scellés.",
+    "ro": "«Voltura» înseamnă trecerea contractelor existente de curent/gaz pe numele tău; «Subentro» — racordare nouă dacă contoarele erau sigilate."
+  },
+  "Boss Level 🏆: Симуляція пошуку та оренди квартири": {
+    "en": "Boss Level 🏆: Apartment search and rental simulation",
+    "es": "Boss Level 🏆: Simulación de búsqueda y alquiler de piso",
+    "fr": "Boss Level 🏆 : Simulation de recherche et location d'appartement",
+    "ro": "Boss Level 🏆: Simularea căutării și închirierii apartamentului"
+  },
+  "Фінальний іспит модуля! Ви самостійно телефонуєте орендодавцю, дізнаєтеся деталі про плату за кондомініум, заставу та домовляєтеся про перегляд квартири. Підказки та переклад вимкнено!": {
+    "en": "Final module exam! You call the landlord on your own, learn about condominium fees and deposit, and arrange a viewing. Hints and translation are off!",
+    "es": "¡Examen final! Llamas solo al propietario, preguntas por condominio y fianza y quedas para ver el piso. ¡Sin pistas ni traducción!",
+    "fr": "Examen final ! Vous appelez seul(e) le propriétaire, vous renseignez sur charges et caution et fixez une visite. Indices et traduction désactivés !",
+    "ro": "Examen final! Suni singur proprietarul, afli despre condominiu și garanție și programezi vizionarea. Fără indicii și traduceri!"
+  },
+  "Як запитати синьйора Маріо, чи квартира з оголошення ще вільна?": {
+    "en": "How do you ask Signor Mario if the listed apartment is still available?",
+    "es": "¿Cómo preguntar al señor Mario si el piso del anuncio sigue libre?",
+    "fr": "Comment demander au signor Mario si l'appartement de l'annonce est encore libre ?",
+    "ro": "Cum îl întrebi pe signor Mario dacă apartamentul din anunț mai e liber?"
+  },
+  "'È ancora disponibile?' = 'Це ще доступно / вільно?'": {
+    "en": "'È ancora disponibile?' = 'Is it still available / free?'",
+    "es": "«È ancora disponibile?» = «¿Sigue disponible / libre?»",
+    "fr": "« È ancora disponibile ? » = « Est-ce encore disponible / libre ? »",
+    "ro": "«È ancora disponibile?» = «Mai e disponibil / liber?»"
+  },
+  "Що означають 'Spese condominiali' при оренді житла?": {
+    "en": "What do 'Spese condominiali' mean when renting?",
+    "es": "¿Qué significan «Spese condominiali» al alquilar?",
+    "fr": "Que signifient les « Spese condominiali » en location ?",
+    "ro": "Ce înseamnă «Spese condominiali» la închiriere?"
+  },
+  "'Spese condominiali' — витрати на утримання будинку та під'їзду.": {
+    "en": "'Spese condominiali' — costs for maintaining the building and stairwell.",
+    "es": "«Spese condominiali» — gastos de mantenimiento del edificio y escalera.",
+    "fr": "« Spese condominiali » — frais d'entretien de l'immeuble et des parties communes.",
+    "ro": "«Spese condominiali» — cheltuieli pentru întreținerea blocului și scării."
+  },
+  "Що таке 'Caparra' (або 'Deposito cauzionale')?": {
+    "en": "What is 'Caparra' (or 'Deposito cauzionale')?",
+    "es": "¿Qué es «Caparra» (o «Deposito cauzionale»)?",
+    "fr": "Qu'est-ce que la « Caparra » (ou « Deposito cauzionale ») ?",
+    "ro": "Ce este «Caparra» (sau «Deposito cauzionale»)?"
+  },
+  "Застава (caparra) зазвичай дорівнює орендній платі за 2–3 місяці.": {
+    "en": "The deposit (caparra) is usually equal to 2–3 months' rent.",
+    "es": "La fianza (caparra) suele equivaler a 2–3 meses de alquiler.",
+    "fr": "La caution (caparra) équivaut en général à 2–3 mois de loyer.",
+    "ro": "Garanția (caparra) echivalează de obicei cu 2–3 luni de chirie."
+  },
+  "Як сказати орендодавцю 'Коли ми можемо домовитися про зустріч, щоб подивитися квартиру?'": {
+    "en": "How do you tell the landlord 'When can we arrange a meeting to see the apartment?'",
+    "es": "Cómo decir al propietario «¿Cuándo podemos quedar para ver el piso?»",
+    "fr": "Comment dire au propriétaire « Quand peut-on fixer un rendez-vous pour visiter ? »",
+    "ro": "Cum îi spui proprietarului «Când putem stabili o întâlnire ca să vedem apartamentul?»"
+  },
+  "'Fissare un appuntamento' = призначити зустріч/візит.": {
+    "en": "'Fissare un appuntamento' = set a meeting/visit.",
+    "es": "«Fissare un appuntamento» = fijar cita/visita.",
+    "fr": "« Fissare un appuntamento » = fixer un rendez-vous/visite.",
+    "ro": "«Fissare un appuntamento» = programarea unei întâlniri/vizite."
+  },
+  "Що означає термін 'Bilocale' в оголошеннях про нерухомість?": {
+    "en": "What does 'Bilocale' mean in property listings?",
+    "es": "¿Qué significa «Bilocale» en anuncios inmobiliarios?",
+    "fr": "Que signifie « Bilocale » dans les annonces immobilières ?",
+    "ro": "Ce înseamnă «Bilocale» în anunțurile imobiliare?"
+  },
+  "'Bilocale' = двокімнатне житло.": {
+    "en": "'Bilocale' = two-room home.",
+    "es": "«Bilocale» = vivienda de dos habitaciones.",
+    "fr": "« Bilocale » = logement deux pièces.",
+    "ro": "«Bilocale» = locuință cu două camere."
+  },
+  "Вітаємо! Ви вільно орієнтуєтеся в термінах оренди житла в Італії, розумієте розрахунок кондомініуму та вмієте домовлятися про огляд!": {
+    "en": "Congratulations! You navigate Italian rental terms, understand condominium charges, and can arrange a viewing!",
+    "es": "¡Enhorabuena! Dominas el alquiler en Italia, el condominio y concertar visitas.",
+    "fr": "Félicitations ! Vous maîtrisez la location en Italie, les charges et la prise de rendez-vous pour visiter !",
+    "ro": "Felicitări! Te descurci cu termenii chiriei în Italia, condominiul și programarea vizionării!"
+  },
+  "У поштовому відділенні: Черга, квитанції та відправлення": {
+    "en": "At the post office: Queue, payment slips, and shipments",
+    "es": "En correos: Cola, recibos y envíos",
+    "fr": "À la poste : file d'attente, bulletins et envois",
+    "ro": "La poștă: coadă, chitanțe și expedieri"
+  },
+  "Марко та Лаура прийшли до відділення Poste Italiane. В Італії пошта — це не лише відправка посилок, а й центр сплати комунальних рахунків, отримання офіційних листів та фінансових послуг. При вході обов'язково потрібно взяти талончик у терміналі (ticket) відповідно до теми вашого звернення.": {
+    "en": "Marco and Laura visit Poste Italiane. In Italy the post office isn't just parcels — it's also paying utility bills, official mail, and financial services. On entry you must take a queue ticket at the terminal (ticket) for your reason for visiting.",
+    "es": "Marco y Laura van a Poste Italiane. En Italia correos no es solo paquetes: pagos de facturas, cartas oficiales y servicios financieros. Al entrar hay que sacar ticket en el terminal según el trámite.",
+    "fr": "Marco et Laura vont aux Poste Italiane. En Italie, la poste, ce n'est pas que les colis : paiements, courrier officiel, services financiers. À l'entrée, il faut prendre un ticket au totem selon votre motif.",
+    "ro": "Marco și Laura la Poste Italiane. În Italia poșta nu e doar colete: plăți facturi, corespondență oficială, servicii financiare. La intrare trebuie luat ticket la totem după motivul vizitei."
+  },
+  "Мені потрібно відправити цю посилку / цей лист в Україну.": {
+    "en": "I need to send this parcel / this letter to Ukraine.",
+    "es": "Necesito enviar este paquete / esta carta a Ucrania.",
+    "fr": "Je dois envoyer ce colis / cette lettre en Ukraine.",
+    "ro": "Trebuie să trimit acest colet / această scrisoare în Ucraina."
+  },
+  "Мені потрібно оплатити цю поштову квитанцію.": {
+    "en": "I need to pay this postal payment slip.",
+    "es": "Necesito pagar este recibo postal.",
+    "fr": "Je dois payer ce bulletin de paiement postal.",
+    "ro": "Trebuie să plătesc această chitanță poștală."
+  },
+  "Я отримав(ла) повідомлення про надходження рекомендованого листа.": {
+    "en": "I received notice that a registered letter has arrived.",
+    "es": "Recibí aviso de llegada de una carta certificada.",
+    "fr": "J'ai reçu un avis d'arrivée d'une lettre recommandée.",
+    "ro": "Am primit notificare că a sosit o scrisoare recomandată."
+  },
+  "Яку кнопку мені потрібно натиснути, щоб взяти талончик?": {
+    "en": "Which button should I press to get a queue ticket?",
+    "es": "¿Qué botón debo pulsar para sacar ticket?",
+    "fr": "Quel bouton appuyer pour prendre un ticket ?",
+    "ro": "Ce buton apăs ca să iau un număr la coadă?"
+  },
+  "Ticket al totem — при вході на терміналі обирають потрібний розділ: 'Spedizioni e Pacchi' (відправлення), 'Pagamenti' (квитанції/оплати) або 'Ritiro' (отримання).": {
+    "en": "Ticket al totem — at entry on the terminal choose the section: 'Spedizioni e Pacchi' (shipments), 'Pagamenti' (slips/payments), or 'Ritiro' (pickup).",
+    "es": "Ticket al totem — al entrar en el terminal elige: «Spedizioni e Pacchi», «Pagamenti» o «Ritiro».",
+    "fr": "Ticket al totem — à l'entrée, au totem : « Spedizioni e Pacchi », « Pagamenti » ou « Ritiro ».",
+    "ro": "Ticket al totem — la intrare, la totem alegi: «Spedizioni e Pacchi», «Pagamenti» sau «Ritiro»."
+  },
+  "Raccomandata — рекомендований лист, який вручається під особистий підпис. Якщо вас не було вдома, листоноша залишає жовту картку 'Avviso di giacenza'.": {
+    "en": "Raccomandata — registered letter delivered with personal signature. If you're not home, the carrier leaves a yellow 'Avviso di giacenza' card.",
+    "es": "Raccomandata — carta certificada entregada con firma. Si no estás, dejan la tarjeta amarilla «Avviso di giacenza».",
+    "fr": "Raccomandata — lettre recommandée remise contre signature. Absent : carte jaune « Avviso di giacenza ».",
+    "ro": "Raccomandata — scrisoare recomandată cu semnătură. Dacă nu ești acasă, lasă cardul galben «Avviso di giacenza»."
+  },
+  "Bollettino — бланкова або штрихкодова квитанція для оплати комунальних послуг, штрафів та державних зборів.": {
+    "en": "Bollettino — form or barcode slip to pay utilities, fines, and government fees.",
+    "es": "Bollettino — recibo en papel o con código de barras para pagar suministros, multas y tasas.",
+    "fr": "Bollettino — bulletin papier ou code-barres pour payer factures, amendes et droits.",
+    "ro": "Bollettino — chitanță pe formular sau cu cod de bare pentru utilități, amenzi și taxe."
+  },
+  "Дієслово 'Spedire' (відправляти) та 'Pagare' (оплачувати)": {
+    "en": "Verbs 'Spedire' (to send) and 'Pagare' (to pay)",
+    "es": "Verbos «Spedire» (enviar) y «Pagare» (pagar)",
+    "fr": "Verbes « Spedire » (envoyer) et « Pagare » (payer)",
+    "ro": "Verbe «Spedire» (a trimite) și «Pagare» (a plăti)"
+  },
+  "Відмінювання 'Spedire' (ISC-група): Io spedisco, Tu spedisci, Lui/Lei spedisce.": {
+    "en": "Conjugation of 'Spedire' (ISC group): Io spedisco, Tu spedisci, Lui/Lei spedisce.",
+    "es": "Conjugación de «Spedire» (grupo ISC): Io spedisco, Tu spedisci, Lui/Lei spedisce.",
+    "fr": "Conjugaison de « Spedire » (groupe ISC) : Io spedisco, Tu spedisci, Lui/Lei spedisce.",
+    "ro": "Conjugarea «Spedire» (grup ISC): Io spedisco, Tu spedisci, Lui/Lei spedisce."
+  },
+  "Відправляю посилку мамі.": {
+    "en": "I'm sending a parcel to my mom.",
+    "es": "Envío un paquete a mi madre.",
+    "fr": "J'envoie un colis à ma mère.",
+    "ro": "Trimit un colet mamei."
+  },
+  "Хочете відправити пріоритетною поштою?": {
+    "en": "Do you want to send it by priority mail?",
+    "es": "¿Quiere enviarlo por correo prioritario?",
+    "fr": "Voulez-vous l'envoyer en prioritaire ?",
+    "ro": "Doriți expediere prioritară?"
+  },
+  "Вирази з 'Prendere / Ritirare': 'Ritirare un pacco' (Забрати посилку).": {
+    "en": "Phrases with 'Prendere / Ritirare': 'Ritirare un pacco' (Pick up a parcel).",
+    "es": "Expresiones con «Prendere / Ritirare»: «Ritirare un pacco» (Recoger un paquete).",
+    "fr": "Expressions « Prendere / Ritirare » : « Ritirare un pacco » (Retirer un colis).",
+    "ro": "Expresii cu «Prendere / Ritirare»: «Ritirare un pacco» (Ridicarea unui colet)."
+  },
+  "Мені потрібно отримати рекомендований лист.": {
+    "en": "I need to pick up a registered letter.",
+    "es": "Necesito recoger una carta certificada.",
+    "fr": "Je dois retirer une lettre recommandée.",
+    "ro": "Trebuie să ridic o scrisoare recomandată."
+  },
+  "Де я можу отримати посилку?": {
+    "en": "Where can I pick up a parcel?",
+    "es": "¿Dónde puedo recoger un paquete?",
+    "fr": "Où puis-je retirer un colis ?",
+    "ro": "Unde pot ridica un colet?"
+  },
+  "Для отримання посилки чи рекомендованого листа на пошті обов'язково потрібно мати із собою закордонний паспорт або Carta d'identità та ваш Codice Fiscale.": {
+    "en": "To pick up a parcel or registered letter at the post office you must bring a passport or Carta d'identità and your Codice Fiscale.",
+    "es": "Para recoger paquete o raccomandata hay que llevar pasaporte o Carta d'identità y Codice Fiscale.",
+    "fr": "Pour retirer colis ou raccomandata : passeport ou Carta d'identità et Codice Fiscale obligatoires.",
+    "ro": "Pentru colet sau raccomandata la poștă ai nevoie de pașaport sau Carta d'identità și Codice Fiscale."
+  },
+  "Живий діалог: Оплата квитанції та відправка посилки": {
+    "en": "Live dialogue: Paying a slip and sending a parcel",
+    "es": "Diálogo en vivo: Pagar recibo y enviar paquete",
+    "fr": "Dialogue en direct : payer un bulletin et envoyer un colis",
+    "ro": "Dialog live: Plata chitanței și trimiterea coletului"
+  },
+  "Лаура бере талончик і підходить до віконця (sportello) після того, як її номер загорівся на табло.": {
+    "en": "Laura takes a ticket and goes to the counter (sportello) when her number lights up on the board.",
+    "es": "Laura saca ticket y va al mostrador (sportello) cuando su número sale en el tablero.",
+    "fr": "Laura prend un ticket et va au guichet (sportello) quand son numéro s'allume au tabellone.",
+    "ro": "Laura ia un număr și merge la ghișeu (sportello) când numărul ei apare pe tabellone."
+  },
+  "Доброго дня! Мені потрібно відправити цю посилку в Україну і оплатити квитанцію.": {
+    "en": "Good morning! I need to send this parcel to Ukraine and pay a payment slip.",
+    "es": "¡Buenos días! Necesito enviar este paquete a Ucrania y pagar un bollettino.",
+    "fr": "Bonjour ! Je dois envoyer ce colis en Ukraine et payer un bollettino.",
+    "ro": "Bună ziua! Trebuie să trimit acest colet în Ucraina și să plătesc o chitanță."
+  },
+  "Чудово! Ви чітко озвучили обидві мети вашого візиту.": {
+    "en": "Great! You clearly stated both purposes of your visit.",
+    "es": "¡Genial! Expusiste claramente los dos motivos de la visita.",
+    "fr": "Super ! Vous avez clairement indiqué les deux motifs de visite.",
+    "ro": "Excelent! Ai formulat clar ambele scopuri ale vizitei."
+  },
+  "Мені треба отримати пенсію і змінити ISEE, будь ласка.": {
+    "en": "I need to collect my pension and change my ISEE, please.",
+    "es": "Necesito cobrar la pensión y cambiar el ISEE, por favor.",
+    "fr": "Je dois toucher ma pension et modifier mon ISEE, s'il vous plaît.",
+    "ro": "Trebuie să încasez pensia și să modific ISEE, vă rog."
+  },
+  "На цьому віконці — посилка і bollettino, не пенсія чи ISEE.": {
+    "en": "At this window — parcel and bollettino, not pension or ISEE.",
+    "es": "En este mostrador — paquete y bollettino, no pensión ni ISEE.",
+    "fr": "À ce guichet : colis et bollettino, pas pension ni ISEE.",
+    "ro": "La acest ghișeu — colet și bollettino, nu pensie sau ISEE."
+  },
+  "Привіт, хочу купити піцу.": {
+    "en": "Hi, I want to buy pizza.",
+    "es": "Hola, quiero comprar pizza.",
+    "fr": "Salut, je veux acheter une pizza.",
+    "ro": "Salut, vreau să cumpăr pizza."
+  },
+  "Пошта не надає послуг громадського харчування.": {
+    "en": "The post office doesn't provide food service.",
+    "es": "Correos no ofrece servicio de comida.",
+    "fr": "La poste ne sert pas de restauration.",
+    "ro": "Poșta nu oferă servicii de alimentație publică."
+  },
+  "Доброго дня! Номер P045! Скажіть, чим можу допомогти?": {
+    "en": "Good morning! Number P045! How can I help you?",
+    "es": "¡Buenos días! ¡Número P045! ¿En qué puedo ayudarle?",
+    "fr": "Bonjour ! Numéro P045 ! Que puis-je faire pour vous ?",
+    "ro": "Bună ziua! Numărul P045! Cu ce vă pot ajuta?"
+  },
+  "Я не хочу зважувати посилку.": {
+    "en": "I don't want to weigh the parcel.",
+    "es": "No quiero pesar el paquete.",
+    "fr": "Je ne veux pas peser le colis.",
+    "ro": "Nu vreau să cântăresc coletul."
+  },
+  "Зважування посилки обов'язкове для розрахунку вартості відправки.": {
+    "en": "Weighing the parcel is required to calculate shipping cost.",
+    "es": "Pesar el paquete es obligatorio para calcular el envío.",
+    "fr": "La pesée du colis est obligatoire pour le tarif d'envoi.",
+    "ro": "Cântărirea coletului e obligatorie pentru calcularea costului."
+  },
+  "Стандартна відправка цілком підходить. Скільки часу займе доставка?": {
+    "en": "Standard shipping is fine. How long will delivery take?",
+    "es": "El envío estándar me vale. ¿Cuánto tarda la entrega?",
+    "fr": "L'envoi standard convient. Quel délai de livraison ?",
+    "ro": "Expedierea standard e în regulă. Cât durează livrarea?"
+  },
+  "Ідеально! Ви обрали тип відправки та уточнили терміни доставки.": {
+    "en": "Perfect! You chose the shipping type and asked about delivery time.",
+    "es": "¡Perfecto! Elegiste el tipo de envío y preguntaste plazos.",
+    "fr": "Parfait ! Vous avez choisi le type d'envoi et demandé les délais.",
+    "ro": "Perfect! Ai ales tipul de expediere și ai întrebat termenele."
+  },
+  "Хочу найдорожчу відправку, навіть якщо приїде через два місяці.": {
+    "en": "I want the most expensive shipping even if it arrives in two months.",
+    "es": "Quiero el envío más caro aunque tarde dos meses.",
+    "fr": "Je veux l'envoi le plus cher même s'il arrive dans deux mois.",
+    "ro": "Vreau cea mai scumpă expediere chiar dacă ajunge peste două luni."
+  },
+  "Треба обрати standard або espressa і запитати терміни доставки.": {
+    "en": "Choose standard or espressa and ask about delivery times.",
+    "es": "Hay que elegir standard o espressa y preguntar plazos.",
+    "fr": "Il faut choisir standard ou espressa et demander les délais.",
+    "ro": "Trebuie să alegi standard sau espressa și să întrebi termenele."
+  },
+  "Так, звісно. Покладіть посилку на ваги. Хочете стандартну чи експрес-відправку?": {
+    "en": "Yes, of course. Put the parcel on the scale. Standard or express shipping?",
+    "es": "Sí, claro. Ponga el paquete en la báscula. ¿Envío estándar o express?",
+    "fr": "Oui, bien sûr. Mettez le colis sur la balance. Standard ou express ?",
+    "ro": "Da, desigur. Puneți coletul pe cântar. Expediere standard sau express?"
+  },
+  "Я написав лише своє ім’я, решту зробите ви.": {
+    "en": "I only wrote my name; you'll do the rest.",
+    "es": "Solo puse mi nombre; ustedes hacen el resto.",
+    "fr": "J'ai seulement mis mon nom ; vous ferez le reste.",
+    "ro": "Am scris doar numele meu, restul faceți voi."
+  },
+  "На посилці мають бути mittente і destinatario з адресою.": {
+    "en": "The parcel must show mittente and destinatario with addresses.",
+    "es": "En el paquete deben figurar mittente y destinatario con dirección.",
+    "fr": "Le colis doit indiquer mittente et destinatario avec adresses.",
+    "ro": "Pe colet trebuie mittente și destinatario cu adrese."
+  },
+  "Ні, я не знаю адреси.": {
+    "en": "No, I don't know the address.",
+    "es": "No, no conozco la dirección.",
+    "fr": "Non, je ne connais pas l'adresse.",
+    "ro": "Nu, nu știu adresa."
+  },
+  "Без адреси одержувача поштову відправку оформити неможливо.": {
+    "en": "Without the recipient's address you can't mail a shipment.",
+    "es": "Sin dirección del destinatario no se puede tramitar el envío.",
+    "fr": "Sans adresse du destinataire, envoi impossible.",
+    "ro": "Fără adresa destinatarului nu se poate face expedierea."
+  },
+  "Так, я все написав на посилці: адресу, відправника і одержувача.": {
+    "en": "Yes, I wrote everything on the parcel: address, sender, and recipient.",
+    "es": "Sí, puse todo en el paquete: dirección, remitente y destinatario.",
+    "fr": "Oui, j'ai tout indiqué : adresse, expéditeur et destinataire.",
+    "ro": "Da, am scris tot pe colet: adresa, expeditor și destinatar."
+  },
+  "Чудово! На посилці мають бути вказані і відправник (mittente), і одержувач (destinatario).": {
+    "en": "Great! The parcel must list both sender (mittente) and recipient (destinatario).",
+    "es": "¡Genial! Deben constar remitente (mittente) y destinatario.",
+    "fr": "Super ! Il faut l'expéditeur (mittente) et le destinataire (destinatario).",
+    "ro": "Excelent! Trebuie indicați expeditorul (mittente) și destinatarul (destinatario)."
+  },
+  "Зазвичай потрібно близько 7–10 робочих днів. Ви вже заповнили бланк з адресою одержувача?": {
+    "en": "Usually about 7–10 business days. Have you already filled in the recipient address form?",
+    "es": "Suele tardar 7–10 días laborables. ¿Ya rellenó el formulario con la dirección?",
+    "fr": "En général 7–10 jours ouvrés. Avez-vous déjà rempli la fiche destinataire ?",
+    "ro": "De obicei 7–10 zile lucrătoare. Ați completat deja formularul cu adresa destinatarului?"
+  },
+  "Можу оплатити квитанцію без документа, так швидше.": {
+    "en": "Can I pay the slip without ID? It's faster.",
+    "es": "¿Puedo pagar el recibo sin documento? Es más rápido.",
+    "fr": "Puis-je payer le bulletin sans pièce d'identité ? C'est plus rapide.",
+    "ro": "Pot plăti chitanța fără act? E mai rapid."
+  },
+  "Для bollettino зазвичай потрібне посвідчення особи.": {
+    "en": "For a bollettino you usually need ID.",
+    "es": "Para un bollettino suele hacer falta documento de identidad.",
+    "fr": "Pour un bollettino, une pièce d'identité est en général requise.",
+    "ro": "Pentru bollettino e nevoie de act de identitate."
+  },
+  "Звісно, ось моє посвідчення особи і код фіскале.": {
+    "en": "Of course, here's my ID and my codice fiscale.",
+    "es": "Claro, aquí tiene mi documento y mi codice fiscale.",
+    "fr": "Bien sûr, voici ma pièce d'identité et mon codice fiscale.",
+    "ro": "Desigur, iată actul meu și codice fiscale."
+  },
+  "Правильно! Ви надали потрібні документи.": {
+    "en": "Correct! You provided the required documents.",
+    "es": "¡Correcto! Entregó los documentos necesarios.",
+    "fr": "Exact ! Vous avez fourni les documents requis.",
+    "ro": "Corect! Ai prezentat documentele necesare."
+  },
+  "У мене лише чек із ресторану.": {
+    "en": "I only have a restaurant receipt.",
+    "es": "Solo tengo un ticket de restaurante.",
+    "fr": "Je n'ai qu'un ticket de restaurant.",
+    "ro": "Am doar un scontrino de la restaurant."
+  },
+  "Чек з ресторану не є посвідченням особи.": {
+    "en": "A restaurant receipt is not ID.",
+    "es": "Un ticket de restaurante no es documento de identidad.",
+    "fr": "Un ticket de restaurant n'est pas une pièce d'identité.",
+    "ro": "Scontrino de restaurant nu e act de identitate."
+  },
+  "Чудово. Тепер квитанція. Можете показати документ, що посвідчує особу?": {
+    "en": "Great. Now the slip. Can you show ID?",
+    "es": "Perfecto. Ahora el recibo. ¿Puede mostrar un documento?",
+    "fr": "Très bien. Maintenant le bulletin. Une pièce d'identité ?",
+    "ro": "Perfect. Acum chitanța. Puteți arăta un act de identitate?"
+  },
+  "Плачу карткою, дякую.": {
+    "en": "I'll pay by card, thanks.",
+    "es": "Pago con tarjeta, gracias.",
+    "fr": "Je paie par carte, merci.",
+    "ro": "Plătesc cu cardul, mulțumesc."
+  },
+  "Чудово! Ви вибрали безготівковий розрахунок.": {
+    "en": "Great! You chose cashless payment.",
+    "es": "¡Genial! Eligió pago sin efectivo.",
+    "fr": "Super ! Vous avez choisi le paiement sans espèces.",
+    "ro": "Excelent! Ai ales plata fără numerar."
+  },
+  "Заплачу наступного тижня, зараз немає грошей.": {
+    "en": "I'll pay next week; I have no money now.",
+    "es": "Pagaré la semana que viene; ahora no tengo dinero.",
+    "fr": "Je paierai la semaine prochaine ; je n'ai pas d'argent maintenant.",
+    "ro": "Plătesc săptămâna viitoare; acum n-am bani."
+  },
+  "Оплату посилки і квитанції роблять одразу: картка або готівка.": {
+    "en": "Parcel and slip payment is made immediately: card or cash.",
+    "es": "Paquete y recibo se pagan al momento: tarjeta o efectivo.",
+    "fr": "Colis et bulletin se paient sur place : carte ou espèces.",
+    "ro": "Coletul și chitanța se plătesc imediat: card sau numerar."
+  },
+  "Є студентська знижка, так? Тоді плачу лише євро.": {
+    "en": "There's a student discount, right? Then I'll pay only one euro.",
+    "es": "Hay descuento de estudiante, ¿no? Entonces pago solo un euro.",
+    "fr": "Il y a une réduction étudiant, non ? Alors je paie un euro.",
+    "ro": "E reducere pentru studenți, da? Atunci plătesc doar un euro."
+  },
+  "Ціна вже названа; обирають спосіб оплати, не торгуються так.": {
+    "en": "The price is already set; you choose how to pay, you don't haggle like that.",
+    "es": "El precio ya está fijado; se elige forma de pago, no se regatea así.",
+    "fr": "Le prix est fixé ; on choisit le mode de paiement, on ne marchande pas ainsi.",
+    "ro": "Prețul e deja stabilit; alegi modalitatea de plată, nu negociezi așa."
+  },
+  "Разом 22 євро за посилку і 45 євро за квитанцію. Платите готівкою чи карткою?": {
+    "en": "Total 22 euros for the parcel and 45 for the slip. Cash or card?",
+    "es": "Son 22 euros el paquete y 45 el recibo. ¿Efectivo o tarjeta?",
+    "fr": "22 euros pour le colis et 45 pour le bulletin. Espèces ou carte ?",
+    "ro": "Total 22 euro coletul și 45 chitanța. Numerar sau card?"
+  },
+  "Код відстеження викину, він мені не потрібен.": {
+    "en": "I'll throw away the tracking code; I don't need it.",
+    "es": "Tiraré el código de seguimiento; no lo necesito.",
+    "fr": "Je jetterai le code de suivi ; je n'en ai pas besoin.",
+    "ro": "Arunc codul de urmărire; nu am nevoie de el."
+  },
+  "Код відстеження треба зберегти, щоб перевірити посилку.": {
+    "en": "Keep the tracking code to check your parcel.",
+    "es": "Guarde el código de seguimiento para rastrear el paquete.",
+    "fr": "Conservez le code de suivi pour suivre le colis.",
+    "ro": "Păstrează codul de urmărire ca să verifici coletul."
+  },
+  "Можете доставити посилку мені додому сьогодні ввечері особисто?": {
+    "en": "Can you deliver the parcel to my home personally this evening?",
+    "es": "¿Puede traerme el paquete a casa esta noche en persona?",
+    "fr": "Pouvez-vous me livrer le colis chez moi ce soir en personne ?",
+    "ro": "Puteți aduce coletul acasă diseară personal?"
+  },
+  "Працівник пошти не везе посилку особисто додому ввечері.": {
+    "en": "A postal clerk won't personally deliver your parcel at home in the evening.",
+    "es": "El empleado de correos no lleva el paquete a casa por la noche.",
+    "fr": "Le facteur ne livre pas le colis chez vous en personne le soir.",
+    "ro": "Funcționarul poștei nu aduce coletul personal acasă seara."
+  },
+  "Щиро дякую! І вам гарного дня.": {
+    "en": "Thank you very much! Have a nice day too.",
+    "es": "¡Muchas gracias! Que tenga buen día usted también.",
+    "fr": "Merci beaucoup ! Bonne journée à vous aussi.",
+    "ro": "Vă mulțumesc mult! O zi bună și dumneavoastră."
+  },
+  "Ввічливе та правильне завершення розмови.": {
+    "en": "A polite, correct end to the conversation.",
+    "es": "Un cierre de conversación cortés y correcto.",
+    "fr": "Une fin de conversation polie et correcte.",
+    "ro": "O încheiere politicoasă și corectă a conversației."
+  },
+  "Ось квитанція про оплату і код відстеження посилки. Гарного дня!": {
+    "en": "Here's your payment receipt and parcel tracking code. Have a nice day!",
+    "es": "Aquí tiene el recibo de pago y el código de seguimiento. ¡Buen día!",
+    "fr": "Voici le reçu de paiement et le code de suivi. Bonne journée !",
+    "ro": "Iată chitanța de plată și codul de urmărire. O zi bună!"
+  },
+  "Код відстеження називається 'Codice di tracciamento' або 'Numero di raccomandata'. Його можна ввести на сайті Poste Italiane у розділі 'Cerca spedizioni'.": {
+    "en": "The tracking code is called 'Codice di tracciamento' or 'Numero di raccomandata'. Enter it on Poste Italiane under 'Cerca spedizioni'.",
+    "es": "El código se llama «Codice di tracciamento» o «Numero di raccomandata». Introdúcelo en Poste Italiane en «Cerca spedizioni».",
+    "fr": "Le code s'appelle « Codice di tracciamento » ou « Numero di raccomandata ». Saisissez-le sur Poste Italiane, « Cerca spedizioni ».",
+    "ro": "Codul se numește «Codice di tracciamento» sau «Numero di raccomandata». Îl introduci pe site-ul Poste Italiane la «Cerca spedizioni»."
+  },
+  "Boss Level 🏆: Симуляція візиту на пошту (Poste Italiane)": {
+    "en": "Boss Level 🏆: Post office visit simulation (Poste Italiane)",
+    "es": "Boss Level 🏆: Simulación de visita a correos (Poste Italiane)",
+    "fr": "Boss Level 🏆 : Simulation de visite à la poste (Poste Italiane)",
+    "ro": "Boss Level 🏆: Simularea vizitei la poștă (Poste Italiane)"
+  },
+  "Фінальний іспит модуля! Ви самостійно обираєте послугу в терміналі, спілкуєтеся з працівником пошти, відправляєте лист та сплачуєте квитанцію. Підказки та переклад вимкнено!": {
+    "en": "Final module exam! You choose a service at the terminal, talk to staff, send mail, and pay a slip. Hints and translation are off!",
+    "es": "¡Examen final! Eliges servicio en el terminal, hablas con el empleado, envías carta y pagas recibo. ¡Sin pistas ni traducción!",
+    "fr": "Examen final ! Vous choisissez au totem, parlez à l'agent, envoyez courrier et payez un bulletin. Indices et traduction désactivés !",
+    "ro": "Examen final! Alegi serviciul la totem, vorbești cu funcționarul, trimiți corespondență și plătești chitanța. Fără indicii și traduceri!"
+  },
+  "Що потрібно зробити одразу при вході до відділення Poste Italiane?": {
+    "en": "What must you do as soon as you enter a Poste Italiane branch?",
+    "es": "¿Qué hay que hacer al entrar en una oficina de Poste Italiane?",
+    "fr": "Que faut-il faire dès l'entrée d'un bureau Poste Italiane ?",
+    "ro": "Ce trebuie făcut imediat la intrarea în Poste Italiane?"
+  },
+  "В Італії на пошті обов'язкова система електронної черги через термінал (totem).": {
+    "en": "In Italy the post office requires an electronic queue via the terminal (totem).",
+    "es": "En Italia en correos es obligatorio el sistema de cola electrónica en el terminal (totem).",
+    "fr": "En Italie, la file électronique au totem est obligatoire à la poste.",
+    "ro": "În Italia la poștă e obligatoriu sistemul electronic de coadă prin totem."
+  },
+  "Як сказати 'Мені потрібно відправити посилку' італійською?": {
+    "en": "How do you say 'I need to send a parcel' in Italian?",
+    "es": "¿Cómo decir «Necesito enviar un paquete» en italiano?",
+    "fr": "Comment dire « Je dois envoyer un colis » en italien ?",
+    "ro": "Cum spui «Trebuie să trimit un colet» în italiană?"
+  },
+  "'Spedire un pacco' = відправити посилку.": {
+    "en": "'Spedire un pacco' = send a parcel.",
+    "es": "«Spedire un pacco» = enviar un paquete.",
+    "fr": "« Spedire un pacco » = envoyer un colis.",
+    "ro": "«Spedire un pacco» = a trimite un colet."
+  },
+  "Що таке 'Raccomandata'?": {
+    "en": "What is 'Raccomandata'?",
+    "es": "¿Qué es «Raccomandata»?",
+    "fr": "Qu'est-ce qu'une « Raccomandata » ?",
+    "ro": "Ce este «Raccomandata»?"
+  },
+  "'Raccomandata' — офіційний рекомендований лист із юридичною силою.": {
+    "en": "'Raccomandata' — official registered letter with legal force.",
+    "es": "«Raccomandata» — carta certificada oficial con validez legal.",
+    "fr": "« Raccomandata » — lettre recommandée officielle à valeur juridique.",
+    "ro": "«Raccomandata» — scrisoare recomandată oficială cu valoare juridică."
+  },
+  "Хто такий 'Mittente' на поштовому конверті чи коробці?": {
+    "en": "Who is 'Mittente' on a mail envelope or box?",
+    "es": "¿Quién es «Mittente» en un sobre o caja postal?",
+    "fr": "Qui est le « Mittente » sur une enveloppe ou un colis ?",
+    "ro": "Cine este «Mittente» pe plic sau colet?"
+  },
+  "'Mittente' = відправник, а 'Destinatario' = одержувач.": {
+    "en": "'Mittente' = sender; 'Destinatario' = recipient.",
+    "es": "«Mittente» = remitente; «Destinatario» = destinatario.",
+    "fr": "« Mittente » = expéditeur ; « Destinatario » = destinataire.",
+    "ro": "«Mittente» = expeditor; «Destinatario» = destinatar."
+  },
+  "Як називається номер для перевірки статусу та місцезнаходження посилки в інтернеті?": {
+    "en": "What is the number called for checking parcel status online?",
+    "es": "¿Cómo se llama el número para rastrear el paquete en internet?",
+    "fr": "Comment s'appelle le numéro pour suivre un colis en ligne ?",
+    "ro": "Cum se numește codul pentru verificarea coletului online?"
+  },
+  "'Codice di tracciamento' = трек-номер для відстеження.": {
+    "en": "'Codice di tracciamento' = tracking number.",
+    "es": "«Codice di tracciamento» = número de seguimiento.",
+    "fr": "« Codice di tracciamento » = numéro de suivi.",
+    "ro": "«Codice di tracciamento» = număr de urmărire."
+  },
+  "Вітаємо! Ви вільно орієнтуєтеся в послугах Poste Italiane, можете відправляти посилки, рекомендовані листи та сплачувати квитанції!": {
+    "en": "Congratulations! You navigate Poste Italiane services, send parcels and registered mail, and pay slips!",
+    "es": "¡Enhorabuena! Dominas Poste Italiane: envíos, raccomandata y pagos.",
+    "fr": "Félicitations ! Vous maîtrisez Poste Italiane : colis, recommandés et bulletins !",
+    "ro": "Felicitări! Te descurci la Poste Italiane: colete, raccomandata și plata chitanțelor!"
+  },
+  "У Патронаті: Документи, ISEE та дитячі виплати": {
+    "en": "At the Patronato: Documents, ISEE, and child benefits",
+    "es": "En el Patronato: Documentos, ISEE y prestaciones infantiles",
+    "fr": "Au Patronato : documents, ISEE et allocations enfants",
+    "ro": "La Patronato: documente, ISEE și indemnizații pentru copii"
+  },
+  "Марко та Лаура звертаються до офісу Patronato / CAF у своєму місті. В Італії Патронат — це безкоштовна або недорога соціальна служба, яка допомагає іноземцям та сім'ям оформлювати соціальні виплати, подавати декларації, оформлювати ISEE (індекс фінансового стану) та отримувати щомісячну допомогу на дитину (Assegno Unico Universale).": {
+    "en": "Marco and Laura visit a local Patronato / CAF office. In Italy Patronato is a free or low-cost social service helping foreigners and families with benefits, tax returns, ISEE (financial status index), and monthly child allowance (Assegno Unico Universale).",
+    "es": "Marco y Laura van al Patronato / CAF local. En Italia el Patronato ayuda gratis o a bajo coste con prestaciones, declaraciones, ISEE y Assegno Unico Universale.",
+    "fr": "Marco et Laura vont au Patronato / CAF local. En Italie, le Patronato aide gratuitement ou à faible coût pour prestations, déclarations, ISEE et Assegno Unico Universale.",
+    "ro": "Marco și Laura la Patronato / CAF local. În Italia Patronato e serviciu social gratuit sau ieftin pentru străini și familii: beneficii, declarații, ISEE, Assegno Unico Universale."
+  },
+  "Я б хотів(ла) призначити зустріч для оформлення довідки ISEE.": {
+    "en": "I would like to book an appointment to get an ISEE certificate.",
+    "es": "Quisiera concertar cita para tramitar el certificado ISEE.",
+    "fr": "Je voudrais prendre rendez-vous pour obtenir un certificat ISEE.",
+    "ro": "Aș dori să programez o întâlnire pentru certificatul ISEE."
+  },
+  "Я б хотів(ла) подати заявку на щомісячну допомогу на дитину.": {
+    "en": "I would like to apply for monthly child allowance.",
+    "es": "Quisiera solicitar la ayuda mensual por hijo.",
+    "fr": "Je voudrais demander l'allocation mensuelle pour enfant.",
+    "ro": "Aș dori să depun cerere pentru alocația lunară pentru copil."
+  },
+  "Які документи потрібні для подання заяви?": {
+    "en": "What documents are needed to submit an application?",
+    "es": "¿Qué documentos hacen falta para la solicitud?",
+    "fr": "Quels documents faut-il pour déposer une demande ?",
+    "ro": "Ce documente sunt necesare pentru depunerea cererii?"
+  },
+  "Мені потрібна допомога з податковою декларацією.": {
+    "en": "I need help with my tax return.",
+    "es": "Necesito ayuda con la declaración de la renta.",
+    "fr": "J'ai besoin d'aide pour ma déclaration fiscale.",
+    "ro": "Am nevoie de ajutor cu declarația fiscală."
+  },
+  "Patronato e CAF — установи, що допомагають безкоштовно або за символічну плату з податками, декретними виплатами, бонусами на дітей та пільгами.": {
+    "en": "Patronato e CAF — offices that help free or for a symbolic fee with taxes, maternity pay, child bonuses, and benefits.",
+    "es": "Patronato e CAF — oficinas que ayudan gratis o por poco con impuestos, prestaciones, bonus infantiles y ayudas.",
+    "fr": "Patronato e CAF — structures d'aide gratuite ou symbolique pour impôts, indemnités, bonus enfants et prestations.",
+    "ro": "Patronato e CAF — instituții care ajută gratuit sau simbolic cu taxe, indemnizații, bonusuri pentru copii și beneficii."
+  },
+  "ISEE — це офіційний розрахунок фінансового стану родини. Він потрібен для отримання значних знижок на дитячий садок, шкільні обіди, комунальні бонуси та виплату Assegno Unico.": {
+    "en": "ISEE is the official calculation of a family's financial status. It's needed for nursery discounts, school meals, utility bonuses, and Assegno Unico.",
+    "es": "ISEE es el cálculo oficial del estado económico familiar. Sirve para guardería, comedor escolar, bonus y Assegno Unico.",
+    "fr": "L'ISEE est le calcul officiel de la situation financière du foyer. Requis pour crèche, cantine, bonus énergie et Assegno Unico.",
+    "ro": "ISEE e calculul oficial al situației financiare a familiei. E necesar pentru grădiniță, masă școlară, bonusuri utilități și Assegno Unico."
+  },
+  "Assegno Unico Universale — щомісячна фінансова допомога на кожну неповнолітню дитину в сім'ї.": {
+    "en": "Assegno Unico Universale — monthly financial support for each minor child in the family.",
+    "es": "Assegno Unico Universale — ayuda mensual por cada hijo menor en la familia.",
+    "fr": "Assegno Unico Universale — aide mensuelle pour chaque enfant mineur du foyer.",
+    "ro": "Assegno Unico Universale — sprijin financiar lunar pentru fiecare copil minor din familie."
+  },
+  "Конструкції 'Fare la domanda' (подавати заяву) та 'Servono / Serve' (потрібно)": {
+    "en": "Phrases 'Fare la domanda' (to apply) and 'Servono / Serve' (needed)",
+    "es": "Expresiones «Fare la domanda» (solicitar) y «Servono / Serve» (hace falta)",
+    "fr": "Expressions « Fare la domanda » (faire demande) et « Servono / Serve » (il faut)",
+    "ro": "Construcții «Fare la domanda» (a depune cerere) și «Servono / Serve» (e nevoie)"
+  },
+  "Вирази з 'Fare': 'Fare la domanda' (подавати заяву), 'Fare l'ISEE' (робити розрахунок ISEE).": {
+    "en": "Phrases with 'Fare': 'Fare la domanda' (apply), 'Fare l'ISEE' (get an ISEE calculation).",
+    "es": "Con «Fare»: «Fare la domanda», «Fare l'ISEE».",
+    "fr": "Avec « Fare » : « Fare la domanda », « Fare l'ISEE ».",
+    "ro": "Cu «Fare»: «Fare la domanda», «Fare l'ISEE»."
+  },
+  "Хочу подати заяву на bonus nido.": {
+    "en": "I want to apply for bonus nido.",
+    "es": "Quiero solicitar el bonus nido.",
+    "fr": "Je veux faire demande pour le bonus nido.",
+    "ro": "Vreau să depun cerere pentru bonus nido."
+  },
+  "Мені потрібно зробити оновлений ISEE.": {
+    "en": "I need to get an updated ISEE.",
+    "es": "Necesito hacer un ISEE actualizado.",
+    "fr": "Je dois refaire un ISEE à jour.",
+    "ro": "Trebuie să refac ISEE actualizat."
+  },
+  "Різниця 'Serve' (однина) / 'Servono' (множина): 'Потрібен / Потрібні'.": {
+    "en": "Difference 'Serve' (singular) / 'Servono' (plural): 'Is needed / Are needed'.",
+    "es": "Diferencia «Serve» (singular) / «Servono» (plural): «Hace falta / Hacen falta».",
+    "fr": "Différence « Serve » (singulier) / « Servono » (pluriel) : « Il faut » / « Il faut (plusieurs) ».",
+    "ro": "Diferența «Serve» (singular) / «Servono» (plural): «E nevoie» / «Sunt necesare»."
+  },
+  "Потрібне посвідчення особи?": {
+    "en": "Do I need ID?",
+    "es": "¿Hace falta documento de identidad?",
+    "fr": "Faut-il une pièce d'identité ?",
+    "ro": "E nevoie de act de identitate?"
+  },
+  "Потрібні всі документи членів сім’ї.": {
+    "en": "All family members' documents are needed.",
+    "es": "Hacen falta los documentos de todos los miembros de la familia.",
+    "fr": "Il faut les documents de tous les membres de la famille.",
+    "ro": "Sunt necesare documentele tuturor membrilor familiei."
+  },
+  "Для подачі заяв у Patronato завжди беріть із собою діючі посвідчення особи (Carta d'Identità), Codice Fiscale усіх членів сім'ї та банківські реквізити (IBAN) для зарахування коштів.": {
+    "en": "For Patronato applications always bring valid ID (Carta d'Identità), Codice Fiscale for all family members, and bank details (IBAN) for payments.",
+    "es": "Para el Patronato lleve Carta d'Identità, Codice Fiscale de la familia e IBAN para ingresos.",
+    "fr": "Au Patronato : Carta d'Identità, Codice Fiscale de toute la famille et IBAN pour les versements.",
+    "ro": "La Patronato adu Carta d'Identità, Codice Fiscale pentru toată familia și IBAN pentru viramente."
+  },
+  "Живий діалог: Консультація та подача документів в Patronato": {
+    "en": "Live dialogue: Consultation and submitting documents at Patronato",
+    "es": "Diálogo en vivo: Consulta y documentos en Patronato",
+    "fr": "Dialogue en direct : consultation et dossier au Patronato",
+    "ro": "Dialog live: Consultație și depunere documente la Patronato"
+  },
+  "Лаура приходить на прийом до консультанта Patronato (Operatore CAF) за попереднім записом, щоб оформити Assegno Unico на 3-річну доньку.": {
+    "en": "Laura comes for an appointment with a Patronato consultant (Operatore CAF) to apply for Assegno Unico for her 3-year-old daughter.",
+    "es": "Laura acude con cita al consultor Patronato (Operatore CAF) para el Assegno Unico de su hija de 3 años.",
+    "fr": "Laura a rendez-vous chez le conseiller Patronato (Operatore CAF) pour l'Assegno Unico de sa fille de 3 ans.",
+    "ro": "Laura vine la programare la consultant Patronato (Operatore CAF) pentru Assegno Unico pentru fiica de 3 ani."
+  },
+  "Ні, запису немає. Я зайшла випадково, зроблю все зараз.": {
+    "en": "No, I don't have an appointment. I dropped in; I'll do everything now.",
+    "es": "No, no tengo cita. Entré sin avisar; lo haré ahora.",
+    "fr": "Non, je n'ai pas de rendez-vous. Je suis passée par hasard ; je ferai tout maintenant.",
+    "ro": "Nu, n-am programare. Am intrat întâmplător; fac totul acum."
+  },
+  "У Patronato зазвичай працюють за записом; треба підтвердити prenotazione.": {
+    "en": "Patronato usually works by appointment; you need to confirm your prenotazione.",
+    "es": "En el Patronato suelen atender con cita; hay que confirmar la prenotazione.",
+    "fr": "Au Patronato, on travaille sur rendez-vous ; il faut confirmer la prenotazione.",
+    "ro": "La Patronato se lucrează de obicei cu programare; trebuie confirmată prenotazione."
+  },
+  "Привіт, хочу гроші на продукти.": {
+    "en": "Hi, I want money for groceries.",
+    "es": "Hola, quiero dinero para comida.",
+    "fr": "Salut, je veux de l'argent pour faire courses.",
+    "ro": "Salut, vreau bani pentru mâncare."
+  },
+  "Спілкування у соціальних службах вимагає ввічливого тону.": {
+    "en": "Social services require a polite tone.",
+    "es": "En servicios sociales hace falta un tono cortés.",
+    "fr": "Les services sociaux exigent un ton poli.",
+    "ro": "La serviciile sociale e nevoie de un ton politicos."
+  },
+  "Доброго дня! Так, саме так. У мене бронювання на 10:00.": {
+    "en": "Good morning! Yes, exactly. I have a booking for 10:00.",
+    "es": "¡Buenos días! Sí, exacto. Tengo reserva a las 10:00.",
+    "fr": "Bonjour ! Oui, tout à fait. J'ai une réservation à 10 h.",
+    "ro": "Bună ziua! Da, exact. Am rezervare la 10:00."
+  },
+  "Чудово! Ви підтвердили свій запис на прийом.": {
+    "en": "Great! You confirmed your appointment.",
+    "es": "¡Genial! Confirmaste tu cita.",
+    "fr": "Super ! Vous avez confirmé votre rendez-vous.",
+    "ro": "Excelent! Ți-ai confirmat programarea."
+  },
+  "Доброго дня, синьйоро! Прошу, сідайте. У вас був запис на ім’я Лаура?": {
+    "en": "Good morning! Please, have a seat. Did you have an appointment under the name Laura?",
+    "es": "¡Buenos días! Tome asiento. ¿Tenía cita a nombre de Laura?",
+    "fr": "Bonjour ! Asseyez-vous. Vous aviez rendez-vous au nom de Laura ?",
+    "ro": "Bună ziua! Vă rog, luați loc. Aveați programare pe numele Laura?"
+  },
+  "Хочу лише копію посвідчення особи, без жодних заяв.": {
+    "en": "I only want a copy of my ID, no applications.",
+    "es": "Solo quiero copia del documento, sin solicitudes.",
+    "fr": "Je veux seulement une copie de pièce d'identité, sans demandes.",
+    "ro": "Vreau doar copie act identitate, fără cereri."
+  },
+  "Тут оформлюють соціальні заяви, наприклад Assegno Unico, не ксерокопії.": {
+    "en": "Here they process social applications like Assegno Unico, not photocopies.",
+    "es": "Aquí tramitan solicitudes sociales como Assegno Unico, no fotocopias.",
+    "fr": "Ici on traite les demandes sociales comme l'Assegno Unico, pas des photocopies.",
+    "ro": "Aici se procesează cereri sociale, ex. Assegno Unico, nu xeroxuri."
+  },
+  "Я хотіла б подати заяву на Assegno Unico для моєї 3-річної доньки. ISEE я вже зробила.": {
+    "en": "I'd like to apply for Assegno Unico for my 3-year-old daughter. I've already done my ISEE.",
+    "es": "Quisiera solicitar Assegno Unico para mi hija de 3 años. Ya hice el ISEE.",
+    "fr": "Je voudrais demander l'Assegno Unico pour ma fille de 3 ans. J'ai déjà fait mon ISEE.",
+    "ro": "Aș dori să depun cerere pentru Assegno Unico pentru fiica mea de 3 ani. Am făcut deja ISEE."
+  },
+  "Ідеально! Ви чітко пояснили мету візиту та згадали наявність ISEE.": {
+    "en": "Perfect! You clearly explained your visit purpose and mentioned you have ISEE.",
+    "es": "¡Perfecto! Explicaste claramente el motivo y mencionaste el ISEE.",
+    "fr": "Parfait ! Vous avez expliqué clairement la visite et mentionné l'ISEE.",
+    "ro": "Perfect! Ai explicat clar scopul vizitei și ai menționat ISEE."
+  },
+  "Мені треба відправити посилку в Україну.": {
+    "en": "I need to send a parcel to Ukraine.",
+    "es": "Necesito enviar un paquete a Ucrania.",
+    "fr": "Je dois envoyer un colis en Ukraine.",
+    "ro": "Trebuie să trimit un colet în Ucraina."
+  },
+  "Відправкою посилок займається пошта (Poste Italiane), а не Patronato.": {
+    "en": "Parcels are handled by the post office (Poste Italiane), not Patronato.",
+    "es": "Los paquetes los gestiona correos (Poste Italiane), no el Patronato.",
+    "fr": "Les colis relèvent de la poste (Poste Italiane), pas du Patronato.",
+    "ro": "Coletele le gestionează poșta (Poste Italiane), nu Patronato."
+  },
+  "Добре. Чим сьогодні можу допомогти?": {
+    "en": "All right. How can I help you today?",
+    "es": "De acuerdo. ¿En qué puedo ayudarle hoy?",
+    "fr": "Très bien. Que puis-je faire pour vous aujourd'hui ?",
+    "ro": "Bine. Cu ce vă pot ajuta astăzi?"
+  },
+  "Звісно! Ось моє посвідчення особи, мій код фіскале і доньки, і модель ISEE.": {
+    "en": "Of course! Here's my ID, my codice fiscale and my daughter's, and my ISEE model.",
+    "es": "¡Claro! Aquí está mi documento, mi codice fiscale y el de mi hija, y el modelo ISEE.",
+    "fr": "Bien sûr ! Voici ma pièce d'identité, mon codice fiscale et celui de ma fille, et le modèle ISEE.",
+    "ro": "Desigur! Iată actul meu, codice fiscale al meu și al fiicei, și modelul ISEE."
+  },
+  "Чудово! Ви надали весь необхідний пакет документів.": {
+    "en": "Great! You provided the full document package.",
+    "es": "¡Genial! Entregaste todo el paquete documental.",
+    "fr": "Super ! Vous avez fourni tout le dossier.",
+    "ro": "Excelent! Ai prezentat tot pachetul de documente."
+  },
+  "У мене з собою немає жодного документа.": {
+    "en": "I don't have any documents with me.",
+    "es": "No llevo ningún documento.",
+    "fr": "Je n'ai aucun document sur moi.",
+    "ro": "Nu am niciun document la mine."
+  },
+  "Без документів консультант не зможе зареєструвати заявку в системі INPS.": {
+    "en": "Without documents the consultant can't register the application in the INPS system.",
+    "es": "Sin documentos el consultor no puede registrar la solicitud en INPS.",
+    "fr": "Sans documents, le conseiller ne peut pas enregistrer la demande dans INPS.",
+    "ro": "Fără documente consultantul nu poate înregistra cererea în sistemul INPS."
+  },
+  "У мене лише чек із бару, документи в машині.": {
+    "en": "I only have a bar receipt; documents are in the car.",
+    "es": "Solo tengo ticket del bar; los documentos están en el coche.",
+    "fr": "Je n'ai qu'un ticket de bar ; les documents sont dans la voiture.",
+    "ro": "Am doar scontrino de la bar; documentele sunt în mașină."
+  },
+  "Потрібні документи батьків і дитини, ISEE і коди fiscale.": {
+    "en": "You need parents' and child's documents, ISEE, and codici fiscale.",
+    "es": "Hacen falta documentos de padres e hija, ISEE y codici fiscale.",
+    "fr": "Il faut les documents des parents et de l'enfant, l'ISEE et les codici fiscale.",
+    "ro": "Sunt necesare documentele părinților și copilului, ISEE și codici fiscale."
+  },
+  "Чудово! Якщо ISEE вже є, усе простіше. Покажете документи й коди fiscale?": {
+    "en": "Great! If you already have ISEE, it's easier. Can you show documents and codici fiscale?",
+    "es": "¡Perfecto! Si ya tiene ISEE, es más fácil. ¿Muestra documentos y codici fiscale?",
+    "fr": "Très bien ! Si l'ISEE est fait, c'est plus simple. Documents et codici fiscale ?",
+    "ro": "Perfect! Dacă ISEE e gata, e mai simplu. Arătați documentele și codici fiscale?"
+  },
+  "Плачу готівкою на касі.": {
+    "en": "I'll pay cash at the counter.",
+    "es": "Pago en efectivo en caja.",
+    "fr": "Je paie en espèces à la caisse.",
+    "ro": "Plătesc cash la casă."
+  },
+  "Соціальні допомоги в Італії виплачуються безпосередньо на банківський рахунок (IBAN).": {
+    "en": "Social benefits in Italy are paid directly to a bank account (IBAN).",
+    "es": "Las prestaciones sociales en Italia se ingresan en cuenta bancaria (IBAN).",
+    "fr": "Les prestations sociales en Italie sont versées sur un compte bancaire (IBAN).",
+    "ro": "Beneficiile sociale în Italia se plătesc direct în cont bancar (IBAN)."
+  },
+  "IBAN друга, він отримує гроші за мене.": {
+    "en": "My friend's IBAN — they receive the money for me.",
+    "es": "El IBAN de un amigo; él cobra por mí.",
+    "fr": "L'IBAN d'un ami ; il reçoit l'argent pour moi.",
+    "ro": "IBAN-ul unui prieten; el primește banii pentru mine."
+  },
+  "Рахунок для виплати має бути на ім’я заявника.": {
+    "en": "The payment account must be in the applicant's name.",
+    "es": "La cuenta de pago debe estar a nombre del solicitante.",
+    "fr": "Le compte de versement doit être au nom du demandeur.",
+    "ro": "Contul pentru plată trebuie să fie pe numele solicitantului."
+  },
+  "Так, рахунок на моє ім’я. Ось код IBAN мого банківського рахунку.": {
+    "en": "Yes, the account is in my name. Here's my bank account IBAN.",
+    "es": "Sí, la cuenta está a mi nombre. Aquí está el IBAN.",
+    "fr": "Oui, le compte est à mon nom. Voici l'IBAN de mon compte.",
+    "ro": "Da, contul e pe numele meu. Iată IBAN-ul contului bancar."
+  },
+  "Правильно! Ви підтвердили власнику рахунку та надали IBAN.": {
+    "en": "Correct! You confirmed account ownership and provided IBAN.",
+    "es": "¡Correcto! Confirmaste titularidad e IBAN.",
+    "fr": "Exact ! Vous avez confirmé le titulaire et l'IBAN.",
+    "ro": "Corect! Ai confirmat titularul contului și IBAN."
+  },
+  "Чудово. Потрібен також IBAN вашого поточного рахунку для щомісячної виплати. Він на ваше ім’я?": {
+    "en": "Great. We also need the IBAN of your current account for the monthly payment. Is it in your name?",
+    "es": "Perfecto. También necesitamos el IBAN de su cuenta corriente para el pago mensual. ¿Está a su nombre?",
+    "fr": "Très bien. Il nous faut aussi l'IBAN de votre compte courant pour le versement mensuel. Est-il à votre nom ?",
+    "ro": "Perfect. E nevoie și de IBAN-ul contului curent pentru plata lunară. E pe numele dumneavoastră?"
+  },
+  "Добре, де мені підписати?": {
+    "en": "OK, where do I sign?",
+    "es": "Bien, ¿dónde firmo?",
+    "fr": "D'accord, où dois-je signer ?",
+    "ro": "Bine, unde semnez?"
+  },
+  "Чудово! Ви готові підписати документи.": {
+    "en": "Great! You're ready to sign the documents.",
+    "es": "¡Genial! Estás lista para firmar.",
+    "fr": "Super ! Vous êtes prête à signer.",
+    "ro": "Excelent! Ești gata să semnezi documentele."
+  },
+  "Підпишіть ви замість мене, я поспішаю.": {
+    "en": "Sign for me, I'm in a hurry.",
+    "es": "Firme usted por mí, tengo prisa.",
+    "fr": "Signez à ma place, je suis pressé(e).",
+    "ro": "Semnați dumneavoastră în locul meu, mă grăbesc."
+  },
+  "Підпис має поставити заявник, не оператор замість вас.": {
+    "en": "The applicant must sign — not the operator for you.",
+    "es": "Debe firmar el solicitante, no el operador por usted.",
+    "fr": "C'est le demandeur qui signe, pas l'opérateur à votre place.",
+    "ro": "Trebuie să semneze solicitantul, nu operatorul în locul tău."
+  },
+  "Нічого не підписую без нотаріуса і трьох свідків.": {
+    "en": "I won't sign anything without a notary and three witnesses.",
+    "es": "No firmo nada sin notario y tres testigos.",
+    "fr": "Je ne signe rien sans notaire et trois témoins.",
+    "ro": "Nu semnez nimic fără notar și trei martori."
+  },
+  "У Patronato підписують ricevuta і delega на місці, без нотаріуса.": {
+    "en": "At Patronato you sign ricevuta and delega on site, without a notary.",
+    "es": "En el Patronato se firman ricevuta y delega allí, sin notario.",
+    "fr": "Au Patronato on signe ricevuta et delega sur place, sans notaire.",
+    "ro": "La Patronato se semnează ricevuta și delega pe loc, fără notar."
+  },
+  "Дуже добре. Вношу дані в систему INPS. Потрібно лише підписати цю квитанцію і бланк доручення.": {
+    "en": "Very good. I'm entering data in INPS. You just need to sign this receipt and authorization form.",
+    "es": "Muy bien. Introduzco datos en INPS. Solo falta firmar este recibo y delega.",
+    "fr": "Très bien. Je saisis dans INPS. Il reste à signer ce reçu et ce mandat.",
+    "ro": "Foarte bine. Introduc datele în INPS. Trebuie doar să semnați această chitanță și delega."
+  },
+  "Гроші прийдуть сьогодні готівкою, так? Почекаю тут.": {
+    "en": "The money will come today in cash, right? I'll wait here.",
+    "es": "El dinero llegará hoy en efectivo, ¿no? Esperaré aquí.",
+    "fr": "L'argent arrivera aujourd'hui en espèces, non ? J'attends ici.",
+    "ro": "Banii vin azi cash, da? Aștept aici."
+  },
+  "Виплата йде на IBAN наступного місяця, не готівкою одразу.": {
+    "en": "Payment goes to IBAN next month, not cash immediately.",
+    "es": "El pago va al IBAN el mes que viene, no en efectivo al momento.",
+    "fr": "Le versement va sur l'IBAN le mois prochain, pas en espèces tout de suite.",
+    "ro": "Plata merge pe IBAN luna viitoare, nu cash imediat."
+  },
+  "Щиро дякую за допомогу! Гарного дня і успіхів у роботі.": {
+    "en": "Thank you very much for your help! Have a nice day and good luck at work.",
+    "es": "¡Muchas gracias por la ayuda! Buen día y éxito en el trabajo.",
+    "fr": "Merci beaucoup pour votre aide ! Bonne journée et bon courage au travail.",
+    "ro": "Vă mulțumesc mult pentru ajutor! O zi bună și succes la serviciu."
+  },
+  "Надішліть Assegno Unico в інший CAF, я передумала.": {
+    "en": "Send my Assegno Unico to another CAF; I changed my mind.",
+    "es": "Envíen mi Assegno Unico a otro CAF; me arrepiento.",
+    "fr": "Envoyez mon Assegno Unico à un autre CAF ; j'ai changé d'avis.",
+    "ro": "Trimiteți Assegno Unico la alt CAF; m-am răzgândit."
+  },
+  "Заяву вже подано; ввічливо подякувати і піти.": {
+    "en": "The application is already submitted; thank them politely and leave.",
+    "es": "La solicitud ya está enviada; agradece con cortesía y vete.",
+    "fr": "La demande est déjà déposée ; remerciez poliment et partez.",
+    "ro": "Cererea e deja depusă; mulțumește politicos și pleacă."
+  },
+  "Ось копія надісланої заяви. Виплата надійде наступного місяця на ваш рахунок. Гарного дня!": {
+    "en": "Here's a copy of the submitted application. Payment will arrive next month in your account. Have a nice day!",
+    "es": "Aquí tiene copia de la solicitud. El pago llegará el mes que viene a su cuenta. ¡Buen día!",
+    "fr": "Voici une copie de la demande. Le versement arrivera le mois prochain sur votre compte. Bonne journée !",
+    "ro": "Iată copia cererii depuse. Plata va ajunge luna viitoare în cont. O zi bună!"
+  },
+  "Більшість дитячих виплат та пільг обробляються державним органом INPS (Istituto Nazionale della Previdenza Sociale), а Patronato є офіційним посередником у передачі документів.": {
+    "en": "Most child benefits and allowances are processed by INPS (Istituto Nazionale della Previdenza Sociale); Patronato is the official intermediary for submitting documents.",
+    "es": "La mayoría de prestaciones infantiles las gestiona INPS; el Patronato es intermediario oficial.",
+    "fr": "La plupart des prestations enfants passent par l'INPS ; le Patronato est l'intermédiaire officiel.",
+    "ro": "Majoritatea indemnizațiilor pentru copii sunt procesate de INPS; Patronato e intermediarul oficial."
+  },
+  "Boss Level 🏆: Симуляція оформлення допомоги у Patronato": {
+    "en": "Boss Level 🏆: Applying for benefits at Patronato simulation",
+    "es": "Boss Level 🏆: Simulación de trámite de ayudas en Patronato",
+    "fr": "Boss Level 🏆 : Simulation de demande d'aides au Patronato",
+    "ro": "Boss Level 🏆: Simularea depunerii ajutorului la Patronato"
+  },
+  "Фінальний іспит модуля! Ви самостійно приходите на прийом у Patronato/CAF, подаєте документи для ISEE та виплат на дитину. Підказки та переклад вимкнено!": {
+    "en": "Final module exam! You attend Patronato/CAF on your own, submit documents for ISEE and child benefits. Hints and translation are off!",
+    "es": "¡Examen final! Acudes solo al Patronato/CAF con documentos para ISEE y ayudas infantiles. ¡Sin pistas ni traducción!",
+    "fr": "Examen final ! Vous allez seul(e) au Patronato/CAF avec dossier ISEE et allocations enfant. Indices et traduction désactivés !",
+    "ro": "Examen final! Vii singur la Patronato/CAF cu documente pentru ISEE și plăți pentru copii. Fără indicii și traduceri!"
+  },
+  "Що таке довідка 'ISEE' в Італії?": {
+    "en": "What is the 'ISEE' certificate in Italy?",
+    "es": "¿Qué es el certificado «ISEE» en Italia?",
+    "fr": "Qu'est-ce que le certificat « ISEE » en Italie ?",
+    "ro": "Ce este certificatul «ISEE» în Italia?"
+  },
+  "ISEE — показник майнового стану для розрахунку соціальних пільг.": {
+    "en": "ISEE — indicator of assets for calculating social benefits.",
+    "es": "ISEE — indicador de patrimonio para calcular prestaciones sociales.",
+    "fr": "ISEE — indicateur de patrimoine pour les prestations sociales.",
+    "ro": "ISEE — indicator al situației patrimoniale pentru beneficii sociale."
+  },
+  "Як називається щомісячна державна допомога на дитину в Італії?": {
+    "en": "What is the monthly state child allowance called in Italy?",
+    "es": "¿Cómo se llama la ayuda mensual estatal por hijo en Italia?",
+    "fr": "Comment s'appelle l'aide mensuelle de l'État pour enfant en Italie ?",
+    "ro": "Cum se numește ajutorul lunar de stat pentru copil în Italia?"
+  },
+  "'Assegno Unico' — головна виплата на дітей у країні.": {
+    "en": "'Assegno Unico' — the main child payment in the country.",
+    "es": "«Assegno Unico» — la principal prestación por hijos en el país.",
+    "fr": "« Assegno Unico » — la principale allocation enfants dans le pays.",
+    "ro": "«Assegno Unico» — principalul sprijin pentru copii în țară."
+  },
+  "Як сказати консультанту 'Я б хотів(ла) подати заявку на виплату на дитину'?": {
+    "en": "How do you tell the consultant 'I would like to apply for child allowance'?",
+    "es": "Cómo decir al consultor «Quisiera solicitar la ayuda por hijo»",
+    "fr": "Comment dire au conseiller « Je voudrais demander l'allocation enfant »",
+    "ro": "Cum îi spui consultantului «Aș dori să depun cerere pentru alocație pentru copil»?"
+  },
+  "'Fare la domanda' = подати заявку.": {
+    "en": "'Fare la domanda' = submit an application.",
+    "es": "«Fare la domanda» = presentar solicitud.",
+    "fr": "« Fare la domanda » = déposer une demande.",
+    "ro": "«Fare la domanda» = a depune cerere."
+  },
+  "Який реквізит потрібен для зарахування щомісячних виплат від INPS?": {
+    "en": "What detail is needed to receive monthly INPS payments?",
+    "es": "¿Qué dato hace falta para cobrar pagos mensuales de INPS?",
+    "fr": "Quelle coordonnée pour recevoir les versements mensuels INPS ?",
+    "ro": "Ce date sunt necesare pentru plățile lunare de la INPS?"
+  },
+  "Виплати перераховуються на банківський рахунок за кодом IBAN.": {
+    "en": "Payments are transferred to a bank account via IBAN.",
+    "es": "Los pagos se ingresan en cuenta bancaria con IBAN.",
+    "fr": "Les versements sont virés sur compte bancaire via IBAN.",
+    "ro": "Plățile se viră în cont bancar prin IBAN."
+  },
+  "Як запитати консультанта: «Які документи потрібні для подання заяви?»": {
+    "en": "How do you ask the consultant: 'What documents are needed to submit an application?'",
+    "es": "Cómo preguntar «¿Qué documentos hacen falta para la solicitud?»",
+    "fr": "Comment demander « Quels documents faut-il pour la demande ? »",
+    "ro": "Cum întrebi consultantul: «Ce documente sunt necesare pentru depunerea cererii?»"
+  },
+  "'Quali documenti servono...?' = 'Які документи потрібні...?'": {
+    "en": "'Quali documenti servono...?' = 'What documents are needed...?'",
+    "es": "«Quali documenti servono...?» = «¿Qué documentos hacen falta...?»",
+    "fr": "« Quali documenti servono...? » = « Quels documents faut-il...? »",
+    "ro": "«Quali documenti servono...?» = «Ce documente sunt necesare...?»"
+  },
+  "Вітаємо! Ви повністю орієнтуєтеся у функціях Patronato/CAF, знаєте, як оформити ISEE, Assegno Unico та працювати із соціальними виплатами в Італії!": {
+    "en": "Congratulations! You fully understand Patronato/CAF, ISEE, Assegno Unico, and social benefits in Italy!",
+    "es": "¡Enhorabuena! Dominas Patronato/CAF, ISEE, Assegno Unico y prestaciones en Italia.",
+    "fr": "Félicitations ! Vous maîtrisez Patronato/CAF, ISEE, Assegno Unico et les prestations en Italie !",
+    "ro": "Felicitări! Stăpânești Patronato/CAF, ISEE, Assegno Unico și beneficiile sociale în Italia!"
+  },
+  "У барі: Кавова культура, випічка та оплата на касі": {
+    "en": "At the bar: Coffee culture, pastries, and paying at the register",
+    "es": "En el bar: Cultura del café, bollería y pago en caja",
+    "fr": "Au bar : culture café, viennoiseries et paiement à la caisse",
+    "ro": "La bar: cultura cafelei, produse de patiserie și plata la casă"
+  },
+  "Марко та Лаура заходять до місцевого бару на ранковий сніданок (colazione). В Італії бар — це не нічний заклад, а головне місце для ранкової кави, зустрічей з сусідами та легкого перекусу. Тут є важливе правило: спочатку часто платять на касі, отримують чек (scontrino), а потім з ним підходять до стійки (al banco).": {
+    "en": "Marco and Laura stop at a local bar for breakfast (colazione). In Italy a bar isn't a nightclub — it's the main place for morning coffee, meeting neighbors, and a light snack. Often you pay at the register first, get a receipt (scontrino), then go to the counter (al banco) with it.",
+    "es": "Marco y Laura entran al bar local a desayunar (colazione). En Italia el bar no es discoteca: café matinal, vecinos y tentempié. A menudo se paga primero en caja, se recibe scontrino y se va al banco.",
+    "fr": "Marco et Laura vont au bar du quartier pour le petit-déjeuner (colazione). En Italie le bar n'est pas une boîte de nuit : café du matin, voisins, encas. Souvent on paie d'abord à la caisse, on reçoit le scontrino, puis on va au comptoir (al banco).",
+    "ro": "Marco și Laura intră la barul local la micul dejun (colazione). În Italia barul nu e club de noapte — e locul pentru cafea dimineața, vecini și gustări. Deseori plătești la casă, primești scontrino, apoi mergi la bar (al banco)."
+  },
+  "Я хотів би еспресо та круасан із кремом, будь ласка.": {
+    "en": "I'd like an espresso and a cream-filled croissant, please.",
+    "es": "Quisiera un espresso y un croissant con crema, por favor.",
+    "fr": "Je voudrais un espresso et un croissant à la crème, s'il vous plaît.",
+    "ro": "Aș dori un espresso și un croissant cu cremă, vă rog."
+  },
+  "Ми можемо сісти за столик чи це коштує дорожче?": {
+    "en": "Can we sit at a table or does it cost more?",
+    "es": "¿Podemos sentarnos a mesa o cuesta más?",
+    "fr": "Peut-on s'asseoir à table ou c'est plus cher ?",
+    "ro": "Putem sta la masă sau costă mai mult?"
+  },
+  "Я хотів би гаряче макіато та склянку води, дякую.": {
+    "en": "I'd like a hot macchiato and a glass of water, thanks.",
+    "es": "Quisiera un macchiato caliente y un vaso de agua, gracias.",
+    "fr": "Je voudrais un macchiato chaud et un verre d'eau, merci.",
+    "ro": "Aș dori un macchiato cald și un pahar de apă, mulțumesc."
+  },
+  "Мені спочатку вибити чек на касі?": {
+    "en": "Should I get a receipt at the register first?",
+    "es": "¿Primero saco ticket en caja?",
+    "fr": "Dois-je d'abord prendre un ticket à la caisse ?",
+    "ro": "Trebuie mai întâi bon fiscal la casă?"
+  },
+  "Al banco vs Al tavolo — пити каву біля стійки (al banco) дешевше, ніж за столиком (al tavolo), де додається плата за обслуговування.": {
+    "en": "Al banco vs Al tavolo — coffee at the counter (al banco) is cheaper than at a table (al tavolo), where a service charge applies.",
+    "es": "Al banco vs Al tavolo — al banco es más barato que al tavolo, con suplemento de servicio.",
+    "fr": "Al banco vs Al tavolo — au comptoir (al banco) c'est moins cher qu'à table (al tavolo), avec supplément service.",
+    "ro": "Al banco vs Al tavolo — la bar (al banco) e mai ieftin decât la masă (al tavolo), cu taxă de servire."
+  },
+  "Prima la cassa — у багатьох популярних барах спочатку замовляють і оплачують на касі, а потім віддають чек бариста зі словами 'Un caffè, per favore'.": {
+    "en": "Prima la cassa — in many popular bars you order and pay at the register first, then hand the receipt to the barista saying 'Un caffè, per favore'.",
+    "es": "Prima la cassa — en muchos bares se paga primero en caja y se entrega el ticket al barista con «Un caffè, per favore».",
+    "fr": "Prima la cassa — dans beaucoup de bars populaires on paie d'abord à la caisse, puis on donne le ticket au barista en disant « Un caffè, per favore ».",
+    "ro": "Prima la cassa — în multe baruri populare plătești la casă, apoi dai bonul baristei cu «Un caffè, per favore»."
+  },
+  "Cornetto / Brioche — італійський круасан. На півночі Італії його частіше називають 'brioche', а в центрі та на півдні — 'cornetto'.": {
+    "en": "Cornetto / Brioche — Italian croissant. In northern Italy it's often called 'brioche'; in central and southern Italy — 'cornetto'.",
+    "es": "Cornetto / Brioche — croissant italiano. Al norte «brioche»; en centro y sur «cornetto».",
+    "fr": "Cornetto / Brioche — croissant italien. Au nord souvent « brioche » ; au centre et sud « cornetto ».",
+    "ro": "Cornetto / Brioche — croissant italian. În nord des «brioche»; în centru și sud «cornetto»."
+  },
+  "Різновиди кави та прийменник 'con' / 'senza'": {
+    "en": "Coffee types and the prepositions 'con' / 'senza'",
+    "es": "Tipos de café y preposiciones «con» / «senza»",
+    "fr": "Types de café et prépositions « con » / « senza »",
+    "ro": "Tipuri de cafea și prepozițiile «con» / «senza»"
+  },
+  "Основні види кави: Caffè (еспресо), Macchiato (еспресо з краплею молока), Decaffeinato (без кофеїну), Cappuccino.": {
+    "en": "Main coffee types: Caffè (espresso), Macchiato (espresso with a drop of milk), Decaffeinato (decaf), Cappuccino.",
+    "es": "Tipos principales: Caffè (espresso), Macchiato, Decaffeinato, Cappuccino.",
+    "fr": "Types principaux : Caffè (espresso), Macchiato, Decaffeinato, Cappuccino.",
+    "ro": "Tipuri principale: Caffè (espresso), Macchiato, Decaffeinato, Cappuccino."
+  },
+  "Я хотів би декаф, будь ласка.": {
+    "en": "I'd like a decaf, please.",
+    "es": "Quisiera un descafeinado, por favor.",
+    "fr": "Je voudrais un décaféiné, s'il vous plaît.",
+    "ro": "Aș dori decaf, vă rog."
+  }
+}

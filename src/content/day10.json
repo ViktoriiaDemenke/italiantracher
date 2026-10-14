@@ -17,9 +17,9 @@
   },
   "story": {
     "uk": "Лаура шукає нову квартиру в Падуї/Тревізо. На порталі оголошень вона знайшла привабливий варіант, але щоб зняти житло в Італії, потрібно орієнтуватися у термінах: розрізняти 'monolocale' та 'trilocale', розуміти, що таке 'spese condominiali' (комунальні послуги будинку) та скільки місяців складає 'caparra' (застава).",
-    "en": "Laura is looking for a new apartment in Padua/Treviso. On a listings portal she found an attractive option, but to rent in Italy you need the terms: tell 'monolocale' from 'trilocale', understand 'spese condominiali' (building charges) and how many months the 'caparra' (deposit) is.",
+    "en": "Laura is looking for a new apartment in Padua or Treviso. On a listings portal she found an attractive option, but to rent in Italy you need the vocabulary: tell monolocale from trilocale, understand spese condominiali (building charges) and how many months the caparra (deposit) is.",
     "es": "Laura busca un piso nuevo en Padua/Treviso. En un portal vio una opción atractiva, pero para alquilar en Italia hay que orientarse: distinguir 'monolocale' y 'trilocale', entender 'spese condominiali' (gastos de comunidad) y cuántos meses es la 'caparra' (fianza).",
-    "fr": "Laura cherche un appartement à Padoue/Trévise. Sur un portail elle a trouvé une offre, mais pour louer en Italie il faut les termes : distinguer « monolocale » et « trilocale », comprendre « spese condominiali » (charges de copropriété) et de combien de mois est la « caparra » (caution).",
+    "fr": "Laura cherche un appartement à Padoue / Trévise. Sur un portail, elle a trouvé une offre, mais pour louer en Italie il faut connaître les termes : distinguer « monolocale » et « trilocale », comprendre les « spese condominiali » (charges de copropriété) et de combien de mois est la « caparra » (caution).",
     "ro": "Laura caută un apartament nou în Padova/Treviso. Pe un portal a găsit o ofertă atractivă, dar ca să închiriezi în Italia trebuie să te orientezi: să deosebești «monolocale» de «trilocale», să înțelegi «spese condominiali» (cheltuieli de condominiu) și câte luni are «caparra» (garanția)."
   },
   "phrases": [
@@ -27,14 +27,14 @@
       "italian": "Ho visto il suo annuncio per l'appartamento in affitto.",
       "ukrainian": {
         "uk": "Я побачив(ла) ваше оголошення про оренду квартири.",
-        "en": "I saw your advertisement for the apartment for rent.",
+        "en": "I saw your listing for the apartment for rent.",
         "es": "He visto su anuncio del apartamento en alquiler.",
         "fr": "J'ai vu votre annonce pour l'appartement en location.",
         "ro": "Am văzut anunțul dumneavoastră pentru apartamentul de închiriat."
       },
       "translation": {
         "uk": "Я побачив(ла) ваше оголошення про оренду квартири.",
-        "en": "I saw your advertisement for the apartment for rent.",
+        "en": "I saw your listing for the apartment for rent.",
         "es": "He visto su anuncio del apartamento en alquiler.",
         "fr": "J'ai vu votre annonce pour l'appartement en location.",
         "ro": "Am văzut anunțul dumneavoastră pentru apartamentul de închiriat."
@@ -78,14 +78,14 @@
       "italian": "Quando possiamo fissare un appuntamento per vederlo?",
       "ukrainian": {
         "uk": "Коли ми можемо домовитися про зустріч, щоб оглянути її?",
-        "en": "When can we make an appointment to see it?",
+        "en": "When can we arrange an appointment to see it?",
         "es": "¿Cuándo podemos fijar una cita para verlo?",
         "fr": "Quand pouvons-nous fixer un rendez-vous pour le voir ?",
         "ro": "Când putem stabili o programare ca să-l vedem?"
       },
       "translation": {
         "uk": "Коли ми можемо домовитися про зустріч, щоб оглянути її?",
-        "en": "When can we make an appointment to see it?",
+        "en": "When can we arrange an appointment to see it?",
         "es": "¿Cuándo podemos fijar una cita para verlo?",
         "fr": "Quand pouvons-nous fixer un rendez-vous pour le voir ?",
         "ro": "Când putem stabili o programare ca să-l vedem?"
@@ -104,7 +104,7 @@
       "uk": "Spese condominiali — платежі за прибирання під'їзду, ліфт, освітлення та догляд за подвір'ям. Вони частіше виставляються окремо від оренди.",
       "en": "Spese condominiali — charges for cleaning the stairwell, lift, lighting and courtyard upkeep. They are more often billed separately from the rent.",
       "es": "Spese condominiali — pagos por limpieza del portal, ascensor, luz y cuidado del patio. Suelen facturarse aparte del alquiler.",
-      "fr": "Spese condominiali — charges pour le ménage de l’escalier, l’ascenseur, l’éclairage et l’entretien de la cour. Elles sont plus souvent facturées à part du loyer.",
+      "fr": "Spese condominiali : charges pour le ménage de l’escalier, l’ascenseur, l’éclairage et l’entretien de la cour. Elles sont le plus souvent facturées en plus du loyer.",
       "ro": "Spese condominiali — plăți pentru curățenia scării, lift, iluminat și îngrijirea curții. De cele mai multe ori se facturează separat de chirie."
     },
     {
@@ -162,16 +162,16 @@
             "ukrainian": {
               "uk": "Витрати кондомініуму не входять.",
               "en": "The spese condominiali are excluded.",
-              "es": "Las spese condominiali están excluidas.",
-              "fr": "Les spese condominiali sont exclues.",
-              "ro": "Spese condominiali sunt excluse."
+              "es": "Las spese condominiali no están incluidas.",
+              "fr": "Les spese condominiali ne sont pas incluses.",
+              "ro": "Spese condominiali nu sunt incluse."
             },
             "translation": {
               "uk": "Витрати кондомініуму не входять.",
               "en": "The spese condominiali are excluded.",
-              "es": "Las spese condominiali están excluidas.",
-              "fr": "Les spese condominiali sont exclues.",
-              "ro": "Spese condominiali sunt excluse."
+              "es": "Las spese condominiali no están incluidas.",
+              "fr": "Les spese condominiali ne sont pas incluses.",
+              "ro": "Spese condominiali nu sunt incluse."
             }
           }
         ]

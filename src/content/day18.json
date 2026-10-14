@@ -11,15 +11,15 @@
   "type": {
     "uk": "Симуляція бос-рівня",
     "en": "Boss Level Simulation",
-    "es": "Simulación de nivel jefe",
-    "fr": "Simulation Boss Level",
-    "ro": "Simulare nivel boss"
+    "es": "Simulación del nivel Boss",
+    "fr": "Simulation du niveau Boss",
+    "ro": "Simulare a nivelului Boss"
   },
   "story": {
     "uk": "Фінальний іспит модуля! Ви самостійно приходите на прийом у Patronato/CAF, подаєте документи для ISEE та виплат на дитину. Підказки та переклад вимкнено!",
-    "en": "Final exam of the module! You go to an appointment at the Patronato/CAF on your own and submit documents for ISEE and child benefits. Hints and translation are off!",
-    "es": "¡Examen final del módulo! Acudes por tu cuenta a una cita en el Patronato/CAF y entregas documentos para el ISEE y las prestaciones por hijo. ¡Pistas y traducción desactivadas!",
-    "fr": "Examen final du module ! Vous vous présentez seul au rendez-vous Patronato/CAF et déposez les documents pour l’ISEE et les allocations enfant. Indices et traduction désactivés !",
+    "en": "Final exam of the module! You go to an appointment at the Patronato/CAF on your own and submit documents for ISEE and child benefits. Hints and translations are off!",
+    "es": "¡Examen final del módulo! Acudes por tu cuenta a una cita en el Patronato/CAF y entregas documentos para el ISEE y las prestaciones por hijo. ¡Las pistas y la traducción están desactivadas!",
+    "fr": "Examen final du module ! Vous vous présentez seul au rendez-vous Patronato/CAF et déposez les documents pour l’ISEE et les allocations enfant. Les indices et la traduction sont désactivés !",
     "ro": "Examenul final al modulului! Mergi singur la programare la Patronato/CAF și depui documente pentru ISEE și alocațiile pentru copil. Indiciile și traducerea sunt dezactivate!"
   },
   "questions": [
@@ -41,9 +41,9 @@
       "explanation": {
         "uk": "ISEE — показник майнового стану для розрахунку соціальних пільг.",
         "en": "ISEE is a means-test indicator used to calculate social benefits.",
-        "es": "El ISEE es un indicador de situación patrimonial para calcular las ayudas sociales.",
-        "fr": "L’ISEE est un indicateur de situation patrimoniale pour calculer les aides sociales.",
-        "ro": "ISEE este un indicator al situației patrimoniale pentru calculul ajutoarelor sociale."
+        "es": "El ISEE es un indicador de situación económica y patrimonial para calcular las ayudas sociales.",
+        "fr": "L’ISEE est un indicateur de situation économique et patrimoniale pour calculer les aides sociales.",
+        "ro": "ISEE este un indicator al situației economice și patrimoniale pentru calculul ajutoarelor sociale."
       }
     },
     {
@@ -52,7 +52,7 @@
         "uk": "Як називається щомісячна державна допомога на дитину в Італії?",
         "en": "What is the monthly state child benefit in Italy called?",
         "es": "¿Cómo se llama la prestación estatal mensual por hijo en Italia?",
-        "fr": "Comment s’appelle l’allocation étatique mensuelle pour enfant en Italie ?",
+        "fr": "Comment s’appelle l’allocation mensuelle de l’État pour un enfant en Italie ?",
         "ro": "Cum se numește alocația de stat lunară pentru copil în Italia?"
       },
       "options": [

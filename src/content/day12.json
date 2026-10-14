@@ -11,15 +11,15 @@
   "type": {
     "uk": "Симуляція бос-рівня",
     "en": "Boss Level Simulation",
-    "es": "Simulación de nivel jefe",
-    "fr": "Simulation Boss Level",
-    "ro": "Simulare nivel boss"
+    "es": "Simulación del nivel Boss",
+    "fr": "Simulation du niveau Boss",
+    "ro": "Simulare a nivelului Boss"
   },
   "story": {
     "uk": "Фінальний іспит модуля! Ви самостійно телефонуєте орендодавцю, дізнаєтеся деталі про плату за кондомініум, заставу та домовляєтеся про перегляд квартири. Підказки та переклад вимкнено!",
-    "en": "Final exam of the module! You call the landlord yourself, learn about condominium charges and the deposit, and arrange a viewing. Hints and translation are off!",
-    "es": "¡Examen final del módulo! Llamas tú al casero, te informas de comunidad y fianza y conciertas una visita. ¡Pistas y traducción desactivadas!",
-    "fr": "Examen final du module ! Vous appelez le propriétaire, vous renseignez sur les charges et la caution et convenez d’une visite. Indices et traduction désactivés !",
+    "en": "Final exam of the module! You call the landlord yourself, learn about condominium charges and the deposit, and arrange a viewing. Hints and translations are off!",
+    "es": "¡Examen final del módulo! Llamas tú al casero, te informas de comunidad y fianza y conciertas una visita. ¡Las pistas y la traducción están desactivadas!",
+    "fr": "Examen final du module ! Vous appelez le propriétaire, vous renseignez sur les charges et la caution et convenez d’une visite. Les indices et la traduction sont désactivés !",
     "ro": "Examenul final al modulului! Sunați singuri proprietarul, aflați despre cheltuielile de condominiu și garanție și conveniți o vizionare. Indiciile și traducerea sunt dezactivate!"
   },
   "questions": [
@@ -28,9 +28,9 @@
       "question": {
         "uk": "Як запитати синьйора Маріо, чи квартира з оголошення ще вільна?",
         "en": "How do you ask Signor Mario if the apartment in the listing is still free?",
-        "es": "¿Cómo preguntar a Signor Mario si el piso del anuncio sigue libre?",
-        "fr": "Comment demander à Signor Mario si l’appartement de l’annonce est encore libre ?",
-        "ro": "Cum îl întrebi pe Signor Mario dacă apartamentul din anunț e încă liber?"
+        "es": "¿Cómo preguntar al signor Mario si el piso del anuncio sigue libre?",
+        "fr": "Comment demander au signor Mario si l’appartement de l’annonce est encore libre ?",
+        "ro": "Cum îl întrebi pe signor Mario dacă apartamentul din anunț e încă liber?"
       },
       "options": [
         "L'appartamento è ancora disponibile?",
@@ -42,7 +42,7 @@
         "uk": "'È ancora disponibile?' = 'Це ще доступно / вільно?'",
         "en": "'È ancora disponibile?' = 'Is it still available / free?'",
         "es": "'È ancora disponibile?' = '¿Sigue disponible / libre?'",
-        "fr": "« È ancora disponibile? » = « C’est encore disponible / libre ? »",
+        "fr": "« È ancora disponibile? » = « Est-ce encore disponible / libre ? »",
         "ro": "«È ancora disponibile?» = «E încă disponibil / liber?»"
       }
     },
@@ -96,9 +96,9 @@
       "id": "p4",
       "question": {
         "uk": "Як сказати орендодавцю 'Коли ми можемо домовитися про зустріч, щоб подивитися квартиру?'",
-        "en": "How do you tell the landlord 'When can we arrange a meeting to see the apartment?'",
+        "en": "How do you tell the landlord, “When can we arrange a viewing of the apartment?”",
         "es": "¿Cómo decir al casero '¿Cuándo podemos concertar una visita para ver el piso?'",
-        "fr": "Comment dire au propriétaire « Quand pouvons-nous convenir d’une visite pour voir l’appartement ? »",
+        "fr": "Comment dire au propriétaire : « Quand pouvons-nous convenir d’une visite pour voir l’appartement ? »",
         "ro": "Cum spui proprietarului «Când putem conveni o întâlnire să vedem apartamentul?»"
       },
       "options": [
@@ -132,7 +132,7 @@
       "correctAnswer": 0,
       "explanation": {
         "uk": "'Bilocale' = двокімнатне житло.",
-        "en": "'Bilocale' = a two-room dwelling.",
+        "en": "'Bilocale' = a two-room apartment.",
         "es": "'Bilocale' = vivienda de dos estancias.",
         "fr": "« Bilocale » = logement de deux pièces.",
         "ro": "«Bilocale» = locuință cu două camere."

@@ -1,0 +1,655 @@
+1	Anagrafe: Registro y documentos
+2	Marco se ha mudado hace poco a Treviso. Esta mañana va al Comune, al Ufficio Anagrafe, para presentar la dichiarazione di residenza. Junto a la entrada hay un totem: hay que elegir la categoría correcta, coger un biglietto y esperar el número en el tabellone. En la carpeta lleva codice fiscale, permesso di soggiorno, contratto d'affitto y marca da bollo da 16€.
+3	Código fiscal. Sin él, la solicitud de residenza suele no cerrarse.
+4	Permiso de residencia en original, no solo una foto en el teléfono.
+5	Contrato de alquiler con la dirección en Treviso que Marco quiere declarar.
+6	Sello de 16 euros para la solicitud. A menudo se compra en una tabaccheria antes de la visita.
+7	Buenos días, quisiera presentar la solicitud de residencia.
+8	¿Dónde puedo coger el ticket?
+9	¿Debo seleccionar Anagrafe en el totem?
+10	¿Cuál es la categoría para la dichiarazione di residenza?
+11	Tengo el codice fiscale y el permesso di soggiorno.
+12	Aquí está el contrato de alquiler.
+13	¿Hace falta también la marca da bollo de dieciséis euros?
+14	Mi número ha salido en el tablero.
+15	Buenos días, gracias. ¿Debo seleccionar Anagrafe para la residencia?
+16	Hola, dame el número, tengo prisa.
+17	Le ruego que tenga a bien indicarme el procedimiento telemático de emisión del título de cola.
+18	Buenos días. Para el Anagrafe el ticket se coge en el totem, allí a la izquierda.
+19	Tengo la intención de acogerme a la opción relativa a la anagrafe demografica municipal.
+20	Elijo la opción Anagrafe / residenza. Luego espero el número en el tablero.
+21	Cojo carta d'identità, total es la misma oficina.
+22	Seleccionar: 1 Carta d'identità  2 Anagrafe / residenza  3 Stato civile  4 Pagamenti
+23	Voy igual al sportello, total no hay nadie.
+24	Acataré escrupulosamente las disposiciones relativas al orden de llamada.
+25	Sí, tengo el ticket. Espero aquí a que salga mi número, gracias.
+26	¿Ha cogido el ticket? Espere su número. No se ponga en fila en el sportello sin número.
+27	Voy al sportello 1, está más cerca.
+28	Es mi número. Voy al sportello 4 con los documentos en orden.
+29	Constatado el aviso electrónico, me dirijo de inmediato al mostrador indicado.
+30	Es el número 37, sportello 4.
+31	En el Comune di Treviso, como en la mayoría de los comuni, la cola va por el totem. Para la dichiarazione di residenza elige la categoría Anagrafe, no Carta d'identità. Habla de Lei, saluda con Buongiorno. Ten los documentos listos: codice fiscale, permesso, contratto d'affitto, marca da bollo 16€.
+32	Anagrafe: Sportello
+33	Sale el número de Marco. Se acerca al sportello 4. Detrás de la ventanilla hay un impiegato. Ya no es el totem, sino una conversación real: motivo de la visita, documentos, el formulario que falta, y un Lei tranquilo hasta arrivederci.
+34	Buenos días, quisiera presentar la dichiarazione di residenza.
+35	Aquí están el pasaporte, el codice fiscale y el permesso.
+36	No he rellenado el formulario. ¿Me lo da usted, por favor?
+37	Vivo en via Roma doce, con mi mujer y mi hija.
+38	¿Puedo tener el recibo, por favor?
+39	En el sportello, una respuesta por pregunta. Si falta un modulo, dilo con calma y pide el formulario. No te justifiques largo. Deletrea el nombre como en el pasaporte o muestra el documento. Mantén Lei hasta Grazie, arrivederci.
+40	Buenos días, quisiera presentar la dichiarazione di residenza. Me he mudado a Treviso hace poco.
+41	Desearía someter a la atención de la oficina la instancia de iscrizione anagrafica.
+42	Hola, hazme la residencia ahora.
+43	Buenos días, dígame.
+44	He cumplido el procedimiento de reserva mediante el totem electrónico.
+45	No tengo número, pero la cola es larga y yo trabajo.
+46	He cogido el ticket en el totem, categoría Anagrafe. Este es mi número.
+47	De acuerdo. ¿Tiene ya cita o ha venido con el número del totem?
+48	Sí, aquí están el pasaporte, el codice fiscale, el permesso y el contrato de alquiler. Los pongo aquí.
+49	Mire en el teléfono, tengo las fotos. Los originales están en casa.
+50	Le entrego a continuación toda la documentación identificativa y contractual en original.
+51	Los documentos, por favor: el pasaporte, el codice fiscale, el permesso di soggiorno y el contrato de alquiler.
+52	Lamentablemente no he procedido a la previa cumplimentación del formulario descargado del portal institucional.
+53	No, no lo he rellenado. ¿Me lo da usted ahora, por favor? Lo relleno aquí.
+54	No es un problema mío, lo tiene que hacer usted.
+55	El contrato está. Pero no veo el formulario de la dichiarazione ya rellenado. ¿Lo ha impreso del sitio del Comune?
+56	Fírmelo usted, total da igual.
+57	Le ruego que me ilustre análogamente cada campo del formulario.
+58	Sí, gracias. ¿Qué línea es para la dirección y para los familiares, disculpe?
+59	Le doy el formulario. Nombre, apellidos, fecha y lugar de nacimiento, dirección, componentes del núcleo. ¿Tiene un bolígrafo?
+60	Sí, vivo solo. Los demás no hacen falta.
+61	No, vivo con mi mujer y mi hija. Tengo también sus documentos, si quiere verlos.
+62	Mi nucleo familiare resulta compuesto por cónyuge e hija convivientes en el mismo domicilio.
+63	¿Vive solo o con otros familiares? Hacen falta los documentos de todos.
+64	Sí, la tengo. La compré en la tabaccheria esta mañana. Aquí.
+65	He procedido a la compra del contrassegno telematico de la imposta di bollo prevista.
+66	Pago después, cuando me den la residencia.
+67	Falta todavía la marca da bollo de 16 euros. ¿La tiene?
+68	Apondré mi firma en el espacio destinado y quedaré a disposición para eventuales rectificaciones.
+69	No firmo si primero no me dan la tarjeta.
+70	Firmo aquí. Si una letra del apellido no está clara, la digo letra por letra, si quiere.
+71	Bien. Al final está la firma. Luego me lo trae. Compruebo los datos con el pasaporte.
+72	Claro, espero. No hay prisa. Gracias.
+73	Rápido, tengo un autobús. Hágame a mí primero.
+74	Esperaré pacientemente la finalización de la inserción informática de los datos.
+75	Un momento, que cargo todo. El sistema es lento. Quédese aquí, por favor. Luego le explico los controles de la Polizia Locale.
+76	Le agradezco sinceramente la diligente tramitación del procedimiento administrativo.
+77	No, está todo claro. Gracias, ha sido amable. Hasta luego.
+78	Entonces ¿por qué no me dan ahora mismo la carta d'identità?
+79	Hecho. Quédese con el recibo. En los días siguientes pueden llegar los vigili para verificar que vive realmente allí. ¿Otras preguntas?
+80	Anagrafe: Boss Level
+81	¡Residenza obtenida con éxito!
+82	Comune de Treviso, esta mañana. Del totem al recibo. Sin traducciones ni explicaciones.
+83	
+84	Buenos días, gracias. Voy al totem.
+85	Selecciono la opción Anagrafe / residenza.
+86	De acuerdo, espero aquí con el ticket.
+87	Es mi número. Voy al sportello 4.
+88	Ay, mil disculpas. Voy al sportello 4, gracias.
+89	Buenos días. Sí, número 37. Quisiera presentar la dichiarazione di residenza.
+90	Aquí, todos en original: el pasaporte, el codice fiscale, el permesso y el contrato.
+91	Relleno el formulario aquí. La marca da bollo la tengo, aquí.
+92	Vivo en via Roma doce, interno tres, segundo piso. Vivo con mi mujer y mi hija.
+93	Firmo aquí. Espero, gracias.
+94	De acuerdo, espero. Gracias por la información.
+95	Gracias, la pongo en la carpeta. Hasta luego, que tenga un buen día.
+96	¿Dónde está el sportello? No tengo tiempo para los números.
+97	Le agradezco la indicación relativa al aparato de emisión de tickets.
+98	Buenos días. Para el Anagrafe el totem está a la izquierda. Luego espere el número.
+99	Opto por la opción relativa a la iscrizione anagrafica.
+100	La carta d'identità es más rápida.
+101	1 Carta d'identità  2 Anagrafe / residenza  3 Stato civile  4 Pagamenti
+102	Pregunto en el sportello si puedo pasar, total hay sitio.
+103	Me conformaré al orden de llamada electrónica.
+104	Siéntese. El número sale en el tablero. No se acerque al sportello antes.
+105	Voy al sportello 2, hay menos gente.
+106	Me dirijo al mostrador correspondiente al aviso luminoso.
+107	Pido disculpas por el equívoco y me dirijo hacia el sportello indicado.
+108	Es el mismo Comune, puede hacerlo usted.
+109	Este sportello es para la carta d'identità. La residencia es en el sportello 4.
+110	Buenos días. Le presento el título de cola y la instancia de residencia.
+111	Hola. Quiero la residencia, y rápido.
+112	Buenos días, dígame. ¿Tiene el número?
+113	Las fotos están en el teléfono. Los originales los traigo después.
+114	Le deposito toda la documentación en original como se requiere.
+115	Necesito los documentos: el pasaporte, el codice fiscale, el permesso y el contrato de alquiler.
+116	Procedo de inmediato a la cumplimentación y a la entrega del contrassegno di bollo.
+117	Hágalo usted. Yo firmo después, si me conviene.
+118	El formulario de la dichiarazione no está. Lo rellena ahora. ¿Y la marca da bollo de 16 euros?
+119	Es una calle del centro. Los detalles no los recuerdo.
+120	La vivienda está sita en via Roma 12, interno 3, segundo piso, con nucleo familiare conviviente.
+121	¿Cuál es el nucleo familiare? Dígame la dirección completa, el interno y el piso.
+122	Vuelvo en una hora, llámeme al móvil.
+123	Apongo la firma y espero la carga del sistema.
+124	Firme al final. Luego quédese un momento: cargo los datos.
+125	Tomo nota de la posible verificación de la Polizia Locale en el domicilio.
+126	¿Los vigili en casa? Entonces no firmo nada.
+127	El sistema está lento hoy. Quédese aquí. Luego puede llegar el control de los vigili a casa, en los días siguientes.
+128	Le agradezco la emisión del recibo y le deseo una buena prosecución.
+129	Esta tarjeta es la residencia definitiva, ¿verdad? Entonces dame también la identidad.
+130	Hecho. Aquí está el recibo. Guárdelo. Que tenga un buen día.
+131	ASL y Tessera Sanitaria: Registro en el sistema sanitario
+132	Inmersión y vocabulario
+133	Laura se ha mudado hace poco a Padua. Tras tramitar la residenza en el Anagrafe da el siguiente paso importante: va a la ASL (Azienda Sanitaria Locale) para inscribirse en el SSN (Servizio Sanitario Nazionale), obtener la Tessera Sanitaria y elegir un médico de familia (Medico di base). Lleva: passaporto, permesso di soggiorno, codice fiscale y dichiarazione di residenza.
+134	Debo inscribirme en el Servizio Sanitario Nazionale.
+135	Debo elegir un medico di base.
+136	Está cerca de mi casa.
+137	¿Dónde debo ir en caso de emergencia?
+138	Pasaporte / documento de identidad
+139	Permiso de residencia
+140	Código fiscal
+141	Declaración de residencia
+142	Terminología médica y derecho a la asistencia
+143	Uso de la expresión 'Avere diritto a...' (Ha diritto all'iscrizione).
+144	Tiene derecho a la inscripción gratuita.
+145	Tengo derecho al medico di base.
+146	Indicar la distancia: 'vicino a...' (cerca de...).
+147	El médico está cerca de mi casa.
+148	La oficina está cerca del Comune.
+149	La inscripción en el SSN con permiso de residencia (Permesso di soggiorno) es totalmente gratuita. Al dirigirte al personal de la ASL, usa siempre la forma de cortesía 'Lei' y saluda con 'Buongiorno'.
+150	Visita a la ASL: Tramitar la tarjeta y elegir médico
+151	Diálogo interactivo
+152	Laura entra en la oficina de la ASL y se acerca a la ventanilla (sportello). La empleada comprueba sus documentos y confirma el derecho a la inscripción gratuita en el SSN.
+153	Buenos días, disculpe. Debo inscribirme en el Servizio Sanitario Nazionale. ¿Es este el sportello correcto?
+154	Aquí están el pasaporte, el permesso di soggiorno, el codice fiscale y la dichiarazione di residenza.
+155	No, todavía no. ¿Cómo puedo elegirlo? ¿Puedo ver la lista de médicos disponibles?
+156	Sí, me parece cómodo. Está cerca de mi casa, elijo este.
+157	¡Gracias! ¿Y si tengo un problema urgente por la noche o el fin de semana?
+158	¡Muchas gracias por la explicación! Que tenga un buen día.
+159	Disculpe, estoy aquí para la renovación del pasaporte. ¿Dónde hago cola?
+160	Hola, quiero la tessera sanitaria ahora mismo.
+161	Buenos días. Dígame, ¿en qué puedo ayudarle?
+162	Solo tengo la carta d'identità.
+163	Los documentos están en casa, los mando después por email.
+164	Sí, buenos días. Muéstreme los documentos, por favor.
+165	Sí, ya tengo el medico di base en Ucrania. ¿Vale igual?
+166	Sí, ya tengo el recibo del Anagrafe.
+167	Perfecto. Con su permesso di soggiorno tiene derecho a la inscripción gratuita. ¿Tiene ya un medico di base?
+168	Deme el primero de la lista, no importa quién sea.
+169	No, prefiero un médico en otra ciudad, lejos de casa.
+170	Le muestro una lista de médicos disponibles en su zona. Este médico está cerca de su casa y tiene plaza.
+171	Debo pagar doscientos euros por la tarjeta, ¿verdad?
+172	La tarjeta definitiva llega hoy, la espero aquí tres horas.
+173	Perfecto, lo registro ahora mismo. Aquí tiene su tessera sanitaria provisional.
+174	Entonces voy siempre al pronto soccorso incluso por un resfriado.
+175	La guardia medica es solo para turistas, ¿verdad?
+176	Para las urgencias nocturnas y festivas está la guardia medica. Para las emergencias graves está el pronto soccorso, abierto las 24 horas.
+177	Recuerda la diferencia: Guardia Medica trabaja de noche y los fines de semana para urgencias cotidianas. Pronto Soccorso es urgencias 24/7 para situaciones graves y de riesgo.
+178	Boss Level 🏆: Simulación de inscripción en la ASL
+179	Simulación de nivel jefe
+180	¡Examen final del módulo! Laura recorre todo el camino en Padua sola: de la comprobación de documentos a elegir médico y distinguir Guardia Medica y Pronto Soccorso. ¡Pistas y traducción desactivadas!
+181	¿Cómo decirle al empleado de la ASL que necesitas inscribirte en el sistema sanitario?
+182	'Devo iscrivermi...' = 'Necesito inscribirme...'
+183	¿Qué frase usarías para pedir elegir un médico de familia?
+184	'Medico di base' es el médico de familia.
+185	¿Cómo preguntar si el médico está cerca de tu vivienda?
+186	'È vicino a casa mia?' = '¿Está cerca de mi casa?'
+187	¿Adónde acudir ante una amenaza grave y continua para la salud?
+188	'Pronto Soccorso' — servicio de urgencias (24/7).
+189	¿Qué responderá el empleado sobre el coste de inscripción con Permesso di Soggiorno?
+190	La inscripción en el SSN con permiso de residencia es gratuita.
+191	¿A quién hay que dirigirse para urgencias médicas por la noche o en festivos?
+192	'Guardia Medica' — servicio de guardia nocturno y festivo.
+193	Miembro del SSN 🏥
+194	¡Enhorabuena! Has superado la simulación, obtenido la Tessera Sanitaria y elegido un médico de familia en Italia.
+195	Restaurante y trattoria: Reserva y cultura de la mesa
+196	Marco y Laura deciden almorzar en una trattoria familiar de Treviso. En Italia la cultura de la mesa importa: hay que saber reservar mesa, pedir agua, entender el 'coperto' en la cuenta y pedir café después del almuerzo.
+197	Quisiera reservar una mesa para dos personas para esta noche.
+198	¿Tienen una mesa libre para dos?
+199	Quisiera una botella de agua natural o con gas, por favor.
+200	¿Podemos tener el menú, por favor?
+201	Coperto es un cargo por pan y cubierto (suele ser 1,50€–3,00€ por persona, indicado en la carta).
+202	El Cappuccino en Italia se bebe solo hasta las 11:00. Después del almuerzo se pide Caffè espresso o Macchiato.
+203	El agua siempre se sirve en botella: hay que precisar 'naturale' (sin gas) o 'frizzante' (con gas).
+204	Peticiones corteses con 'Vorrei' y 'Possiamo'
+205	Usar 'Vorrei + infinitivo' en lugar de 'Voglio' (Me gustaría...).
+206	Quisiera pedir.
+207	Quisiera una mesa al aire libre.
+208	La pregunta 'Possiamo + infinitivo' (¿Podemos...?).
+209	¿Podemos sentarnos aquí?
+210	¿Podemos tener la cuenta?
+211	En los restaurantes italianos el almuerzo (pranzo) suele ser de 12:30 a 14:30, y la cena (cena) no empieza antes de las 19:30 o las 20:00.
+212	Diálogo en vivo: Pedir platos y pagar
+213	Marco y Laura entran en la trattoria. El camarero (Cameriere) los recibe en la entrada y los lleva a la mesa.
+214	Ya hemos comido, solo queremos usar el baño.
+215	Hola, quiero comer ahora mismo.
+216	¡Buenos días! Tenemos una reserva a nombre de Marco para dos personas.
+217	¡Buenos días! ¿Habéis reservado o buscáis una mesa?
+218	Quisiera dos Coca-Cola grandes con hielo y limón, como en el fast food.
+219	Una botella de agua natural y dos copas de vino de la casa, gracias.
+220	Dame agua y ya está.
+221	Perfecto, pasad. Aquí está el menú. ¿De beber qué os traigo para empezar?
+222	¡Sí! De primero tomamos dos tagliatelle al ragù, y de segundo una tagliata di manzo para compartir.
+223	Quisiera un cappuccino y una pizza al ragù.
+224	Traiga todo junto, no importa el orden de los platos.
+225	¿Estáis listos para pedir los platos?
+226	Quisiera dos cappuccini grandes, gracias.
+227	Quisiera un té con leche y una cerveza grande, después de la pasta.
+228	Quisiera un tiramisù y dos caffè espresso, por favor.
+229	¡Excelente elección! ¿Deseáis un postre o un café al final?
+230	No, gracias. Cuando sea posible, ¿podemos tener la cuenta?
+231	Podemos salir sin pagar, volvemos mañana.
+232	Sí, quisiera otro primero. La cuenta tráigala usted solo, sin preguntar.
+233	Perfecto, llegan ahora mismo. ¿Hace falta algo más?
+234	Pagamos con billetes de doscientos, sin propina y sin ticket.
+235	Pagamos con tarjeta, juntos. ¡Muchísimas gracias, todo buenísimo!
+236	Dividimos la cuenta en diez partes iguales, también para quien no ha comido.
+237	¡Por supuesto! ¿Pagáis juntos o separados? Aceptamos también la tarjeta.
+238	En Italia no traen la cuenta en cuanto terminas de comer: se considera precipitar al cliente. Tienes que decir al camarero: 'Il conto, per favore'.
+239	Boss Level 🏆: Simulación de un almuerzo en un restaurante italiano
+240	¡Examen final del módulo! Pides el almuerzo en una trattoria tú solo, hablas con el camarero, eliges las bebidas correctas y pagas. ¡Pistas y traducción desactivadas!
+241	¿Cómo pedir cortésmente reservar una mesa para la noche?
+242	'Vorrei prenotare...' = 'Me gustaría reservar...'
+243	¿Qué significa la partida 'Coperto' en el restaurante?
+244	'Coperto' es un cargo fijo por cubierto, pan y servicio de mesa.
+245	¿Qué café se suele pedir en Italia justo después del almuerzo?
+246	Después de comer los italianos beben espresso para ayudar a la digestión.
+247	¿Cómo pedir correctamente la cuenta al camarero?
+248	'Il conto, per favore' = 'La cuenta, por favor'.
+249	¿Cómo precisar al camarero que quieres agua sin gas?
+250	'Acqua naturale' = agua sin gas.
+251	Maestro del restaurante 🍝
+252	¡Enhorabuena! Has asimilado el etiquette de los restaurantes italianos, pides con facilidad y te orientas en la cuenta.
+253	Buscamos piso: Anuncios, fianza y condominio
+254	Laura busca un piso nuevo en Padua/Treviso. En un portal vio una opción atractiva, pero para alquilar en Italia hay que orientarse: distinguir 'monolocale' y 'trilocale', entender 'spese condominiali' (gastos de comunidad) y cuántos meses es la 'caparra' (fianza).
+255	He visto su anuncio del apartamento en alquiler.
+256	¿Sigue disponible el apartamento?
+257	¿Las spese condominiali están incluidas en el precio?
+258	¿Cuándo podemos fijar una cita para verlo?
+259	Monolocale — piso de 1 estancia (estudio). Bilocale — 2 estancias (dormitorio + salón con cocina). Trilocale — 3 estancias.
+260	Spese condominiali — pagos por limpieza del portal, ascensor, luz y cuidado del patio. Suelen facturarse aparte del alquiler.
+261	Caparra / Deposito cauzionale — fianza de garantía, suele ser de 2 a 3 meses de alquiler y se devuelve al salir.
+262	Contratto 4+4 o 3+2 — los tipos más habituales de contratos de alquiler de larga duración en Italia.
+263	Aclarar condiciones con 'Sono inclusi/e...?' y 'Vorrei fissare...'
+264	Pregunta sobre servicios incluidos: 'Sono inclusi/e...?' (¿Están incluidos...?).
+265	¿Los consumos de agua y gas están incluidos?
+266	Las spese condominiali están excluidas.
+267	Acordar hora: 'Fissare un appuntamento' (Fijar una cita).
+268	Quisiera fijar una visita.
+269	¿Puedo venir a ver la casa mañana?
+270	En Italia los caseros casi siempre piden 'busta paga' (nómina/justificante de ingresos) o un fiador antes de firmar, para comprobar tu solvencia.
+271	Diálogo en vivo: Llamada al casero y acuerdo de condiciones
+272	Laura llama al dueño del piso — Signor Mario — para preguntar detalles del anuncio y concertar una visita.
+273	Buenos días Signor Mario, soy Laura. Llamo por el anuncio del apartamento en alquiler. ¿Sigue disponible?
+274	Hola Mario, quiero tu casa. ¿Cuánto cuesta?
+275	Diga, soy una agencia. Envíe las llaves por mensajería hoy.
+276	¡Diga! ¿Quién habla?
+277	Bien, vengo a dormir esta noche.
+278	Vale, pero quiero un contrato solo de una semana, en negro.
+279	¡Perfecto! ¿Me dice el precio mensual? ¿Las spese condominiali están incluidas en el precio?
+280	Sí, buenos días Laura. El apartamento sigue libre. Es un bilocale amueblado en el segundo piso con ascensor.
+281	Entendido. Y respecto a las utenze de luz y gas, ¿hay que hacer la voltura a mi nombre?
+282	Las facturas de suministros quedan a su nombre para siempre, yo no firmo nada.
+283	No quiero pagar los gastos de comunidad.
+284	El alquiler es de 650 euros al mes. Las spese condominiali son 80 euros aparte e incluyen el agua y la limpieza de las escaleras.
+285	La caparra es gratis, ¿verdad?
+286	De acuerdo, está claro. ¿Cuándo podemos concertar una cita para ver el piso?
+287	Pago la caparra a los tres meses, si me gusta la casa.
+288	Sí, los suministros hay que ponerlos a su nombre. Pedimos también tres mensualidades de caparra confirmatoria.
+289	Mañana a las 17:00 es demasiado pronto. Vengo a medianoche.
+290	No, vengo sin avisar esta noche tarde, toque el portero automático.
+291	¡Sí, perfecto! Mañana a las 17:00. ¿Puede enviarme la dirección exacta por mensaje?
+292	Podemos vernos mañana por la tarde hacia las 17:00 delante del portal. ¿Le va bien?
+293	Si llueve, no vengo. Le llamo dentro de un mes.
+294	Muchas gracias, señor Mario, ¡hasta mañana! Que tenga un buen día.
+295	Vale, pero mande también las llaves en foto por WhatsApp, con eso basta.
+296	Por supuesto, le envío ahora un SMS con la dirección. ¡Hasta mañana entonces!
+297	'Voltura' es el traspaso de contratos de luz/gas a tu nombre, y 'Subentro' es una nueva alta si los contadores estaban precintados.
+298	Boss Level 🏆: Simulación de búsqueda y alquiler de piso
+299	¡Examen final del módulo! Llamas tú al casero, te informas de comunidad y fianza y conciertas una visita. ¡Pistas y traducción desactivadas!
+300	¿Cómo preguntar a Signor Mario si el piso del anuncio sigue libre?
+301	'È ancora disponibile?' = '¿Sigue disponible / libre?'
+302	¿Qué significan las 'Spese condominiali' al alquilar?
+303	'Spese condominiali' — gastos de mantenimiento del edificio y el portal.
+304	¿Qué es una 'Caparra' (o 'Deposito cauzionale')?
+305	La fianza (caparra) suele equivaler a 2–3 meses de alquiler.
+306	¿Cómo decir al casero '¿Cuándo podemos concertar una visita para ver el piso?'
+307	'Fissare un appuntamento' = fijar una cita/visita.
+308	¿Qué significa 'Bilocale' en anuncios inmobiliarios?
+309	'Bilocale' = vivienda de dos estancias.
+310	Experto en vivienda 🔑
+311	¡Enhorabuena! Te orientas en los términos de alquiler en Italia, entiendes los gastos de comunidad y sabes concertar una visita.
+312	En correos: Cola, recibos y envíos
+313	Marco y Laura llegan a una oficina de Poste Italiane. En Italia correos no es solo paquetes: también se pagan recibos, se recogen cartas oficiales y hay servicios financieros. En la entrada hay que coger un ticket en el terminal según el tema.
+314	Tengo que enviar este paquete / esta carta a Ucrania.
+315	Tengo que pagar este bollettino postale.
+316	He recibido un aviso de llegada de una carta certificada.
+317	¿Qué botón debo pulsar para coger el ticket?
+318	Ticket al totem — en la entrada eliges en el terminal: 'Spedizioni e Pacchi' (envíos), 'Pagamenti' (recibos/pagos) o 'Ritiro' (recogida).
+319	Raccomandata — carta certificada que se entrega con firma. Si no estás, el cartero deja una tarjeta amarilla 'Avviso di giacenza'.
+320	Bollettino — recibo en impreso o código de barras para pagar servicios, multas y tasas.
+321	El verbo 'Spedire' (enviar) y 'Pagare' (pagar)
+322	Conjugación de 'Spedire' (grupo ISC): Io spedisco, Tu spedisci, Lui/Lei spedisce.
+323	Envío un paquete a mi madre.
+324	¿Quiere enviarlo por correo prioritario?
+325	Expresiones con 'Prendere / Ritirare': 'Ritirare un pacco' (Recoger un paquete).
+326	Tengo que recoger una carta certificada.
+327	¿Dónde puedo recoger el paquete?
+328	Para recoger un paquete o una carta certificada en correos hay que llevar pasaporte o Carta d'identità y el Codice Fiscale.
+329	Diálogo en vivo: Pagar un recibo y enviar un paquete
+330	Laura coge un ticket y se acerca a la ventanilla (sportello) cuando su número aparece en el tablero.
+331	¡Buenos días! Tengo que enviar este paquete a Ucrania y pagar un bollettino.
+332	Tengo que cobrar la pensión y cambiar el ISEE, por favor.
+333	Hola, quiero comprar una pizza.
+334	¡Buenos días! ¡Número P045! Dígame, ¿en qué puedo ayudarle?
+335	No quiero pesar el paquete.
+336	El envío estándar me va muy bien. ¿Cuánto tarda la entrega?
+337	Quiero el envío más caro posible, aunque llegue dentro de dos meses.
+338	Sí, claro. Ponga el paquete en la báscula. ¿Quiere envío estándar o exprés?
+339	Solo he escrito mi nombre, el resto lo hacéis vosotros.
+340	No, no conozco la dirección.
+341	Sí, lo he escrito todo en el paquete: dirección, remitente y destinatario.
+342	Suelen hacer falta unos 7-10 días laborables. ¿Ha rellenado ya el formulario con la dirección del destinatario?
+343	Puedo pagar el bollettino sin documento, es más rápido.
+344	Por supuesto, aquí está mi DNI y el codice fiscale.
+345	Solo tengo el ticket del restaurante.
+346	Perfecto. Ahora pasamos al bollettino. ¿Puede mostrarme el documento de identidad?
+347	Pago con tarjeta, gracias.
+348	Pago la semana que viene, ahora no tengo dinero.
+349	Hay descuento de estudiante, ¿verdad? Entonces pago solo un euro.
+350	En total son 22 euros por el paquete y 45 por el bollettino. ¿Paga en efectivo o con tarjeta?
+351	El código de seguimiento lo tiro, no me sirve.
+352	¿Puede entregar el paquete en mi casa esta noche a mano?
+353	¡Muchas gracias! Buen día también para usted.
+354	Aquí tiene el recibo de pago y el código de seguimiento del paquete. ¡Buen día!
+355	El código de seguimiento se llama 'Codice di tracciamento' o 'Numero di raccomandata'. Se introduce en la web de Poste Italiane en 'Cerca spedizioni'.
+356	Boss Level 🏆: Simulación de una visita a correos (Poste Italiane)
+357	¡Examen final del módulo! Eliges el servicio en el terminal, hablas con el empleado, envías una carta y pagas un recibo. ¡Pistas y traducción desactivadas!
+358	¿Qué hay que hacer nada más entrar en una oficina de Poste Italiane?
+359	En Italia, en correos es obligatorio el sistema de turno electrónico a través del terminal (totem).
+360	¿Cómo se dice «Necesito enviar un paquete» en italiano?
+361	'Spedire un pacco' = enviar un paquete.
+362	¿Qué es una 'Raccomandata'?
+363	'Raccomandata' es una carta certificada oficial con valor jurídico.
+364	¿Quién es el 'Mittente' en un sobre o caja postal?
+365	'Mittente' = remitente, y 'Destinatario' = destinatario.
+366	¿Cómo se llama el número para consultar el estado y la ubicación de un paquete en internet?
+367	'Codice di tracciamento' = número de seguimiento.
+368	Experto de correos ✉️
+369	¡Enhorabuena! Te orientas con soltura en los servicios de Poste Italiane: puedes enviar paquetes, cartas certificadas y pagar recibos.
+370	En el Patronato: documentos, ISEE y prestaciones por hijos
+371	Marco y Laura acuden a una oficina de Patronato / CAF de su ciudad. En Italia el Patronato es un servicio social gratuito o económico que ayuda a extranjeros y familias a tramitar prestaciones, presentar declaraciones, hacer el ISEE (índice de situación económica) y recibir la ayuda mensual por hijo (Assegno Unico Universale).
+372	Quisiera concertar una cita para hacer el modello ISEE.
+373	Quisiera presentar la solicitud del Assegno Unico para mi hija.
+374	¿Qué documentos se necesitan para la solicitud?
+375	Necesito ayuda con la declaración de la renta.
+376	Patronato e CAF son entidades que ayudan, gratis o por una tarifa simbólica, con impuestos, prestaciones de maternidad, bonificaciones por hijos y ayudas.
+377	El ISEE es el cálculo oficial de la situación económica familiar. Hace falta para descuentos importantes en guardería, comedor escolar, bonos de suministros y el cobro del Assegno Unico.
+378	Assegno Unico Universale es una ayuda mensual por cada hijo menor de edad en la familia.
+379	Construcciones 'Fare la domanda' (presentar una solicitud) y 'Servono / Serve' (hace falta)
+380	Expresiones con 'Fare': 'Fare la domanda' (presentar una solicitud), 'Fare l'ISEE' (hacer el cálculo del ISEE).
+381	Quiero solicitar el bonus nido.
+382	Tengo que hacer el ISEE actualizado.
+383	Diferencia 'Serve' (singular) / 'Servono' (plural): «hace falta / hacen falta».
+384	¿Hace falta el documento de identidad?
+385	Hacen falta todos los documentos de los familiares.
+386	Para presentar solicitudes en el Patronato, lleve siempre documentos de identidad vigentes (Carta d'Identità), el Codice Fiscale de todos los miembros de la familia y los datos bancarios (IBAN) para el ingreso.
+387	Diálogo en vivo: consulta y entrega de documentos en el Patronato
+388	Laura acude a una cita con un consultor del Patronato (Operatore CAF) para tramitar el Assegno Unico para su hija de 3 años.
+389	No, no tengo cita. Pasaba por casualidad, lo hago todo ahora.
+390	Hola, quiero dinero para la compra.
+391	¡Buenos días! Sí, exactamente. Tengo reserva para las 10:00.
+392	¡Buenos días, señora! Por favor, siéntese. ¿Tenía cita a nombre de Laura?
+393	Solo quiero una copia del documento de identidad, sin trámites.
+394	Quisiera presentar la solicitud del Assegno Unico para mi hija de 3 años. Ya he hecho el ISEE.
+395	Tengo que enviar un paquete a Ucrania.
+396	Bien. ¿En qué puedo ayudarla hoy?
+397	¡Por supuesto! Aquí está mi Carta d'Identità, el Codice Fiscale mío y de mi hija, y el modello ISEE.
+398	No tengo ningún documento conmigo.
+399	Solo tengo el ticket del bar, los documentos están en el coche.
+400	¡Estupendo! Si ya tiene el ISEE, todo es más sencillo. ¿Me muestra los documentos de identidad y los codici fiscali?
+401	Pago en efectivo en caja.
+402	El IBAN es de un amigo, él cobra el dinero por mí.
+403	Sí, la cuenta está a mi nombre. Aquí está el código IBAN de mi cuenta bancaria.
+404	Perfecto. También necesito el IBAN de su cuenta corriente para el pago mensual. ¿Está a su nombre?
+405	Perfecto, ¿dónde debo firmar?
+406	Firme usted por mí, tengo prisa.
+407	No firmo nada sin notario y tres testigos.
+408	Muy bien. Estoy introduciendo los datos en el sistema INPS. Solo tiene que firmar este recibo y el formulario de delega.
+409	El dinero llega hoy en efectivo, ¿verdad? Lo espero aquí.
+410	¡Muchas gracias por la ayuda! Buen día y buen trabajo.
+411	Mande el Assegno Unico a otro CAF, cambio de idea.
+412	Aquí tiene la copia de la solicitud enviada. El pago llegará el mes que viene a su cuenta. ¡Buen día!
+413	La mayoría de las prestaciones y ayudas por hijos las gestiona el organismo estatal INPS (Istituto Nazionale della Previdenza Sociale); el Patronato es el intermediario oficial para entregar documentos.
+414	Boss Level 🏆: Simulación de tramitar una prestación en el Patronato
+415	¡Examen final del módulo! Acudes por tu cuenta a una cita en el Patronato/CAF y entregas documentos para el ISEE y las prestaciones por hijo. ¡Pistas y traducción desactivadas!
+416	¿Qué es el certificado 'ISEE' en Italia?
+417	El ISEE es un indicador de situación patrimonial para calcular las ayudas sociales.
+418	¿Cómo se llama la prestación estatal mensual por hijo en Italia?
+419	'Assegno Unico' es la principal prestación por hijos del país.
+420	¿Cómo se le dice al consultor «Me gustaría presentar la solicitud de la prestación por hijo»?
+421	'Fare la domanda' = presentar una solicitud.
+422	¿Qué dato se necesita para ingresar los pagos mensuales de INPS?
+423	Los pagos se ingresan en una cuenta bancaria mediante el código IBAN.
+424	¿Cómo preguntar al consultor: «¿Qué documentos hacen falta para presentar la solicitud?»
+425	'Quali documenti servono...?' = '¿Qué documentos hacen falta...?'
+426	Experto de Patronato 📋
+427	¡Enhorabuena! Te orientas por completo en las funciones del Patronato/CAF, sabes tramitar el ISEE, el Assegno Unico y gestionar las prestaciones sociales en Italia.
+428	En el bar: cultura del café, bollería y pago en caja
+429	Marco y Laura entran en un bar local a desayunar (colazione). En Italia el bar no es un local nocturno, sino el sitio principal para el café de la mañana, ver a los vecinos y un tentempié. Regla importante: a menudo se paga primero en caja, se recibe el ticket (scontrino) y luego se va con él a la barra (al banco).
+430	Quisiera un café espresso y un cornetto de crema, por favor.
+431	¿Podemos sentarnos en la mesa o se paga más?
+432	Quisiera un macchiato caliente y un vaso de agua, gracias.
+433	¿Hago primero el ticket en caja?
+434	Al banco vs Al tavolo: tomar café en la barra (al banco) es más barato que en mesa (al tavolo), donde se añade el servicio.
+435	Prima la cassa: en muchos bares concurridos se pide y se paga primero en caja, y luego se entrega el ticket al barista diciendo «Un caffè, per favore».
+436	Cornetto / Brioche: el cruasán italiano. En el norte de Italia suele llamarse 'brioche'; en el centro y el sur, 'cornetto'.
+437	Tipos de café y las preposiciones 'con' / 'senza'
+438	Tipos principales de café: Caffè (espresso), Macchiato (espresso con una gota de leche), Decaffeinato (descafeinado), Cappuccino.
+439	Quisiera un descafeinado, por favor.
+440	Quisiera un macchiato frío.
+441	Precisar ingredientes: 'Con' (con) y 'Senza' (sin).
+442	Quisiera un cappuccino con leche de avena.
+443	Quisiera un cornetto sin azúcar.
+444	En Italia, con el café en barra a menudo sirven gratis un vasito de agua (un bicchierino d'acqua). Si no lo dan, se puede pedir con educación: 'Un bicchiere d'acqua, per favore'.
+445	Diálogo en vivo: café de la mañana y pedido en la barra
+446	Marco se acerca a la caja del bar, compra el ticket y luego pide el desayuno al barista en la barra.
+447	¡Buenos días! Quisiera un cappuccino, un caffè macchiato y dos brioches.
+448	Quiero un almuerzo de tres platos y la cuenta separada para diez.
+449	Hola, dame una pizza grande.
+450	¡Buenos días! ¿Qué le preparo?
+451	Quiero el codice fiscale.
+452	Una de mermelada y una de chocolate, por favor.
+453	Las dos vacías, pero con nata y Nutella encima, para llevar calientes.
+454	Perfecto. ¿Cómo prefiere las brioches? Tenemos vacías, de mermelada o de chocolate.
+455	Lleve todo a la mesa con servicio de mesa, como en un restaurante.
+456	El ticket lo dejo en casa, voy a la mesa sin pagar.
+457	¡Muchas gracias! Voy ahora mismo al mostrador.
+458	Son 5 euros y 20 en total. Aquí tiene el ticket. Puede dejarlo en el mostrador.
+459	Quisiera un macchiato con hielo, nata y sirope, y nada de agua.
+460	El macchiato caliente, por favor. ¿Y podemos tener también dos vasos de agua sin gas?
+461	No quiero café.
+462	¡Buenos días! Déjeme el ticket. ¿El macchiato lo prefiere caliente o frío?
+463	¡Muchas gracias, muy amable! Que tenga un buen día.
+464	El cappuccino es demasiado italiano, lo cambio por una pizza.
+465	No digo gracias, aquí no se usa.
+466	¡Aquí tiene! Un cappuccino, un macchiato caliente, las dos brioches y el agua. ¡Buen provecho!
+467	La propina (mancia) no es obligatoria en los bares italianos. Aun así, mucha gente deja una moneda de 20 o 50 céntimos sobre el ticket en la barra como gesto de agradecimiento.
+468	Boss Level 🏆: Simulación de un pedido en un bar italiano
+469	¡Examen final del módulo! Pides café y bollería por tu cuenta y hablas con el cajero y el barista en la barra. ¡Pistas y traducción desactivadas!
+470	¿Por qué beber café en la barra (al banco) suele ser más barato que en mesa (al tavolo)?
+471	El servicio en mesa incluye un recargo 'servizio al tavolo'.
+472	¿Qué es un 'Caffè Macchiato'?
+473	'Macchiato' significa «manchado»: un espresso con una gota de leche.
+474	¿Cómo se pide un cruasán de chocolate en italiano?
+475	'Cornetto al cioccolato' = cruasán de chocolate.
+476	¿Qué hay que hacer con el ticket (scontrino) en la barra del barista?
+477	El ticket se deja en la barra como comprobante de pago.
+478	¿Cómo se pide con educación un vaso de agua con el café?
+479	'Un bicchiere d'acqua, per favore' = 'Un vaso de agua, por favor'.
+480	Maestro del café ☕
+481	¡Enhorabuena! Has asimilado a fondo la cultura del café en Italia, pides el desayuno en la barra con soltura y conoces los matices del bar.
+482	En el supermercado: básculas, secciones y productos
+483	Marco y Laura van a un supermercado de Treviso a comprar para la semana. En Italia hay reglas de etiqueta: hay que pesar fruta y verdura uno mismo, con guantes de un solo uso (guanti monouso), y en el mostrador de charcutería (banco gastronomia) a menudo hay que coger un número (biglietto).
+484	¿Dónde puedo encontrar el aceite de oliva?
+485	¿Debo pesar la fruta aquí o en caja?
+486	Quisiera doscientos gramos de prosciutto crudo, por favor.
+487	¿Tiene la tarjeta de fidelidad / carta fidaty?
+488	Para elegir fruta y verdura fresca hay que ponerse guantes de plástico (guanti) por higiene.
+489	En la báscula suele aparecer el número del producto del precio (por ejemplo, Tasto 14). Hay que teclearlo uno mismo y pegar la etiqueta en la bolsa.
+490	En el mostrador de carne y quesos (Banco Gastronomia) se pide por peso en gramos: 'Un etto' = 100 g, 'Due etti' = 200 g.
+491	Unidades de medida 'Un etto / Due etti' y demostrativos 'Questo / Quello'
+492	Pedido por peso: 'Un etto' (100 g), 'Due etti' (200 g), 'Un chilo' (1 kg).
+493	Quisiera un etto de Parmigiano.
+494	Cojo dos etti de jamón cocido.
+495	Señalar un producto: 'Questo' (este, cerca) / 'Quello' (ese, más lejos).
+496	¿Me da este trozo de queso?
+497	Lo quiero en lonchas.
+498	En caja en Italia la bolsa se paga aparte y se llama 'sacchetto' o 'busta'. Muchos italianos llevan bolsas reutilizables (borse della spesa).
+499	Diálogo en vivo: en caja y en el mostrador de charcutería
+500	Marco se acerca al mostrador de charcutería (banco frigo/gastronomia) y luego va a caja (cassa).
+501	El número no cuenta, paso delante porque tengo prisa.
+502	Hola, quiero queso ahora mismo.
+503	¡Buenos días! Soy yo el número 42.
+504	¡Buenos días! ¿Quién es el siguiente? ¡Número 42!
+505	Quisiera un kilo de leche y dos botellas de pan, cortadas finas.
+506	Quisiera dos etti de Prosciutto di Parma y un trozo de Parmigiano Reggiano, por favor.
+507	Dame tres litros de jamón.
+508	Diga, ¿qué le preparo?
+509	Sí, el jamón lo quiero cortado fino. Y el trozo de queso va perfecto, gracias.
+510	No, no me gusta el Anagrafe.
+511	Córtelo a cubos grandes y el queso lo pruebo todo primero.
+512	¿Lo corto fino, el jamón? ¿Y para el Parmigiano vale este trozo de trescientos gramos?
+513	Solo tengo el médico de cabecera.
+514	Sí, tengo la tessera sanitaria, es lo mismo.
+515	¡Buenos días! No, no la tengo. ¿Puedo hacerla ahora?
+516	¡Buenos días! ¿Tiene nuestra tarjeta de fidelidad?
+517	Sí, quisiera una bolsa biodegradable, por favor. Y pago con tarjeta de crédito.
+518	La bolsa es siempre gratis, por ley, sin pedirla.
+519	No, lo meto todo en los bolsillos. Pago con sellos.
+520	Sí, puede pedirla en el mostrador de información después. ¿Le hace falta una bolsa para la compra?
+521	El ticket lo dejo en caja, no me hace falta a la salida.
+522	¡Muchas gracias, buen día también para usted!
+523	Hay un error de mil euros, no pago y dejo la compra aquí en silencio.
+524	Son 34 euros y 50 céntimos. Apoye la tarjeta en el POS... Perfecto. Aquí tiene el ticket. ¡Buen día!
+525	Hay que guardar 'Lo scontrino' (el ticket) hasta salir del supermercado o tienda: la policía tributaria puede pedirlo.
+526	Boss Level 🏆: Simulación de compras en el supermercado
+527	¡Examen final del módulo! Compras por tu cuenta, pides fiambre en charcutería y pagas en caja. ¡Pistas y traducción desactivadas!
+528	¿Cuántos gramos pides si dices 'Due etti'?
+529	Un etto = 100 gramos, por tanto Due etti = 200 gramos.
+530	¿Qué hay que hacer obligatoriamente antes de coger fruta o verdura fresca en el supermercado?
+531	Las normas de higiene en Italia exigen usar guantes para elegir verdura/fruta.
+532	¿Cómo se le pide al cajero una bolsa para la compra?
+533	'Un sacchetto per la spesa' = una bolsa para la compra.
+534	¿Qué es 'Lo scontrino'?
+535	'Lo scontrino' es el ticket fiscal.
+536	¿Cómo se pide cortar el jamón (prosciutto) fino?
+537	'Tagliato sottile' = cortado fino.
+538	Experto de la compra 🛒
+539	¡Enhorabuena! Has asimilado las reglas de compra en un supermercado italiano, sabes pesar productos y hablar en caja.
+540	En el transporte: billetes, validación y trenes
+541	Marco y Laura planean un viaje en autobús urbano y tren. En Italia los billetes de autobús se compran de antemano en estancos (Tabacchi) o kioscos (Edicola). La regla más importante: hay que picar (validar) el billete al subir al autobús o antes de embarcar en el andén del tren.
+542	Quisiera dos billetes de autobús urbano, por favor.
+543	¿De qué andén sale el tren a Venecia?
+544	¡Recuerda validar el billete antes de subir!
+545	¿A qué hora pasa el próximo autobús a la estación?
+546	Tabacchi e Edicola son el sitio más fácil para comprar billetes de autobús. En el propio autobús el billete puede ser más caro o no venderse.
+547	Convalidare / Timbrare: picar el billete. Viajar con un billete no validado supone una multa de 50 a 100 euros del revisor (controllore).
+548	Binario: el número de vía/andén en la estación. Compruebe siempre el panel (tabellone) con el número de tren.
+549	Preposiciones de dirección: 'In' (transporte) y 'A / Da' (estaciones y ciudades)
+550	Preposición 'In' para medios de transporte: 'In autobus' (en autobús), 'In treno' (en tren), 'In macchina' (en coche).
+551	Voy al trabajo en autobús.
+552	Viajamos en tren.
+553	Preposiciones de dirección: 'A' (a una ciudad/estación) y 'Da' (desde una vía).
+554	Cojo el tren para ir a Milán.
+555	Sale del andén 3.
+556	En las estaciones italianas, los billetes de papel sin hora ni asiento hay que picarlos en las validadoras verdes o amarillas (macchinette) junto a la salida a los andenes.
+557	Diálogo en vivo: comprar un billete en Tabacchi e ir a la estación
+558	Marco entra en un Tabacchi a comprar billetes de autobús y luego pregunta a un viandante en la parada por el horario.
+559	¡Buenos días! Quisiera dos billetes de autobús urbano, por favor.
+560	Hola, quisiera presentar la solicitud del ISEE.
+561	Quisiera dos marche da bollo y una receta del médico, para el autobús.
+562	¡Buenos días! Diga.
+563	No quiero pagar el billete.
+564	No, quiero un abono anual del tren regional, imprímalo ahora.
+565	Sí, perfecto. Aquí tiene 3 euros. ¿Debo validarlos a bordo?
+566	Por supuesto. ¿Es un trayecto simple de 90 minutos? Son 3 euros en total.
+567	¡Perfecto, muchas gracias y buen día!
+568	Entonces no hace falta el billete, el revisor es siempre amigo.
+569	Pico el billete en casa, antes de salir, así es más cómodo.
+570	¡Sí, exactamente! En cuanto suba al autobús debe picar el billete en la máquina. ¡Hasta luego!
+571	Quisiera un cornetto de chocolate.
+572	¡Buenos días! Sí, ¿sabe a qué hora pasa el próximo autobús?
+573	No, espero el taxi para el aeropuerto. ¿Qué vino tienen?
+574	¡Buenos días! ¿Espera también usted el número 7 para la estación?
+575	Valido el billete del vecino, el mío lo dejo limpio.
+576	Subo sin validar, total solo son dos paradas.
+577	¡Estupendo, gracias! Recordemos validar el billete en cuanto subamos.
+578	Debería llegar en cinco minutos. ¡Mire, está llegando ahora mismo!
+579	No hablo italiano, así que el control no vale.
+580	¡Buenos días! Por supuesto, aquí está mi billete picado hace un momento.
+581	El billete lo he dejado en el estanco, usted me reconoce.
+582	Buenos días, control de billetes. ¿Me muestra su billete validado, por favor?
+583	En los autobuses urbanos italianos se entra por las puertas delantera o trasera y se sale por las del medio (Uscita).
+584	Boss Level 🏆: Simulación de un viaje en transporte público
+585	¡Examen final del módulo! Compras billetes por tu cuenta, te orientas en la estación, compruebas la vía y hablas con el revisor. ¡Pistas y traducción desactivadas!
+586	¿Dónde es más fácil y barato comprar un billete de autobús urbano en Italia?
+587	Los kioscos Tabacchi y Edicola son los principales puntos de venta de billetes.
+588	¿Qué significan los verbos 'Convalidare' o 'Timbrare' en el transporte?
+589	'Convalidare' / 'Timbrare' es activar/picar el billete.
+590	¿Cómo se pregunta en la estación «¿De qué vía sale el tren?»
+591	'Binario' significa vía/andén ferroviario.
+592	¿Qué le espera al pasajero que viaja sin billete picado?
+593	Por falta de validación el revisor impone una multa económica.
+594	¿Cómo se traduce la palabra 'Stazione'?
+595	'Stazione' = estación de tren o de autobús.
+596	Viajero experto 🚆
+597	¡Enhorabuena! Dominas el léxico del transporte público en Italia, compras billetes con facilidad y te orientas en las estaciones.
+598	Salón de belleza: cita para corte, manicura y cuidado
+599	Marco y Laura planean una visita al salón de belleza. En Italia casi siempre hay que citarse de antemano por teléfono o en persona (prendere un appuntamento) con el peluquero (parrucchiere / barbiere) y la manicurista (onicotecnica / estetista). Es muy importante explicar con claridad lo que se desea: largo del pelo, forma de las uñas, tipo de esmalte o recorte de barba.
+600	Quisiera pedir cita para un corte de hombre y una manicura.
+601	Solo un recorte de puntas y el peinado, por favor.
+602	Quisiera hacerme el esmalte semipermanente y quitar el viejo.
+603	Quisiera acortar el pelo a los lados y arreglar la barba.
+604	Prendere un appuntamento: la cita a una hora concreta es obligatoria. Si te retrasas 10-15 minutos, conviene llamar y avisar.
+605	Piega: el peinado con secador tras el lavado. En los salones italianos el precio del corte (taglio) suele ir aparte del peinado (piega) y del lavado (shampoo).
+606	Smalto semipermanente: esmalte semipermanente. Si hay que quitar el recubrimiento anterior, avise al citarse: 'Devo anche togliere il gel vecchio'.
+607	Verbos para citarse y pedir: 'Vorrei + infinitivo' y 'Accorciare / Spuntare'
+608	Cita educada con 'Vorrei': 'Vorrei prenotare...' (Me gustaría reservar...), 'Vorrei fare...' (Me gustaría hacer...).
+609	Quisiera reservar para el jueves por la tarde.
+610	Quisiera hacerme la barba.
+611	Acciones con pelo y uñas: 'Accorciare' (acortar), 'Spuntare' (cortar las puntas), 'Togliere' (quitar).
+612	Solo quiero recortar un centímetro.
+613	Tengo que quitarme el esmalte.
+614	En Italia las barberías (barbiere) y los salones de señoras suelen cerrar el domingo y el lunes. De martes a sábado el salón puede hacer pausa de comida (pausa pranzo) de 12:30 a 15:30, salvo que sea una cadena en un centro comercial.
+615	Diálogo en vivo: cita por teléfono y visita de Marco y Laura al salón
+616	Laura llama al salón para citar a su marido Marco para corte de pelo y barba, y a ella para manicura y peinado. Luego van a las citas.
+617	¡Buenos días! Quisiera pedir cita para el viernes: un corte de hombre con barba y una manicura con semipermanente.
+618	Quisiera una cita para el médico de cabecera y la voltura del gas.
+619	Hola, quisiera comprar un billete de autobús.
+620	Salone Bella Vita, ¡buenos días! ¿En qué puedo ayudarle?
+621	No, quisiera hacer la declaración de la renta.
+622	Sí, tengo que quitar el gel viejo y hacer la manicura completa.
+623	No, dejo el esmalte viejo y añado tres capas encima, por WhatsApp.
+624	Perfecto. Para la manicura, ¿hay que quitar también el esmalte anterior?
+625	A las 15:00 vengo solo yo, Marco se corta el pelo solo en casa.
+626	El viernes no, vengo cuando haya sitio, sin nombre.
+627	¡Estupendo, viernes a las 15:00! A nombre de Laura y Marco. ¡Muchas gracias y hasta luego!
+628	De acuerdo, tenemos sitio el viernes a las 15:00 para los dos. ¡Nos vemos el viernes!
+629	Hágalo todo rapado a cero, incluso las cejas, sin preguntar.
+630	¡Buenos días! Quisiera acortar el pelo a los lados y arreglar la barba, pero sin cortarla demasiado corta.
+631	Quisiera validar el billete de tren.
+632	¡Buenos días, Marco! ¿Cómo hacemos hoy con el pelo y la barba?
+633	¡Buenos días! Quisiera la forma almendra y un color nude natural con el semipermanente.
+634	Tengo fiebre y la nariz que gotea.
+635	Quisiera uñas larguísimas stiletto rojo flúor y glitter en tres minutos.
+636	¡Buenos días, Laura! ¿Qué forma y qué color prefiere para las uñas hoy?
+637	Pagamos en sellos y volvemos luego por el resto.
+638	Pagamos por separado, pero Laura paga también el corte de Marco en efectivo ucraniano.
+639	Pagamos juntos con tarjeta. ¡Muchas gracias, estamos muy contentos con el resultado!
+640	¡Aquí tiene! En total por el corte de hombre, barba, manicura y semipermanente son 65 euros. ¿Pagan juntos o por separado?
+641	En los salones italianos se valora el feedback durante el servicio. Si el agua está demasiado caliente o se corta demasiado, dígase con calma: 'Scusi, l'acqua è troppo calda' o 'Un po' più lungo, per favore'.
+642	Boss Level 🏆: Simulación de una visita al salón de belleza (hombres y mujeres)
+643	¡Examen final del módulo! Te citas por tu cuenta en el salón y explicas el corte, el cuidado de la barba, la forma de las uñas y el esmalte. ¡Pistas y traducción desactivadas!
+644	¿Cómo se dice con educación en italiano «Me gustaría pedir cita»?
+645	'Prendere un appuntamento' es la frase habitual para citarse.
+646	¿Cómo pide un hombre acortar el pelo de los laterales e igualar la barba?
+647	'Accorciare ai lati' (acortar los laterales) y 'regolare la barba' (igualar la barba).
+648	¿Qué significa 'Spuntare' referido al pelo?
+649	'Spuntare' significa cortar solo las puntas (le punte).
+650	¿Cómo se le dice a la manicurista que hay que quitar el esmalte semipermanente viejo?
+651	'Togliere lo smalto vecchio' = quitar el esmalte/recubrimiento viejo.
+652	¿Qué es 'Piega' en una peluquería italiana?
+653	'Piega' es el peinado/brushing.
+654	Maestro de estilo y belleza 💇‍♂️💅
+655	¡Enhorabuena! Has mejorado el léxico italiano de salones y pides con soltura corte, cuidado de barba, manicura y peinado.

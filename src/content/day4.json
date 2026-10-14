@@ -17,9 +17,9 @@
   },
   "story": {
     "uk": "Лаура нещодавно переїхала до Падуї. Після оформлення резиденції в Anagrafe вона робить наступний важливий крок — іде до ASL (Azienda Sanitaria Locale), щоб зареєструватися в SSN (Servizio Sanitario Nazionale), отримати Tessera Sanitaria та обрати сімейного лікаря (Medico di base). З собою вона має: passaporto, permesso di soggiorno, codice fiscale та dichiarazione di residenza.",
-    "en": "Laura has recently moved to Padua. After registering her residenza at the Anagrafe she takes the next important step — she goes to the ASL (Azienda Sanitaria Locale) to enrol in the SSN (Servizio Sanitario Nazionale), get a Tessera Sanitaria and choose a family doctor (Medico di base). She has with her: passaporto, permesso di soggiorno, codice fiscale and dichiarazione di residenza.",
+    "en": "Laura has recently moved to Padua. After registering her residence at the Anagrafe she takes the next important step — she goes to the ASL (local health authority) to enroll in the SSN (national health service), get a Tessera Sanitaria and choose a family doctor (medico di base). She has with her: her passport, residence permit, tax code and declaration of residence.",
     "es": "Laura se ha mudado hace poco a Padua. Tras tramitar la residenza en el Anagrafe da el siguiente paso importante: va a la ASL (Azienda Sanitaria Locale) para inscribirse en el SSN (Servizio Sanitario Nazionale), obtener la Tessera Sanitaria y elegir un médico de familia (Medico di base). Lleva: passaporto, permesso di soggiorno, codice fiscale y dichiarazione di residenza.",
-    "fr": "Laura a récemment emménagé à Padoue. Après avoir fait sa residenza à l’Anagrafe, elle passe à l’étape suivante : elle va à l’ASL (Azienda Sanitaria Locale) pour s’inscrire au SSN (Servizio Sanitario Nazionale), obtenir la Tessera Sanitaria et choisir un médecin de famille (Medico di base). Elle a : passaporto, permesso di soggiorno, codice fiscale et dichiarazione di residenza.",
+    "fr": "Laura a récemment emménagé à Padoue. Après avoir déclaré sa residenza à l’Anagrafe, elle passe à l’étape suivante : elle se rend à l’ASL (Azienda Sanitaria Locale) pour s’inscrire au SSN (Servizio Sanitario Nazionale), obtenir la Tessera Sanitaria et choisir un médecin de famille (medico di base). Elle a avec elle : passeport, permesso di soggiorno, codice fiscale et dichiarazione di residenza.",
     "ro": "Laura s-a mutat de curând la Padova. După înregistrarea residenza la Anagrafe face următorul pas important — merge la ASL (Azienda Sanitaria Locale) să se înscrie în SSN (Servizio Sanitario Nazionale), să obțină Tessera Sanitaria și să aleagă un medic de familie (Medico di base). Are la ea: passaporto, permesso di soggiorno, codice fiscale și dichiarazione di residenza."
   },
   "phrases": [
@@ -78,14 +78,14 @@
       "italian": "Dove devo andare in caso di emergenza?",
       "ukrainian": {
         "uk": "Куди мені звертатися у разі невідкладної ситуації?",
-        "en": "Where should I go in case of emergency?",
+        "en": "Where should I go in an emergency?",
         "es": "¿Dónde debo ir en caso de emergencia?",
         "fr": "Où dois-je aller en cas d'urgence ?",
         "ro": "Unde trebuie să merg în caz de urgență?"
       },
       "translation": {
         "uk": "Куди мені звертатися у разі невідкладної ситуації?",
-        "en": "Where should I go in case of emergency?",
+        "en": "Where should I go in an emergency?",
         "es": "¿Dónde debo ir en caso de emergencia?",
         "fr": "Où dois-je aller en cas d'urgence ?",
         "ro": "Unde trebuie să merg în caz de urgență?"
@@ -176,7 +176,7 @@
           "uk": "Використання виразу 'Avere diritto a...' (Ha diritto all'iscrizione).",
           "en": "Using the expression 'Avere diritto a...' (Ha diritto all'iscrizione).",
           "es": "Uso de la expresión 'Avere diritto a...' (Ha diritto all'iscrizione).",
-          "fr": "Utilisation de l’expression « Avere diritto a... » (Ha diritto all'iscrizione).",
+          "fr": "Utilisation de l’expression « Avere diritto a… » (Ha diritto all’iscrizione).",
           "ro": "Folosirea expresiei «Avere diritto a...» (Ha diritto all'iscrizione)."
         },
         "examples": [
@@ -265,7 +265,7 @@
   },
   "culturaTip": {
     "uk": "Реєстрація в SSN за наявності дозволу на проживання (Permesso di soggiorno) є абсолютно безкоштовною. Звертаючись до працівників ASL, завжди вживайте ввічливу форму 'Lei' та вітайтеся 'Buongiorno'.",
-    "en": "Enrolment in the SSN with a residence permit (Permesso di soggiorno) is completely free. When speaking to ASL staff, always use the polite form 'Lei' and greet with 'Buongiorno'.",
+    "en": "Enrollment in the SSN with a residence permit (permesso di soggiorno) is completely free. When speaking to ASL staff, always use the polite form Lei and greet them with Buongiorno.",
     "es": "La inscripción en el SSN con permiso de residencia (Permesso di soggiorno) es totalmente gratuita. Al dirigirte al personal de la ASL, usa siempre la forma de cortesía 'Lei' y saluda con 'Buongiorno'.",
     "fr": "L’inscription au SSN avec un permis de séjour (Permesso di soggiorno) est entièrement gratuite. En vous adressant au personnel de l’ASL, utilisez toujours la forme de politesse « Lei » et saluez par « Buongiorno ».",
     "ro": "Înscrierea în SSN cu permis de ședere (Permesso di soggiorno) este complet gratuită. Când vorbiți cu personalul ASL, folosiți întotdeauna forma politicoasă «Lei» și salutați cu «Buongiorno»."

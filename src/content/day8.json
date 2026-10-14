@@ -17,7 +17,7 @@
   },
   "story": {
     "uk": "Марко та Лаура заходять до траторії. Офіціант (Cameriere) зустрічає їх біля входу і проводить до столика.",
-    "en": "Marco and Laura enter the trattoria. The waiter (Cameriere) meets them at the door and takes them to a table.",
+    "en": "Marco and Laura enter the trattoria. The waiter (cameriere) greets them at the door and takes them to a table.",
     "es": "Marco y Laura entran en la trattoria. El camarero (Cameriere) los recibe en la entrada y los lleva a la mesa.",
     "fr": "Marco et Laura entrent dans la trattoria. Le serveur (Cameriere) les accueille à l’entrée et les conduit à table.",
     "ro": "Marco și Laura intră în trattoria. Chelnerul (Cameriere) îi întâmpină la intrare și îi duce la masă."
@@ -86,7 +86,7 @@
       "translation": {
         "uk": "Доброго дня! Ви бронювали чи шукаєте столик?",
         "en": "Good morning! Have you booked or are you looking for a table?",
-        "es": "¡Buenos días! ¿Habéis reservado o buscáis una mesa?",
+        "es": "¡Buenos días! ¿Han reservado o buscan una mesa?",
         "fr": "Bonjour ! Avez-vous réservé ou cherchez-vous une table ?",
         "ro": "Bună dimineața! Ați rezervat sau căutați o masă?"
       }
@@ -100,17 +100,17 @@
           "text": "Vorrei due Coca-Cola grandi con ghiaccio e limone, come al fast food.",
           "translation": {
             "uk": "Дві великі кока-коли з льодом і лимоном, як у фастфуді.",
-            "en": "I'd like two large Coca-Colas with ice and lemon, like at a fast food.",
-            "es": "Quisiera dos Coca-Cola grandes con hielo y limón, como en el fast food.",
-            "fr": "Je voudrais deux grands Coca-Cola avec glaçons et citron, comme au fast-food.",
+            "en": "I'd like two large Coca-Colas with ice and lemon, like at a fast-food restaurant.",
+            "es": "Quisiera dos Coca-Cola grandes con hielo y limón, como en el fast-food.",
+            "fr": "Je voudrais deux grands Coca-Cola avec des glaçons et du citron, comme au fast-food.",
             "ro": "Aș dori două Coca-Cola mari cu gheață și lămâie, ca la fast food."
           },
           "isCorrect": false,
           "feedback": {
             "uk": "Дві великі кока-коли з льодом і лимоном, як у фастфуді.",
-            "en": "I'd like two large Coca-Colas with ice and lemon, like at a fast food.",
-            "es": "Quisiera dos Coca-Cola grandes con hielo y limón, como en el fast food.",
-            "fr": "Je voudrais deux grands Coca-Cola avec glaçons et citron, comme au fast-food.",
+            "en": "I'd like two large Coca-Colas with ice and lemon, like at a fast-food restaurant.",
+            "es": "Quisiera dos Coca-Cola grandes con hielo y limón, como en el fast-food.",
+            "fr": "Je voudrais deux grands Coca-Cola avec des glaçons et du citron, comme au fast-food.",
             "ro": "Aș dori două Coca-Cola mari cu gheață și lămâie, ca la fast food."
           }
         },
@@ -154,7 +154,7 @@
       "translation": {
         "uk": "Чудово, заходьте. Ось меню. Що принести випити на початок?",
         "en": "Perfect, please come in. Here's the menu. What can I bring you to drink to start?",
-        "es": "Perfecto, pasad. Aquí está el menú. ¿De beber qué os traigo para empezar?",
+        "es": "Perfecto, pasen. Aquí está el menú. ¿Qué les traigo de beber para empezar?",
         "fr": "Parfait, venez. Voici le menu. Qu'est-ce que je vous apporte à boire pour commencer ?",
         "ro": "Perfect, intrați. Iată meniul. Ce vă aduc de băut pentru început?"
       }
@@ -168,7 +168,7 @@
           "text": "Sì! Come primo prendiamo due tagliatelle al ragù, e come secondo una tagliata di manzo da dividere.",
           "translation": {
             "uk": "Так! На перше візьмемо дві тальятелле з рагу, а на друге — тальяту з яловичини на двох.",
-            "en": "Yes! For primo we'll take two tagliatelle al ragù, and for secondo a tagliata di manzo to share.",
+            "en": "Yes! For the first course we'll have two tagliatelle al ragù, and for the second a tagliata di manzo to share.",
             "es": "¡Sí! De primero tomamos dos tagliatelle al ragù, y de segundo una tagliata di manzo para compartir.",
             "fr": "Oui ! En primo, on prend deux tagliatelle al ragù, et en secondo une tagliata di manzo à partager.",
             "ro": "Da! Ca primo luăm două tagliatelle al ragù, iar ca secondo o tagliata di manzo de împărțit."
@@ -176,7 +176,7 @@
           "isCorrect": true,
           "feedback": {
             "uk": "Так! На перше візьмемо дві тальятелле з рагу, а на друге — тальяту з яловичини на двох.",
-            "en": "Yes! For primo we'll take two tagliatelle al ragù, and for secondo a tagliata di manzo to share.",
+            "en": "Yes! For the first course we'll have two tagliatelle al ragù, and for the second a tagliata di manzo to share.",
             "es": "¡Sí! De primero tomamos dos tagliatelle al ragù, y de segundo una tagliata di manzo para compartir.",
             "fr": "Oui ! En primo, on prend deux tagliatelle al ragù, et en secondo une tagliata di manzo à partager.",
             "ro": "Da! Ca primo luăm două tagliatelle al ragù, iar ca secondo o tagliata di manzo de împărțit."
@@ -205,16 +205,16 @@
           "translation": {
             "uk": "Несіть усе разом, порядок страв не важливий.",
             "en": "Bring everything together, the order of the dishes doesn't matter.",
-            "es": "Traiga todo junto, no importa el orden de los platos.",
-            "fr": "Apportez tout ensemble, l'ordre des plats n'importe pas.",
+            "es": "Traiga todo a la vez; el orden de los platos no importa.",
+            "fr": "Apportez tout en même temps, l’ordre des plats n’a pas d’importance.",
             "ro": "Aduceți totul împreună, nu contează ordinea felurilor."
           },
           "isCorrect": false,
           "feedback": {
             "uk": "Несіть усе разом, порядок страв не важливий.",
             "en": "Bring everything together, the order of the dishes doesn't matter.",
-            "es": "Traiga todo junto, no importa el orden de los platos.",
-            "fr": "Apportez tout ensemble, l'ordre des plats n'importe pas.",
+            "es": "Traiga todo a la vez; el orden de los platos no importa.",
+            "fr": "Apportez tout en même temps, l’ordre des plats n’a pas d’importance.",
             "ro": "Aduceți totul împreună, nu contează ordinea felurilor."
           }
         }
@@ -222,7 +222,7 @@
       "translation": {
         "uk": "Готові замовляти страви?",
         "en": "Are you ready to order the dishes?",
-        "es": "¿Estáis listos para pedir los platos?",
+        "es": "¿Están listos para pedir los platos?",
         "fr": "Êtes-vous prêts à commander les plats ?",
         "ro": "Sunteți gata să comandați felurile?"
       }
@@ -254,7 +254,7 @@
           "text": "Vorrei un tè al latte e una birra grande, dopo la pasta.",
           "translation": {
             "uk": "Чай з молоком і велике пиво після пасти.",
-            "en": "I would like a milky tea and a large beer, after the pasta.",
+            "en": "I'd like tea with milk and a large beer, after the pasta.",
             "es": "Quisiera un té con leche y una cerveza grande, después de la pasta.",
             "fr": "Je voudrais un thé au lait et une grande bière, après les pâtes.",
             "ro": "Aș dori un ceai cu lapte și o bere mare, după paste."
@@ -262,7 +262,7 @@
           "isCorrect": false,
           "feedback": {
             "uk": "Чай з молоком і велике пиво після пасти.",
-            "en": "I would like a milky tea and a large beer, after the pasta.",
+            "en": "I'd like tea with milk and a large beer, after the pasta.",
             "es": "Quisiera un té con leche y una cerveza grande, después de la pasta.",
             "fr": "Je voudrais un thé au lait et une grande bière, après les pâtes.",
             "ro": "Aș dori un ceai cu lapte și o bere mare, după paste."
@@ -290,7 +290,7 @@
       "translation": {
         "uk": "Чудовий вибір! Бажаєте десерт чи каву наприкінці?",
         "en": "Excellent choice! Would you like a dessert or a coffee at the end?",
-        "es": "¡Excelente elección! ¿Deseáis un postre o un café al final?",
+        "es": "¡Excelente elección! ¿Desean un postre o un café al final?",
         "fr": "Excellent choix ! Souhaitez-vous un dessert ou un café à la fin ?",
         "ro": "Alegere excelentă! Doriți un desert sau o cafea la final?"
       }
@@ -301,21 +301,21 @@
       "text": "Perfetto, arrivano subito. Serve altro?",
       "options": [
         {
-          "text": "No, grazie. Quando è possibile, possiamo avere il conto?",
+          "text": "No, grazie. Quando può, ci porta il conto, per favore?",
           "translation": {
-            "uk": "Ні, дякую. Коли можна, принесіть рахунок?",
-            "en": "No, thank you. When possible, could we have the bill?",
-            "es": "No, gracias. Cuando sea posible, ¿podemos tener la cuenta?",
+            "uk": "Ні, дякую. Коли зможете, принесіть рахунок, будь ласка?",
+            "en": "No, thank you. When you can, could you bring us the bill, please?",
+            "es": "No, gracias. Cuando pueda, ¿nos trae la cuenta?",
             "fr": "Non, merci. Quand ce sera possible, pouvons-nous avoir l'addition ?",
-            "ro": "Nu, mulțumesc. Când se poate, putem avea nota de plată?"
+            "ro": "Nu, mulțumesc. Când puteți, ne aduceți nota de plată?"
           },
           "isCorrect": true,
           "feedback": {
-            "uk": "Ні, дякую. Коли можна, принесіть рахунок?",
-            "en": "No, thank you. When possible, could we have the bill?",
-            "es": "No, gracias. Cuando sea posible, ¿podemos tener la cuenta?",
+            "uk": "Ні, дякую. Коли зможете, принесіть рахунок, будь ласка?",
+            "en": "No, thank you. When you can, could you bring us the bill, please?",
+            "es": "No, gracias. Cuando pueda, ¿nos trae la cuenta?",
             "fr": "Non, merci. Quand ce sera possible, pouvons-nous avoir l'addition ?",
-            "ro": "Nu, mulțumesc. Când se poate, putem avea nota de plată?"
+            "ro": "Nu, mulțumesc. Când puteți, ne aduceți nota de plată?"
           }
         },
         {
@@ -340,7 +340,7 @@
           "text": "Sì, vorrei un altro primo. Il conto lo porti da solo, senza chiedere.",
           "translation": {
             "uk": "Так, ще одне перше. Рахунок принесіть самі, не питаючи.",
-            "en": "Yes, I'd like another primo. Bring the bill on your own, without asking.",
+            "en": "Yes, I'd like another first course. Bring the bill on your own, without asking.",
             "es": "Sí, quisiera otro primero. La cuenta tráigala usted solo, sin preguntar.",
             "fr": "Oui, je voudrais un autre primo. Apportez l'addition tout seul, sans demander.",
             "ro": "Da, aș dori încă un primo. Nota aduceți-o singur, fără să întrebați."
@@ -348,7 +348,7 @@
           "isCorrect": false,
           "feedback": {
             "uk": "Так, ще одне перше. Рахунок принесіть самі, не питаючи.",
-            "en": "Yes, I'd like another primo. Bring the bill on your own, without asking.",
+            "en": "Yes, I'd like another first course. Bring the bill on your own, without asking.",
             "es": "Sí, quisiera otro primero. La cuenta tráigala usted solo, sin preguntar.",
             "fr": "Oui, je voudrais un autre primo. Apportez l'addition tout seul, sans demander.",
             "ro": "Da, aș dori încă un primo. Nota aduceți-o singur, fără să întrebați."
@@ -372,18 +372,18 @@
           "text": "Paghiamo in banconote da duecento, senza mancia e senza scontrino.",
           "translation": {
             "uk": "Платимо купюрами по двісті, без чайових і без чека.",
-            "en": "We'll pay with two-hundred notes, no tip and no receipt.",
-            "es": "Pagamos con billetes de doscientos, sin propina y sin ticket.",
-            "fr": "On paie en billets de deux cents, sans pourboire et sans ticket.",
-            "ro": "Plătim cu bancnote de două sute, fără bacșiș și fără bon."
+            "en": "We'll pay with two-hundred-euro notes, no tip and no receipt.",
+            "es": "Pagamos con billetes de 200 euros, sin propina y sin ticket.",
+            "fr": "On paie en billets de 200 euros, sans pourboire et sans ticket.",
+            "ro": "Plătim cu bancnote de 200 de euro, fără bacșiș și fără bon."
           },
           "isCorrect": false,
           "feedback": {
             "uk": "Платимо купюрами по двісті, без чайових і без чека.",
-            "en": "We'll pay with two-hundred notes, no tip and no receipt.",
-            "es": "Pagamos con billetes de doscientos, sin propina y sin ticket.",
-            "fr": "On paie en billets de deux cents, sans pourboire et sans ticket.",
-            "ro": "Plătim cu bancnote de două sute, fără bacșiș și fără bon."
+            "en": "We'll pay with two-hundred-euro notes, no tip and no receipt.",
+            "es": "Pagamos con billetes de 200 euros, sin propina y sin ticket.",
+            "fr": "On paie en billets de 200 euros, sans pourboire et sans ticket.",
+            "ro": "Plătim cu bancnote de 200 de euro, fără bacșiș și fără bon."
           }
         },
         {
@@ -426,7 +426,7 @@
       "translation": {
         "uk": "Звісно! Платите разом чи окремо? Приймаємо також картку.",
         "en": "Certainly! Will you pay together or separately? We also accept cards.",
-        "es": "¡Por supuesto! ¿Pagáis juntos o separados? Aceptamos también la tarjeta.",
+        "es": "¡Por supuesto! ¿Pagan juntos o por separado? Aceptamos también la tarjeta.",
         "fr": "Bien sûr ! Vous payez ensemble ou séparément ? Nous acceptons aussi la carte.",
         "ro": "Desigur! Plătiți împreună sau separat? Acceptăm și cardul."
       }
@@ -434,9 +434,9 @@
   ],
   "culturaTip": {
     "uk": "В Італії чек не приносять автоматично одразу після того, як ви доїли — це вважається квапленням гостя. Ви маєте самі сказати офіціанту: 'Il conto, per favore'.",
-    "en": "In Italy the bill is not brought automatically as soon as you finish eating — that is seen as rushing the guest. You have to tell the waiter yourself: 'Il conto, per favore'.",
+    "en": "In Italy the bill is not brought automatically as soon as you finish eating — that is seen as rushing the guest. You have to ask the waiter yourself: Il conto, per favore.",
     "es": "En Italia no traen la cuenta en cuanto terminas de comer: se considera precipitar al cliente. Tienes que decir al camarero: 'Il conto, per favore'.",
-    "fr": "En Italie l’addition n’arrive pas dès que vous avez fini — cela presserait le client. Vous devez dire au serveur : « Il conto, per favore ».",
+    "fr": "En Italie, l’addition n’arrive pas dès que vous avez fini — ce serait presser le client. Vous devez dire au serveur : « Il conto, per favore ».",
     "ro": "În Italia nota nu vine automat imediat ce ați terminat — se consideră că grăbești oaspetele. Trebuie să spui chelnerului: «Il conto, per favore»."
   }
 }

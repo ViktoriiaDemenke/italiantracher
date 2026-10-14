@@ -58,19 +58,19 @@
       }
     },
     {
-      "italian": "Ricordati di convalidare il biglietto prima di salire!",
+      "italian": "Ricordiamoci di convalidare il biglietto prima di salire!",
       "ukrainian": {
-        "uk": "Пам'ятай прокомпостувати квиток перед тим, як зайти!",
-        "en": "Remember to validate the ticket before getting on!",
-        "es": "¡Recuerda validar el billete antes de subir!",
-        "fr": "N'oublie pas de composter le billet avant de monter !",
+        "uk": "Пам'ятаймо прокомпостувати квиток перед тим, як зайти!",
+        "en": "Let's remember to validate the ticket before we get on!",
+        "es": "¡Recordemos validar el billete antes de subir!",
+        "fr": "N’oublions pas de composter le ticket avant de monter !",
         "ro": "Nu uita să validezi biletul înainte să urci!"
       },
       "translation": {
-        "uk": "Пам'ятай прокомпостувати квиток перед тим, як зайти!",
-        "en": "Remember to validate the ticket before getting on!",
-        "es": "¡Recuerda validar el billete antes de subir!",
-        "fr": "N'oublie pas de composter le billet avant de monter !",
+        "uk": "Пам'ятаймо прокомпостувати квиток перед тим, як зайти!",
+        "en": "Let's remember to validate the ticket before we get on!",
+        "es": "¡Recordemos validar el billete antes de subir!",
+        "fr": "N’oublions pas de composter le ticket avant de monter !",
         "ro": "Nu uita să validezi biletul înainte să urci!"
       }
     },
@@ -97,7 +97,7 @@
       "uk": "Tabacchi e Edicola — найпростіше місце для купівлі квитків на автобус. У самому автобусі квиток може коштувати дорожче або взагалі не продаватися.",
       "en": "Tabacchi e Edicola are the easiest places to buy bus tickets. On the bus itself a ticket may cost more or not be sold at all.",
       "es": "Tabacchi e Edicola son el sitio más fácil para comprar billetes de autobús. En el propio autobús el billete puede ser más caro o no venderse.",
-      "fr": "Tabacchi e Edicola sont les endroits les plus simples pour acheter un ticket de bus. Dans le bus, le ticket peut coûter plus cher ou ne pas être vendu.",
+      "fr": "Les Tabacchi et l’edicola sont les endroits les plus simples pour acheter un ticket de bus. Dans le bus, le ticket peut coûter plus cher, ou ne pas être vendu du tout.",
       "ro": "Tabacchi e Edicola sunt cel mai simplu loc pentru bilete de autobuz. În autobuz biletul poate costa mai mult sau poate să nu se vândă deloc."
     },
     {
@@ -154,14 +154,14 @@
             "italian": "Viaggiamo in treno.",
             "ukrainian": {
               "uk": "Ми їдемо потягом.",
-              "en": "We're traveling by train.",
+              "en": "We're travelling by train.",
               "es": "Viajamos en tren.",
               "fr": "Nous voyageons en train.",
               "ro": "Călătorim cu trenul."
             },
             "translation": {
               "uk": "Ми їдемо потягом.",
-              "en": "We're traveling by train.",
+              "en": "We're travelling by train.",
               "es": "Viajamos en tren.",
               "fr": "Nous voyageons en train.",
               "ro": "Călătorim cu trenul."
@@ -174,7 +174,7 @@
           "uk": "Прийменники напрямку: 'A' (до міста/станції) та 'Da' (від/з якоїсь колії).",
           "en": "Direction prepositions: 'A' (to a city/station) and 'Da' (from a track/platform).",
           "es": "Preposiciones de dirección: 'A' (a una ciudad/estación) y 'Da' (desde una vía).",
-          "fr": "Prépositions de direction : 'A' (vers une ville/gare) et 'Da' (depuis une voie).",
+          "fr": "Prépositions de direction : « A » (vers une ville / une gare) et « Da » (depuis une voie).",
           "ro": "Prepoziții de direcție: 'A' (spre un oraș/gară) și 'Da' (de la o linie)."
         },
         "examples": [

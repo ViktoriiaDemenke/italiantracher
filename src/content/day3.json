@@ -10,16 +10,16 @@
   },
   "successTitle": {
     "uk": "Резиденцію успішно отримано!",
-    "en": "Residenza successfully obtained!",
-    "es": "¡Residenza obtenida con éxito!",
-    "fr": "Residenza obtenue avec succès !",
-    "ro": "Residenza obținută cu succes!"
+    "en": "Residence registration complete!",
+    "es": "¡Residenza registrada con éxito!",
+    "fr": "Residenza enregistrée avec succès !",
+    "ro": "Residenza înregistrată cu succes!"
   },
   "story": {
     "uk": "Comune di Treviso, сьогодні вранці. Від тотема до квитанції. Без перекладів і пояснень.",
-    "en": "Treviso town hall, this morning. From the totem to the receipt. No translations, no explanations.",
-    "es": "Comune de Treviso, esta mañana. Del totem al recibo. Sin traducciones ni explicaciones.",
-    "fr": "Comune de Trévise, ce matin. Du totem au reçu. Pas de traductions, pas d’explications.",
+    "en": "Treviso Town Hall, this morning. From the ticket machine to the receipt. No translations, no explanations.",
+    "es": "Comune de Treviso, esta mañana. Del tótem al recibo. Sin traducciones ni explicaciones.",
+    "fr": "Comune de Trévise, ce matin. De la borne au reçu. Pas de traductions, pas d’explications.",
     "ro": "Comune di Treviso, în această dimineață. De la totem până la chitanță. Fără traduceri, fără explicații."
   },
   "culturaTip": {
@@ -35,15 +35,15 @@
       "ukrainian": {
         "uk": "Доброго дня, дякую. Йду до тотема.",
         "en": "Good morning, thank you. I'm going to the totem.",
-        "es": "Buenos días, gracias. Voy al totem.",
-        "fr": "Bonjour, merci. Je vais au totem.",
+        "es": "Buenos días, gracias. Voy al tótem.",
+        "fr": "Bonjour, merci. Je vais à la borne.",
         "ro": "Bună dimineața, mulțumesc. Merg la totem."
       },
       "translation": {
         "uk": "Доброго дня, дякую. Йду до тотема.",
         "en": "Good morning, thank you. I'm going to the totem.",
-        "es": "Buenos días, gracias. Voy al totem.",
-        "fr": "Bonjour, merci. Je vais au totem.",
+        "es": "Buenos días, gracias. Voy al tótem.",
+        "fr": "Bonjour, merci. Je vais à la borne.",
         "ro": "Bună dimineața, mulțumesc. Merg la totem."
       }
     },
@@ -85,34 +85,34 @@
       "italian": "È il mio numero. Vado allo sportello 4.",
       "ukrainian": {
         "uk": "Це мій номер. Йду до віконця 4.",
-        "en": "It's my number. I'm going to sportello 4.",
-        "es": "Es mi número. Voy al sportello 4.",
-        "fr": "C'est mon numéro. Je vais au sportello 4.",
-        "ro": "Este numărul meu. Merg la sportello 4."
+        "en": "That's my number. I'm going to counter 4.",
+        "es": "Es mi número. Voy a la ventanilla 4.",
+        "fr": "C’est mon numéro. Je vais au guichet 4.",
+        "ro": "Este numărul meu. Merg la ghișeul 4."
       },
       "translation": {
         "uk": "Це мій номер. Йду до віконця 4.",
-        "en": "It's my number. I'm going to sportello 4.",
-        "es": "Es mi número. Voy al sportello 4.",
-        "fr": "C'est mon numéro. Je vais au sportello 4.",
-        "ro": "Este numărul meu. Merg la sportello 4."
+        "en": "That's my number. I'm going to counter 4.",
+        "es": "Es mi número. Voy a la ventanilla 4.",
+        "fr": "C’est mon numéro. Je vais au guichet 4.",
+        "ro": "Este numărul meu. Merg la ghișeul 4."
       }
     },
     {
       "italian": "Ah, scusi tanto. Vado allo sportello 4, grazie.",
       "ukrainian": {
         "uk": "Ой, дуже перепрошую. Йду до віконця 4, дякую.",
-        "en": "Oh, I'm so sorry. I'll go to sportello 4, thank you.",
-        "es": "Ay, mil disculpas. Voy al sportello 4, gracias.",
-        "fr": "Ah, excusez-moi beaucoup. Je vais au sportello 4, merci.",
-        "ro": "Ah, scuzați-mă foarte mult. Merg la sportello 4, mulțumesc."
+        "en": "Oh, I'm so sorry. I'll go to counter 4, thank you.",
+        "es": "Ay, mil disculpas. Voy a la ventanilla 4, gracias.",
+        "fr": "Ah, excusez-moi. Je vais au guichet 4, merci.",
+        "ro": "Ah, scuzați-mă. Merg la ghișeul 4, mulțumesc."
       },
       "translation": {
         "uk": "Ой, дуже перепрошую. Йду до віконця 4, дякую.",
-        "en": "Oh, I'm so sorry. I'll go to sportello 4, thank you.",
-        "es": "Ay, mil disculpas. Voy al sportello 4, gracias.",
-        "fr": "Ah, excusez-moi beaucoup. Je vais au sportello 4, merci.",
-        "ro": "Ah, scuzați-mă foarte mult. Merg la sportello 4, mulțumesc."
+        "en": "Oh, I'm so sorry. I'll go to counter 4, thank you.",
+        "es": "Ay, mil disculpas. Voy a la ventanilla 4, gracias.",
+        "fr": "Ah, excusez-moi. Je vais au guichet 4, merci.",
+        "ro": "Ah, scuzați-mă. Merg la ghișeul 4, mulțumesc."
       }
     },
     {
@@ -135,18 +135,18 @@
     {
       "italian": "Ecco, sono tutti in originale: il passaporto, il codice fiscale, il permesso e il contratto.",
       "ukrainian": {
-        "uk": "Ось, усе в оригіналі: паспорт, код фіскале, пермессо і договір.",
-        "en": "Here they are, all originals: the passport, the codice fiscale, the permesso and the contract.",
-        "es": "Aquí, todos en original: el pasaporte, el codice fiscale, el permesso y el contrato.",
-        "fr": "Voici, tous en original : le passeport, le codice fiscale, le permesso et le contrat.",
-        "ro": "Iată, toate în original: pașaportul, codice fiscale, permesso și contractul."
+        "uk": "Ось, усе в оригіналі: паспорт, податковий код, дозвіл на перебування і договір.",
+        "en": "Here they are, all originals: the passport, codice fiscale, residence permit and contract.",
+        "es": "Aquí, todos originales: el pasaporte, el codice fiscale, el permesso y el contrato.",
+        "fr": "Voici, ce sont tous des originaux : le passeport, le codice fiscale, le permesso et le contrat.",
+        "ro": "Iată, toate originale: pașaportul, codice fiscale, permesso și contractul."
       },
       "translation": {
-        "uk": "Ось, усе в оригіналі: паспорт, код фіскале, пермессо і договір.",
-        "en": "Here they are, all originals: the passport, the codice fiscale, the permesso and the contract.",
-        "es": "Aquí, todos en original: el pasaporte, el codice fiscale, el permesso y el contrato.",
-        "fr": "Voici, tous en original : le passeport, le codice fiscale, le permesso et le contrat.",
-        "ro": "Iată, toate în original: pașaportul, codice fiscale, permesso și contractul."
+        "uk": "Ось, усе в оригіналі: паспорт, податковий код, дозвіл на перебування і договір.",
+        "en": "Here they are, all originals: the passport, codice fiscale, residence permit and contract.",
+        "es": "Aquí, todos originales: el pasaporte, el codice fiscale, el permesso y el contrato.",
+        "fr": "Voici, ce sont tous des originaux : le passeport, le codice fiscale, le permesso et le contrat.",
+        "ro": "Iată, toate originale: pașaportul, codice fiscale, permesso și contractul."
       }
     },
     {
@@ -170,17 +170,17 @@
       "italian": "Abito in via Roma dodici, interno tre, secondo piano. Vivo con mia moglie e mia figlia.",
       "ukrainian": {
         "uk": "Живу на via Roma дванадцять, квартира три, другий поверх. Живу з дружиною і донькою.",
-        "en": "I live at via Roma twelve, interno three, second floor. I live with my wife and my daughter.",
-        "es": "Vivo en via Roma doce, interno tres, segundo piso. Vivo con mi mujer y mi hija.",
-        "fr": "J'habite via Roma douze, interno trois, deuxième étage. Je vis avec ma femme et ma fille.",
-        "ro": "Locuiesc pe via Roma doisprezece, interno trei, etajul doi. Locuiesc cu soția și fiica mea."
+        "en": "I live at Via Roma 12, interior 3, second floor. I live with my wife and daughter.",
+        "es": "Vivo en via Roma 12, interno 3, segundo piso. Vivo con mi mujer y mi hija.",
+        "fr": "J’habite via Roma 12, interno 3, au deuxième étage. Je vis avec ma femme et ma fille.",
+        "ro": "Locuiesc pe via Roma 12, interno 3, etajul doi. Locuiesc cu soția și fiica mea."
       },
       "translation": {
         "uk": "Живу на via Roma дванадцять, квартира три, другий поверх. Живу з дружиною і донькою.",
-        "en": "I live at via Roma twelve, interno three, second floor. I live with my wife and my daughter.",
-        "es": "Vivo en via Roma doce, interno tres, segundo piso. Vivo con mi mujer y mi hija.",
-        "fr": "J'habite via Roma douze, interno trois, deuxième étage. Je vis avec ma femme et ma fille.",
-        "ro": "Locuiesc pe via Roma doisprezece, interno trei, etajul doi. Locuiesc cu soția și fiica mea."
+        "en": "I live at Via Roma 12, interior 3, second floor. I live with my wife and daughter.",
+        "es": "Vivo en via Roma 12, interno 3, segundo piso. Vivo con mi mujer y mi hija.",
+        "fr": "J’habite via Roma 12, interno 3, au deuxième étage. Je vis avec ma femme et ma fille.",
+        "ro": "Locuiesc pe via Roma 12, interno 3, etajul doi. Locuiesc cu soția și fiica mea."
       }
     },
     {
@@ -247,8 +247,8 @@
           "translation": {
             "uk": "Доброго дня, дякую. Йду до тотема.",
             "en": "Good morning, thank you. I'm going to the totem.",
-            "es": "Buenos días, gracias. Voy al totem.",
-            "fr": "Bonjour, merci. Je vais au totem.",
+            "es": "Buenos días, gracias. Voy al tótem.",
+            "fr": "Bonjour, merci. Je vais à la borne.",
             "ro": "Bună dimineața, mulțumesc. Merg la totem."
           }
         },
@@ -258,9 +258,9 @@
           "translation": {
             "uk": "Де віконце? Немає часу на номери.",
             "en": "Where is the sportello? I don't have time for numbers.",
-            "es": "¿Dónde está el sportello? No tengo tiempo para los números.",
-            "fr": "Où est le sportello ? Je n'ai pas le temps pour les numéros.",
-            "ro": "Unde e sportello? Nu am timp pentru numere."
+            "es": "¿Dónde está la ventanilla? No tengo tiempo para los números.",
+            "fr": "Où est le guichet ? Je n’ai pas le temps pour les numéros.",
+            "ro": "Unde e ghișeul? Nu am timp pentru numere."
           }
         },
         {
@@ -268,18 +268,18 @@
           "text": "La ringrazio per l'indicazione relativa all'apparato di emissione dei biglietti.",
           "translation": {
             "uk": "Дякую за вказівку щодо апарата видачі талонів.",
-            "en": "Thank you for the indication regarding the ticket-issuing machine.",
+            "en": "Thank you for the information regarding the ticket-issuing machine.",
             "es": "Le agradezco la indicación relativa al aparato de emisión de tickets.",
-            "fr": "Je vous remercie pour l'indication relative à l'appareil d'émission des tickets.",
+            "fr": "Je vous remercie pour l’indication relative à la borne d’émission des tickets.",
             "ro": "Vă mulțumesc pentru indicația privind aparatul de eliberare a tichetelor."
           }
         }
       ],
       "translation": {
         "uk": "Доброго дня. Для Anagrafe тотем ліворуч. Потім чекайте номер.",
-        "en": "Good morning. For the Anagrafe the totem is on the left. Then wait for your number.",
-        "es": "Buenos días. Para el Anagrafe el totem está a la izquierda. Luego espere el número.",
-        "fr": "Bonjour. Pour l'Anagrafe, le totem est à gauche. Ensuite attendez le numéro.",
+        "en": "Good morning. For Anagrafe the ticket machine is on the left. Then wait for your number.",
+        "es": "Buenos días. Para el Anagrafe el tótem está a la izquierda. Luego espere el número.",
+        "fr": "Bonjour. Pour l’Anagrafe, la borne est à gauche. Ensuite, attendez le numéro.",
         "ro": "Bună dimineața. Pentru Anagrafe totemul este în stânga. Apoi așteptați numărul."
       }
     },
@@ -293,9 +293,9 @@
           "text": "Opto per la voce concernente l'iscrizione anagrafica.",
           "translation": {
             "uk": "Обираю пункт, що стосується анаграфічної реєстрації.",
-            "en": "I opt for the item concerning iscrizione anagrafica.",
+            "en": "I opt for the item concerning registration in the population register.",
             "es": "Opto por la opción relativa a la iscrizione anagrafica.",
-            "fr": "J'opte pour la rubrique concernant l'iscrizione anagrafica.",
+            "fr": "J’opte pour la rubrique concernant l’iscrizione anagrafica.",
             "ro": "Optez pentru opțiunea privind iscrizione anagrafica."
           }
         },
@@ -333,17 +333,17 @@
     {
       "step": 3,
       "speaker": "Sala d'attesa",
-      "text": "Si sieda. Il numero esce sul tabellone. Non si avvicini allo sportello prima.",
+      "text": "Si accomodi. Il numero esce sul tabellone. Non si avvicini allo sportello prima.",
       "options": [
         {
           "tone": "wrong",
           "text": "Chiedo allo sportello se posso passare, tanto c'è posto.",
           "translation": {
             "uk": "Запитаю у віконця, чи можу пройти, там є місце.",
-            "en": "I'll ask at the sportello if I can go through, there's room anyway.",
-            "es": "Pregunto en el sportello si puedo pasar, total hay sitio.",
-            "fr": "Je demande au sportello si je peux passer, il y a de la place.",
-            "ro": "Întreb la sportello dacă pot trece, oricum e loc."
+            "en": "I'll ask at the counter if I can go through; there's room anyway.",
+            "es": "Pregunto en la ventanilla si puedo pasar: total hay sitio.",
+            "fr": "Je demande au guichet si je peux passer : il y a de la place.",
+            "ro": "Întreb la ghișeu dacă pot trece: oricum e loc."
           }
         },
         {
@@ -371,10 +371,10 @@
       ],
       "translation": {
         "uk": "Сідайте. Номер з’явиться на табло. Не підходьте до віконця раніше.",
-        "en": "Please sit down. The number comes up on the board. Do not approach the sportello beforehand.",
-        "es": "Siéntese. El número sale en el tablero. No se acerque al sportello antes.",
-        "fr": "Asseyez-vous. Le numéro apparaît sur le tableau. Ne vous approchez pas du sportello avant.",
-        "ro": "Așezați-vă. Numărul apare pe tablou. Nu vă apropiați de sportello înainte."
+        "en": "Please take a seat. The number comes up on the display. Do not approach the counter beforehand.",
+        "es": "Póngase cómodo. El número sale en la pantalla. No se acerque a la ventanilla antes.",
+        "fr": "Installez-vous. Le numéro apparaît sur l’écran. Ne vous approchez pas du guichet avant.",
+        "ro": "Poftiți, așezați-vă. Numărul apare pe ecran. Nu vă apropiați de ghișeu înainte."
       }
     },
     {
@@ -387,10 +387,10 @@
           "text": "Vado allo sportello 2, c'è meno gente.",
           "translation": {
             "uk": "Піду до віконця 2, там менше людей.",
-            "en": "I'll go to sportello 2, there are fewer people.",
-            "es": "Voy al sportello 2, hay menos gente.",
-            "fr": "Je vais au sportello 2, il y a moins de monde.",
-            "ro": "Merg la sportello 2, sunt mai puțini oameni."
+            "en": "I'll go to counter 2; there are fewer people.",
+            "es": "Voy a la ventanilla 2, hay menos gente.",
+            "fr": "Je vais au guichet 2 : il y a moins de monde.",
+            "ro": "Merg la ghișeul 2, sunt mai puțini oameni."
           }
         },
         {
@@ -398,10 +398,10 @@
           "text": "È il mio numero. Vado allo sportello 4.",
           "translation": {
             "uk": "Це мій номер. Йду до віконця 4.",
-            "en": "It's my number. I'm going to sportello 4.",
-            "es": "Es mi número. Voy al sportello 4.",
-            "fr": "C'est mon numéro. Je vais au sportello 4.",
-            "ro": "Este numărul meu. Merg la sportello 4."
+            "en": "That's my number. I'm going to counter 4.",
+            "es": "Es mi número. Voy a la ventanilla 4.",
+            "fr": "C’est mon numéro. Je vais au guichet 4.",
+            "ro": "Este numărul meu. Merg la ghișeul 4."
           }
         },
         {
@@ -409,19 +409,19 @@
           "text": "Mi reco al bancone corrispondente all'avviso luminoso.",
           "translation": {
             "uk": "Прямую до стійки, що відповідає світловому оголошенню.",
-            "en": "I proceed to the counter corresponding to the illuminated notice.",
-            "es": "Me dirijo al mostrador correspondiente al aviso luminoso.",
-            "fr": "Je me rends au comptoir correspondant à l'avis lumineux.",
+            "en": "I shall proceed to the counter corresponding to the illuminated notice.",
+            "es": "Me dirijo a la ventanilla correspondiente al aviso luminoso.",
+            "fr": "Je me rends au guichet correspondant à l’affichage lumineux.",
             "ro": "Mă îndrept către ghișeul corespunzător anunțului luminos."
           }
         }
       ],
       "translation": {
         "uk": "Це номер 37, віконце 4.",
-        "en": "It's number 37, sportello 4.",
-        "es": "Es el número 37, sportello 4.",
-        "fr": "C'est le numéro 37, sportello 4.",
-        "ro": "Este numărul 37, sportello 4."
+        "en": "Number 37, counter 4.",
+        "es": "Es el número 37, ventanilla 4.",
+        "fr": "C’est le numéro 37, guichet 4.",
+        "ro": "Este numărul 37, ghișeul 4."
       }
     },
     {
@@ -434,10 +434,10 @@
           "text": "Ah, scusi tanto. Vado allo sportello 4, grazie.",
           "translation": {
             "uk": "Ой, дуже перепрошую. Йду до віконця 4, дякую.",
-            "en": "Oh, I'm so sorry. I'll go to sportello 4, thank you.",
-            "es": "Ay, mil disculpas. Voy al sportello 4, gracias.",
-            "fr": "Ah, excusez-moi beaucoup. Je vais au sportello 4, merci.",
-            "ro": "Ah, scuzați-mă foarte mult. Merg la sportello 4, mulțumesc."
+            "en": "Oh, I'm so sorry. I'll go to counter 4, thank you.",
+            "es": "Ay, mil disculpas. Voy a la ventanilla 4, gracias.",
+            "fr": "Ah, excusez-moi. Je vais au guichet 4, merci.",
+            "ro": "Ah, scuzați-mă. Merg la ghișeul 4, mulțumesc."
           }
         },
         {
@@ -445,10 +445,10 @@
           "text": "Chiedo venia per l'equivoco e mi dirigo verso lo sportello indicato.",
           "translation": {
             "uk": "Прошу вибачення за непорозуміння і прямую до вказаного віконця.",
-            "en": "I beg your pardon for the misunderstanding and I head toward the indicated sportello.",
-            "es": "Pido disculpas por el equívoco y me dirijo hacia el sportello indicado.",
-            "fr": "Je demande pardon pour l'équivoque et je me dirige vers le sportello indiqué.",
-            "ro": "Cer iertare pentru confuzie și mă îndrept către sportello indicat."
+            "en": "I beg your pardon for the misunderstanding and shall proceed to the indicated counter.",
+            "es": "Pido disculpas por el equívoco y me dirijo a la ventanilla indicada.",
+            "fr": "Je vous prie de m’excuser pour cette méprise et je me dirige vers le guichet indiqué.",
+            "ro": "Cer iertare pentru confuzie și mă îndrept către ghișeul indicat."
           }
         },
         {
@@ -456,19 +456,19 @@
           "text": "È lo stesso Comune, può farla lei.",
           "translation": {
             "uk": "Це та сама комуна, можете зробити ви.",
-            "en": "It's the same Comune, you can do it.",
+            "en": "It's the same town hall — you can do it.",
             "es": "Es el mismo Comune, puede hacerlo usted.",
-            "fr": "C'est le même Comune, vous pouvez le faire.",
+            "fr": "C’est le même Comune, vous pouvez le faire ici.",
             "ro": "Este același Comune, o puteți face dumneavoastră."
           }
         }
       ],
       "translation": {
         "uk": "Це віконце для посвідчення особи. Резиденція — віконце 4.",
-        "en": "This sportello is for carta d'identità. Residence is at sportello 4.",
-        "es": "Este sportello es para la carta d'identità. La residencia es en el sportello 4.",
-        "fr": "Ce sportello est pour la carta d'identità. La résidence est au sportello 4.",
-        "ro": "Acest sportello este pentru carta d'identità. Residenza este la sportello 4."
+        "en": "This counter is for ID cards. Residence registration is at counter 4.",
+        "es": "Esta ventanilla es para la carta d’identità. La residencia es en la ventanilla 4.",
+        "fr": "Ce guichet est pour la carta d’identità. La résidence est au guichet 4.",
+        "ro": "Acest ghișeu este pentru carta d’identità. Residenza este la ghișeul 4."
       }
     },
     {
@@ -482,9 +482,9 @@
           "translation": {
             "uk": "Доброго дня. Подаю вам талон черги і заяву на резиденцію.",
             "en": "Good morning. I submit to you the queue ticket and the residence application.",
-            "es": "Buenos días. Le presento el título de cola y la instancia de residencia.",
+            "es": "Buenos días. Le presento el ticket de turno y la solicitud de residencia.",
             "fr": "Bonjour. Je vous soumets le titre de file et l'instance de résidence.",
-            "ro": "Bună dimineața. Vă prezint tichetul de coadă și cererea de residenza."
+            "ro": "Bună dimineața. Vă prezint tichetul de rând și cererea de residenza."
           }
         },
         {
@@ -492,7 +492,7 @@
           "text": "Ciao. Voglio la residenza, e veloce.",
           "translation": {
             "uk": "Привіт. Хочу резиденцію, і швидко.",
-            "en": "Hi. I want the residence, and fast.",
+            "en": "Hi. I want residency, and fast.",
             "es": "Hola. Quiero la residencia, y rápido.",
             "fr": "Salut. Je veux la résidence, et vite.",
             "ro": "Salut. Vreau residenza, și repede."
@@ -527,11 +527,11 @@
           "tone": "natural",
           "text": "Ecco, sono tutti in originale: il passaporto, il codice fiscale, il permesso e il contratto.",
           "translation": {
-            "uk": "Ось, усе в оригіналі: паспорт, код фіскале, пермессо і договір.",
-            "en": "Here they are, all originals: the passport, the codice fiscale, the permesso and the contract.",
-            "es": "Aquí, todos en original: el pasaporte, el codice fiscale, el permesso y el contrato.",
-            "fr": "Voici, tous en original : le passeport, le codice fiscale, le permesso et le contrat.",
-            "ro": "Iată, toate în original: pașaportul, codice fiscale, permesso și contractul."
+            "uk": "Ось, усе в оригіналі: паспорт, податковий код, дозвіл на перебування і договір.",
+            "en": "Here they are, all originals: the passport, codice fiscale, residence permit and contract.",
+            "es": "Aquí, todos originales: el pasaporte, el codice fiscale, el permesso y el contrato.",
+            "fr": "Voici, ce sont tous des originaux : le passeport, le codice fiscale, le permesso et le contrat.",
+            "ro": "Iată, toate originale: pașaportul, codice fiscale, permesso și contractul."
           }
         },
         {
@@ -550,16 +550,16 @@
           "text": "Le deposito l'intera documentazione in originale come richiesto.",
           "translation": {
             "uk": "Здаю всю документацію в оригіналі, як вимагається.",
-            "en": "I deposit with you the entire documentation in original as requested.",
-            "es": "Le deposito toda la documentación en original como se requiere.",
-            "fr": "Je dépose auprès de vous l'ensemble de la documentation en original comme demandé.",
-            "ro": "Vă depun întreaga documentație în original, așa cum se cere."
+            "en": "I hereby submit the complete documentation in the original, as requested.",
+            "es": "Le entrego toda la documentación original, como se requiere.",
+            "fr": "Je dépose auprès de vous l’ensemble des originaux, comme demandé.",
+            "ro": "Vă depun toate originalele, așa cum se cere."
           }
         }
       ],
       "translation": {
-        "uk": "Потрібні документи: паспорт, код фіскале, пермессо, договір оренди.",
-        "en": "I need the documents: the passport, the codice fiscale, the permesso and the rental contract.",
+        "uk": "Потрібні документи: паспорт, податковий код, дозвіл на перебування, договір оренди.",
+        "en": "I need the documents: passport, codice fiscale, residence permit and rental contract.",
         "es": "Necesito los documentos: el pasaporte, el codice fiscale, el permesso y el contrato de alquiler.",
         "fr": "Il me faut les documents : le passeport, le codice fiscale, le permesso et le contrat de location.",
         "ro": "Îmi trebuie documentele: pașaportul, codice fiscale, permesso și contractul de închiriere."
@@ -575,9 +575,9 @@
           "text": "Provvedo immediatamente alla compilazione e alla consegna del contrassegno di bollo.",
           "translation": {
             "uk": "Негайно забезпечу заповнення і здачу гербової марки.",
-            "en": "I shall immediately proceed with completion and delivery of the marca da bollo.",
+            "en": "I shall immediately complete the form and hand over the revenue stamp.",
             "es": "Procedo de inmediato a la cumplimentación y a la entrega del contrassegno di bollo.",
-            "fr": "Je procède immédiatement à la compilation et à la remise du contrassegno di bollo.",
+            "fr": "Je procède immédiatement au remplissage du formulaire et à la remise du contrassegno di bollo.",
             "ro": "Proced imediat la completare și la predarea contrassegno di bollo."
           }
         },
@@ -606,7 +606,7 @@
       ],
       "translation": {
         "uk": "Бланка декларації немає. Заповнюєте зараз. А марка da bollo на 16 євро?",
-        "en": "The dichiarazione form isn't here. Fill it in now. And the 16-euro marca da bollo?",
+        "en": "The declaration form isn't here. Fill it in now. And the €16 marca da bollo?",
         "es": "El formulario de la dichiarazione no está. Lo rellena ahora. ¿Y la marca da bollo de 16 euros?",
         "fr": "Le formulaire de dichiarazione n'est pas là. Vous le remplissez maintenant. Et la marca da bollo de 16 euros ?",
         "ro": "Formularul de dichiarazione nu e. Îl completați acum. Și marca da bollo de 16 euro?"
@@ -622,7 +622,7 @@
           "text": "È una via in centro. I dettagli non li ricordo.",
           "translation": {
             "uk": "Це якась вулиця в центрі. Деталей не пам’ятаю.",
-            "en": "It's a street in the centre. I don't remember the details.",
+            "en": "It's a street in the center. I don't remember the details.",
             "es": "Es una calle del centro. Los detalles no los recuerdo.",
             "fr": "C'est une rue du centre. Je ne me souviens pas des détails.",
             "ro": "E o stradă în centru. Detaliile nu le țin minte."
@@ -633,9 +633,9 @@
           "text": "L'abitazione è sita in via Roma 12, interno 3, piano secondo, con nucleo familiare convivente.",
           "translation": {
             "uk": "Житло розташоване на via Roma 12, внутрішня 3, другий поверх, із сім’єю, що проживає разом.",
-            "en": "The dwelling is located at via Roma 12, interno 3, second floor, with a cohabiting household.",
-            "es": "La vivienda está sita en via Roma 12, interno 3, segundo piso, con nucleo familiare conviviente.",
-            "fr": "Le logement est situé via Roma 12, interno 3, deuxième étage, avec nucleo familiare cohabitant.",
+            "en": "The dwelling is situated at Via Roma 12, interior 3, second floor, with a cohabiting household.",
+            "es": "La vivienda está en via Roma 12, interno 3, segundo piso, con nucleo familiare conviviente.",
+            "fr": "Le logement est situé via Roma 12, interno 3, au deuxième étage, avec nucleo familiare cohabitant.",
             "ro": "Locuința este situată pe via Roma 12, interno 3, etajul doi, cu nucleo familiare care locuiește împreună."
           }
         },
@@ -644,18 +644,18 @@
           "text": "Abito in via Roma dodici, interno tre, secondo piano. Vivo con mia moglie e mia figlia.",
           "translation": {
             "uk": "Живу на via Roma дванадцять, квартира три, другий поверх. Живу з дружиною і донькою.",
-            "en": "I live at via Roma twelve, interno three, second floor. I live with my wife and my daughter.",
-            "es": "Vivo en via Roma doce, interno tres, segundo piso. Vivo con mi mujer y mi hija.",
-            "fr": "J'habite via Roma douze, interno trois, deuxième étage. Je vis avec ma femme et ma fille.",
-            "ro": "Locuiesc pe via Roma doisprezece, interno trei, etajul doi. Locuiesc cu soția și fiica mea."
+            "en": "I live at Via Roma 12, interior 3, second floor. I live with my wife and daughter.",
+            "es": "Vivo en via Roma 12, interno 3, segundo piso. Vivo con mi mujer y mi hija.",
+            "fr": "J’habite via Roma 12, interno 3, au deuxième étage. Je vis avec ma femme et ma fille.",
+            "ro": "Locuiesc pe via Roma 12, interno 3, etajul doi. Locuiesc cu soția și fiica mea."
           }
         }
       ],
       "translation": {
         "uk": "Який сімейний склад? Назвіть повну адресу, внутрішній номер і поверх.",
-        "en": "What is the household? Please tell me the full address, the interno and the floor.",
+        "en": "Who is in the household? Please give me the full address, the interior number and the floor.",
         "es": "¿Cuál es el nucleo familiare? Dígame la dirección completa, el interno y el piso.",
-        "fr": "Quel est le nucleo familiare ? Indiquez-moi l'adresse complète, l'interno et l'étage.",
+        "fr": "Quel est le nucleo familiare ? Indiquez-moi l’adresse complète, l’interno et l’étage.",
         "ro": "Care este nucleo familiare? Spuneți-mi adresa completă, interno și etajul."
       }
     },
@@ -669,7 +669,7 @@
           "text": "Torno tra un'ora, mi chiami sul cellulare.",
           "translation": {
             "uk": "Повернуся за годину, зателефонуйте на мобільний.",
-            "en": "I'll be back in an hour, call me on my mobile.",
+            "en": "I'll be back in an hour — call me on my cell phone.",
             "es": "Vuelvo en una hora, llámeme al móvil.",
             "fr": "Je reviens dans une heure, appelez-moi sur le portable.",
             "ro": "Mă întorc peste o oră, sunați-mă pe mobil."
@@ -691,8 +691,8 @@
           "text": "Apporto la firma e attendo il caricamento del sistema.",
           "translation": {
             "uk": "Ставлю підпис і чекаю завантаження системи.",
-            "en": "I affix the signature and wait for the system to load.",
-            "es": "Apongo la firma y espero la carga del sistema.",
+            "en": "I shall affix my signature and await the loading of the system.",
+            "es": "Estampo la firma y espero la carga del sistema.",
             "fr": "J'appose la signature et j'attends le chargement du système.",
             "ro": "Pun semnătura și aștept încărcarea sistemului."
           }
@@ -700,7 +700,7 @@
       ],
       "translation": {
         "uk": "Підпишіть унизу. Потім зачекайте хвилину: завантажую дані.",
-        "en": "Sign at the bottom. Then stay a moment: I'm loading the data.",
+        "en": "Sign at the bottom. Then stay a moment — I'm loading the data.",
         "es": "Firme al final. Luego quédese un momento: cargo los datos.",
         "fr": "Signez en bas. Ensuite restez un instant : je charge les données.",
         "ro": "Semnați jos. Apoi rămâneți un moment: încarc datele."
@@ -727,9 +727,9 @@
           "text": "Prendo atto della possibile verifica della Polizia Locale presso il domicilio.",
           "translation": {
             "uk": "Беру до відома можливу перевірку місцевої поліції за місцем проживання.",
-            "en": "I take note of the possible verification by the Polizia Locale at the domicile.",
+            "en": "I take note of a possible check by the local police at the domicile.",
             "es": "Tomo nota de la posible verificación de la Polizia Locale en el domicilio.",
-            "fr": "Je prends acte de la possible vérification de la Polizia Locale au domicile.",
+            "fr": "Je prends note de la possible vérification de la Polizia Locale au domicile.",
             "ro": "Iau act de posibila verificare a Polizia Locale la domiciliu."
           }
         },
@@ -747,7 +747,7 @@
       ],
       "translation": {
         "uk": "Сьогодні система повільна. Залишайтеся тут. Потім може бути перевірка муніципальної поліції вдома в наступні дні.",
-        "en": "The system is slow today. Please stay here. Then a check by the municipal police at home may follow in the coming days.",
+        "en": "The system is slow today. Please stay here. A home check by the municipal police may follow in the coming days.",
         "es": "El sistema está lento hoy. Quédese aquí. Luego puede llegar el control de los vigili a casa, en los días siguientes.",
         "fr": "Le système est lent aujourd'hui. Restez ici. Ensuite le contrôle des vigili à domicile peut arriver, dans les jours suivants.",
         "ro": "Sistemul e lent azi. Rămâneți aici. Apoi poate urma controlul vigili acasă, în zilele următoare."
@@ -763,10 +763,10 @@
           "text": "La ringrazio per il rilascio della ricevuta e le auguro una buona prosecuzione.",
           "translation": {
             "uk": "Дякую за видачу квитанції і бажаю гарного продовження дня.",
-            "en": "Thank you for issuing the receipt and I wish you a good continuation of your day.",
-            "es": "Le agradezco la emisión del recibo y le deseo una buena prosecución.",
+            "en": "Thank you for issuing the receipt, and I wish you a pleasant rest of your day.",
+            "es": "Le agradezco la emisión del recibo y le deseo que continúe bien el día.",
             "fr": "Je vous remercie pour la délivrance du reçu et vous souhaite une bonne continuation.",
-            "ro": "Vă mulțumesc pentru eliberarea chitanței și vă doresc o continuare plăcută."
+            "ro": "Vă mulțumesc pentru eliberarea chitanței și vă doresc o zi în continuare plăcută."
           }
         },
         {
@@ -774,10 +774,10 @@
           "text": "Questa carta è la residenza definitiva, vero? Allora dammi anche l'identità.",
           "translation": {
             "uk": "Ця картка — остаточна резиденція, так? Тоді дайте ще й посвідчення особи.",
-            "en": "This paper is the definitive residence, right? Then give me the ID as well.",
-            "es": "Esta tarjeta es la residencia definitiva, ¿verdad? Entonces dame también la identidad.",
+            "en": "This paper is the final residence certificate, right? Then give me an ID card as well.",
+            "es": "Esta tarjeta es la residencia definitiva, ¿verdad? Entonces dame también el DNI.",
             "fr": "Cette carte, c'est la résidence définitive, n'est-ce pas ? Alors donne-moi aussi la carte d'identité.",
-            "ro": "Această hârtie e residenza definitivă, nu-i așa? Atunci dă-mi și identitatea."
+            "ro": "Această hârtie e residenza definitivă, nu-i așa? Atunci dă-mi și buletinul."
           }
         },
         {

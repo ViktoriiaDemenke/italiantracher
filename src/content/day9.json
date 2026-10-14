@@ -11,15 +11,15 @@
   "type": {
     "uk": "Симуляція бос-рівня",
     "en": "Boss Level Simulation",
-    "es": "Simulación de nivel jefe",
-    "fr": "Simulation Boss Level",
-    "ro": "Simulare nivel boss"
+    "es": "Simulación del nivel Boss",
+    "fr": "Simulation du niveau Boss",
+    "ro": "Simulare a nivelului Boss"
   },
   "story": {
     "uk": "Фінальний іспит модуля! Ви самостійно замовляєте обід у траторії, спілкуєтеся з офіціантом, обираєте правильні напої та розраховуєтеся. Підказки та переклад вимкнено!",
-    "en": "Final exam of the module! You order lunch in a trattoria on your own, talk to the waiter, choose the right drinks and pay. Hints and translation are off!",
-    "es": "¡Examen final del módulo! Pides el almuerzo en una trattoria tú solo, hablas con el camarero, eliges las bebidas correctas y pagas. ¡Pistas y traducción desactivadas!",
-    "fr": "Examen final du module ! Vous commandez seul dans une trattoria, parlez au serveur, choisissez les bonnes boissons et réglez. Indices et traduction désactivés !",
+    "en": "Final exam of the module! You order lunch in a trattoria on your own, talk to the waiter, choose the right drinks and pay. Hints and translations are off!",
+    "es": "¡Examen final del módulo! Pides el almuerzo en una trattoria tú solo, hablas con el camarero, eliges las bebidas correctas y pagas. ¡Las pistas y la traducción están desactivadas!",
+    "fr": "Examen final du module ! Vous commandez seul dans une trattoria, parlez au serveur, choisissez les bonnes boissons et réglez. Les indices et la traduction sont désactivés !",
     "ro": "Examenul final al modulului! Comandați singuri prânzul la trattoria, vorbiți cu chelnerul, alegeți băuturile potrivite și plătiți. Indiciile și traducerea sunt dezactivate!"
   },
   "questions": [
@@ -88,7 +88,7 @@
         "uk": "Після їжі італійці п'ють еспресо для покращення травлення.",
         "en": "After a meal Italians drink espresso to aid digestion.",
         "es": "Después de comer los italianos beben espresso para ayudar a la digestión.",
-        "fr": "Après le repas, les Italiens boivent un espresso pour aider la digestion.",
+        "fr": "Après le repas, les Italiens boivent un espresso, pour aider la digestion.",
         "ro": "După masă italienii beau espresso pentru digestie."
       }
     },
@@ -148,8 +148,8 @@
   },
   "successMessage": {
     "uk": "Вітаємо! Ви повністю засвоїли етикет італійських ресторанів, легко замовляєте страви та орієнтуєтеся в чеку!",
-    "en": "Congratulations! You have fully learned Italian restaurant etiquette, you order dishes easily and you can read the bill!",
-    "es": "¡Enhorabuena! Has asimilado el etiquette de los restaurantes italianos, pides con facilidad y te orientas en la cuenta.",
+    "en": "Congratulations! You have fully learned Italian restaurant etiquette, you can order dishes with ease, and you can read the bill!",
+    "es": "¡Enhorabuena! Has asimilado la etiqueta de los restaurantes italianos, pides con facilidad y te orientas en la cuenta.",
     "fr": "Félicitations ! Vous maîtrisez l’étiquette des restaurants italiens, commandez facilement et lisez l’addition !",
     "ro": "Felicitări! Ați însușit eticheta restaurantelor italiene, comandați ușor felurile și vă orientați pe notă!"
   }

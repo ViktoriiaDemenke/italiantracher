@@ -11,7 +11,7 @@
   "story": {
     "uk": "Марко нещодавно переїхав до Тревізо. Сьогодні вранці він іде в Comune, в Ufficio Anagrafe, щоб подати dichiarazione di residenza. Біля входу стоїть totem: треба вибрати правильну категорію, взяти biglietto і чекати номер на tabellone. У папці в нього codice fiscale, permesso di soggiorno, contratto d'affitto і marca da bollo da 16€.",
     "en": "Marco has recently moved to Treviso. This morning he is going to the Comune, to the Ufficio Anagrafe, to file a dichiarazione di residenza. By the entrance there is a totem: he must choose the right category, take a biglietto and wait for his number on the tabellone. In his folder he has a codice fiscale, permesso di soggiorno, contratto d'affitto and a marca da bollo da 16€.",
-    "es": "Marco se ha mudado hace poco a Treviso. Esta mañana va al Comune, al Ufficio Anagrafe, para presentar la dichiarazione di residenza. Junto a la entrada hay un totem: hay que elegir la categoría correcta, coger un biglietto y esperar el número en el tabellone. En la carpeta lleva codice fiscale, permesso di soggiorno, contratto d'affitto y marca da bollo da 16€.",
+    "es": "Marco se ha mudado hace poco a Treviso. Esta mañana va al Comune, al Ufficio Anagrafe, para presentar la dichiarazione di residenza. Junto a la entrada hay un tótem: hay que elegir la categoría correcta, coger un biglietto y esperar el número en el tabellone. En la carpeta lleva codice fiscale, permesso di soggiorno, contratto d'affitto y marca da bollo da 16€.",
     "fr": "Marco a récemment emménagé à Trévise. Ce matin, il se rend au Comune, à l’Ufficio Anagrafe, pour déposer une dichiarazione di residenza. À l’entrée se trouve un totem : il faut choisir la bonne catégorie, prendre un biglietto et attendre son numéro sur le tabellone. Dans son dossier : codice fiscale, permesso di soggiorno, contratto d’affitto et marca da bollo da 16€.",
     "ro": "Marco s-a mutat de curând la Treviso. În această dimineață merge la Comune, la Ufficio Anagrafe, pentru a depune dichiarazione di residenza. La intrare este un totem: trebuie să aleagă categoria potrivită, să ia un biglietto și să aștepte numărul pe tabellone. În dosar are codice fiscale, permesso di soggiorno, contratto d'affitto și marca da bollo da 16€."
   },
@@ -20,34 +20,34 @@
       "item": "codice fiscale",
       "ukrainian": {
         "uk": "Податковий код. Без нього заяву на residenza зазвичай не закривають.",
-        "en": "Tax code. Without it, a residenza application is usually not closed.",
-        "es": "Código fiscal. Sin él, la solicitud de residenza suele no cerrarse.",
-        "fr": "Code fiscal. Sans lui, la demande de residenza n’est en général pas clôturée.",
-        "ro": "Cod fiscal. Fără el, cererea de residenza de obicei nu se închide."
+        "en": "Tax identification code. Without it, a residence registration is usually not completed.",
+        "es": "Código fiscal. Sin él, la solicitud de residenza suele no concluirse.",
+        "fr": "Code fiscal. Sans lui, la demande de residenza n’aboutit généralement pas.",
+        "ro": "Cod fiscal. Fără el, cererea de residenza de obicei nu se finalizează."
       },
       "translation": {
         "uk": "Податковий код. Без нього заяву на residenza зазвичай не закривають.",
-        "en": "Tax code. Without it, a residenza application is usually not closed.",
-        "es": "Código fiscal. Sin él, la solicitud de residenza suele no cerrarse.",
-        "fr": "Code fiscal. Sans lui, la demande de residenza n’est en général pas clôturée.",
-        "ro": "Cod fiscal. Fără el, cererea de residenza de obicei nu se închide."
+        "en": "Tax identification code. Without it, a residence registration is usually not completed.",
+        "es": "Código fiscal. Sin él, la solicitud de residenza suele no concluirse.",
+        "fr": "Code fiscal. Sans lui, la demande de residenza n’aboutit généralement pas.",
+        "ro": "Cod fiscal. Fără el, cererea de residenza de obicei nu se finalizează."
       }
     },
     {
       "item": "permesso di soggiorno",
       "ukrainian": {
         "uk": "Дозвіл на перебування в оригіналі, не лише фото на телефоні.",
-        "en": "Residence permit in original, not just a photo on the phone.",
-        "es": "Permiso de residencia en original, no solo una foto en el teléfono.",
-        "fr": "Permis de séjour en original, pas seulement une photo sur le téléphone.",
-        "ro": "Permis de ședere în original, nu doar o poză pe telefon."
+        "en": "The original residence permit, not just a photo on your phone.",
+        "es": "El permiso de residencia original, no solo una foto en el teléfono.",
+        "fr": "Le permis de séjour original, pas seulement une photo sur le téléphone.",
+        "ro": "Permisul de ședere în original, nu doar o poză pe telefon."
       },
       "translation": {
         "uk": "Дозвіл на перебування в оригіналі, не лише фото на телефоні.",
-        "en": "Residence permit in original, not just a photo on the phone.",
-        "es": "Permiso de residencia en original, no solo una foto en el teléfono.",
-        "fr": "Permis de séjour en original, pas seulement une photo sur le téléphone.",
-        "ro": "Permis de ședere în original, nu doar o poză pe telefon."
+        "en": "The original residence permit, not just a photo on your phone.",
+        "es": "El permiso de residencia original, no solo una foto en el teléfono.",
+        "fr": "Le permis de séjour original, pas seulement une photo sur le téléphone.",
+        "ro": "Permisul de ședere în original, nu doar o poză pe telefon."
       }
     },
     {
@@ -68,39 +68,39 @@
       }
     },
     {
-      "item": "marca da bollo 16€",
+      "item": "marca da bollo da 16 euro",
       "ukrainian": {
         "uk": "Марка на 16 євро для заяви. Її часто купують у tabaccheria перед візитом.",
-        "en": "A 16-euro stamp for the application. People often buy it at a tabaccheria before the visit.",
-        "es": "Sello de 16 euros para la solicitud. A menudo se compra en una tabaccheria antes de la visita.",
-        "fr": "Marque de 16 euros pour la demande. On l’achète souvent en tabaccheria avant la visite.",
-        "ro": "Marcă de 16 euro pentru cerere. Adesea se cumpără la tabaccheria înainte de vizită."
+        "en": "A €16 revenue stamp for the application. People often buy it at a tobacco shop (tabaccheria) before the visit.",
+        "es": "Timbre fiscal de 16 euros para la solicitud. A menudo se compra en una tabaccheria antes de la visita.",
+        "fr": "Timbre fiscal de 16 euros pour la demande. On l’achète souvent en tabaccheria avant la visite.",
+        "ro": "Timbru fiscal de 16 euro pentru cerere. Adesea se cumpără la tabaccheria înainte de vizită."
       },
       "translation": {
         "uk": "Марка на 16 євро для заяви. Її часто купують у tabaccheria перед візитом.",
-        "en": "A 16-euro stamp for the application. People often buy it at a tabaccheria before the visit.",
-        "es": "Sello de 16 euros para la solicitud. A menudo se compra en una tabaccheria antes de la visita.",
-        "fr": "Marque de 16 euros pour la demande. On l’achète souvent en tabaccheria avant la visite.",
-        "ro": "Marcă de 16 euro pentru cerere. Adesea se cumpără la tabaccheria înainte de vizită."
+        "en": "A €16 revenue stamp for the application. People often buy it at a tobacco shop (tabaccheria) before the visit.",
+        "es": "Timbre fiscal de 16 euros para la solicitud. A menudo se compra en una tabaccheria antes de la visita.",
+        "fr": "Timbre fiscal de 16 euros pour la demande. On l’achète souvent en tabaccheria avant la visite.",
+        "ro": "Timbru fiscal de 16 euro pentru cerere. Adesea se cumpără la tabaccheria înainte de vizită."
       }
     }
   ],
   "phrases": [
     {
-      "italian": "Buongiorno, vorrei fare la richiesta di residenza.",
+      "italian": "Buongiorno, vorrei presentare la dichiarazione di residenza.",
       "ukrainian": {
-        "uk": "Доброго дня, я хотів би подати заяву на резиденцію.",
-        "en": "Good morning, I would like to submit a residence application.",
-        "es": "Buenos días, quisiera presentar la solicitud de residencia.",
-        "fr": "Bonjour, je voudrais déposer la demande de résidence.",
+        "uk": "Доброго дня, я хотів би подати декларацію про місце проживання.",
+        "en": "Good morning, I would like to submit the dichiarazione di residenza.",
+        "es": "Buenos días, quisiera presentar la dichiarazione di residenza.",
+        "fr": "Bonjour, je voudrais déposer la dichiarazione di residenza.",
         "ro": "Bună dimineața, aș dori să depun cererea de residenza."
       },
       "audio_id": "d1_p1",
       "translation": {
-        "uk": "Доброго дня, я хотів би подати заяву на резиденцію.",
-        "en": "Good morning, I would like to submit a residence application.",
-        "es": "Buenos días, quisiera presentar la solicitud de residencia.",
-        "fr": "Bonjour, je voudrais déposer la demande de résidence.",
+        "uk": "Доброго дня, я хотів би подати декларацію про місце проживання.",
+        "en": "Good morning, I would like to submit the dichiarazione di residenza.",
+        "es": "Buenos días, quisiera presentar la dichiarazione di residenza.",
+        "fr": "Bonjour, je voudrais déposer la dichiarazione di residenza.",
         "ro": "Bună dimineața, aș dori să depun cererea de residenza."
       }
     },
@@ -108,17 +108,17 @@
       "italian": "Dove posso prendere il biglietto?",
       "ukrainian": {
         "uk": "Де я можу взяти талончик?",
-        "en": "Where can I get the ticket?",
+        "en": "Where can I get a ticket?",
         "es": "¿Dónde puedo coger el ticket?",
-        "fr": "Où puis-je prendre le ticket ?",
+        "fr": "Où puis-je prendre un ticket ?",
         "ro": "Unde pot lua tichetul?"
       },
       "audio_id": "d1_p2",
       "translation": {
         "uk": "Де я можу взяти талончик?",
-        "en": "Where can I get the ticket?",
+        "en": "Where can I get a ticket?",
         "es": "¿Dónde puedo coger el ticket?",
-        "fr": "Où puis-je prendre le ticket ?",
+        "fr": "Où puis-je prendre un ticket ?",
         "ro": "Unde pot lua tichetul?"
       }
     },
@@ -126,17 +126,17 @@
       "italian": "Devo selezionare Anagrafe sul totem?",
       "ukrainian": {
         "uk": "Мені потрібно вибрати Anagrafe на тотемі?",
-        "en": "Do I need to select Anagrafe on the totem?",
-        "es": "¿Debo seleccionar Anagrafe en el totem?",
-        "fr": "Dois-je sélectionner Anagrafe sur le totem ?",
+        "en": "Do I need to select Anagrafe on the ticket machine?",
+        "es": "¿Debo seleccionar Anagrafe en el tótem?",
+        "fr": "Dois-je sélectionner Anagrafe sur la borne ?",
         "ro": "Trebuie să selectez Anagrafe pe totem?"
       },
       "audio_id": "d1_p3",
       "translation": {
         "uk": "Мені потрібно вибрати Anagrafe на тотемі?",
-        "en": "Do I need to select Anagrafe on the totem?",
-        "es": "¿Debo seleccionar Anagrafe en el totem?",
-        "fr": "Dois-je sélectionner Anagrafe sur le totem ?",
+        "en": "Do I need to select Anagrafe on the ticket machine?",
+        "es": "¿Debo seleccionar Anagrafe en el tótem?",
+        "fr": "Dois-je sélectionner Anagrafe sur la borne ?",
         "ro": "Trebuie să selectez Anagrafe pe totem?"
       }
     },
@@ -144,7 +144,7 @@
       "italian": "Qual è la categoria per la dichiarazione di residenza?",
       "ukrainian": {
         "uk": "Яка категорія потрібна для декларації про місце проживання?",
-        "en": "What is the category for the dichiarazione di residenza?",
+        "en": "Which category is for the dichiarazione di residenza?",
         "es": "¿Cuál es la categoría para la dichiarazione di residenza?",
         "fr": "Quelle est la catégorie pour la dichiarazione di residenza ?",
         "ro": "Care este categoria pentru dichiarazione di residenza?"
@@ -152,7 +152,7 @@
       "audio_id": "d1_p4",
       "translation": {
         "uk": "Яка категорія потрібна для декларації про місце проживання?",
-        "en": "What is the category for the dichiarazione di residenza?",
+        "en": "Which category is for the dichiarazione di residenza?",
         "es": "¿Cuál es la categoría para la dichiarazione di residenza?",
         "fr": "Quelle est la catégorie pour la dichiarazione di residenza ?",
         "ro": "Care este categoria pentru dichiarazione di residenza?"
@@ -161,7 +161,7 @@
     {
       "italian": "Ho il codice fiscale e il permesso di soggiorno.",
       "ukrainian": {
-        "uk": "У мене є код фіскале і дозвіл на перебування.",
+        "uk": "У мене є податковий код і дозвіл на перебування.",
         "en": "I have the codice fiscale and the permesso di soggiorno.",
         "es": "Tengo el codice fiscale y el permesso di soggiorno.",
         "fr": "J'ai le codice fiscale et le permesso di soggiorno.",
@@ -169,7 +169,7 @@
       },
       "audio_id": "d1_p5",
       "translation": {
-        "uk": "У мене є код фіскале і дозвіл на перебування.",
+        "uk": "У мене є податковий код і дозвіл на перебування.",
         "en": "I have the codice fiscale and the permesso di soggiorno.",
         "es": "Tengo el codice fiscale y el permesso di soggiorno.",
         "fr": "J'ai le codice fiscale et le permesso di soggiorno.",
@@ -198,36 +198,36 @@
       "italian": "Serve anche la marca da bollo da sedici euro?",
       "ukrainian": {
         "uk": "Чи потрібна також марка на шістнадцять євро?",
-        "en": "Do I also need the marca da bollo of sixteen euros?",
-        "es": "¿Hace falta también la marca da bollo de dieciséis euros?",
-        "fr": "Faut-il aussi la marca da bollo de seize euros ?",
-        "ro": "Este nevoie și de marca da bollo de șaisprezece euro?"
+        "en": "Do I also need the €16 marca da bollo?",
+        "es": "¿Hace falta también la marca da bollo de 16 euros?",
+        "fr": "Faut-il aussi la marca da bollo de 16 euros ?",
+        "ro": "Este nevoie și de marca da bollo de 16 euro?"
       },
       "audio_id": "d1_p7",
       "translation": {
         "uk": "Чи потрібна також марка на шістнадцять євро?",
-        "en": "Do I also need the marca da bollo of sixteen euros?",
-        "es": "¿Hace falta también la marca da bollo de dieciséis euros?",
-        "fr": "Faut-il aussi la marca da bollo de seize euros ?",
-        "ro": "Este nevoie și de marca da bollo de șaisprezece euro?"
+        "en": "Do I also need the €16 marca da bollo?",
+        "es": "¿Hace falta también la marca da bollo de 16 euros?",
+        "fr": "Faut-il aussi la marca da bollo de 16 euros ?",
+        "ro": "Este nevoie și de marca da bollo de 16 euro?"
       }
     },
     {
       "italian": "Il mio numero è uscito sul tabellone.",
       "ukrainian": {
         "uk": "Мій номер з'явився на табло.",
-        "en": "My number has come up on the board.",
-        "es": "Mi número ha salido en el tablero.",
-        "fr": "Mon numéro est apparu sur le tableau.",
-        "ro": "Numărul meu a apărut pe tablou."
+        "en": "My number has come up on the display.",
+        "es": "Mi número ha salido en la pantalla.",
+        "fr": "Mon numéro est apparu sur l’écran.",
+        "ro": "Numărul meu a apărut pe ecran."
       },
       "audio_id": "d1_p8",
       "translation": {
         "uk": "Мій номер з'явився на табло.",
-        "en": "My number has come up on the board.",
-        "es": "Mi número ha salido en el tablero.",
-        "fr": "Mon numéro est apparu sur le tableau.",
-        "ro": "Numărul meu a apărut pe tablou."
+        "en": "My number has come up on the display.",
+        "es": "Mi número ha salido en la pantalla.",
+        "fr": "Mon numéro est apparu sur l’écran.",
+        "ro": "Numărul meu a apărut pe ecran."
       }
     }
   ],
@@ -239,20 +239,20 @@
       "options": [
         {
           "tone": "natural",
-          "text": "Buongiorno, grazie. Devo selezionare Anagrafe per la residenza?",
+          "text": "Buongiorno, grazie. Devo selezionare Anagrafe per la dichiarazione di residenza?",
           "translation": {
-            "uk": "Доброго дня, дякую. Мені потрібно вибрати Anagrafe для резиденції?",
-            "en": "Good morning, thank you. Do I need to select Anagrafe for residence?",
-            "es": "Buenos días, gracias. ¿Debo seleccionar Anagrafe para la residencia?",
-            "fr": "Bonjour, merci. Dois-je sélectionner Anagrafe pour la résidence ?",
-            "ro": "Bună dimineața, mulțumesc. Trebuie să selectez Anagrafe pentru residenza?"
+            "uk": "Доброго дня, дякую. Мені потрібно вибрати Anagrafe для декларації про місце проживання?",
+            "en": "Good morning, thank you. Do I need to select Anagrafe for the residence registration?",
+            "es": "Buenos días, gracias. ¿Debo seleccionar Anagrafe para el registro de residencia?",
+            "fr": "Bonjour, merci. Dois-je sélectionner Anagrafe pour l’inscription de résidence ?",
+            "ro": "Bună dimineața, mulțumesc. Trebuie să selectez Anagrafe pentru înregistrarea reședinței?"
           },
           "feedback": {
-            "uk": "Доброго дня, дякую. Мені потрібно вибрати Anagrafe для резиденції?",
-            "en": "Good morning, thank you. Do I need to select Anagrafe for residence?",
-            "es": "Buenos días, gracias. ¿Debo seleccionar Anagrafe para la residencia?",
-            "fr": "Bonjour, merci. Dois-je sélectionner Anagrafe pour la résidence ?",
-            "ro": "Bună dimineața, mulțumesc. Trebuie să selectez Anagrafe pentru residenza?"
+            "uk": "Доброго дня, дякую. Мені потрібно вибрати Anagrafe для декларації про місце проживання?",
+            "en": "Good morning, thank you. Do I need to select Anagrafe for the residence registration?",
+            "es": "Buenos días, gracias. ¿Debo seleccionar Anagrafe para el registro de residencia?",
+            "fr": "Bonjour, merci. Dois-je sélectionner Anagrafe pour l’inscription de résidence ?",
+            "ro": "Bună dimineața, mulțumesc. Trebuie să selectez Anagrafe pentru înregistrarea reședinței?"
           }
         },
         {
@@ -260,16 +260,16 @@
           "text": "Ciao, dammi il numero, ho fretta.",
           "translation": {
             "uk": "Привіт, дай мені номер, я поспішаю.",
-            "en": "Hi, give me the number, I'm in a hurry.",
+            "en": "Hi, give me a number — I'm in a hurry.",
             "es": "Hola, dame el número, tengo prisa.",
-            "fr": "Salut, donne-moi le numéro, je suis pressé.",
+            "fr": "Salut, donne-moi un numéro, je suis pressé.",
             "ro": "Salut, dă-mi numărul, mă grăbesc."
           },
           "feedback": {
             "uk": "Привіт, дай мені номер, я поспішаю.",
-            "en": "Hi, give me the number, I'm in a hurry.",
+            "en": "Hi, give me a number — I'm in a hurry.",
             "es": "Hola, dame el número, tengo prisa.",
-            "fr": "Salut, donne-moi le numéro, je suis pressé.",
+            "fr": "Salut, donne-moi un numéro, je suis pressé.",
             "ro": "Salut, dă-mi numărul, mă grăbesc."
           }
         },
@@ -278,25 +278,25 @@
           "text": "La prego di voler cortesemente indicarmi la procedura telematica di emissione del titolo di coda.",
           "translation": {
             "uk": "Прошу ласкаво вказати мені електронну процедуру видачі талона черги.",
-            "en": "Would you kindly indicate to me the electronic procedure for issuing the queue ticket?",
-            "es": "Le ruego que tenga a bien indicarme el procedimiento telemático de emisión del título de cola.",
-            "fr": "Je vous prie de bien vouloir m'indiquer la procédure télématique d'émission du titre de file.",
-            "ro": "Vă rog să binevoiți a-mi indica procedura telematică de eliberare a tichetului de coadă."
+            "en": "Would you kindly explain the electronic procedure for issuing a queue ticket?",
+            "es": "Le ruego que tenga a bien indicarme el procedimiento electrónico de emisión del ticket de turno.",
+            "fr": "Je vous prie de bien vouloir m’indiquer la procédure électronique d’émission du ticket de file d’attente.",
+            "ro": "Vă rog să binevoiți a-mi indica procedura electronică de eliberare a tichetului de rând."
           },
           "feedback": {
             "uk": "Прошу ласкаво вказати мені електронну процедуру видачі талона черги.",
-            "en": "Would you kindly indicate to me the electronic procedure for issuing the queue ticket?",
-            "es": "Le ruego que tenga a bien indicarme el procedimiento telemático de emisión del título de cola.",
-            "fr": "Je vous prie de bien vouloir m'indiquer la procédure télématique d'émission du titre de file.",
-            "ro": "Vă rog să binevoiți a-mi indica procedura telematică de eliberare a tichetului de coadă."
+            "en": "Would you kindly explain the electronic procedure for issuing a queue ticket?",
+            "es": "Le ruego que tenga a bien indicarme el procedimiento electrónico de emisión del ticket de turno.",
+            "fr": "Je vous prie de bien vouloir m’indiquer la procédure électronique d’émission du ticket de file d’attente.",
+            "ro": "Vă rog să binevoiți a-mi indica procedura electronică de eliberare a tichetului de rând."
           }
         }
       ],
       "translation": {
         "uk": "Доброго дня. Для Anagrafe талончик беруть на тотемі, он там ліворуч.",
-        "en": "Good morning. For the Anagrafe you take the ticket at the totem, over there on the left.",
-        "es": "Buenos días. Para el Anagrafe el ticket se coge en el totem, allí a la izquierda.",
-        "fr": "Bonjour. Pour l'Anagrafe, on prend le ticket au totem, là à gauche.",
+        "en": "Good morning. For Anagrafe you take a ticket at the machine, over there on the left.",
+        "es": "Buenos días. Para el Anagrafe el ticket se coge en el tótem, allí a la izquierda.",
+        "fr": "Bonjour. Pour l’Anagrafe, on prend le ticket à la borne, là à gauche.",
         "ro": "Bună dimineața. Pentru Anagrafe tichetul se ia de la totem, acolo în stânga."
       }
     },
@@ -310,16 +310,16 @@
           "text": "Intendo avvalermi dell'opzione inerente all'anagrafe demografica comunale.",
           "translation": {
             "uk": "Маю намір скористатися опцією, що стосується муніципальної анаграфічної служби.",
-            "en": "I intend to avail myself of the option relating to the municipal anagrafe demografica.",
+            "en": "I intend to avail myself of the option pertaining to the municipal population register.",
             "es": "Tengo la intención de acogerme a la opción relativa a la anagrafe demografica municipal.",
-            "fr": "J'entends me prévaloir de l'option relative à l'anagrafe demografica communale.",
+            "fr": "J’entends me prévaloir de l’option relative à l’anagrafe demografica communale.",
             "ro": "Intenționez să recurg la opțiunea referitoare la anagrafe demografica comunală."
           },
           "feedback": {
             "uk": "Маю намір скористатися опцією, що стосується муніципальної анаграфічної служби.",
-            "en": "I intend to avail myself of the option relating to the municipal anagrafe demografica.",
+            "en": "I intend to avail myself of the option pertaining to the municipal population register.",
             "es": "Tengo la intención de acogerme a la opción relativa a la anagrafe demografica municipal.",
-            "fr": "J'entends me prévaloir de l'option relative à l'anagrafe demografica communale.",
+            "fr": "J’entends me prévaloir de l’option relative à l’anagrafe demografica communale.",
             "ro": "Intenționez să recurg la opțiunea referitoare la anagrafe demografica comunală."
           }
         },
@@ -346,16 +346,16 @@
           "text": "Prendo la carta d'identità, tanto è lo stesso ufficio.",
           "translation": {
             "uk": "Беру посвідчення особи, це ж той самий офіс.",
-            "en": "I'll take carta d'identità, it's the same office anyway.",
+            "en": "I'll take ID card — it's the same office anyway.",
             "es": "Cojo carta d'identità, total es la misma oficina.",
-            "fr": "Je prends carta d'identità, c'est le même bureau de toute façon.",
+            "fr": "Je prends carta d’identità : c’est le même bureau de toute façon.",
             "ro": "Iau carta d'identità, oricum e același birou."
           },
           "feedback": {
             "uk": "Беру посвідчення особи, це ж той самий офіс.",
-            "en": "I'll take carta d'identità, it's the same office anyway.",
+            "en": "I'll take ID card — it's the same office anyway.",
             "es": "Cojo carta d'identità, total es la misma oficina.",
-            "fr": "Je prends carta d'identità, c'est le même bureau de toute façon.",
+            "fr": "Je prends carta d’identità : c’est le même bureau de toute façon.",
             "ro": "Iau carta d'identità, oricum e același birou."
           }
         }
@@ -378,17 +378,17 @@
           "text": "Vado comunque allo sportello, tanto non c'è nessuno.",
           "translation": {
             "uk": "Все одно піду до віконця, там нікого немає.",
-            "en": "I'll go to the sportello anyway, there's nobody there.",
-            "es": "Voy igual al sportello, total no hay nadie.",
-            "fr": "J'y vais quand même au sportello, il n'y a personne.",
-            "ro": "Merg oricum la sportello, oricum nu e nimeni."
+            "en": "I'll go to the counter anyway; there's nobody there.",
+            "es": "Voy igual a la ventanilla: total no hay nadie.",
+            "fr": "J’y vais quand même au guichet : il n’y a personne.",
+            "ro": "Merg oricum la ghișeu: oricum nu e nimeni."
           },
           "feedback": {
             "uk": "Все одно піду до віконця, там нікого немає.",
-            "en": "I'll go to the sportello anyway, there's nobody there.",
-            "es": "Voy igual al sportello, total no hay nadie.",
-            "fr": "J'y vais quand même au sportello, il n'y a personne.",
-            "ro": "Merg oricum la sportello, oricum nu e nimeni."
+            "en": "I'll go to the counter anyway; there's nobody there.",
+            "es": "Voy igual a la ventanilla: total no hay nadie.",
+            "fr": "J’y vais quand même au guichet : il n’y a personne.",
+            "ro": "Merg oricum la ghișeu: oricum nu e nimeni."
           }
         },
         {
@@ -396,14 +396,14 @@
           "text": "Ottempererò scrupolosamente alle disposizioni relative all'ordine di chiamata.",
           "translation": {
             "uk": "Я скрупульозно дотримаюся розпоряджень щодо порядку виклику.",
-            "en": "I shall scrupulously comply with the provisions regarding the call order.",
+            "en": "I shall scrupulously comply with the provisions concerning the call order.",
             "es": "Acataré escrupulosamente las disposiciones relativas al orden de llamada.",
             "fr": "Je me conformerai scrupuleusement aux dispositions relatives à l'ordre d'appel.",
             "ro": "Voi respecta scrupulos dispozițiile relative la ordinea de apel."
           },
           "feedback": {
             "uk": "Я скрупульозно дотримаюся розпоряджень щодо порядку виклику.",
-            "en": "I shall scrupulously comply with the provisions regarding the call order.",
+            "en": "I shall scrupulously comply with the provisions concerning the call order.",
             "es": "Acataré escrupulosamente las disposiciones relativas al orden de llamada.",
             "fr": "Je me conformerai scrupuleusement aux dispositions relatives à l'ordre d'appel.",
             "ro": "Voi respecta scrupulos dispozițiile relative la ordinea de apel."
@@ -430,10 +430,10 @@
       ],
       "translation": {
         "uk": "Ви взяли талончик? Чекайте свій номер. Не ставайте в чергу до віконця без номера.",
-        "en": "Have you taken a ticket? Please wait for your number. Do not queue at the sportello without a number.",
-        "es": "¿Ha cogido el ticket? Espere su número. No se ponga en fila en el sportello sin número.",
-        "fr": "Avez-vous pris le ticket ? Attendez votre numéro. Ne vous mettez pas en file au sportello sans numéro.",
-        "ro": "Ați luat tichetul? Așteptați-vă numărul. Nu vă puneți la coadă la sportello fără număr."
+        "en": "Have you taken a ticket? Please wait for your number. Don't join the line at the counter without a number.",
+        "es": "¿Ha cogido el ticket? Espere su número. No se ponga en fila en la ventanilla sin número.",
+        "fr": "Avez-vous pris un ticket ? Attendez votre numéro. Ne vous mettez pas en file au guichet sans numéro.",
+        "ro": "Ați luat tichetul? Așteptați-vă numărul. Nu vă puneți la coadă la ghișeu fără număr."
       }
     },
     {
@@ -446,17 +446,17 @@
           "text": "Vado allo sportello 1, è più vicino.",
           "translation": {
             "uk": "Піду до віконця 1, воно ближче.",
-            "en": "I'll go to sportello 1, it's closer.",
-            "es": "Voy al sportello 1, está más cerca.",
-            "fr": "Je vais au sportello 1, c'est plus près.",
-            "ro": "Merg la sportello 1, e mai aproape."
+            "en": "I'll go to counter 1; it's closer.",
+            "es": "Voy a la ventanilla 1, está más cerca.",
+            "fr": "Je vais au guichet 1, c’est plus près.",
+            "ro": "Merg la ghișeul 1, e mai aproape."
           },
           "feedback": {
             "uk": "Піду до віконця 1, воно ближче.",
-            "en": "I'll go to sportello 1, it's closer.",
-            "es": "Voy al sportello 1, está más cerca.",
-            "fr": "Je vais au sportello 1, c'est plus près.",
-            "ro": "Merg la sportello 1, e mai aproape."
+            "en": "I'll go to counter 1; it's closer.",
+            "es": "Voy a la ventanilla 1, está más cerca.",
+            "fr": "Je vais au guichet 1, c’est plus près.",
+            "ro": "Merg la ghișeul 1, e mai aproape."
           }
         },
         {
@@ -464,17 +464,17 @@
           "text": "È il mio numero. Vado allo sportello 4 con i documenti in ordine.",
           "translation": {
             "uk": "Це мій номер. Йду до віконця 4 з документами в порядку.",
-            "en": "It's my number. I'm going to sportello 4 with my documents in order.",
-            "es": "Es mi número. Voy al sportello 4 con los documentos en orden.",
-            "fr": "C'est mon numéro. Je vais au sportello 4 avec les documents en ordre.",
-            "ro": "Este numărul meu. Merg la sportello 4 cu documentele în ordine."
+            "en": "That's my number. I'm going to counter 4 with my documents in order.",
+            "es": "Es mi número. Voy a la ventanilla 4 con los documentos en orden.",
+            "fr": "C’est mon numéro. Je vais au guichet 4 avec les documents en ordre.",
+            "ro": "Este numărul meu. Merg la ghișeul 4 cu documentele în ordine."
           },
           "feedback": {
             "uk": "Це мій номер. Йду до віконця 4 з документами в порядку.",
-            "en": "It's my number. I'm going to sportello 4 with my documents in order.",
-            "es": "Es mi número. Voy al sportello 4 con los documentos en orden.",
-            "fr": "C'est mon numéro. Je vais au sportello 4 avec les documents en ordre.",
-            "ro": "Este numărul meu. Merg la sportello 4 cu documentele în ordine."
+            "en": "That's my number. I'm going to counter 4 with my documents in order.",
+            "es": "Es mi número. Voy a la ventanilla 4 con los documentos en orden.",
+            "fr": "C’est mon numéro. Je vais au guichet 4 avec les documents en ordre.",
+            "ro": "Este numărul meu. Merg la ghișeul 4 cu documentele în ordine."
           }
         },
         {
@@ -483,32 +483,32 @@
           "translation": {
             "uk": "Зафіксувавши електронне оголошення, негайно прямую до вказаної стійки.",
             "en": "Having noted the electronic notice, I proceed immediately to the indicated counter.",
-            "es": "Constatado el aviso electrónico, me dirijo de inmediato al mostrador indicado.",
-            "fr": "Ayant constaté l'avis électronique, je me rends immédiatement au comptoir indiqué.",
+            "es": "Constatado el aviso electrónico, me dirijo de inmediato a la ventanilla indicada.",
+            "fr": "Ayant constaté l’affichage électronique, je me rends immédiatement au guichet indiqué.",
             "ro": "Constatând anunțul electronic, mă îndrept imediat către ghișeul indicat."
           },
           "feedback": {
             "uk": "Зафіксувавши електронне оголошення, негайно прямую до вказаної стійки.",
             "en": "Having noted the electronic notice, I proceed immediately to the indicated counter.",
-            "es": "Constatado el aviso electrónico, me dirijo de inmediato al mostrador indicado.",
-            "fr": "Ayant constaté l'avis électronique, je me rends immédiatement au comptoir indiqué.",
+            "es": "Constatado el aviso electrónico, me dirijo de inmediato a la ventanilla indicada.",
+            "fr": "Ayant constaté l’affichage électronique, je me rends immédiatement au guichet indiqué.",
             "ro": "Constatând anunțul electronic, mă îndrept imediat către ghișeul indicat."
           }
         }
       ],
       "translation": {
         "uk": "Це номер 37, віконце 4.",
-        "en": "It's number 37, sportello 4.",
-        "es": "Es el número 37, sportello 4.",
-        "fr": "C'est le numéro 37, sportello 4.",
-        "ro": "Este numărul 37, sportello 4."
+        "en": "Number 37, counter 4.",
+        "es": "Es el número 37, ventanilla 4.",
+        "fr": "C’est le numéro 37, guichet 4.",
+        "ro": "Este numărul 37, ghișeul 4."
       }
     }
   ],
   "culturaTip": {
     "uk": "У Comune di Treviso, як і в більшості комун, черга йде через totem. Для dichiarazione di residenza беріть категорію Anagrafe, не Carta d'identità. Говоріть на Lei, вітайтеся Buongiorno. Документи тримайте готовими: codice fiscale, permesso, contratto d'affitto, marca da bollo 16€.",
-    "en": "At the Comune di Treviso, as in most comuni, the queue goes through the totem. For dichiarazione di residenza take the Anagrafe category, not Carta d'identità. Use Lei, greet with Buongiorno. Keep documents ready: codice fiscale, permesso, contratto d'affitto, marca da bollo 16€.",
-    "es": "En el Comune di Treviso, como en la mayoría de los comuni, la cola va por el totem. Para la dichiarazione di residenza elige la categoría Anagrafe, no Carta d'identità. Habla de Lei, saluda con Buongiorno. Ten los documentos listos: codice fiscale, permesso, contratto d'affitto, marca da bollo 16€.",
+    "en": "At Treviso Town Hall, as in most Italian municipalities, you queue via the ticket machine. For the dichiarazione di residenza, choose the Anagrafe category, not Carta d'identità. Use Lei and greet people with Buongiorno. Keep your documents ready: codice fiscale, permesso, contratto d'affitto, and a €16 marca da bollo.",
+    "es": "En el Comune di Treviso, como en la mayoría de los comuni, la cola va por el tótem. Para la dichiarazione di residenza elige la categoría Anagrafe, no Carta d'identità. Habla de Lei, saluda con Buongiorno. Ten los documentos listos: codice fiscale, permesso, contratto d'affitto, marca da bollo 16€.",
     "fr": "Au Comune di Treviso, comme dans la plupart des comuni, la file passe par le totem. Pour la dichiarazione di residenza, prenez la catégorie Anagrafe, pas Carta d’identità. Utilisez Lei, dites Buongiorno. Gardez les documents prêts : codice fiscale, permesso, contratto d’affitto, marca da bollo 16€.",
     "ro": "La Comune di Treviso, ca în majoritatea comunelor, coada trece prin totem. Pentru dichiarazione di residenza luați categoria Anagrafe, nu Carta d'identità. Vorbiți cu Lei, salutați cu Buongiorno. Țineți documentele pregătite: codice fiscale, permesso, contratto d'affitto, marca da bollo 16€."
   }

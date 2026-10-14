@@ -253,7 +253,7 @@
         {
           "text": "Certamente, ecco la mia carta d'identità e il codice fiscale.",
           "translation": {
-            "uk": "Звісно, ось моє посвідчення особи і код фіскале.",
+            "uk": "Звісно, ось моє посвідчення особи і податковий код.",
             "en": "Of course, here's my identity card and my codice fiscale.",
             "es": "Por supuesto, aquí está mi DNI y el codice fiscale.",
             "fr": "Bien sûr, voici ma carte d'identité et le codice fiscale.",
@@ -261,7 +261,7 @@
           },
           "isCorrect": true,
           "feedback": {
-            "uk": "Звісно, ось моє посвідчення особи і код фіскале.",
+            "uk": "Звісно, ось моє посвідчення особи і податковий код.",
             "en": "Of course, here's my identity card and my codice fiscale.",
             "es": "Por supuesto, aquí está mi DNI y el codice fiscale.",
             "fr": "Bien sûr, voici ma carte d'identité et le codice fiscale.",

@@ -45,15 +45,15 @@
       "ukrainian": {
         "uk": "Ми можемо сісти за столик чи це коштує дорожче?",
         "en": "Can we sit at a table, or does it cost extra?",
-        "es": "¿Podemos sentarnos en la mesa o se paga más?",
-        "fr": "On peut s'asseoir à table ou ça coûte plus cher ?",
+        "es": "¿Podemos sentarnos en mesa o se paga más?",
+        "fr": "Peut-on s’asseoir à table, ou est-ce plus cher ?",
         "ro": "Putem să stăm la masă sau se plătește mai mult?"
       },
       "translation": {
         "uk": "Ми можемо сісти за столик чи це коштує дорожче?",
         "en": "Can we sit at a table, or does it cost extra?",
-        "es": "¿Podemos sentarnos en la mesa o se paga más?",
-        "fr": "On peut s'asseoir à table ou ça coûte plus cher ?",
+        "es": "¿Podemos sentarnos en mesa o se paga más?",
+        "fr": "Peut-on s’asseoir à table, ou est-ce plus cher ?",
         "ro": "Putem să stăm la masă sau se plătește mai mult?"
       }
     },
@@ -78,16 +78,16 @@
       "italian": "Faccio prima lo scontrino alla cassa?",
       "ukrainian": {
         "uk": "Мені спочатку вибити чек на касі?",
-        "en": "Do I get the receipt at the till first?",
+        "en": "Do I pay and get the receipt at the till first?",
         "es": "¿Hago primero el ticket en caja?",
-        "fr": "Je prends d'abord le ticket à la caisse ?",
+        "fr": "Je prends d’abord le ticket à la caisse ?",
         "ro": "Fac mai întâi bonul la casă?"
       },
       "translation": {
         "uk": "Мені спочатку вибити чек на касі?",
-        "en": "Do I get the receipt at the till first?",
+        "en": "Do I pay and get the receipt at the till first?",
         "es": "¿Hago primero el ticket en caja?",
-        "fr": "Je prends d'abord le ticket à la caisse ?",
+        "fr": "Je prends d’abord le ticket à la caisse ?",
         "ro": "Fac mai întâi bonul la casă?"
       }
     }
@@ -97,7 +97,7 @@
       "uk": "Al banco vs Al tavolo — пити каву біля стійки (al banco) дешевше, ніж за столиком (al tavolo), де додається плата за обслуговування.",
       "en": "Al banco vs Al tavolo — coffee at the counter (al banco) is cheaper than at a table (al tavolo), where a service charge is added.",
       "es": "Al banco vs Al tavolo: tomar café en la barra (al banco) es más barato que en mesa (al tavolo), donde se añade el servicio.",
-      "fr": "Al banco vs Al tavolo : le café au comptoir (al banco) est moins cher qu’à table (al tavolo), où s’ajoute un service.",
+      "fr": "Al banco vs al tavolo : le café au comptoir (al banco) est moins cher qu’à table (al tavolo), où s’ajoute un service.",
       "ro": "Al banco vs Al tavolo — cafeaua la tejghea (al banco) e mai ieftină decât la masă (al tavolo), unde se adaugă taxa de serviciu."
     },
     {

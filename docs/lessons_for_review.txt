@@ -1,0 +1,3264 @@
+ITALIAN TRACKER — Revisione per madrelingua
+Tutte le frasi italiane del corso (giorni 1–30) con traduzione ucraina.
+Per favore controllare: naturalità, grammatica, articoli, registro (Lei), termini burocratici.
+========================================================================
+
+##### GIORNO 1 —  #####
+Titolo (UK): Anagrafe: Реєстрація та документи
+
+[contesto]
+UK: Марко нещодавно переїхав до Тревізо. Сьогодні вранці він іде в Comune, в Ufficio Anagrafe, щоб подати dichiarazione di residenza. Біля входу стоїть totem: треба вибрати правильну категорію, взяти biglietto і чекати номер на tabellone. У папці в нього codice fiscale, permesso di soggiorno, contratto d'affitto і marca da bollo da 16€.
+
+[documento]
+IT: codice fiscale
+UK: Податковий код. Без нього заяву на residenza зазвичай не закривають.
+
+[documento]
+IT: permesso di soggiorno
+UK: Дозвіл на перебування в оригіналі, не лише фото на телефоні.
+
+[documento]
+IT: contratto d'affitto
+UK: Договір оренди з адресою в Тревізо, яку Марко хоче заявити.
+
+[documento]
+IT: marca da bollo 16€
+UK: Марка на 16 євро для заяви. Її часто купують у tabaccheria перед візитом.
+
+[frase]
+IT: Buongiorno, vorrei fare la richiesta di residenza.
+UK: Доброго дня, я хотів би подати заяву на резиденцію.
+
+[frase]
+IT: Dove posso prendere il biglietto?
+UK: Де я можу взяти талончик?
+
+[frase]
+IT: Devo selezionare Anagrafe sul totem?
+UK: Мені потрібно вибрати Anagrafe на тотемі?
+
+[frase]
+IT: Qual è la categoria per la dichiarazione di residenza?
+UK: Яка категорія потрібна для декларації про місце проживання?
+
+[frase]
+IT: Ho il codice fiscale e il permesso di soggiorno.
+UK: У мене є код фіскале і дозвіл на перебування.
+
+[frase]
+IT: Ecco il contratto d'affitto.
+UK: Ось договір оренди.
+
+[frase]
+IT: Serve anche la marca da bollo da sedici euro?
+UK: Чи потрібна також марка на шістнадцять євро?
+
+[frase]
+IT: Il mio numero è uscito sul tabellone.
+UK: Мій номер з'явився на табло.
+
+[cultura]
+UK: У Comune di Treviso, як і в більшості комун, черга йде через totem. Для dichiarazione di residenza беріть категорію Anagrafe, не Carta d'identità. Говоріть на Lei, вітайтеся Buongiorno. Документи тримайте готовими: codice fiscale, permesso, contratto d'affitto, marca da bollo 16€.
+
+[npc]
+IT: Buongiorno. Per l'Anagrafe il biglietto si prende al totem, lì a sinistra.
+UK: Доброго дня. Для Anagrafe талончик беруть на тотемі, он там ліворуч.
+NOTE: speaker: Addetto all'ingresso
+
+[opzione/natural]
+IT: Buongiorno, grazie. Devo selezionare Anagrafe per la residenza?
+UK: Доброго дня, дякую. Мені потрібно вибрати Anagrafe для резиденції?
+NOTE: feedback UK: Доброго дня, дякую. Мені потрібно вибрати Anagrafe для резиденції? | natural
+
+[opzione/wrong]
+IT: Ciao, dammi il numero, ho fretta.
+UK: Привіт, дай мені номер, я поспішаю.
+NOTE: feedback UK: Привіт, дай мені номер, я поспішаю. | wrong
+
+[opzione/bookish]
+IT: La prego di voler cortesemente indicarmi la procedura telematica di emissione del titolo di coda.
+UK: Прошу ласкаво вказати мені електронну процедуру видачі талона черги.
+NOTE: feedback UK: Прошу ласкаво вказати мені електронну процедуру видачі талона черги. | bookish
+
+[npc]
+IT: Selezionare: 1 Carta d'identità  2 Anagrafe / residenza  3 Stato civile  4 Pagamenti
+UK: Обрати: 1 Посвідчення особи  2 Anagrafe / резиденція  3 Цивільний стан  4 Платежі
+NOTE: speaker: Totem
+
+[opzione/bookish]
+IT: Intendo avvalermi dell'opzione inerente all'anagrafe demografica comunale.
+UK: Маю намір скористатися опцією, що стосується муніципальної анаграфічної служби.
+NOTE: feedback UK: Маю намір скористатися опцією, що стосується муніципальної анаграфічної служби. | bookish
+
+[opzione/natural]
+IT: Scelgo la voce Anagrafe / residenza. Poi aspetto il numero sul tabellone.
+UK: Обираю Anagrafe / residenza. Потім чекаю номер на табло.
+NOTE: feedback UK: Обираю Anagrafe / residenza. Потім чекаю номер на табло. | natural
+
+[opzione/wrong]
+IT: Prendo la carta d'identità, tanto è lo stesso ufficio.
+UK: Беру посвідчення особи, це ж той самий офіс.
+NOTE: feedback UK: Беру посвідчення особи, це ж той самий офіс. | wrong
+
+[npc]
+IT: Ha preso il biglietto? Aspetti il suo numero. Non si metta in fila allo sportello senza numero.
+UK: Ви взяли талончик? Чекайте свій номер. Не ставайте в чергу до віконця без номера.
+NOTE: speaker: Addetto
+
+[opzione/wrong]
+IT: Vado comunque allo sportello, tanto non c'è nessuno.
+UK: Все одно піду до віконця, там нікого немає.
+NOTE: feedback UK: Все одно піду до віконця, там нікого немає. | wrong
+
+[opzione/bookish]
+IT: Ottempererò scrupolosamente alle disposizioni relative all'ordine di chiamata.
+UK: Я скрупульозно дотримаюся розпоряджень щодо порядку виклику.
+NOTE: feedback UK: Я скрупульозно дотримаюся розпоряджень щодо порядку виклику. | bookish
+
+[opzione/natural]
+IT: Sì, ho il biglietto. Aspetto qui che esca il mio numero, grazie.
+UK: Так, у мене є талончик. Чекаю тут, поки з’явиться мій номер, дякую.
+NOTE: feedback UK: Так, у мене є талончик. Чекаю тут, поки з’явиться мій номер, дякую. | natural
+
+[npc]
+IT: È il numero 37, sportello 4.
+UK: Це номер 37, віконце 4.
+NOTE: speaker: Tabellone
+
+[opzione/wrong]
+IT: Vado allo sportello 1, è più vicino.
+UK: Піду до віконця 1, воно ближче.
+NOTE: feedback UK: Піду до віконця 1, воно ближче. | wrong
+
+[opzione/natural]
+IT: È il mio numero. Vado allo sportello 4 con i documenti in ordine.
+UK: Це мій номер. Йду до віконця 4 з документами в порядку.
+NOTE: feedback UK: Це мій номер. Йду до віконця 4 з документами в порядку. | natural
+
+[opzione/bookish]
+IT: Constatato l'avviso elettronico, mi reco immediatamente al bancone indicato.
+UK: Зафіксувавши електронне оголошення, негайно прямую до вказаної стійки.
+NOTE: feedback UK: Зафіксувавши електронне оголошення, негайно прямую до вказаної стійки. | bookish
+
+##### GIORNO 2 —  #####
+Titolo (UK): Anagrafe: Sportello
+
+[contesto]
+UK: Номер Марка випав. Він підходить до sportello 4. За віконцем — impiegato. Тут уже не тотем, а жива розмова: мета візиту, документи, бланк, якого бракує, і спокійний Lei до arrivederci.
+
+[frase]
+IT: Buongiorno, vorrei presentare la dichiarazione di residenza.
+UK: Доброго дня, я хотів би подати декларацію про місце проживання.
+
+[frase]
+IT: Ecco il passaporto, il codice fiscale e il permesso.
+UK: Ось паспорт, код фіскале і пермессо.
+
+[frase]
+IT: Il modulo non l'ho compilato. Me lo dà lei, per favore?
+UK: Бланк я не заповнив. Дасте мені його, будь ласка?
+
+[frase]
+IT: Abito in via Roma dodici, con mia moglie e mia figlia.
+UK: Живу на via Roma 12, з дружиною і донькою.
+
+[frase]
+IT: Posso avere la ricevuta, per favore?
+UK: Можна квитанцію, будь ласка?
+
+[cultura]
+UK: За sportello одна відповідь — на одне питання. Якщо бракує modulo, спокійно скажіть і попросіть бланк. Не виправдовуйтесь довго. Ім'я диктуйте як у паспорті або покажіть документ. Lei тримайте до Grazie, arrivederci.
+
+[npc]
+IT: Buongiorno, mi dica.
+UK: Доброго дня, слухаю вас.
+NOTE: speaker: Impiegato
+
+[opzione/natural]
+IT: Buongiorno, vorrei presentare la dichiarazione di residenza. Mi sono trasferito a Treviso da poco.
+UK: Доброго дня, я хотів би подати декларацію про місце проживання. Я нещодавно переїхав до Тревізо.
+NOTE: feedback UK: Доброго дня, я хотів би подати декларацію про місце проживання. Я нещодавно переїхав до Тревізо. | natural
+
+[opzione/bookish]
+IT: Desidererei sottoporre all'attenzione dell'ufficio l'istanza di iscrizione anagrafica.
+UK: Бажав би подати на розгляд установи заяву про анаграфічну реєстрацію.
+NOTE: feedback UK: Бажав би подати на розгляд установи заяву про анаграфічну реєстрацію. | bookish
+
+[opzione/wrong]
+IT: Ciao, fammi la residenza adesso.
+UK: Привіт, зроби мені резиденцію зараз.
+NOTE: feedback UK: Привіт, зроби мені резиденцію зараз. | wrong
+
+[npc]
+IT: Va bene. Ha già un appuntamento o è passato col numero del totem?
+UK: Добре. У вас уже є запис чи ви зайшли з номером із тотема?
+NOTE: speaker: Impiegato
+
+[opzione/bookish]
+IT: Ho ottemperato alla procedura di prenotazione mediante il totem elettronico.
+UK: Я виконав процедуру бронювання за допомогою електронного тотема.
+NOTE: feedback UK: Я виконав процедуру бронювання за допомогою електронного тотема. | bookish
+
+[opzione/wrong]
+IT: Non ho il numero, ma la coda è lunga e io lavoro.
+UK: У мене немає номера, але черга довга, а я працюю.
+NOTE: feedback UK: У мене немає номера, але черга довга, а я працюю. | wrong
+
+[opzione/natural]
+IT: Ho preso il biglietto al totem, categoria Anagrafe. Questo è il mio numero.
+UK: Я взяв талончик на тотемі, категорія Anagrafe. Це мій номер.
+NOTE: feedback UK: Я взяв талончик на тотемі, категорія Anagrafe. Це мій номер. | natural
+
+[npc]
+IT: I documenti, prego: il passaporto, il codice fiscale, il permesso di soggiorno e il contratto d'affitto.
+UK: Документи, будь ласка: паспорт, код фіскале, дозвіл на проживання і договір оренди.
+NOTE: speaker: Impiegato
+
+[opzione/natural]
+IT: Sì, ecco il passaporto, il codice fiscale, il permesso e il contratto d'affitto. Li metto qui.
+UK: Так, ось паспорт, код фіскале, пермессо і договір оренди. Кладу їх тут.
+NOTE: feedback UK: Так, ось паспорт, код фіскале, пермессо і договір оренди. Кладу їх тут. | natural
+
+[opzione/wrong]
+IT: Guardi sul telefono, ho le foto. Gli originali sono a casa.
+UK: Подивіться в телефоні, у мене фото. Оригінали вдома.
+NOTE: feedback UK: Подивіться в телефоні, у мене фото. Оригінали вдома. | wrong
+
+[opzione/bookish]
+IT: Le consegno qui di seguito l'intera documentazione identificativa e contrattuale in originale.
+UK: Передаю вам далі всю ідентифікаційну та договірну документацію в оригіналі.
+NOTE: feedback UK: Передаю вам далі всю ідентифікаційну та договірну документацію в оригіналі. | bookish
+
+[npc]
+IT: Il contratto c'è. Però non vedo il modulo della dichiarazione già compilato. Lo ha stampato dal sito del Comune?
+UK: Договір є. Але я не бачу вже заповненого бланка декларації. Ви роздрукували його з сайту комуни?
+NOTE: speaker: Impiegato
+
+[opzione/bookish]
+IT: Lamentabilmente non ho provveduto alla previa compilazione del modulo scaricato dal portale istituzionale.
+UK: На жаль, я не забезпечив попереднього заповнення бланка, завантаженого з інституційного порталу.
+NOTE: feedback UK: На жаль, я не забезпечив попереднього заповнення бланка, завантаженого з інституційного порталу. | bookish
+
+[opzione/natural]
+IT: No, non l'ho compilato. Me lo dà lei adesso, per favore? Lo riempio qui.
+UK: Ні, я його не заповнив. Дасте мені його зараз, будь ласка? Заповню тут.
+NOTE: feedback UK: Ні, я його не заповнив. Дасте мені його зараз, будь ласка? Заповню тут. | natural
+
+[opzione/wrong]
+IT: Non è un problema mio, lo deve fare lei.
+UK: Це не моя проблема, це маєте зробити ви.
+NOTE: feedback UK: Це не моя проблема, це маєте зробити ви. | wrong
+
+[npc]
+IT: Le do il modulo. Nome, cognome, data e luogo di nascita, indirizzo, componenti del nucleo. Ha una penna?
+UK: Даю вам бланк. Ім’я, прізвище, дата і місце народження, адреса, члени сім’ї. Є ручка?
+NOTE: speaker: Impiegato
+
+[opzione/wrong]
+IT: Lo firmi lei, tanto è uguale.
+UK: Підпишіть ви, це все одно.
+NOTE: feedback UK: Підпишіть ви, це все одно. | wrong
+
+[opzione/bookish]
+IT: La prego di illustrarmi analogamente ciascun campo del formulario.
+UK: Прошу аналогічно пояснити мені кожне поле формуляра.
+NOTE: feedback UK: Прошу аналогічно пояснити мені кожне поле формуляра. | bookish
+
+[opzione/natural]
+IT: Sì, grazie. Quale riga per l'indirizzo e per i familiari, scusi?
+UK: Так, дякую. Який рядок для адреси і для членів сім’ї, вибачте?
+NOTE: feedback UK: Так, дякую. Який рядок для адреси і для членів сім’ї, вибачте? | natural
+
+[npc]
+IT: Abita da solo o con altri familiari? Servono i documenti di tutti.
+UK: Ви живете самі чи з іншими членами сім’ї? Потрібні документи всіх.
+NOTE: speaker: Impiegato
+
+[opzione/wrong]
+IT: Sì, abito da solo. Gli altri non servono.
+UK: Так, живу сам. Інші не потрібні.
+NOTE: feedback UK: Так, живу сам. Інші не потрібні. | wrong
+
+[opzione/natural]
+IT: No, vivo con mia moglie e mia figlia. Ho anche i loro documenti, se li vuole vedere.
+UK: Ні, живу з дружиною і донькою. Маю також їхні документи, якщо хочете подивитися.
+NOTE: feedback UK: Ні, живу з дружиною і донькою. Маю також їхні документи, якщо хочете подивитися. | natural
+
+[opzione/bookish]
+IT: Il mio nucleo familiare risulta composto da coniuge e figlia conviventi presso il medesimo indirizzo.
+UK: Мій сімейний склад складається з дружини і доньки, які проживають за тією самою адресою.
+NOTE: feedback UK: Мій сімейний склад складається з дружини і доньки, які проживають за тією самою адресою. | bookish
+
+[npc]
+IT: Manca ancora la marca da bollo da 16 euro. Ce l'ha?
+UK: Бракує ще марки da bollo на 16 євро. Вона у вас є?
+NOTE: speaker: Impiegato
+
+[opzione/natural]
+IT: Sì, ce l'ho. L'ho comprata in tabaccheria stamattina. Ecco.
+UK: Так, є. Купив її в тютюновій крамниці сьогодні вранці. Ось.
+NOTE: feedback UK: Так, є. Купив її в тютюновій крамниці сьогодні вранці. Ось. | natural
+
+[opzione/bookish]
+IT: Ho provveduto all'acquisto del contrassegno telematico dell'imposta di bollo prevista.
+UK: Я забезпечив придбання телематичного знака передбаченого гербового збору.
+NOTE: feedback UK: Я забезпечив придбання телематичного знака передбаченого гербового збору. | bookish
+
+[opzione/wrong]
+IT: Pago dopo, quando mi date la residenza.
+UK: Заплачу потім, коли дасте мені резиденцію.
+NOTE: feedback UK: Заплачу потім, коли дасте мені резиденцію. | wrong
+
+[npc]
+IT: Bene. In fondo c'è la firma. Poi me lo riporti. Controllo i dati con il passaporto.
+UK: Добре. Унизу є підпис. Потім поверніть мені бланк. Перевірю дані з паспортом.
+NOTE: speaker: Impiegato
+
+[opzione/bookish]
+IT: Apporrò la mia sottoscrizione nello spazio deputato e resterò a disposizione per eventuali rettifiche.
+UK: Поставлю свій підпис у відведеному місці і залишатимусь у розпорядженні для можливих виправлень.
+NOTE: feedback UK: Поставлю свій підпис у відведеному місці і залишатимусь у розпорядженні для можливих виправлень. | bookish
+
+[opzione/wrong]
+IT: Non firmo se prima non mi date la carta.
+UK: Не підпишу, якщо спочатку не дасте картку.
+NOTE: feedback UK: Не підпишу, якщо спочатку не дасте картку. | wrong
+
+[opzione/natural]
+IT: Firmo qui. Se una lettera del cognome non è chiara, lo spello, se vuole.
+UK: Підписую тут. Якщо літера прізвища неясна, продиктую по літерах, якщо хочете.
+NOTE: feedback UK: Підписую тут. Якщо літера прізвища неясна, продиктую по літерах, якщо хочете. | natural
+
+[npc]
+IT: Un attimo che carico tutto. Il sistema è lento. Resti qui, per favore. Poi le spiego i controlli della Polizia Locale.
+UK: Хвилинку, завантажую все. Система повільна. Залишайтеся тут, будь ласка. Потім поясню перевірки місцевої поліції.
+NOTE: speaker: Impiegato
+
+[opzione/natural]
+IT: Certo, aspetto. Non c'è fretta. Grazie.
+UK: Звісно, чекаю. Нікуди не поспішаю. Дякую.
+NOTE: feedback UK: Звісно, чекаю. Нікуди не поспішаю. Дякую. | natural
+
+[opzione/wrong]
+IT: Svelto, ho un autobus. Faccia prima me.
+UK: Швидше, у мене автобус. Зробіть мене першим.
+NOTE: feedback UK: Швидше, у мене автобус. Зробіть мене першим. | wrong
+
+[opzione/bookish]
+IT: Attenderò pazientemente il completamento dell'inserimento informatico dei dati.
+UK: Терпляче чекатиму завершення комп’ютерного внесення даних.
+NOTE: feedback UK: Терпляче чекатиму завершення комп’ютерного внесення даних. | bookish
+
+[npc]
+IT: Fatto. Tiene la ricevuta. Nei giorni successivi possono arrivare i vigili per verificare che abiti davvero lì. Altre domande?
+UK: Готово. Візьміть квитанцію. У наступні дні можуть прийти муніципальні поліцейські перевірити, що ви справді там живете. Інші запитання?
+NOTE: speaker: Impiegato
+
+[opzione/bookish]
+IT: La ringrazio sentitamente per la solerte trattazione del procedimento amministrativo.
+UK: Щиро дякую за оперативний розгляд адміністративної процедури.
+NOTE: feedback UK: Щиро дякую за оперативний розгляд адміністративної процедури. | bookish
+
+[opzione/natural]
+IT: No, è tutto chiaro. Grazie, è stato gentile. Arrivederci.
+UK: Ні, усе зрозуміло. Дякую, ви були люб’язні. До побачення.
+NOTE: feedback UK: Ні, усе зрозуміло. Дякую, ви були люб’язні. До побачення. | natural
+
+[opzione/wrong]
+IT: Allora perché non mi date subito la carta d'identità?
+UK: Тоді чому мені одразу не дають посвідчення особи?
+NOTE: feedback UK: Тоді чому мені одразу не дають посвідчення особи? | wrong
+
+##### GIORNO 3 —  #####
+Titolo (UK): Anagrafe: Boss Level
+
+[contesto]
+UK: Comune di Treviso, сьогодні вранці. Від тотема до квитанції. Без перекладів і пояснень.
+
+[frase]
+IT: Buongiorno, grazie. Vado al totem.
+UK: Доброго дня, дякую. Йду до тотема.
+
+[frase]
+IT: Seleziono la voce Anagrafe / residenza.
+UK: Обираю пункт Anagrafe / residenza.
+
+[frase]
+IT: Va bene, aspetto qui con il biglietto.
+UK: Добре, чекаю тут із талончиком.
+
+[frase]
+IT: È il mio numero. Vado allo sportello 4.
+UK: Це мій номер. Йду до віконця 4.
+
+[frase]
+IT: Ah, scusi tanto. Vado allo sportello 4, grazie.
+UK: Ой, дуже перепрошую. Йду до віконця 4, дякую.
+
+[frase]
+IT: Buongiorno. Sì, numero 37. Vorrei presentare la dichiarazione di residenza.
+UK: Доброго дня. Так, номер 37. Я хотів би подати декларацію про місце проживання.
+
+[frase]
+IT: Ecco, sono tutti in originale: il passaporto, il codice fiscale, il permesso e il contratto.
+UK: Ось, усе в оригіналі: паспорт, код фіскале, пермессо і договір.
+
+[frase]
+IT: Compilo il modulo qui. La marca da bollo ce l'ho, ecco.
+UK: Заповню бланк тут. Марка da bollo в мене є, ось.
+
+[frase]
+IT: Abito in via Roma dodici, interno tre, secondo piano. Vivo con mia moglie e mia figlia.
+UK: Живу на via Roma дванадцять, квартира три, другий поверх. Живу з дружиною і донькою.
+
+[frase]
+IT: Firmo qui. Aspetto, grazie.
+UK: Підписую тут. Чекаю, дякую.
+
+[frase]
+IT: Va bene, aspetto. Grazie per l'informazione.
+UK: Добре, чекаю. Дякую за інформацію.
+
+[frase]
+IT: Grazie, la metto in cartella. Arrivederci, buona giornata.
+UK: Дякую, кладу в папку. До побачення, гарного дня.
+
+[npc]
+IT: Buongiorno. Per l'Anagrafe il totem è a sinistra. Poi aspetti il numero.
+UK: Доброго дня. Для Anagrafe тотем ліворуч. Потім чекайте номер.
+NOTE: speaker: Ingresso
+
+[opzione/natural]
+IT: Buongiorno, grazie. Vado al totem.
+UK: Доброго дня, дякую. Йду до тотема.
+NOTE: natural
+
+[opzione/wrong]
+IT: Dov'è lo sportello? Non ho tempo per i numeri.
+UK: Де віконце? Немає часу на номери.
+NOTE: wrong
+
+[opzione/bookish]
+IT: La ringrazio per l'indicazione relativa all'apparato di emissione dei biglietti.
+UK: Дякую за вказівку щодо апарата видачі талонів.
+NOTE: bookish
+
+[npc]
+IT: 1 Carta d'identità  2 Anagrafe / residenza  3 Stato civile  4 Pagamenti
+UK: 1 Посвідчення особи  2 Anagrafe / резиденція  3 Цивільний стан  4 Платежі
+NOTE: speaker: Totem
+
+[opzione/bookish]
+IT: Opto per la voce concernente l'iscrizione anagrafica.
+UK: Обираю пункт, що стосується анаграфічної реєстрації.
+NOTE: bookish
+
+[opzione/natural]
+IT: Seleziono la voce Anagrafe / residenza.
+UK: Обираю пункт Anagrafe / residenza.
+NOTE: natural
+
+[opzione/wrong]
+IT: La carta d'identità è più veloce.
+UK: Посвідчення особи швидше.
+NOTE: wrong
+
+[npc]
+IT: Si sieda. Il numero esce sul tabellone. Non si avvicini allo sportello prima.
+UK: Сідайте. Номер з’явиться на табло. Не підходьте до віконця раніше.
+NOTE: speaker: Sala d'attesa
+
+[opzione/wrong]
+IT: Chiedo allo sportello se posso passare, tanto c'è posto.
+UK: Запитаю у віконця, чи можу пройти, там є місце.
+NOTE: wrong
+
+[opzione/bookish]
+IT: Mi conformerò all'ordine di chiamata elettronica.
+UK: Дотримуватимуся порядку електронного виклику.
+NOTE: bookish
+
+[opzione/natural]
+IT: Va bene, aspetto qui con il biglietto.
+UK: Добре, чекаю тут із талончиком.
+NOTE: natural
+
+[npc]
+IT: È il numero 37, sportello 4.
+UK: Це номер 37, віконце 4.
+NOTE: speaker: Tabellone
+
+[opzione/wrong]
+IT: Vado allo sportello 2, c'è meno gente.
+UK: Піду до віконця 2, там менше людей.
+NOTE: wrong
+
+[opzione/natural]
+IT: È il mio numero. Vado allo sportello 4.
+UK: Це мій номер. Йду до віконця 4.
+NOTE: natural
+
+[opzione/bookish]
+IT: Mi reco al bancone corrispondente all'avviso luminoso.
+UK: Прямую до стійки, що відповідає світловому оголошенню.
+NOTE: bookish
+
+[npc]
+IT: Questo sportello è per la carta d'identità. La residenza è allo sportello 4.
+UK: Це віконце для посвідчення особи. Резиденція — віконце 4.
+NOTE: speaker: Sportello 2
+
+[opzione/natural]
+IT: Ah, scusi tanto. Vado allo sportello 4, grazie.
+UK: Ой, дуже перепрошую. Йду до віконця 4, дякую.
+NOTE: natural
+
+[opzione/bookish]
+IT: Chiedo venia per l'equivoco e mi dirigo verso lo sportello indicato.
+UK: Прошу вибачення за непорозуміння і прямую до вказаного віконця.
+NOTE: bookish
+
+[opzione/wrong]
+IT: È lo stesso Comune, può farla lei.
+UK: Це та сама комуна, можете зробити ви.
+NOTE: wrong
+
+[npc]
+IT: Buongiorno, mi dica. Ha il numero?
+UK: Доброго дня, слухаю. У вас є номер?
+NOTE: speaker: Impiegato — sportello 4
+
+[opzione/bookish]
+IT: Buongiorno. Le sottopongo il titolo di coda e l'istanza di residenza.
+UK: Доброго дня. Подаю вам талон черги і заяву на резиденцію.
+NOTE: bookish
+
+[opzione/wrong]
+IT: Ciao. Voglio la residenza, e veloce.
+UK: Привіт. Хочу резиденцію, і швидко.
+NOTE: wrong
+
+[opzione/natural]
+IT: Buongiorno. Sì, numero 37. Vorrei presentare la dichiarazione di residenza.
+UK: Доброго дня. Так, номер 37. Я хотів би подати декларацію про місце проживання.
+NOTE: natural
+
+[npc]
+IT: Mi servono i documenti: il passaporto, il codice fiscale, il permesso e il contratto d'affitto.
+UK: Потрібні документи: паспорт, код фіскале, пермессо, договір оренди.
+NOTE: speaker: Impiegato
+
+[opzione/natural]
+IT: Ecco, sono tutti in originale: il passaporto, il codice fiscale, il permesso e il contratto.
+UK: Ось, усе в оригіналі: паспорт, код фіскале, пермессо і договір.
+NOTE: natural
+
+[opzione/wrong]
+IT: Le foto sono sul telefono. Gli originali li porto dopo.
+UK: Фото в телефоні. Оригінали принесу потім.
+NOTE: wrong
+
+[opzione/bookish]
+IT: Le deposito l'intera documentazione in originale come richiesto.
+UK: Здаю всю документацію в оригіналі, як вимагається.
+NOTE: bookish
+
+[npc]
+IT: Il modulo della dichiarazione non c'è. Lo compila adesso. E la marca da bollo da 16 euro?
+UK: Бланка декларації немає. Заповнюєте зараз. А марка da bollo на 16 євро?
+NOTE: speaker: Impiegato
+
+[opzione/bookish]
+IT: Provvedo immediatamente alla compilazione e alla consegna del contrassegno di bollo.
+UK: Негайно забезпечу заповнення і здачу гербової марки.
+NOTE: bookish
+
+[opzione/natural]
+IT: Compilo il modulo qui. La marca da bollo ce l'ho, ecco.
+UK: Заповню бланк тут. Марка da bollo в мене є, ось.
+NOTE: natural
+
+[opzione/wrong]
+IT: Lo faccia lei. Io firmo dopo, se mi conviene.
+UK: Зробіть ви. Я підпишу потім, якщо мені вигідно.
+NOTE: wrong
+
+[npc]
+IT: Qual è il nucleo familiare? Mi dica l'indirizzo completo, l'interno e il piano.
+UK: Який сімейний склад? Назвіть повну адресу, внутрішній номер і поверх.
+NOTE: speaker: Impiegato
+
+[opzione/wrong]
+IT: È una via in centro. I dettagli non li ricordo.
+UK: Це якась вулиця в центрі. Деталей не пам’ятаю.
+NOTE: wrong
+
+[opzione/bookish]
+IT: L'abitazione è sita in via Roma 12, interno 3, piano secondo, con nucleo familiare convivente.
+UK: Житло розташоване на via Roma 12, внутрішня 3, другий поверх, із сім’єю, що проживає разом.
+NOTE: bookish
+
+[opzione/natural]
+IT: Abito in via Roma dodici, interno tre, secondo piano. Vivo con mia moglie e mia figlia.
+UK: Живу на via Roma дванадцять, квартира три, другий поверх. Живу з дружиною і донькою.
+NOTE: natural
+
+[npc]
+IT: Firmi in fondo. Poi resti un attimo: carico i dati.
+UK: Підпишіть унизу. Потім зачекайте хвилину: завантажую дані.
+NOTE: speaker: Impiegato
+
+[opzione/wrong]
+IT: Torno tra un'ora, mi chiami sul cellulare.
+UK: Повернуся за годину, зателефонуйте на мобільний.
+NOTE: wrong
+
+[opzione/natural]
+IT: Firmo qui. Aspetto, grazie.
+UK: Підписую тут. Чекаю, дякую.
+NOTE: natural
+
+[opzione/bookish]
+IT: Apporto la firma e attendo il caricamento del sistema.
+UK: Ставлю підпис і чекаю завантаження системи.
+NOTE: bookish
+
+[npc]
+IT: Il sistema è lento oggi. Resti qui. Poi può arrivare il controllo dei vigili a casa, nei giorni successivi.
+UK: Сьогодні система повільна. Залишайтеся тут. Потім може бути перевірка муніципальної поліції вдома в наступні дні.
+NOTE: speaker: Impiegato
+
+[opzione/natural]
+IT: Va bene, aspetto. Grazie per l'informazione.
+UK: Добре, чекаю. Дякую за інформацію.
+NOTE: natural
+
+[opzione/bookish]
+IT: Prendo atto della possibile verifica della Polizia Locale presso il domicilio.
+UK: Беру до відома можливу перевірку місцевої поліції за місцем проживання.
+NOTE: bookish
+
+[opzione/wrong]
+IT: I vigili a casa? Allora non firmo niente.
+UK: Поліція вдома? Тоді я нічого не підписую.
+NOTE: wrong
+
+[npc]
+IT: Fatto. Ecco la ricevuta. La tenga. Buona giornata.
+UK: Готово. Ось квитанція. Збережіть її. Гарного дня.
+NOTE: speaker: Impiegato
+
+[opzione/bookish]
+IT: La ringrazio per il rilascio della ricevuta e le auguro una buona prosecuzione.
+UK: Дякую за видачу квитанції і бажаю гарного продовження дня.
+NOTE: bookish
+
+[opzione/wrong]
+IT: Questa carta è la residenza definitiva, vero? Allora dammi anche l'identità.
+UK: Ця картка — остаточна резиденція, так? Тоді дайте ще й посвідчення особи.
+NOTE: wrong
+
+[opzione/natural]
+IT: Grazie, la metto in cartella. Arrivederci, buona giornata.
+UK: Дякую, кладу в папку. До побачення, гарного дня.
+NOTE: natural
+
+[successo_titolo]
+UK: Резиденцію успішно отримано!
+
+##### GIORNO 4 — Iscriversi al SSN e Medico di Base #####
+Titolo (UK): ASL i Tessera Sanitaria: Реєстрація в медичній системі
+
+[contesto]
+UK: Лаура нещодавно переїхала до Падуї. Після оформлення резиденції в Anagrafe вона робить наступний важливий крок — іде до ASL (Azienda Sanitaria Locale), щоб зареєструватися в SSN (Servizio Sanitario Nazionale), отримати Tessera Sanitaria та обрати сімейного лікаря (Medico di base). З собою вона має: passaporto, permesso di soggiorno, codice fiscale та dichiarazione di residenza.
+
+[documento]
+IT: Passaporto / Carta d'identità
+UK: Паспорт / посвідчення особи
+
+[documento]
+IT: Permesso di soggiorno
+UK: Дозвіл на проживання
+
+[documento]
+IT: Codice fiscale
+UK: Податковий код
+
+[documento]
+IT: Dichiarazione di residenza
+UK: Декларація про місце проживання
+
+[frase]
+IT: Devo iscrivermi al Servizio Sanitario Nazionale.
+UK: Мені потрібно зареєструватися в Національній службі охорони здоров'я.
+
+[frase]
+IT: Devo scegliere un medico di base.
+UK: Мені потрібно обрати сімейного лікаря.
+
+[frase]
+IT: È vicino a casa mia.
+UK: Це близько до мого дому.
+
+[frase]
+IT: Dove devo andare in caso di emergenza?
+UK: Куди мені звертатися у разі невідкладної ситуації?
+
+[grammatica_titolo]
+UK: Медична термінологія та право на допомогу
+
+[regola]
+UK: Використання виразу 'Avere diritto a...' (Ha diritto all'iscrizione).
+
+[esempio]
+IT: Ha diritto all'iscrizione gratuita.
+UK: Ви маєте право на безкоштовну реєстрацію.
+
+[esempio]
+IT: Ho diritto al medico di base.
+UK: Я маю право на сімейного лікаря.
+
+[regola]
+UK: Вказування відстані: 'vicino a...' (близько до...).
+
+[esempio]
+IT: Il medico è vicino a casa mia.
+UK: Лікар близько від мого дому.
+
+[esempio]
+IT: L'ufficio è vicino al Comune.
+UK: Офіс близько від комуни.
+
+[cultura]
+UK: Реєстрація в SSN за наявності дозволу на проживання (Permesso di soggiorno) є абсолютно безкоштовною. Звертаючись до працівників ASL, завжди вживайте ввічливу форму 'Lei' та вітайтеся 'Buongiorno'.
+
+##### GIORNO 5 — Iscriversi al SSN e Medico di Base #####
+Titolo (UK): Візит до ASL: Оформлення картки та вибір лікаря
+
+[contesto]
+UK: Лаура заходить у відділення ASL і підходить до віконця (sportello). Працівниця перевіряє її документи та підтверджує право на безкоштовну реєстрацію в SSN.
+
+[frase]
+IT: Buongiorno, mi scusi. Devo iscrivermi al Servizio Sanitario Nazionale. È questo lo sportello giusto?
+UK: Доброго дня, вибачте. Мені потрібно зареєструватися в Національній службі охорони здоров'я. Це правильне віконце?
+
+[frase]
+IT: Ecco il passaporto, il permesso di soggiorno, il codice fiscale e la dichiarazione di residenza.
+UK: Ось паспорт, дозвіл на проживання, податковий код і декларація про місце проживання.
+
+[frase]
+IT: No, non ancora. Come posso sceglierlo? Posso vedere la lista dei medici disponibili?
+UK: Ні, ще ні. Як я можу його обрати? Можу подивитися список доступних лікарів?
+
+[frase]
+IT: Sì, mi sembra comodo. È vicino a casa mia, scelgo questo.
+UK: Так, мені здається зручним. Він близько від дому, обираю цього.
+
+[frase]
+IT: Grazie! E se ho un problema urgente la sera o nel fine settimana?
+UK: Дякую! А якщо в мене термінова проблема ввечері або у вихідні?
+
+[frase]
+IT: Molte grazie per la spiegazione! Buona giornata.
+UK: Щиро дякую за пояснення! Гарного дня.
+
+[cultura]
+UK: Пам'ятайте різницю: Guardia Medica працює вночі та у вихідні дні для невідкладних побутових випадків. Pronto Soccorso — це цілодобова швидка/приймальне відділення для важких та загрозливих ситуацій.
+
+[npc]
+IT: Buongiorno. Mi dica, come posso aiutarla?
+UK: Доброго дня. Скажіть, чим можу допомогти?
+NOTE: speaker: Impiegata
+
+[opzione/natural]
+IT: Buongiorno, mi scusi. Devo iscrivermi al Servizio Sanitario Nazionale. È questo lo sportello giusto?
+UK: Доброго дня, вибачте. Мені потрібно зареєструватися в Національній службі охорони здоров'я. Це правильне віконце?
+NOTE: feedback UK: Доброго дня, вибачте. Мені потрібно зареєструватися в Національній службі охорони здоров'я. Це правильне віконце? | natural
+
+[opzione]
+IT: Scusi, sono qui per il rinnovo del passaporto. Dove faccio la coda?
+UK: Вибачте, я тут для продовження паспорта. Де черга?
+NOTE: feedback UK: Вибачте, я тут для продовження паспорта. Де черга?
+
+[opzione]
+IT: Ciao, voglio la tessera sanitaria subito.
+UK: Привіт, хочу tessera sanitaria негайно.
+NOTE: feedback UK: Привіт, хочу tessera sanitaria негайно.
+
+[npc]
+IT: Sì, buongiorno. Mi mostri i documenti, per favore.
+UK: Так, доброго дня. Покажіть документи, будь ласка.
+NOTE: speaker: Impiegata
+
+[opzione]
+IT: Ho solo la carta d'identità.
+UK: У мене лише посвідчення особи.
+NOTE: feedback UK: У мене лише посвідчення особи.
+
+[opzione/natural]
+IT: Ecco il passaporto, il permesso di soggiorno, il codice fiscale e la dichiarazione di residenza.
+UK: Ось паспорт, дозвіл на проживання, податковий код і декларація про місце проживання.
+NOTE: feedback UK: Ось паспорт, дозвіл на проживання, податковий код і декларація про місце проживання. | natural
+
+[opzione]
+IT: I documenti sono a casa, li mando dopo per email.
+UK: Документи вдома, надішлю потім електронною поштою.
+NOTE: feedback UK: Документи вдома, надішлю потім електронною поштою.
+
+[npc]
+IT: Perfetto. Con il suo permesso di soggiorno ha diritto all’iscrizione gratuita. Ha già un medico di base?
+UK: Чудово. З вашим permesso di soggiorno ви маєте право на безкоштовну реєстрацію. У вас уже є сімейний лікар?
+NOTE: speaker: Impiegata
+
+[opzione]
+IT: Sì, ho già il medico di base in Ucraina. Va bene lo stesso?
+UK: Так, у мене вже є сімейний лікар в Україні. Так теж підходить?
+NOTE: feedback UK: Так, у мене вже є сімейний лікар в Україні. Так теж підходить?
+
+[opzione]
+IT: Sì, ho già la ricevuta dell'Anagrafe.
+UK: Так, у мене вже є квитанція з Anagrafe.
+NOTE: feedback UK: Так, у мене вже є квитанція з Anagrafe.
+
+[opzione/natural]
+IT: No, non ancora. Come posso sceglierlo? Posso vedere la lista dei medici disponibili?
+UK: Ні, ще ні. Як я можу його обрати? Можу подивитися список доступних лікарів?
+NOTE: feedback UK: Ні, ще ні. Як я можу його обрати? Можу подивитися список доступних лікарів? | natural
+
+[npc]
+IT: Le mostro una lista dei medici disponibili nella sua zona. Questo medico è vicino a casa sua e ha posto.
+UK: Показую список доступних лікарів у вашому районі. Цей лікар близько від вашого дому і має місце.
+NOTE: speaker: Impiegata
+
+[opzione]
+IT: Mi dia il primo della lista, non importa chi è.
+UK: Дайте першого зі списку, байдуже хто.
+NOTE: feedback UK: Дайте першого зі списку, байдуже хто.
+
+[opzione/natural]
+IT: Sì, mi sembra comodo. È vicino a casa mia, scelgo questo.
+UK: Так, мені здається зручним. Він близько від дому, обираю цього.
+NOTE: feedback UK: Так, мені здається зручним. Він близько від дому, обираю цього. | natural
+
+[opzione]
+IT: No, preferisco un medico in un’altra città, lontano da casa.
+UK: Ні, я хочу лікаря в іншому місті, далеко від дому.
+NOTE: feedback UK: Ні, я хочу лікаря в іншому місті, далеко від дому.
+
+[npc]
+IT: Perfetto, lo registro subito. Ecco la sua tessera sanitaria provvisoria.
+UK: Чудово, зараз зареєструю. Ось ваша тимчасова медична картка.
+NOTE: speaker: Impiegata
+
+[opzione/natural]
+IT: Grazie! E se ho un problema urgente la sera o nel fine settimana?
+UK: Дякую! А якщо в мене термінова проблема ввечері або у вихідні?
+NOTE: feedback UK: Дякую! А якщо в мене термінова проблема ввечері або у вихідні? | natural
+
+[opzione]
+IT: Devo pagare duecento euro per la tessera, vero?
+UK: Я маю заплатити двісті євро за картку, так?
+NOTE: feedback UK: Я маю заплатити двісті євро за картку, так?
+
+[opzione]
+IT: La tessera definitiva arriva oggi, la aspetto qui tre ore.
+UK: Остаточна картка прийде сьогодні, почекаю тут три години.
+NOTE: feedback UK: Остаточна картка прийде сьогодні, почекаю тут три години.
+
+[npc]
+IT: Per le urgenze serali e nei festivi c’è la guardia medica. Per le emergenze gravi c’è il pronto soccorso, aperto 24 ore su 24.
+UK: Для вечірніх і святкових невідкладних випадків є guardia medica. Для важких — pronto soccorso, відкритий цілодобово.
+NOTE: speaker: Impiegata
+
+[opzione]
+IT: Allora vado sempre al pronto soccorso anche per un raffreddore.
+UK: Тоді завжди йду в pronto soccorso навіть із застудою.
+NOTE: feedback UK: Тоді завжди йду в pronto soccorso навіть із застудою.
+
+[opzione]
+IT: La guardia medica è solo per i turisti, vero?
+UK: Guardia medica лише для туристів, так?
+NOTE: feedback UK: Guardia medica лише для туристів, так?
+
+[opzione/natural]
+IT: Molte grazie per la spiegazione! Buona giornata.
+UK: Щиро дякую за пояснення! Гарного дня.
+NOTE: feedback UK: Щиро дякую за пояснення! Гарного дня. | natural
+
+##### GIORNO 6 — Iscriversi al SSN e Medico di Base #####
+Titolo (UK): Boss Level 🏆: Симуляція реєстрації в ASL
+
+[contesto]
+UK: Фінальний іспит модуля! Лаура проходить весь шлях у Падуї самостійно: від перевірки документів до вибору лікаря та розрізнення Guardia Medica і Pronto Soccorso. Підказки та переклад вимкнено!
+
+[quiz_domanda]
+UK: Як сказати працівнику ASL, що вам потрібно зареєструватися в системі охорони здоров'я?
+NOTE: id p1
+
+[quiz_opzione]
+IT: Devo iscrivermi al Servizio Sanitario Nazionale.
+NOTE: CORRETTA
+
+[quiz_opzione]
+IT: Vorrei comprare una ricetta medica.
+
+[quiz_opzione]
+IT: Cerco un appartamento in affitto.
+
+[quiz_spiegazione]
+UK: 'Devo iscrivermi...' = 'Мені потрібно зареєструватися...'
+
+[quiz_domanda]
+UK: Яку фразу ви використаєте, щоб попросити обрати сімейного лікаря?
+NOTE: id p2
+
+[quiz_opzione]
+IT: Devo cambiare il passaporto.
+
+[quiz_opzione]
+IT: Devo scegliere un medico di base.
+NOTE: CORRETTA
+
+[quiz_opzione]
+IT: Ho già un appuntamento all'Anagrafe.
+
+[quiz_spiegazione]
+UK: 'Medico di base' — це сімейний лікар.
+
+[quiz_domanda]
+UK: Як уточнити, чи лікар близько до вашого помешкання?
+NOTE: id p3
+
+[quiz_opzione]
+IT: Il medico è aperto 24 ore su 24?
+
+[quiz_opzione]
+IT: È vicino a casa mia?
+NOTE: CORRETTA
+
+[quiz_opzione]
+IT: Ho bisogno di un codice fiscale.
+
+[quiz_spiegazione]
+UK: 'È vicino a casa mia?' = 'Це близько до мого дому?'
+
+[quiz_domanda]
+UK: Куди слід звертатися у разі важкої та цілодобової загрози здоров'ю?
+NOTE: id p4
+
+[quiz_opzione]
+IT: All'ufficio Anagrafe.
+
+[quiz_opzione]
+IT: Al Pronto Soccorso.
+NOTE: CORRETTA
+
+[quiz_opzione]
+IT: Allo sportello della posta.
+
+[quiz_spiegazione]
+UK: 'Pronto Soccorso' — відділення невідкладної допомоги (24/7).
+
+[quiz_domanda]
+UK: Що відповість працівник на питання про вартість реєстрації з Permesso di Soggiorno?
+NOTE: id p5
+
+[quiz_opzione]
+IT: Ha diritto all’iscrizione gratuita.
+NOTE: CORRETTA
+
+[quiz_opzione]
+IT: Deve pagare la marca da bollo.
+
+[quiz_opzione]
+IT: L'iscrizione costa cento euro.
+
+[quiz_spiegazione]
+UK: Реєстрація в SSN за наявності дозволу на проживання є безкоштовною.
+
+[quiz_domanda]
+UK: До кого звертатися при медичних невідкладних випадках уночі або у святкові дні?
+NOTE: id p6
+
+[quiz_opzione]
+IT: Alla Guardia Medica.
+NOTE: CORRETTA
+
+[quiz_opzione]
+IT: All'Ufficio Postale.
+
+[quiz_opzione]
+IT: Al Comune di Padova.
+
+[quiz_spiegazione]
+UK: 'Guardia Medica' — нічна та святкова чергова служба.
+
+[successo_msg]
+UK: Вітаємо! Ви успішно пройшли симуляцію, отримали Tessera Sanitaria та обрали сімейного лікаря в Італії!
+
+[badge]
+UK: Учасник SSN 🏥
+
+##### GIORNO 7 — Al Ristorante e in Trattoria #####
+Titolo (UK): Ресторан та Траторія: Бронювання та культура їжі
+
+[contesto]
+UK: Марко та Лаура вирішили пообідати у місцевій сімейній траторії в Treviso. В Італії культурі харчування приділяють особливу увагу: важливо знати, як забронювати столик, замовити воду, зрозуміти, що таке 'coperto' у чеку, та як правильно попросити каву після обіду.
+
+[frase]
+IT: Vorrei prenotare un tavolo per due persone per stasera.
+UK: Я хотів би забронювати столик на двох на сьогодні на вечір.
+
+[frase]
+IT: Avete un tavolo libero per due?
+UK: У вас є вільний столик на двох?
+
+[frase]
+IT: Vorrei una bottiglia d'acqua naturale o frizzante, per favore.
+UK: Я хотів би пляшку води без газу або з газом, будь ласка.
+
+[frase]
+IT: Possiamo avere il menu, per favore?
+UK: Можна нам меню, будь ласка?
+
+[grammatica_titolo]
+UK: Ввічливі прохання через 'Vorrei' та 'Possiamo'
+
+[regola]
+UK: Використання 'Vorrei + інфінітив' замість 'Voglio' (Я б хотів/хотіла...).
+
+[esempio]
+IT: Vorrei ordinare.
+UK: Я хотів би замовити.
+
+[esempio]
+IT: Vorrei un tavolo all'aperto.
+UK: Я хотів би столик на відкритому повітрі.
+
+[regola]
+UK: Запитання 'Possiamo + інфінітив' (Чи можемо ми...).
+
+[esempio]
+IT: Possiamo sederci qui?
+UK: Можемо сісти тут?
+
+[esempio]
+IT: Possiamo avere il conto?
+UK: Можемо отримати рахунок?
+
+[tip]
+UK: Coperto — це плата за хліб та сервірування (зазвичай 1.50€–3.00€ з особи, вказується в меню).
+
+[tip]
+UK: Cappuccino в Італії п'ють тільки до 11:00 ранку. Після обіду замовляють Caffè espresso або Macchiato.
+
+[tip]
+UK: Воду завжди подають у пляшках: треба уточнити 'naturale' (без газу) чи 'frizzante' (з газом).
+
+[cultura]
+UK: В італійських ресторанах обід (pranzo) зазвичай триває з 12:30 до 14:30, а вечеря (cena) розпочинається не раніше 19:30 або 20:00.
+
+##### GIORNO 8 — Al Ristorante e in Trattoria #####
+Titolo (UK): Живий діалог: Замовлення страв та розрахунок
+
+[contesto]
+UK: Марко та Лаура заходять до траторії. Офіціант (Cameriere) зустрічає їх біля входу і проводить до столика.
+
+[cultura]
+UK: В Італії чек не приносять автоматично одразу після того, як ви доїли — це вважається квапленням гостя. Ви маєте самі сказати офіціанту: 'Il conto, per favore'.
+
+[npc]
+IT: Buongiorno! Avete prenotato o cercate un tavolo?
+UK: Доброго дня! Ви бронювали чи шукаєте столик?
+NOTE: speaker: Cameriere
+
+[opzione]
+IT: Abbiamo già mangiato, vogliamo solo usare il bagno.
+UK: Ми вже поїли, хочемо лише скористатися туалетом.
+NOTE: feedback UK: Ми вже поїли, хочемо лише скористатися туалетом.
+
+[opzione]
+IT: Ciao, voglio mangiare subito.
+UK: Привіт, хочу їсти зараз.
+NOTE: feedback UK: Привіт, хочу їсти зараз.
+
+[opzione/natural]
+IT: Buongiorno! Abbiamo una prenotazione a nome Marco per due persone.
+UK: Доброго дня! У нас бронювання на ім’я Marco на двох осіб.
+NOTE: feedback UK: Доброго дня! У нас бронювання на ім’я Marco на двох осіб. | natural
+
+[npc]
+IT: Perfetto, venite pure. Ecco il menu. Da bere cosa vi porto per iniziare?
+UK: Чудово, заходьте. Ось меню. Що принести випити на початок?
+NOTE: speaker: Cameriere
+
+[opzione]
+IT: Vorrei due Coca-Cola grandi con ghiaccio e limone, come al fast food.
+UK: Дві великі кока-коли з льодом і лимоном, як у фастфуді.
+NOTE: feedback UK: Дві великі кока-коли з льодом і лимоном, як у фастфуді.
+
+[opzione/natural]
+IT: Una bottiglia d'acqua naturale e due calici di vino della casa, grazie.
+UK: Пляшку негазованої води і два келихи домашнього вина, дякую.
+NOTE: feedback UK: Пляшку негазованої води і два келихи домашнього вина, дякую. | natural
+
+[opzione]
+IT: Dammi dell'acqua e basta.
+UK: Дай води і все.
+NOTE: feedback UK: Дай води і все.
+
+[npc]
+IT: Siete pronti per ordinare i piatti?
+UK: Готові замовляти страви?
+NOTE: speaker: Cameriere
+
+[opzione/natural]
+IT: Sì! Come primo prendiamo due tagliatelle al ragù, e come secondo una tagliata di manzo da dividere.
+UK: Так! На перше візьмемо дві тальятелле з рагу, а на друге — тальяту з яловичини на двох.
+NOTE: feedback UK: Так! На перше візьмемо дві тальятелле з рагу, а на друге — тальяту з яловичини на двох. | natural
+
+[opzione]
+IT: Vorrei un cappuccino e una pizza al ragù.
+UK: Я хотів би капучино і піцу з рагу.
+NOTE: feedback UK: Я хотів би капучино і піцу з рагу.
+
+[opzione]
+IT: Porti tutto insieme, non importa l’ordine dei piatti.
+UK: Несіть усе разом, порядок страв не важливий.
+NOTE: feedback UK: Несіть усе разом, порядок страв не важливий.
+
+[npc]
+IT: Ottima scelta! Desiderate un dolce o un caffè alla fine?
+UK: Чудовий вибір! Бажаєте десерт чи каву наприкінці?
+NOTE: speaker: Cameriere
+
+[opzione]
+IT: Vorrei due cappuccini grandi, grazie.
+UK: Два великі капучино, дякую.
+NOTE: feedback UK: Два великі капучино, дякую.
+
+[opzione]
+IT: Vorrei un tè al latte e una birra grande, dopo la pasta.
+UK: Чай з молоком і велике пиво після пасти.
+NOTE: feedback UK: Чай з молоком і велике пиво після пасти.
+
+[opzione/natural]
+IT: Vorrei un tiramisù e due caffè espresso, per favore.
+UK: Тірамісу і дві кави еспресо, будь ласка.
+NOTE: feedback UK: Тірамісу і дві кави еспресо, будь ласка. | natural
+
+[npc]
+IT: Perfetto, arrivano subito. Serve altro?
+UK: Чудово, зараз принесуть. Ще щось потрібно?
+NOTE: speaker: Cameriere
+
+[opzione/natural]
+IT: No, grazie. Quando è possibile, possiamo avere il conto?
+UK: Ні, дякую. Коли можна, принесіть рахунок?
+NOTE: feedback UK: Ні, дякую. Коли можна, принесіть рахунок? | natural
+
+[opzione]
+IT: Possiamo uscire senza pagare, torniamo domani.
+UK: Можемо вийти не платячи, повернемося завтра.
+NOTE: feedback UK: Можемо вийти не платячи, повернемося завтра.
+
+[opzione]
+IT: Sì, vorrei un altro primo. Il conto lo porti da solo, senza chiedere.
+UK: Так, ще одне перше. Рахунок принесіть самі, не питаючи.
+NOTE: feedback UK: Так, ще одне перше. Рахунок принесіть самі, не питаючи.
+
+[npc]
+IT: Certamente! Pagate insieme o separati? Accettiamo anche la carta.
+UK: Звісно! Платите разом чи окремо? Приймаємо також картку.
+NOTE: speaker: Cameriere
+
+[opzione]
+IT: Paghiamo in banconote da duecento, senza mancia e senza scontrino.
+UK: Платимо купюрами по двісті, без чайових і без чека.
+NOTE: feedback UK: Платимо купюрами по двісті, без чайових і без чека.
+
+[opzione/natural]
+IT: Paghiamo con la carta, insieme. Grazie mille, tutto buonissimo!
+UK: Платимо карткою, разом. Дуже дякуємо, усе було чудово!
+NOTE: feedback UK: Платимо карткою, разом. Дуже дякуємо, усе було чудово! | natural
+
+[opzione]
+IT: Dividiamo il conto in dieci parti uguali, anche per chi non ha mangiato.
+UK: Поділимо рахунок на десять рівних частин, навіть для тих, хто не їв.
+NOTE: feedback UK: Поділимо рахунок на десять рівних частин, навіть для тих, хто не їв.
+
+##### GIORNO 9 — Al Ristorante e in Trattoria #####
+Titolo (UK): Boss Level 🏆: Симуляція обіду в італійському ресторані
+
+[contesto]
+UK: Фінальний іспит модуля! Ви самостійно замовляєте обід у траторії, спілкуєтеся з офіціантом, обираєте правильні напої та розраховуєтеся. Підказки та переклад вимкнено!
+
+[quiz_domanda]
+UK: Як ввічливо попросити забронювати столик на вечір?
+NOTE: id p1
+
+[quiz_opzione]
+IT: Vorrei prenotare un tavolo per due per stasera.
+NOTE: CORRETTA
+
+[quiz_opzione]
+IT: Voglio un tavolo subito per me.
+
+[quiz_opzione]
+IT: Avete un appartamento libero?
+
+[quiz_spiegazione]
+UK: 'Vorrei prenotare...' = 'Я хотів би забронювати...'
+
+[quiz_domanda]
+UK: Що означає позиція 'Coperto' у ресторані?
+NOTE: id p2
+
+[quiz_opzione]
+IT: Плата за хліб та сервірування столу.
+NOTE: CORRETTA
+
+[quiz_opzione]
+IT: Обов'язкові чайові офіціанту 20%.
+
+[quiz_opzione]
+IT: Штраф за спізнення.
+
+[quiz_spiegazione]
+UK: 'Coperto' — фіксована плата за посуд, хліб та сервірування.
+
+[quiz_domanda]
+UK: Яку каву прийнято замовляти в Італії одразу після обіду?
+NOTE: id p3
+
+[quiz_opzione]
+IT: Vorrei un cappuccino grande.
+
+[quiz_opzione]
+IT: Vorrei un caffè espresso.
+NOTE: CORRETTA
+
+[quiz_opzione]
+IT: Vorrei un tè freddo con latte.
+
+[quiz_spiegazione]
+UK: Після їжі італійці п'ють еспресо для покращення травлення.
+
+[quiz_domanda]
+UK: Як правильно просити чек в офіціанта?
+NOTE: id p4
+
+[quiz_opzione]
+IT: Possiamo avere il conto, per favore?
+NOTE: CORRETTA
+
+[quiz_opzione]
+IT: Dammi il prezzo della pizza.
+
+[quiz_opzione]
+IT: Devo fare la residenza.
+
+[quiz_spiegazione]
+UK: 'Il conto, per favore' = 'Чек, будь ласка'.
+
+[quiz_domanda]
+UK: Як уточнити офіціанту, що ви бажаєте звичайну воду без газу?
+NOTE: id p5
+
+[quiz_opzione]
+IT: Vorrei dell'acqua frizzante.
+
+[quiz_opzione]
+IT: Vorrei dell'acqua naturale.
+NOTE: CORRETTA
+
+[quiz_opzione]
+IT: Vorrei dell'acqua con il vino.
+
+[quiz_spiegazione]
+UK: 'Acqua naturale' = вода без газу.
+
+[successo_msg]
+UK: Вітаємо! Ви повністю засвоїли етикет італійських ресторанів, легко замовляєте страви та орієнтуєтеся в чеку!
+
+[badge]
+UK: Майстер ресторану 🍝
+
+##### GIORNO 10 — La Casa: Affitto e Condominio #####
+Titolo (UK): Шукаємо житло: Оголошення, застава та кондомініум
+
+[contesto]
+UK: Лаура шукає нову квартиру в Падуї/Тревізо. На порталі оголошень вона знайшла привабливий варіант, але щоб зняти житло в Італії, потрібно орієнтуватися у термінах: розрізняти 'monolocale' та 'trilocale', розуміти, що таке 'spese condominiali' (комунальні послуги будинку) та скільки місяців складає 'caparra' (застава).
+
+[frase]
+IT: Ho visto il suo annuncio per l'appartamento in affitto.
+UK: Я побачив(ла) ваше оголошення про оренду квартири.
+
+[frase]
+IT: È ancora disponibile l'appartamento?
+UK: Квартира ще вільна (доступна)?
+
+[frase]
+IT: Le spese condominiali sono incluse nel prezzo?
+UK: Витрати на кондомініум включені в ціну?
+
+[frase]
+IT: Quando possiamo fissare un appuntamento per vederlo?
+UK: Коли ми можемо домовитися про зустріч, щоб оглянути її?
+
+[grammatica_titolo]
+UK: Уточнення умов через 'Sono inclusi/e...?' та 'Vorrei fissare...'
+
+[regola]
+UK: Запитання про включені послуги: 'Sono inclusi/e...?' (Чи включені...?).
+
+[esempio]
+IT: I consumi di acqua e gas sono inclusi?
+UK: Витрати на воду і газ входять?
+
+[esempio]
+IT: Le spese condominiali sono escluse.
+UK: Витрати кондомініуму не входять.
+
+[regola]
+UK: Домовленість про час: 'Fissare un appuntamento' (Призначити зустріч).
+
+[esempio]
+IT: Vorrei fissare una visita.
+UK: Я хотів би призначити огляд.
+
+[esempio]
+IT: Posso venire a vedere la casa domani?
+UK: Можу прийти подивитися квартиру завтра?
+
+[tip]
+UK: Monolocale — 1-кімнатна квартира (студія). Bilocale — 2-кімнатна (спальня + вітальня з кухнею). Trilocale — 3-кімнатна.
+
+[tip]
+UK: Spese condominiali — платежі за прибирання під'їзду, ліфт, освітлення та догляд за подвір'ям. Вони частіше виставляються окремо від оренди.
+
+[tip]
+UK: Caparra / Deposito cauzionale — гарантійна застава, яка зазвичай складає від 2 до 3 місяців оренди і повертається при виїзді.
+
+[tip]
+UK: Contratto 4+4 o 3+2 — найпопулярніші види довгострокових договорів оренди в Італії.
+
+[cultura]
+UK: В Італії орендодавці майже завжди запитують 'busta paga' (довідку про доходи/зарплату) або гаранта перед підписанням договору, щоб переконатися у вашій платоспроможності.
+
+##### GIORNO 11 — La Casa: Affitto e Condominio #####
+Titolo (UK): Живий діалог: Дзвінок орендодавцю та узгодження умов
+
+[contesto]
+UK: Лаура телефонує власнику квартири — синьйору Маріо (Signor Mario), щоб розпитати про деталі оголошення та домовитися про огляд житла.
+
+[cultura]
+UK: Термін 'Voltura' означає переоформлення існуючих договорів на світло/газ на ваше ім'я, а 'Subentro' — нове підключення, якщо лічильники були опломбовані.
+
+[npc]
+IT: Pronto! Chi parla?
+UK: Алло! Хто говорить?
+NOTE: speaker: Signor Mario
+
+[opzione/natural]
+IT: Buongiorno Signor Mario, sono Laura. Chiamo per l'annuncio dell'appartamento in affitto. È ancora disponibile?
+UK: Доброго дня, синьйоре Маріо, я Лаура. Дзвоню щодо оголошення про квартиру в оренду. Вона ще вільна?
+NOTE: feedback UK: Доброго дня, синьйоре Маріо, я Лаура. Дзвоню щодо оголошення про квартиру в оренду. Вона ще вільна? | natural
+
+[opzione]
+IT: Ciao Mario, voglio la tua casa. Quanto costa?
+UK: Привіт, Маріо, хочу твою квартиру. Скільки коштує?
+NOTE: feedback UK: Привіт, Маріо, хочу твою квартиру. Скільки коштує?
+
+[opzione]
+IT: Pronto, sono un’agenzia. Mandi le chiavi per corriere oggi.
+UK: Алло, я агенція. Надішліть ключі кур’єром сьогодні.
+NOTE: feedback UK: Алло, я агенція. Надішліть ключі кур’єром сьогодні.
+
+[npc]
+IT: Sì, buongiorno Laura. L'appartamento è ancora libero. È un bilocale arredato al secondo piano con ascensore.
+UK: Так, доброго дня, Лауро. Квартира ще вільна. Це мебльована двокімнатна на другому поверсі з ліфтом.
+NOTE: speaker: Signor Mario
+
+[opzione]
+IT: Bene, vengo a dormire stasera.
+UK: Добре, приїду ночувати сьогодні ввечері.
+NOTE: feedback UK: Добре, приїду ночувати сьогодні ввечері.
+
+[opzione]
+IT: Va bene, ma voglio un contratto solo di una settimana, in nero.
+UK: Добре, але хочу договір лише на тиждень, неофіційно.
+NOTE: feedback UK: Добре, але хочу договір лише на тиждень, неофіційно.
+
+[opzione/natural]
+IT: Perfetto! Mi dice il prezzo mensile? Le spese condominiali sono incluse nel prezzo?
+UK: Чудово! Скажіть місячну ціну? Комунальні витрати кондомініуму входять у ціну?
+NOTE: feedback UK: Чудово! Скажіть місячну ціну? Комунальні витрати кондомініуму входять у ціну? | natural
+
+[npc]
+IT: L'affitto è di 650 euro al mese. Le spese condominiali sono 80 euro a parte e comprendono l'acqua e la pulizia delle scale.
+UK: Оренда 650 євро на місяць. Комуналка кондомініуму — 80 євро окремо і включає воду та прибирання сходів.
+NOTE: speaker: Signor Mario
+
+[opzione/natural]
+IT: Ho capito. E per quanto riguarda le utenze di luce e gas, sono da volturare a mio nome?
+UK: Зрозуміла. А щодо рахунків за світло і газ — їх треба переоформити на моє ім’я?
+NOTE: feedback UK: Зрозуміла. А щодо рахунків за світло і газ — їх треба переоформити на моє ім’я? | natural
+
+[opzione]
+IT: Le utenze restano a nome suo per sempre, io non firmo niente.
+UK: Комунальні рахунки назавжди залишаються на вашому імені, я нічого не підписую.
+NOTE: feedback UK: Комунальні рахунки назавжди залишаються на вашому імені, я нічого не підписую.
+
+[opzione]
+IT: Non voglio pagare le spese condominiali.
+UK: Я не хочу платити витрати кондомініуму.
+NOTE: feedback UK: Я не хочу платити витрати кондомініуму.
+
+[npc]
+IT: Sì, le utenze sono da intestare a lei. Chiediamo anche tre mensilità di caparra confirmatoria.
+UK: Так, рахунки треба оформити на вас. Також просимо три місяці завдатку.
+NOTE: speaker: Signor Mario
+
+[opzione]
+IT: La caparra è gratis, vero?
+UK: Завдаток безкоштовний, так?
+NOTE: feedback UK: Завдаток безкоштовний, так?
+
+[opzione/natural]
+IT: Va bene, è chiaro. Quando possiamo fissare un appuntamento per visitare l'appartamento?
+UK: Добре, зрозуміло. Коли можемо призначити зустріч, щоб подивитися квартиру?
+NOTE: feedback UK: Добре, зрозуміло. Коли можемо призначити зустріч, щоб подивитися квартиру? | natural
+
+[opzione]
+IT: La caparra la pago dopo tre mesi, se mi piace la casa.
+UK: Завдаток заплачу через три місяці, якщо квартира сподобається.
+NOTE: feedback UK: Завдаток заплачу через три місяці, якщо квартира сподобається.
+
+[npc]
+IT: Possiamo vederci domani pomeriggio verso le 17:00 davanti al portone del condominio. Le va bene?
+UK: Можемо зустрітися завтра після обіду близько 17:00 біля під’їзду. Вам підходить?
+NOTE: speaker: Signor Mario
+
+[opzione]
+IT: Domani alle 17:00 è troppo presto. Vengo a mezzanotte.
+UK: Завтра о 17:00 занадто рано. Приїду опівночі.
+NOTE: feedback UK: Завтра о 17:00 занадто рано. Приїду опівночі.
+
+[opzione]
+IT: No, vengo senza preavviso stasera tardi, suoni il citofono.
+UK: Ні, прийду без попередження сьогодні пізно, подзвоніть у домофон.
+NOTE: feedback UK: Ні, прийду без попередження сьогодні пізно, подзвоніть у домофон.
+
+[opzione/natural]
+IT: Sì, perfetto! Domani alle 17:00. Mi può mandare l'indirizzo esatto via messaggio?
+UK: Так, ідеально! Завтра о 17:00. Можете надіслати точну адресу повідомленням?
+NOTE: feedback UK: Так, ідеально! Завтра о 17:00. Можете надіслати точну адресу повідомленням? | natural
+
+[npc]
+IT: Certamente, le mando subito un SMS con l'indirizzo. A domani allora!
+UK: Звісно, зараз надішлю SMS з адресою. Тоді до завтра!
+NOTE: speaker: Signor Mario
+
+[opzione]
+IT: Se piove, non vengo. La chiamo tra un mese.
+UK: Якщо дощ, не прийду. Зателефоную через місяць.
+NOTE: feedback UK: Якщо дощ, не прийду. Зателефоную через місяць.
+
+[opzione/natural]
+IT: Molte grazie Signor Mario, a domani! Buona giornata.
+UK: Щиро дякую, синьйоре Маріо, до завтра! Гарного дня.
+NOTE: feedback UK: Щиро дякую, синьйоре Маріо, до завтра! Гарного дня. | natural
+
+[opzione]
+IT: Ok, ma mandi anche le chiavi su WhatsApp in foto, basta così.
+UK: Ок, але надішліть ще ключі фото в WhatsApp, цього досить.
+NOTE: feedback UK: Ок, але надішліть ще ключі фото в WhatsApp, цього досить.
+
+##### GIORNO 12 — La Casa: Affitto e Condominio #####
+Titolo (UK): Boss Level 🏆: Симуляція пошуку та оренди квартири
+
+[contesto]
+UK: Фінальний іспит модуля! Ви самостійно телефонуєте орендодавцю, дізнаєтеся деталі про плату за кондомініум, заставу та домовляєтеся про перегляд квартири. Підказки та переклад вимкнено!
+
+[quiz_domanda]
+UK: Як запитати синьйора Маріо, чи квартира з оголошення ще вільна?
+NOTE: id p1
+
+[quiz_opzione]
+IT: L'appartamento è ancora disponibile?
+NOTE: CORRETTA
+
+[quiz_opzione]
+IT: Dove si trova il medico di base?
+
+[quiz_opzione]
+IT: Possiamo avere il conto, per favore?
+
+[quiz_spiegazione]
+UK: 'È ancora disponibile?' = 'Це ще доступно / вільно?'
+
+[quiz_domanda]
+UK: Що означають 'Spese condominiali' при оренді житла?
+NOTE: id p2
+
+[quiz_opzione]
+IT: Платежі за обслуговування спільних частин будинку (прибирання, ліфт, освітлення під'їзду).
+NOTE: CORRETTA
+
+[quiz_opzione]
+IT: Податок на купівлю меблів.
+
+[quiz_opzione]
+IT: Плата за паркування на міській вулиці.
+
+[quiz_spiegazione]
+UK: 'Spese condominiali' — витрати на утримання будинку та під'їзду.
+
+[quiz_domanda]
+UK: Що таке 'Caparra' (або 'Deposito cauzionale')?
+NOTE: id p3
+
+[quiz_opzione]
+IT: Гарантійна застава за збереження майна, яка повертається при виїзді.
+NOTE: CORRETTA
+
+[quiz_opzione]
+IT: Щомісячна плата за інтернет.
+
+[quiz_opzione]
+IT: Одноразова оплата послуг прибиральниці.
+
+[quiz_spiegazione]
+UK: Застава (caparra) зазвичай дорівнює орендній платі за 2–3 місяці.
+
+[quiz_domanda]
+UK: Як сказати орендодавцю 'Коли ми можемо домовитися про зустріч, щоб подивитися квартиру?'
+NOTE: id p4
+
+[quiz_opzione]
+IT: Quando possiamo fissare un appuntamento per visitare l'appartamento?
+NOTE: CORRETTA
+
+[quiz_opzione]
+IT: Vorrei prenotare un tavolo per stasera.
+
+[quiz_opzione]
+IT: Ho bisogno della tessera sanitaria.
+
+[quiz_spiegazione]
+UK: 'Fissare un appuntamento' = призначити зустріч/візит.
+
+[quiz_domanda]
+UK: Що означає термін 'Bilocale' в оголошеннях про нерухомість?
+NOTE: id p5
+
+[quiz_opzione]
+IT: Двокімнатна квартира (спальня + вітальня/кухня).
+NOTE: CORRETTA
+
+[quiz_opzione]
+IT: Двоповерховий приватний будинок.
+
+[quiz_opzione]
+IT: Кімната на двох осіб у гуртожитку.
+
+[quiz_spiegazione]
+UK: 'Bilocale' = двокімнатне житло.
+
+[successo_msg]
+UK: Вітаємо! Ви вільно орієнтуєтеся в термінах оренди житла в Італії, розумієте розрахунок кондомініуму та вмієте домовлятися про огляд!
+
+[badge]
+UK: Експерт з житла 🔑
+
+##### GIORNO 13 — Poste Italiane e Servizi Postali #####
+Titolo (UK): У поштовому відділенні: Черга, квитанції та відправлення
+
+[contesto]
+UK: Марко та Лаура прийшли до відділення Poste Italiane. В Італії пошта — це не лише відправка посилок, а й центр сплати комунальних рахунків, отримання офіційних листів та фінансових послуг. При вході обов'язково потрібно взяти талончик у терміналі (ticket) відповідно до теми вашого звернення.
+
+[frase]
+IT: Devo spedire questo pacco / questa lettera in Ucraina.
+UK: Мені потрібно відправити цю посилку / цей лист в Україну.
+
+[frase]
+IT: Devo pagare questo bollettino postale.
+UK: Мені потрібно оплатити цю поштову квитанцію.
+
+[frase]
+IT: Ho ricevuto un avviso di giacenza per una raccomandata.
+UK: Я отримав(ла) повідомлення про надходження рекомендованого листа.
+
+[frase]
+IT: Quale tasto devo premere per prendere il biglietto?
+UK: Яку кнопку мені потрібно натиснути, щоб взяти талончик?
+
+[grammatica_titolo]
+UK: Дієслово 'Spedire' (відправляти) та 'Pagare' (оплачувати)
+
+[regola]
+UK: Відмінювання 'Spedire' (ISC-група): Io spedisco, Tu spedisci, Lui/Lei spedisce.
+
+[esempio]
+IT: Spedisco un pacco a mia madre.
+UK: Відправляю посилку мамі.
+
+[esempio]
+IT: Vuole spedire con posta prioritaria?
+UK: Хочете відправити пріоритетною поштою?
+
+[regola]
+UK: Вирази з 'Prendere / Ritirare': 'Ritirare un pacco' (Забрати посилку).
+
+[esempio]
+IT: Devo ritirare una raccomandata.
+UK: Мені потрібно отримати рекомендований лист.
+
+[esempio]
+IT: Dove posso ritirare il pacco?
+UK: Де я можу отримати посилку?
+
+[tip]
+UK: Ticket al totem — при вході на терміналі обирають потрібний розділ: 'Spedizioni e Pacchi' (відправлення), 'Pagamenti' (квитанції/оплати) або 'Ritiro' (отримання).
+
+[tip]
+UK: Raccomandata — рекомендований лист, який вручається під особистий підпис. Якщо вас не було вдома, листоноша залишає жовту картку 'Avviso di giacenza'.
+
+[tip]
+UK: Bollettino — бланкова або штрихкодова квитанція для оплати комунальних послуг, штрафів та державних зборів.
+
+[cultura]
+UK: Для отримання посилки чи рекомендованого листа на пошті обов'язково потрібно мати із собою закордонний паспорт або Carta d'identità та ваш Codice Fiscale.
+
+##### GIORNO 14 — Poste Italiane e Servizi Postali #####
+Titolo (UK): Живий діалог: Оплата квитанції та відправка посилки
+
+[contesto]
+UK: Лаура бере талончик і підходить до віконця (sportello) після того, як її номер загорівся на табло.
+
+[cultura]
+UK: Код відстеження називається 'Codice di tracciamento' або 'Numero di raccomandata'. Його можна ввести на сайті Poste Italiane у розділі 'Cerca spedizioni'.
+
+[npc]
+IT: Buongiorno! Numero P045! Mi dica, come posso aiutarla?
+UK: Доброго дня! Номер P045! Скажіть, чим можу допомогти?
+NOTE: speaker: Impiegato
+
+[opzione/natural]
+IT: Buongiorno! Devo spedire questo pacco in Ucraina e pagare un bollettino.
+UK: Доброго дня! Мені потрібно відправити цю посилку в Україну і оплатити квитанцію.
+NOTE: feedback UK: Доброго дня! Мені потрібно відправити цю посилку в Україну і оплатити квитанцію. | natural
+
+[opzione]
+IT: Devo ritirare la pensione e cambiare l’ISEE, per favore.
+UK: Мені треба отримати пенсію і змінити ISEE, будь ласка.
+NOTE: feedback UK: Мені треба отримати пенсію і змінити ISEE, будь ласка.
+
+[opzione]
+IT: Ciao, voglio comprare una pizza.
+UK: Привіт, хочу купити піцу.
+NOTE: feedback UK: Привіт, хочу купити піцу.
+
+[npc]
+IT: Sì, certo. Metta pure il pacco sulla bilancia. Vuole la spedizione standard o espressa?
+UK: Так, звісно. Покладіть посилку на ваги. Хочете стандартну чи експрес-відправку?
+NOTE: speaker: Impiegato
+
+[opzione]
+IT: Non voglio pesare il pacco.
+UK: Я не хочу зважувати посилку.
+NOTE: feedback UK: Я не хочу зважувати посилку.
+
+[opzione/natural]
+IT: La spedizione standard va benissimo. Quanto tempo ci vuole per la consegna?
+UK: Стандартна відправка цілком підходить. Скільки часу займе доставка?
+NOTE: feedback UK: Стандартна відправка цілком підходить. Скільки часу займе доставка? | natural
+
+[opzione]
+IT: Vorrei la spedizione più cara possibile, anche se arriva tra due mesi.
+UK: Хочу найдорожчу відправку, навіть якщо приїде через два місяці.
+NOTE: feedback UK: Хочу найдорожчу відправку, навіть якщо приїде через два місяці.
+
+[npc]
+IT: Di solito ci vogliono circa 7-10 giorni lavorativi. Ha già compilato il modulo con l'indirizzo del destinatario?
+UK: Зазвичай потрібно близько 7–10 робочих днів. Ви вже заповнили бланк з адресою одержувача?
+NOTE: speaker: Impiegato
+
+[opzione]
+IT: Ho scritto solo il mio nome, il resto lo fate voi.
+UK: Я написав лише своє ім’я, решту зробите ви.
+NOTE: feedback UK: Я написав лише своє ім’я, решту зробите ви.
+
+[opzione]
+IT: No, non conosco l'indirizzo.
+UK: Ні, я не знаю адреси.
+NOTE: feedback UK: Ні, я не знаю адреси.
+
+[opzione/natural]
+IT: Sì, ho scritto tutto sul pacco: indirizzo, mittente e destinatario.
+UK: Так, я все написав на посилці: адресу, відправника і одержувача.
+NOTE: feedback UK: Так, я все написав на посилці: адресу, відправника і одержувача. | natural
+
+[npc]
+IT: Perfetto. Adesso passiamo al bollettino. Può mostrarmi il documento d'identità?
+UK: Чудово. Тепер квитанція. Можете показати документ, що посвідчує особу?
+NOTE: speaker: Impiegato
+
+[opzione]
+IT: Posso pagare il bollettino senza documento, è più veloce.
+UK: Можу оплатити квитанцію без документа, так швидше.
+NOTE: feedback UK: Можу оплатити квитанцію без документа, так швидше.
+
+[opzione/natural]
+IT: Certamente, ecco la mia carta d'identità e il codice fiscale.
+UK: Звісно, ось моє посвідчення особи і код фіскале.
+NOTE: feedback UK: Звісно, ось моє посвідчення особи і код фіскале. | natural
+
+[opzione]
+IT: Ho solo la ricevuta del ristorante.
+UK: У мене лише чек із ресторану.
+NOTE: feedback UK: У мене лише чек із ресторану.
+
+[npc]
+IT: In totale sono 22 euro per il pacco e 45 euro per il bollettino. Paga in contanti o con la carta?
+UK: Разом 22 євро за посилку і 45 євро за квитанцію. Платите готівкою чи карткою?
+NOTE: speaker: Impiegato
+
+[opzione/natural]
+IT: Pago con la carta, grazie.
+UK: Плачу карткою, дякую.
+NOTE: feedback UK: Плачу карткою, дякую. | natural
+
+[opzione]
+IT: Pago la prossima settimana, ora non ho soldi.
+UK: Заплачу наступного тижня, зараз немає грошей.
+NOTE: feedback UK: Заплачу наступного тижня, зараз немає грошей.
+
+[opzione]
+IT: C'è lo sconto studente, vero? Allora pago solo un euro.
+UK: Є студентська знижка, так? Тоді плачу лише євро.
+NOTE: feedback UK: Є студентська знижка, так? Тоді плачу лише євро.
+
+[npc]
+IT: Ecco la ricevuta di pagamento e il codice di tracciamento per il pacco. Buona giornata!
+UK: Ось квитанція про оплату і код відстеження посилки. Гарного дня!
+NOTE: speaker: Impiegato
+
+[opzione]
+IT: Il codice di tracciamento lo butto, non mi serve.
+UK: Код відстеження викину, він мені не потрібен.
+NOTE: feedback UK: Код відстеження викину, він мені не потрібен.
+
+[opzione]
+IT: Può consegnare il pacco a casa mia stasera a mano?
+UK: Можете доставити посилку мені додому сьогодні ввечері особисто?
+NOTE: feedback UK: Можете доставити посилку мені додому сьогодні ввечері особисто?
+
+[opzione/natural]
+IT: Molte grazie! Buona giornata anche a lei.
+UK: Щиро дякую! І вам гарного дня.
+NOTE: feedback UK: Щиро дякую! І вам гарного дня. | natural
+
+##### GIORNO 15 — Poste Italiane e Servizi Postali #####
+Titolo (UK): Boss Level 🏆: Симуляція візиту на пошту (Poste Italiane)
+
+[contesto]
+UK: Фінальний іспит модуля! Ви самостійно обираєте послугу в терміналі, спілкуєтеся з працівником пошти, відправляєте лист та сплачуєте квитанцію. Підказки та переклад вимкнено!
+
+[quiz_domanda]
+UK: Що потрібно зробити одразу при вході до відділення Poste Italiane?
+NOTE: id p1
+
+[quiz_opzione]
+IT: Взяти талончик (ticket) в електронному терміналі біля входу.
+NOTE: CORRETTA
+
+[quiz_opzione]
+IT: Одразу йти до віконця без черги.
+
+[quiz_opzione]
+IT: Заплатити за вхід у касу.
+
+[quiz_spiegazione]
+UK: В Італії на пошті обов'язкова система електронної черги через термінал (totem).
+
+[quiz_domanda]
+UK: Як сказати 'Мені потрібно відправити посилку' італійською?
+NOTE: id p2
+
+[quiz_opzione]
+IT: Devo spedire un pacco.
+NOTE: CORRETTA
+
+[quiz_opzione]
+IT: Devo pagare un caffè.
+
+[quiz_opzione]
+IT: Ho bisogno di un medico.
+
+[quiz_spiegazione]
+UK: 'Spedire un pacco' = відправити посилку.
+
+[quiz_domanda]
+UK: Що таке 'Raccomandata'?
+NOTE: id p3
+
+[quiz_opzione]
+IT: Рекомендований лист, що вручається під особистий підпис з офіційним сповіщенням.
+NOTE: CORRETTA
+
+[quiz_opzione]
+IT: Звичайний рекламний буклет у поштовій скриньці.
+
+[quiz_opzione]
+IT: Електронний чек з супермаркету.
+
+[quiz_spiegazione]
+UK: 'Raccomandata' — офіційний рекомендований лист із юридичною силою.
+
+[quiz_domanda]
+UK: Хто такий 'Mittente' на поштовому конверті чи коробці?
+NOTE: id p4
+
+[quiz_opzione]
+IT: Відправник.
+NOTE: CORRETTA
+
+[quiz_opzione]
+IT: Одержувач.
+
+[quiz_opzione]
+IT: Поштовий кур'єр.
+
+[quiz_spiegazione]
+UK: 'Mittente' = відправник, а 'Destinatario' = одержувач.
+
+[quiz_domanda]
+UK: Як називається номер для перевірки статусу та місцезнаходження посилки в інтернеті?
+NOTE: id p5
+
+[quiz_opzione]
+IT: Il codice fiscale.
+
+[quiz_opzione]
+IT: Il codice di tracciamento.
+NOTE: CORRETTA
+
+[quiz_opzione]
+IT: Il numero di telefono.
+
+[quiz_spiegazione]
+UK: 'Codice di tracciamento' = трек-номер для відстеження.
+
+[successo_msg]
+UK: Вітаємо! Ви вільно орієнтуєтеся в послугах Poste Italiane, можете відправляти посилки, рекомендовані листи та сплачувати квитанції!
+
+[badge]
+UK: Експерт пошти ✉️
+
+##### GIORNO 16 — Patronato e Assistenza Sociale #####
+Titolo (UK): У Патронаті: Документи, ISEE та дитячі виплати
+
+[contesto]
+UK: Марко та Лаура звертаються до офісу Patronato / CAF у своєму місті. В Італії Патронат — це безкоштовна або недорога соціальна служба, яка допомагає іноземцям та сім'ям оформлювати соціальні виплати, подавати декларації, оформлювати ISEE (індекс фінансового стану) та отримувати щомісячну допомогу на дитину (Assegno Unico Universale).
+
+[frase]
+IT: Vorrei fissare un appuntamento per fare il modello ISEE.
+UK: Я б хотів(ла) призначити зустріч для оформлення довідки ISEE.
+
+[frase]
+IT: Vorrei fare la domanda per l'Assegno Unico per mia figlia.
+UK: Я б хотів(ла) подати заявку на щомісячну допомогу на дитину.
+
+[frase]
+IT: Quali documenti servono per la richiesta?
+UK: Які документи потрібні для подання заяви?
+
+[frase]
+IT: Ho bisogno di aiuto per la dichiarazione dei redditi.
+UK: Мені потрібна допомога з податковою декларацією.
+
+[grammatica_titolo]
+UK: Конструкції 'Fare la domanda' (подавати заяву) та 'Servono / Serve' (потрібно)
+
+[regola]
+UK: Вирази з 'Fare': 'Fare la domanda' (подавати заяву), 'Fare l'ISEE' (робити розрахунок ISEE).
+
+[esempio]
+IT: Voglio fare la domanda per il bonus nido.
+UK: Хочу подати заяву на bonus nido.
+
+[esempio]
+IT: Devo fare l'ISEE aggiornato.
+UK: Мені потрібно зробити оновлений ISEE.
+
+[regola]
+UK: Різниця 'Serve' (однина) / 'Servono' (множина): 'Потрібен / Потрібні'.
+
+[esempio]
+IT: Serve la carta d'identità?
+UK: Потрібне посвідчення особи?
+
+[esempio]
+IT: Servono tutti i documenti dei familiari.
+UK: Потрібні всі документи членів сім’ї.
+
+[tip]
+UK: Patronato e CAF — установи, що допомагають безкоштовно або за символічну плату з податками, декретними виплатами, бонусами на дітей та пільгами.
+
+[tip]
+UK: ISEE — це офіційний розрахунок фінансового стану родини. Він потрібен для отримання значних знижок на дитячий садок, шкільні обіди, комунальні бонуси та виплату Assegno Unico.
+
+[tip]
+UK: Assegno Unico Universale — щомісячна фінансова допомога на кожну неповнолітню дитину в сім'ї.
+
+[cultura]
+UK: Для подачі заяв у Patronato завжди беріть із собою діючі посвідчення особи (Carta d'Identità), Codice Fiscale усіх членів сім'ї та банківські реквізити (IBAN) для зарахування коштів.
+
+##### GIORNO 17 — Patronato e Assistenza Sociale #####
+Titolo (UK): Живий діалог: Консультація та подача документів в Patronato
+
+[contesto]
+UK: Лаура приходить на прийом до консультанта Patronato (Operatore CAF) за попереднім записом, щоб оформити Assegno Unico на 3-річну доньку.
+
+[cultura]
+UK: Більшість дитячих виплат та пільг обробляються державним органом INPS (Istituto Nazionale della Previdenza Sociale), а Patronato є офіційним посередником у передачі документів.
+
+[npc]
+IT: Buongiorno Signora! Prego, si accomodi. Aveva un appuntamento a nome Laura?
+UK: Доброго дня, синьйоро! Прошу, сідайте. У вас був запис на ім’я Лаура?
+NOTE: speaker: Operatore CAF
+
+[opzione]
+IT: No, non ho appuntamento. Passavo per caso, faccio tutto adesso.
+UK: Ні, запису немає. Я зайшла випадково, зроблю все зараз.
+NOTE: feedback UK: Ні, запису немає. Я зайшла випадково, зроблю все зараз.
+
+[opzione]
+IT: Ciao, voglio i soldi per la spesa.
+UK: Привіт, хочу гроші на продукти.
+NOTE: feedback UK: Привіт, хочу гроші на продукти.
+
+[opzione/natural]
+IT: Buongiorno! Sì, esattamente. Ho la prenotazione per le 10:00.
+UK: Доброго дня! Так, саме так. У мене бронювання на 10:00.
+NOTE: feedback UK: Доброго дня! Так, саме так. У мене бронювання на 10:00. | natural
+
+[npc]
+IT: Bene. In cosa posso aiutarla oggi?
+UK: Добре. Чим сьогодні можу допомогти?
+NOTE: speaker: Operatore CAF
+
+[opzione]
+IT: Vorrei solo una copia della carta d’identità, niente pratiche.
+UK: Хочу лише копію посвідчення особи, без жодних заяв.
+NOTE: feedback UK: Хочу лише копію посвідчення особи, без жодних заяв.
+
+[opzione/natural]
+IT: Vorrei fare la domanda per l'Assegno Unico per mia figlia di 3 anni. Ho già fatto l'ISEE.
+UK: Я хотіла б подати заяву на Assegno Unico для моєї 3-річної доньки. ISEE я вже зробила.
+NOTE: feedback UK: Я хотіла б подати заяву на Assegno Unico для моєї 3-річної доньки. ISEE я вже зробила. | natural
+
+[opzione]
+IT: Devo spedire un pacco in Ucraina.
+UK: Мені треба відправити посилку в Україну.
+NOTE: feedback UK: Мені треба відправити посилку в Україну.
+
+[npc]
+IT: Ottimo! Se ha già l'ISEE è tutto più semplice. Mi mostra i documenti d'identità e i codici fiscali?
+UK: Чудово! Якщо ISEE вже є, усе простіше. Покажете документи й коди fiscale?
+NOTE: speaker: Operatore CAF
+
+[opzione/natural]
+IT: Certamente! Ecco la mia Carta d'Identità, il Codice Fiscale mio e di mia figlia, e il modello ISEE.
+UK: Звісно! Ось моє посвідчення особи, мій код фіскале і доньки, і модель ISEE.
+NOTE: feedback UK: Звісно! Ось моє посвідчення особи, мій код фіскале і доньки, і модель ISEE. | natural
+
+[opzione]
+IT: Non ho nessun documento con me.
+UK: У мене з собою немає жодного документа.
+NOTE: feedback UK: У мене з собою немає жодного документа.
+
+[opzione]
+IT: Ho solo lo scontrino del bar, i documenti sono in auto.
+UK: У мене лише чек із бару, документи в машині.
+NOTE: feedback UK: У мене лише чек із бару, документи в машині.
+
+[npc]
+IT: Perfetto. Mi serve anche l'IBAN del suo conto corrente per il pagamento mensile. È intestato a lei?
+UK: Чудово. Потрібен також IBAN вашого поточного рахунку для щомісячної виплати. Він на ваше ім’я?
+NOTE: speaker: Operatore CAF
+
+[opzione]
+IT: Pago in contanti alla cassa.
+UK: Плачу готівкою на касі.
+NOTE: feedback UK: Плачу готівкою на касі.
+
+[opzione]
+IT: L’IBAN è di un amico, lui ritira i soldi per me.
+UK: IBAN друга, він отримує гроші за мене.
+NOTE: feedback UK: IBAN друга, він отримує гроші за мене.
+
+[opzione/natural]
+IT: Sì, il conto è intestato a me. Ecco il codice IBAN del mio conto bancario.
+UK: Так, рахунок на моє ім’я. Ось код IBAN мого банківського рахунку.
+NOTE: feedback UK: Так, рахунок на моє ім’я. Ось код IBAN мого банківського рахунку. | natural
+
+[npc]
+IT: Benissimo. Sto inserendo i dati nel sistema INPS. Deve solo firmare questa ricevuta e il modulo di delega.
+UK: Дуже добре. Вношу дані в систему INPS. Потрібно лише підписати цю квитанцію і бланк доручення.
+NOTE: speaker: Operatore CAF
+
+[opzione/natural]
+IT: Va benissimo, dove devo firmare?
+UK: Добре, де мені підписати?
+NOTE: feedback UK: Добре, де мені підписати? | natural
+
+[opzione]
+IT: Firmi lei al posto mio, io ho fretta.
+UK: Підпишіть ви замість мене, я поспішаю.
+NOTE: feedback UK: Підпишіть ви замість мене, я поспішаю.
+
+[opzione]
+IT: Non firmo niente senza il notaio e tre testimoni.
+UK: Нічого не підписую без нотаріуса і трьох свідків.
+NOTE: feedback UK: Нічого не підписую без нотаріуса і трьох свідків.
+
+[npc]
+IT: Ecco qui la copia della domanda inviata. Il pagamento arriverà il mese prossimo sul suo conto. Buona giornata!
+UK: Ось копія надісланої заяви. Виплата надійде наступного місяця на ваш рахунок. Гарного дня!
+NOTE: speaker: Operatore CAF
+
+[opzione]
+IT: I soldi arrivano oggi in contanti, vero? Li aspetto qui.
+UK: Гроші прийдуть сьогодні готівкою, так? Почекаю тут.
+NOTE: feedback UK: Гроші прийдуть сьогодні готівкою, так? Почекаю тут.
+
+[opzione/natural]
+IT: La ringrazio molto per l'aiuto! Buona giornata e buon lavoro.
+UK: Щиро дякую за допомогу! Гарного дня і успіхів у роботі.
+NOTE: feedback UK: Щиро дякую за допомогу! Гарного дня і успіхів у роботі. | natural
+
+[opzione]
+IT: Mandi l’Assegno Unico a un altro CAF, cambio idea.
+UK: Надішліть Assegno Unico в інший CAF, я передумала.
+NOTE: feedback UK: Надішліть Assegno Unico в інший CAF, я передумала.
+
+##### GIORNO 18 — Patronato e Assistenza Sociale #####
+Titolo (UK): Boss Level 🏆: Симуляція оформлення допомоги у Patronato
+
+[contesto]
+UK: Фінальний іспит модуля! Ви самостійно приходите на прийом у Patronato/CAF, подаєте документи для ISEE та виплат на дитину. Підказки та переклад вимкнено!
+
+[quiz_domanda]
+UK: Що таке довідка 'ISEE' в Італії?
+NOTE: id p1
+
+[quiz_opzione]
+IT: Офіційний розрахунок фінансового стану родини для отримання пільг та допомог.
+NOTE: CORRETTA
+
+[quiz_opzione]
+IT: Квитанція за проїзд у міському транспорті.
+
+[quiz_opzione]
+IT: Рецепт від сімейного лікаря.
+
+[quiz_spiegazione]
+UK: ISEE — показник майнового стану для розрахунку соціальних пільг.
+
+[quiz_domanda]
+UK: Як називається щомісячна державна допомога на дитину в Італії?
+NOTE: id p2
+
+[quiz_opzione]
+IT: L'Assegno Unico Universale.
+NOTE: CORRETTA
+
+[quiz_opzione]
+IT: Codice Fiscale.
+
+[quiz_opzione]
+IT: Le spese condominiali.
+
+[quiz_spiegazione]
+UK: 'Assegno Unico' — головна виплата на дітей у країні.
+
+[quiz_domanda]
+UK: Як сказати консультанту 'Я б хотів(ла) подати заявку на виплату на дитину'?
+NOTE: id p3
+
+[quiz_opzione]
+IT: Vorrei fare la domanda per l'Assegno Unico.
+NOTE: CORRETTA
+
+[quiz_opzione]
+IT: Vorrei prenotare un tavolo per stasera.
+
+[quiz_opzione]
+IT: Ho bisogno di un'acqua frizzante.
+
+[quiz_spiegazione]
+UK: 'Fare la domanda' = подати заявку.
+
+[quiz_domanda]
+UK: Який реквізит потрібен для зарахування щомісячних виплат від INPS?
+NOTE: id p4
+
+[quiz_opzione]
+IT: Код IBAN банківського рахунку.
+NOTE: CORRETTA
+
+[quiz_opzione]
+IT: Номер чека з супермаркету.
+
+[quiz_opzione]
+IT: Індекс поштового відділення.
+
+[quiz_spiegazione]
+UK: Виплати перераховуються на банківський рахунок за кодом IBAN.
+
+[quiz_domanda]
+UK: Як запитати консультанта: «Які документи потрібні для подання заяви?»
+NOTE: id p5
+
+[quiz_opzione]
+IT: Quali documenti servono per la richiesta?
+NOTE: CORRETTA
+
+[quiz_opzione]
+IT: Quanto costa la pizza margherita?
+
+[quiz_opzione]
+IT: Dove si trova la stazione di Treviso?
+
+[quiz_spiegazione]
+UK: 'Quali documenti servono...?' = 'Які документи потрібні...?'
+
+[successo_msg]
+UK: Вітаємо! Ви повністю орієнтуєтеся у функціях Patronato/CAF, знаєте, як оформити ISEE, Assegno Unico та працювати із соціальними виплатами в Італії!
+
+[badge]
+UK: Експерт Патронату 📋
+
+##### GIORNO 19 — Il Bar Italiano e il Caffè #####
+Titolo (UK): У барі: Кавова культура, випічка та оплата на касі
+
+[contesto]
+UK: Марко та Лаура заходять до місцевого бару на ранковий сніданок (colazione). В Італії бар — це не нічний заклад, а головне місце для ранкової кави, зустрічей з сусідами та легкого перекусу. Тут є важливе правило: спочатку часто платять на касі, отримують чек (scontrino), а потім з ним підходять до стійки (al banco).
+
+[frase]
+IT: Vorrei un caffè espresso e un cornetto alla crema, per favore.
+UK: Я хотів би еспресо та круасан із кремом, будь ласка.
+
+[frase]
+IT: Possiamo sederci al tavolo o si paga di più?
+UK: Ми можемо сісти за столик чи це коштує дорожче?
+
+[frase]
+IT: Vorrei un macchiato caldo e un bicchiere d'acqua, grazie.
+UK: Я хотів би гаряче макіато та склянку води, дякую.
+
+[frase]
+IT: Faccio prima lo scontrino alla cassa?
+UK: Мені спочатку вибити чек на касі?
+
+[grammatica_titolo]
+UK: Різновиди кави та прийменник 'con' / 'senza'
+
+[regola]
+UK: Основні види кави: Caffè (еспресо), Macchiato (еспресо з краплею молока), Decaffeinato (без кофеїну), Cappuccino.
+
+[esempio]
+IT: Vorrei un decaffeinato, per favore.
+UK: Я хотів би декаф, будь ласка.
+
+[esempio]
+IT: Vorrei un macchiato freddo.
+UK: Я хотів би холодне макіато.
+
+[regola]
+UK: Уточнення складників: 'Con' (з) та 'Senza' (без).
+
+[esempio]
+IT: Vorrei un cappuccino con latte di avena.
+UK: Я хотів би капучино з вівсяним молоком.
+
+[esempio]
+IT: Vorrei un cornetto senza zucchero.
+UK: Я хотів би круасан без цукру.
+
+[tip]
+UK: Al banco vs Al tavolo — пити каву біля стійки (al banco) дешевше, ніж за столиком (al tavolo), де додається плата за обслуговування.
+
+[tip]
+UK: Prima la cassa — у багатьох популярних барах спочатку замовляють і оплачують на касі, а потім віддають чек бариста зі словами 'Un caffè, per favore'.
+
+[tip]
+UK: Cornetto / Brioche — італійський круасан. На півночі Італії його частіше називають 'brioche', а в центрі та на півдні — 'cornetto'.
+
+[cultura]
+UK: В Італії до кави біля стійки часто безкоштовно подають маленьку склянку води (un bicchierino d'acqua). Якщо її не дали, можна просто ввічливо попросити: 'Un bicchiere d'acqua, per favore'.
+
+##### GIORNO 20 — Il Bar Italiano e il Caffè #####
+Titolo (UK): Живий діалог: Ранкова кава та замовлення біля стійки
+
+[contesto]
+UK: Марко підходить до каси бару, купує чек, а потім замовляє сніданок у бариста біля стійки.
+
+[cultura]
+UK: Чайові (mancia) в італійських барах не є обов'язковими. Проте люди часто залишають монету 20 або 50 центів на чеку біля стійки як знак подяки.
+
+[npc]
+IT: Buongiorno! Cosa le preparo?
+UK: Доброго дня! Що вам приготувати?
+NOTE: speaker: Cassiera
+
+[opzione/natural]
+IT: Buongiorno! Vorrei un cappuccino, un caffè macchiato e due brioche.
+UK: Доброго дня! Я хотів би капучино, каву макіато і дві бріоші.
+NOTE: feedback UK: Доброго дня! Я хотів би капучино, каву макіато і дві бріоші. | natural
+
+[opzione]
+IT: Vorrei un pranzo di tre portate e il conto separato per dieci.
+UK: Хочу обід із трьох страв і окремий рахунок на десятьох.
+NOTE: feedback UK: Хочу обід із трьох страв і окремий рахунок на десятьох.
+
+[opzione]
+IT: Ciao, dammi una pizza grande.
+UK: Привіт, дай велику піцу.
+NOTE: feedback UK: Привіт, дай велику піцу.
+
+[npc]
+IT: Perfetto. Le brioche come le preferisce? Abbiamo vuote, alla marmellata o al cioccolato?
+UK: Чудово. Які бріоші бажаєте? Є порожні, з джемом або з шоколадом.
+NOTE: speaker: Cassiera
+
+[opzione]
+IT: Voglio il codice fiscale.
+UK: Хочу код фіскале.
+NOTE: feedback UK: Хочу код фіскале.
+
+[opzione/natural]
+IT: Vorrei una alla marmellata e una al cioccolato, per favore.
+UK: Одну з джемом і одну з шоколадом, будь ласка.
+NOTE: feedback UK: Одну з джемом і одну з шоколадом, будь ласка. | natural
+
+[opzione]
+IT: Tutte e due vuote, ma con panna e nutella sopra, da asporto caldo.
+UK: Обидві порожні, але зі збитими вершками і нутеллою зверху, на виніс гарячими.
+NOTE: feedback UK: Обидві порожні, але зі збитими вершками і нутеллою зверху, на виніс гарячими.
+
+[npc]
+IT: Sono 5 euro e 20 in totale. Prego, ecco lo scontrino. Può lasciarlo al banco.
+UK: Разом 5 євро 20. Прошу, ось чек. Можете залишити його на стійці.
+NOTE: speaker: Cassiera
+
+[opzione]
+IT: Porti tutto al tavolo con il servizio al tavolo, come al ristorante.
+UK: Несіть усе за столик з обслуговуванням, як у ресторані.
+NOTE: feedback UK: Несіть усе за столик з обслуговуванням, як у ресторані.
+
+[opzione]
+IT: Lo scontrino lo lascio a casa, vado al tavolo senza pagare.
+UK: Чек залишу вдома, піду за столик не платячи.
+NOTE: feedback UK: Чек залишу вдома, піду за столик не платячи.
+
+[opzione/natural]
+IT: Grazie mille! Vado subito al banco.
+UK: Дуже дякую! Зараз іду до стійки.
+NOTE: feedback UK: Дуже дякую! Зараз іду до стійки. | natural
+
+[npc]
+IT: Buongiorno! Mi lascia pure lo scontrino. Il macchiato lo preferisce caldo o freddo?
+UK: Доброго дня! Залиште чек. Макіато хочете гаряче чи холодне?
+NOTE: speaker: Barista
+
+[opzione]
+IT: Vorrei un macchiato ghiacciato con panna e sciroppo, e niente acqua.
+UK: Хочу макіато з льодом, вершками і сиропом, і без води.
+NOTE: feedback UK: Хочу макіато з льодом, вершками і сиропом, і без води.
+
+[opzione/natural]
+IT: Vorrei il macchiato caldo, per favore. E possiamo avere anche due bicchieri d'acqua naturale?
+UK: Макіато гаряче, будь ласка. І можна ще дві склянки негазованої води?
+NOTE: feedback UK: Макіато гаряче, будь ласка. І можна ще дві склянки негазованої води? | natural
+
+[opzione]
+IT: Non voglio il caffè.
+UK: Я не хочу каву.
+NOTE: feedback UK: Я не хочу каву.
+
+[npc]
+IT: Ecco a lei! Un cappuccino, un macchiato caldo, le due brioche e l'acqua. Buon appetito!
+UK: Ось вам! Капучино, гаряче макіато, дві бріоші і вода. Смачного!
+NOTE: speaker: Barista
+
+[opzione/natural]
+IT: Grazie mille, gentilissimo! Buona giornata.
+UK: Дуже дякую, дуже люб’язно! Гарного дня.
+NOTE: feedback UK: Дуже дякую, дуже люб’язно! Гарного дня. | natural
+
+[opzione]
+IT: Il cappuccino è troppo italiano, lo cambio con una pizza.
+UK: Капучино занадто італійський, міняю на піцу.
+NOTE: feedback UK: Капучино занадто італійський, міняю на піцу.
+
+[opzione]
+IT: Non dico grazie, qui non si usa.
+UK: Не кажу дякую, тут так не заведено.
+NOTE: feedback UK: Не кажу дякую, тут так не заведено.
+
+##### GIORNO 21 — Il Bar Italiano e il Caffè #####
+Titolo (UK): Boss Level 🏆: Симуляція замовлення в італійському барі
+
+[contesto]
+UK: Фінальний іспит модуля! Ви самостійно замовляєте каву та випічку, спілкуєтеся з касиром та бариста біля стійки. Підказки та переклад вимкнено!
+
+[quiz_domanda]
+UK: Чому пити каву біля стійки (al banco) зазвичай дешевше, ніж за столиком (al tavolo)?
+NOTE: id p1
+
+[quiz_opzione]
+IT: Тому що за столиком ви сплачуєте додатковий збір за обслуговування (servizio).
+NOTE: CORRETTA
+
+[quiz_opzione]
+IT: Тому що біля стійки подають меншу порцію кави.
+
+[quiz_opzione]
+IT: Тому що за столиком кава завжди холодніша.
+
+[quiz_spiegazione]
+UK: Обслуговування за столиком включає надбавку 'servizio al tavolo'.
+
+[quiz_domanda]
+UK: Що таке 'Caffè Macchiato'?
+NOTE: id p2
+
+[quiz_opzione]
+IT: Еспресо з додаванням невеликої кількості збитого молока.
+NOTE: CORRETTA
+
+[quiz_opzione]
+IT: Велика склянка гарячого молока без кави.
+
+[quiz_opzione]
+IT: Холодний кавовий коктейль із лікером.
+
+[quiz_spiegazione]
+UK: 'Macchiato' означає 'плямистий' — еспресо з краплею молока.
+
+[quiz_domanda]
+UK: Як попросити круасан із шоколадом італійською?
+NOTE: id p3
+
+[quiz_opzione]
+IT: Un cornetto / una brioche al cioccolato.
+NOTE: CORRETTA
+
+[quiz_opzione]
+IT: Un bollettino postale.
+
+[quiz_opzione]
+IT: Un'acqua frizzante senza bicchiere.
+
+[quiz_spiegazione]
+UK: 'Cornetto al cioccolato' = круасан із шоколадом.
+
+[quiz_domanda]
+UK: Що потрібно зробити з чеком (scontrino) біля стійки бариста?
+NOTE: id p4
+
+[quiz_opzione]
+IT: Покласти його на стійку (lasciare al banco), щоб бариста бачив замовлення.
+NOTE: CORRETTA
+
+[quiz_opzione]
+IT: Сховати у гаманець і нікому не показувати.
+
+[quiz_opzione]
+IT: Віддати іншому покупцю.
+
+[quiz_spiegazione]
+UK: Чек залишають на стійці як підтвердження оплати.
+
+[quiz_domanda]
+UK: Як ввічливо попросити склянку води до кави?
+NOTE: id p5
+
+[quiz_opzione]
+IT: Un bicchiere d'acqua, per favore.
+NOTE: CORRETTA
+
+[quiz_opzione]
+IT: Vorrei fare la domanda per l'ISEE.
+
+[quiz_opzione]
+IT: Quanto costa l'affitto mensile?
+
+[quiz_spiegazione]
+UK: 'Un bicchiere d'acqua, per favore' = 'Склянку води, будь ласка'.
+
+[successo_msg]
+UK: Вітаємо! Ви досконало засвоїли кавову культуру Італії, вільно замовляєте сніданок біля стійки та знаєте всі тонкощі бару!
+
+[badge]
+UK: Майстер кави ☕
+
+##### GIORNO 22 — Fare la Spesa al Supermercato #####
+Titolo (UK): У супермаркеті: Ваги, відділи та продукти
+
+[contesto]
+UK: Марко та Лаура йдуть до місцевого супермаркету в Тревізо, щоб закупити продукти на тиждень. В Італії є важливі правила купівельного етикету: овочі та фрукти обов'язково треба зважувати самостійно, надягаючи одноразові рукавички (guanti monouso), а біля гастрономічного відділу (banco gastronomia) часто потрібно брати номер у черзі (biglietto).
+
+[frase]
+IT: Dove posso trovare l'olio d'oliva?
+UK: Де я можу знайти оливкову олію?
+
+[frase]
+IT: Devo pesare la frutta qui o alla cassa?
+UK: Мені потрібно зважувати фрукти тут чи на касі?
+
+[frase]
+IT: Vorrei duecento grammi di prosciutto crudo, per favore.
+UK: Я б хотів(ла) двісті грамів прошутто крудо, будь ласка.
+
+[frase]
+IT: Ha la carta fedeltà / carta fidaty?
+UK: У вас є картка лояльності / дисконтна картка?
+
+[grammatica_titolo]
+UK: Одиниці виміру 'Un etto / Due etti' та вказівні займенники 'Questo / Quello'
+
+[regola]
+UK: Замовлення за вагою: 'Un etto' (100г), 'Due etti' (200г), 'Un chilo' (1кг).
+
+[esempio]
+IT: Vorrei un etto di parmigiano.
+UK: Я хотів би етто пармезану.
+
+[esempio]
+IT: Prendo due etti di prosciutto cotto.
+UK: Візьму два етто вареної шинки.
+
+[regola]
+UK: Вказування на товар: 'Questo' (цей поруч) / 'Quello' (той далі).
+
+[esempio]
+IT: Mi dà questo pezzo di formaggio?
+UK: Дасте цей шматок сиру?
+
+[esempio]
+IT: Vorrei quello a fette.
+UK: Я хотів би нарізаний скибками.
+
+[tip]
+UK: Для вибору свіжих овочів та фруктів обов'язково одягайте пластикові рукавички (guanti) з гігієнічних міркувань.
+
+[tip]
+UK: На вагах зазвичай вказано номер товару, який ви бачите на ціннику (наприклад, Tasto 14). Вставляти номер треба самостійно й наклеювати наліпку на пакет.
+
+[tip]
+UK: У відділі м'яса та сирів (Banco Gastronomia) замовляють за вагою в грамах: 'Un etto' = 100 грамів, 'Due etti' = 200 грамів.
+
+[cultura]
+UK: Пакет на касі в Італії купується окремо та називається 'sacchetto' або 'busta'. Багато італійців ходять за покупками зі своїми багаторазовими сумками (borse della spesa).
+
+##### GIORNO 23 — Fare la Spesa al Supermercato #####
+Titolo (UK): Живий діалог: На касі та у відділі гастрономії
+
+[contesto]
+UK: Марко підходить до гастрономічного відділу (banco frigo/gastronomia), а потім прямує на касу (cassa).
+
+[cultura]
+UK: 'Lo scontrino' (чек) обов'язково потрібно зберігати до виходу з супермаркету чи магазину — у разі перевірки фінансовою поліцією його можуть попросити показати.
+
+[npc]
+IT: Buongiorno! Chi è il prossimo? Numero 42!
+UK: Доброго дня! Хто наступний? Номер 42!
+NOTE: speaker: Commesso
+
+[opzione]
+IT: Il numero non conta, passo avanti perché ho fretta.
+UK: Номер не важливий, проходжу вперед, бо поспішаю.
+NOTE: feedback UK: Номер не важливий, проходжу вперед, бо поспішаю.
+
+[opzione]
+IT: Ciao, voglio formaggio subito.
+UK: Привіт, хочу сир зараз.
+NOTE: feedback UK: Привіт, хочу сир зараз.
+
+[opzione/natural]
+IT: Buongiorno! Sono io il numero 42.
+UK: Доброго дня! Це я, номер 42.
+NOTE: feedback UK: Доброго дня! Це я, номер 42. | natural
+
+[npc]
+IT: Dica pure, cosa le preparo?
+UK: Кажіть, що вам приготувати?
+NOTE: speaker: Commesso
+
+[opzione]
+IT: Vorrei un chilo di latte e due bottiglie di pane, tagliati sottili.
+UK: Хочу кіло молока і дві пляшки хліба, тонко нарізані.
+NOTE: feedback UK: Хочу кіло молока і дві пляшки хліба, тонко нарізані.
+
+[opzione/natural]
+IT: Vorrei due etti di prosciutto di Parma e un pezzo di Parmigiano Reggiano, per favore.
+UK: Я хотів би два етто пармської шинки і шматок пармезану Реджано, будь ласка.
+NOTE: feedback UK: Я хотів би два етто пармської шинки і шматок пармезану Реджано, будь ласка. | natural
+
+[opzione]
+IT: Dammi tre litri di prosciutto.
+UK: Дай три літри шинки.
+NOTE: feedback UK: Дай три літри шинки.
+
+[npc]
+IT: Lo taglio sottile, il prosciutto? E per il Parmigiano va bene questo pezzo da trecento grammi?
+UK: Нарізати шинку тонко? А пармезан — підходить цей шматок на триста грамів?
+NOTE: speaker: Commesso
+
+[opzione/natural]
+IT: Sì, il prosciutto lo voglio tagliato sottile. E il pezzo di formaggio va benissimo, grazie.
+UK: Так, шинку тонко. І шматок сиру цілком підходить, дякую.
+NOTE: feedback UK: Так, шинку тонко. І шматок сиру цілком підходить, дякую. | natural
+
+[opzione]
+IT: No, non mi piace l'Anagrafe.
+UK: Ні, мені не подобається Anagrafe.
+NOTE: feedback UK: Ні, мені не подобається Anagrafe.
+
+[opzione]
+IT: Lo tagli a cubetti grandi e il formaggio lo assaggio tutto prima.
+UK: Наріжте великими кубиками, а сир я весь спробую спочатку.
+NOTE: feedback UK: Наріжте великими кубиками, а сир я весь спробую спочатку.
+
+[npc]
+IT: Buongiorno! Ha la nostra carta fedeltà?
+UK: Доброго дня! У вас є наша карта лояльності?
+NOTE: speaker: Cassiera
+
+[opzione]
+IT: Ho solo il medico di base.
+UK: У мене лише сімейний лікар.
+NOTE: feedback UK: У мене лише сімейний лікар.
+
+[opzione]
+IT: Sì, ho la tessera sanitaria, è la stessa cosa.
+UK: Так, у мене tessera sanitaria, це те саме.
+NOTE: feedback UK: Так, у мене tessera sanitaria, це те саме.
+
+[opzione/natural]
+IT: Buongiorno! No, non ce l'ho. Posso farla adesso?
+UK: Доброго дня! Ні, немає. Можна оформити зараз?
+NOTE: feedback UK: Доброго дня! Ні, немає. Можна оформити зараз? | natural
+
+[npc]
+IT: Sì, può chiederla al box informazioni dopo. Le serve un sacchetto per la spesa?
+UK: Так, можна попросити потім в інформаційному вікні. Потрібен пакет для покупок?
+NOTE: speaker: Cassiera
+
+[opzione/natural]
+IT: Sì, vorrei un sacchetto biodegradabile, per favore. E pago con la carta di credito.
+UK: Так, біопакет, будь ласка. І плачу кредитною карткою.
+NOTE: feedback UK: Так, біопакет, будь ласка. І плачу кредитною карткою. | natural
+
+[opzione]
+IT: Il sacchetto è gratis sempre, per legge, senza chiedere.
+UK: Пакет завжди безкоштовний за законом, без прохання.
+NOTE: feedback UK: Пакет завжди безкоштовний за законом, без прохання.
+
+[opzione]
+IT: No, metto tutto nelle tasche. Pago in francobolli.
+UK: Ні, покладу все по кишенях. Плачу марками.
+NOTE: feedback UK: Ні, покладу все по кишенях. Плачу марками.
+
+[npc]
+IT: Sono 34 euro e 50 centesimi. Appoggi pure la carta sul POS... Perfetto. Ecco lo scontrino. Buona giornata!
+UK: 34 євро 50 центів. Прикладіть картку до POS... Чудово. Ось чек. Гарного дня!
+NOTE: speaker: Cassiera
+
+[opzione]
+IT: Lo scontrino lo lascio in cassa, non mi serve all’uscita.
+UK: Чек залишу на касі, на виході він не потрібен.
+NOTE: feedback UK: Чек залишу на касі, на виході він не потрібен.
+
+[opzione/natural]
+IT: Grazie mille, buona giornata anche a lei!
+UK: Дуже дякую, і вам гарного дня!
+NOTE: feedback UK: Дуже дякую, і вам гарного дня! | natural
+
+[opzione]
+IT: C’è un errore di mille euro, non pago e lascio la spesa qui in silenzio.
+UK: Помилка на тисячу євро, не плачу і мовчки лишаю покупки тут.
+NOTE: feedback UK: Помилка на тисячу євро, не плачу і мовчки лишаю покупки тут.
+
+##### GIORNO 24 — Fare la Spesa al Supermercato #####
+Titolo (UK): Boss Level 🏆: Симуляція покупок у супермаркеті
+
+[contesto]
+UK: Фінальний іспит модуля! Ви самостійно купуєте продукти, замовляєте нарізку у відділі гастрономії та розраховуєтеся на касі. Підказки та переклад вимкнено!
+
+[quiz_domanda]
+UK: Скільки грамів продукту ви замовляєте, якщо кажете 'Due etti'?
+NOTE: id p1
+
+[quiz_opzione]
+IT: 200 грамів.
+NOTE: CORRETTA
+
+[quiz_opzione]
+IT: 20 грамів.
+
+[quiz_opzione]
+IT: 2 кілограми.
+
+[quiz_spiegazione]
+UK: Un etto = 100 грамів, відповідно Due etti = 200 грамів.
+
+[quiz_domanda]
+UK: Що обов'язково потрібно зробити перед тим, як брати свіжі фрукти чи овочі у супермаркеті?
+NOTE: id p2
+
+[quiz_opzione]
+IT: Одягнути одноразові пластикові рукавички (guanti).
+NOTE: CORRETTA
+
+[quiz_opzione]
+IT: Оплатити їх на касі заздалегідь.
+
+[quiz_opzione]
+IT: Запитати дозвіл в охоронця.
+
+[quiz_spiegazione]
+UK: Правила гігієни в Італії вимагають використання рукавичок для вибору овочів/фруктів.
+
+[quiz_domanda]
+UK: Як запитати касира про пакет для покупок?
+NOTE: id p3
+
+[quiz_opzione]
+IT: Le serve un sacchetto, per favore?
+
+[quiz_opzione]
+IT: Posso avere un sacchetto per la spesa?
+NOTE: CORRETTA
+
+[quiz_opzione]
+IT: Dove si trova la guardia medica?
+
+[quiz_spiegazione]
+UK: 'Un sacchetto per la spesa' = пакет для покупок.
+
+[quiz_domanda]
+UK: Що таке 'Lo scontrino'?
+NOTE: id p4
+
+[quiz_opzione]
+IT: Касовий чек, який слід зберігати після покупки.
+NOTE: CORRETTA
+
+[quiz_opzione]
+IT: Знижка на другу категорію товарів.
+
+[quiz_opzione]
+IT: Візок для покупок.
+
+[quiz_spiegazione]
+UK: 'Lo scontrino' — це фіскальний чек.
+
+[quiz_domanda]
+UK: Як попросити тонко нарізати шинку (прошутто)?
+NOTE: id p5
+
+[quiz_opzione]
+IT: Lo tagli sottile, per favore.
+NOTE: CORRETTA
+
+[quiz_opzione]
+IT: Lo voglio in un pezzo grande.
+
+[quiz_opzione]
+IT: Lo voglio senza acqua frizzante.
+
+[quiz_spiegazione]
+UK: 'Tagliato sottile' = тонко нарізаний.
+
+[successo_msg]
+UK: Вітаємо! Ви повністю засвоїли правила покупок в італійському супермаркеті, вмієте зважувати продукти та спілкуватися на касі!
+
+[badge]
+UK: Експерт покупок 🛒
+
+##### GIORNO 25 — Trasporto Pubblico e Biglietti #####
+Titolo (UK): У транспорті: Квитки, валідація та поїзди
+
+[contesto]
+UK: Марко та Лаура планують поїздку на міському автобусі та поїзді. В Італії квитки на автобус зазвичай купують заздалегідь у тютюнових кіосках (Tabacchi) або газетних кіосках (Edicola). Найголовніше правило італійського транспорту — обов'язково прокомпостувати (завалідувати) квиток одразу при вході в автобус або перед посадкою на пероні поїзда.
+
+[frase]
+IT: Vorrei due biglietti per l'autobus urbano, per favore.
+UK: Я б хотів(ла) два квитки на міський автобус, будь ласка.
+
+[frase]
+IT: Da quale binario parte il treno per Venezia?
+UK: З якої колії (платформи) відправляється поїзд до Венеції?
+
+[frase]
+IT: Ricordati di convalidare il biglietto prima di salire!
+UK: Пам'ятай прокомпостувати квиток перед тим, як зайти!
+
+[frase]
+IT: A che ora passa il prossimo autobus per la stazione?
+UK: О котрій годині буде наступний автобус до вокзалу?
+
+[grammatica_titolo]
+UK: Прийменники напрямку: 'In' (транспорт) та 'A / Da' (станції та міста)
+
+[regola]
+UK: Прийменник 'In' для видів транспорту: 'In autobus' (автобусом), 'In treno' (поїздом), 'In macchina' (машиною).
+
+[esempio]
+IT: Vado al lavoro in autobus.
+UK: Їду на роботу автобусом.
+
+[esempio]
+IT: Viaggiamo in treno.
+UK: Ми їдемо потягом.
+
+[regola]
+UK: Прийменники напрямку: 'A' (до міста/станції) та 'Da' (від/з якоїсь колії).
+
+[esempio]
+IT: Prendo il treno per andare a Milano.
+UK: Беру потяг, щоб поїхати до Мілана.
+
+[esempio]
+IT: Parte dal binario 3.
+UK: Відправляється з колії 3.
+
+[tip]
+UK: Tabacchi e Edicola — найпростіше місце для купівлі квитків на автобус. У самому автобусі квиток може коштувати дорожче або взагалі не продаватися.
+
+[tip]
+UK: Convalidare / Timbrare — компостування квитка. За поїздку з невалідним квитком контролер (controllore) виписує штраф від 50 до 100 євро.
+
+[tip]
+UK: Binario — номер колії/платформи на залізничному вокзалі. Завжди перевіряйте інформаційне табло (tabellone) за номером поїзда.
+
+[cultura]
+UK: На залізничних станціях в Італії паперові квитки без вказаного часу та місця потрібно обов'язково компостувати в зелених або жовтих валидаторах (macchinette) біля виходу на перони!
+
+##### GIORNO 26 — Trasporto Pubblico e Biglietti #####
+Titolo (UK): Живий діалог: Купівля квитка в Tabacchi та поїздка на вокзал
+
+[contesto]
+UK: Марко заходить до кіоску Tabacchi, щоб купити квитки на автобус, а потім запитує перехожого на зупинці про розклад.
+
+[cultura]
+UK: В італійських міських автобусах вхід зазвичай здійснюється через передні або задні двері, а вихід — через середні (Uscita).
+
+[npc]
+IT: Buongiorno! Dica pure.
+UK: Доброго дня! Кажіть, будь ласка.
+NOTE: speaker: Tabaccaio
+
+[opzione/natural]
+IT: Buongiorno! Vorrei due biglietti per l'autobus urbano, per favore.
+UK: Доброго дня! Два квитки на міський автобус, будь ласка.
+NOTE: feedback UK: Доброго дня! Два квитки на міський автобус, будь ласка. | natural
+
+[opzione]
+IT: Ciao, vorrei fare la domanda per l'ISEE.
+UK: Привіт, хочу подати заяву на ISEE.
+NOTE: feedback UK: Привіт, хочу подати заяву на ISEE.
+
+[opzione]
+IT: Vorrei due marche da bollo e una ricetta del medico, per l’autobus.
+UK: Дві марки da bollo і рецепт лікаря для автобуса.
+NOTE: feedback UK: Дві марки da bollo і рецепт лікаря для автобуса.
+
+[npc]
+IT: Certamente. È una corsa semplice da 90 minuti? Sono 3 euro in totale.
+UK: Звісно. Це проста поїздка на 90 хвилин? Разом 3 євро.
+NOTE: speaker: Tabaccaio
+
+[opzione]
+IT: Non voglio pagare il biglietto.
+UK: Я не хочу платити за квиток.
+NOTE: feedback UK: Я не хочу платити за квиток.
+
+[opzione]
+IT: No, vorrei un abbonamento annuale del treno regionale, lo stampi ora.
+UK: Ні, хочу річний абонемент на регіональний потяг, роздрукуйте зараз.
+NOTE: feedback UK: Ні, хочу річний абонемент на регіональний потяг, роздрукуйте зараз.
+
+[opzione/natural]
+IT: Sì, va benissimo. Ecco 3 euro. Devo convalidarli a bordo?
+UK: Так, добре. Ось 3 євро. Їх треба компостувати в салоні?
+NOTE: feedback UK: Так, добре. Ось 3 євро. Їх треба компостувати в салоні? | natural
+
+[npc]
+IT: Sì, esattamente! Appena sale sull'autobus deve timbrare il biglietto nella macchinetta. Arrivederci!
+UK: Так, саме так! Щойно сядете в автобус, проштампуйте квиток у апараті. До побачення!
+NOTE: speaker: Tabaccaio
+
+[opzione/natural]
+IT: Perfetto, grazie mille e buona giornata!
+UK: Чудово, дуже дякую і гарного дня!
+NOTE: feedback UK: Чудово, дуже дякую і гарного дня! | natural
+
+[opzione]
+IT: Allora non serve il biglietto, c’è sempre il controllore amico.
+UK: Тоді квиток не потрібен, контролер завжди свій.
+NOTE: feedback UK: Тоді квиток не потрібен, контролер завжди свій.
+
+[opzione]
+IT: Timbro il biglietto a casa, prima di uscire, così è più comodo.
+UK: Проштампую квиток удома, перед виходом, так зручніше.
+NOTE: feedback UK: Проштампую квиток удома, перед виходом, так зручніше.
+
+[npc]
+IT: Buongiorno! Aspetta anche lei il numero 7 per la stazione?
+UK: Доброго дня! Ви теж чекаєте сімку до вокзалу?
+NOTE: speaker: Passeggero alla fermata
+
+[opzione]
+IT: Vorrei un cornetto al cioccolato.
+UK: Я хотів би круасан з шоколадом.
+NOTE: feedback UK: Я хотів би круасан з шоколадом.
+
+[opzione/natural]
+IT: Buongiorno! Sì, sa a che ora passa il prossimo autobus?
+UK: Доброго дня! Так, ви не знаєте, о котрій наступний автобус?
+NOTE: feedback UK: Доброго дня! Так, ви не знаєте, о котрій наступний автобус? | natural
+
+[opzione]
+IT: No, aspetto il taxi per l’aeroporto. Che vino avete?
+UK: Ні, чекаю таксі в аеропорт. Яке у вас вино?
+NOTE: feedback UK: Ні, чекаю таксі в аеропорт. Яке у вас вино?
+
+[npc]
+IT: Dovrebbe arrivare tra cinque minuti. Guardi, sta arrivando proprio adesso!
+UK: Має бути хвилин за п’ять. Дивіться, він саме під’їжджає!
+NOTE: speaker: Passeggero alla fermata
+
+[opzione]
+IT: Convalido il biglietto del vicino, il mio lo tengo pulito.
+UK: Прокомпостую квиток сусіда, свій залишу чистим.
+NOTE: feedback UK: Прокомпостую квиток сусіда, свій залишу чистим.
+
+[opzione]
+IT: Salgo senza convalidare, tanto sono solo due fermate.
+UK: Сяду без компостування, лише дві зупинки.
+NOTE: feedback UK: Сяду без компостування, лише дві зупинки.
+
+[opzione/natural]
+IT: Ottimo, grazie! Ricordiamoci di convalidare il biglietto appena saliamo.
+UK: Чудово, дякую! Не забуваймо прокомпостувати квиток, щойно сядемо.
+NOTE: feedback UK: Чудово, дякую! Не забуваймо прокомпостувати квиток, щойно сядемо. | natural
+
+[npc]
+IT: Buongiorno, controllo biglietti! Mi mostra il suo biglietto convalidato, per favore?
+UK: Доброго дня, перевірка квитків! Покажіть прокомпостований квиток, будь ласка?
+NOTE: speaker: Controllore
+
+[opzione]
+IT: Non parlo italiano, quindi il controllo non vale.
+UK: Я не розмовляю італійською, тому перевірка не діє.
+NOTE: feedback UK: Я не розмовляю італійською, тому перевірка не діє.
+
+[opzione/natural]
+IT: Buongiorno! Certamente, ecco il mio biglietto timbrato poco fa.
+UK: Доброго дня! Звісно, ось мій квиток, щойно проштампований.
+NOTE: feedback UK: Доброго дня! Звісно, ось мій квиток, щойно проштампований. | natural
+
+[opzione]
+IT: Il biglietto l’ho lasciato in tabaccheria, mi riconosce.
+UK: Квиток я залишив у тютюновій крамниці, ви мене впізнаєте.
+NOTE: feedback UK: Квиток я залишив у тютюновій крамниці, ви мене впізнаєте.
+
+##### GIORNO 27 — Trasporto Pubblico e Biglietti #####
+Titolo (UK): Boss Level 🏆: Симуляція поїздки громадським транспортом
+
+[contesto]
+UK: Фінальний іспит модуля! Ви самостійно купуєте квитки, орієнтуєтеся на вокзалі, перевіряєте колію та спілкуєтеся з контролером. Підказки та переклад вимкнено!
+
+[quiz_domanda]
+UK: Де найпростіше та найдешевше купити квиток на міський автобус в Італії?
+NOTE: id p1
+
+[quiz_opzione]
+IT: У тютюновому (Tabacchi) або газетному кіоску (Edicola).
+NOTE: CORRETTA
+
+[quiz_opzione]
+IT: У супермаркеті на касі овочів.
+
+[quiz_opzione]
+IT: У аптеці за рецептом.
+
+[quiz_spiegazione]
+UK: Кіоски Tabacchi та Edicola — основні точки продажу квитків.
+
+[quiz_domanda]
+UK: Що означає дієслово 'Convalidare' або 'Timbrare' у транспорті?
+NOTE: id p2
+
+[quiz_opzione]
+IT: Прокомпостувати/завалідувати квиток у спеціальному автоматі.
+NOTE: CORRETTA
+
+[quiz_opzione]
+IT: Попросити водія зупинити автобус.
+
+[quiz_opzione]
+IT: Купити новий капелюх.
+
+[quiz_spiegazione]
+UK: 'Convalidare' / 'Timbrare' — це активація/компостування квитка.
+
+[quiz_domanda]
+UK: Як запитати на вокзалі 'З якої колії відправляється поїзд?'
+NOTE: id p3
+
+[quiz_opzione]
+IT: Da quale binario parte il treno?
+NOTE: CORRETTA
+
+[quiz_opzione]
+IT: Quanto costa una pizza margherita?
+
+[quiz_opzione]
+IT: Quali documenti servono per l'ISEE?
+
+[quiz_spiegazione]
+UK: 'Binario' означає залізничну колію/платформу.
+
+[quiz_domanda]
+UK: Що загрожує пасажиру за проїзд без прокомпостованого квитка?
+NOTE: id p4
+
+[quiz_opzione]
+IT: Штраф від контролера (controllore).
+NOTE: CORRETTA
+
+[quiz_opzione]
+IT: Безкоштовна кава від водія.
+
+[quiz_opzione]
+IT: Знижка на наступну поїздку.
+
+[quiz_spiegazione]
+UK: За відсутність валідації контролер виписує грошовий штраф.
+
+[quiz_domanda]
+UK: Як перекладається слово 'Stazione'?
+NOTE: id p5
+
+[quiz_opzione]
+IT: Вокзал / Станція.
+NOTE: CORRETTA
+
+[quiz_opzione]
+IT: Зупинка таксі.
+
+[quiz_opzione]
+IT: Аеропорт.
+
+[quiz_spiegazione]
+UK: 'Stazione' = залізничний або автобусний вокзал.
+
+[successo_msg]
+UK: Вітаємо! Ви вільно володієте всією лексикою громадського транспорту в Італії, легко купуєте квитки та орієнтуєтеся на вокзалах!
+
+[badge]
+UK: Досвідчений мандрівник 🚆
+
+##### GIORNO 28 — Salone di Bellezza: Parrucchiere e Manicure #####
+Titolo (UK): Салон краси: Запис на стрижку, манікюр та догляд
+
+[contesto]
+UK: Марко та Лаура планують візит до салону краси. В Італії до перукаря (parrucchiere / barbiere) та майстра манікюру (onicotecnica / estetista) майже завжди потрібно записуватися заздалегідь по телефону або особисто (prendere un appuntamento). Вкрай важливо чітко пояснити свої побажання: від довжини волосся та форми нігтів до вибору типу покриття чи стрижки бороди.
+
+[frase]
+IT: Vorrei prendere un appuntamento per un taglio uomo e una manicure.
+UK: Я б хотів(ла) записатися на чоловічу стрижку та манікюр.
+
+[frase]
+IT: Vorrei solo una spuntata alle punte e la piega, per favore.
+UK: Тільки підрівняти кінчики та зробити укладку, будь ласка.
+
+[frase]
+IT: Vorrei fare lo smalto semipermanente e togliere quello vecchio.
+UK: Я б хотіла зробити гель-лак (семіперманент) та зняти старий.
+
+[frase]
+IT: Vorrei accorciare i capelli ai lati e regolare la barba.
+UK: Я б хотів вкоротити волосся з боків та підрівняти бороду.
+
+[grammatica_titolo]
+UK: Дієслова для запису та побажань: 'Vorrei + Інфінітив' та 'Accorciare / Spuntare'
+
+[regola]
+UK: Ввічливий запис через 'Vorrei': 'Vorrei prenotare...' (Я б хотів(ла) забронювати...), 'Vorrei fare...' (Я б хотів(ла) зробити...).
+
+[esempio]
+IT: Vorrei prenotare per giovedì pomeriggio.
+UK: Я хотів би записатися на четвер після обіду.
+
+[esempio]
+IT: Vorrei fare la barba.
+UK: Я хотів би підстригти бороду / поголитися.
+
+[regola]
+UK: Дії з волоссям та нігтями: 'Accorciare' (вкорочувати), 'Spuntare' (підрізати кінчики), 'Togliere' (знімати).
+
+[esempio]
+IT: Vorrei solo spuntare di un centimetro.
+UK: Хочу лише підрівняти на сантиметр.
+
+[esempio]
+IT: Devo togliere lo smalto.
+UK: Мені потрібно зняти лак.
+
+[tip]
+UK: Prendere un appuntamento — запис на конкретний час є обов'язковим. Якщо ви запізнюєтеся навіть на 10-15 хвилин, варто зателефонувати й попередити.
+
+[tip]
+UK: Piega — укладка феном після миття голови. В італійських салонах ціна за стрижку (taglio) часто вказується окремо від укладки (piega) та миття (shampoo).
+
+[tip]
+UK: Smalto semipermanente — гель-лак. Якщо потрібно зняти попереднє покриття, обов'язково попередьте під час запису: 'Devo anche togliere il gel vecchio'.
+
+[cultura]
+UK: В Італії барбершопи (barbiere) та жіночі салони часто зачинені в неділю та понеділок. З вівторка по суботу салон може працювати з перервою на обід (pausa pranzo) з 12:30 до 15:30, якщо це не мережевий заклад у торговому центрі.
+
+##### GIORNO 29 — Salone di Bellezza: Parrucchiere e Manicure #####
+Titolo (UK): Живий діалог: Запис по телефону та візит Марка й Лаури до салону
+
+[contesto]
+UK: Лаура телефонує в салон, щоб записати чоловіка Марка на стрижку бороди й волосся, а себе — на манікюр та укладку. Потім вони приходять на процедури.
+
+[cultura]
+UK: В італійських салонах краси завжди цінують зворотний зв'язок під час процедури. Якщо вода занадто гаряча або майстер зрізає забагато довжини, спокійно скажіть: 'Scusi, l'acqua è troppo calda' або 'Un po' più lungo, per favore'.
+
+[npc]
+IT: Salone Bella Vita, buongiorno! Come posso aiutarla?
+UK: Салон Bella Vita, доброго дня! Чим можу допомогти?
+NOTE: speaker: Receptionist Salone
+
+[opzione/natural]
+IT: Buongiorno! Vorrei prendere un appuntamento per venerdì: un taglio uomo con barba e una manicure con semipermanente.
+UK: Доброго дня! Хочу записатися на п’ятницю: чоловіча стрижка з бородою і манікюр із гель-лаком.
+NOTE: feedback UK: Доброго дня! Хочу записатися на п’ятницю: чоловіча стрижка з бородою і манікюр із гель-лаком. | natural
+
+[opzione]
+IT: Vorrei un appuntamento per il medico di base e la voltura del gas.
+UK: Хочу запис до сімейного лікаря і переоформлення газу.
+NOTE: feedback UK: Хочу запис до сімейного лікаря і переоформлення газу.
+
+[opzione]
+IT: Ciao, vorrei comprare un biglietto per l'autobus.
+UK: Привіт, хочу купити квиток на автобус.
+NOTE: feedback UK: Привіт, хочу купити квиток на автобус.
+
+[npc]
+IT: Perfetto. Per la manicure deve anche rimuovere lo smalto precedente?
+UK: Чудово. Для манікюру потрібно також зняти попередній лак?
+NOTE: speaker: Receptionist Salone
+
+[opzione]
+IT: No, vorrei fare la dichiarazione dei redditi.
+UK: Ні, хочу подати декларацію про доходи.
+NOTE: feedback UK: Ні, хочу подати декларацію про доходи.
+
+[opzione/natural]
+IT: Sì, devo togliere il gel vecchio e fare la manicure completa.
+UK: Так, треба зняти старий гель і зробити повний манікюр.
+NOTE: feedback UK: Так, треба зняти старий гель і зробити повний манікюр. | natural
+
+[opzione]
+IT: No, lascio lo smalto vecchio e aggiungo tre strati sopra, via WhatsApp.
+UK: Ні, залишу старий лак і додам три шари зверху через WhatsApp.
+NOTE: feedback UK: Ні, залишу старий лак і додам три шари зверху через WhatsApp.
+
+[npc]
+IT: Va bene, abbiamo posto venerdì alle 15:00 per entrambi. Ci vediamo venerdì!
+UK: Добре, у п’ятницю о 15:00 є місце для обох. До зустрічі в п’ятницю!
+NOTE: speaker: Receptionist Salone
+
+[opzione]
+IT: Alle 15:00 vengo solo io, Marco si taglia i capelli da solo a casa.
+UK: О 15:00 прийду лише я, Марко сам підстрижеться вдома.
+NOTE: feedback UK: О 15:00 прийду лише я, Марко сам підстрижеться вдома.
+
+[opzione]
+IT: Venerdì no, vengo quando c’è posto, senza nome.
+UK: У п’ятницю ні, прийду коли буде місце, без імені.
+NOTE: feedback UK: У п’ятницю ні, прийду коли буде місце, без імені.
+
+[opzione/natural]
+IT: Ottimo, venerdì alle 15:00! A nome di Laura e Marco. Grazie mille e arrivederci!
+UK: Чудово, п’ятниця о 15:00! На ім’я Лаура і Марко. Дуже дякую, до побачення!
+NOTE: feedback UK: Чудово, п’ятниця о 15:00! На ім’я Лаура і Марко. Дуже дякую, до побачення! | natural
+
+[npc]
+IT: Buongiorno Marco! Come facciamo oggi con i capelli e la barba?
+UK: Доброго дня, Марко! Як сьогодні зробимо волосся і бороду?
+NOTE: speaker: Barbiere (зараз з Марком)
+
+[opzione]
+IT: Faccia tutto rasato a zero, anche le sopracciglia, senza chiedere.
+UK: Зробіть усе налисо, навіть брови, не питаючи.
+NOTE: feedback UK: Зробіть усе налисо, навіть брови, не питаючи.
+
+[opzione/natural]
+IT: Buongiorno! Vorrei accorciare i capelli ai lati e regolare la barba, ma senza tagliarla troppo corta.
+UK: Доброго дня! Хочу вкоротити волосся з боків і підрівняти бороду, але не стригти її занадто коротко.
+NOTE: feedback UK: Доброго дня! Хочу вкоротити волосся з боків і підрівняти бороду, але не стригти її занадто коротко. | natural
+
+[opzione]
+IT: Vorrei convalidare il biglietto del treno.
+UK: Хочу прокомпостувати квиток на потяг.
+NOTE: feedback UK: Хочу прокомпостувати квиток на потяг.
+
+[npc]
+IT: Buongiorno Laura! Che forma e che colore preferisce per le unghie oggi?
+UK: Доброго дня, Лауро! Яку форму і який колір нігтів бажаєте сьогодні?
+NOTE: speaker: Estetista (зараз з Лаурою)
+
+[opzione/natural]
+IT: Buongiorno! Vorrei la forma mandorla e un colore nudo naturale con il semipermanente.
+UK: Доброго дня! Хочу форму мигдалю і природний нюдовий колір із гель-лаком.
+NOTE: feedback UK: Доброго дня! Хочу форму мигдалю і природний нюдовий колір із гель-лаком. | natural
+
+[opzione]
+IT: Ho la febbre e il naso che cola.
+UK: У мене температура і нежить.
+NOTE: feedback UK: У мене температура і нежить.
+
+[opzione]
+IT: Vorrei unghie lunghissime stiletto rosso fluo e glitter in tre minuti.
+UK: Хочу дуже довгі нігті стилет, флуоресцентний червоний і глітер за три хвилини.
+NOTE: feedback UK: Хочу дуже довгі нігті стилет, флуоресцентний червоний і глітер за три хвилини.
+
+[npc]
+IT: Ecco a voi! In totale per il taglio uomo, barba, manicure e semipermanente sono 65 euro. Pagate insieme o separatamente?
+UK: Ось вам! Разом за чоловічу стрижку, бороду, манікюр і гель-лак 65 євро. Платите разом чи окремо?
+NOTE: speaker: Receptionist Salone
+
+[opzione]
+IT: Paghiamo in francobolli e torniamo dopo per il resto.
+UK: Платимо марками і повернемося потім по решту.
+NOTE: feedback UK: Платимо марками і повернемося потім по решту.
+
+[opzione]
+IT: Paghiamo separati, ma Laura paga anche il taglio di Marco in contanti ucraini.
+UK: Платимо окремо, але Лаура платить і за стрижку Марка українською готівкою.
+NOTE: feedback UK: Платимо окремо, але Лаура платить і за стрижку Марка українською готівкою.
+
+[opzione/natural]
+IT: Paghiamo insieme con la carta. Grazie mille, siamo molto contenti del risultato!
+UK: Платимо разом карткою. Дуже дякуємо, ми дуже задоволені результатом!
+NOTE: feedback UK: Платимо разом карткою. Дуже дякуємо, ми дуже задоволені результатом! | natural
+
+##### GIORNO 30 — Salone di Bellezza: Parrucchiere e Manicure #####
+Titolo (UK): Boss Level 🏆: Симуляція візиту в салон краси (для чоловіків та жінок)
+
+[contesto]
+UK: Фінальний іспит модуля! Ви самостійно записуєтеся в салон краси, пояснюєте майстру бажану стрижку, догляд за бородою, форму нігтів та покриття. Підказки та переклад вимкнено!
+
+[quiz_domanda]
+UK: Як італійською ввічливо сказати 'Я б хотів(ла) записатися на прийом'?
+NOTE: id p1
+
+[quiz_opzione]
+IT: Vorrei prendere un appuntamento.
+NOTE: CORRETTA
+
+[quiz_opzione]
+IT: Devo convalidare lo scontrino.
+
+[quiz_opzione]
+IT: Quanto costa l'affitto al mese?
+
+[quiz_spiegazione]
+UK: 'Prendere un appuntamento' — це стандартна фраза для запису.
+
+[quiz_domanda]
+UK: Як чоловікові попросити вкоротити волосся з боків та підрівняти бороду?
+NOTE: id p2
+
+[quiz_opzione]
+IT: Vorrei accorciare i capelli ai lati e regolare la barba.
+NOTE: CORRETTA
+
+[quiz_opzione]
+IT: Vorrei un cappuccino con latte di avena.
+
+[quiz_opzione]
+IT: Mi serve il codice fiscale per la detrazione.
+
+[quiz_spiegazione]
+UK: 'Accorciare ai lati' (вкоротити з боків) та 'regolare la barba' (підрівняти бороду).
+
+[quiz_domanda]
+UK: Що означає слово 'Spuntare' стосовно волосся?
+NOTE: id p3
+
+[quiz_opzione]
+IT: Тільки трохи підрівняти/підрізати кінчики.
+NOTE: CORRETTA
+
+[quiz_opzione]
+IT: Пофарбувати волосся в зелений колір.
+
+[quiz_opzione]
+IT: Повністю збрити волосся.
+
+[quiz_spiegazione]
+UK: 'Spuntare' означає зрізати лише самі кінчики (le punte).
+
+[quiz_domanda]
+UK: Як сказати майстру манікюру, що потрібно зняти старий гель-лак?
+NOTE: id p4
+
+[quiz_opzione]
+IT: Devo togliere lo smalto semipermanente vecchio.
+NOTE: CORRETTA
+
+[quiz_opzione]
+IT: Vorrei comprare un farmaco per la tosse.
+
+[quiz_opzione]
+IT: Da quale binario parte l'autobus?
+
+[quiz_spiegazione]
+UK: 'Togliere lo smalto vecchio' = зняти старий лак/покриття.
+
+[quiz_domanda]
+UK: Що таке 'Piega' в італійському перукарському салоні?
+NOTE: id p5
+
+[quiz_opzione]
+IT: Укладка феном після миття голови.
+NOTE: CORRETTA
+
+[quiz_opzione]
+IT: Масаж ніг.
+
+[quiz_opzione]
+IT: Чистка обличчя.
+
+[quiz_spiegazione]
+UK: 'Piega' — це укладка волосся.
+
+[successo_msg]
+UK: Вітаємо! Ви вдосконалили знання італійської лексики для салонів краси, вільно замовляєте стрижку, догляд за бородою, манікюр та укладку!
+
+[badge]
+UK: Майстер стилю та краси 💇‍♂️💅
+

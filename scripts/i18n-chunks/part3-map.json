@@ -1,0 +1,1688 @@
+{
+  "Я хотів би холодне макіато.": {
+    "en": "I would like an iced macchiato.",
+    "es": "Quisiera un macchiato frío.",
+    "fr": "Je voudrais un macchiato froid.",
+    "ro": "Aș dori un macchiato rece."
+  },
+  "Уточнення складників: 'Con' (з) та 'Senza' (без).": {
+    "en": "Clarifying ingredients: 'Con' (with) and 'Senza' (without).",
+    "es": "Aclaración de ingredientes: 'Con' (con) y 'Senza' (sin).",
+    "fr": "Précision des ingrédients : 'Con' (avec) et 'Senza' (sans).",
+    "ro": "Clarificarea ingredientelor: 'Con' (cu) și 'Senza' (fără)."
+  },
+  "Я хотів би капучино з вівсяним молоком.": {
+    "en": "I would like a cappuccino with oat milk.",
+    "es": "Quisiera un cappuccino con leche de avena.",
+    "fr": "Je voudrais un cappuccino au lait d'avoine.",
+    "ro": "Aș dori un cappuccino cu lapte de ovăz."
+  },
+  "Я хотів би круасан без цукру.": {
+    "en": "I would like a croissant without sugar.",
+    "es": "Quisiera un croissant sin azúcar.",
+    "fr": "Je voudrais un croissant sans sucre.",
+    "ro": "Aș dori un croissant fără zahăr."
+  },
+  "В Італії до кави біля стійки часто безкоштовно подають маленьку склянку води (un bicchierino d'acqua). Якщо її не дали, можна просто ввічливо попросити: 'Un bicchiere d'acqua, per favore'.": {
+    "en": "In Italy, a small glass of water (un bicchierino d'acqua) is often served free with coffee at the counter. If you weren't given one, you can simply ask politely: 'Un bicchiere d'acqua, per favore'.",
+    "es": "En Italia, con el café al mostrador suele servirse gratis un vaso pequeño de agua (un bicchierino d'acqua). Si no te lo dan, puedes pedirlo con cortesía: 'Un bicchiere d'acqua, per favore'.",
+    "fr": "En Italie, un petit verre d'eau (un bicchierino d'acqua) est souvent offert gratuitement avec le café au comptoir. Si on ne vous en sert pas, demandez poliment : 'Un bicchiere d'acqua, per favore'.",
+    "ro": "În Italia, la cafeaua de la bar se servește adesea gratuit un pahar mic de apă (un bicchierino d'acqua). Dacă nu vi l-au dat, puteți cere politicos: 'Un bicchiere d'acqua, per favore'."
+  },
+  "Живий діалог: Ранкова кава та замовлення біля стійки": {
+    "en": "Live dialogue: Morning coffee and ordering at the counter",
+    "es": "Diálogo en vivo: Café por la mañana y pedido en el mostrador",
+    "fr": "Dialogue en direct : Café du matin et commande au comptoir",
+    "ro": "Dialog live: Cafea de dimineață și comandă la bar"
+  },
+  "Марко підходить до каси бару, купує чек, а потім замовляє сніданок у бариста біля стійки.": {
+    "en": "Marco goes to the bar register, buys a receipt, then orders breakfast from the barista at the counter.",
+    "es": "Marco se acerca a la caja del bar, compra el ticket y luego pide el desayuno al barista en el mostrador.",
+    "fr": "Marco se rend à la caisse du bar, achète le ticket, puis commande le petit-déjeuner auprès du barista au comptoir.",
+    "ro": "Marco merge la casa barului, cumpără bonul, apoi comandă micul dejun de la barista de la bar."
+  },
+  "Доброго дня! Я хотів би капучино, каву макіато і дві бріоші.": {
+    "en": "Good day! I would like a cappuccino, a caffè macchiato, and two brioche.",
+    "es": "¡Buenos días! Quisiera un cappuccino, un caffè macchiato y dos brioche.",
+    "fr": "Bonjour ! Je voudrais un cappuccino, un caffè macchiato et deux brioche.",
+    "ro": "Bună ziua! Aș dori un cappuccino, un caffè macchiato și două brioche."
+  },
+  "Чудово! Ви чітко назвали замовлення на касі.": {
+    "en": "Great! You clearly stated your order at the register.",
+    "es": "¡Genial! Has indicado claramente el pedido en caja.",
+    "fr": "Parfait ! Vous avez clairement indiqué votre commande à la caisse.",
+    "ro": "Excelent! Ați numit clar comanda la casă."
+  },
+  "Хочу обід із трьох страв і окремий рахунок на десятьох.": {
+    "en": "I want a three-course lunch and a separate bill for ten people.",
+    "es": "Quiero un almuerzo de tres platos y una cuenta aparte para diez personas.",
+    "fr": "Je veux un déjeuner en trois services et une addition séparée pour dix personnes.",
+    "ro": "Vreau un prânz în trei feluri și notă separată pentru zece persoane."
+  },
+  "У барі зранку замовляють каву і brioche, не повноцінний обід.": {
+    "en": "In the morning at a bar you order coffee and brioche, not a full lunch.",
+    "es": "Por la mañana en el bar se pide café y brioche, no un almuerzo completo.",
+    "fr": "Le matin au bar, on commande du café et des brioche, pas un déjeuner complet.",
+    "ro": "Dimineața la bar se comandă cafea și brioche, nu un prânz complet."
+  },
+  "Привіт, дай велику піцу.": {
+    "en": "Hi, give me a large pizza.",
+    "es": "Hola, dame una pizza grande.",
+    "fr": "Salut, donne-moi une grande pizza.",
+    "ro": "Salut, dă-mi o pizza mare."
+  },
+  "Зранку в барі замовляють каву та випічку (cornetto/brioche).": {
+    "en": "In the morning at a bar people order coffee and pastries (cornetto/brioche).",
+    "es": "Por la mañana en el bar se pide café y bollería (cornetto/brioche).",
+    "fr": "Le matin au bar, on commande du café et des viennoiseries (cornetto/brioche).",
+    "ro": "Dimineața la bar se comandă cafea și produse de patiserie (cornetto/brioche)."
+  },
+  "Доброго дня! Що вам приготувати?": {
+    "en": "Good day! What can I prepare for you?",
+    "es": "¡Buenos días! ¿Qué le preparo?",
+    "fr": "Bonjour ! Que puis-je vous préparer ?",
+    "ro": "Bună ziua! Ce vă prepar?"
+  },
+  "Хочу код фіскале.": {
+    "en": "I want a codice fiscale.",
+    "es": "Quiero un codice fiscale.",
+    "fr": "Je veux un codice fiscale.",
+    "ro": "Vreau un codice fiscale."
+  },
+  "Це не стосується вибору випічки в барі.": {
+    "en": "That has nothing to do with choosing pastries at the bar.",
+    "es": "Eso no tiene que ver con elegir bollería en el bar.",
+    "fr": "Cela n'a rien à voir avec le choix des viennoiseries au bar.",
+    "ro": "Asta nu ține de alegerea produselor de patiserie la bar."
+  },
+  "Одну з джемом і одну з шоколадом, будь ласка.": {
+    "en": "One with jam and one with chocolate, please.",
+    "es": "Una con mermelada y otra con chocolate, por favor.",
+    "fr": "Une à la confiture et une au chocolat, s'il vous plaît.",
+    "ro": "Una cu gem și una cu ciocolată, vă rog."
+  },
+  "Ідеально! Ви обрали начинку для випічки.": {
+    "en": "Perfect! You chose the filling for the pastry.",
+    "es": "¡Perfecto! Has elegido el relleno de la bollería.",
+    "fr": "Parfait ! Vous avez choisi la garniture de la viennoiserie.",
+    "ro": "Perfect! Ați ales umplutura pentru patiserie."
+  },
+  "Обидві порожні, але зі збитими вершками і нутеллою зверху, на виніс гарячими.": {
+    "en": "Both plain, but with whipped cream and Nutella on top, to go and hot.",
+    "es": "Las dos vacías, pero con nata montada y Nutella encima, para llevar y calientes.",
+    "fr": "Les deux natures, mais avec de la chantilly et du Nutella dessus, à emporter et chaudes.",
+    "ro": "Ambele goale, dar cu frișă batută și Nutella deasupra, la pachet și fierbinți."
+  },
+  "Касир пропонує vuote, marmellata або cioccolato — оберіть із цих начинок.": {
+    "en": "The cashier offers vuote, marmellata, or cioccolato — choose from these fillings.",
+    "es": "El cajero ofrece vuote, marmellata o cioccolato: elige entre estos rellenos.",
+    "fr": "Le caissier propose vuote, marmellata ou cioccolato — choisissez parmi ces garnitures.",
+    "ro": "Casierul oferă vuote, marmellata sau cioccolato — alegeți dintre aceste umpluturi."
+  },
+  "Чудово. Які бріоші бажаєте? Є порожні, з джемом або з шоколадом.": {
+    "en": "Great. Which brioche would you like? We have plain, with jam, or with chocolate.",
+    "es": "Muy bien. ¿Qué brioche desea? Hay vacías, con mermelada o con chocolate.",
+    "fr": "Très bien. Quelles brioche souhaitez-vous ? Il y en a natures, à la confiture ou au chocolat.",
+    "ro": "Foarte bine. Ce brioche doriți? Sunt goale, cu gem sau cu ciocolată."
+  },
+  "Несіть усе за столик з обслуговуванням, як у ресторані.": {
+    "en": "Bring everything to a table with table service, like in a restaurant.",
+    "es": "Lleven todo a una mesa con servicio de mesa, como en un restaurante.",
+    "fr": "Apportez tout à une table avec service à table, comme au restaurant.",
+    "ro": "Aduceți totul la o masă cu servire la masă, ca la restaurant."
+  },
+  "У типовому барі після каси йдуть al banco, не чекають офіціанта.": {
+    "en": "In a typical bar, after paying at the register you go al banco, you don't wait for a waiter.",
+    "es": "En un bar típico, tras pagar en caja se va al banco, no se espera al camarero.",
+    "fr": "Dans un bar typique, après la caisse on va al banco, on n'attend pas le serveur.",
+    "ro": "Într-un bar obișnuit, după casă mergeți al banco, nu așteptați chelnerul."
+  },
+  "Чек залишу вдома, піду за столик не платячи.": {
+    "en": "I'll leave the receipt at home and sit at a table without paying.",
+    "es": "Dejaré el ticket en casa e iré a una mesa sin pagar.",
+    "fr": "Je laisserai le ticket à la maison et m'installerai à table sans payer.",
+    "ro": "Las bonul acasă și mă duc la masă fără să plătesc."
+  },
+  "Чек відносять бариста на стійку (banco), оплата вже на касі.": {
+    "en": "You bring the receipt to the barista at the counter (banco); payment is already done at the register.",
+    "es": "El ticket se lleva al barista en el mostrador (banco); ya se pagó en caja.",
+    "fr": "On apporte le ticket au barista au comptoir (banco) ; le paiement a déjà été fait à la caisse.",
+    "ro": "Bonul îl duceți baristei la bar (banco); plata s-a făcut deja la casă."
+  },
+  "Дуже дякую! Зараз іду до стійки.": {
+    "en": "Thank you very much! I'm going to the counter now.",
+    "es": "¡Muchas gracias! Ahora voy al mostrador.",
+    "fr": "Merci beaucoup ! J'y vais au comptoir.",
+    "ro": "Mulțumesc mult! Merg acum la bar."
+  },
+  "Правильно! Тепер з чеком підходимо до бариста.": {
+    "en": "Correct! Now we go to the barista with the receipt.",
+    "es": "¡Correcto! Ahora vamos al barista con el ticket.",
+    "fr": "Exact ! Maintenant on va voir le barista avec le ticket.",
+    "ro": "Corect! Acum mergem la barista cu bonul."
+  },
+  "Разом 5 євро 20. Прошу, ось чек. Можете залишити його на стійці.": {
+    "en": "That's 5 euros 20 in total. Here is your receipt. You can leave it on the counter.",
+    "es": "Son 5 euros con 20 en total. Tome, aquí está el ticket. Puede dejarlo en el mostrador.",
+    "fr": "Ça fait 5 euros 20 au total. Voici votre ticket. Vous pouvez le laisser sur le comptoir.",
+    "ro": "Total 5 euro 20. Poftiți, iată bonul. Îl puteți lăsa pe bar."
+  },
+  "Хочу макіато з льодом, вершками і сиропом, і без води.": {
+    "en": "I want a macchiato with ice, cream, and syrup, and without water.",
+    "es": "Quiero un macchiato con hielo, nata y sirope, y sin agua.",
+    "fr": "Je veux un macchiato avec glace, crème et sirop, et sans eau.",
+    "ro": "Vreau un macchiato cu gheață, frișă și sirop, și fără apă."
+  },
+  "Бариста питає caldo або freddo; вода naturale — звичайне ввічливе доповнення.": {
+    "en": "The barista asks caldo or freddo; acqua naturale is a common polite addition.",
+    "es": "El barista pregunta caldo o freddo; el acqua naturale es un extra cortés habitual.",
+    "fr": "Le barista demande caldo ou freddo ; l'acqua naturale est un ajout poli courant.",
+    "ro": "Barista întreabă caldo sau freddo; acqua naturale este un extra politicos obișnuit."
+  },
+  "Макіато гаряче, будь ласка. І можна ще дві склянки негазованої води?": {
+    "en": "Hot macchiato, please. And may I have two glasses of still water?",
+    "es": "Macchiato caliente, por favor. ¿Y dos vasos de agua sin gas?",
+    "fr": "Macchiato chaud, s'il vous plaît. Et deux verres d'eau plate, s'il vous plaît ?",
+    "ro": "Macchiato cald, vă rog. Și pot avea două pahare de apă plată?"
+  },
+  "Чудово! Ви уточнили температуру молока та попросили воду.": {
+    "en": "Great! You specified the milk temperature and asked for water.",
+    "es": "¡Genial! Has aclarado la temperatura de la leche y has pedido agua.",
+    "fr": "Parfait ! Vous avez précisé la température du lait et demandé de l'eau.",
+    "ro": "Excelent! Ați clarificat temperatura laptelui și ați cerut apă."
+  },
+  "Я не хочу каву.": {
+    "en": "I don't want coffee.",
+    "es": "No quiero café.",
+    "fr": "Je ne veux pas de café.",
+    "ro": "Nu vreau cafea."
+  },
+  "Ви вже оплатили каву на касі.": {
+    "en": "You already paid for the coffee at the register.",
+    "es": "Ya has pagado el café en caja.",
+    "fr": "Vous avez déjà payé le café à la caisse.",
+    "ro": "Ați plătit deja cafeaua la casă."
+  },
+  "Доброго дня! Залиште чек. Макіато хочете гаряче чи холодне?": {
+    "en": "Good day! Leave the receipt. Do you want your macchiato hot or cold?",
+    "es": "¡Buenos días! Deje el ticket. ¿Macchiato caliente o frío?",
+    "fr": "Bonjour ! Laissez le ticket. Macchiato chaud ou froid ?",
+    "ro": "Bună ziua! Lăsați bonul. Macchiato cald sau rece?"
+  },
+  "Дуже дякую, дуже люб’язно! Гарного дня.": {
+    "en": "Thank you very much, very kind of you! Have a nice day.",
+    "es": "Muchas gracias, muy amable. Que tenga un buen día.",
+    "fr": "Merci beaucoup, c'est très gentil ! Bonne journée.",
+    "ro": "Mulțumesc mult, foarte amabil! O zi bună."
+  },
+  "Ввічливий і гарний фінал спілкування з бариста!": {
+    "en": "A polite and nice way to end the conversation with the barista!",
+    "es": "¡Un final educado y agradable con el barista!",
+    "fr": "Une fin polie et agréable avec le barista !",
+    "ro": "O încheiere politicoasă și plăcută a conversației cu barista!"
+  },
+  "Капучино занадто італійський, міняю на піцу.": {
+    "en": "Cappuccino is too Italian; I'm switching to pizza.",
+    "es": "El cappuccino es demasiado italiano; cambio a pizza.",
+    "fr": "Le cappuccino est trop italien ; je passe à la pizza.",
+    "ro": "Cappuccino e prea italian; trec la pizza."
+  },
+  "Замовлення вже готове; дякують і бажають гарного дня.": {
+    "en": "The order is ready; they thank you and wish you a good day.",
+    "es": "El pedido ya está listo; agradecen y desean un buen día.",
+    "fr": "La commande est prête ; on vous remercie et on vous souhaite une bonne journée.",
+    "ro": "Comanda e gata; vă mulțumesc și vă doresc o zi bună."
+  },
+  "Не кажу дякую, тут так не заведено.": {
+    "en": "I won't say thank you; that's not how it's done here.",
+    "es": "No digo gracias; aquí no se hace así.",
+    "fr": "Je ne dis pas merci ; ce n'est pas comme ça qu'on fait ici.",
+    "ro": "Nu spun mulțumesc; aici nu e obiceiul."
+  },
+  "Подяка бариста — нормальна ввічливість.": {
+    "en": "Thanking the barista is normal politeness.",
+    "es": "Agradecer al barista es cortesía normal.",
+    "fr": "Remercier le barista est une politesse normale.",
+    "ro": "Mulțumirea baristei este politețe normală."
+  },
+  "Ось вам! Капучино, гаряче макіато, дві бріоші і вода. Смачного!": {
+    "en": "Here you go! Cappuccino, hot macchiato, two brioche, and water. Enjoy!",
+    "es": "¡Aquí tiene! Cappuccino, macchiato caliente, dos brioche y agua. ¡Buen provecho!",
+    "fr": "Voilà ! Cappuccino, macchiato chaud, deux brioche et de l'eau. Bon appétit !",
+    "ro": "Poftiți! Cappuccino, macchiato cald, două brioche și apă. Poftă bună!"
+  },
+  "Чайові (mancia) в італійських барах не є обов'язковими. Проте люди часто залишають монету 20 або 50 центів на чеку біля стійки як знак подяки.": {
+    "en": "Tips (mancia) are not mandatory in Italian bars. However, people often leave a 20 or 50 cent coin on the receipt at the counter as a thank-you.",
+    "es": "Las propinas (mancia) no son obligatorias en los bares italianos. Sin embargo, a menudo se deja una moneda de 20 o 50 céntimos en el ticket del mostrador como agradecimiento.",
+    "fr": "Les pourboires (mancia) ne sont pas obligatoires dans les bars italiens. Cependant, on laisse souvent une pièce de 20 ou 50 centimes sur le ticket au comptoir en signe de remerciement.",
+    "ro": "Bacșișul (mancia) nu este obligatoriu în barurile italiene. Totuși, oamenii lasă adesea o monedă de 20 sau 50 de cenți pe bonul de la bar ca semn de mulțumire."
+  },
+  "Boss Level 🏆: Симуляція замовлення в італійському барі": {
+    "en": "Boss Level 🏆: Ordering simulation in an Italian bar",
+    "es": "Boss Level 🏆: Simulación de pedido en un bar italiano",
+    "fr": "Boss Level 🏆 : Simulation de commande dans un bar italien",
+    "ro": "Boss Level 🏆: Simularea comenzii într-un bar italian"
+  },
+  "Фінальний іспит модуля! Ви самостійно замовляєте каву та випічку, спілкуєтеся з касиром та бариста біля стійки. Підказки та переклад вимкнено!": {
+    "en": "Final module exam! You order coffee and pastries on your own, talk to the cashier and barista at the counter. Hints and translation are disabled!",
+    "es": "¡Examen final del módulo! Pides café y bollería por tu cuenta y hablas con el cajero y el barista en el mostrador. ¡Pistas y traducción desactivadas!",
+    "fr": "Examen final du module ! Vous commandez café et viennoiseries seul(e), parlez au caissier et au barista au comptoir. Indices et traduction désactivés !",
+    "ro": "Examenul final al modulului! Comandați singur cafea și patiserie, vorbiți cu casierul și barista la bar. Indicii și traducerea sunt dezactivate!"
+  },
+  "Чому пити каву біля стійки (al banco) зазвичай дешевше, ніж за столиком (al tavolo)?": {
+    "en": "Why is drinking coffee at the counter (al banco) usually cheaper than at a table (al tavolo)?",
+    "es": "¿Por qué tomar café en el mostrador (al banco) suele ser más barato que en mesa (al tavolo)?",
+    "fr": "Pourquoi boire un café au comptoir (al banco) coûte-t-il généralement moins cher qu'à table (al tavolo) ?",
+    "ro": "De ce cafeaua la bar (al banco) e de obicei mai ieftină decât la masă (al tavolo)?"
+  },
+  "Обслуговування за столиком включає надбавку 'servizio al tavolo'.": {
+    "en": "Table service includes a 'servizio al tavolo' surcharge.",
+    "es": "El servicio en mesa incluye el recargo 'servizio al tavolo'.",
+    "fr": "Le service à table inclut un supplément 'servizio al tavolo'.",
+    "ro": "Servirea la masă include un adaos 'servizio al tavolo'."
+  },
+  "Що таке 'Caffè Macchiato'?": {
+    "en": "What is 'Caffè Macchiato'?",
+    "es": "¿Qué es 'Caffè Macchiato'?",
+    "fr": "Qu'est-ce que le 'Caffè Macchiato' ?",
+    "ro": "Ce este 'Caffè Macchiato'?"
+  },
+  "'Macchiato' означає 'плямистий' — еспресо з краплею молока.": {
+    "en": "'Macchiato' means 'stained' — espresso with a drop of milk.",
+    "es": "'Macchiato' significa 'manchado': espresso con una gota de leche.",
+    "fr": "'Macchiato' signifie 'taché' — espresso avec une goutte de lait.",
+    "ro": "'Macchiato' înseamnă 'pătat' — espresso cu o picătură de lapte."
+  },
+  "Як попросити круасан із шоколадом італійською?": {
+    "en": "How do you ask for a chocolate croissant in Italian?",
+    "es": "¿Cómo pedir un croissant de chocolate en italiano?",
+    "fr": "Comment demander un croissant au chocolat en italien ?",
+    "ro": "Cum ceri un croissant cu ciocolată în italiană?"
+  },
+  "'Cornetto al cioccolato' = круасан із шоколадом.": {
+    "en": "'Cornetto al cioccolato' = croissant with chocolate.",
+    "es": "'Cornetto al cioccolato' = croissant de chocolate.",
+    "fr": "'Cornetto al cioccolato' = croissant au chocolat.",
+    "ro": "'Cornetto al cioccolato' = croissant cu ciocolată."
+  },
+  "Що потрібно зробити з чеком (scontrino) біля стійки бариста?": {
+    "en": "What should you do with the receipt (scontrino) at the barista counter?",
+    "es": "¿Qué hay que hacer con el ticket (scontrino) en el mostrador del barista?",
+    "fr": "Que faut-il faire avec le ticket (scontrino) au comptoir du barista ?",
+    "ro": "Ce trebuie făcut cu bonul (scontrino) la barul baristei?"
+  },
+  "Чек залишають на стійці як підтвердження оплати.": {
+    "en": "You leave the receipt on the counter as proof of payment.",
+    "es": "Se deja el ticket en el mostrador como prueba de pago.",
+    "fr": "On laisse le ticket sur le comptoir comme preuve de paiement.",
+    "ro": "Bonul se lasă pe bar ca dovadă a plății."
+  },
+  "Як ввічливо попросити склянку води до кави?": {
+    "en": "How do you politely ask for a glass of water with your coffee?",
+    "es": "¿Cómo pedir cortésmente un vaso de agua con el café?",
+    "fr": "Comment demander poliment un verre d'eau avec le café ?",
+    "ro": "Cum ceri politicos un pahar de apă la cafea?"
+  },
+  "'Un bicchiere d'acqua, per favore' = 'Склянку води, будь ласка'.": {
+    "en": "'Un bicchiere d'acqua, per favore' = 'A glass of water, please'.",
+    "es": "'Un bicchiere d'acqua, per favore' = 'Un vaso de agua, por favor'.",
+    "fr": "'Un bicchiere d'acqua, per favore' = 'Un verre d'eau, s'il vous plaît'.",
+    "ro": "'Un bicchiere d'acqua, per favore' = 'Un pahar de apă, vă rog'."
+  },
+  "Вітаємо! Ви досконало засвоїли кавову культуру Італії, вільно замовляєте сніданок біля стійки та знаєте всі тонкощі бару!": {
+    "en": "Congratulations! You have mastered Italy's coffee culture, order breakfast at the counter with ease, and know all the ins and outs of the bar!",
+    "es": "¡Enhorabuena! Has dominado la cultura del café en Italia, pides desayuno en el mostrador con soltura y conoces todos los detalles del bar.",
+    "fr": "Félicitations ! Vous maîtrisez la culture du café en Italie, commandez au comptoir en toute aisance et connaissez toutes les subtilités du bar !",
+    "ro": "Felicitări! Ați stăpânit cultura cafelei din Italia, comandați lejer micul dejun la bar și cunoașteți toate detaliile barului!"
+  },
+  "У супермаркеті: Ваги, відділи та продукти": {
+    "en": "At the supermarket: Scales, departments, and products",
+    "es": "En el supermercado: Básculas, secciones y productos",
+    "fr": "Au supermarché : balances, rayons et produits",
+    "ro": "La supermarket: Cântare, raioane și produse"
+  },
+  "Марко та Лаура йдуть до місцевого супермаркету в Тревізо, щоб закупити продукти на тиждень. В Італії є важливі правила купівельного етикету: овочі та фрукти обов'язково треба зважувати самостійно, надягаючи одноразові рукавички (guanti monouso), а біля гастрономічного відділу (banco gastronomia) часто потрібно брати номер у черзі (biglietto).": {
+    "en": "Marco and Laura go to a local supermarket in Treviso to shop for the week. Italy has important shopping etiquette: you must weigh fruit and vegetables yourself while wearing disposable gloves (guanti monouso), and at the deli counter (banco gastronomia) you often need to take a queue number (biglietto).",
+    "es": "Marco y Laura van al supermercado local de Treviso para hacer la compra semanal. En Italia hay reglas importantes de etiqueta: hay que pesar fruta y verdura uno mismo con guantes desechables (guanti monouso), y en el mostrador de gastronomía (banco gastronomia) a menudo hay que sacar un número (biglietto).",
+    "fr": "Marco et Laura vont au supermarché local de Trévise pour faire les courses de la semaine. En Italie, l'étiquette d'achat est importante : il faut peser soi-même fruits et légumes avec des gants jetables (guanti monouso), et au rayon gastronomie (banco gastronomia) il faut souvent prendre un numéro (biglietto).",
+    "ro": "Marco și Laura merg la supermarketul local din Treviso pentru cumpărăturile săptămânii. În Italia există reguli importante: legumele și fructele se cântăresc singur cu mănuși de unică folosință (guanti monouso), iar la raionul gastronomic (banco gastronomia) adesea trebuie luat un număr (biglietto)."
+  },
+  "Де я можу знайти оливкову олію?": {
+    "en": "Where can I find olive oil?",
+    "es": "¿Dónde puedo encontrar aceite de oliva?",
+    "fr": "Où puis-je trouver de l'huile d'olive ?",
+    "ro": "Unde pot găsi ulei de măsline?"
+  },
+  "Мені потрібно зважувати фрукти тут чи на касі?": {
+    "en": "Do I need to weigh the fruit here or at the checkout?",
+    "es": "¿Tengo que pesar la fruta aquí o en caja?",
+    "fr": "Dois-je peser les fruits ici ou à la caisse ?",
+    "ro": "Trebuie să cântăresc fructele aici sau la casă?"
+  },
+  "Я б хотів(ла) двісті грамів прошутто крудо, будь ласка.": {
+    "en": "I would like two hundred grams of prosciutto crudo, please.",
+    "es": "Quisiera doscientos gramos de prosciutto crudo, por favor.",
+    "fr": "Je voudrais deux cents grammes de prosciutto crudo, s'il vous plaît.",
+    "ro": "Aș dori două sute de grame de prosciutto crudo, vă rog."
+  },
+  "У вас є картка лояльності / дисконтна картка?": {
+    "en": "Do you have a loyalty card / discount card?",
+    "es": "¿Tiene tarjeta de fidelidad / tarjeta de descuento?",
+    "fr": "Avez-vous une carte de fidélité / carte de réduction ?",
+    "ro": "Aveți card de fidelitate / card de reducere?"
+  },
+  "Для вибору свіжих овочів та фруктів обов'язково одягайте пластикові рукавички (guanti) з гігієнічних міркувань.": {
+    "en": "When choosing fresh vegetables and fruit, you must wear plastic gloves (guanti) for hygiene.",
+    "es": "Para elegir verdura y fruta fresca, hay que usar guantes de plástico (guanti) por higiene.",
+    "fr": "Pour choisir fruits et légumes frais, il faut porter des gants en plastique (guanti) pour des raisons d'hygiène.",
+    "ro": "Pentru legume și fructe proaspete, purtați obligatoriu mănuși de plastic (guanti) din motive de igienă."
+  },
+  "На вагах зазвичай вказано номер товару, який ви бачите на ціннику (наприклад, Tasto 14). Вставляти номер треба самостійно й наклеювати наліпку на пакет.": {
+    "en": "The scale usually shows the product number from the price tag (for example, Tasto 14). You enter the number yourself and stick the label on the bag.",
+    "es": "En la báscula suele indicarse el número del producto del etiquetado (por ejemplo, Tasto 14). Debes introducirlo tú y pegar la etiqueta en la bolsa.",
+    "fr": "La balance affiche en général le numéro du produit sur l'étiquette (par exemple Tasto 14). Vous le saisissez vous-même et collez l'étiquette sur le sachet.",
+    "ro": "Pe cântar apare de obicei numărul produsului de pe etichetă (de ex. Tasto 14). Introduceți numărul singur și lipiți eticheta pe pungă."
+  },
+  "У відділі м'яса та сирів (Banco Gastronomia) замовляють за вагою в грамах: 'Un etto' = 100 грамів, 'Due etti' = 200 грамів.": {
+    "en": "At the meat and cheese counter (Banco Gastronomia) you order by weight in grams: 'Un etto' = 100 grams, 'Due etti' = 200 grams.",
+    "es": "En el mostrador de carnes y quesos (Banco Gastronomia) se pide por peso en gramos: 'Un etto' = 100 gramos, 'Due etti' = 200 gramos.",
+    "fr": "Au rayon viandes et fromages (Banco Gastronomia), on commande au poids en grammes : 'Un etto' = 100 grammes, 'Due etti' = 200 grammes.",
+    "ro": "La raionul de carne și brânzeturi (Banco Gastronomia) se comandă la greutate în grame: 'Un etto' = 100 de grame, 'Due etti' = 200 de grame."
+  },
+  "Одиниці виміру 'Un etto / Due etti' та вказівні займенники 'Questo / Quello'": {
+    "en": "Units of measure 'Un etto / Due etti' and demonstratives 'Questo / Quello'",
+    "es": "Unidades 'Un etto / Due etti' y demostrativos 'Questo / Quello'",
+    "fr": "Unités 'Un etto / Due etti' et démonstratifs 'Questo / Quello'",
+    "ro": "Unități 'Un etto / Due etti' și demonstrativele 'Questo / Quello'"
+  },
+  "Замовлення за вагою: 'Un etto' (100г), 'Due etti' (200г), 'Un chilo' (1кг).": {
+    "en": "Ordering by weight: 'Un etto' (100 g), 'Due etti' (200 g), 'Un chilo' (1 kg).",
+    "es": "Pedido por peso: 'Un etto' (100 g), 'Due etti' (200 g), 'Un chilo' (1 kg).",
+    "fr": "Commande au poids : 'Un etto' (100 g), 'Due etti' (200 g), 'Un chilo' (1 kg).",
+    "ro": "Comandă la greutate: 'Un etto' (100 g), 'Due etti' (200 g), 'Un chilo' (1 kg)."
+  },
+  "Я хотів би етто пармезану.": {
+    "en": "I would like an etto of Parmesan.",
+    "es": "Quisiera un etto de parmesano.",
+    "fr": "Je voudrais un etto de parmesan.",
+    "ro": "Aș dori un etto de parmezan."
+  },
+  "Візьму два етто вареної шинки.": {
+    "en": "I'll take two etti of cooked ham.",
+    "es": "Tomaré due etti de jamón cocido.",
+    "fr": "Je prendrai due etti de jambon cuit.",
+    "ro": "Iau due etti de șuncă fiartă."
+  },
+  "Вказування на товар: 'Questo' (цей поруч) / 'Quello' (той далі).": {
+    "en": "Pointing at products: 'Questo' (this one nearby) / 'Quello' (that one farther away).",
+    "es": "Señalar el producto: 'Questo' (este, cerca) / 'Quello' (aquel, más lejos).",
+    "fr": "Désigner le produit : 'Questo' (celui-ci, près) / 'Quello' (celui-là, plus loin).",
+    "ro": "Indicarea produsului: 'Questo' (acesta, aproape) / 'Quello' (acela, mai departe)."
+  },
+  "Дасте цей шматок сиру?": {
+    "en": "Can I have this piece of cheese?",
+    "es": "¿Me da este trozo de queso?",
+    "fr": "Puis-je avoir ce morceau de fromage ?",
+    "ro": "Îmi dați bucata aceasta de brânză?"
+  },
+  "Я хотів би нарізаний скибками.": {
+    "en": "I would like it sliced.",
+    "es": "Quisiera que me lo corte en lonchas.",
+    "fr": "Je voudrais que ce soit tranché.",
+    "ro": "Aș dori tăiat felii."
+  },
+  "Пакет на касі в Італії купується окремо та називається 'sacchetto' або 'busta'. Багато італійців ходять за покупками зі своїми багаторазовими сумками (borse della spesa).": {
+    "en": "At checkout in Italy, bags are sold separately and called 'sacchetto' or 'busta'. Many Italians shop with their own reusable bags (borse della spesa).",
+    "es": "En caja en Italia, las bolsas se compran aparte y se llaman 'sacchetto' o 'busta'. Muchos italianos van de compras con bolsas reutilizables (borse della spesa).",
+    "fr": "En caisse en Italie, les sacs se paient à part et s'appellent 'sacchetto' ou 'busta'. Beaucoup d'Italiens font leurs courses avec leurs propres sacs réutilisables (borse della spesa).",
+    "ro": "La casă în Italia, pungile se cumpără separat și se numesc 'sacchetto' sau 'busta'. Mulți italieni fac cumpărăturile cu sacoșe reutilizabile (borse della spesa)."
+  },
+  "Живий діалог: На касі та у відділі гастрономії": {
+    "en": "Live dialogue: At checkout and at the deli counter",
+    "es": "Diálogo en vivo: En caja y en el mostrador de gastronomía",
+    "fr": "Dialogue en direct : à la caisse et au rayon gastronomie",
+    "ro": "Dialog live: La casă și la raionul gastronomic"
+  },
+  "Марко підходить до гастрономічного відділу (banco frigo/gastronomia), а потім прямує на касу (cassa).": {
+    "en": "Marco goes to the deli counter (banco frigo/gastronomia), then heads to checkout (cassa).",
+    "es": "Marco se acerca al mostrador de gastronomía (banco frigo/gastronomia) y luego va a caja (cassa).",
+    "fr": "Marco se rend au rayon gastronomie (banco frigo/gastronomia), puis va à la caisse (cassa).",
+    "ro": "Marco merge la raionul gastronomic (banco frigo/gastronomia), apoi la casă (cassa)."
+  },
+  "Номер не важливий, проходжу вперед, бо поспішаю.": {
+    "en": "The number doesn't matter; I'll go ahead because I'm in a hurry.",
+    "es": "El número no importa; paso delante porque tengo prisa.",
+    "fr": "Le numéro n'a pas d'importance ; je passe devant car je suis pressé.",
+    "ro": "Numărul nu contează; trec în față pentru că mă grăbesc."
+  },
+  "У гастрономії черга за номером; відповідають, коли викликали ваш.": {
+    "en": "At the deli, the queue is by number; they serve you when your number is called.",
+    "es": "En gastronomía la cola es por número; atienden cuando llaman el tuyo.",
+    "fr": "Au rayon gastronomie, la file est par numéro ; on vous sert quand votre numéro est appelé.",
+    "ro": "La gastronomie coada e pe numere; se răspunde când vi se cheamă numărul."
+  },
+  "Привіт, хочу сир зараз.": {
+    "en": "Hi, I want cheese now.",
+    "es": "Hola, quiero queso ahora.",
+    "fr": "Salut, je veux du fromage maintenant.",
+    "ro": "Salut, vreau brânză acum."
+  },
+  "Не забувайте про ввічливість та дотримання черги.": {
+    "en": "Don't forget politeness and waiting your turn in line.",
+    "es": "No olvide la cortesía y respetar la cola.",
+    "fr": "N'oubliez pas la politesse et le respect de la file.",
+    "ro": "Nu uitați de politețe și de respectarea cozii."
+  },
+  "Доброго дня! Це я, номер 42.": {
+    "en": "Good day! That's me, number 42.",
+    "es": "¡Buenos días! Soy yo, el número 42.",
+    "fr": "Bonjour ! C'est moi, le numéro 42.",
+    "ro": "Bună ziua! Sunt eu, numărul 42."
+  },
+  "Чудово! Ви вчасно відповіли на свій номер у черзі.": {
+    "en": "Great! You responded in time when your queue number was called.",
+    "es": "¡Genial! Has respondido a tiempo cuando llamaron tu número.",
+    "fr": "Parfait ! Vous avez répondu à temps lorsque votre numéro a été appelé.",
+    "ro": "Excelent! Ați răspuns la timp când vi s-a chemat numărul."
+  },
+  "Доброго дня! Хто наступний? Номер 42!": {
+    "en": "Good day! Who's next? Number 42!",
+    "es": "¡Buenos días! ¿Quién sigue? ¡Número 42!",
+    "fr": "Bonjour ! Qui est le suivant ? Numéro 42 !",
+    "ro": "Bună ziua! Cine e următorul? Numărul 42!"
+  },
+  "Хочу кіло молока і дві пляшки хліба, тонко нарізані.": {
+    "en": "I want a kilo of milk and two bottles of bread, thinly sliced.",
+    "es": "Quiero un kilo de leche y dos botellas de pan, en lonchas finas.",
+    "fr": "Je veux un kilo de lait et deux bouteilles de pain, en tranches fines.",
+    "ro": "Vreau un kilogram de lapte și două sticle de pâine, tăiată subțire."
+  },
+  "Тут замовляють нарізку: etti/grammi прошуто і шматок пармезану.": {
+    "en": "Here you order sliced goods: etti/grammi of prosciutto and a piece of Parmesan.",
+    "es": "Aquí se pide en lonchas: etti/grammi de prosciutto y un trozo de parmesano.",
+    "fr": "Ici on commande au tranchage : etti/grammi de prosciutto et un morceau de parmesan.",
+    "ro": "Aici se comandă feliat: etti/grammi de prosciutto și o bucată de parmezan."
+  },
+  "Я хотів би два етто пармської шинки і шматок пармезану Реджано, будь ласка.": {
+    "en": "I would like two etti of Parma ham and a piece of Parmigiano Reggiano, please.",
+    "es": "Quisiera due etti de jamón de Parma y un trozo de Parmigiano Reggiano, por favor.",
+    "fr": "Je voudrais due etti de jambon de Parme et un morceau de Parmigiano Reggiano, s'il vous plaît.",
+    "ro": "Aș dori due etti de șuncă de Parma și o bucată de Parmigiano Reggiano, vă rog."
+  },
+  "Ідеально! Ви правильно використали одиницю виміру 'due etti' (200 грамів).": {
+    "en": "Perfect! You used the unit 'due etti' (200 grams) correctly.",
+    "es": "¡Perfecto! Has usado bien la unidad 'due etti' (200 gramos).",
+    "fr": "Parfait ! Vous avez bien utilisé l'unité 'due etti' (200 grammes).",
+    "ro": "Perfect! Ați folosit corect unitatea 'due etti' (200 de grame)."
+  },
+  "Дай три літри шинки.": {
+    "en": "Give me three liters of ham.",
+    "es": "Dame tres litros de jamón.",
+    "fr": "Donne-moi trois litres de jambon.",
+    "ro": "Dă-mi trei litri de șuncă."
+  },
+  "Прошутто вимірюється в грамах/кілограмах ('etti' або 'grammi'), а не в літрах.": {
+    "en": "Prosciutto is measured in grams/kilograms ('etti' or 'grammi'), not in liters.",
+    "es": "El prosciutto se mide en gramos/kilogramos ('etti' o 'grammi'), no en litros.",
+    "fr": "Le prosciutto se mesure en grammes/kilogrammes ('etti' ou 'grammi'), pas en litres.",
+    "ro": "Prosciutto se măsoară în grame/kilograme ('etti' sau 'grammi'), nu în litri."
+  },
+  "Кажіть, що вам приготувати?": {
+    "en": "What would you like me to prepare for you?",
+    "es": "¿Qué le preparo?",
+    "fr": "Que puis-je vous préparer ?",
+    "ro": "Ce vă pregătesc?"
+  },
+  "Так, шинку тонко. І шматок сиру цілком підходить, дякую.": {
+    "en": "Yes, thin ham. And this piece of cheese is fine, thank you.",
+    "es": "Sí, jamón fino. Y este trozo de queso me vale, gracias.",
+    "fr": "Oui, jambon fin. Et ce morceau de fromage me convient, merci.",
+    "ro": "Da, șuncă subțire. Și bucata de brânză e potrivită, mulțumesc."
+  },
+  "Чудово! Ви уточнили нарізку ('tagliato sottile' = тонко нарізаний).": {
+    "en": "Great! You clarified the cut ('tagliato sottile' = thinly sliced).",
+    "es": "¡Genial! Has aclarado el corte ('tagliato sottile' = en lonchas finas).",
+    "fr": "Parfait ! Vous avez précisé la découpe ('tagliato sottile' = finement tranché).",
+    "ro": "Excelent! Ați clarificat tăierea ('tagliato sottile' = feliat subțire)."
+  },
+  "Ні, мені не подобається Anagrafe.": {
+    "en": "No, I don't like the Anagrafe.",
+    "es": "No, no me gusta el Anagrafe.",
+    "fr": "Non, je n'aime pas l'Anagrafe.",
+    "ro": "Nu, nu-mi place Anagrafe."
+  },
+  "Це не стосується покупки продуктів.": {
+    "en": "That has nothing to do with grocery shopping.",
+    "es": "Eso no tiene que ver con la compra de alimentos.",
+    "fr": "Cela n'a rien à voir avec les courses.",
+    "ro": "Asta nu ține de cumpărăturile alimentare."
+  },
+  "Наріжте великими кубиками, а сир я весь спробую спочатку.": {
+    "en": "Cut it into large cubes, and I'll try all the cheese first.",
+    "es": "Córtelo en cubos grandes, y probaré todo el queso primero.",
+    "fr": "Coupez en gros cubes, et je goûterai tout le fromage d'abord.",
+    "ro": "Tăiați cuburi mari, iar brânza o voi gusta pe toată mai întâi."
+  },
+  "Уточнюють нарізку (sottile) і чи підходить шматок сиру, а не дегустацію всього.": {
+    "en": "They clarify the cut (sottile) and whether the piece of cheese is OK, not tasting the whole thing.",
+    "es": "Aclaran el corte (sottile) y si el trozo de queso vale, no degustar todo.",
+    "fr": "On précise la découpe (sottile) et si le morceau de fromage convient, pas une dégustation de tout.",
+    "ro": "Se clarifică tăierea (sottile) și dacă bucata de brânză e potrivită, nu degustarea întregii."
+  },
+  "Нарізати шинку тонко? А пармезан — підходить цей шматок на триста грамів?": {
+    "en": "Slice the ham thinly? And for the Parmesan — is this 300-gram piece OK?",
+    "es": "¿Jamón en lonchas finas? ¿Y el parmesano — vale este trozo de trescientos gramos?",
+    "fr": "Trancher le jambon finement ? Et le parmesan — ce morceau de trois cents grammes convient-il ?",
+    "ro": "Tăiem șunca subțire? Iar parmezanul — e potrivită bucata de trei sute de grame?"
+  },
+  "У мене лише сімейний лікар.": {
+    "en": "I only have a family doctor.",
+    "es": "Solo tengo médico de familia.",
+    "fr": "Je n'ai qu'un médecin de famille.",
+    "ro": "Am doar medic de familie."
+  },
+  "Медичний лікар не має відношення до картки супермаркету.": {
+    "en": "A doctor has nothing to do with a supermarket card.",
+    "es": "El médico no tiene que ver con la tarjeta del supermercado.",
+    "fr": "Le médecin n'a rien à voir avec la carte du supermarché.",
+    "ro": "Medicul nu are legătură cu cardul de supermarket."
+  },
+  "Так, у мене tessera sanitaria, це те саме.": {
+    "en": "Yes, I have a tessera sanitaria; it's the same thing.",
+    "es": "Sí, tengo tessera sanitaria; es lo mismo.",
+    "fr": "Oui, j'ai une tessera sanitaria, c'est la même chose.",
+    "ro": "Da, am tessera sanitaria, e același lucru."
+  },
+  "Carta fedeltà супермаркету — не tessera sanitaria.": {
+    "en": "A supermarket Carta fedeltà is not a tessera sanitaria.",
+    "es": "La Carta fedeltà del supermercado no es la tessera sanitaria.",
+    "fr": "La Carta fedeltà du supermarché n'est pas la tessera sanitaria.",
+    "ro": "Carta fedeltà de supermarket nu este tessera sanitaria."
+  },
+  "Доброго дня! Ні, немає. Можна оформити зараз?": {
+    "en": "Good day! No, I don't. Can I sign up for one now?",
+    "es": "¡Buenos días! No, no tengo. ¿Puedo hacerla ahora?",
+    "fr": "Bonjour ! Non, je n'en ai pas. Puis-je en faire une maintenant ?",
+    "ro": "Bună ziua! Nu, nu am. Pot face una acum?"
+  },
+  "Правильно! Ви запитали про можливість оформити карту лояльності.": {
+    "en": "Correct! You asked about signing up for a loyalty card.",
+    "es": "¡Correcto! Has preguntado por hacer la tarjeta de fidelidad.",
+    "fr": "Exact ! Vous avez demandé s'il est possible de faire une carte de fidélité.",
+    "ro": "Corect! Ați întrebat despre posibilitatea de a face un card de fidelitate."
+  },
+  "Доброго дня! У вас є наша карта лояльності?": {
+    "en": "Good day! Do you have our loyalty card?",
+    "es": "¡Buenos días! ¿Tiene nuestra tarjeta de fidelidad?",
+    "fr": "Bonjour ! Avez-vous notre carte de fidélité ?",
+    "ro": "Bună ziua! Aveți cardul nostru de fidelitate?"
+  },
+  "Так, біопакет, будь ласка. І плачу кредитною карткою.": {
+    "en": "Yes, a biodegradable bag, please. And I'll pay by credit card.",
+    "es": "Sí, bolsa biodegradable, por favor. Y pago con tarjeta de crédito.",
+    "fr": "Oui, un sac biodégradable, s'il vous plaît. Et je paie par carte bancaire.",
+    "ro": "Da, pungă biodegradabilă, vă rog. Și plătesc cu cardul."
+  },
+  "Чудово! Ви попросили пакет та вказали спосіб оплати.": {
+    "en": "Great! You asked for a bag and specified how you'll pay.",
+    "es": "¡Genial! Has pedido bolsa e indicado la forma de pago.",
+    "fr": "Parfait ! Vous avez demandé un sac et indiqué le mode de paiement.",
+    "ro": "Excelent! Ați cerut pungă și ați indicat modalitatea de plată."
+  },
+  "Пакет завжди безкоштовний за законом, без прохання.": {
+    "en": "Bags are always free by law, without asking.",
+    "es": "La bolsa siempre es gratis por ley, sin pedirla.",
+    "fr": "Le sac est toujours gratuit par la loi, sans demander.",
+    "ro": "Punga e mereu gratuită prin lege, fără să ceri."
+  },
+  "Біопакети зазвичай платні; їх просять окремо.": {
+    "en": "Biodegradable bags are usually paid; you ask for them separately.",
+    "es": "Las bolsas biodegradables suelen ser de pago; se piden aparte.",
+    "fr": "Les sacs biodégradables sont en général payants ; on les demande à part.",
+    "ro": "Pungile biodegradabile sunt de obicei cu plată; se cer separat."
+  },
+  "Ні, покладу все по кишенях. Плачу марками.": {
+    "en": "No, I'll put everything in my pockets. I'll pay with stamps.",
+    "es": "No, lo meto todo en los bolsillos. Pago con sellos.",
+    "fr": "Non, je mets tout dans mes poches. Je paie avec des timbres.",
+    "ro": "Nu, pun totul în buzunare. Plătesc cu timbre."
+  },
+  "Потрібен пакет і звичайна оплата карткою або готівкою.": {
+    "en": "You need a bag and normal payment by card or cash.",
+    "es": "Hace falta bolsa y pago normal con tarjeta o efectivo.",
+    "fr": "Il faut un sac et un paiement normal par carte ou espèces.",
+    "ro": "E nevoie de pungă și plată obișnuită cu cardul sau cash."
+  },
+  "Так, можна попросити потім в інформаційному вікні. Потрібен пакет для покупок?": {
+    "en": "Yes, you can ask later at the information desk. Do you need a shopping bag?",
+    "es": "Sí, puede pedirlo después en información. ¿Necesita bolsa para la compra?",
+    "fr": "Oui, on peut demander plus tard au bureau d'information. Avez-vous besoin d'un sac ?",
+    "ro": "Da, puteți cere apoi la informații. Aveți nevoie de pungă pentru cumpărături?"
+  },
+  "Чек залишу на касі, на виході він не потрібен.": {
+    "en": "I'll leave the receipt at checkout; you don't need it when leaving.",
+    "es": "Dejaré el ticket en caja; no hace falta al salir.",
+    "fr": "Je laisserai le ticket à la caisse ; on n'en a pas besoin en sortant.",
+    "ro": "Las bonul la casă; la ieșire nu e nevoie de el."
+  },
+  "Чек варто взяти з собою до виходу з магазину.": {
+    "en": "You should take the receipt with you until you leave the store.",
+    "es": "Conviene llevarse el ticket hasta salir de la tienda.",
+    "fr": "Il vaut mieux garder le ticket jusqu'à la sortie du magasin.",
+    "ro": "Bonul e bine să-l luați cu voi până ieșiți din magazin."
+  },
+  "Дуже дякую, і вам гарного дня!": {
+    "en": "Thank you very much, and have a nice day!",
+    "es": "Muchas gracias, ¡que tenga un buen día!",
+    "fr": "Merci beaucoup, bonne journée à vous aussi !",
+    "ro": "Mulțumesc mult, și dumneavoastră o zi bună!"
+  },
+  "Приємний та ввічливий фінал розмови на касі!": {
+    "en": "A pleasant and polite way to end the conversation at checkout!",
+    "es": "¡Un final agradable y educado en caja!",
+    "fr": "Une fin agréable et polie à la caisse !",
+    "ro": "O încheiere plăcută și politicoasă la casă!"
+  },
+  "Помилка на тисячу євро, не плачу і мовчки лишаю покупки тут.": {
+    "en": "A thousand-euro mistake; I won't pay and I'll silently leave the groceries here.",
+    "es": "Un error de mil euros; no pago y dejo la compra aquí en silencio.",
+    "fr": "Une erreur de mille euros ; je ne paie pas et je laisse les courses ici en silence.",
+    "ro": "O greșeală de o mie de euro; nu plătesc și las cumpărăturile aici în liniște."
+  },
+  "Якщо сума правильна — дякують і забирають чек.": {
+    "en": "If the total is correct — they thank you and you take the receipt.",
+    "es": "Si el importe es correcto, agradecen y te llevas el ticket.",
+    "fr": "Si le montant est correct — on vous remercie et vous repartez avec le ticket.",
+    "ro": "Dacă suma e corectă — vă mulțumesc și luați bonul."
+  },
+  "34 євро 50 центів. Прикладіть картку до POS... Чудово. Ось чек. Гарного дня!": {
+    "en": "34 euros 50 cents. Tap your card on the POS... Great. Here's your receipt. Have a nice day!",
+    "es": "34 euros con 50 céntimos. Acerque la tarjeta al POS... Perfecto. Aquí tiene el ticket. ¡Buen día!",
+    "fr": "34 euros 50 centimes. Approchez la carte du POS... Parfait. Voici le ticket. Bonne journée !",
+    "ro": "34 euro 50 cenți. Apropiați cardul de POS... Perfect. Poftiți bonul. O zi bună!"
+  },
+  "'Lo scontrino' (чек) обов'язково потрібно зберігати до виходу з супермаркету чи магазину — у разі перевірки фінансовою поліцією його можуть попросити показати.": {
+    "en": "'Lo scontrino' (receipt) must be kept until you leave the supermarket or shop — financial police may ask to see it during a check.",
+    "es": "'Lo scontrino' (ticket) hay que conservarlo hasta salir del supermercado o tienda; la guardia di finanza puede pedir verlo.",
+    "fr": "'Lo scontrino' (ticket) doit être conservé jusqu'à la sortie du supermarché ou du magasin — la guardia di finanza peut le demander.",
+    "ro": "'Lo scontrino' (bonul) trebuie păstrat până ieșiți din supermarket sau magazin — guardia di finanza poate cere să-l arătați."
+  },
+  "Boss Level 🏆: Симуляція покупок у супермаркеті": {
+    "en": "Boss Level 🏆: Supermarket shopping simulation",
+    "es": "Boss Level 🏆: Simulación de compras en el supermercado",
+    "fr": "Boss Level 🏆 : Simulation de courses au supermarché",
+    "ro": "Boss Level 🏆: Simularea cumpărăturilor la supermarket"
+  },
+  "Фінальний іспит модуля! Ви самостійно купуєте продукти, замовляєте нарізку у відділі гастрономії та розраховуєтеся на касі. Підказки та переклад вимкнено!": {
+    "en": "Final module exam! You shop on your own, order sliced goods at the deli, and pay at checkout. Hints and translation are disabled!",
+    "es": "¡Examen final del módulo! Compras solo, pides en el mostrador de gastronomía y pagas en caja. ¡Pistas y traducción desactivadas!",
+    "fr": "Examen final du module ! Vous faites vos courses seul(e), commandez au rayon gastronomie et payez en caisse. Indices et traduction désactivés !",
+    "ro": "Examenul final al modulului! Cumpărați singur, comandați feliat la gastronomie și plătiți la casă. Indicii și traducerea sunt dezactivate!"
+  },
+  "Скільки грамів продукту ви замовляєте, якщо кажете 'Due etti'?": {
+    "en": "How many grams do you order if you say 'Due etti'?",
+    "es": "¿Cuántos gramos pides si dices 'Due etti'?",
+    "fr": "Combien de grammes commandez-vous si vous dites 'Due etti' ?",
+    "ro": "Câte grame comandați dacă spuneți 'Due etti'?"
+  },
+  "Un etto = 100 грамів, відповідно Due etti = 200 грамів.": {
+    "en": "Un etto = 100 grams, so Due etti = 200 grams.",
+    "es": "Un etto = 100 gramos, por tanto Due etti = 200 gramos.",
+    "fr": "Un etto = 100 grammes, donc Due etti = 200 grammes.",
+    "ro": "Un etto = 100 de grame, deci Due etti = 200 de grame."
+  },
+  "Що обов'язково потрібно зробити перед тим, як брати свіжі фрукти чи овочі у супермаркеті?": {
+    "en": "What must you do before taking fresh fruit or vegetables in a supermarket?",
+    "es": "¿Qué hay que hacer obligatoriamente antes de coger fruta o verdura fresca en el supermercado?",
+    "fr": "Que faut-il faire obligatoirement avant de prendre fruits ou légumes frais au supermarché ?",
+    "ro": "Ce trebuie făcut obligatoriu înainte de a lua fructe sau legume proaspete la supermarket?"
+  },
+  "Правила гігієни в Італії вимагають використання рукавичок для вибору овочів/фруктів.": {
+    "en": "Hygiene rules in Italy require gloves when choosing vegetables/fruit.",
+    "es": "Las normas de higiene en Italia exigen guantes para elegir verdura/fruta.",
+    "fr": "Les règles d'hygiène en Italie imposent des gants pour choisir légumes/fruits.",
+    "ro": "Regulile de igienă din Italia impun mănuși pentru alegerea legumelor/fructelor."
+  },
+  "Як запитати касира про пакет для покупок?": {
+    "en": "How do you ask the cashier for a shopping bag?",
+    "es": "¿Cómo pedir al cajero una bolsa para la compra?",
+    "fr": "Comment demander un sac au caissier ?",
+    "ro": "Cum întrebați casierul despre o pungă pentru cumpărături?"
+  },
+  "'Un sacchetto per la spesa' = пакет для покупок.": {
+    "en": "'Un sacchetto per la spesa' = a shopping bag.",
+    "es": "'Un sacchetto per la spesa' = bolsa para la compra.",
+    "fr": "'Un sacchetto per la spesa' = sac pour les courses.",
+    "ro": "'Un sacchetto per la spesa' = pungă pentru cumpărături."
+  },
+  "Що таке 'Lo scontrino'?": {
+    "en": "What is 'Lo scontrino'?",
+    "es": "¿Qué es 'Lo scontrino'?",
+    "fr": "Qu'est-ce que 'Lo scontrino' ?",
+    "ro": "Ce este 'Lo scontrino'?"
+  },
+  "'Lo scontrino' — це фіскальний чек.": {
+    "en": "'Lo scontrino' is the fiscal receipt.",
+    "es": "'Lo scontrino' es el ticket fiscal.",
+    "fr": "'Lo scontrino' est le ticket fiscal.",
+    "ro": "'Lo scontrino' este bonul fiscal."
+  },
+  "Як попросити тонко нарізати шинку (прошутто)?": {
+    "en": "How do you ask for thinly sliced ham (prosciutto)?",
+    "es": "¿Cómo pedir jamón (prosciutto) en lonchas finas?",
+    "fr": "Comment demander du jambon (prosciutto) finement tranché ?",
+    "ro": "Cum ceri șuncă (prosciutto) tăiată subțire?"
+  },
+  "'Tagliato sottile' = тонко нарізаний.": {
+    "en": "'Tagliato sottile' = thinly sliced.",
+    "es": "'Tagliato sottile' = en lonchas finas.",
+    "fr": "'Tagliato sottile' = finement tranché.",
+    "ro": "'Tagliato sottile' = feliat subțire."
+  },
+  "Вітаємо! Ви повністю засвоїли правила покупок в італійському супермаркеті, вмієте зважувати продукти та спілкуватися на касі!": {
+    "en": "Congratulations! You have fully mastered shopping rules in an Italian supermarket, can weigh products, and communicate at checkout!",
+    "es": "¡Enhorabuena! Has dominado las reglas de compra en un supermercado italiano, sabes pesar productos y hablar en caja.",
+    "fr": "Félicitations ! Vous maîtrisez les règles des courses au supermarché italien, savez peser les produits et parler en caisse !",
+    "ro": "Felicitări! Ați stăpânit regulile cumpărăturilor în supermarketul italian, știți să cântăriți și să vorbiți la casă!"
+  },
+  "У транспорті: Квитки, валідація та поїзди": {
+    "en": "On transport: Tickets, validation, and trains",
+    "es": "En transporte: Billetes, validación y trenes",
+    "fr": "Transports : billets, validation et trains",
+    "ro": "Transport: Bilete, validare și trenuri"
+  },
+  "Марко та Лаура планують поїздку на міському автобусі та поїзді. В Італії квитки на автобус зазвичай купують заздалегідь у тютюнових кіосках (Tabacchi) або газетних кіосках (Edicola). Найголовніше правило італійського транспорту — обов'язково прокомпостувати (завалідувати) квиток одразу при вході в автобус або перед посадкою на пероні поїзда.": {
+    "en": "Marco and Laura are planning a trip by city bus and train. In Italy, bus tickets are usually bought in advance at tobacconists (Tabacchi) or newsstands (Edicola). The most important rule is to validate (stamp) your ticket as soon as you board the bus or before boarding on the train platform.",
+    "es": "Marco y Laura planean un viaje en autobús urbano y tren. En Italia, los billetes de bus suelen comprarse antes en estancos (Tabacchi) o quioscos (Edicola). La regla clave es validar (timbrar) el billete al subir al autobús o antes en el andén del tren.",
+    "fr": "Marco et Laura prévoient un trajet en bus urbain et en train. En Italie, les tickets de bus s'achètent en général à l'avance au tabac (Tabacchi) ou au kiosque (Edicola). La règle essentielle : valider (composter) le ticket dès l'entrée dans le bus ou avant l'embarquement en gare.",
+    "ro": "Marco și Laura plănuiesc o călătorie cu autobuzul urban și trenul. În Italia, biletele de autobuz se cumpără de obicei din timp de la Tabacchi sau Edicola. Regula principală: validați (compostați) biletul imediat la urcare în autobuz sau înainte de îmbarcare pe peron."
+  },
+  "Я б хотів(ла) два квитки на міський автобус, будь ласка.": {
+    "en": "I would like two city bus tickets, please.",
+    "es": "Quisiera dos billetes de autobús urbano, por favor.",
+    "fr": "Je voudrais deux tickets de bus urbain, s'il vous plaît.",
+    "ro": "Aș dori două bilete de autobuz urban, vă rog."
+  },
+  "З якої колії (платформи) відправляється поїзд до Венеції?": {
+    "en": "Which track (platform) does the train to Venice leave from?",
+    "es": "¿Desde qué vía (andén) sale el tren a Venecia?",
+    "fr": "De quel binario (quai) part le train pour Venise ?",
+    "ro": "De pe ce linie (peron) pleacă trenul spre Veneția?"
+  },
+  "Пам'ятай прокомпостувати квиток перед тим, як зайти!": {
+    "en": "Remember to validate your ticket before you get on!",
+    "es": "¡Recuerda validar el billete antes de subir!",
+    "fr": "N'oublie pas de valider ton ticket avant de monter !",
+    "ro": "Nu uita să validezi biletul înainte să urci!"
+  },
+  "О котрій годині буде наступний автобус до вокзалу?": {
+    "en": "What time is the next bus to the station?",
+    "es": "¿A qué hora pasa el próximo autobús a la estación?",
+    "fr": "À quelle heure passe le prochain bus pour la gare ?",
+    "ro": "La ce oră vine următorul autobuz spre gară?"
+  },
+  "Tabacchi e Edicola — найпростіше місце для купівлі квитків на автобус. У самому автобусі квиток може коштувати дорожче або взагалі не продаватися.": {
+    "en": "Tabacchi and Edicola are the easiest places to buy bus tickets. On the bus itself the ticket may cost more or not be sold at all.",
+    "es": "Tabacchi y Edicola son los sitios más fáciles para comprar billetes de bus. En el autobús puede costar más o no venderse.",
+    "fr": "Tabacchi et Edicola sont les endroits les plus simples pour acheter des tickets de bus. Dans le bus, le ticket peut coûter plus cher ou ne pas être vendu.",
+    "ro": "Tabacchi și Edicola sunt cele mai simple locuri pentru bilete de autobuz. În autobuz biletul poate fi mai scump sau deloc de vânzare."
+  },
+  "Convalidare / Timbrare — компостування квитка. За поїздку з невалідним квитком контролер (controllore) виписує штраф від 50 до 100 євро.": {
+    "en": "Convalidare / Timbrare — validating the ticket. For travel with an invalid ticket, the inspector (controllore) issues a fine of 50 to 100 euros.",
+    "es": "Convalidare / Timbrare — validar el billete. Con billete no validado, el inspector (controllore) multa de 50 a 100 euros.",
+    "fr": "Convalidare / Timbrare — validation du ticket. Sans validation, le contrôleur (controllore) inflige une amende de 50 à 100 euros.",
+    "ro": "Convalidare / Timbrare — validarea biletului. Cu bilet nevalidat, controlorul (controllore) aplică amendă de 50–100 euro."
+  },
+  "Binario — номер колії/платформи на залізничному вокзалі. Завжди перевіряйте інформаційне табло (tabellone) за номером поїзда.": {
+    "en": "Binario — track/platform number at the train station. Always check the information board (tabellone) for your train number.",
+    "es": "Binario — número de vía/andén en la estación. Comprueba siempre el panel (tabellone) por número de tren.",
+    "fr": "Binario — numéro de voie/quai en gare. Vérifiez toujours le tableau (tabellone) selon le numéro du train.",
+    "ro": "Binario — numărul liniei/peronului în gară. Verificați mereu tabloul (tabellone) după numărul trenului."
+  },
+  "Прийменники напрямку: 'In' (транспорт) та 'A / Da' (станції та міста)": {
+    "en": "Direction prepositions: 'In' (transport) and 'A / Da' (stations and cities)",
+    "es": "Preposiciones de dirección: 'In' (transporte) y 'A / Da' (estaciones y ciudades)",
+    "fr": "Prépositions de direction : 'In' (transport) et 'A / Da' (gares et villes)",
+    "ro": "Prepoziții de direcție: 'In' (transport) și 'A / Da' (gări și orașe)"
+  },
+  "Прийменник 'In' для видів транспорту: 'In autobus' (автобусом), 'In treno' (поїздом), 'In macchina' (машиною).": {
+    "en": "Preposition 'In' for modes of transport: 'In autobus' (by bus), 'In treno' (by train), 'In macchina' (by car).",
+    "es": "Preposición 'In' para medios: 'In autobus' (en autobús), 'In treno' (en tren), 'In macchina' (en coche).",
+    "fr": "Préposition 'In' pour les transports : 'In autobus' (en bus), 'In treno' (en train), 'In macchina' (en voiture).",
+    "ro": "Prepoziția 'In' pentru transport: 'In autobus' (cu autobuzul), 'In treno' (cu trenul), 'In macchina' (cu mașina)."
+  },
+  "Їду на роботу автобусом.": {
+    "en": "I go to work by bus.",
+    "es": "Voy al trabajo en autobús.",
+    "fr": "Je vais au travail en bus.",
+    "ro": "Merg la serviciu cu autobuzul."
+  },
+  "Ми їдемо потягом.": {
+    "en": "We are going by train.",
+    "es": "Vamos en tren.",
+    "fr": "Nous allons en train.",
+    "ro": "Mergem cu trenul."
+  },
+  "Прийменники напрямку: 'A' (до міста/станції) та 'Da' (від/з якоїсь колії).": {
+    "en": "Direction prepositions: 'A' (to a city/station) and 'Da' (from/a certain track).",
+    "es": "Preposiciones de dirección: 'A' (hacia ciudad/estación) y 'Da' (desde/de qué vía).",
+    "fr": "Prépositions de direction : 'A' (vers ville/gare) et 'Da' (de/depuis quelle voie).",
+    "ro": "Prepoziții de direcție: 'A' (spre oraș/gară) și 'Da' (de/pe linia)."
+  },
+  "Беру потяг, щоб поїхати до Мілана.": {
+    "en": "I'm taking the train to go to Milan.",
+    "es": "Tomo el tren para ir a Milán.",
+    "fr": "Je prends le train pour aller à Milan.",
+    "ro": "Iau trenul ca să merg la Milano."
+  },
+  "Відправляється з колії 3.": {
+    "en": "It departs from track 3.",
+    "es": "Sale desde la vía 3.",
+    "fr": "Il part du binario 3.",
+    "ro": "Pleacă de pe linia 3."
+  },
+  "На залізничних станціях в Італії паперові квитки без вказаного часу та місця потрібно обов'язково компостувати в зелених або жовтих валидаторах (macchinette) біля виходу на перони!": {
+    "en": "At Italian train stations, paper tickets without a fixed time and seat must be validated in the green or yellow validators (macchinette) near the platform access!",
+    "es": "En las estaciones italianas, los billetes en papel sin hora y plaza fijas deben validarse en las máquinas verdes o amarillas (macchinette) junto a los andenes.",
+    "fr": "En gare en Italie, les billets papier sans heure et place fixées doivent être validés dans les composteuses vertes ou jaunes (macchinette) près des quais !",
+    "ro": "În gările din Italia, biletele pe hârtie fără oră și loc fix trebuie validate la aparatele verzi sau galbene (macchinette) lângă accesul spre peron!"
+  },
+  "Живий діалог: Купівля квитка в Tabacchi та поїздка на вокзал": {
+    "en": "Live dialogue: Buying a ticket at Tabacchi and a trip to the station",
+    "es": "Diálogo en vivo: Comprar billete en Tabacchi y viaje a la estación",
+    "fr": "Dialogue en direct : acheter un ticket au Tabacchi et trajet en gare",
+    "ro": "Dialog live: Cumpărarea biletului la Tabacchi și călătoria spre gară"
+  },
+  "Марко заходить до кіоску Tabacchi, щоб купити квитки на автобус, а потім запитує перехожого на зупинці про розклад.": {
+    "en": "Marco goes into a Tabacchi kiosk to buy bus tickets, then asks a passerby at the stop about the schedule.",
+    "es": "Marco entra en un Tabacchi para comprar billetes de bus y luego pregunta a un transeúnte en la parada por el horario.",
+    "fr": "Marco entre dans un Tabacchi pour acheter des tickets de bus, puis demande l'horaire à un passant à l'arrêt.",
+    "ro": "Marco intră la un Tabacchi ca să cumpere bilete de autobuz, apoi întreabă un trecător la stație despre orar."
+  },
+  "Доброго дня! Два квитки на міський автобус, будь ласка.": {
+    "en": "Good day! Two city bus tickets, please.",
+    "es": "¡Buenos días! Dos billetes de autobús urbano, por favor.",
+    "fr": "Bonjour ! Deux tickets de bus urbain, s'il vous plaît.",
+    "ro": "Bună ziua! Două bilete de autobuz urban, vă rog."
+  },
+  "Чудово! Ви чітко попросили міські квитки.": {
+    "en": "Great! You clearly asked for city bus tickets.",
+    "es": "¡Genial! Has pedido claramente billetes urbanos.",
+    "fr": "Parfait ! Vous avez clairement demandé des tickets urbains.",
+    "ro": "Excelent! Ați cerut clar bilete urbane."
+  },
+  "Привіт, хочу подати заяву на ISEE.": {
+    "en": "Hi, I want to apply for ISEE.",
+    "es": "Hola, quiero solicitar el ISEE.",
+    "fr": "Salut, je veux déposer une demande d'ISEE.",
+    "ro": "Salut, vreau să depun cerere pentru ISEE."
+  },
+  "У тютюновому кіоску не оформлюють соціальні довідки ISEE.": {
+    "en": "You don't apply for ISEE social certificates at a tobacconist.",
+    "es": "En el estanco no se tramitan certificados sociales ISEE.",
+    "fr": "Au tabac on ne délivre pas les attestations sociales ISEE.",
+    "ro": "La tabac nu se eliberează certificatele sociale ISEE."
+  },
+  "Дві марки da bollo і рецепт лікаря для автобуса.": {
+    "en": "Two marca da bollo stamps and a doctor's prescription for the bus.",
+    "es": "Dos marcas da bollo y una receta médica para el autobús.",
+    "fr": "Deux marques da bollo et une ordonnance médicale pour le bus.",
+    "ro": "Două marche da bollo și o rețetă medicală pentru autobuz."
+  },
+  "У Tabacchi для цієї сцени купують міські квитки, не марки й не рецепти.": {
+    "en": "At Tabacchi in this scene you buy city bus tickets, not stamps or prescriptions.",
+    "es": "En el Tabacchi en esta escena se compran billetes urbanos, no sellos ni recetas.",
+    "fr": "Au Tabacchi dans cette scène on achète des tickets urbains, pas de timbres ni d'ordonnances.",
+    "ro": "La Tabacchi în această scenă se cumpără bilete urbane, nu timbre sau rețete."
+  },
+  "Доброго дня! Кажіть, будь ласка.": {
+    "en": "Good day! Please go ahead.",
+    "es": "¡Buenos días! Dígame, por favor.",
+    "fr": "Bonjour ! Je vous écoute, s'il vous plaît.",
+    "ro": "Bună ziua! Spuneți, vă rog."
+  },
+  "Я не хочу платити за квиток.": {
+    "en": "I don't want to pay for a ticket.",
+    "es": "No quiero pagar el billete.",
+    "fr": "Je ne veux pas payer le ticket.",
+    "ro": "Nu vreau să plătesc biletul."
+  },
+  "Без квитка ви ризикуєте отримати штраф у транспорті.": {
+    "en": "Without a ticket you risk a fine on public transport.",
+    "es": "Sin billete arriesgas una multa en el transporte.",
+    "fr": "Sans ticket vous risquez une amende dans les transports.",
+    "ro": "Fără bilet riscați amendă în transport."
+  },
+  "Ні, хочу річний абонемент на регіональний потяг, роздрукуйте зараз.": {
+    "en": "No, I want an annual pass for the regional train; print it now.",
+    "es": "No, quiero un abono anual de tren regional; imprímalo ahora.",
+    "fr": "Non, je veux un abonnement annuel train régional ; imprimez-le maintenant.",
+    "ro": "Nu, vreau abonament anual pentru tren regional; imprimați acum."
+  },
+  "Йдеться про прості квитки 90 хвилин; їх треба оплатити й компостувати в автобусі.": {
+    "en": "This is about simple 90-minute tickets; you must pay and validate them on the bus.",
+    "es": "Se trata de billetes simples de 90 minutos; hay que pagarlos y validarlos en el autobús.",
+    "fr": "Il s'agit de tickets simples de 90 minutes ; il faut les payer et les valider dans le bus.",
+    "ro": "E vorba de bilete simple de 90 de minute; trebuie plătite și validate în autobuz."
+  },
+  "Так, добре. Ось 3 євро. Їх треба компостувати в салоні?": {
+    "en": "Yes, OK. Here are 3 euros. Do I need to validate them on board?",
+    "es": "Sí, vale. Aquí tiene 3 euros. ¿Hay que validarlos dentro del autobús?",
+    "fr": "Oui, d'accord. Voici 3 euros. Faut-il les valider à bord ?",
+    "ro": "Da, bine. Poftiți 3 euro. Trebuie validate în autobuz?"
+  },
+  "Ідеально! Ви розплатилися та уточнили правило компостування.": {
+    "en": "Perfect! You paid and clarified the validation rule.",
+    "es": "¡Perfecto! Has pagado y aclarado la regla de validación.",
+    "fr": "Parfait ! Vous avez payé et précisé la règle de validation.",
+    "ro": "Perfect! Ați plătit și ați clarificat regula de validare."
+  },
+  "Звісно. Це проста поїздка на 90 хвилин? Разом 3 євро.": {
+    "en": "Of course. Is this a simple 90-minute ride? That's 3 euros total.",
+    "es": "Claro. ¿Es un viaje simple de 90 minutos? Son 3 euros en total.",
+    "fr": "Bien sûr. C'est un trajet simple de 90 minutes ? Ça fait 3 euros au total.",
+    "ro": "Desigur. E o călătorie simplă de 90 de minute? Total 3 euro."
+  },
+  "Чудово, дуже дякую і гарного дня!": {
+    "en": "Great, thank you very much and have a nice day!",
+    "es": "Genial, muchas gracias y ¡buen día!",
+    "fr": "Parfait, merci beaucoup et bonne journée !",
+    "ro": "Excelent, mulțumesc mult și o zi bună!"
+  },
+  "Дякуємо та прямуємо на зупинку.": {
+    "en": "Thank them and head to the bus stop.",
+    "es": "Agradecer e ir a la parada.",
+    "fr": "Remercier et se diriger vers l'arrêt.",
+    "ro": "Mulțumiți și mergeți spre stație."
+  },
+  "Тоді квиток не потрібен, контролер завжди свій.": {
+    "en": "Then no ticket is needed; the inspector always has his own.",
+    "es": "Entonces no hace falta billete; el inspector siempre tiene el suyo.",
+    "fr": "Alors pas besoin de ticket ; le contrôleur a toujours le sien.",
+    "ro": "Atunci nu trebuie bilet; controlorul are mereu al lui."
+  },
+  "Квиток обов’язковий; контролер перевіряє саме прокомпостований.": {
+    "en": "A ticket is mandatory; the inspector checks that it is validated.",
+    "es": "El billete es obligatorio; el inspector comprueba que esté validado.",
+    "fr": "Le ticket est obligatoire ; le contrôleur vérifie qu'il est validé.",
+    "ro": "Biletul e obligatoriu; controlorul verifică că e validat."
+  },
+  "Проштампую квиток удома, перед виходом, так зручніше.": {
+    "en": "I'll stamp the ticket at home before leaving; it's more convenient.",
+    "es": "Timbraré el billete en casa antes de salir; es más cómodo.",
+    "fr": "Je composterai le ticket à la maison avant de partir ; c'est plus pratique.",
+    "ro": "Voi stampila biletul acasă înainte de plecare; e mai comod."
+  },
+  "Компостують після посадки в автобус, у валідаторі.": {
+    "en": "You validate after boarding the bus, in the validator.",
+    "es": "Se valida al subir al autobús, en el validador.",
+    "fr": "On valide après montée dans le bus, dans le composteur.",
+    "ro": "Se validează după urcarea în autobuz, la validator."
+  },
+  "Так, саме так! Щойно сядете в автобус, проштампуйте квиток у апараті. До побачення!": {
+    "en": "Yes, exactly! As soon as you board, stamp your ticket in the machine. Goodbye!",
+    "es": "¡Sí, exacto! En cuanto subas, valida el billete en la máquina. ¡Hasta luego!",
+    "fr": "Oui, exactement ! Dès que vous montez, validez le ticket dans la machine. Au revoir !",
+    "ro": "Da, exact! De îndată ce urcați, stampilați biletul la aparat. La revedere!"
+  },
+  "Я хотів би круасан з шоколадом.": {
+    "en": "I would like a chocolate croissant.",
+    "es": "Quisiera un croissant de chocolate.",
+    "fr": "Je voudrais un croissant au chocolat.",
+    "ro": "Aș dori un croissant cu ciocolată."
+  },
+  "На зупинці автобуса не замовляють випічку.": {
+    "en": "You don't order pastries at a bus stop.",
+    "es": "En la parada de autobús no se pide bollería.",
+    "fr": "À l'arrêt de bus on ne commande pas de viennoiseries.",
+    "ro": "La stația de autobuz nu se comandă patiserie."
+  },
+  "Доброго дня! Так, ви не знаєте, о котрій наступний автобус?": {
+    "en": "Good day! Yes, do you know what time the next bus is?",
+    "es": "¡Buenos días! Sí, ¿sabe a qué hora pasa el próximo autobús?",
+    "fr": "Bonjour ! Oui, savez-vous à quelle heure passe le prochain bus ?",
+    "ro": "Bună ziua! Da, nu știți la ce oră vine următorul autobuz?"
+  },
+  "Чудово! Ви ввічливо дізналися розклад у пасажира.": {
+    "en": "Great! You politely asked a passenger about the schedule.",
+    "es": "¡Genial! Has preguntado cortésmente el horario a un pasajero.",
+    "fr": "Parfait ! Vous avez demandé poliment l'horaire à un passager.",
+    "ro": "Excelent! Ați întrebat politicos un pasager despre orar."
+  },
+  "Ні, чекаю таксі в аеропорт. Яке у вас вино?": {
+    "en": "No, I'm waiting for a taxi to the airport. What wine do you have?",
+    "es": "No, espero un taxi al aeropuerto. ¿Qué vino tienen?",
+    "fr": "Non, j'attends un taxi pour l'aéroport. Quel vin avez-vous ?",
+    "ro": "Nu, aștept taxi spre aeroport. Ce vin aveți?"
+  },
+  "На зупинці питають про автобус і розклад, не про вино.": {
+    "en": "At the stop people ask about the bus and schedule, not wine.",
+    "es": "En la parada se pregunta por el autobús y el horario, no por vino.",
+    "fr": "À l'arrêt on demande le bus et l'horaire, pas le vin.",
+    "ro": "La stație se întreabă despre autobuz și orar, nu despre vin."
+  },
+  "Доброго дня! Ви теж чекаєте сімку до вокзалу?": {
+    "en": "Good day! Are you also waiting for the number 7 to the station?",
+    "es": "¡Buenos días! ¿También espera el siete a la estación?",
+    "fr": "Bonjour ! Vous attendez aussi le sept pour la gare ?",
+    "ro": "Bună ziua! Așteptați și dumneavoastră linia șapte spre gară?"
+  },
+  "Прокомпостую квиток сусіда, свій залишу чистим.": {
+    "en": "I'll validate my neighbor's ticket and leave mine unstamped.",
+    "es": "Validaré el billete del vecino y dejaré el mío sin timbrar.",
+    "fr": "Je validerai le ticket du voisin et laisserai le mien intact.",
+    "ro": "Validez biletul vecinului și îl las pe al meu nestampilat."
+  },
+  "Кожен пасажир валідує свій квиток.": {
+    "en": "Each passenger validates their own ticket.",
+    "es": "Cada pasajero valida su propio billete.",
+    "fr": "Chaque passager valide son propre ticket.",
+    "ro": "Fiecare pasager își validează propriul bilet."
+  },
+  "Сяду без компостування, лише дві зупинки.": {
+    "en": "I'll get on without validating; it's only two stops.",
+    "es": "Subo sin validar; son solo dos paradas.",
+    "fr": "Je monte sans valider ; ce n'est que deux arrêts.",
+    "ro": "Urc fără validare; sunt doar două stații."
+  },
+  "Квиток компостують одразу після посадки, навіть на коротку поїздку.": {
+    "en": "The ticket must be validated right after boarding, even for a short ride.",
+    "es": "Hay que validar el billete al subir, incluso en un trayecto corto.",
+    "fr": "Il faut valider le ticket dès la montée, même pour un trajet court.",
+    "ro": "Biletul se validează imediat după urcare, chiar și pentru o cursă scurtă."
+  },
+  "Чудово, дякую! Не забуваймо прокомпостувати квиток, щойно сядемо.": {
+    "en": "Great, thanks! Let's not forget to validate the ticket as soon as we board.",
+    "es": "Genial, gracias. No olvidemos validar el billete al subir.",
+    "fr": "Parfait, merci ! N'oublions pas de valider le ticket dès que nous montons.",
+    "ro": "Excelent, mulțumesc! Să nu uităm să validăm biletul imediat ce urcăm."
+  },
+  "Правильно! Головне — одразу завалідувати квиток.": {
+    "en": "Correct! The main thing is to validate the ticket right away.",
+    "es": "¡Correcto! Lo importante es validar el billete enseguida.",
+    "fr": "Exact ! L'essentiel est de valider le ticket tout de suite.",
+    "ro": "Corect! Esențial e să validați biletul imediat."
+  },
+  "Має бути хвилин за п’ять. Дивіться, він саме під’їжджає!": {
+    "en": "It should be in about five minutes. Look, it's just arriving!",
+    "es": "Debería ser en unos cinco minutos. ¡Mira, justo está llegando!",
+    "fr": "Ça devrait être dans cinq minutes. Regarde, il arrive !",
+    "ro": "Ar trebui să fie în vreo cinci minute. Uite, tocmai sosește!"
+  },
+  "Я не розмовляю італійською, тому перевірка не діє.": {
+    "en": "I don't speak Italian, so the check doesn't apply.",
+    "es": "No hablo italiano, así que el control no aplica.",
+    "fr": "Je ne parle pas italien, donc le contrôle ne s'applique pas.",
+    "ro": "Nu vorbesc italiană, deci controlul nu se aplică."
+  },
+  "Контроль діє для всіх; квиток треба показати.": {
+    "en": "Checks apply to everyone; you must show your ticket.",
+    "es": "El control es para todos; hay que mostrar el billete.",
+    "fr": "Le contrôle s'applique à tous ; il faut montrer le ticket.",
+    "ro": "Controlul e pentru toți; trebuie arătat biletul."
+  },
+  "Доброго дня! Звісно, ось мій квиток, щойно проштампований.": {
+    "en": "Good day! Of course, here is my ticket, just stamped.",
+    "es": "¡Buenos días! Claro, aquí está mi billete, recién timbrado.",
+    "fr": "Bonjour ! Bien sûr, voici mon ticket, tout juste composté.",
+    "ro": "Bună ziua! Desigur, iată biletul meu, proaspăt stampilat."
+  },
+  "Чудово! Ваш квиток прокомпостований і поїздка проходить безтурботно.": {
+    "en": "Great! Your ticket is validated and your ride goes smoothly.",
+    "es": "¡Genial! Tu billete está validado y el viaje transcurre sin problemas.",
+    "fr": "Parfait ! Votre ticket est validé et le trajet se passe sereinement.",
+    "ro": "Excelent! Biletul dvs. e validat și călătoria decurge fără griji."
+  },
+  "Квиток я залишив у тютюновій крамниці, ви мене впізнаєте.": {
+    "en": "I left the ticket at the tobacconist; you'll recognize me.",
+    "es": "Dejé el billete en el estanco; me reconocerá.",
+    "fr": "J'ai laissé le ticket au tabac ; vous me reconnaîtrez.",
+    "ro": "Am lăsat biletul la tabac; mă veți recunoaște."
+  },
+  "Контролеру показують проштампований квиток.": {
+    "en": "You show the inspector a stamped ticket.",
+    "es": "Al inspector se le muestra el billete timbrado.",
+    "fr": "On montre au contrôleur un ticket composté.",
+    "ro": "Controlorului i se arată biletul stampilat."
+  },
+  "Доброго дня, перевірка квитків! Покажіть прокомпостований квиток, будь ласка?": {
+    "en": "Good day, ticket inspection! Please show your validated ticket.",
+    "es": "¡Buenos días, control de billetes! Muestre el billete validado, por favor.",
+    "fr": "Bonjour, contrôle des tickets ! Montrez votre ticket validé, s'il vous plaît.",
+    "ro": "Bună ziua, control bilete! Arătați biletul validat, vă rog."
+  },
+  "В італійських міських автобусах вхід зазвичай здійснюється через передні або задні двері, а вихід — через середні (Uscita).": {
+    "en": "On Italian city buses, entry is usually through the front or rear doors, and exit through the middle doors (Uscita).",
+    "es": "En los autobuses urbanos italianos, la entrada suele ser por las puertas delanteras o traseras y la salida por las centrales (Uscita).",
+    "fr": "Dans les bus urbains italiens, l'entrée se fait en général par les portes avant ou arrière et la sortie par les portes du milieu (Uscita).",
+    "ro": "În autobuzele urbane din Italia, intrarea e de obicei prin ușile din față sau din spate, iar ieșirea prin cele din mijloc (Uscita)."
+  },
+  "Boss Level 🏆: Симуляція поїздки громадським транспортом": {
+    "en": "Boss Level 🏆: Public transport trip simulation",
+    "es": "Boss Level 🏆: Simulación de viaje en transporte público",
+    "fr": "Boss Level 🏆 : Simulation de trajet en transports en commun",
+    "ro": "Boss Level 🏆: Simularea călătoriei cu transportul public"
+  },
+  "Фінальний іспит модуля! Ви самостійно купуєте квитки, орієнтуєтеся на вокзалі, перевіряєте колію та спілкуєтеся з контролером. Підказки та переклад вимкнено!": {
+    "en": "Final module exam! You buy tickets on your own, find your way at the station, check the track, and talk to the inspector. Hints and translation are disabled!",
+    "es": "¡Examen final del módulo! Compras billetes solo, te orientas en la estación, compruebas la vía y hablas con el inspector. ¡Pistas y traducción desactivadas!",
+    "fr": "Examen final du module ! Vous achetez vos tickets seul(e), vous orientez en gare, vérifiez le binario et parlez au contrôleur. Indices et traduction désactivés !",
+    "ro": "Examenul final al modulului! Cumpărați bilete singur, vă orientați în gară, verificați linia și vorbiți cu controlorul. Indicii și traducerea sunt dezactivate!"
+  },
+  "Де найпростіше та найдешевше купити квиток на міський автобус в Італії?": {
+    "en": "Where is the easiest and cheapest place to buy a city bus ticket in Italy?",
+    "es": "¿Dónde es más fácil y barato comprar un billete de autobús urbano en Italia?",
+    "fr": "Où est-il le plus simple et le moins cher d'acheter un ticket de bus urbain en Italie ?",
+    "ro": "Unde e cel mai simplu și ieftin să cumperi bilet de autobuz urban în Italia?"
+  },
+  "Кіоски Tabacchi та Edicola — основні точки продажу квитків.": {
+    "en": "Tabacchi and Edicola kiosks are the main ticket sales points.",
+    "es": "Los quioscos Tabacchi y Edicola son los principales puntos de venta de billetes.",
+    "fr": "Les kiosques Tabacchi et Edicola sont les principaux points de vente de tickets.",
+    "ro": "Chioșcurile Tabacchi și Edicola sunt principalele puncte de vânzare a biletelor."
+  },
+  "Що означає дієслово 'Convalidare' або 'Timbrare' у транспорті?": {
+    "en": "What does the verb 'Convalidare' or 'Timbrare' mean in transport?",
+    "es": "¿Qué significan los verbos 'Convalidare' o 'Timbrare' en transporte?",
+    "fr": "Que signifient les verbes 'Convalidare' ou 'Timbrare' dans les transports ?",
+    "ro": "Ce înseamnă verbele 'Convalidare' sau 'Timbrare' în transport?"
+  },
+  "'Convalidare' / 'Timbrare' — це активація/компостування квитка.": {
+    "en": "'Convalidare' / 'Timbrare' — activating/validating the ticket.",
+    "es": "'Convalidare' / 'Timbrare' — activar/validar el billete.",
+    "fr": "'Convalidare' / 'Timbrare' — activer/valider le ticket.",
+    "ro": "'Convalidare' / 'Timbrare' — activarea/validarea biletului."
+  },
+  "Як запитати на вокзалі 'З якої колії відправляється поїзд?'": {
+    "en": "How do you ask at the station 'Which track does the train leave from?'",
+    "es": "¿Cómo preguntar en la estación '¿Desde qué vía sale el tren?'",
+    "fr": "Comment demander en gare 'De quel binario part le train ?'",
+    "ro": "Cum întrebați în gară 'De pe ce linie pleacă trenul?'"
+  },
+  "'Binario' означає залізничну колію/платформу.": {
+    "en": "'Binario' means a railway track/platform.",
+    "es": "'Binario' significa vía/andén de ferrocarril.",
+    "fr": "'Binario' désigne une voie/quai ferroviaire.",
+    "ro": "'Binario' înseamnă linie/peron feroviar."
+  },
+  "Що загрожує пасажиру за проїзд без прокомпостованого квитка?": {
+    "en": "What happens to a passenger for riding without a validated ticket?",
+    "es": "¿Qué le ocurre al pasajero por viajar sin billete validado?",
+    "fr": "Que risque un passager s'il voyage sans ticket validé ?",
+    "ro": "Ce riscă pasagerul pentru călătorie fără bilet validat?"
+  },
+  "За відсутність валідації контролер виписує грошовий штраф.": {
+    "en": "Without validation, the inspector issues a monetary fine.",
+    "es": "Sin validación, el inspector impone una multa.",
+    "fr": "Sans validation, le contrôleur inflige une amende.",
+    "ro": "Fără validare, controlorul aplică amendă."
+  },
+  "Як перекладається слово 'Stazione'?": {
+    "en": "How is the word 'Stazione' translated?",
+    "es": "¿Cómo se traduce la palabra 'Stazione'?",
+    "fr": "Comment traduit-on le mot 'Stazione' ?",
+    "ro": "Cum se traduce cuvântul 'Stazione'?"
+  },
+  "'Stazione' = залізничний або автобусний вокзал.": {
+    "en": "'Stazione' = train or bus station.",
+    "es": "'Stazione' = estación de tren o autobús.",
+    "fr": "'Stazione' = gare ferroviaire ou routière.",
+    "ro": "'Stazione' = gară de tren sau autobuz."
+  },
+  "Вітаємо! Ви вільно володієте всією лексикою громадського транспорту в Італії, легко купуєте квитки та орієнтуєтеся на вокзалах!": {
+    "en": "Congratulations! You master all public transport vocabulary in Italy, buy tickets easily, and find your way at stations!",
+    "es": "¡Enhorabuena! Dominas todo el vocabulario del transporte público en Italia, compras billetes con facilidad y te orientas en las estaciones.",
+    "fr": "Félicitations ! Vous maîtrisez tout le vocabulaire des transports en Italie, achetez vos tickets facilement et vous orientez en gare !",
+    "ro": "Felicitări! Stăpâniți tot vocabularul transportului public din Italia, cumpărați bilete ușor și vă orientați în gări!"
+  },
+  "Салон краси: Запис на стрижку, манікюр та догляд": {
+    "en": "Beauty salon: Booking a haircut, manicure, and care",
+    "es": "Salón de belleza: Reserva de corte, manicura y cuidados",
+    "fr": "Salon de beauté : rendez-vous pour coupe, manucure et soins",
+    "ro": "Salon de înfrumusețare: Programare pentru tuns, manichiură și îngrijire"
+  },
+  "Марко та Лаура планують візит до салону краси. В Італії до перукаря (parrucchiere / barbiere) та майстра манікюру (onicotecnica / estetista) майже завжди потрібно записуватися заздалегідь по телефону або особисто (prendere un appuntamento). Вкрай важливо чітко пояснити свої побажання: від довжини волосся та форми нігтів до вибору типу покриття чи стрижки бороди.": {
+    "en": "Marco and Laura are planning a visit to a beauty salon. In Italy you almost always need to book the hairdresser (parrucchiere / barbiere) or nail technician (onicotecnica / estetista) in advance by phone or in person (prendere un appuntamento). It's very important to explain your wishes clearly: from hair length and nail shape to type of coating or beard trim.",
+    "es": "Marco y Laura planean visitar un salón de belleza. En Italia casi siempre hay que reservar con el peluquero (parrucchiere / barbiere) o la manicurista (onicotecnica / estetista) con antelación por teléfono o en persona (prendere un appuntamento). Es clave explicar bien los deseos: desde la longitud del pelo y la forma de las uñas hasta el tipo de esmalte o el arreglo de barba.",
+    "fr": "Marco et Laura prévoient une visite au salon. En Italie, il faut presque toujours prendre rendez-vous chez le coiffeur (parrucchiere / barbiere) ou la prothésiste ongulaire (onicotecnica / estetista) à l'avance par téléphone ou sur place (prendere un appuntamento). Il est essentiel d'expliquer clairement ses souhaits : longueur des cheveux, forme des ongles, type de vernis ou taille de barbe.",
+    "ro": "Marco și Laura plănuiesc o vizită la salon. În Italia aproape întotdeauna trebuie programare la frizer (parrucchiere / barbiere) sau la manichiuristă (onicotecnica / estetista) din timp, telefonic sau personal (prendere un appuntamento). E foarte important să explicați clar dorințele: de la lungimea părului și forma unghiilor până la tipul de acoperire sau tunsul bărbii."
+  },
+  "Я б хотів(ла) записатися на чоловічу стрижку та манікюр.": {
+    "en": "I would like to book a men's haircut and a manicure.",
+    "es": "Quisiera reservar un corte de hombre y manicura.",
+    "fr": "Je voudrais prendre rendez-vous pour une coupe homme et une manucure.",
+    "ro": "Aș dori să mă programez pentru tuns bărbătesc și manichiură."
+  },
+  "Тільки підрівняти кінчики та зробити укладку, будь ласка.": {
+    "en": "Just trim the ends and do a blow-dry styling, please.",
+    "es": "Solo recortar las puntas y hacer brushing, por favor.",
+    "fr": "Juste égaler les pointes et faire un brushing, s'il vous plaît.",
+    "ro": "Doar egalizați vârfurile și faceți coafura, vă rog."
+  },
+  "Я б хотіла зробити гель-лак (семіперманент) та зняти старий.": {
+    "en": "I would like gel polish (semi-permanent) and to remove the old one.",
+    "es": "Quisiera esmalte semipermanente y quitar el anterior.",
+    "fr": "Je voudrais du vernis semi-permanent et enlever l'ancien.",
+    "ro": "Aș dori gel-lac (semipermanent) și să scot vechiul."
+  },
+  "Я б хотів вкоротити волосся з боків та підрівняти бороду.": {
+    "en": "I would like to shorten the hair on the sides and trim my beard.",
+    "es": "Quisiera acortar el pelo a los lados y arreglar la barba.",
+    "fr": "Je voudrais raccourcir les côtés et régler la barbe.",
+    "ro": "Aș dori să scurt părul pe laterale și să aranjez barba."
+  },
+  "Prendere un appuntamento — запис на конкретний час є обов'язковим. Якщо ви запізнюєтеся навіть на 10-15 хвилин, варто зателефонувати й попередити.": {
+    "en": "Prendere un appuntamento — booking a specific time is mandatory. If you are even 10–15 minutes late, you should call and let them know.",
+    "es": "Prendere un appuntamento — la reserva a una hora concreta es obligatoria. Si llegas 10-15 minutos tarde, conviene llamar y avisar.",
+    "fr": "Prendere un appuntamento — le rendez-vous à heure fixe est obligatoire. Si vous avez 10-15 minutes de retard, il vaut mieux téléphoner pour prévenir.",
+    "ro": "Prendere un appuntamento — programarea la o oră anume e obligatorie. Dacă întârziați 10–15 minute, e bine să sunați și să anunțați."
+  },
+  "Piega — укладка феном після миття голови. В італійських салонах ціна за стрижку (taglio) часто вказується окремо від укладки (piega) та миття (shampoo).": {
+    "en": "Piega — blow-dry styling after washing. In Italian salons, the haircut price (taglio) is often listed separately from styling (piega) and washing (shampoo).",
+    "es": "Piega — brushing tras lavar el pelo. En salones italianos, el corte (taglio) suele indicarse aparte del brushing (piega) y del lavado (shampoo).",
+    "fr": "Piega — brushing après shampooing. Dans les salons italiens, la coupe (taglio) est souvent indiquée à part du brushing (piega) et du shampooing.",
+    "ro": "Piega — coafură cu uscătorul după spălare. În saloanele italiene, prețul tunsului (taglio) e adesea separat de coafură (piega) și spălare (shampoo)."
+  },
+  "Smalto semipermanente — гель-лак. Якщо потрібно зняти попереднє покриття, обов'язково попередьте під час запису: 'Devo anche togliere il gel vecchio'.": {
+    "en": "Smalto semipermanente — gel polish. If you need to remove previous coating, say so when booking: 'Devo anche togliere il gel vecchio'.",
+    "es": "Smalto semipermanente — esmalte semipermanente. Si hay que quitar el anterior, avíselo al reservar: 'Devo anche togliere il gel vecchio'.",
+    "fr": "Smalto semipermanente — vernis semi-permanent. S'il faut enlever l'ancien, prévenez à la réservation : 'Devo anche togliere il gel vecchio'.",
+    "ro": "Smalto semipermanente — gel-lac. Dacă trebuie scos vechiul strat, anunțați la programare: 'Devo anche togliere il gel vecchio'."
+  },
+  "Дієслова для запису та побажань: 'Vorrei + Інфінітив' та 'Accorciare / Spuntare'": {
+    "en": "Verbs for booking and requests: 'Vorrei + infinitive' and 'Accorciare / Spuntare'",
+    "es": "Verbos para reserva y deseos: 'Vorrei + infinitivo' y 'Accorciare / Spuntare'",
+    "fr": "Verbes pour rendez-vous et souhaits : 'Vorrei + infinitif' et 'Accorciare / Spuntare'",
+    "ro": "Verbe pentru programare și dorințe: 'Vorrei + infinitiv' și 'Accorciare / Spuntare'"
+  },
+  "Ввічливий запис через 'Vorrei': 'Vorrei prenotare...' (Я б хотів(ла) забронювати...), 'Vorrei fare...' (Я б хотів(ла) зробити...).": {
+    "en": "Polite booking with 'Vorrei': 'Vorrei prenotare...' (I would like to book...), 'Vorrei fare...' (I would like to have...).",
+    "es": "Reserva cortés con 'Vorrei': 'Vorrei prenotare...' (Quisiera reservar...), 'Vorrei fare...' (Quisiera hacer...).",
+    "fr": "Prise de rendez-vous polie avec 'Vorrei' : 'Vorrei prenotare...' (Je voudrais réserver...), 'Vorrei fare...' (Je voudrais faire...).",
+    "ro": "Programare politicoasă cu 'Vorrei': 'Vorrei prenotare...' (Aș dori să rezerv...), 'Vorrei fare...' (Aș dori să fac...)."
+  },
+  "Я хотів би записатися на четвер після обіду.": {
+    "en": "I would like to book for Thursday afternoon.",
+    "es": "Quisiera reservar para el jueves por la tarde.",
+    "fr": "Je voudrais prendre rendez-vous jeudi après-midi.",
+    "ro": "Aș dori să mă programez joi după-amiază."
+  },
+  "Я хотів би підстригти бороду / поголитися.": {
+    "en": "I would like to trim my beard / shave.",
+    "es": "Quisiera recortar la barba / afeitarme.",
+    "fr": "Je voudrais tailler la barbe / me raser.",
+    "ro": "Aș dori să scurt barba / să mă bărbieresc."
+  },
+  "Дії з волоссям та нігтями: 'Accorciare' (вкорочувати), 'Spuntare' (підрізати кінчики), 'Togliere' (знімати).": {
+    "en": "Actions for hair and nails: 'Accorciare' (to shorten), 'Spuntare' (to trim the ends), 'Togliere' (to remove).",
+    "es": "Acciones con pelo y uñas: 'Accorciare' (acortar), 'Spuntare' (recortar puntas), 'Togliere' (quitar).",
+    "fr": "Actions cheveux et ongles : 'Accorciare' (raccourcir), 'Spuntare' (couper les pointes), 'Togliere' (enlever).",
+    "ro": "Acțiuni pentru păr și unghii: 'Accorciare' (scurta), 'Spuntare' (tăia vârfurile), 'Togliere' (scoate)."
+  },
+  "Хочу лише підрівняти на сантиметр.": {
+    "en": "I only want to trim about a centimeter.",
+    "es": "Solo quiero recortar un centímetro.",
+    "fr": "Je veux seulement couper d'un centimètre.",
+    "ro": "Vreau doar să egalez un centimetru."
+  },
+  "Мені потрібно зняти лак.": {
+    "en": "I need to remove the polish.",
+    "es": "Necesito quitar el esmalte.",
+    "fr": "J'ai besoin d'enlever le vernis.",
+    "ro": "Trebuie să scot lacul."
+  },
+  "В Італії барбершопи (barbiere) та жіночі салони часто зачинені в неділю та понеділок. З вівторка по суботу салон може працювати з перервою на обід (pausa pranzo) з 12:30 до 15:30, якщо це не мережевий заклад у торговому центрі.": {
+    "en": "In Italy, barbershops (barbiere) and women's salons are often closed on Sunday and Monday. Tuesday through Saturday the salon may close for lunch (pausa pranzo) from 12:30 to 15:30, unless it's a chain in a shopping center.",
+    "es": "En Italia, barberías (barbiere) y salones de mujer suelen cerrar domingo y lunes. De martes a sábado puede haber pausa de comida (pausa pranzo) de 12:30 a 15:30, salvo cadenas en centros comerciales.",
+    "fr": "En Italie, barbiers (barbiere) et salons féminins ferment souvent dimanche et lundi. Du mardi au samedi, pause déjeuner (pausa pranzo) de 12h30 à 15h30, sauf enseignes en centre commercial.",
+    "ro": "În Italia, frizeriile (barbiere) și saloanele de damă sunt adesea închise duminica și luni. Marți–sâmbătă poate fi pauză de prânz (pausa pranzo) 12:30–15:30, dacă nu e lanț într-un mall."
+  },
+  "Живий діалог: Запис по телефону та візит Марка й Лаури до салону": {
+    "en": "Live dialogue: Phone booking and Marco and Laura's salon visit",
+    "es": "Diálogo en vivo: Reserva por teléfono y visita de Marco y Laura al salón",
+    "fr": "Dialogue en direct : réservation par téléphone et visite de Marco et Laura au salon",
+    "ro": "Dialog live: Programare telefonică și vizita lui Marco și Laura la salon"
+  },
+  "Лаура телефонує в салон, щоб записати чоловіка Марка на стрижку бороди й волосся, а себе — на манікюр та укладку. Потім вони приходять на процедури.": {
+    "en": "Laura calls the salon to book Marco for a beard and hair cut and herself for a manicure and styling. Then they come for their appointments.",
+    "es": "Laura llama al salón para reservar a Marco corte de barba y pelo y a ella manicura y brushing. Luego acuden a las citas.",
+    "fr": "Laura appelle le salon pour réserver Marco pour barbe et cheveux et elle pour manucure et brushing. Puis ils viennent aux soins.",
+    "ro": "Laura sună la salon ca să programeze pe Marco pentru barbă și păr și pe ea pentru manichiură și coafură. Apoi vin la proceduri."
+  },
+  "Доброго дня! Хочу записатися на п’ятницю: чоловіча стрижка з бородою і манікюр із гель-лаком.": {
+    "en": "Good day! I'd like to book for Friday: men's haircut with beard trim and manicure with gel polish.",
+    "es": "¡Buenos días! Quiero reservar para el viernes: corte de hombre con barba y manicura con esmalte semipermanente.",
+    "fr": "Bonjour ! Je voudrais réserver pour vendredi : coupe homme avec barbe et manucure vernis semi-permanent.",
+    "ro": "Bună ziua! Vreau programare vineri: tuns bărbătesc cu barbă și manichiură cu gel-lac."
+  },
+  "Чудово! Ви одразу назвали всі потрібні послуги для чоловіка та жінки.": {
+    "en": "Great! You named all the services needed for the man and woman right away.",
+    "es": "¡Genial! Has indicado de inmediato todos los servicios para hombre y mujer.",
+    "fr": "Parfait ! Vous avez tout de suite nommé tous les services pour l'homme et la femme.",
+    "ro": "Excelent! Ați numit imediat toate serviciile pentru bărbat și femeie."
+  },
+  "Хочу запис до сімейного лікаря і переоформлення газу.": {
+    "en": "I want an appointment with my family doctor and to transfer the gas contract.",
+    "es": "Quiero cita con el médico de familia y cambio de titular del gas.",
+    "fr": "Je veux un rendez-vous chez le médecin de famille et un changement de contrat gaz.",
+    "ro": "Vreau programare la medicul de familie și voltura la gaz."
+  },
+  "У салоні записуються на стрижку, бороду, манікюр — не на ASL чи комуналку.": {
+    "en": "At the salon you book haircuts, beard trims, manicures — not ASL or utilities.",
+    "es": "En el salón se reserva corte, barba, manicura — no ASL ni suministros.",
+    "fr": "Au salon on prend rendez-vous pour coupe, barbe, manucure — pas pour l'ASL ou les utilities.",
+    "ro": "La salon te programezi pentru tuns, barbă, manichiură — nu pentru ASL sau utilități."
+  },
+  "Привіт, хочу купити квиток на автобус.": {
+    "en": "Hi, I want to buy a bus ticket.",
+    "es": "Hola, quiero comprar un billete de autobús.",
+    "fr": "Salut, je veux acheter un ticket de bus.",
+    "ro": "Salut, vreau să cumpăr bilet de autobuz."
+  },
+  "У салоні краси не продають автобусні квитки.": {
+    "en": "Beauty salons don't sell bus tickets.",
+    "es": "En el salón de belleza no venden billetes de autobús.",
+    "fr": "Au salon de beauté on ne vend pas de tickets de bus.",
+    "ro": "La salonul de înfrumusețare nu se vând bilete de autobuz."
+  },
+  "Салон Bella Vita, доброго дня! Чим можу допомогти?": {
+    "en": "Bella Vita salon, good day! How can I help you?",
+    "es": "Salón Bella Vita, ¡buenos días! ¿En qué puedo ayudarle?",
+    "fr": "Salon Bella Vita, bonjour ! Comment puis-je vous aider ?",
+    "ro": "Salon Bella Vita, bună ziua! Cu ce vă pot ajuta?"
+  },
+  "Ні, хочу подати декларацію про доходи.": {
+    "en": "No, I want to file an income tax return.",
+    "es": "No, quiero presentar la declaración de la renta.",
+    "fr": "Non, je veux déposer une déclaration de revenus.",
+    "ro": "Nu, vreau să depun declarația de venit."
+  },
+  "Це стосується бухгалтерських послуг, а не манікюру.": {
+    "en": "That's about accounting services, not a manicure.",
+    "es": "Eso es de servicios contables, no de manicura.",
+    "fr": "Cela concerne la comptabilité, pas la manucure.",
+    "ro": "Asta ține de servicii contabile, nu de manichiură."
+  },
+  "Так, треба зняти старий гель і зробити повний манікюр.": {
+    "en": "Yes, I need to remove the old gel and get a full manicure.",
+    "es": "Sí, hay que quitar el gel viejo y hacer manicura completa.",
+    "fr": "Oui, il faut enlever l'ancien gel et faire une manucure complète.",
+    "ro": "Da, trebuie scos gelul vechi și făcut manichiură completă."
+  },
+  "Ідеально! Попередження про зняття гель-лаку важливе для розрахунку часу.": {
+    "en": "Perfect! Warning about gel polish removal is important for scheduling time.",
+    "es": "¡Perfecto! Avisar del quitado del semipermanente es importante para calcular el tiempo.",
+    "fr": "Parfait ! Prévenir pour le retrait du semi-permanent est important pour le timing.",
+    "ro": "Perfect! Anunțul despre îndepărtarea gel-lacului e important pentru timp."
+  },
+  "Ні, залишу старий лак і додам три шари зверху через WhatsApp.": {
+    "en": "No, I'll keep the old polish and add three layers on top via WhatsApp.",
+    "es": "No, dejaré el esmalte viejo y añadiré tres capas por WhatsApp.",
+    "fr": "Non, je garde l'ancien vernis et j'ajoute trois couches via WhatsApp.",
+    "ro": "Nu, las lacul vechi și adaug trei straturi pe WhatsApp."
+  },
+  "Для нової процедури часто треба зняти старий гель; майстер питає саме це.": {
+    "en": "For a new treatment you often need to remove old gel; that's what the technician asks.",
+    "es": "Para un tratamiento nuevo a menudo hay que quitar el gel viejo; eso es lo que pregunta la profesional.",
+    "fr": "Pour un nouveau soin, il faut souvent enlever l'ancien gel ; c'est ce que demande la prothésiste.",
+    "ro": "Pentru procedură nouă trebuie adesea scos gelul vechi; asta întreabă meșterul."
+  },
+  "Чудово. Для манікюру потрібно також зняти попередній лак?": {
+    "en": "Great. For the manicure, do I also need to remove the previous polish?",
+    "es": "Muy bien. ¿Para la manicura hay que quitar también el esmalte anterior?",
+    "fr": "Très bien. Pour la manucure, faut-il aussi enlever l'ancien vernis ?",
+    "ro": "Foarte bine. Pentru manichiură trebuie scos și lacul anterior?"
+  },
+  "О 15:00 прийду лише я, Марко сам підстрижеться вдома.": {
+    "en": "At 3 p.m. only I will come; Marco will cut his hair at home.",
+    "es": "A las 15:00 iré solo yo; Marco se cortará el pelo en casa.",
+    "fr": "À 15 h je viendrai seule ; Marco se coupera les cheveux chez lui.",
+    "ro": "La 15:00 vin doar eu; Marco se tunde singur acasă."
+  },
+  "Запис був на двох; підтверджують обидва імена.": {
+    "en": "The booking was for two; they confirm both names.",
+    "es": "La reserva era para dos; confirman ambos nombres.",
+    "fr": "Le rendez-vous était pour deux ; on confirme les deux noms.",
+    "ro": "Programarea era pentru doi; se confirmă ambele nume."
+  },
+  "У п’ятницю ні, прийду коли буде місце, без імені.": {
+    "en": "Not Friday; I'll come when there's a slot, without a name.",
+    "es": "El viernes no; iré cuando haya hueco, sin nombre.",
+    "fr": "Pas vendredi ; je viendrai quand il y aura de la place, sans nom.",
+    "ro": "Vineri nu; vin când e loc liber, fără nume."
+  },
+  "Потрібно підтвердити день, годину і імена для запису.": {
+    "en": "You need to confirm the day, time, and names for the booking.",
+    "es": "Hay que confirmar día, hora y nombres de la reserva.",
+    "fr": "Il faut confirmer le jour, l'heure et les noms pour le rendez-vous.",
+    "ro": "Trebuie confirmate ziua, ora și numele pentru programare."
+  },
+  "Чудово, п’ятниця о 15:00! На ім’я Лаура і Марко. Дуже дякую, до побачення!": {
+    "en": "Great, Friday at 3 p.m.! Under the names Laura and Marco. Thank you very much, goodbye!",
+    "es": "Genial, ¡viernes a las 15:00! A nombre de Laura y Marco. Muchas gracias, ¡hasta luego!",
+    "fr": "Parfait, vendredi à 15 h ! Au nom de Laura et Marco. Merci beaucoup, au revoir !",
+    "ro": "Excelent, vineri la 15:00! Pe numele Laura și Marco. Mulțumesc mult, la revedere!"
+  },
+  "Правильно! Ви підтвердили час та залишили ім'я для запису.": {
+    "en": "Correct! You confirmed the time and left names for the booking.",
+    "es": "¡Correcto! Has confirmado la hora y dejado los nombres de la reserva.",
+    "fr": "Exact ! Vous avez confirmé l'heure et laissé les noms pour le rendez-vous.",
+    "ro": "Corect! Ați confirmat ora și ați lăsat numele pentru programare."
+  },
+  "Добре, у п’ятницю о 15:00 є місце для обох. До зустрічі в п’ятницю!": {
+    "en": "OK, on Friday at 3 p.m. there is room for both. See you Friday!",
+    "es": "Bien, el viernes a las 15:00 hay sitio para los dos. ¡Hasta el viernes!",
+    "fr": "D'accord, vendredi à 15 h il y a de la place pour vous deux. À vendredi !",
+    "ro": "Bine, vineri la 15:00 e loc pentru amândoi. Ne vedem vineri!"
+  },
+  "Зробіть усе налисо, навіть брови, не питаючи.": {
+    "en": "Shave everything bald, even the eyebrows, without asking.",
+    "es": "Ráeme todo al cero, incluso las cejas, sin preguntar.",
+    "fr": "Rasez tout à ras, même les sourcils, sans demander.",
+    "ro": "Bărbieriți tot complet, inclusiv sprâncenele, fără să întrebați."
+  },
+  "Марко просить трохи вкоротити боки і акуратно підрівняти бороду, не налисо.": {
+    "en": "Marco asks to shorten the sides a bit and neatly trim the beard, not shave it bald.",
+    "es": "Marco pide acortar un poco los lados y arreglar la barba con cuidado, no afeitarse al cero.",
+    "fr": "Marco demande de raccourcir un peu les côtés et de régler la barbe proprement, pas tout raser.",
+    "ro": "Marco cere să scurteze puțin lateralele și să aranjeze barba, nu să o rade complet."
+  },
+  "Доброго дня! Хочу вкоротити волосся з боків і підрівняти бороду, але не стригти її занадто коротко.": {
+    "en": "Good day! I want to shorten the hair on the sides and trim my beard, but not cut it too short.",
+    "es": "¡Buenos días! Quiero acortar el pelo a los lados y arreglar la barba, pero no cortarla demasiado corta.",
+    "fr": "Bonjour ! Je veux raccourcir les côtés et régler la barbe, sans la couper trop court.",
+    "ro": "Bună ziua! Vreau să scurt părul pe laterale și să aranjez barba, dar fără să o tund prea scurt."
+  },
+  "Чудово! Марко чітко пояснив бачення своєї стрижки та бороди.": {
+    "en": "Great! Marco clearly explained his vision for the haircut and beard.",
+    "es": "¡Genial! Marco explicó claramente cómo quiere el corte y la barba.",
+    "fr": "Parfait ! Marco a clairement expliqué ce qu'il veut pour la coupe et la barbe.",
+    "ro": "Excelent! Marco a explicat clar cum își dorește tunsul și barba."
+  },
+  "Хочу прокомпостувати квиток на потяг.": {
+    "en": "I want to validate a train ticket.",
+    "es": "Quiero validar un billete de tren.",
+    "fr": "Je veux valider un ticket de train.",
+    "ro": "Vreau să validez bilet de tren."
+  },
+  "Квитки компостують на вокзалі, а не в кріслі барбера.": {
+    "en": "Tickets are validated at the station, not in the barber's chair.",
+    "es": "Los billetes se validan en la estación, no en la silla del barbero.",
+    "fr": "Les tickets se valident en gare, pas au fauteuil du barbier.",
+    "ro": "Biletele se validează în gară, nu în scaunul frizerului."
+  },
+  "Доброго дня, Марко! Як сьогодні зробимо волосся і бороду?": {
+    "en": "Good day, Marco! How shall we do your hair and beard today?",
+    "es": "¡Buenos días, Marco! ¿Cómo hacemos hoy el pelo y la barba?",
+    "fr": "Bonjour Marco ! Comment on s'occupe des cheveux et de la barbe aujourd'hui ?",
+    "ro": "Bună ziua, Marco! Cum facem azi părul și barba?"
+  },
+  "Доброго дня! Хочу форму мигдалю і природний нюдовий колір із гель-лаком.": {
+    "en": "Good day! I want almond shape and a natural nude color with gel polish.",
+    "es": "¡Buenos días! Quiero forma almendra y color nude natural con esmalte semipermanente.",
+    "fr": "Bonjour ! Je veux forme amande et couleur nude naturelle avec vernis semi-permanent.",
+    "ro": "Bună ziua! Vreau formă migdală și culoare nude naturală cu gel-lac."
+  },
+  "Чудово! Лаура обрала форму (мигдаль) та природний колір.": {
+    "en": "Great! Laura chose the shape (almond) and a natural color.",
+    "es": "¡Genial! Laura eligió la forma (almendra) y un color natural.",
+    "fr": "Parfait ! Laura a choisi la forme (amande) et une couleur naturelle.",
+    "ro": "Excelent! Laura a ales forma (migdală) și culoare naturală."
+  },
+  "У мене температура і нежить.": {
+    "en": "I have a fever and a runny nose.",
+    "es": "Tengo fiebre y moqueo.",
+    "fr": "J'ai de la fièvre et le nez qui coule.",
+    "ro": "Am febră și nas înfundat."
+  },
+  "Це симптоми хвороби для лікаря, а не для майстра манікюру.": {
+    "en": "Those are illness symptoms for a doctor, not for a nail technician.",
+    "es": "Esos son síntomas de enfermedad para el médico, no para la manicurista.",
+    "fr": "Ce sont des symptômes pour le médecin, pas pour la prothésiste ongulaire.",
+    "ro": "Acestea sunt simptome de boală pentru medic, nu pentru manichiuristă."
+  },
+  "Хочу дуже довгі нігті стилет, флуоресцентний червоний і глітер за три хвилини.": {
+    "en": "I want very long stiletto nails, fluorescent red and glitter in three minutes.",
+    "es": "Quiero uñas stiletto muy largas, rojo fluorescente y purpurina en tres minutos.",
+    "fr": "Je veux des ongles stiletto très longs, rouge fluorescent et paillettes en trois minutes.",
+    "ro": "Vreau unghii stiletto foarte lungi, roșu fluorescent și sclipici în trei minute."
+  },
+  "Лаура обирає форму mandorla і спокійний nude, не екстремальний дизайн за три хвилини.": {
+    "en": "Laura chooses mandorla shape and calm nude, not an extreme design in three minutes.",
+    "es": "Laura elige forma mandorla y nude discreto, no un diseño extremo en tres minutos.",
+    "fr": "Laura choisit forme mandorla et nude discret, pas un design extrême en trois minutes.",
+    "ro": "Laura alege forma mandorla și nude calm, nu design extrem în trei minute."
+  },
+  "Доброго дня, Лауро! Яку форму і який колір нігтів бажаєте сьогодні?": {
+    "en": "Good day, Laura! What nail shape and color would you like today?",
+    "es": "¡Buenos días, Laura! ¿Qué forma y color de uñas desea hoy?",
+    "fr": "Bonjour Laura ! Quelle forme et quelle couleur d'ongles souhaitez-vous aujourd'hui ?",
+    "ro": "Bună ziua, Laura! Ce formă și ce culoare de unghii doriți azi?"
+  },
+  "Платимо марками і повернемося потім по решту.": {
+    "en": "We'll pay with stamps and come back later for the rest.",
+    "es": "Pagamos con sellos y volveremos luego por el resto.",
+    "fr": "Nous payons avec des timbres et reviendrons plus tard pour le reste.",
+    "ro": "Plătim cu timbre și revenim apoi pentru rest."
+  },
+  "Рахунок закривають одразу карткою або готівкою, разом чи окремо.": {
+    "en": "The bill is settled right away by card or cash, together or separately.",
+    "es": "La cuenta se cierra al momento con tarjeta o efectivo, junto o aparte.",
+    "fr": "L'addition se règle tout de suite par carte ou espèces, ensemble ou séparément.",
+    "ro": "Nota se achită imediat cu cardul sau cash, împreună sau separat."
+  },
+  "Платимо окремо, але Лаура платить і за стрижку Марка українською готівкою.": {
+    "en": "We pay separately, but Laura pays for Marco's haircut too in Ukrainian cash.",
+    "es": "Pagamos aparte, pero Laura paga también el corte de Marco en efectivo ucraniano.",
+    "fr": "Nous payons séparément, mais Laura paie aussi la coupe de Marco en espèces ukrainiennes.",
+    "ro": "Plătim separat, dar Laura plătește și tunsul lui Marco în numerar ucrainean."
+  },
+  "Платять у євро прийнятим способом; тут логічно разом карткою.": {
+    "en": "They pay in euros by an accepted method; here paying together by card makes sense.",
+    "es": "Se paga en euros de forma aceptada; aquí tiene sentido pagar junto con tarjeta.",
+    "fr": "On paie en euros par un moyen accepté ; ici il est logique de payer ensemble par carte.",
+    "ro": "Se plătește în euro printr-un mod acceptat; aici e logic împreună cu cardul."
+  },
+  "Платимо разом карткою. Дуже дякуємо, ми дуже задоволені результатом!": {
+    "en": "We'll pay together by card. Thank you very much, we're very happy with the result!",
+    "es": "Pagamos juntos con tarjeta. Muchas gracias, ¡estamos muy contentos con el resultado!",
+    "fr": "Nous payons ensemble par carte. Merci beaucoup, nous sommes très satisfaits du résultat !",
+    "ro": "Plătim împreună cu cardul. Mulțumim mult, suntem foarte mulțumiți de rezultat!"
+  },
+  "Відмінно! Ви зробили оплату карткою та подякували майстрам.": {
+    "en": "Excellent! You paid by card and thanked the stylists.",
+    "es": "¡Excelente! Has pagado con tarjeta y agradecido a los profesionales.",
+    "fr": "Excellent ! Vous avez payé par carte et remercié les professionnels.",
+    "ro": "Excelent! Ați plătit cu cardul și ați mulțumit meșterilor."
+  },
+  "Ось вам! Разом за чоловічу стрижку, бороду, манікюр і гель-лак 65 євро. Платите разом чи окремо?": {
+    "en": "Here you go! Together for men's haircut, beard, manicure, and gel polish: 65 euros. Pay together or separately?",
+    "es": "¡Aquí tiene! En total por corte de hombre, barba, manicura y semipermanente: 65 euros. ¿Pagan junto o aparte?",
+    "fr": "Voilà ! Au total pour coupe homme, barbe, manucure et semi-permanent : 65 euros. Vous payez ensemble ou séparément ?",
+    "ro": "Poftiți! Total pentru tuns bărbătesc, barbă, manichiură și gel-lac: 65 euro. Plătiți împreună sau separat?"
+  },
+  "В італійських салонах краси завжди цінують зворотний зв'язок під час процедури. Якщо вода занадто гаряча або майстер зрізає забагато довжини, спокійно скажіть: 'Scusi, l'acqua è troppo calda' або 'Un po' più lungo, per favore'.": {
+    "en": "Italian beauty salons always appreciate feedback during the service. If the water is too hot or the stylist cuts too much length, calmly say: 'Scusi, l'acqua è troppo calda' or 'Un po' più lungo, per favore'.",
+    "es": "En salones italianos valoran el feedback durante el servicio. Si el agua está muy caliente o cortan demasiado, diga con calma: 'Scusi, l'acqua è troppo calda' o 'Un po' più lungo, per favore'.",
+    "fr": "Dans les salons italiens, le retour pendant le soin est apprécié. Si l'eau est trop chaude ou qu'on coupe trop, dites calmement : 'Scusi, l'acqua è troppo calda' ou 'Un po' più lungo, per favore'.",
+    "ro": "În saloanele italiene se apreciază feedback-ul în timpul procedurii. Dacă apa e prea fierbinte sau se taie prea mult, spuneți calm: 'Scusi, l'acqua è troppo calda' sau 'Un po' più lungo, per favore'."
+  },
+  "Boss Level 🏆: Симуляція візиту в салон краси (для чоловіків та жінок)": {
+    "en": "Boss Level 🏆: Beauty salon visit simulation (for men and women)",
+    "es": "Boss Level 🏆: Simulación de visita al salón de belleza (hombres y mujeres)",
+    "fr": "Boss Level 🏆 : Simulation de visite au salon (hommes et femmes)",
+    "ro": "Boss Level 🏆: Simularea vizitei la salon (bărbați și femei)"
+  },
+  "Фінальний іспит модуля! Ви самостійно записуєтеся в салон краси, пояснюєте майстру бажану стрижку, догляд за бородою, форму нігтів та покриття. Підказки та переклад вимкнено!": {
+    "en": "Final module exam! You book at the salon on your own and explain the haircut, beard care, nail shape, and coating you want. Hints and translation are disabled!",
+    "es": "¡Examen final del módulo! Reservas solo en el salón y explicas corte, barba, forma de uñas y esmalte. ¡Pistas y traducción desactivadas!",
+    "fr": "Examen final du module ! Vous prenez rendez-vous seul(e) et expliquez coupe, barbe, forme d'ongles et vernis. Indices et traduction désactivés !",
+    "ro": "Examenul final al modulului! Vă programați singur la salon și explicați tunsul, barba, forma unghiilor și acoperirea dorită. Indicii și traducerea sunt dezactivate!"
+  },
+  "Як італійською ввічливо сказати 'Я б хотів(ла) записатися на прийом'?": {
+    "en": "How do you politely say in Italian 'I would like to book an appointment'?",
+    "es": "¿Cómo decir cortésmente en italiano 'Quisiera reservar una cita'?",
+    "fr": "Comment dire poliment en italien 'Je voudrais prendre rendez-vous' ?",
+    "ro": "Cum spuneți politicos în italiană 'Aș dori să mă programez'?"
+  },
+  "'Prendere un appuntamento' — це стандартна фраза для запису.": {
+    "en": "'Prendere un appuntamento' is the standard phrase for booking.",
+    "es": "'Prendere un appuntamento' es la frase estándar para reservar.",
+    "fr": "'Prendere un appuntamento' est la formule standard pour un rendez-vous.",
+    "ro": "'Prendere un appuntamento' este fraza standard pentru programare."
+  },
+  "Як чоловікові попросити вкоротити волосся з боків та підрівняти бороду?": {
+    "en": "How can a man ask to shorten the hair on the sides and trim his beard?",
+    "es": "¿Cómo puede un hombre pedir acortar los lados y arreglar la barba?",
+    "fr": "Comment un homme demande-t-il de raccourcir les côtés et régler la barbe ?",
+    "ro": "Cum poate un bărbat să ceară să scurteze lateralele și să aranjeze barba?"
+  },
+  "'Accorciare ai lati' (вкоротити з боків) та 'regolare la barba' (підрівняти бороду).": {
+    "en": "'Accorciare ai lati' (shorten the sides) and 'regolare la barba' (trim the beard).",
+    "es": "'Accorciare ai lati' (acortar los lados) y 'regolare la barba' (arreglar la barba).",
+    "fr": "'Accorciare ai lati' (raccourcir les côtés) et 'regolare la barba' (régler la barbe).",
+    "ro": "'Accorciare ai lati' (scurta pe laterale) și 'regolare la barba' (aranja barba)."
+  },
+  "Що означає слово 'Spuntare' стосовно волосся?": {
+    "en": "What does 'Spuntare' mean regarding hair?",
+    "es": "¿Qué significa 'Spuntare' respecto al pelo?",
+    "fr": "Que signifie 'Spuntare' pour les cheveux ?",
+    "ro": "Ce înseamnă 'Spuntare' referitor la păr?"
+  },
+  "'Spuntare' означає зрізати лише самі кінчики (le punte).": {
+    "en": "'Spuntare' means to trim only the very ends (le punte).",
+    "es": "'Spuntare' significa recortar solo las puntas (le punte).",
+    "fr": "'Spuntare' signifie couper seulement les pointes (le punte).",
+    "ro": "'Spuntare' înseamnă a tăia doar vârfurile (le punte)."
+  },
+  "Як сказати майстру манікюру, що потрібно зняти старий гель-лак?": {
+    "en": "How do you tell the nail technician you need to remove old gel polish?",
+    "es": "¿Cómo decir a la manicurista que hay que quitar el esmalte semipermanente viejo?",
+    "fr": "Comment dire à la prothésiste qu'il faut enlever l'ancien vernis semi-permanent ?",
+    "ro": "Cum îi spuneți manichiuristei că trebuie scos vechiul gel-lac?"
+  },
+  "'Togliere lo smalto vecchio' = зняти старий лак/покриття.": {
+    "en": "'Togliere lo smalto vecchio' = remove old polish/coating.",
+    "es": "'Togliere lo smalto vecchio' = quitar el esmalte/capa vieja.",
+    "fr": "'Togliere lo smalto vecchio' = enlever l'ancien vernis/la couche.",
+    "ro": "'Togliere lo smalto vecchio' = scoate vechiul lac/strat."
+  },
+  "Що таке 'Piega' в італійському перукарському салоні?": {
+    "en": "What is 'Piega' in an Italian hair salon?",
+    "es": "¿Qué es 'Piega' en una peluquería italiana?",
+    "fr": "Qu'est-ce que 'Piega' dans un salon de coiffure italien ?",
+    "ro": "Ce este 'Piega' într-un salon de coafură italian?"
+  },
+  "'Piega' — це укладка волосся.": {
+    "en": "'Piega' is hair styling (blow-dry).",
+    "es": "'Piega' es el brushing/peinado.",
+    "fr": "'Piega' est le brushing / la mise en plis.",
+    "ro": "'Piega' este coafura (uscarea/ aranjarea părului)."
+  },
+  "Вітаємо! Ви вдосконалили знання італійської лексики для салонів краси, вільно замовляєте стрижку, догляд за бородою, манікюр та укладку!": {
+    "en": "Congratulations! You have improved your Italian vocabulary for beauty salons and can easily book haircuts, beard care, manicures, and styling!",
+    "es": "¡Enhorabuena! Has perfeccionado el vocabulario italiano para salones y reservas corte, barba, manicura y brushing con soltura.",
+    "fr": "Félicitations ! Vous avez perfectionné le vocabulaire italien des salons et réservez coupe, barbe, manucure et brushing en toute aisance !",
+    "ro": "Felicitări! Ați perfecționat vocabularul italian pentru saloane și comandați lejer tuns, barbă, manichiură și coafură!"
+  }
+}

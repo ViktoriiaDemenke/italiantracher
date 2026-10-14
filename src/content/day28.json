@@ -19,7 +19,7 @@
     "uk": "Марко та Лаура планують візит до салону краси. В Італії до перукаря (parrucchiere / barbiere) та майстра манікюру (onicotecnica / estetista) майже завжди потрібно записуватися заздалегідь по телефону або особисто (prendere un appuntamento). Вкрай важливо чітко пояснити свої побажання: від довжини волосся та форми нігтів до вибору типу покриття чи стрижки бороди.",
     "en": "Marco and Laura plan a visit to a beauty salon. In Italy you almost always book ahead by phone or in person (prendere un appuntamento) with the hairdresser (parrucchiere / barbiere) and nail technician (onicotecnica / estetista). It is essential to explain clearly what you want: hair length, nail shape, type of polish or beard trim.",
     "es": "Marco y Laura planean una visita al salón de belleza. En Italia casi siempre hay que citarse de antemano por teléfono o en persona (prendere un appuntamento) con el peluquero (parrucchiere / barbiere) y la manicurista (onicotecnica / estetista). Es muy importante explicar con claridad lo que se desea: largo del pelo, forma de las uñas, tipo de esmalte o recorte de barba.",
-    "fr": "Marco et Laura prévoient une visite au salon de beauté. En Italie, on prend presque toujours rendez-vous à l’avance par téléphone ou sur place (prendere un appuntamento) chez le coiffeur (parrucchiere / barbiere) et l’esthéticienne ongles (onicotecnica / estetista). Il faut clairement expliquer ses souhaits : longueur des cheveux, forme des ongles, type de vernis ou coupe de barbe.",
+    "fr": "Marco et Laura prévoient une visite au salon de beauté. En Italie, on prend presque toujours rendez-vous à l’avance par téléphone ou sur place (prendere un appuntamento) chez le coiffeur (parrucchiere / barbiere) et l’esthéticienne (ongles : onicotecnica / estetista). Il faut clairement expliquer ses souhaits : longueur des cheveux, forme des ongles, type de vernis ou taille de barbe.",
     "ro": "Marco și Laura planifică o vizită la salon. În Italia, la frizer/coafor (parrucchiere / barbiere) și la manichiuristă (onicotecnica / estetista) aproape întotdeauna trebuie să te programezi dinainte la telefon sau personal (prendere un appuntamento). E esențial să explici clar dorințele: lungimea părului, forma unghiilor, tipul de oja sau tunsul bărbii."
   },
   "phrases": [
@@ -41,17 +41,17 @@
       }
     },
     {
-      "italian": "Vorrei solo una spuntata alle punte e la piega, per favore.",
+      "italian": "Vorrei solo spuntare le punte e fare la piega, per favore.",
       "ukrainian": {
         "uk": "Тільки підрівняти кінчики та зробити укладку, будь ласка.",
-        "en": "I'd just like a trim of the ends and a blow-dry, please.",
+        "en": "I'd just like the ends trimmed and a blow-dry, please.",
         "es": "Solo un recorte de puntas y el peinado, por favor.",
         "fr": "Juste une coupe des pointes et le brushing, s'il vous plaît.",
         "ro": "Doar o ajustare la vârfuri și coafatul, vă rog."
       },
       "translation": {
         "uk": "Тільки підрівняти кінчики та зробити укладку, будь ласка.",
-        "en": "I'd just like a trim of the ends and a blow-dry, please.",
+        "en": "I'd just like the ends trimmed and a blow-dry, please.",
         "es": "Solo un recorte de puntas y el peinado, por favor.",
         "fr": "Juste une coupe des pointes et le brushing, s'il vous plaît.",
         "ro": "Doar o ajustare la vârfuri și coafatul, vă rog."
@@ -62,16 +62,16 @@
       "ukrainian": {
         "uk": "Я б хотіла зробити гель-лак (семіперманент) та зняти старий.",
         "en": "I'd like a gel polish (semipermanente) and to have the old one removed.",
-        "es": "Quisiera hacerme el esmalte semipermanente y quitar el viejo.",
-        "fr": "Je voudrais faire le vernis semipermanente et enlever l'ancien.",
-        "ro": "Aș vrea să fac ojă semipermanente și să o dau jos pe cea veche."
+        "es": "Quisiera un esmalte semipermanente y que me quiten el viejo.",
+        "fr": "Je voudrais un vernis semi-permanent et faire retirer l’ancien.",
+        "ro": "Aș vrea ojă semipermanentă și să o dau jos pe cea veche."
       },
       "translation": {
         "uk": "Я б хотіла зробити гель-лак (семіперманент) та зняти старий.",
         "en": "I'd like a gel polish (semipermanente) and to have the old one removed.",
-        "es": "Quisiera hacerme el esmalte semipermanente y quitar el viejo.",
-        "fr": "Je voudrais faire le vernis semipermanente et enlever l'ancien.",
-        "ro": "Aș vrea să fac ojă semipermanente și să o dau jos pe cea veche."
+        "es": "Quisiera un esmalte semipermanente y que me quiten el viejo.",
+        "fr": "Je voudrais un vernis semi-permanent et faire retirer l’ancien.",
+        "ro": "Aș vrea ojă semipermanentă și să o dau jos pe cea veche."
       }
     },
     {
@@ -80,14 +80,14 @@
         "uk": "Я б хотів вкоротити волосся з боків та підрівняти бороду.",
         "en": "I'd like to shorten the hair on the sides and tidy the beard.",
         "es": "Quisiera acortar el pelo a los lados y arreglar la barba.",
-        "fr": "Je voudrais raccourcir les cheveux sur les côtés et régler la barbe.",
+        "fr": "Je voudrais raccourcir les cheveux sur les côtés et égaliser la barbe.",
         "ro": "Aș vrea să scurteze părul pe laterale și să aranjeze barba."
       },
       "translation": {
         "uk": "Я б хотів вкоротити волосся з боків та підрівняти бороду.",
         "en": "I'd like to shorten the hair on the sides and tidy the beard.",
         "es": "Quisiera acortar el pelo a los lados y arreglar la barba.",
-        "fr": "Je voudrais raccourcir les cheveux sur les côtés et régler la barbe.",
+        "fr": "Je voudrais raccourcir les cheveux sur les côtés et égaliser la barbe.",
         "ro": "Aș vrea să scurteze părul pe laterale și să aranjeze barba."
       }
     }
@@ -112,7 +112,7 @@
       "en": "Smalto semipermanente — gel polish. If the old coating must be removed, say so when booking: 'Devo anche togliere il gel vecchio'.",
       "es": "Smalto semipermanente: esmalte semipermanente. Si hay que quitar el recubrimiento anterior, avise al citarse: 'Devo anche togliere il gel vecchio'.",
       "fr": "Smalto semipermanente : vernis semi-permanent. S’il faut retirer l’ancien gel, prévenez à la prise de rendez-vous : 'Devo anche togliere il gel vecchio'.",
-      "ro": "Smalto semipermanente — oja semipermanentă. Dacă trebuie îndepărtat acoperirea veche, anunță la programare: 'Devo anche togliere il gel vecchio'."
+      "ro": "Smalto semipermanente — oja semipermanentă. Dacă trebuie îndepărtată acoperirea veche, anunță la programare: 'Devo anche togliere il gel vecchio'."
     }
   ],
   "grammar": {
@@ -182,17 +182,17 @@
             "italian": "Vorrei solo spuntare di un centimetro.",
             "ukrainian": {
               "uk": "Хочу лише підрівняти на сантиметр.",
-              "en": "I'd just like to trim one centimeter.",
-              "es": "Solo quiero recortar un centímetro.",
-              "fr": "Je voudrais seulement couper d'un centimètre.",
-              "ro": "Vreau doar să ajustez cu un centimetru."
+              "en": "I'd just like to trim one centimetre.",
+              "es": "Solo quiero que me recorten un centímetro.",
+              "fr": "Je voudrais seulement enlever un centimètre.",
+              "ro": "Vreau doar să-mi scurteze cu un centimetru."
             },
             "translation": {
               "uk": "Хочу лише підрівняти на сантиметр.",
-              "en": "I'd just like to trim one centimeter.",
-              "es": "Solo quiero recortar un centímetro.",
-              "fr": "Je voudrais seulement couper d'un centimètre.",
-              "ro": "Vreau doar să ajustez cu un centimetru."
+              "en": "I'd just like to trim one centimetre.",
+              "es": "Solo quiero que me recorten un centímetro.",
+              "fr": "Je voudrais seulement enlever un centimètre.",
+              "ro": "Vreau doar să-mi scurteze cu un centimetru."
             }
           },
           {

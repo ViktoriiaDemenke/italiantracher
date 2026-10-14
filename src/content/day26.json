@@ -87,7 +87,7 @@
         "uk": "Доброго дня! Кажіть, будь ласка.",
         "en": "Good morning! Go ahead.",
         "es": "¡Buenos días! Diga.",
-        "fr": "Bonjour ! Dites donc.",
+        "fr": "Bonjour ! Dites-moi.",
         "ro": "Bună dimineața! Spuneți, vă rog."
       }
     },
@@ -206,7 +206,7 @@
             "uk": "Проштампую квиток удома, перед виходом, так зручніше.",
             "en": "I'll stamp the ticket at home before going out; it's more convenient.",
             "es": "Pico el billete en casa, antes de salir, así es más cómodo.",
-            "fr": "Je tamponne le ticket à la maison, avant de sortir, c'est plus pratique.",
+            "fr": "Je composte le ticket à la maison, avant de sortir, c’est plus pratique.",
             "ro": "Ștampilez biletul acasă, înainte să ies, e mai comod."
           },
           "isCorrect": false,
@@ -214,7 +214,7 @@
             "uk": "Проштампую квиток удома, перед виходом, так зручніше.",
             "en": "I'll stamp the ticket at home before going out; it's more convenient.",
             "es": "Pico el billete en casa, antes de salir, así es más cómodo.",
-            "fr": "Je tamponne le ticket à la maison, avant de sortir, c'est plus pratique.",
+            "fr": "Je composte le ticket à la maison, avant de sortir, c’est plus pratique.",
             "ro": "Ștampilez biletul acasă, înainte să ies, e mai comod."
           }
         }
@@ -223,7 +223,7 @@
         "uk": "Так, саме так! Щойно сядете в автобус, проштампуйте квиток у апараті. До побачення!",
         "en": "Yes, exactly! As soon as you get on the bus you must stamp the ticket in the machine. Goodbye!",
         "es": "¡Sí, exactamente! En cuanto suba al autobús debe picar el billete en la máquina. ¡Hasta luego!",
-        "fr": "Oui, exactement ! Dès que vous montez dans le bus, vous devez tamponner le ticket dans la machine. Au revoir !",
+        "fr": "Oui, exactement ! Dès que vous montez dans le bus, vous devez composter le ticket dans la machine. Au revoir !",
         "ro": "Da, exact! De îndată ce urcați în autobuz trebuie să ștampilați biletul în aparat. La revedere!"
       }
     },
@@ -392,7 +392,7 @@
             "uk": "Доброго дня! Звісно, ось мій квиток, щойно проштампований.",
             "en": "Good morning! Of course, here's my ticket, stamped just now.",
             "es": "¡Buenos días! Por supuesto, aquí está mi billete picado hace un momento.",
-            "fr": "Bonjour ! Bien sûr, voici mon ticket tamponné il y a un instant.",
+            "fr": "Bonjour ! Bien sûr, voici mon ticket composté il y a un instant.",
             "ro": "Bună dimineața! Desigur, iată biletul meu ștampilat adineauri."
           },
           "isCorrect": true,
@@ -400,7 +400,7 @@
             "uk": "Доброго дня! Звісно, ось мій квиток, щойно проштампований.",
             "en": "Good morning! Of course, here's my ticket, stamped just now.",
             "es": "¡Buenos días! Por supuesto, aquí está mi billete picado hace un momento.",
-            "fr": "Bonjour ! Bien sûr, voici mon ticket tamponné il y a un instant.",
+            "fr": "Bonjour ! Bien sûr, voici mon ticket composté il y a un instant.",
             "ro": "Bună dimineața! Desigur, iată biletul meu ștampilat adineauri."
           }
         },

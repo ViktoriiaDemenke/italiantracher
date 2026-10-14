@@ -17,7 +17,7 @@
   },
   "story": {
     "uk": "Марко та Лаура вирішили пообідати у місцевій сімейній траторії в Treviso. В Італії культурі харчування приділяють особливу увагу: важливо знати, як забронювати столик, замовити воду, зрозуміти, що таке 'coperto' у чеку, та як правильно попросити каву після обіду.",
-    "en": "Marco and Laura decided to have lunch at a local family trattoria in Treviso. In Italy food culture gets special attention: it is important to know how to book a table, order water, understand what 'coperto' on the bill is, and how to ask for coffee after lunch.",
+    "en": "Marco and Laura have decided to have lunch at a local family trattoria in Treviso. In Italy, food culture gets special attention: you need to know how to book a table, order water, understand the coperto charge on the bill, and how to ask for coffee after lunch.",
     "es": "Marco y Laura deciden almorzar en una trattoria familiar de Treviso. En Italia la cultura de la mesa importa: hay que saber reservar mesa, pedir agua, entender el 'coperto' en la cuenta y pedir café después del almuerzo.",
     "fr": "Marco et Laura décident de déjeuner dans une trattoria familiale à Trévise. En Italie, la culture de la table compte : savoir réserver, commander de l’eau, comprendre le « coperto » sur l’addition et demander un café après le repas.",
     "ro": "Marco și Laura decid să ia prânzul la o trattoria de familie din Treviso. În Italia cultura mesei contează: e important să știi să rezervi masă, să comanzi apă, să înțelegi «coperto» pe notă și cum să ceri cafea după prânz."
@@ -95,21 +95,21 @@
   "restaurantEtiquette": [
     {
       "uk": "Coperto — це плата за хліб та сервірування (зазвичай 1.50€–3.00€ з особи, вказується в меню).",
-      "en": "Coperto is a charge for bread and table setting (usually €1.50–€3.00 per person, listed on the menu).",
+      "en": "Coperto is a cover charge for bread and table setting (usually €1.50–€3.00 per person, listed on the menu).",
       "es": "Coperto es un cargo por pan y cubierto (suele ser 1,50€–3,00€ por persona, indicado en la carta).",
-      "fr": "Coperto est un frais pour le pain et le couvert (souvent 1,50 €–3,00 € par personne, indiqué au menu).",
+      "fr": "Le coperto est un forfait pour le pain et le couvert (souvent 1,50 € à 3 € par personne, indiqué au menu).",
       "ro": "Coperto e taxa pentru pâine și servire (de obicei 1,50€–3,00€ de persoană, trecută în meniu)."
     },
     {
       "uk": "Cappuccino в Італії п'ють тільки до 11:00 ранку. Після обіду замовляють Caffè espresso або Macchiato.",
-      "en": "Cappuccino in Italy is drunk only until 11:00 in the morning. After lunch people order Caffè espresso or Macchiato.",
+      "en": "In Italy, cappuccino is usually drunk only until 11:00 in the morning. After lunch people order caffè espresso or a macchiato.",
       "es": "El Cappuccino en Italia se bebe solo hasta las 11:00. Después del almuerzo se pide Caffè espresso o Macchiato.",
-      "fr": "Le Cappuccino en Italie se boit seulement jusqu’à 11 h. Après le repas on commande un Caffè espresso ou un Macchiato.",
+      "fr": "En Italie, le cappuccino se boit seulement jusqu’à 11 h. Après le repas, on commande un caffè espresso ou un macchiato.",
       "ro": "Cappuccino în Italia se bea doar până la 11:00. După prânz se comandă Caffè espresso sau Macchiato."
     },
     {
       "uk": "Воду завжди подають у пляшках: треба уточнити 'naturale' (без газу) чи 'frizzante' (з газом).",
-      "en": "Water is always served in bottles: you must specify 'naturale' (still) or 'frizzante' (sparkling).",
+      "en": "Water is always served in bottles: you must specify naturale (still) or frizzante (sparkling).",
       "es": "El agua siempre se sirve en botella: hay que precisar 'naturale' (sin gas) o 'frizzante' (con gas).",
       "fr": "L’eau est toujours servie en bouteille : il faut préciser « naturale » (plate) ou « frizzante » (pétillante).",
       "ro": "Apa se servește mereu la sticlă: trebuie precizat «naturale» (fără gaz) sau «frizzante» (cu gaz)."
@@ -218,7 +218,7 @@
   },
   "culturaTip": {
     "uk": "В італійських ресторанах обід (pranzo) зазвичай триває з 12:30 до 14:30, а вечеря (cena) розпочинається не раніше 19:30 або 20:00.",
-    "en": "In Italian restaurants lunch (pranzo) usually runs from 12:30 to 14:30, and dinner (cena) does not start before 19:30 or 20:00.",
+    "en": "In Italian restaurants, lunch (pranzo) usually runs from 12:30 to 14:30, and dinner (cena) does not start before 19:30 or 20:00.",
     "es": "En los restaurantes italianos el almuerzo (pranzo) suele ser de 12:30 a 14:30, y la cena (cena) no empieza antes de las 19:30 o las 20:00.",
     "fr": "Dans les restaurants italiens, le déjeuner (pranzo) va en général de 12 h 30 à 14 h 30, et le dîner (cena) ne commence pas avant 19 h 30 ou 20 h.",
     "ro": "În restaurantele italiene prânzul (pranzo) e de obicei 12:30–14:30, iar cina (cena) nu începe înainte de 19:30 sau 20:00."

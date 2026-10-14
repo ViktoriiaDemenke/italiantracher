@@ -102,7 +102,7 @@
             "uk": "Хочу кіло молока і дві пляшки хліба, тонко нарізані.",
             "en": "I'd like a kilo of milk and two bottles of bread, thinly sliced.",
             "es": "Quisiera un kilo de leche y dos botellas de pan, cortadas finas.",
-            "fr": "Je voudrais un kilo de lait et deux bouteilles de pain, coupées fines.",
+            "fr": "Je voudrais un kilo de lait et deux bouteilles de pain, coupées très fin.",
             "ro": "Aș vrea un kilogram de lapte și două sticle de pâine, tăiate subțire."
           },
           "isCorrect": false,
@@ -110,7 +110,7 @@
             "uk": "Хочу кіло молока і дві пляшки хліба, тонко нарізані.",
             "en": "I'd like a kilo of milk and two bottles of bread, thinly sliced.",
             "es": "Quisiera un kilo de leche y dos botellas de pan, cortadas finas.",
-            "fr": "Je voudrais un kilo de lait et deux bouteilles de pain, coupées fines.",
+            "fr": "Je voudrais un kilo de lait et deux bouteilles de pain, coupées très fin.",
             "ro": "Aș vrea un kilogram de lapte și două sticle de pâine, tăiate subțire."
           }
         },
@@ -155,7 +155,7 @@
         "uk": "Кажіть, що вам приготувати?",
         "en": "Go ahead, what can I get you?",
         "es": "Diga, ¿qué le preparo?",
-        "fr": "Dites donc, qu'est-ce que je vous prépare ?",
+        "fr": "Alors, qu’est-ce que je vous prépare ?",
         "ro": "Spuneți, ce vă pregătesc?"
       }
     },
@@ -206,7 +206,7 @@
             "uk": "Наріжте великими кубиками, а сир я весь спробую спочатку.",
             "en": "Cut it into large cubes, and I'll taste all the cheese first.",
             "es": "Córtelo a cubos grandes y el queso lo pruebo todo primero.",
-            "fr": "Coupez-le en gros cubes et le fromage je le goûte tout d'abord.",
+            "fr": "Coupez-le en gros cubes, et le fromage, je le goûte d’abord.",
             "ro": "Tăiați-l cuburi mari, iar brânza o gust toată mai întâi."
           },
           "isCorrect": false,
@@ -214,7 +214,7 @@
             "uk": "Наріжте великими кубиками, а сир я весь спробую спочатку.",
             "en": "Cut it into large cubes, and I'll taste all the cheese first.",
             "es": "Córtelo a cubos grandes y el queso lo pruebo todo primero.",
-            "fr": "Coupez-le en gros cubes et le fromage je le goûte tout d'abord.",
+            "fr": "Coupez-le en gros cubes, et le fromage, je le goûte d’abord.",
             "ro": "Tăiați-l cuburi mari, iar brânza o gust toată mai întâi."
           }
         }
@@ -436,7 +436,7 @@
     "uk": "'Lo scontrino' (чек) обов'язково потрібно зберігати до виходу з супермаркету чи магазину — у разі перевірки фінансовою поліцією його можуть попросити показати.",
     "en": "Keep 'Lo scontrino' (the receipt) until you leave the supermarket or shop — the tax police may ask to see it.",
     "es": "Hay que guardar 'Lo scontrino' (el ticket) hasta salir del supermercado o tienda: la policía tributaria puede pedirlo.",
-    "fr": "Il faut garder 'Lo scontrino' (le ticket) jusqu’à la sortie du supermarché ou du magasin : la police fiscale peut le demander.",
+    "fr": "Il faut garder lo scontrino (le ticket) jusqu’à la sortie du supermarché ou du magasin : la police fiscale peut le demander.",
     "ro": "'Lo scontrino' (bonul) trebuie păstrat până la ieșirea din supermarket sau magazin — poliția fiscală îl poate cere."
   }
 }

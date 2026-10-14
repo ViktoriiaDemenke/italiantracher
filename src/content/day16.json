@@ -27,14 +27,14 @@
       "italian": "Vorrei fissare un appuntamento per fare il modello ISEE.",
       "ukrainian": {
         "uk": "Я б хотів(ла) призначити зустріч для оформлення довідки ISEE.",
-        "en": "I'd like to make an appointment to do the ISEE form.",
+        "en": "I'd like to book an appointment to complete the ISEE form.",
         "es": "Quisiera concertar una cita para hacer el modello ISEE.",
         "fr": "Je voudrais prendre rendez-vous pour faire le modello ISEE.",
         "ro": "Aș vrea să programez o întâlnire pentru modello ISEE."
       },
       "translation": {
         "uk": "Я б хотів(ла) призначити зустріч для оформлення довідки ISEE.",
-        "en": "I'd like to make an appointment to do the ISEE form.",
+        "en": "I'd like to book an appointment to complete the ISEE form.",
         "es": "Quisiera concertar una cita para hacer el modello ISEE.",
         "fr": "Je voudrais prendre rendez-vous pour faire le modello ISEE.",
         "ro": "Aș vrea să programez o întâlnire pentru modello ISEE."
@@ -96,9 +96,9 @@
     {
       "uk": "Patronato e CAF — установи, що допомагають безкоштовно або за символічну плату з податками, декретними виплатами, бонусами на дітей та пільгами.",
       "en": "Patronato e CAF are offices that help, free or for a small fee, with taxes, maternity benefits, child bonuses and other allowances.",
-      "es": "Patronato e CAF son entidades que ayudan, gratis o por una tarifa simbólica, con impuestos, prestaciones de maternidad, bonificaciones por hijos y ayudas.",
-      "fr": "Patronato e CAF sont des structures qui aident, gratuitement ou pour un tarif symbolique, pour les impôts, les allocations maternité, les bonus enfants et les aides.",
-      "ro": "Patronato e CAF sunt instituții care ajută gratuit sau contra unei sume simbolice cu taxele, indemnizațiile de maternitate, bonusurile pentru copii și alte ajutoare."
+      "es": "El Patronato y el CAF son entidades que ayudan, gratis o por una tarifa simbólica, con impuestos, prestaciones de maternidad, bonificaciones por hijos y ayudas.",
+      "fr": "Le Patronato et le CAF sont des structures qui aident, gratuitement ou pour un tarif symbolique, pour les impôts, les allocations maternité, les bonus enfants et les aides.",
+      "ro": "Patronato și CAF sunt instituții care ajută gratuit sau contra unei sume simbolice cu taxele, indemnizațiile de maternitate, bonusurile pentru copii și alte ajutoare."
     },
     {
       "uk": "ISEE — це офіційний розрахунок фінансового стану родини. Він потрібен для отримання значних знижок на дитячий садок, шкільні обіди, комунальні бонуси та виплату Assegno Unico.",
@@ -110,8 +110,8 @@
     {
       "uk": "Assegno Unico Universale — щомісячна фінансова допомога на кожну неповнолітню дитину в сім'ї.",
       "en": "Assegno Unico Universale is a monthly cash benefit for each underage child in the family.",
-      "es": "Assegno Unico Universale es una ayuda mensual por cada hijo menor de edad en la familia.",
-      "fr": "Assegno Unico Universale est une allocation mensuelle pour chaque enfant mineur du foyer.",
+      "es": "El Assegno Unico Universale es una ayuda mensual por cada hijo menor de edad en la familia.",
+      "fr": "L’Assegno Unico Universale est une allocation mensuelle pour chaque enfant mineur du foyer.",
       "ro": "Assegno Unico Universale este o alocație lunară pentru fiecare copil minor din familie."
     }
   ],
@@ -154,14 +154,14 @@
             "italian": "Devo fare l'ISEE aggiornato.",
             "ukrainian": {
               "uk": "Мені потрібно зробити оновлений ISEE.",
-              "en": "I need to do an updated ISEE.",
+              "en": "I need to complete an updated ISEE.",
               "es": "Tengo que hacer el ISEE actualizado.",
               "fr": "Je dois faire l'ISEE mis à jour.",
               "ro": "Trebuie să fac ISEE actualizat."
             },
             "translation": {
               "uk": "Мені потрібно зробити оновлений ISEE.",
-              "en": "I need to do an updated ISEE.",
+              "en": "I need to complete an updated ISEE.",
               "es": "Tengo que hacer el ISEE actualizado.",
               "fr": "Je dois faire l'ISEE mis à jour.",
               "ro": "Trebuie să fac ISEE actualizat."
@@ -174,7 +174,7 @@
           "uk": "Різниця 'Serve' (однина) / 'Servono' (множина): 'Потрібен / Потрібні'.",
           "en": "Difference between 'Serve' (singular) / 'Servono' (plural): “is needed / are needed”.",
           "es": "Diferencia 'Serve' (singular) / 'Servono' (plural): «hace falta / hacen falta».",
-          "fr": "Différence 'Serve' (singulier) / 'Servono' (pluriel) : « il faut / il faut (plusieurs) ».",
+          "fr": "Différence « Serve » (singulier) / « Servono » (pluriel) : « il faut » / « il faut » (plusieurs).",
           "ro": "Diferența 'Serve' (singular) / 'Servono' (plural): «este nevoie / sunt necesare»."
         },
         "examples": [

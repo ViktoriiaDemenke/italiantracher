@@ -11,15 +11,15 @@
   "type": {
     "uk": "Симуляція бос-рівня",
     "en": "Boss Level Simulation",
-    "es": "Simulación de nivel jefe",
-    "fr": "Simulation Boss Level",
-    "ro": "Simulare nivel boss"
+    "es": "Simulación del nivel Boss",
+    "fr": "Simulation du niveau Boss",
+    "ro": "Simulare a nivelului Boss"
   },
   "story": {
     "uk": "Фінальний іспит модуля! Ви самостійно купуєте продукти, замовляєте нарізку у відділі гастрономії та розраховуєтеся на касі. Підказки та переклад вимкнено!",
-    "en": "Final exam of the module! You shop on your own, order sliced goods at the deli and pay at the till. Hints and translation are off!",
-    "es": "¡Examen final del módulo! Compras por tu cuenta, pides fiambre en charcutería y pagas en caja. ¡Pistas y traducción desactivadas!",
-    "fr": "Examen final du module ! Vous faites les courses seul, commandez au traiteur et payez à la caisse. Indices et traduction désactivés !",
+    "en": "Final exam of the module! You shop on your own, order sliced goods at the deli and pay at the till. Hints and translations are off!",
+    "es": "¡Examen final del módulo! Compras por tu cuenta, pides fiambre en charcutería y pagas en caja. ¡Las pistas y la traducción están desactivadas!",
+    "fr": "Examen final du module ! Vous faites les courses seul, commandez au traiteur et payez à la caisse. Les indices et la traduction sont désactivés !",
     "ro": "Examenul final al modulului! Cumperi singur, comanzi la gastronomie și plătești la casă. Indiciile și traducerea sunt dezactivate!"
   },
   "questions": [
@@ -65,7 +65,7 @@
         "uk": "Правила гігієни в Італії вимагають використання рукавичок для вибору овочів/фруктів.",
         "en": "Hygiene rules in Italy require gloves when choosing vegetables/fruit.",
         "es": "Las normas de higiene en Italia exigen usar guantes para elegir verdura/fruta.",
-        "fr": "Les règles d’hygiène en Italie imposent des gants pour choisir légumes/fruits.",
+        "fr": "Les règles d’hygiène en Italie imposent de mettre des gants pour choisir fruits et légumes.",
         "ro": "Regulile de igienă din Italia cer folosirea mănușilor la alegerea legumelor/fructelor."
       }
     },

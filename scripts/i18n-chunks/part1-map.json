@@ -1,0 +1,1700 @@
+{
+  "Anagrafe: Реєстрація та документи": {
+    "en": "Anagrafe: Registration and Documents",
+    "es": "Anagrafe: Registro y documentos",
+    "fr": "Anagrafe : Inscription et documents",
+    "ro": "Anagrafe: Înregistrare și documente"
+  },
+  "Марко нещодавно переїхав до Тревізо. Сьогодні вранці він іде в Comune, в Ufficio Anagrafe, щоб подати dichiarazione di residenza. Біля входу стоїть totem: треба вибрати правильну категорію, взяти biglietto і чекати номер на tabellone. У папці в нього codice fiscale, permesso di soggiorno, contratto d'affitto і marca da bollo da 16€.": {
+    "en": "Marco recently moved to Treviso. This morning he is going to the Comune, to the Ufficio Anagrafe, to submit a dichiarazione di residenza. By the entrance there is a totem: you need to choose the right category, take a biglietto, and wait for your number on the tabellone. In his folder he has his codice fiscale, permesso di soggiorno, contratto d'affitto, and a 16€ marca da bollo.",
+    "es": "Marco se mudó recientemente a Treviso. Esta mañana va al Comune, al Ufficio Anagrafe, para presentar la dichiarazione di residenza. Junto a la entrada hay un totem: hay que elegir la categoría correcta, sacar un biglietto y esperar el número en el tabellone. En su carpeta lleva el codice fiscale, permesso di soggiorno, contratto d'affitto y una marca da bollo de 16€.",
+    "fr": "Marco vient d'emménager à Trévise. Ce matin, il se rend au Comune, à l'Ufficio Anagrafe, pour déposer une dichiarazione di residenza. À l'entrée se trouve un totem : il faut choisir la bonne catégorie, prendre un biglietto et attendre son numéro sur le tabellone. Dans son dossier : codice fiscale, permesso di soggiorno, contratto d'affitto et marca da bollo de 16 €.",
+    "ro": "Marco s-a mutat recent la Treviso. În această dimineață merge la Comune, la Ufficio Anagrafe, pentru a depune o dichiarazione di residenza. Lângă intrare este un totem: trebuie să alegi categoria corectă, să iei un biglietto și să aștepți numărul pe tabellone. În dosar are codice fiscale, permesso di soggiorno, contratto d'affitto și marca da bollo de 16€."
+  },
+  "Податковий код. Без нього заяву на residenza зазвичай не закривають.": {
+    "en": "Tax code. Without it, they usually will not complete your residenza application.",
+    "es": "Código fiscal. Sin él, normalmente no cierran la solicitud de residenza.",
+    "fr": "Code fiscal. Sans lui, on ne clôt en général pas la demande de residenza.",
+    "ro": "Cod fiscal. Fără el, de obicei nu finalizează cererea de residenza."
+  },
+  "Дозвіл на перебування в оригіналі, не лише фото на телефоні.": {
+    "en": "Residence permit in the original — not just a photo on your phone.",
+    "es": "Permiso de residencia en original, no solo una foto en el móvil.",
+    "fr": "Permis de séjour en original, pas seulement une photo sur le téléphone.",
+    "ro": "Permis de ședere în original, nu doar o poză pe telefon."
+  },
+  "Договір оренди з адресою в Тревізо, яку Марко хоче заявити.": {
+    "en": "Rental contract with the Treviso address Marco wants to register.",
+    "es": "Contrato de alquiler con la dirección de Treviso que Marco quiere declarar.",
+    "fr": "Contrat de location avec l'adresse de Trévise que Marco souhaite déclarer.",
+    "ro": "Contract de închiriere cu adresa din Treviso pe care Marco vrea să o declare."
+  },
+  "Марка на 16 євро для заяви. Її часто купують у tabaccheria перед візитом.": {
+    "en": "A 16-euro revenue stamp for the application. People often buy it at a tabaccheria before the visit.",
+    "es": "Marca de 16 euros para la solicitud. A menudo se compra en la tabaccheria antes de la visita.",
+    "fr": "Marque de 16 euros pour la demande. On l'achète souvent au tabaccheria avant le rendez-vous.",
+    "ro": "Marcă de 16 euro pentru cerere. De obicei se cumpără la tabaccheria înainte de vizită."
+  },
+  "Доброго дня, я хотів би подати заяву на резиденцію.": {
+    "en": "Good morning, I would like to submit a residence application.",
+    "es": "Buenos días, quisiera presentar una solicitud de residencia.",
+    "fr": "Bonjour, je voudrais déposer une demande de résidence.",
+    "ro": "Bună ziua, aș dori să depun o cerere de rezidență."
+  },
+  "Де я можу взяти талончик?": {
+    "en": "Where can I get a queue ticket?",
+    "es": "¿Dónde puedo sacar un ticket de turno?",
+    "fr": "Où puis-je prendre un ticket ?",
+    "ro": "Unde pot lua un bon de ordine?"
+  },
+  "Мені потрібно вибрати Anagrafe на тотемі?": {
+    "en": "Do I need to select Anagrafe on the totem?",
+    "es": "¿Tengo que elegir Anagrafe en el totem?",
+    "fr": "Dois-je choisir Anagrafe sur le totem ?",
+    "ro": "Trebuie să selectez Anagrafe pe totem?"
+  },
+  "Яка категорія потрібна для декларації про місце проживання?": {
+    "en": "Which category do I need for a declaration of residence?",
+    "es": "¿Qué categoría necesito para la declaración de residencia?",
+    "fr": "Quelle catégorie faut-il pour la déclaration de domicile ?",
+    "ro": "Ce categorie îmi trebuie pentru declarația de domiciliu?"
+  },
+  "У мене є код фіскале і дозвіл на перебування.": {
+    "en": "I have my codice fiscale and permesso di soggiorno.",
+    "es": "Tengo el codice fiscale y el permesso di soggiorno.",
+    "fr": "J'ai le codice fiscale et le permesso di soggiorno.",
+    "ro": "Am codice fiscale și permesso di soggiorno."
+  },
+  "Ось договір оренди.": {
+    "en": "Here is the rental contract.",
+    "es": "Aquí está el contrato de alquiler.",
+    "fr": "Voici le contrat de location.",
+    "ro": "Iată contractul de închiriere."
+  },
+  "Чи потрібна також марка на шістнадцять євро?": {
+    "en": "Do I also need the sixteen-euro revenue stamp?",
+    "es": "¿Hace falta también la marca da bollo de dieciséis euros?",
+    "fr": "Faut-il aussi la marca da bollo de seize euros ?",
+    "ro": "E nevoie și de marca da bollo de șaisprezece euro?"
+  },
+  "Мій номер з'явився на табло.": {
+    "en": "My number appeared on the board.",
+    "es": "Mi número salió en el tabellone.",
+    "fr": "Mon numéro est apparu sur le tabellone.",
+    "ro": "Numărul meu a apărut pe tabellone."
+  },
+  "Доброго дня, дякую. Мені потрібно вибрати Anagrafe для резиденції?": {
+    "en": "Good morning, thank you. Do I need to select Anagrafe for residenza?",
+    "es": "Buenos días, gracias. ¿Debo elegir Anagrafe para la residenza?",
+    "fr": "Bonjour, merci. Dois-je choisir Anagrafe pour la residenza ?",
+    "ro": "Bună ziua, mulțumesc. Trebuie să selectez Anagrafe pentru residenza?"
+  },
+  "Ввічливо, на Lei і з ясною метою. Так і варто підходити до тотема.": {
+    "en": "Polite, formal Lei, and a clear purpose. That is how you should approach the totem.",
+    "es": "Cortés, con Lei y con un objetivo claro. Así conviene acercarse al totem.",
+    "fr": "Poli, avec Lei et un objectif clair. C'est ainsi qu'il faut s'approcher du totem.",
+    "ro": "Cuviincios, cu Lei și cu un scop clar. Așa te apropii de totem."
+  },
+  "Привіт, дай мені номер, я поспішаю.": {
+    "en": "Hey, give me a number, I'm in a hurry.",
+    "es": "Oye, dame un número, tengo prisa.",
+    "fr": "Salut, donne-moi un numéro, je suis pressé.",
+    "ro": "Hei, dă-mi un număr, mă grăbesc."
+  },
+  "Грубо. Тут Buongiorno і Lei, не Ciao і накази.": {
+    "en": "Rude. Here you say Buongiorno and Lei, not Ciao and orders.",
+    "es": "Grosero. Aquí se dice Buongiorno y Lei, no Ciao ni órdenes.",
+    "fr": "Grossier. Ici on dit Buongiorno et Lei, pas Ciao ni des ordres.",
+    "ro": "Neobișnuit. Aici spui Buongiorno și Lei, nu Ciao și comenzi."
+  },
+  "Прошу ласкаво вказати мені електронну процедуру видачі талона черги.": {
+    "en": "Please kindly indicate to me the electronic procedure for issuing a queue ticket.",
+    "es": "Por favor indíqueme amablemente el procedimiento electrónico para sacar el ticket.",
+    "fr": "Je vous prie de m'indiquer la procédure électronique de délivrance du ticket.",
+    "ro": "Vă rog să-mi indicați procedura electronică de eliberare a bonului de ordine."
+  },
+  "Граматично «правильно», але в комуні так не кажуть. Занадто книжково.": {
+    "en": "Grammatically \"correct\", but nobody talks like that at the Comune. Too bookish.",
+    "es": "Gramaticalmente «correcto», pero en el Comune nadie habla así. Demasiado libresco.",
+    "fr": "Grammaticalement « correct », mais au Comune personne ne parle ainsi. Trop scolaire.",
+    "ro": "Corect gramatical, dar la Comune nimeni nu vorbește așa. Prea cărtăresc."
+  },
+  "Доброго дня. Для Anagrafe талончик беруть на тотемі, он там ліворуч.": {
+    "en": "Good morning. For Anagrafe you take a ticket at the totem, it is over there on the left.",
+    "es": "Buenos días. Para Anagrafe el ticket se saca en el totem, allí a la izquierda.",
+    "fr": "Bonjour. Pour Anagrafe, le ticket se prend au totem, là-bas à gauche.",
+    "ro": "Bună ziua. Pentru Anagrafe bonul se ia la totem, acolo în stânga."
+  },
+  "Маю намір скористатися опцією, що стосується муніципальної анаграфічної служби.": {
+    "en": "I intend to use the option relating to the municipal registry service.",
+    "es": "Tengo la intención de usar la opción del servicio municipal de anagrafe.",
+    "fr": "J'ai l'intention d'utiliser l'option relative au service municipal d'anagrafe.",
+    "ro": "Intentionez să folosesc opțiunea privind serviciul municipal de anagrafe."
+  },
+  "Зміст близький, але на екрані тотема так ніхто не думає вголос.": {
+    "en": "The meaning is close, but nobody thinks out loud like that on the totem screen.",
+    "es": "El sentido es parecido, pero en la pantalla del totem nadie piensa en voz alta así.",
+    "fr": "Le sens est proche, mais sur l'écran du totem personne ne pense à voix haute ainsi.",
+    "ro": "Sensul e apropiat, dar pe ecranul totemului nimeni nu gândește cu voce tare așa."
+  },
+  "Обираю Anagrafe / residenza. Потім чекаю номер на табло.": {
+    "en": "I select Anagrafe / residenza. Then I wait for my number on the board.",
+    "es": "Elijo Anagrafe / residenza. Luego espero mi número en el tabellone.",
+    "fr": "Je choisis Anagrafe / residenza. Puis j'attends mon numéro sur le tabellone.",
+    "ro": "Aleg Anagrafe / residenza. Apoi aștept numărul pe tabellone."
+  },
+  "Правильна категорія. Carta d'identità — інша черга.": {
+    "en": "Correct category. Carta d'identità is a different queue.",
+    "es": "Categoría correcta. Carta d'identità es otra cola.",
+    "fr": "Bonne catégorie. Carta d'identità, c'est une autre file.",
+    "ro": "Categorie corectă. Carta d'identità e altă coadă."
+  },
+  "Беру посвідчення особи, це ж той самий офіс.": {
+    "en": "I'll get an ID card — it is the same office anyway.",
+    "es": "Sacaré el documento de identidad; es la misma oficina.",
+    "fr": "Je vais prendre la carte d'identité, c'est le même bureau.",
+    "ro": "Iau cartea de identitate; e același birou oricum."
+  },
+  "Ні. Інша черга, інше sportello. Для residenza — Anagrafe.": {
+    "en": "No. Different queue, different sportello. For residenza — Anagrafe.",
+    "es": "No. Otra cola, otro sportello. Para residenza — Anagrafe.",
+    "fr": "Non. Autre file, autre sportello. Pour residenza — Anagrafe.",
+    "ro": "Nu. Altă coadă, alt sportello. Pentru residenza — Anagrafe."
+  },
+  "Обрати: 1 Посвідчення особи  2 Anagrafe / резиденція  3 Цивільний стан  4 Платежі": {
+    "en": "Choose: 1 ID card  2 Anagrafe / residenza  3 Civil status  4 Payments",
+    "es": "Elija: 1 Documento de identidad  2 Anagrafe / residenza  3 Estado civil  4 Pagos",
+    "fr": "Choisissez : 1 Carte d'identité  2 Anagrafe / residenza  3 État civil  4 Paiements",
+    "ro": "Alegeți: 1 Carte de identitate  2 Anagrafe / residenza  3 Stare civilă  4 Plăți"
+  },
+  "Все одно піду до віконця, там нікого немає.": {
+    "en": "I'll go to the counter anyway, there is nobody there.",
+    "es": "Iré al mostrador igual, no hay nadie.",
+    "fr": "J'irais quand même au guichet, il n'y a personne.",
+    "ro": "Merg oricum la ghișeu, nu e nimeni."
+  },
+  "Без номера вас відправлять назад до тотема.": {
+    "en": "Without a number they will send you back to the totem.",
+    "es": "Sin número te mandarán de vuelta al totem.",
+    "fr": "Sans numéro, on vous renvoie au totem.",
+    "ro": "Fără număr te trimit înapoi la totem."
+  },
+  "Я скрупульозно дотримаюся розпоряджень щодо порядку виклику.": {
+    "en": "I shall scrupulously comply with the calling-order regulations.",
+    "es": "Cumpliré escrupulosamente las normas de llamada.",
+    "fr": "Je me conformerai scrupuleusement au règlement d'appel.",
+    "ro": "Voi respecta scrupulos regulamentul de apel."
+  },
+  "Занадто урочисто для ранкового Comune.": {
+    "en": "Too formal for a morning at the Comune.",
+    "es": "Demasiado solemne para una mañana en el Comune.",
+    "fr": "Trop solennel pour un matin au Comune.",
+    "ro": "Prea solemn pentru o dimineață la Comune."
+  },
+  "Так, у мене є талончик. Чекаю тут, поки з’явиться мій номер, дякую.": {
+    "en": "Yes, I have a ticket. I'll wait here until my number appears, thank you.",
+    "es": "Sí, tengo ticket. Espero aquí hasta que salga mi número, gracias.",
+    "fr": "Oui, j'ai un ticket. J'attends ici jusqu'à ce que mon numéro s'affiche, merci.",
+    "ro": "Da, am bon. Aștept aici până apare numărul meu, mulțumesc."
+  },
+  "Саме так: талон у руці, очікування на tabellone, без живої черги «познайомитись».": {
+    "en": "Exactly: ticket in hand, waiting on the tabellone — no informal queue to \"get acquainted\".",
+    "es": "Exacto: ticket en mano, espera en el tabellone, sin cola informal para «presentarse».",
+    "fr": "Exactement : ticket en main, attente au tabellone, pas de file informelle pour « faire connaissance ».",
+    "ro": "Exact: bon în mână, așteptare la tabellone, fără coadă informală ca să « te prezinți »."
+  },
+  "Ви взяли талончик? Чекайте свій номер. Не ставайте в чергу до віконця без номера.": {
+    "en": "Did you take a ticket? Wait for your number. Do not queue at a counter without a number.",
+    "es": "¿Sacó ticket? Espere su número. No haga cola en un mostrador sin número.",
+    "fr": "Avez-vous pris un ticket ? Attendez votre numéro. Ne faites pas la queue au guichet sans numéro.",
+    "ro": "Ați luat bon? Așteptați numărul. Nu stați la coadă la ghișeu fără număr."
+  },
+  "Піду до віконця 1, воно ближче.": {
+    "en": "I'll go to counter 1, it is closer.",
+    "es": "Iré al mostrador 1, está más cerca.",
+    "fr": "Je vais au guichet 1, c'est plus proche.",
+    "ro": "Merg la ghișeul 1, e mai aproape."
+  },
+  "Не те вікно. Номер прив'язаний до sportello 4.": {
+    "en": "Wrong window. Your number is assigned to sportello 4.",
+    "es": "Ventanilla equivocada. Su número corresponde al sportello 4.",
+    "fr": "Mauvais guichet. Votre numéro est lié au sportello 4.",
+    "ro": "Ghișeu greșit. Numărul tău e la sportello 4."
+  },
+  "Це мій номер. Йду до віконця 4 з документами в порядку.": {
+    "en": "That is my number. I'm going to counter 4 with my documents ready.",
+    "es": "Es mi número. Voy al mostrador 4 con los documentos en orden.",
+    "fr": "C'est mon numéro. Je vais au guichet 4, documents prêts.",
+    "ro": "Acesta e numărul meu. Merg la ghișeul 4 cu actele pregătite."
+  },
+  "Коли випав ваш номер — підходьте до вказаного віконця, не до будь-якого.": {
+    "en": "When your number is called, go to the indicated counter — not just any counter.",
+    "es": "Cuando salga su número, vaya al mostrador indicado, no a cualquiera.",
+    "fr": "Quand votre numéro est appelé, allez au guichet indiqué, pas n'importe lequel.",
+    "ro": "Când e anunțat numărul tău, mergi la ghișeul indicat, nu la oricare."
+  },
+  "Зафіксувавши електронне оголошення, негайно прямую до вказаної стійки.": {
+    "en": "Having noted the electronic announcement, I immediately proceed to the designated desk.",
+    "es": "Tras registrar el anuncio electrónico, me dirijo de inmediato al mostrador indicado.",
+    "fr": "Ayant constaté l'annonce électronique, je me rends immédiatement au guichet indiqué.",
+    "ro": "După anunțul electronic, mă îndrept imediat către ghișeul indicat."
+  },
+  "Книжежний стиль. Достатньо просто піти до sportello 4.": {
+    "en": "Bookish style. It is enough to simply go to sportello 4.",
+    "es": "Estilo libresco. Basta ir al sportello 4.",
+    "fr": "Style scolaire. Il suffit d'aller au sportello 4.",
+    "ro": "Stil cărtăresc. E suficient să mergi la sportello 4."
+  },
+  "Це номер 37, віконце 4.": {
+    "en": "That is number 37, counter 4.",
+    "es": "Es el número 37, mostrador 4.",
+    "fr": "C'est le numéro 37, guichet 4.",
+    "ro": "Numărul 37, ghișeul 4."
+  },
+  "У Comune di Treviso, як і в більшості комун, черга йде через totem. Для dichiarazione di residenza беріть категорію Anagrafe, не Carta d'identità. Говоріть на Lei, вітайтеся Buongiorno. Документи тримайте готовими: codice fiscale, permesso, contratto d'affitto, marca da bollo 16€.": {
+    "en": "At the Comune di Treviso, as in most municipalities, the queue runs through the totem. For dichiarazione di residenza choose the Anagrafe category, not Carta d'identità. Use Lei and greet with Buongiorno. Keep documents ready: codice fiscale, permesso, contratto d'affitto, marca da bollo 16€.",
+    "es": "En el Comune di Treviso, como en la mayoría de municipios, la cola va por el totem. Para la dichiarazione di residenza elija Anagrafe, no Carta d'identità. Hable en Lei y salude con Buongiorno. Tenga listos: codice fiscale, permesso, contratto d'affitto, marca da bollo 16€.",
+    "fr": "Au Comune di Treviso, comme dans la plupart des communes, la file passe par le totem. Pour la dichiarazione di residenza, choisissez Anagrafe, pas Carta d'identità. Parlez Lei et dites Buongiorno. Ayez sous la main : codice fiscale, permesso, contratto d'affitto, marca da bollo 16 €.",
+    "ro": "La Comune di Treviso, ca în majoritatea comunelor, coada merge prin totem. Pentru dichiarazione di residenza alegeți Anagrafe, nu Carta d'identità. Folosiți Lei și spuneți Buongiorno. Pregătiți: codice fiscale, permesso, contratto d'affitto, marca da bollo 16€."
+  },
+  "Anagrafe: Sportello": {
+    "en": "Anagrafe: Sportello",
+    "es": "Anagrafe: Sportello",
+    "fr": "Anagrafe : Sportello",
+    "ro": "Anagrafe: Sportello"
+  },
+  "Номер Марка випав. Він підходить до sportello 4. За віконцем — impiegato. Тут уже не тотем, а жива розмова: мета візиту, документи, бланк, якого бракує, і спокійний Lei до arrivederci.": {
+    "en": "Marco's number was called. He goes to sportello 4. Behind the window is an impiegato. This is no longer the totem but a live conversation: purpose of the visit, documents, a missing form, and calm Lei until arrivederci.",
+    "es": "Salió el número de Marco. Va al sportello 4. Detrás está un impiegato. Ya no es el totem sino una conversación en vivo: motivo, documentos, formulario que falta y Lei tranquilo hasta arrivederci.",
+    "fr": "Le numéro de Marco est appelé. Il va au sportello 4. Derrière le guichet, un impiegato. Ce n'est plus le totem mais un échange en direct : objet de la visite, documents, modulo manquant et Lei posé jusqu'à arrivederci.",
+    "ro": "Numărul lui Marco a fost chemat. Merge la sportello 4. La ghișeu e un impiegato. Nu mai e totem, ci conversație live: scopul vizitei, documente, formular lipsă și Lei calm până la arrivederci."
+  },
+  "Доброго дня, я хотів би подати декларацію про місце проживання.": {
+    "en": "Good morning, I would like to submit a declaration of residence.",
+    "es": "Buenos días, quisiera presentar una declaración de residencia.",
+    "fr": "Bonjour, je voudrais déposer une déclaration de domicile.",
+    "ro": "Bună ziua, aș dori să depun o declarație de domiciliu."
+  },
+  "Ось паспорт, код фіскале і пермессо.": {
+    "en": "Here are my passport, codice fiscale, and permesso.",
+    "es": "Aquí están el pasaporte, el codice fiscale y el permesso.",
+    "fr": "Voici le passeport, le codice fiscale et le permesso.",
+    "ro": "Iată pașaportul, codice fiscale și permesso."
+  },
+  "Бланк я не заповнив. Дасте мені його, будь ласка?": {
+    "en": "I did not fill out the form. Could you give me one, please?",
+    "es": "No rellené el formulario. ¿Me lo puede dar, por favor?",
+    "fr": "Je n'ai pas rempli le formulaire. Pourriez-vous m'en donner un, s'il vous plaît ?",
+    "ro": "Nu am completat formularul. Îmi puteți da unul, vă rog?"
+  },
+  "Живу на via Roma 12, з дружиною і донькою.": {
+    "en": "I live at via Roma 12, with my wife and daughter.",
+    "es": "Vivo en via Roma 12, con mi esposa e hija.",
+    "fr": "J'habite via Roma 12, avec mon épouse et ma fille.",
+    "ro": "Locuiesc în via Roma 12, cu soția și fiica mea."
+  },
+  "Можна квитанцію, будь ласка?": {
+    "en": "May I have a receipt, please?",
+    "es": "¿Me puede dar un recibo, por favor?",
+    "fr": "Puis-je avoir un reçu, s'il vous plaît ?",
+    "ro": "Pot primi o chitanță, vă rog?"
+  },
+  "За sportello одна відповідь — на одне питання. Якщо бракує modulo, спокійно скажіть і попросіть бланк. Не виправдовуйтесь довго. Ім'я диктуйте як у паспорті або покажіть документ. Lei тримайте до Grazie, arrivederci.": {
+    "en": "At the sportello, one answer per question. If a modulo is missing, say so calmly and ask for a form. Do not apologize at length. Spell your name as in your passport or show the document. Keep Lei until Grazie, arrivederci.",
+    "es": "En el sportello, una respuesta por pregunta. Si falta un modulo, dígalo con calma y pida el formulario. No se justifique mucho. Deletree el nombre como en el pasaporte o muestre el documento. Mantenga Lei hasta Grazie, arrivederci.",
+    "fr": "Au sportello, une réponse par question. S'il manque un modulo, dites-le calmement et demandez le formulaire. Ne vous excusez pas longtemps. Épelez le nom comme sur le passeport ou montrez le document. Gardez Lei jusqu'à Grazie, arrivederci.",
+    "ro": "La sportello, un răspuns pe întrebare. Dacă lipsește un modulo, spuneți calm și cereți formularul. Nu vă scuzați mult. Dictați numele ca în pașaport sau arătați documentul. Păstrați Lei până la Grazie, arrivederci."
+  },
+  "Доброго дня, я хотів би подати декларацію про місце проживання. Я нещодавно переїхав до Тревізо.": {
+    "en": "Good morning, I would like to submit a declaration of residence. I recently moved to Treviso.",
+    "es": "Buenos días, quisiera presentar una declaración de residencia. Me mudé recientemente a Treviso.",
+    "fr": "Bonjour, je voudrais déposer une déclaration de domicile. Je viens d'emménager à Trévise.",
+    "ro": "Bună ziua, aș dori să depun o declarație de domiciliu. M-am mutat recent la Treviso."
+  },
+  "Чітка мета, Lei, без біографії на п'ять хвилин.": {
+    "en": "Clear purpose, Lei, no five-minute life story.",
+    "es": "Objetivo claro, Lei, sin autobiografía de cinco minutos.",
+    "fr": "Objectif clair, Lei, pas de biographie de cinq minutes.",
+    "ro": "Scop clar, Lei, fără poveste de cinci minute."
+  },
+  "Бажав би подати на розгляд установи заяву про анаграфічну реєстрацію.": {
+    "en": "I would wish to submit to the institution an application for registry registration.",
+    "es": "Desearía presentar a la institución una solicitud de inscripción anagráfica.",
+    "fr": "Je souhaiterais soumettre à l'institution une demande d'inscription anagraphique.",
+    "ro": "Aș dori să depun instituției o cerere de înregistrare anagrafică."
+  },
+  "Зміст ок, тон як з підручника права. У віконці кажуть простіше.": {
+    "en": "The content is fine, but the tone is like a law textbook. At the window they speak more simply.",
+    "es": "El contenido vale, pero el tono es de manual de derecho. En el mostrador hablan más simple.",
+    "fr": "Le fond va, mais le ton est celui d'un manuel de droit. Au guichet on parle plus simplement.",
+    "ro": "Conținutul e ok, tonul e ca din manual de drept. La ghișeu vorbesc mai simplu."
+  },
+  "Привіт, зроби мені резиденцію зараз.": {
+    "en": "Hey, do my residenza right now.",
+    "es": "Oye, hazme la residenza ya.",
+    "fr": "Salut, fais-moi la residenza tout de suite.",
+    "ro": "Hei, fă-mi residenza acum."
+  },
+  "Ciao і наказ. Тут Buongiorno і vorrei.": {
+    "en": "Ciao and a command. Here it is Buongiorno and vorrei.",
+    "es": "Ciao y una orden. Aquí es Buongiorno y vorrei.",
+    "fr": "Ciao et un ordre. Ici c'est Buongiorno et vorrei.",
+    "ro": "Ciao și o comandă. Aici e Buongiorno și vorrei."
+  },
+  "Доброго дня, слухаю вас.": {
+    "en": "Good morning, how can I help you?",
+    "es": "Buenos días, ¿en qué puedo ayudarle?",
+    "fr": "Bonjour, je vous écoute.",
+    "ro": "Bună ziua, vă ascult."
+  },
+  "Я виконав процедуру бронювання за допомогою електронного тотема.": {
+    "en": "I completed the booking procedure using the electronic totem.",
+    "es": "He completado el procedimiento de reserva mediante el totem electrónico.",
+    "fr": "J'ai effectué la procédure de réservation au moyen du totem électronique.",
+    "ro": "Am efectuat procedura de rezervare prin totemul electronic."
+  },
+  "Занадто канцелярськи. Достатньо: ho preso il biglietto.": {
+    "en": "Too bureaucratic. Enough to say: ho preso il biglietto.",
+    "es": "Demasiado burocrático. Basta con: ho preso il biglietto.",
+    "fr": "Trop administratif. Il suffit de dire : ho preso il biglietto.",
+    "ro": "Prea birocratic. E suficient: ho preso il biglietto."
+  },
+  "У мене немає номера, але черга довга, а я працюю.": {
+    "en": "I do not have a number, but the queue is long and I work.",
+    "es": "No tengo número, pero la cola es larga y trabajo.",
+    "fr": "Je n'ai pas de numéro, mais la file est longue et je travaille.",
+    "ro": "Nu am număr, dar coada e lungă și lucrez."
+  },
+  "Без номера вас не візьмуть «поза чергою».": {
+    "en": "Without a number they will not take you \"out of turn\".",
+    "es": "Sin número no le atenderán «fuera de turno».",
+    "fr": "Sans numéro, on ne vous prendra pas « hors file ».",
+    "ro": "Fără număr nu te primesc « în afara rândului »."
+  },
+  "Я взяв талончик на тотемі, категорія Anagrafe. Це мій номер.": {
+    "en": "I took a ticket at the totem, Anagrafe category. This is my number.",
+    "es": "Saqué ticket en el totem, categoría Anagrafe. Este es mi número.",
+    "fr": "J'ai pris un ticket au totem, catégorie Anagrafe. Voici mon numéro.",
+    "ro": "Am luat bon la totem, categoria Anagrafe. Acesta e numărul meu."
+  },
+  "Показуєте талон і категорію. Працівник одразу розуміє чергу.": {
+    "en": "You show the ticket and category. The clerk understands the queue at once.",
+    "es": "Muestra el ticket y la categoría. El empleado entiende la cola al momento.",
+    "fr": "Vous montrez le ticket et la catégorie. L'agent comprend tout de suite la file.",
+    "ro": "Arăți bonul și categoria. Funcionarul înțelege imediat coada."
+  },
+  "Добре. У вас уже є запис чи ви зайшли з номером із тотема?": {
+    "en": "All right. Do you already have an appointment or did you come with a totem number?",
+    "es": "De acuerdo. ¿Ya tiene cita o vino con número del totem?",
+    "fr": "Très bien. Vous avez déjà un rendez-vous ou vous êtes venu avec un numéro du totem ?",
+    "ro": "Bine. Aveți deja programare sau ați venit cu număr de la totem?"
+  },
+  "Так, ось паспорт, код фіскале, пермессо і договір оренди. Кладу їх тут.": {
+    "en": "Yes, here are my passport, codice fiscale, permesso, and rental contract. I'll put them here.",
+    "es": "Sí, aquí están pasaporte, codice fiscale, permesso y contrato de alquiler. Los dejo aquí.",
+    "fr": "Oui, voici passeport, codice fiscale, permesso et contrat de location. Je les pose ici.",
+    "ro": "Da, iată pașaportul, codice fiscale, permesso și contractul de închiriere. Le pun aici."
+  },
+  "Усе на стійку, коротко по списку. Так і роблять.": {
+    "en": "Everything on the counter, briefly listed. That is how it is done.",
+    "es": "Todo en el mostrador, en lista breve. Así se hace.",
+    "fr": "Tout sur le comptoir, brièvement énuméré. C'est ainsi qu'on fait.",
+    "ro": "Tot pe ghișeu, pe scurt, pe listă. Așa se face."
+  },
+  "Подивіться в телефоні, у мене фото. Оригінали вдома.": {
+    "en": "Look on my phone, I have photos. The originals are at home.",
+    "es": "Mire en el móvil, tengo fotos. Los originales están en casa.",
+    "fr": "Regardez sur mon téléphone, j'ai des photos. Les originaux sont chez moi.",
+    "ro": "Uitați pe telefon, am poze. Originalele sunt acasă."
+  },
+  "Для residenza оригінали потрібні на столі, не в галереї телефону.": {
+    "en": "For residenza you need originals on the desk, not in your phone gallery.",
+    "es": "Para residenza hacen falta originales en la mesa, no en la galería del móvil.",
+    "fr": "Pour la residenza, il faut les originaux sur le bureau, pas dans la galerie du téléphone.",
+    "ro": "Pentru residenza trebuie originale pe masă, nu în galeria telefonului."
+  },
+  "Передаю вам далі всю ідентифікаційну та договірну документацію в оригіналі.": {
+    "en": "I hereby hand over to you all identification and contractual documentation in original.",
+    "es": "Le entrego toda la documentación de identificación y contractual en original.",
+    "fr": "Je vous remets l'ensemble de la documentation d'identité et contractuelle en original.",
+    "ro": "Vă predau toată documentația de identificare și contractuală în original."
+  },
+  "Можна простіше: ecco i documenti.": {
+    "en": "You can keep it simpler: ecco i documenti.",
+    "es": "Puede ser más simple: ecco i documenti.",
+    "fr": "On peut faire plus simple : ecco i documenti.",
+    "ro": "Se poate mai simplu: ecco i documenti."
+  },
+  "Документи, будь ласка: паспорт, код фіскале, дозвіл на проживання і договір оренди.": {
+    "en": "Documents, please: passport, codice fiscale, residence permit, and rental contract.",
+    "es": "Documentos, por favor: pasaporte, codice fiscale, permiso de residencia y contrato de alquiler.",
+    "fr": "Documents, s'il vous plaît : passeport, codice fiscale, permis de séjour et contrat de location.",
+    "ro": "Documente, vă rog: pașaport, codice fiscale, permis de ședere și contract de închiriere."
+  },
+  "На жаль, я не забезпечив попереднього заповнення бланка, завантаженого з інституційного порталу.": {
+    "en": "Unfortunately, I did not ensure prior completion of the form downloaded from the institutional portal.",
+    "es": "Lamentablemente, no completé previamente el formulario descargado del portal institucional.",
+    "fr": "Malheureusement, je n'ai pas rempli au préalable le formulaire téléchargé sur le portail institutionnel.",
+    "ro": "Din păcate, nu am completat dinainte formularul descărcat de pe portalul instituțional."
+  },
+  "Зміст «не заповнив», але речення важке. Краще: non l'ho compilato.": {
+    "en": "The meaning is \"I didn't fill it out\", but the sentence is heavy. Better: non l'ho compilato.",
+    "es": "El sentido es « no lo rellené », pero la frase es pesada. Mejor: non l'ho compilato.",
+    "fr": "Le sens est « je ne l'ai pas rempli », mais la phrase est lourde. Mieux : non l'ho compilato.",
+    "ro": "Sensul e « nu l-am completat », dar propoziția e grea. Mai bine: non l'ho compilato."
+  },
+  "Ні, я його не заповнив. Дасте мені його зараз, будь ласка? Заповню тут.": {
+    "en": "No, I did not fill it out. Could you give it to me now, please? I'll fill it in here.",
+    "es": "No, no lo rellené. ¿Me lo puede dar ahora, por favor? Lo completo aquí.",
+    "fr": "Non, je ne l'ai pas rempli. Pourriez-vous me le donner maintenant, s'il vous plaît ? Je le remplis ici.",
+    "ro": "Nu, nu l-am completat. Îmi puteți da unul acum, vă rog? Completez aici."
+  },
+  "Чесно і ввічливо. Бланк часто дають на місці, якщо ви не друкували з сайту.": {
+    "en": "Honest and polite. They often give the form on the spot if you did not print it from the website.",
+    "es": "Honesto y cortés. A menudo dan el formulario allí si no lo imprimió del sitio.",
+    "fr": "Honnête et poli. On donne souvent le formulaire sur place si vous ne l'avez pas imprimé du site.",
+    "ro": "Onest și cuviincios. Deseori dau formularul pe loc dacă nu l-ați tipărit de pe site."
+  },
+  "Це не моя проблема, це маєте зробити ви.": {
+    "en": "That is not my problem, you have to do it.",
+    "es": "Eso no es mi problema, deben hacerlo ustedes.",
+    "fr": "Ce n'est pas mon problème, c'est vous qui devez le faire.",
+    "ro": "Nu e problema mea, trebuie să faceți voi."
+  },
+  "Грубо. Бланк заповнює заявник, працівник допомагає з полями.": {
+    "en": "Rude. The applicant fills out the form; the clerk helps with the fields.",
+    "es": "Grosero. El formulario lo completa el solicitante; el empleado ayuda con los campos.",
+    "fr": "Grossier. Le demandeur remplit le formulaire ; l'agent aide pour les champs.",
+    "ro": "Neobișnuit. Formularul îl completează solicitantul; funcionarul ajută la câmpuri."
+  },
+  "Договір є. Але я не бачу вже заповненого бланка декларації. Ви роздрукували його з сайту комуни?": {
+    "en": "The contract is here. But I do not see a completed declaration form. Did you print it from the Comune website?",
+    "es": "El contrato está. Pero no veo el formulario de declaración ya rellenado. ¿Lo imprimió del sitio del Comune?",
+    "fr": "Le contrat est là. Mais je ne vois pas de formulaire de déclaration déjà rempli. L'avez-vous imprimé sur le site du Comune ?",
+    "ro": "Contractul e aici. Dar nu văd formularul de declarație completat. L-ați tipărit de pe site-ul Comune?"
+  },
+  "Підпишіть ви, це все одно.": {
+    "en": "You sign it, it is the same anyway.",
+    "es": "Firme usted, da igual.",
+    "fr": "Signez, c'est pareil.",
+    "ro": "Semnați dvs., e la fel."
+  },
+  "Підпис і дані — ваші. Працівник не підписує замість вас.": {
+    "en": "The signature and data are yours. The clerk does not sign for you.",
+    "es": "La firma y los datos son suyos. El empleado no firma por usted.",
+    "fr": "La signature et les données sont les vôtres. L'agent ne signe pas à votre place.",
+    "ro": "Semnătura și datele sunt ale dvs. Funcionarul nu semnează în locul dvs."
+  },
+  "Прошу аналогічно пояснити мені кожне поле формуляра.": {
+    "en": "I ask you likewise to explain each field of the form to me.",
+    "es": "Le pido asimismo que me explique cada campo del formulario.",
+    "fr": "Je vous prie de m'expliquer de même chaque champ du formulaire.",
+    "ro": "Vă rog să-mi explicați în mod similar fiecare câmp al formularului."
+  },
+  "Занадто урочисто. Достатньо спитати про riga dell'indirizzo.": {
+    "en": "Too formal. It is enough to ask about the riga dell'indirizzo.",
+    "es": "Demasiado solemne. Basta preguntar por la riga dell'indirizzo.",
+    "fr": "Trop solennel. Il suffit de demander la riga dell'indirizzo.",
+    "ro": "Prea solemn. E suficient să întrebați de riga dell'indirizzo."
+  },
+  "Так, дякую. Який рядок для адреси і для членів сім’ї, вибачте?": {
+    "en": "Yes, thank you. Which line is for the address and for family members, sorry?",
+    "es": "Sí, gracias. ¿Qué línea es para la dirección y para los familiares, disculpe?",
+    "fr": "Oui, merci. Quelle ligne pour l'adresse et pour les membres de la famille, pardon ?",
+    "ro": "Da, mulțumesc. Ce rând e pentru adresă și pentru membrii familiei, scuzați?"
+  },
+  "Просите орієнтир по рядках. Це нормально і не гальмує вікно.": {
+    "en": "You ask for guidance on the lines. That is normal and does not slow down the window.",
+    "es": "Pide orientación sobre las líneas. Es normal y no frena el mostrador.",
+    "fr": "Vous demandez des repères sur les lignes. C'est normal et cela ne bloque pas le guichet.",
+    "ro": "Cereți orientare pentru rânduri. E normal și nu încetinește ghișeul."
+  },
+  "Даю вам бланк. Ім’я, прізвище, дата і місце народження, адреса, члени сім’ї. Є ручка?": {
+    "en": "Here is your form. Name, surname, date and place of birth, address, family members. Do you have a pen?",
+    "es": "Aquí tiene el formulario. Nombre, apellidos, fecha y lugar de nacimiento, dirección, familiares. ¿Tiene bolígrafo?",
+    "fr": "Voici le formulaire. Prénom, nom, date et lieu de naissance, adresse, membres de la famille. Avez-vous un stylo ?",
+    "ro": "Iată formularul. Nume, prenume, data și locul nașterii, adresă, membri ai familiei. Aveți pix?"
+  },
+  "Так, живу сам. Інші не потрібні.": {
+    "en": "Yes, I live alone. No need to list others.",
+    "es": "Sí, vivo solo. No hace falta indicar otros.",
+    "fr": "Oui, je vis seul. Pas besoin d'indiquer d'autres personnes.",
+    "ro": "Da, locuiesc singur. Nu trebuie să indicați alții."
+  },
+  "Якщо сім'я живе з вами, їх треба заявити. Інакше residenza буде неточною.": {
+    "en": "If your family lives with you, you must declare them. Otherwise residenza will be inaccurate.",
+    "es": "Si la familia vive con usted, debe declararla. Si no, la residenza será imprecisa.",
+    "fr": "Si votre famille vit avec vous, vous devez la déclarer. Sinon la residenza sera inexacte.",
+    "ro": "Dacă familia locuiește cu dvs., trebuie declarați. Altfel residenza va fi inexactă."
+  },
+  "Ні, живу з дружиною і донькою. Маю також їхні документи, якщо хочете подивитися.": {
+    "en": "No, I live with my wife and daughter. I have their documents too if you would like to see them.",
+    "es": "No, vivo con mi esposa e hija. También tengo sus documentos si quiere verlos.",
+    "fr": "Non, je vis avec mon épouse et ma fille. J'ai aussi leurs documents si vous voulez les voir.",
+    "ro": "Nu, locuiesc cu soția și fiica mea. Am și documentele lor dacă doriți să le vedeți."
+  },
+  "Пряма відповідь на питання про nucleo. Документи сім'ї тримайте готовими.": {
+    "en": "A direct answer about the nucleo. Keep family documents ready.",
+    "es": "Respuesta directa sobre el nucleo. Tenga listos los documentos de la familia.",
+    "fr": "Réponse directe sur le nucleo. Gardez les documents de la famille prêts.",
+    "ro": "Răspuns direct despre nucleo. Țineți documentele familiei pregătite."
+  },
+  "Мій сімейний склад складається з дружини і доньки, які проживають за тією самою адресою.": {
+    "en": "My household consists of my wife and daughter, who live at the same address.",
+    "es": "Mi núcleo familiar está formado por mi esposa e hija, que viven en la misma dirección.",
+    "fr": "Mon ménage se compose de mon épouse et de ma fille, qui résident à la même adresse.",
+    "ro": "Gospodăria mea este formată din soție și fiică, care locuiesc la aceeași adresă."
+  },
+  "Книжежно. У віконці: vivo con mia moglie e mia figlia.": {
+    "en": "Bookish. At the window: vivo con mia moglie e mia figlia.",
+    "es": "Libresco. En el mostrador: vivo con mia moglie e mia figlia.",
+    "fr": "Scolaire. Au guichet : vivo con mia moglie e mia figlia.",
+    "ro": "Cărtăresc. La ghișeu: vivo con mia moglie e mia figlia."
+  },
+  "Ви живете самі чи з іншими членами сім’ї? Потрібні документи всіх.": {
+    "en": "Do you live alone or with other family members? Documents are needed for everyone.",
+    "es": "¿Vive solo o con otros familiares? Hacen falta documentos de todos.",
+    "fr": "Vivez-vous seul ou avec d'autres membres de la famille ? Il faut les documents de tous.",
+    "ro": "Locuiți singur sau cu alți membri ai familiei? Sunt necesare documentele tuturor."
+  },
+  "Так, є. Купив її в тютюновій крамниці сьогодні вранці. Ось.": {
+    "en": "Yes, I have it. I bought it at the tobacco shop this morning. Here.",
+    "es": "Sí, la tengo. La compré en el estanco esta mañana. Aquí.",
+    "fr": "Oui, je l'ai. Je l'ai achetée au bureau de tabac ce matin. Voici.",
+    "ro": "Da, am. Am cumpărat-o la magazinul de tutun dis dimineață. Iată."
+  },
+  "Марку кладете разом із бланком. Так заява може піти далі.": {
+    "en": "Place the stamp with the form. That way the application can move forward.",
+    "es": "Ponga la marca con el formulario. Así la solicitud puede seguir adelante.",
+    "fr": "Placez la marque avec le formulaire. Ainsi la demande peut avancer.",
+    "ro": "Puneți marca odată cu formularul. Așa cererea poate merge mai departe."
+  },
+  "Я забезпечив придбання телематичного знака передбаченого гербового збору.": {
+    "en": "I ensured acquisition of the telematic revenue stamp provided for by law.",
+    "es": "He garantizado la adquisición del signo telematico de tasa previsto por ley.",
+    "fr": "J'ai assuré l'acquisition du signe télématique de timbre prévu par la loi.",
+    "ro": "Am asigurat achiziția semnului telematic de timbru prevăzut de lege."
+  },
+  "Можна просто: sì, la marca da bollo ce l'ho.": {
+    "en": "You can simply say: sì, la marca da bollo ce l'ho.",
+    "es": "Puede decir simplemente: sì, la marca da bollo ce l'ho.",
+    "fr": "On peut dire simplement : sì, la marca da bollo ce l'ho.",
+    "ro": "Se poate spune simplu: sì, la marca da bollo ce l'ho."
+  },
+  "Заплачу потім, коли дасте мені резиденцію.": {
+    "en": "I'll pay later, when you give me residenza.",
+    "es": "Pagaré después, cuando me den la residenza.",
+    "fr": "Je paierai plus tard, quand vous me donnerez la residenza.",
+    "ro": "Plătesc mai târziu, când îmi dați residenza."
+  },
+  "Марку просять разом із заявою, не «після результату».": {
+    "en": "They ask for the stamp with the application, not \"after the result\".",
+    "es": "Piden la marca con la solicitud, no « después del resultado ».",
+    "fr": "On demande la marque avec la demande, pas « après le résultat ».",
+    "ro": "Cere marca odată cu cererea, nu « după rezultat »."
+  },
+  "Бракує ще марки da bollo на 16 євро. Вона у вас є?": {
+    "en": "You still need a 16-euro marca da bollo. Do you have it?",
+    "es": "Aún falta la marca da bollo de 16 euros. ¿La tiene?",
+    "fr": "Il manque encore la marca da bollo de 16 euros. L'avez-vous ?",
+    "ro": "Mai lipsește marca da bollo de 16 euro. O aveți?"
+  },
+  "Поставлю свій підпис у відведеному місці і залишатимусь у розпорядженні для можливих виправлень.": {
+    "en": "I will place my signature in the designated place and remain available for any corrections.",
+    "es": "Colocaré mi firma en el lugar indicado y permaneceré disponible para posibles correcciones.",
+    "fr": "Je apposerai ma signature à l'emplacement prévu et resterai disponible pour d'éventuelles corrections.",
+    "ro": "Voi pune semnătura în locul indicat și rămân disponibil pentru eventuale corecturi."
+  },
+  "Занадто канцелярія. Firmo qui — достатньо.": {
+    "en": "Too bureaucratic. Firmo qui is enough.",
+    "es": "Demasiada burocracia. Firmo qui basta.",
+    "fr": "Trop administratif. Firmo qui suffit.",
+    "ro": "Prea birocratic. Firmo qui e suficient."
+  },
+  "Не підпишу, якщо спочатку не дасте картку.": {
+    "en": "I won't sign unless you give me the card first.",
+    "es": "No firmo si antes no me dan la tarjeta.",
+    "fr": "Je ne signe pas tant que vous ne me donnez pas la carte.",
+    "ro": "Nu semnez dacă nu îmi dați mai întâi cardul."
+  },
+  "Спочатку бланк і підпис, потім ricevuta. Не торг.": {
+    "en": "First the form and signature, then the ricevuta. No bargaining.",
+    "es": "Primero formulario y firma, luego la ricevuta. Sin regateo.",
+    "fr": "D'abord le formulaire et la signature, puis la ricevuta. Pas de marchandage.",
+    "ro": "Mai întâi formularul și semnătura, apoi ricevuta. Fără negociere."
+  },
+  "Підписую тут. Якщо літера прізвища неясна, продиктую по літерах, якщо хочете.": {
+    "en": "I'll sign here. If a letter in my surname is unclear, I can spell it out if you like.",
+    "es": "Firmo aquí. Si alguna letra del apellido no está clara, puedo deletrearla si quiere.",
+    "fr": "Je signe ici. Si une lettre du nom n'est pas claire, je peux épeler si vous voulez.",
+    "ro": "Semnez aici. Dacă o literă din nume nu e clară, pot dicta pe litere dacă doriți."
+  },
+  "Підпис + готовність продиктувати прізвище. Типово для іноземного імені.": {
+    "en": "Signature plus willingness to spell your surname. Typical for a foreign name.",
+    "es": "Firma más disposición a deletrear el apellido. Típico para un nombre extranjero.",
+    "fr": "Signature plus volonté d'épeler le nom. Typique pour un nom étranger.",
+    "ro": "Semnătură plus disponibilitate de a dicta numele. Tipic pentru un nume străin."
+  },
+  "Добре. Унизу є підпис. Потім поверніть мені бланк. Перевірю дані з паспортом.": {
+    "en": "All right. Sign at the bottom. Then give the form back to me. I'll check the data against your passport.",
+    "es": "De acuerdo. Firme abajo. Luego devuélvame el formulario. Comprobaré los datos con el pasaporte.",
+    "fr": "Très bien. Signez en bas. Puis rendez-moi le formulaire. Je vérifierai les données avec le passeport.",
+    "ro": "Bine. Semnați jos. Apoi îmi returnați formularul. Verific datele cu pașaportul."
+  },
+  "Звісно, чекаю. Нікуди не поспішаю. Дякую.": {
+    "en": "Of course, I'll wait. I'm not in a rush. Thank you.",
+    "es": "Por supuesto, espero. No tengo prisa. Gracias.",
+    "fr": "Bien sûr, j'attends. Je ne suis pas pressé. Merci.",
+    "ro": "Desigur, aștept. Nu mă grăbesc. Mulțumesc."
+  },
+  "Стоїте біля вікна, не сперечаєтеся із чергою позаду.": {
+    "en": "You stay by the window and do not argue with the queue behind you.",
+    "es": "Se queda junto al mostrador y no discute con la cola detrás.",
+    "fr": "Vous restez au guichet et ne vous disputez pas avec la file derrière.",
+    "ro": "Stați la ghișeu și nu vă certați cu coada din spate."
+  },
+  "Швидше, у мене автобус. Зробіть мене першим.": {
+    "en": "Hurry up, I have a bus. Make me first.",
+    "es": "Deprisa, tengo un autobús. Atiéndame primero.",
+    "fr": "Dépêchez-vous, j'ai un bus. Passez-moi en premier.",
+    "ro": "Mai repede, am autobuz. Faceți-mă primul."
+  },
+  "Підганяти sportello — поганий тон і не прискорює систему.": {
+    "en": "Pressuring the sportello is bad manners and does not speed up the system.",
+    "es": "Presionar al sportello es mala educación y no acelera el sistema.",
+    "fr": "Presser le sportello est mal vu et n'accélère pas le système.",
+    "ro": "Presiunea la sportello e nepoliticoasă și nu grăbește sistemul."
+  },
+  "Терпляче чекатиму завершення комп’ютерного внесення даних.": {
+    "en": "I shall patiently await completion of the computer data entry.",
+    "es": "Esperaré pacientemente la finalización de la entrada de datos en el ordenador.",
+    "fr": "J'attendrai patiemment la fin de la saisie informatique.",
+    "ro": "Voi aștepta răbdător finalizarea introducerii datelor în calculator."
+  },
+  "Книжежно. Простіше: aspetto, grazie.": {
+    "en": "Bookish. Simpler: aspetto, grazie.",
+    "es": "Libresco. Más simple: aspetto, grazie.",
+    "fr": "Scolaire. Plus simple : aspetto, grazie.",
+    "ro": "Cărtăresc. Mai simplu: aspetto, grazie."
+  },
+  "Хвилинку, завантажую все. Система повільна. Залишайтеся тут, будь ласка. Потім поясню перевірки місцевої поліції.": {
+    "en": "One moment, I'm uploading everything. The system is slow. Please stay here. Then I'll explain the local police verification.",
+    "es": "Un momento, estoy cargando todo. El sistema va lento. Quédese aquí, por favor. Luego le explico la verificación de la policía local.",
+    "fr": "Un instant, je charge tout. Le système est lent. Restez ici, s'il vous plaît. Ensuite j'explique le contrôle de la police locale.",
+    "ro": "O clipă, încarc tot. Sistemul e lent. Rămâneți aici, vă rog. Apoi explic verificarea poliției locale."
+  },
+  "Щиро дякую за оперативний розгляд адміністративної процедури.": {
+    "en": "Thank you sincerely for the swift handling of the administrative procedure.",
+    "es": "Le agradez sinceramente la rápida tramitación del procedimiento administrativo.",
+    "fr": "Je vous remercie sincèrement pour le traitement rapide de la procédure administrative.",
+    "ro": "Vă mulțumesc sincer pentru soluționarea rapidă a procedurii administrative."
+  },
+  "Подяка ок, стиль надмірний. Grazie, arrivederci — норма комуни.": {
+    "en": "Thanks are fine, but the style is over the top. Grazie, arrivederci is the Comune norm.",
+    "es": "El agradecimiento vale, pero el estilo es excesivo. Grazie, arrivederci es la norma en el Comune.",
+    "fr": "Les remerciements vont, mais le style est excessif. Grazie, arrivederci, c'est la norme au Comune.",
+    "ro": "Mulțumirea e ok, dar stilul e exagerat. Grazie, arrivederci e norma la Comune."
+  },
+  "Ні, усе зрозуміло. Дякую, ви були люб’язні. До побачення.": {
+    "en": "No, everything is clear. Thank you, you were kind. Goodbye.",
+    "es": "No, todo claro. Gracias, fue amable. Adiós.",
+    "fr": "Non, tout est clair. Merci, vous avez été aimable. Au revoir.",
+    "ro": "Nu, totul e clar. Mulțumesc, ați fost amabil. La revedere."
+  },
+  "Квитанцію в папку, ввічливий вихід. Перевірка за адресою — звичайна частина residenza.": {
+    "en": "Receipt in the folder, polite exit. Address verification is a normal part of residenza.",
+    "es": "Recibo en la carpeta, salida cortés. La verificación de domicilio es parte normal de la residenza.",
+    "fr": "Reçu dans le dossier, sortie polie. Le contrôle à domicile fait partie normale de la residenza.",
+    "ro": "Chitanța în dosar, ieșire cuviincioasă. Verificarea la adresă e parte normală din residenza."
+  },
+  "Тоді чому мені одразу не дають посвідчення особи?": {
+    "en": "Then why don't they give me an ID card right away?",
+    "es": "¿Entonces por qué no me dan el documento de identidad enseguida?",
+    "fr": "Alors pourquoi ne me donnent-ils pas la carte d'identité tout de suite ?",
+    "ro": "Atunci de ce nu îmi dau cartea de identitate imediat?"
+  },
+  "Сьогодні ви подали dichiarazione. CIE — інша черга і інші терміни.": {
+    "en": "Today you submitted the dichiarazione. CIE is a different queue and different timelines.",
+    "es": "Hoy presentó la dichiarazione. La CIE es otra cola y otros plazos.",
+    "fr": "Aujourd'hui vous avez déposé la dichiarazione. La CIE, c'est une autre file et d'autres délais.",
+    "ro": "Astăzi ați depus dichiarazione. CIE e altă coadă și alte termene."
+  },
+  "Готово. Візьміть квитанцію. У наступні дні можуть прийти муніципальні поліцейські перевірити, що ви справді там живете. Інші запитання?": {
+    "en": "Done. Take your receipt. In the coming days municipal police may come to verify that you really live there. Any other questions?",
+    "es": "Listo. Tome el recibo. En los próximos días puede venir la policía municipal a comprobar que vive allí. ¿Otras preguntas?",
+    "fr": "C'est fait. Prenez le reçu. Dans les prochains jours, la police municipale peut venir vérifier que vous y habitez vraiment. D'autres questions ?",
+    "ro": "Gata. Luați chitanța. În zilele următoare poliția municipală poate veni să verifice că locuiți acolo. Alte întrebări?"
+  },
+  "Anagrafe: Boss Level": {
+    "en": "Anagrafe: Boss Level",
+    "es": "Anagrafe: Boss Level",
+    "fr": "Anagrafe : Boss Level",
+    "ro": "Anagrafe: Boss Level"
+  },
+  "Резиденцію успішно отримано!": {
+    "en": "Residence successfully obtained!",
+    "es": "¡Residencia obtenida con éxito!",
+    "fr": "Résidence obtenue avec succès !",
+    "ro": "Rezidența obținută cu succes!"
+  },
+  "Comune di Treviso, stamattina. Dal totem fino alla ricevuta. Niente traduzioni, niente spiegazioni.": {
+    "en": "Comune di Treviso, stamattina. Dal totem fino alla ricevuta. Niente traduzioni, niente spiegazioni.",
+    "es": "Comune di Treviso, stamattina. Dal totem fino alla ricevuta. Niente traduzioni, niente spiegazioni.",
+    "fr": "Comune di Treviso, stamattina. Dal totem fino alla ricevuta. Niente traduzioni, niente spiegazioni.",
+    "ro": "Comune di Treviso, stamattina. Dal totem fino alla ricevuta. Niente traduzioni, niente spiegazioni."
+  },
+  "Доброго дня, дякую. Йду до тотема.": {
+    "en": "Good morning, thank you. I'm going to the totem.",
+    "es": "Buenos días, gracias. Voy al totem.",
+    "fr": "Bonjour, merci. Je vais au totem.",
+    "ro": "Bună ziua, mulțumesc. Merg la totem."
+  },
+  "Обираю пункт Anagrafe / residenza.": {
+    "en": "I select Anagrafe / residenza.",
+    "es": "Elijo Anagrafe / residenza.",
+    "fr": "Je choisis Anagrafe / residenza.",
+    "ro": "Aleg Anagrafe / residenza."
+  },
+  "Добре, чекаю тут з талончиком.": {
+    "en": "All right, I'll wait here with my ticket.",
+    "es": "De acuerdo, espero aquí con el ticket.",
+    "fr": "Très bien, j'attends ici avec mon ticket.",
+    "ro": "Bine, aștept aici cu bonul."
+  },
+  "Це мій номер. Йду до віконця 4.": {
+    "en": "That is my number. I'm going to counter 4.",
+    "es": "Es mi número. Voy al mostrador 4.",
+    "fr": "C'est mon numéro. Je vais au guichet 4.",
+    "ro": "Acesta e numărul meu. Merg la ghișeul 4."
+  },
+  "Ой, перепрошую. Йду до віконця 4, дякую.": {
+    "en": "Oh, sorry. I'm going to counter 4, thank you.",
+    "es": "Ay, disculpe. Voy al mostrador 4, gracias.",
+    "fr": "Oh, pardon. Je vais au guichet 4, merci.",
+    "ro": "Oh, scuze. Merg la ghișeul 4, mulțumesc."
+  },
+  "Доброго дня. Так, номер 37. Я хотів би подати декларацію про місце проживання.": {
+    "en": "Good morning. Yes, number 37. I would like to submit a declaration of residence.",
+    "es": "Buenos días. Sí, número 37. Quisiera presentar una declaración de residencia.",
+    "fr": "Bonjour. Oui, numéro 37. Je voudrais déposer une déclaration de domicile.",
+    "ro": "Bună ziua. Da, numărul 37. Aș dori să depun o declarație de domiciliu."
+  },
+  "Ось, усе в оригіналі: паспорт, код фіскале, пермессо і договір.": {
+    "en": "Here, everything in original: passport, codice fiscale, permesso, and contract.",
+    "es": "Aquí, todo en original: pasaporte, codice fiscale, permesso y contrato.",
+    "fr": "Voici, tout en original : passeport, codice fiscale, permesso et contrat.",
+    "ro": "Iată, tot în original: pașaport, codice fiscale, permesso și contract."
+  },
+  "Заповню бланк тут. Марка da bollo в мене є, ось.": {
+    "en": "I'll fill out the form here. I have the marca da bollo, here.",
+    "es": "Relleno el formulario aquí. Tengo la marca da bollo, aquí.",
+    "fr": "Je remplis le formulaire ici. J'ai la marca da bollo, voici.",
+    "ro": "Completez formularul aici. Am marca da bollo, iată."
+  },
+  "Живу на via Roma дванадцять, квартира три, другий поверх. Живу з дружиною і донькою.": {
+    "en": "I live at via Roma twelve, apartment three, second floor. I live with my wife and daughter.",
+    "es": "Vivo en via Roma doce, interno tres, segundo piso. Vivo con mi esposa e hija.",
+    "fr": "J'habite via Roma douze, interno trois, deuxième étage. Je vis avec mon épouse et ma fille.",
+    "ro": "Locuiesc în via Roma doisprezece, interno trei, etajul doi. Locuiesc cu soția și fiica mea."
+  },
+  "Підписую тут. Чекаю, дякую.": {
+    "en": "I'll sign here. Waiting, thank you.",
+    "es": "Firmo aquí. Espero, gracias.",
+    "fr": "Je signe ici. J'attends, merci.",
+    "ro": "Semnez aici. Aștept, mulțumesc."
+  },
+  "Добре, чекаю. Дякую за інформацію.": {
+    "en": "All right, I'll wait. Thank you for the information.",
+    "es": "De acuerdo, espero. Gracias por la información.",
+    "fr": "Très bien, j'attends. Merci pour l'information.",
+    "ro": "Bine, aștept. Mulțumesc pentru informații."
+  },
+  "Дякую, кладу в папку. До побачення, гарного дня.": {
+    "en": "Thank you, I'll put it in the folder. Goodbye, have a nice day.",
+    "es": "Gracias, lo guardo en la carpeta. Adiós, buen día.",
+    "fr": "Merci, je mets dans le dossier. Au revoir, bonne journée.",
+    "ro": "Mulțumesc, pun în dosar. La revedere, o zi bună."
+  },
+  "Де віконце? Немає часу на номери.": {
+    "en": "Where is the counter? No time for numbers.",
+    "es": "¿Dónde está el mostrador? No tengo tiempo para números.",
+    "fr": "Où est le guichet ? Pas le temps pour les numéros.",
+    "ro": "Unde e ghișeul? N-am timp de numere."
+  },
+  "Дякую за вказівку щодо апарата видачі талонів.": {
+    "en": "Thank you for the indication regarding the ticket machine.",
+    "es": "Gracias por la indicación sobre el aparato de tickets.",
+    "fr": "Merci pour l'indication concernant la machine à tickets.",
+    "ro": "Mulțumesc pentru indicația privind aparatul de bonuri."
+  },
+  "Доброго дня. Для Anagrafe тотем ліворуч. Потім чекайте номер.": {
+    "en": "Good morning. For Anagrafe the totem is on the left. Then wait for your number.",
+    "es": "Buenos días. Para Anagrafe el totem está a la izquierda. Luego espere su número.",
+    "fr": "Bonjour. Pour Anagrafe, le totem est à gauche. Puis attendez votre numéro.",
+    "ro": "Bună ziua. Pentru Anagrafe totemul e în stânga. Apoi așteptați numărul."
+  },
+  "Обираю пункт, що стосується анаграфічної реєстрації.": {
+    "en": "I select the option relating to registry registration.",
+    "es": "Elijo la opción relativa al registro anagráfico.",
+    "fr": "Je choisis l'option relative à l'inscription anagraphique.",
+    "ro": "Aleg opțiunea privind înregistrarea anagrafică."
+  },
+  "Посвідчення особи швидше.": {
+    "en": "ID card will be faster.",
+    "es": "El documento de identidad será más rápido.",
+    "fr": "La carte d'identité sera plus rapide.",
+    "ro": "Cartea de identitate e mai rapidă."
+  },
+  "1 Посвідчення особи  2 Anagrafe / резиденція  3 Цивільний стан  4 Платежі": {
+    "en": "1 ID card  2 Anagrafe / residenza  3 Civil status  4 Payments",
+    "es": "1 Documento de identidad  2 Anagrafe / residenza  3 Estado civil  4 Pagos",
+    "fr": "1 Carte d'identité  2 Anagrafe / residenza  3 État civil  4 Paiements",
+    "ro": "1 Carte de identitate  2 Anagrafe / residenza  3 Stare civilă  4 Plăți"
+  },
+  "Запитаю у віконця, чи можу пройти, там є місце.": {
+    "en": "I'll ask at a counter if I can go through, there is space.",
+    "es": "Preguntaré en un mostrador si puedo pasar, hay sitio.",
+    "fr": "Je demanderai à un guichet si je peux passer, il y a de la place.",
+    "ro": "Întreb la un ghișeu dacă pot intra, e loc."
+  },
+  "Дотримуватимуся порядку електронного виклику.": {
+    "en": "I will comply with the electronic calling order.",
+    "es": "Cumpliré el orden de llamada electrónico.",
+    "fr": "Je respecterai l'ordre d'appel électronique.",
+    "ro": "Voi respecta ordinea de apel electronic."
+  },
+  "Добре, чекаю тут із талончиком.": {
+    "en": "All right, I'll wait here with my ticket.",
+    "es": "De acuerdo, espero aquí con el ticket.",
+    "fr": "Très bien, j'attends ici avec mon ticket.",
+    "ro": "Bine, aștept aici cu bonul."
+  },
+  "Сідайте. Номер з’явиться на табло. Не підходьте до віконця раніше.": {
+    "en": "Have a seat. Your number will appear on the board. Do not go to the counter early.",
+    "es": "Siéntese. Su número saldrá en el tabellone. No vaya al mostrador antes.",
+    "fr": "Asseyez-vous. Votre numéro s'affichera sur le tabellone. N'allez pas au guichet trop tôt.",
+    "ro": "Luați loc. Numărul va apărea pe tabellone. Nu mergeți la ghișeu mai devreme."
+  },
+  "Піду до віконця 2, там менше людей.": {
+    "en": "I'll go to counter 2, there are fewer people.",
+    "es": "Iré al mostrador 2, hay menos gente.",
+    "fr": "Je vais au guichet 2, il y a moins de monde.",
+    "ro": "Merg la ghișeul 2, sunt mai puțini oameni."
+  },
+  "Прямую до стійки, що відповідає світловому оголошенню.": {
+    "en": "I am proceeding to the desk that matches the lighted announcement.",
+    "es": "Me dirijo al mostrador que corresponde al anuncio luminoso.",
+    "fr": "Je me dirige vers le guichet correspondant à l'annonce lumineuse.",
+    "ro": "Mă îndrept către ghișeul care corespunde anunțului luminos."
+  },
+  "Ой, дуже перепрошую. Йду до віконця 4, дякую.": {
+    "en": "Oh, I'm very sorry. I'm going to counter 4, thank you.",
+    "es": "Ay, mil disculpas. Voy al mostrador 4, gracias.",
+    "fr": "Oh, toutes mes excuses. Je vais au guichet 4, merci.",
+    "ro": "Oh, îmi pare foarte rău. Merg la ghișeul 4, mulțumesc."
+  },
+  "Прошу вибачення за непорозуміння і прямую до вказаного віконця.": {
+    "en": "I apologize for the misunderstanding and am proceeding to the indicated counter.",
+    "es": "Pido disculpas por el malentendido y me dirijo al mostrador indicado.",
+    "fr": "Je vous prie de m'excuser pour le malentendu et me rends au guichet indiqué.",
+    "ro": "Îmi cer scuze pentru neînțelegere și merg la ghișeul indicat."
+  },
+  "Це та сама комуна, можете зробити ви.": {
+    "en": "It is the same Comune, you can do it.",
+    "es": "Es el mismo Comune, pueden hacerlo ustedes.",
+    "fr": "C'est le même Comune, vous pouvez le faire.",
+    "ro": "E același Comune, puteți face voi."
+  },
+  "Це віконце для посвідчення особи. Резиденція — віконце 4.": {
+    "en": "This counter is for ID cards. Residenza is counter 4.",
+    "es": "Este mostrador es para documentos de identidad. Residenza es el mostrador 4.",
+    "fr": "Ce guichet est pour la carte d'identité. Residenza, c'est le guichet 4.",
+    "ro": "Acest ghișeu e pentru cartea de identitate. Residenza e ghișeul 4."
+  },
+  "Доброго дня. Подаю вам талон черги і заяву на резиденцію.": {
+    "en": "Good morning. I am submitting my queue ticket and residence application.",
+    "es": "Buenos días. Le entrego el ticket de cola y la solicitud de residencia.",
+    "fr": "Bonjour. Je vous remets mon ticket et ma demande de résidence.",
+    "ro": "Bună ziua. Vă predau bonul de coadă și cererea de rezidență."
+  },
+  "Привіт. Хочу резиденцію, і швидко.": {
+    "en": "Hi. I want residenza, and fast.",
+    "es": "Hola. Quiero residenza, y rápido.",
+    "fr": "Salut. Je veux la residenza, et vite.",
+    "ro": "Salut. Vreau residenza, și repede."
+  },
+  "Доброго дня, слухаю. У вас є номер?": {
+    "en": "Good morning, I'm listening. Do you have a number?",
+    "es": "Buenos días, le escucho. ¿Tiene número?",
+    "fr": "Bonjour, je vous écoute. Avez-vous un numéro ?",
+    "ro": "Bună ziua, vă ascult. Aveți număr?"
+  },
+  "Фото в телефоні. Оригінали принесу потім.": {
+    "en": "Photos on my phone. I'll bring the originals later.",
+    "es": "Fotos en el móvil. Traeré los originales después.",
+    "fr": "Photos sur le téléphone. J'apporterai les originaux plus tard.",
+    "ro": "Poze pe telefon. Aduc originalele mai târziu."
+  },
+  "Здаю всю документацію в оригіналі, як вимагається.": {
+    "en": "I am handing over all documentation in original, as required.",
+    "es": "Entrego toda la documentación en original, como se exige.",
+    "fr": "Je remets toute la documentation en original, comme requis.",
+    "ro": "Predau toată documentația în original, cum se cere."
+  },
+  "Потрібні документи: паспорт, код фіскале, пермессо, договір оренди.": {
+    "en": "Required documents: passport, codice fiscale, permesso, rental contract.",
+    "es": "Documentos necesarios: pasaporte, codice fiscale, permesso, contrato de alquiler.",
+    "fr": "Documents requis : passeport, codice fiscale, permesso, contrat de location.",
+    "ro": "Documente necesare: pașaport, codice fiscale, permesso, contract de închiriere."
+  },
+  "Негайно забезпечу заповнення і здачу гербової марки.": {
+    "en": "I will immediately provide completion and submission of the revenue stamp.",
+    "es": "Proporcionaré de inmediato el cumplimentado y la entrega de la marca fiscal.",
+    "fr": "Je fournirai immédiatement le remplissage et la remise du timbre fiscal.",
+    "ro": "Voi furniza imediat completarea și predarea timbrului fiscal."
+  },
+  "Зробіть ви. Я підпишу потім, якщо мені вигідно.": {
+    "en": "You do it. I'll sign later if it suits me.",
+    "es": "Háganlo ustedes. Firmaré después si me conviene.",
+    "fr": "Faites-le vous. Je signerai plus tard si cela m'arrange.",
+    "ro": "Faceți voi. Semnez mai târziu dacă îmi convine."
+  },
+  "Бланка декларації немає. Заповнюєте зараз. А марка da bollo на 16 євро?": {
+    "en": "There is no declaration form. Fill it out now. And the 16-euro marca da bollo?",
+    "es": "No hay formulario de declaración. Rellénelo ahora. ¿Y la marca da bollo de 16 euros?",
+    "fr": "Il n'y a pas de formulaire de déclaration. Remplissez-le maintenant. Et la marca da bollo de 16 euros ?",
+    "ro": "Nu există formular de declarație. Completați acum. Și marca da bollo de 16 euro?"
+  },
+  "Це якась вулиця в центрі. Деталей не пам’ятаю.": {
+    "en": "It is some street in the center. I do not remember the details.",
+    "es": "Es alguna calle del centro. No recuerdo los detalles.",
+    "fr": "C'est une rue du centre. Je ne me souviens pas des détails.",
+    "ro": "E o stradă din centru. Nu îmi amintesc detaliile."
+  },
+  "Житло розташоване на via Roma 12, внутрішня 3, другий поверх, із сім’єю, що проживає разом.": {
+    "en": "The home is at via Roma 12, interno 3, second floor, with the family living together.",
+    "es": "La vivienda está en via Roma 12, interno 3, segundo piso, con la familia que vive junta.",
+    "fr": "Le logement est via Roma 12, interno 3, deuxième étage, avec la famille qui vit ensemble.",
+    "ro": "Locuința e în via Roma 12, interno 3, etajul doi, cu familia care locuiește împreună."
+  },
+  "Який сімейний склад? Назвіть повну адресу, внутрішній номер і поверх.": {
+    "en": "What is your household composition? Give the full address, interno number, and floor.",
+    "es": "¿Cuál es su núcleo familiar? Indique la dirección completa, interno y piso.",
+    "fr": "Quelle est votre composition familiale ? Donnez l'adresse complète, interno et étage.",
+    "ro": "Care e compoziția familiei? Spuneți adresa completă, interno și etajul."
+  },
+  "Повернуся за годину, зателефонуйте на мобільний.": {
+    "en": "I'll come back in an hour, call my mobile.",
+    "es": "Vuelvo en una hora, llame a mi móvil.",
+    "fr": "Je reviens dans une heure, appelez mon portable.",
+    "ro": "Revin peste o oră, sunați-mi pe mobil."
+  },
+  "Ставлю підпис і чекаю завантаження системи.": {
+    "en": "I'm signing and waiting for the system to load.",
+    "es": "Firmo y espero a que cargue el sistema.",
+    "fr": "Je signe et j'attends le chargement du système.",
+    "ro": "Semnez și aștept încărcarea sistemului."
+  },
+  "Підпишіть унизу. Потім зачекайте хвилину: завантажую дані.": {
+    "en": "Sign at the bottom. Then wait a minute: I'm uploading the data.",
+    "es": "Firme abajo. Luego espere un minuto: estoy cargando los datos.",
+    "fr": "Signez en bas. Puis attendez une minute : je charge les données.",
+    "ro": "Semnați jos. Apoi așteptați un minut: încarc datele."
+  },
+  "Беру до відома можливу перевірку місцевої поліції за місцем проживання.": {
+    "en": "I take note of the possible local police verification at the place of residence.",
+    "es": "Tomo nota de la posible verificación de la policía local en el domicilio.",
+    "fr": "Je prends acte de l'éventuel contrôle de la police locale au domicile.",
+    "ro": "Iau la cunoștință posibila verificare a poliției locale la domiciliu."
+  },
+  "Поліція вдома? Тоді я нічого не підписую.": {
+    "en": "Police at home? Then I'm not signing anything.",
+    "es": "¿Policía en casa? Entonces no firmo nada.",
+    "fr": "La police à domicile ? Alors je ne signe rien.",
+    "ro": "Poliție acasă? Atunci nu semnez nimic."
+  },
+  "Сьогодні система повільна. Залишайтеся тут. Потім може бути перевірка муніципальної поліції вдома в наступні дні.": {
+    "en": "The system is slow today. Please stay here. There may be a municipal police check at home in the coming days.",
+    "es": "Hoy el sistema va lento. Quédese aquí. Puede haber control de policía municipal en casa en los próximos días.",
+    "fr": "Aujourd'hui le système est lent. Restez ici. Un contrôle de la police municipale à domicile est possible dans les prochains jours.",
+    "ro": "Astăzi sistemul e lent. Rămâneți aici. Poate fi verificare a poliției municipale acasă în zilele următoare."
+  },
+  "Дякую за видачу квитанції і бажаю гарного продовження дня.": {
+    "en": "Thank you for issuing the receipt and I wish you a good rest of the day.",
+    "es": "Gracias por la entrega del recibo y le deseo un buen resto del día.",
+    "fr": "Merci pour la délivrance du reçu et bonne fin de journée.",
+    "ro": "Mulțumesc pentru eliberarea chitanței și vă doresc o zi bună în continuare."
+  },
+  "Ця картка — остаточна резиденція, так? Тоді дайте ще й посвідчення особи.": {
+    "en": "This card is the final residenza, right? Then give me an ID card too.",
+    "es": "Esta tarjeta es la residenza definitiva, ¿no? Entonces déme también el documento de identidad.",
+    "fr": "Cette carte, c'est la residenza définitive, non ? Alors donnez-moi aussi la carte d'identité.",
+    "ro": "Acest card e residenza definitivă, da? Atunci dați-mi și cartea de identitate."
+  },
+  "Готово. Ось квитанція. Збережіть її. Гарного дня.": {
+    "en": "Done. Here is your receipt. Keep it. Have a nice day.",
+    "es": "Listo. Aquí tiene el recibo. Guárdelo. Que tenga un buen día.",
+    "fr": "C'est fait. Voici le reçu. Conservez-le. Bonne journée.",
+    "ro": "Gata. Iată chitanța. Păstrați-o. O zi bună."
+  },
+  "ASL i Tessera Sanitaria: Реєстрація в медичній системі": {
+    "en": "ASL and Tessera Sanitaria: Registration in the healthcare system",
+    "es": "ASL y Tessera Sanitaria: Registro en el sistema sanitario",
+    "fr": "ASL et Tessera Sanitaria : Inscription au système de santé",
+    "ro": "ASL și Tessera Sanitaria: Înregistrare în sistemul medical"
+  },
+  "Immersion & Vocabulary": {
+    "en": "Immersion & Vocabulary",
+    "es": "Inmersión y vocabulario",
+    "fr": "Immersion et vocabulaire",
+    "ro": "Imersiune și vocabular"
+  },
+  "Лаура нещодавно переїхала до Падуї. Після оформлення резиденції в Anagrafe вона робить наступний важливий крок — іде до ASL (Azienda Sanitaria Locale), щоб зареєструватися в SSN (Servizio Sanitario Nazionale), отримати Tessera Sanitaria та обрати сімейного лікаря (Medico di base). З собою вона має: passaporto, permesso di soggiorno, codice fiscale та dichiarazione di residenza.": {
+    "en": "Laura recently moved to Padua. After completing residenza at the Anagrafe, she takes the next important step — she goes to the ASL (Azienda Sanitaria Locale) to register with the SSN (Servizio Sanitario Nazionale), get a Tessera Sanitaria, and choose a family doctor (Medico di base). She has with her: passaporto, permesso di soggiorno, codice fiscale, and dichiarazione di residenza.",
+    "es": "Laura se mudó recientemente a Padua. Tras la residenza en Anagrafe da el siguiente paso importante: va a la ASL (Azienda Sanitaria Locale) para inscribirse en el SSN (Servizio Sanitario Nazionale), obtener la Tessera Sanitaria y elegir médico de cabecera (Medico di base). Lleva: passaporto, permesso di soggiorno, codice fiscale y dichiarazione di residenza.",
+    "fr": "Laura vient d'emménager à Padoue. Après la residenza à l'Anagrafe, elle fait l'étape suivante : elle va à l'ASL (Azienda Sanitaria Locale) pour s'inscrire au SSN (Servizio Sanitario Nazionale), obtenir la Tessera Sanitaria et choisir un médecin de famille (Medico di base). Elle a avec elle : passaporto, permesso di soggiorno, codice fiscale et dichiarazione di residenza.",
+    "ro": "Laura s-a mutat recent la Padova. După residenza la Anagrafe, face pasul următor — merge la ASL (Azienda Sanitaria Locale) pentru înscriere în SSN (Servizio Sanitario Nazionale), Tessera Sanitaria și alegerea medicului de familie (Medico di base). Are la ea: passaporto, permesso di soggiorno, codice fiscale și dichiarazione di residenza."
+  },
+  "Мені потрібно зареєструватися в Національній службі охорони здоров'я.": {
+    "en": "I need to register with the National Health Service.",
+    "es": "Necesito inscribirme en el Servicio Sanitario Nacional.",
+    "fr": "Je dois m'inscrire au Service Sanitaire National.",
+    "ro": "Trebuie să mă înscriu în Serviciul Național de Sănătate."
+  },
+  "Мені потрібно обрати сімейного лікаря.": {
+    "en": "I need to choose a family doctor.",
+    "es": "Necesito elegir un médico de cabecera.",
+    "fr": "Je dois choisir un médecin de famille.",
+    "ro": "Trebuie să aleg un medic de familie."
+  },
+  "Це близько до мого дому.": {
+    "en": "It is close to my home.",
+    "es": "Está cerca de mi casa.",
+    "fr": "C'est près de chez moi.",
+    "ro": "E aproape de casa mea."
+  },
+  "Куди мені звертатися у разі невідкладної ситуації?": {
+    "en": "Where should I go in an emergency?",
+    "es": "¿A dónde debo acudir en caso de urgencia?",
+    "fr": "Où dois-je m'adresser en cas d'urgence ?",
+    "ro": "Unde mă adresez în caz de urgență?"
+  },
+  "Паспорт / посвідчення особи": {
+    "en": "Passport / ID card",
+    "es": "Pasaporte / documento de identidad",
+    "fr": "Passeport / carte d'identité",
+    "ro": "Pașaport / carte de identitate"
+  },
+  "Дозвіл на проживання": {
+    "en": "Residence permit",
+    "es": "Permiso de residencia",
+    "fr": "Permis de séjour",
+    "ro": "Permis de ședere"
+  },
+  "Податковий код": {
+    "en": "Tax code",
+    "es": "Código fiscal",
+    "fr": "Code fiscal",
+    "ro": "Cod fiscal"
+  },
+  "Декларація про місце проживання": {
+    "en": "Declaration of residence",
+    "es": "Declaración de residencia",
+    "fr": "Déclaration de domicile",
+    "ro": "Declarație de domiciliu"
+  },
+  "Медична термінологія та право на допомогу": {
+    "en": "Medical terminology and entitlement to care",
+    "es": "Terminología médica y derecho a la asistencia",
+    "fr": "Terminologie médicale et droit aux soins",
+    "ro": "Terminologie medicală și dreptul la asistență"
+  },
+  "Використання виразу 'Avere diritto a...' (Ha diritto all'iscrizione).": {
+    "en": "Using the expression 'Avere diritto a...' (Ha diritto all'iscrizione).",
+    "es": "Uso de la expresión « Avere diritto a... » (Ha diritto all'iscrizione).",
+    "fr": "Usage de l'expression « Avere diritto a... » (Ha diritto all'iscrizione).",
+    "ro": "Folosirea expresiei « Avere diritto a... » (Ha diritto all'iscrizione)."
+  },
+  "Ви маєте право на безкоштовну реєстрацію.": {
+    "en": "You are entitled to free registration.",
+    "es": "Tiene derecho a inscripción gratuita.",
+    "fr": "Vous avez droit à une inscription gratuite.",
+    "ro": "Aveți dreptul la înregistrare gratuită."
+  },
+  "Я маю право на сімейного лікаря.": {
+    "en": "I am entitled to a family doctor.",
+    "es": "Tengo derecho a un médico de cabecera.",
+    "fr": "J'ai droit à un médecin de famille.",
+    "ro": "Am dreptul la un medic de familie."
+  },
+  "Вказування відстані: 'vicino a...' (близько до...).": {
+    "en": "Expressing distance: 'vicino a...' (close to...).",
+    "es": "Indicar distancia: « vicino a... » (cerca de...).",
+    "fr": "Indiquer la distance : « vicino a... » (près de...).",
+    "ro": "Indicarea distanței: « vicino a... » (aproape de...)."
+  },
+  "Лікар близько від мого дому.": {
+    "en": "A doctor close to my home.",
+    "es": "Un médico cerca de mi casa.",
+    "fr": "Un médecin près de chez moi.",
+    "ro": "Un medic aproape de casa mea."
+  },
+  "Офіс близько від комуни.": {
+    "en": "An office close to the Comune.",
+    "es": "Una oficina cerca del Comune.",
+    "fr": "Un bureau près du Comune.",
+    "ro": "Un birou aproape de Comune."
+  },
+  "Реєстрація в SSN за наявності дозволу на проживання (Permesso di soggiorno) є абсолютно безкоштовною. Звертаючись до працівників ASL, завжди вживайте ввічливу форму 'Lei' та вітайтеся 'Buongiorno'.": {
+    "en": "Registration with the SSN when you have a permesso di soggiorno is completely free. When speaking to ASL staff, always use the polite form Lei and greet with Buongiorno.",
+    "es": "La inscripción en el SSN con permesso di soggiorno es totalmente gratuita. Con el personal ASL use siempre Lei y salude con Buongiorno.",
+    "fr": "L'inscription au SSN avec un permesso di soggiorno est entièrement gratuite. Avec le personnel ASL, utilisez toujours Lei et dites Buongiorno.",
+    "ro": "Înscrierea în SSN cu permesso di soggiorno este complet gratuită. La ASL folosiți mereu Lei și spuneți Buongiorno."
+  },
+  "Візит до ASL: Оформлення картки та вибір лікаря": {
+    "en": "Visit to the ASL: Getting your card and choosing a doctor",
+    "es": "Visita a la ASL: tramitar la tarjeta y elegir médico",
+    "fr": "Visite à l'ASL : obtenir la carte et choisir un médecin",
+    "ro": "Vizită la ASL: eliberarea cardului și alegerea medicului"
+  },
+  "Interactive Dialogue": {
+    "en": "Interactive Dialogue",
+    "es": "Diálogo interactivo",
+    "fr": "Dialogue interactif",
+    "ro": "Dialog interactiv"
+  },
+  "Лаура заходить у відділення ASL і підходить до віконця (sportello). Працівниця перевіряє її документи та підтверджує право на безкоштовну реєстрацію в SSN.": {
+    "en": "Laura enters the ASL office and goes to the sportello. The clerk checks her documents and confirms her entitlement to free SSN registration.",
+    "es": "Laura entra en la ASL y se acerca al sportello. La empleada revisa sus documentos y confirma el derecho a inscripción gratuita en el SSN.",
+    "fr": "Laura entre à l'ASL et s'approche du sportello. L'employée vérifie ses documents et confirme le droit à une inscription gratuite au SSN.",
+    "ro": "Laura intră la ASL și merge la sportello. Funcionara verifică documentele și confirmă dreptul la înregistrare gratuită în SSN."
+  },
+  "Доброго дня, вибачте. Мені потрібно зареєструватися в Національній службі охорони здоров'я. Це правильне віконце?": {
+    "en": "Good morning, excuse me. I need to register with the National Health Service. Is this the right counter?",
+    "es": "Buenos días, disculpe. Necesito inscribirme en el Servicio Sanitario Nacional. ¿Es este el mostrador correcto?",
+    "fr": "Bonjour, pardon. Je dois m'inscrire au Service Sanitaire National. Est-ce le bon guichet ?",
+    "ro": "Bună ziua, scuzați. Trebuie să mă înscriu în Serviciul Național de Sănătate. E ghișeul corect?"
+  },
+  "Ось паспорт, дозвіл на проживання, податковий код і декларація про місце проживання.": {
+    "en": "Here are my passport, residence permit, tax code, and declaration of residence.",
+    "es": "Aquí están mi pasaporte, permiso de residencia, código fiscal y declaración de residencia.",
+    "fr": "Voici mon passeport, permis de séjour, code fiscal et déclaration de domicile.",
+    "ro": "Iată pașaportul, permisul de ședere, codul fiscal și declarația de domiciliu."
+  },
+  "Ні, ще ні. Як я можу його обрати? Можу подивитися список доступних лікарів?": {
+    "en": "No, not yet. How can I choose one? Can I see the list of available doctors?",
+    "es": "No, aún no. ¿Cómo puedo elegirlo? ¿Puedo ver la lista de médicos disponibles?",
+    "fr": "Non, pas encore. Comment puis-je le choisir ? Puis-je voir la liste des médecins disponibles ?",
+    "ro": "Nu, încă nu. Cum pot alege? Pot vedea lista medicilor disponibili?"
+  },
+  "Так, мені здається зручним. Він близько від дому, обираю цього.": {
+    "en": "Yes, that seems convenient. He is close to home — I'll choose him.",
+    "es": "Sí, me parece práctico. Está cerca de casa, elijo a este.",
+    "fr": "Oui, cela me convient. Il est près de chez moi, je le choisis.",
+    "ro": "Da, mi se pare practic. E aproape de casă, îl aleg pe acesta."
+  },
+  "Дякую! А якщо в мене термінова проблема ввечері або у вихідні?": {
+    "en": "Thank you! What if I have an urgent problem in the evening or on a weekend?",
+    "es": "¡Gracias! ¿Y si tengo un problema urgente por la tarde o en fin de semana?",
+    "fr": "Merci ! Et si j'ai un problème urgent le soir ou le week-end ?",
+    "ro": "Mulțumesc! Dacă am o problemă urgentă seara sau în weekend?"
+  },
+  "Щиро дякую за пояснення! Гарного дня.": {
+    "en": "Thank you very much for the explanation! Have a nice day.",
+    "es": "¡Muchas gracias por la explicación! Que tenga un buen día.",
+    "fr": "Merci beaucoup pour les explications ! Bonne journée.",
+    "ro": "Mulțumesc mult pentru explicații! O zi bună."
+  },
+  "Чудово! Дуже ввічливий та чіткий початок розмови.": {
+    "en": "Great! A very polite and clear start to the conversation.",
+    "es": "¡Genial! Un comienzo muy cortés y claro.",
+    "fr": "Parfait ! Un début de conversation très poli et clair.",
+    "ro": "Excelent! Un început foarte politicos și clar."
+  },
+  "Вибачте, я тут для продовження паспорта. Де черга?": {
+    "en": "Excuse me, I'm here to renew my passport. Where is the queue?",
+    "es": "Disculpe, estoy aquí para renovar el pasaporte. ¿Dónde está la cola?",
+    "fr": "Pardon, je suis ici pour renouveler mon passeport. Où est la file ?",
+    "ro": "Scuzați, sunt aici pentru pașaport. Unde e coada?"
+  },
+  "Паспорт тут не продовжують. В ASL оформлюють реєстрацію в SSN і сімейного лікаря.": {
+    "en": "They do not renew passports here. At the ASL you register for the SSN and choose a family doctor.",
+    "es": "Aquí no renuevan pasaportes. En la ASL se tramita la inscripción al SSN y el médico de cabecera.",
+    "fr": "On ne renouvelle pas les passeports ici. À l'ASL, on s'inscrit au SSN et on choisit un médecin de famille.",
+    "ro": "Aici nu reînnoiesc pașapoarte. La ASL se face înscrierea în SSN și alegerea medicului de familie."
+  },
+  "Привіт, хочу tessera sanitaria негайно.": {
+    "en": "Hi, I want a tessera sanitaria right now.",
+    "es": "Hola, quiero la tessera sanitaria ya.",
+    "fr": "Salut, je veux la tessera sanitaria tout de suite.",
+    "ro": "Salut, vreau tessera sanitaria acum."
+  },
+  "Занадто грубо. Завжди кажемо 'Buongiorno' та використовуємо 'Devo...' або 'Vorrei...'.": {
+    "en": "Too rude. Always say Buongiorno and use Devo... or Vorrei...",
+    "es": "Demasiado brusco. Siempre diga Buongiorno y use Devo... o Vorrei...",
+    "fr": "Trop direct. Dites toujours Buongiorno et utilisez Devo... ou Vorrei...",
+    "ro": "Prea direct. Spuneți mereu Buongiorno și folosiți Devo... sau Vorrei..."
+  },
+  "Доброго дня. Скажіть, чим можу допомогти?": {
+    "en": "Good morning. How can I help you?",
+    "es": "Buenos días. ¿En qué puedo ayudarle?",
+    "fr": "Bonjour. Que puis-je faire pour vous ?",
+    "ro": "Bună ziua. Cu ce vă pot ajuta?"
+  },
+  "У мене лише посвідчення особи.": {
+    "en": "I only have an ID card.",
+    "es": "Solo tengo documento de identidad.",
+    "fr": "Je n'ai que la carte d'identité.",
+    "ro": "Am doar cartea de identitate."
+  },
+  "Неповний комплект. Для первинної реєстрації в ASL обов'язково потрібен також Permesso di Soggiorno та Codice Fiscale.": {
+    "en": "Incomplete set. For first-time ASL registration you also need Permesso di Soggiorno and Codice Fiscale.",
+    "es": "Expediente incompleto. Para el primer registro en ASL hacen falta también Permesso di Soggiorno y Codice Fiscale.",
+    "fr": "Dossier incomplet. Pour une première inscription ASL, il faut aussi Permesso di Soggiorno et Codice Fiscale.",
+    "ro": "Dosar incomplet. Pentru prima înregistrare ASL trebuie și Permesso di Soggiorno și Codice Fiscale."
+  },
+  "Ідеально! Ви надали повний необхідний пакет документів.": {
+    "en": "Perfect! You provided the full required document package.",
+    "es": "¡Perfecto! Ha presentado el paquete completo de documentos.",
+    "fr": "Parfait ! Vous avez fourni le dossier complet requis.",
+    "ro": "Perfect! Ați prezentat pachetul complet de documente."
+  },
+  "Документи вдома, надішлю потім електронною поштою.": {
+    "en": "Documents are at home; I'll email them later.",
+    "es": "Los documentos están en casa; los enviaré por correo después.",
+    "fr": "Les documents sont chez moi ; je les enverrai par e-mail plus tard.",
+    "ro": "Documentele sunt acasă; le trimit pe email mai târziu."
+  },
+  "Для реєстрації в ASL потрібні оригінали документів одразу, не пізніше поштою.": {
+    "en": "ASL registration requires original documents at once, not later by mail.",
+    "es": "La inscripción ASL requiere originales en el momento, no después por correo.",
+    "fr": "L'inscription ASL exige les originaux sur place, pas plus tard par courrier.",
+    "ro": "Înscrierea ASL cere originalele imediat, nu mai târziu prin poștă."
+  },
+  "Так, доброго дня. Покажіть документи, будь ласка.": {
+    "en": "Yes, good morning. Please show your documents.",
+    "es": "Sí, buenos días. Muestre los documentos, por favor.",
+    "fr": "Oui, bonjour. Montrez vos documents, s'il vous plaît.",
+    "ro": "Da, bună ziua. Arătați documentele, vă rog."
+  },
+  "Так, у мене вже є сімейний лікар в Україні. Так теж підходить?": {
+    "en": "Yes, I already have a family doctor in Ukraine. Does that work too?",
+    "es": "Sí, ya tengo médico de cabecera en Ucrania. ¿Sirve también?",
+    "fr": "Oui, j'ai déjà un médecin en Ukraine. Est-ce que cela convient ?",
+    "ro": "Da, am deja medic de familie în Ucraina. Merge și așa?"
+  },
+  "Для SSN потрібен лікар, який працює в Італії, у вашому районі ASL.": {
+    "en": "For the SSN you need a doctor who practices in Italy, in your ASL district.",
+    "es": "Para el SSN hace falta un médico que ejerza en Italia, en su distrito ASL.",
+    "fr": "Pour le SSN, il faut un médecin qui exerce en Italie, dans votre district ASL.",
+    "ro": "Pentru SSN trebuie un medic care lucrează în Italia, în districtul ASL."
+  },
+  "Так, у мене вже є квитанція з Anagrafe.": {
+    "en": "Yes, I already have a receipt from the Anagrafe.",
+    "es": "Sí, ya tengo un recibo del Anagrafe.",
+    "fr": "Oui, j'ai déjà un reçu de l'Anagrafe.",
+    "ro": "Da, am deja chitanță de la Anagrafe."
+  },
+  "Не за адресою. Квитанція з Anagrafe — це документ про резиденцію, а не обраний сімейний лікар.": {
+    "en": "Wrong topic. An Anagrafe receipt is proof of residenza, not your chosen family doctor.",
+    "es": "No es lo mismo. El recibo del Anagrafe acredita la residenza, no el médico elegido.",
+    "fr": "Hors sujet. Le reçu Anagrafe prouve la residenza, pas le médecin choisi.",
+    "ro": "Nu e subiectul. Chitanța Anagrafe e dovada residenza, nu medicul ales."
+  },
+  "Правильно! Ви запитуєте про список доступних лікарів у вашому районі.": {
+    "en": "Correct! You are asking about the list of available doctors in your area.",
+    "es": "¡Correcto! Pregunta por la lista de médicos disponibles en su zona.",
+    "fr": "Exact ! Vous demandez la liste des médecins disponibles dans votre secteur.",
+    "ro": "Corect! Întrebați despre lista medicilor disponibili în zona dvs."
+  },
+  "Чудово. З вашим permesso di soggiorno ви маєте право на безкоштовну реєстрацію. У вас уже є сімейний лікар?": {
+    "en": "Great. With your permesso di soggiorno you are entitled to free registration. Do you already have a family doctor?",
+    "es": "Perfecto. Con su permesso di soggiorno tiene derecho a inscripción gratuita. ¿Ya tiene médico de cabecera?",
+    "fr": "Très bien. Avec votre permesso di soggiorno vous avez droit à une inscription gratuite. Avez-vous déjà un médecin ?",
+    "ro": "Excelent. Cu permesso di soggiorno aveți drept la înregistrare gratuită. Aveți deja medic de familie?"
+  },
+  "Дайте першого зі списку, байдуже хто.": {
+    "en": "Give me the first one on the list, anyone.",
+    "es": "Deme el primero de la lista, da igual quién.",
+    "fr": "Donnez-moi le premier de la liste, n'importe qui.",
+    "ro": "Dați-mi primul de pe listă, oricine."
+  },
+  "Краще свідомо обрати лікаря з доступних у вашому районі.": {
+    "en": "Better to choose consciously among doctors available in your area.",
+    "es": "Mejor elegir conscientemente entre los médicos disponibles en su zona.",
+    "fr": "Mieux vaut choisir en connaissance de cause parmi les médecins de votre secteur.",
+    "ro": "E mai bine să alegeți conștient dintre medicii disponibili în zona dvs."
+  },
+  "Чудово! Ви підтвердили свій вибір.": {
+    "en": "Great! You confirmed your choice.",
+    "es": "¡Genial! Ha confirmado su elección.",
+    "fr": "Parfait ! Vous avez confirmé votre choix.",
+    "ro": "Excelent! Ați confirmat alegerea."
+  },
+  "Ні, я хочу лікаря в іншому місті, далеко від дому.": {
+    "en": "No, I want a doctor in another city, far from home.",
+    "es": "No, quiero un médico en otra ciudad, lejos de casa.",
+    "fr": "Non, je veux un médecin dans une autre ville, loin de chez moi.",
+    "ro": "Nu, vreau medic în alt oraș, departe de casă."
+  },
+  "Зазвичай обирають лікаря з місцями саме у своїй зоні ASL, ближче до дому.": {
+    "en": "People usually choose a doctor with openings in their own ASL zone, closer to home.",
+    "es": "Suele elegirse un médico con plazas en la propia zona ASL, más cerca de casa.",
+    "fr": "On choisit en général un médecin avec des places dans sa zone ASL, plus près de chez soi.",
+    "ro": "De obicei se alege medic cu locuri în zona ASL, mai aproape de casă."
+  },
+  "Показую список доступних лікарів у вашому районі. Цей лікар близько від вашого дому і має місце.": {
+    "en": "Here is the list of available doctors in your area. This doctor is close to your home and has openings.",
+    "es": "Aquí está la lista de médicos disponibles en su zona. Este médico está cerca de su casa y tiene plaza.",
+    "fr": "Voici la liste des médecins disponibles dans votre secteur. Ce médecin est près de chez vous et a des places.",
+    "ro": "Iată lista medicilor disponibili în zona dvs. Acest medic e aproape de casă și are locuri."
+  },
+  "Дуже практичне запитання щодо чергової медичної служби!": {
+    "en": "Very practical question about on-call medical service!",
+    "es": "¡Pregunta muy práctica sobre el servicio médico de guardia!",
+    "fr": "Question très pratique sur le service médical de garde !",
+    "ro": "Întrebare foarte practică despre serviciul medical de gardă!"
+  },
+  "Я маю заплатити двісті євро за картку, так?": {
+    "en": "I have to pay two hundred euros for the card, right?",
+    "es": "Tengo que pagar doscientos euros por la tarjeta, ¿no?",
+    "fr": "Je dois payer deux cents euros pour la carte, n'est-ce pas ?",
+    "ro": "Trebuie să plătesc două sute de euro pentru card, da?"
+  },
+  "З permesso di soggiorno реєстрація в SSN для цього випадку безкоштовна.": {
+    "en": "With a permesso di soggiorno, SSN registration is free in this case.",
+    "es": "Con permesso di soggiorno, la inscripción al SSN es gratuita en este caso.",
+    "fr": "Avec un permesso di soggiorno, l'inscription au SSN est gratuite dans ce cas.",
+    "ro": "Cu permesso di soggiorno, înscrierea în SSN e gratuită în acest caz."
+  },
+  "Остаточна картка прийде сьогодні, почекаю тут три години.": {
+    "en": "The final card will arrive today; I'll wait here three hours.",
+    "es": "La tarjeta definitiva llegará hoy; esperaré aquí tres horas.",
+    "fr": "La carte définitive arrivera aujourd'hui ; j'attendrai ici trois heures.",
+    "ro": "Cardul final vine azi; aștept aici trei ore."
+  },
+  "Сьогодні видають тимчасову картку; пластикову надсилають пізніше.": {
+    "en": "Today you get a temporary card; the plastic one is sent later.",
+    "es": "Hoy entregan tarjeta temporal; la plástica se envía después.",
+    "fr": "Aujourd'hui on délivre une carte temporaire ; la plastique est envoyée plus tard.",
+    "ro": "Astăzi primesc card temporar; cel plastic vine mai târziu."
+  },
+  "Чудово, зараз зареєструю. Ось ваша тимчасова медична картка.": {
+    "en": "Great, I'll register you now. Here is your temporary health card.",
+    "es": "Perfecto, ahora la registro. Aquí tiene su tarjeta sanitaria temporal.",
+    "fr": "Très bien, je vous inscris. Voici votre carte sanitaire temporaire.",
+    "ro": "Bine, vă înregistrez acum. Iată cardul sanitar temporar."
+  },
+  "Тоді завжди йду в pronto soccorso навіть із застудою.": {
+    "en": "Then I always go to pronto soccorso even for a cold.",
+    "es": "Entonces siempre voy al pronto soccorso incluso con un resfriado.",
+    "fr": "Alors j'irais toujours au pronto soccorso même pour un rhume.",
+    "ro": "Atunci merg mereu la pronto soccorso chiar și pentru răceală."
+  },
+  "Pronto soccorso — для важких випадків. Для звичайних — сімейний лікар або guardia medica.": {
+    "en": "Pronto soccorso is for serious cases. For routine issues — family doctor or guardia medica.",
+    "es": "Pronto soccorso es para casos graves. Para lo habitual — médico de cabecera o guardia medica.",
+    "fr": "Pronto soccorso pour les cas graves. Pour le courant — médecin de famille ou guardia medica.",
+    "ro": "Pronto soccorso e pentru cazuri grave. Pentru rutină — medic de familie sau guardia medica."
+  },
+  "Guardia medica лише для туристів, так?": {
+    "en": "Guardia medica is only for tourists, right?",
+    "es": "¿La guardia medica es solo para turistas, verdad?",
+    "fr": "La guardia medica, c'est seulement pour les touristes ?",
+    "ro": "Guardia medica e doar pentru turiști, da?"
+  },
+  "Guardia medica — нічна/вихідна допомога для жителів, не лише для туристів.": {
+    "en": "Guardia medica is night/weekend care for residents, not only tourists.",
+    "es": "Guardia medica es asistencia nocturna/festiva para residentes, no solo turistas.",
+    "fr": "La guardia medica, c'est l'assistance de nuit/week-end pour les résidents, pas seulement les touristes.",
+    "ro": "Guardia medica e asistență noaptea/weekend pentru rezidenți, nu doar turiști."
+  },
+  "Чудовий фінал розмови!": {
+    "en": "Great end to the conversation!",
+    "es": "¡Excelente final de conversación!",
+    "fr": "Excellent fin de conversation !",
+    "ro": "Final excelent al conversației!"
+  },
+  "Для вечірніх і святкових невідкладних випадків є guardia medica. Для важких — pronto soccorso, відкритий цілодобово.": {
+    "en": "For evening and holiday emergencies there is guardia medica. For serious cases — pronto soccorso, open 24/7.",
+    "es": "Para urgencias nocturnas y festivas hay guardia medica. Para casos graves — pronto soccorso, abierto 24/7.",
+    "fr": "Pour les urgences du soir et des jours fériés, il y a la guardia medica. Pour les cas graves — pronto soccorso, ouvert 24 h/24.",
+    "ro": "Pentru urgențe seara și în sărbători există guardia medica. Pentru cazuri grave — pronto soccorso, deschis 24/7."
+  },
+  "Пам'ятайте різницю: Guardia Medica працює вночі та у вихідні дні для невідкладних побутових випадків. Pronto Soccorso — це цілодобова швидка/приймальне відділення для важких та загрозливих ситуацій.": {
+    "en": "Remember the difference: Guardia Medica works at night and on weekends for urgent everyday cases. Pronto Soccorso is the 24/7 emergency department for serious and life-threatening situations.",
+    "es": "Recuerde la diferencia: Guardia Medica trabaja de noche y fines de semana para urgencias cotidianas. Pronto Soccorso es urgencias 24/7 para situaciones graves y amenazantes.",
+    "fr": "Rappelez-vous : Guardia Medica la nuit et le week-end pour les urgences du quotidien. Pronto Soccorso, les urgences 24 h/24 pour les situations graves.",
+    "ro": "Rețineți diferența: Guardia Medica noaptea și în weekend pentru urgențe cotidiene. Pronto Soccorso — urgențe 24/7 pentru situații grave."
+  },
+  "Boss Level 🏆: Симуляція реєстрації в ASL": {
+    "en": "Boss Level 🏆: ASL registration simulation",
+    "es": "Boss Level 🏆: Simulación de registro en ASL",
+    "fr": "Boss Level 🏆 : Simulation d'inscription ASL",
+    "ro": "Boss Level 🏆: Simulare înregistrare ASL"
+  },
+  "Boss Level Simulation": {
+    "en": "Boss Level Simulation",
+    "es": "Simulación Boss Level",
+    "fr": "Simulation Boss Level",
+    "ro": "Simulare Boss Level"
+  },
+  "Фінальний іспит модуля! Лаура проходить весь шлях у Падуї самостійно: від перевірки документів до вибору лікаря та розрізнення Guardia Medica і Pronto Soccorso. Підказки та переклад вимкнено!": {
+    "en": "Final module exam! Laura completes the whole path in Padua on her own: from document check to choosing a doctor and telling Guardia Medica apart from Pronto Soccorso. Hints and translation disabled!",
+    "es": "¡Examen final del módulo! Laura recorre solo todo el camino en Padua: desde documentos hasta elegir médico y distinguir Guardia Medica y Pronto Soccorso. ¡Pistas y traducción desactivadas!",
+    "fr": "Examen final du module ! Laura parcourt seule tout le parcours à Padoue : documents, choix du médecin, Guardia Medica vs Pronto Soccorso. Indices et traduction désactivés !",
+    "ro": "Examen final al modulului! Laura parcurge singură tot traseul la Padova: documente, alegerea medicului, Guardia Medica vs Pronto Soccorso. Indicii și traducere dezactivate!"
+  },
+  "Як сказати працівнику ASL, що вам потрібно зареєструватися в системі охорони здоров'я?": {
+    "en": "How do you tell ASL staff that you need to register with the healthcare system?",
+    "es": "¿Cómo decir al personal ASL que necesita inscribirse en el sistema sanitario?",
+    "fr": "Comment dire au personnel ASL que vous devez vous inscrire au système de santé ?",
+    "ro": "Cum spuneți personalului ASL că trebuie să vă înscrieți în sistemul de sănătate?"
+  },
+  "'Devo iscrivermi...' = 'Мені потрібно зареєструватися...'": {
+    "en": "'Devo iscrivermi...' = 'I need to register...'",
+    "es": "'Devo iscrivermi...' = 'Necesito inscribirme...'",
+    "fr": "'Devo iscrivermi...' = 'Je dois m'inscrire...'",
+    "ro": "'Devo iscrivermi...' = 'Trebuie să mă înscriu...'"
+  },
+  "Яку фразу ви використаєте, щоб попросити обрати сімейного лікаря?": {
+    "en": "Which phrase will you use to ask to choose a family doctor?",
+    "es": "¿Qué frase usará para pedir elegir médico de cabecera?",
+    "fr": "Quelle phrase utiliserez-vous pour demander à choisir un médecin de famille ?",
+    "ro": "Ce frază folosiți pentru a cere alegerea medicului de familie?"
+  },
+  "'Medico di base' — це сімейний лікар.": {
+    "en": "'Medico di base' is the family doctor.",
+    "es": "'Medico di base' es el médico de cabecera.",
+    "fr": "'Medico di base', c'est le médecin de famille.",
+    "ro": "'Medico di base' este medicul de familie."
+  },
+  "Як уточнити, чи лікар близько до вашого помешкання?": {
+    "en": "How do you ask whether the doctor is close to your home?",
+    "es": "¿Cómo preguntar si el médico está cerca de su casa?",
+    "fr": "Comment demander si le médecin est près de chez vous ?",
+    "ro": "Cum întrebați dacă medicul e aproape de casă?"
+  },
+  "'È vicino a casa mia?' = 'Це близько до мого дому?'": {
+    "en": "'È vicino a casa mia?' = 'Is it close to my home?'",
+    "es": "'È vicino a casa mia?' = '¿Está cerca de mi casa?'",
+    "fr": "'È vicino a casa mia?' = 'C'est près de chez moi ?'",
+    "ro": "'È vicino a casa mia?' = 'E aproape de casa mea?'"
+  },
+  "Куди слід звертатися у разі важкої та цілодобової загрози здоров'ю?": {
+    "en": "Where should you go in case of a serious, 24/7 health threat?",
+    "es": "¿A dónde acudir en caso de amenaza grave para la salud las 24 horas?",
+    "fr": "Où s'adresser en cas de menace grave pour la santé, 24 h/24 ?",
+    "ro": "Unde mergeți în caz de amenințare gravă pentru sănătate, 24/7?"
+  },
+  "'Pronto Soccorso' — відділення невідкладної допомоги (24/7).": {
+    "en": "'Pronto Soccorso' — emergency department (24/7).",
+    "es": "'Pronto Soccorso' — urgencias (24/7).",
+    "fr": "'Pronto Soccorso' — service d'urgences (24 h/24).",
+    "ro": "'Pronto Soccorso' — urgențe (24/7)."
+  },
+  "Що відповість працівник на питання про вартість реєстрації з Permesso di Soggiorno?": {
+    "en": "What will the clerk answer about registration cost with Permesso di Soggiorno?",
+    "es": "¿Qué responderá el empleado sobre el coste del registro con Permesso di Soggiorno?",
+    "fr": "Que répondra l'agent sur le coût de l'inscription avec Permesso di Soggiorno ?",
+    "ro": "Ce va răspunde funcionarul despre costul înregistrării cu Permesso di Soggiorno?"
+  },
+  "Реєстрація в SSN за наявності дозволу на проживання є безкоштовною.": {
+    "en": "SSN registration with a residence permit is free.",
+    "es": "La inscripción al SSN con permiso de residencia es gratuita.",
+    "fr": "L'inscription au SSN avec permis de séjour est gratuite.",
+    "ro": "Înscrierea în SSN cu permis de ședere este gratuită."
+  },
+  "A chi bisogna rivolgersi per le urgenze mediche durante la notte o nei giorni festivi?": {
+    "en": "A chi bisogna rivolgersi per le urgenze mediche durante la notte o nei giorni festivi?",
+    "es": "A chi bisogna rivolgersi per le urgenze mediche durante la notte o nei giorni festivi?",
+    "fr": "A chi bisogna rivolgersi per le urgenze mediche durante la notte o nei giorni festivi?",
+    "ro": "A chi bisogna rivolgersi per le urgenze mediche durante la notte o nei giorni festivi?"
+  },
+  "'Guardia Medica' — нічна та святкова чергова служба.": {
+    "en": "'Guardia Medica' — night and holiday on-call service.",
+    "es": "'Guardia Medica' — servicio de guardia nocturno y festivo.",
+    "fr": "'Guardia Medica' — service de garde de nuit et jours fériés.",
+    "ro": "'Guardia Medica' — serviciu de gardă noaptea și în sărbători."
+  },
+  "Вітаємо! Ви успішно пройшли симуляцію, отримали Tessera Sanitaria та обрали сімейного лікаря в Італії!": {
+    "en": "Congratulations! You completed the simulation, got your Tessera Sanitaria, and chose a family doctor in Italy!",
+    "es": "¡Enhorabuena! Completó la simulación, obtuvo la Tessera Sanitaria y eligió médico de familia en Italia.",
+    "fr": "Félicitations ! Vous avez réussi la simulation, obtenu la Tessera Sanitaria et choisi un médecin en Italie !",
+    "ro": "Felicitări! Ați trecut simularea, ați obținut Tessera Sanitaria și ați ales medic de familie în Italia!"
+  },
+  "Ресторан та Траторія: Бронювання та культура їжі": {
+    "en": "Restaurant and Trattoria: Booking and food culture",
+    "es": "Restaurante y trattoria: Reserva y cultura gastronómica",
+    "fr": "Restaurant et trattoria : Réservation et culture alimentaire",
+    "ro": "Restaurant și trattoria: Rezervare și cultura mesei"
+  },
+  "Марко та Лаура вирішили пообідати у місцевій сімейній траторії в Treviso. В Італії культурі харчування приділяють особливу увагу: важливо знати, як забронювати столик, замовити воду, зрозуміти, що таке 'coperto' у чеку, та як правильно попросити каву після обіду.": {
+    "en": "Marco and Laura decided to have lunch at a local family trattoria in Treviso. In Italy, food culture matters: know how to book a table, order water, understand coperto on the bill, and how to ask for coffee after lunch.",
+    "es": "Marco y Laura decidieron comer en una trattoria familiar de Treviso. En Italia importa la cultura gastronómica: reservar mesa, pedir agua, entender el coperto en la cuenta y pedir café tras comer.",
+    "fr": "Marco et Laura ont décidé de déjeuner dans une trattoria familiale à Trévise. En Italie, la culture alimentaire compte : réserver, commander l'eau, comprendre le coperto sur l'addition, demander un café après le repas.",
+    "ro": "Marco și Laura au decis să prânzească la o trattoria de familie din Treviso. În Italia contează cultura mesei: rezervarea, apa, coperto pe notă, cafeaua după masă."
+  },
+  "Я хотів би забронювати столик на двох на сьогодні на вечір.": {
+    "en": "I would like to book a table for two for this evening.",
+    "es": "Quisiera reservar una mesa para dos para esta noche.",
+    "fr": "Je voudrais réserver une table pour deux ce soir.",
+    "ro": "Aș dori să rezerv o masă pentru doi diseară."
+  },
+  "У вас є вільний столик на двох?": {
+    "en": "Do you have a free table for two?",
+    "es": "¿Tienen mesa libre para dos?",
+    "fr": "Avez-vous une table libre pour deux ?",
+    "ro": "Aveți masă liberă pentru doi?"
+  },
+  "Я хотів би пляшку води без газу або з газом, будь ласка.": {
+    "en": "I would like a bottle of still or sparkling water, please.",
+    "es": "Quisiera una botella de agua sin gas o con gas, por favor.",
+    "fr": "Je voudrais une bouteille d'eau plate ou gazeuse, s'il vous plaît.",
+    "ro": "Aș dori o sticlă de apă plată sau carbogazoasă, vă rog."
+  },
+  "Можна нам меню, будь ласка?": {
+    "en": "May we have the menu, please?",
+    "es": "¿Nos trae la carta, por favor?",
+    "fr": "Pouvons-nous avoir la carte, s'il vous plaît ?",
+    "ro": "Ne puteți aduce meniul, vă rog?"
+  },
+  "Coperto — це плата за хліб та сервірування (зазвичай 1.50€–3.00€ з особи, вказується в меню).": {
+    "en": "Coperto is the charge for bread and table service (usually €1.50–€3.00 per person, listed on the menu).",
+    "es": "Coperto es el cargo por pan y servicio (suele ser 1,50€–3,00€ por persona, indicado en la carta).",
+    "fr": "Coperto : frais pour pain et service (souvent 1,50 €–3,00 € par personne, indiqué sur la carte).",
+    "ro": "Coperto e taxa pentru pâine și servire (de obicei 1,50€–3,00€ de persoană, în meniu)."
+  },
+  "Cappuccino в Італії п'ють тільки до 11:00 ранку. Після обіду замовляють Caffè espresso або Macchiato.": {
+    "en": "In Italy, cappuccino is only drunk before 11:00 a.m. After lunch people order caffè espresso or macchiato.",
+    "es": "En Italia el cappuccino solo se toma antes de las 11:00. Después del almuerzo piden caffè espresso o macchiato.",
+    "fr": "En Italie, le cappuccino se boit surtout avant 11 h. Après le déjeuner, on commande caffè espresso ou macchiato.",
+    "ro": "În Italia cappuccino se bea doar până la 11:00. După prânz se comandă caffè espresso sau macchiato."
+  },
+  "Воду завжди подають у пляшках: треба уточнити 'naturale' (без газу) чи 'frizzante' (з газом).": {
+    "en": "Water always comes in bottles: specify naturale (still) or frizzante (sparkling).",
+    "es": "El agua siempre va en botella: indique naturale (sin gas) o frizzante (con gas).",
+    "fr": "L'eau est toujours en bouteille : précisez naturale (plate) ou frizzante (gazeuse).",
+    "ro": "Apa vine mereu în sticle: specificați naturale (plată) sau frizzante (carbogazoasă)."
+  },
+  "Ввічливі прохання через 'Vorrei' та 'Possiamo'": {
+    "en": "Polite requests with 'Vorrei' and 'Possiamo'",
+    "es": "Peticiones corteses con « Vorrei » y « Possiamo »",
+    "fr": "Demandes polies avec « Vorrei » et « Possiamo »",
+    "ro": "Cereri politicoase cu « Vorrei » și « Possiamo »"
+  },
+  "Використання 'Vorrei + інфінітив' замість 'Voglio' (Я б хотів/хотіла...).": {
+    "en": "Using 'Vorrei + infinitive' instead of 'Voglio' (I would like...).",
+    "es": "Uso de « Vorrei + infinitivo » en lugar de « Voglio » (Quisiera...).",
+    "fr": "Usage de « Vorrei + infinitif » au lieu de « Voglio » (Je voudrais...).",
+    "ro": "Folosirea « Vorrei + infinitiv » în loc de « Voglio » (Aș dori...)."
+  },
+  "Я хотів би замовити.": {
+    "en": "I would like to order.",
+    "es": "Quisiera pedir.",
+    "fr": "Je voudrais commander.",
+    "ro": "Aș dori să comand."
+  },
+  "Я хотів би столик на відкритому повітрі.": {
+    "en": "I would like a table outdoors.",
+    "es": "Quisiera una mesa al aire libre.",
+    "fr": "Je voudrais une table en terrasse.",
+    "ro": "Aș dori o masă în aer liber."
+  },
+  "Запитання 'Possiamo + інфінітив' (Чи можемо ми...).": {
+    "en": "Questions with 'Possiamo + infinitive' (Can we...).",
+    "es": "Preguntas con « Possiamo + infinitivo » (¿Podemos...?).",
+    "fr": "Questions avec « Possiamo + infinitif » (Pouvons-nous... ?).",
+    "ro": "Întrebări cu « Possiamo + infinitiv » (Putem...?)."
+  },
+  "Можемо сісти тут?": {
+    "en": "Can we sit here?",
+    "es": "¿Podemos sentarnos aquí?",
+    "fr": "Pouvons-nous nous asseoir ici ?",
+    "ro": "Putem sta aici?"
+  },
+  "Можемо отримати рахунок?": {
+    "en": "Can we have the bill?",
+    "es": "¿Podemos tener la cuenta?",
+    "fr": "Pouvons-nous avoir l'addition ?",
+    "ro": "Putem primi nota?"
+  },
+  "В італійських ресторанах обід (pranzo) зазвичай триває з 12:30 до 14:30, а вечеря (cena) розпочинається не раніше 19:30 або 20:00.": {
+    "en": "In Italian restaurants, lunch (pranzo) is usually 12:30–14:30, and dinner (cena) starts no earlier than 19:30 or 20:00.",
+    "es": "En restaurantes italianos, el almuerzo (pranzo) suele ser 12:30–14:30 y la cena (cena) no antes de 19:30 o 20:00.",
+    "fr": "Dans les restaurants italiens, le déjeuner (pranzo) est en général 12 h 30–14 h 30 et le dîner (cena) pas avant 19 h 30 ou 20 h.",
+    "ro": "În restaurantele italiene, pranzul (pranzo) e de obicei 12:30–14:30, iar cina (cena) nu începe mai devreme de 19:30 sau 20:00."
+  },
+  "Живий діалог: Замовлення страв та розрахунок": {
+    "en": "Live dialogue: Ordering food and paying",
+    "es": "Diálogo en vivo: Pedir platos y pagar",
+    "fr": "Dialogue en direct : Commander et payer",
+    "ro": "Dialog live: Comandă și plată"
+  },
+  "Марко та Лаура заходять до траторії. Офіціант (Cameriere) зустрічає їх біля входу і проводить до столика.": {
+    "en": "Marco and Laura enter the trattoria. The waiter (cameriere) greets them at the door and shows them to a table.",
+    "es": "Marco y Laura entran en la trattoria. El cameriere los recibe en la entrada y los lleva a la mesa.",
+    "fr": "Marco et Laura entrent dans la trattoria. Le cameriere les accueille à l'entrée et les installe.",
+    "ro": "Marco și Laura intră în trattoria. Cameriere îi întâmpină la intrare și îi conduce la masă."
+  },
+  "Ми вже поїли, хочемо лише скористатися туалетом.": {
+    "en": "We already ate; we only want to use the restroom.",
+    "es": "Ya comimos; solo queremos usar el baño.",
+    "fr": "Nous avons déjà mangé ; nous voulons seulement utiliser les toilettes.",
+    "ro": "Am mâncat deja; vrem doar să folosim toaleta."
+  },
+  "Офіціант питає про столик або бронь, а не про туалет.": {
+    "en": "The waiter asks about a table or reservation, not the restroom.",
+    "es": "El cameriere pregunta por mesa o reserva, no por el baño.",
+    "fr": "Le cameriere demande une table ou une réservation, pas les toilettes.",
+    "ro": "Cameriere întreabă de masă sau rezervare, nu de toaletă."
+  },
+  "Привіт, хочу їсти зараз.": {
+    "en": "Hi, I want to eat now.",
+    "es": "Hola, quiero comer ya.",
+    "fr": "Salut, je veux manger maintenant.",
+    "ro": "Salut, vreau să mănânc acum."
+  },
+  "Занадто неформально. Використовуйте 'Buongiorno' та ввічливий тон.": {
+    "en": "Too informal. Use Buongiorno and a polite tone.",
+    "es": "Demasiado informal. Use Buongiorno y tono cortés.",
+    "fr": "Trop familier. Utilisez Buongiorno et un ton poli.",
+    "ro": "Prea informal. Folosiți Buongiorno și ton politicos."
+  },
+  "Доброго дня! У нас бронювання на ім’я Marco на двох осіб.": {
+    "en": "Good morning! We have a reservation under the name Marco for two.",
+    "es": "¡Buenos días! Tenemos reserva a nombre de Marco para dos.",
+    "fr": "Bonjour ! Nous avons une réservation au nom de Marco pour deux.",
+    "ro": "Bună ziua! Avem rezervare pe numele Marco, pentru doi."
+  },
+  "Чудово! Ви чітко вказали ім'я бронювання.": {
+    "en": "Great! You clearly stated the reservation name.",
+    "es": "¡Genial! Indicó claramente el nombre de la reserva.",
+    "fr": "Parfait ! Vous avez indiqué clairement le nom de la réservation.",
+    "ro": "Excelent! Ați spus clar numele rezervării."
+  },
+  "Доброго дня! Ви бронювали чи шукаєте столик?": {
+    "en": "Good morning! Did you book or are you looking for a table?",
+    "es": "¡Buenos días! ¿Reservaron o buscan mesa?",
+    "fr": "Bonjour ! Vous avez réservé ou vous cherchez une table ?",
+    "ro": "Bună ziua! Ați rezervat sau căutați masă?"
+  },
+  "Дві великі кока-коли з льодом і лимоном, як у фастфуді.": {
+    "en": "Two large Cokes with ice and lemon, like at fast food.",
+    "es": "Dos cocas grandes con hielo y limón, como en comida rápida.",
+    "fr": "Deux grands coca avec glace et citron, comme au fast-food.",
+    "ro": "Două cola mari cu gheață și lămâie, ca la fast-food."
+  },
+  "У траторії природніше замовити воду і вино; тон має бути ввічливим.": {
+    "en": "In a trattoria it is more natural to order water and wine; keep the tone polite.",
+    "es": "En una trattoria es más natural pedir agua y vino; el tono debe ser cortés.",
+    "fr": "Dans une trattoria, il est plus naturel de commander eau et vin ; restez poli.",
+    "ro": "La trattoria e mai natural să comandați apă și vin; tonul trebuie să fie politicos."
+  },
+  "Пляшку негазованої води і два келихи домашнього вина, дякую.": {
+    "en": "A bottle of still water and two glasses of house wine, thank you.",
+    "es": "Una botella de agua sin gas y dos copas de vino de la casa, gracias.",
+    "fr": "Une bouteille d'eau plate et deux verres de vin maison, merci.",
+    "ro": "O sticlă de apă plată și două pahare de vin de casă, mulțumesc."
+  }
+}

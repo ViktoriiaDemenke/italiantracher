@@ -11,15 +11,15 @@
   "type": {
     "uk": "Симуляція бос-рівня",
     "en": "Boss Level Simulation",
-    "es": "Simulación de nivel jefe",
-    "fr": "Simulation Boss Level",
-    "ro": "Simulare nivel boss"
+    "es": "Simulación del nivel Boss",
+    "fr": "Simulation du niveau Boss",
+    "ro": "Simulare a nivelului Boss"
   },
   "story": {
     "uk": "Фінальний іспит модуля! Ви самостійно замовляєте каву та випічку, спілкуєтеся з касиром та бариста біля стійки. Підказки та переклад вимкнено!",
-    "en": "Final exam of the module! You order coffee and pastry yourself and talk to the cashier and barista at the counter. Hints and translation are off!",
-    "es": "¡Examen final del módulo! Pides café y bollería por tu cuenta y hablas con el cajero y el barista en la barra. ¡Pistas y traducción desactivadas!",
-    "fr": "Examen final du module ! Vous commandez café et viennoiserie seul et parlez au caissier et au barista au comptoir. Indices et traduction désactivés !",
+    "en": "Final exam of the module! You order coffee and pastry yourself and talk to the cashier and barista at the counter. Hints and translations are off!",
+    "es": "¡Examen final del módulo! Pides café y bollería por tu cuenta y hablas con el cajero y el barista en la barra. ¡Las pistas y la traducción están desactivadas!",
+    "fr": "Examen final du module ! Vous commandez café et viennoiserie seul et parlez au caissier et au barista au comptoir. Les indices et la traduction sont désactivés !",
     "ro": "Examenul final al modulului! Comanzi singur cafea și patiserie și vorbești cu casierul și barista la tejghea. Indiciile și traducerea sunt dezactivate!"
   },
   "questions": [
@@ -42,7 +42,7 @@
         "uk": "Обслуговування за столиком включає надбавку 'servizio al tavolo'.",
         "en": "Table service includes a surcharge called 'servizio al tavolo'.",
         "es": "El servicio en mesa incluye un recargo 'servizio al tavolo'.",
-        "fr": "Le service à table inclut un supplément 'servizio al tavolo'.",
+        "fr": "Le service à table inclut un supplément « servizio al tavolo ».",
         "ro": "Serviciul la masă include un adaos 'servizio al tavolo'."
       }
     },

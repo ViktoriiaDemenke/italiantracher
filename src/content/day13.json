@@ -17,7 +17,7 @@
   },
   "story": {
     "uk": "Марко та Лаура прийшли до відділення Poste Italiane. В Італії пошта — це не лише відправка посилок, а й центр сплати комунальних рахунків, отримання офіційних листів та фінансових послуг. При вході обов'язково потрібно взяти талончик у терміналі (ticket) відповідно до теми вашого звернення.",
-    "en": "Marco and Laura have come to a Poste Italiane office. In Italy the post office is not only parcels, but also a place to pay utility bills, collect official letters and use financial services. At the entrance you must take a ticket from the terminal according to your request.",
+    "en": "Marco and Laura have come to a Poste Italiane office. In Italy the post office is not only for parcels: it is also where you pay utility bills, collect official letters and use financial services. At the entrance you must take a ticket from the terminal according to your request.",
     "es": "Marco y Laura llegan a una oficina de Poste Italiane. En Italia correos no es solo paquetes: también se pagan recibos, se recogen cartas oficiales y hay servicios financieros. En la entrada hay que coger un ticket en el terminal según el tema.",
     "fr": "Marco et Laura sont à un bureau Poste Italiane. En Italie la poste n’est pas que les colis : on y paie les factures, on retire du courrier officiel et on trouve des services financiers. À l’entrée il faut prendre un ticket au terminal selon le motif.",
     "ro": "Marco și Laura au venit la o sucursală Poste Italiane. În Italia poșta nu e doar colete, ci și centru de plată a facturilor, ridicare de scrisori oficiale și servicii financiare. La intrare trebuie luat un bilet de la terminal după tema cererii."
@@ -61,14 +61,14 @@
       "italian": "Ho ricevuto un avviso di giacenza per una raccomandata.",
       "ukrainian": {
         "uk": "Я отримав(ла) повідомлення про надходження рекомендованого листа.",
-        "en": "I received a pickup notice for a registered letter.",
+        "en": "I received a collection notice for a registered letter.",
         "es": "He recibido un aviso de llegada de una carta certificada.",
         "fr": "J'ai reçu un avis de mise en instance pour une lettre recommandée.",
         "ro": "Am primit un aviz de păstrare pentru o scrisoare recomandată."
       },
       "translation": {
         "uk": "Я отримав(ла) повідомлення про надходження рекомендованого листа.",
-        "en": "I received a pickup notice for a registered letter.",
+        "en": "I received a collection notice for a registered letter.",
         "es": "He recibido un aviso de llegada de una carta certificada.",
         "fr": "J'ai reçu un avis de mise en instance pour une lettre recommandée.",
         "ro": "Am primit un aviz de păstrare pentru o scrisoare recomandată."
@@ -78,14 +78,14 @@
       "italian": "Quale tasto devo premere per prendere il biglietto?",
       "ukrainian": {
         "uk": "Яку кнопку мені потрібно натиснути, щоб взяти талончик?",
-        "en": "Which button do I have to press to get a ticket?",
+        "en": "Which button do I press to get a ticket?",
         "es": "¿Qué botón debo pulsar para coger el ticket?",
         "fr": "Quel bouton dois-je appuyer pour prendre le ticket ?",
         "ro": "Ce buton trebuie să apăs ca să iau biletul?"
       },
       "translation": {
         "uk": "Яку кнопку мені потрібно натиснути, щоб взяти талончик?",
-        "en": "Which button do I have to press to get a ticket?",
+        "en": "Which button do I press to get a ticket?",
         "es": "¿Qué botón debo pulsar para coger el ticket?",
         "fr": "Quel bouton dois-je appuyer pour prendre le ticket ?",
         "ro": "Ce buton trebuie să apăs ca să iau biletul?"
@@ -96,9 +96,9 @@
     {
       "uk": "Ticket al totem — при вході на терміналі обирають потрібний розділ: 'Spedizioni e Pacchi' (відправлення), 'Pagamenti' (квитанції/оплати) або 'Ritiro' (отримання).",
       "en": "Ticket al totem — at the entrance on the terminal you choose the section: 'Spedizioni e Pacchi' (shipments), 'Pagamenti' (bills/payments) or 'Ritiro' (collection).",
-      "es": "Ticket al totem — en la entrada eliges en el terminal: 'Spedizioni e Pacchi' (envíos), 'Pagamenti' (recibos/pagos) o 'Ritiro' (recogida).",
-      "fr": "Ticket al totem — à l’entrée on choisit : « Spedizioni e Pacchi » (envois), « Pagamenti » (quittances/paiements) ou « Ritiro » (retrait).",
-      "ro": "Ticket al totem — la intrare pe terminal alegeți: «Spedizioni e Pacchi» (trimiteri), «Pagamenti» (chitanțe/plăți) sau «Ritiro» (ridicare)."
+      "es": "Ticket en el tótem: en la entrada eliges en el terminal «Spedizioni e Pacchi» (envíos), «Pagamenti» (pagos) o «Ritiro» (recogida).",
+      "fr": "Ticket à la borne : à l’entrée, on choisit « Spedizioni e Pacchi » (envois), « Pagamenti » (paiements) ou « Ritiro » (retrait).",
+      "ro": "Ticket la totem: la intrare, pe terminal, alegeți «Spedizioni e Pacchi» (trimiteri), «Pagamenti» (plăți) sau «Ritiro» (ridicare)."
     },
     {
       "uk": "Raccomandata — рекомендований лист, який вручається під особистий підпис. Якщо вас не було вдома, листоноша залишає жовту картку 'Avviso di giacenza'.",
@@ -111,7 +111,7 @@
       "uk": "Bollettino — бланкова або штрихкодова квитанція для оплати комунальних послуг, штрафів та державних зборів.",
       "en": "Bollettino — a paper or barcode slip for paying utilities, fines and state fees.",
       "es": "Bollettino — recibo en impreso o código de barras para pagar servicios, multas y tasas.",
-      "fr": "Bollettino — quittance papier ou code-barres pour payer charges, amendes et taxes.",
+      "fr": "Bollettino : avis de paiement papier ou code-barres pour régler charges, amendes et taxes.",
       "ro": "Bollettino — chitanță pe formular sau cu cod de bare pentru utilități, amenzi și taxe de stat."
     }
   ],
@@ -156,14 +156,14 @@
               "uk": "Хочете відправити пріоритетною поштою?",
               "en": "Would you like to send it by priority mail?",
               "es": "¿Quiere enviarlo por correo prioritario?",
-              "fr": "Vous voulez envoyer en poste prioritaire ?",
+              "fr": "Vous voulez envoyer en Prioritaire ?",
               "ro": "Doriți să trimiteți cu poștă prioritară?"
             },
             "translation": {
               "uk": "Хочете відправити пріоритетною поштою?",
               "en": "Would you like to send it by priority mail?",
               "es": "¿Quiere enviarlo por correo prioritario?",
-              "fr": "Vous voulez envoyer en poste prioritaire ?",
+              "fr": "Vous voulez envoyer en Prioritaire ?",
               "ro": "Doriți să trimiteți cu poștă prioritară?"
             }
           }

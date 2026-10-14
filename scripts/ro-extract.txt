@@ -1,0 +1,655 @@
+1	Anagrafe: Înregistrare și documente
+2	Marco s-a mutat de curând la Treviso. În această dimineață merge la Comune, la Ufficio Anagrafe, pentru a depune dichiarazione di residenza. La intrare este un totem: trebuie să aleagă categoria potrivită, să ia un biglietto și să aștepte numărul pe tabellone. În dosar are codice fiscale, permesso di soggiorno, contratto d'affitto și marca da bollo da 16€.
+3	Cod fiscal. Fără el, cererea de residenza de obicei nu se închide.
+4	Permis de ședere în original, nu doar o poză pe telefon.
+5	Contract de închiriere cu adresa din Treviso pe care Marco vrea să o declare.
+6	Marcă de 16 euro pentru cerere. Adesea se cumpără la tabaccheria înainte de vizită.
+7	Bună dimineața, aș dori să depun cererea de residenza.
+8	Unde pot lua tichetul?
+9	Trebuie să selectez Anagrafe pe totem?
+10	Care este categoria pentru dichiarazione di residenza?
+11	Am codice fiscale și permesso di soggiorno.
+12	Iată contractul de închiriere.
+13	Este nevoie și de marca da bollo de șaisprezece euro?
+14	Numărul meu a apărut pe tablou.
+15	Bună dimineața, mulțumesc. Trebuie să selectez Anagrafe pentru residenza?
+16	Salut, dă-mi numărul, mă grăbesc.
+17	Vă rog să binevoiți a-mi indica procedura telematică de eliberare a tichetului de coadă.
+18	Bună dimineața. Pentru Anagrafe tichetul se ia de la totem, acolo în stânga.
+19	Intenționez să recurg la opțiunea referitoare la anagrafe demografica comunală.
+20	Aleg opțiunea Anagrafe / residenza. Apoi aștept numărul pe tablou.
+21	Iau carta d'identità, oricum e același birou.
+22	Selectați: 1 Carta d'identità  2 Anagrafe / residenza  3 Stato civile  4 Pagamenti
+23	Merg oricum la sportello, oricum nu e nimeni.
+24	Voi respecta scrupulos dispozițiile relative la ordinea de apel.
+25	Da, am tichetul. Aștept aici până apare numărul meu, mulțumesc.
+26	Ați luat tichetul? Așteptați-vă numărul. Nu vă puneți la coadă la sportello fără număr.
+27	Merg la sportello 1, e mai aproape.
+28	Este numărul meu. Merg la sportello 4 cu documentele în ordine.
+29	Constatând anunțul electronic, mă îndrept imediat către ghișeul indicat.
+30	Este numărul 37, sportello 4.
+31	La Comune di Treviso, ca în majoritatea comunelor, coada trece prin totem. Pentru dichiarazione di residenza luați categoria Anagrafe, nu Carta d'identità. Vorbiți cu Lei, salutați cu Buongiorno. Țineți documentele pregătite: codice fiscale, permesso, contratto d'affitto, marca da bollo 16€.
+32	Anagrafe: Sportello
+33	Numărul lui Marco a apărut. Se apropie de sportello 4. La ghișeu e un impiegato. Aici nu mai e totemul, ci o conversație vie: scopul vizitei, documente, formularul care lipsește și un Lei calm până la arrivederci.
+34	Bună dimineața, aș dori să prezint dichiarazione di residenza.
+35	Iată pașaportul, codice fiscale și permesso.
+36	Nu am completat formularul. Mi-l dați dumneavoastră, vă rog?
+37	Locuiesc pe via Roma doisprezece, cu soția și fiica mea.
+38	Pot să am chitanța, vă rog?
+39	La sportello, un răspuns la o întrebare. Dacă lipsește un modulo, spuneți calm și cereți formularul. Nu vă scuzați îndelung. Dictați numele ca în pașaport sau arătați documentul. Păstrați Lei până la Grazie, arrivederci.
+40	Bună dimineața, aș dori să prezint dichiarazione di residenza. M-am mutat recent la Treviso.
+41	Aș dori să supun atenției biroului cererea de iscrizione anagrafica.
+42	Salut, fă-mi residenza acum.
+43	Bună dimineața, vă ascult.
+44	Am îndeplinit procedura de programare prin totemul electronic.
+45	Nu am număr, dar coada e lungă și eu lucrez.
+46	Am luat tichetul de la totem, categoria Anagrafe. Acesta este numărul meu.
+47	Bine. Aveți deja o programare sau ați venit cu numărul de la totem?
+48	Da, iată pașaportul, codice fiscale, permesso și contractul de închiriere. Le pun aici.
+49	Uitați-vă pe telefon, am poze. Originalele sunt acasă.
+50	Vă predau în continuare întreaga documentație de identitate și contractuală în original.
+51	Documentele, vă rog: pașaportul, codice fiscale, permesso di soggiorno și contractul de închiriere.
+52	Din păcate nu am procedat la completarea prealabilă a formularului descărcat de pe portalul instituțional.
+53	Nu, nu l-am completat. Mi-l dați acum, vă rog? Îl completez aici.
+54	Nu e problema mea, trebuie să o faceți dumneavoastră.
+55	Contractul este. Dar nu văd formularul de dichiarazione deja completat. L-ați printat de pe site-ul Comune?
+56	Semnați dumneavoastră, oricum e la fel.
+57	Vă rog să-mi explicați analog fiecare câmp al formularului.
+58	Da, mulțumesc. Care rând este pentru adresă și pentru membrii familiei, scuzați?
+59	Vă dau formularul. Prenume, nume, data și locul nașterii, adresă, membrii nucleului. Aveți un pix?
+60	Da, locuiesc singur. Ceilalți nu sunt necesari.
+61	Nu, locuiesc cu soția și fiica mea. Am și documentele lor, dacă vreți să le vedeți.
+62	Nucleo familiare al meu este format din soție și fiică care locuiesc la aceeași adresă.
+63	Locuiți singur sau cu alți membri ai familiei? Sunt necesare documentele tuturor.
+64	Da, o am. Am cumpărat-o de la tabaccheria dimineața asta. Iată.
+65	Am procedat la achiziționarea contrassegno telematico al imposta di bollo prevăzute.
+66	Plătesc după, când îmi dați residenza.
+67	Mai lipsește marca da bollo de 16 euro. O aveți?
+68	Voi pune semnătura în spațiul destinat și rămân la dispoziție pentru eventuale rectificări.
+69	Nu semnez dacă nu-mi dați mai întâi cartea.
+70	Semnez aici. Dacă o literă a numelui nu e clară, o silabisesc, dacă doriți.
+71	Bine. Jos este semnătura. Apoi mi-l aduceți înapoi. Verific datele cu pașaportul.
+72	Desigur, aștept. Nu e grabă. Mulțumesc.
+73	Mai iute, am un autobuz. Faceți-mă pe mine primul.
+74	Voi aștepta cu răbdare finalizarea introducerii informatice a datelor.
+75	Un moment, încarc totul. Sistemul e lent. Rămâneți aici, vă rog. Apoi vă explic controalele Polizia Locale.
+76	Vă mulțumesc călduros pentru tratarea promptă a procedurii administrative.
+77	Nu, totul e clar. Mulțumesc, ați fost amabil. La revedere.
+78	Atunci de ce nu-mi dați imediat carta d'identità?
+79	Gata. Păstrați chitanța. În zilele următoare pot veni vigili să verifice că locuiți într-adevăr acolo. Alte întrebări?
+80	Anagrafe: Boss Level
+81	Residenza obținută cu succes!
+82	Comune di Treviso, în această dimineață. De la totem până la chitanță. Fără traduceri, fără explicații.
+83	
+84	Bună dimineața, mulțumesc. Merg la totem.
+85	Selectez opțiunea Anagrafe / residenza.
+86	Bine, aștept aici cu tichetul.
+87	Este numărul meu. Merg la sportello 4.
+88	Ah, scuzați-mă foarte mult. Merg la sportello 4, mulțumesc.
+89	Bună dimineața. Da, numărul 37. Aș dori să prezint dichiarazione di residenza.
+90	Iată, toate în original: pașaportul, codice fiscale, permesso și contractul.
+91	Completez formularul aici. Marca da bollo o am, iată.
+92	Locuiesc pe via Roma doisprezece, interno trei, etajul doi. Locuiesc cu soția și fiica mea.
+93	Semnez aici. Aștept, mulțumesc.
+94	Bine, aștept. Mulțumesc pentru informație.
+95	Mulțumesc, o pun în dosar. La revedere, o zi bună.
+96	Unde e sportello? Nu am timp pentru numere.
+97	Vă mulțumesc pentru indicația privind aparatul de eliberare a tichetelor.
+98	Bună dimineața. Pentru Anagrafe totemul este în stânga. Apoi așteptați numărul.
+99	Optez pentru opțiunea privind iscrizione anagrafica.
+100	Carta d'identità este mai rapidă.
+101	1 Carta d'identità  2 Anagrafe / residenza  3 Stato civile  4 Pagamenti
+102	Întreb la sportello dacă pot trece, oricum e loc.
+103	Mă voi conforma ordinii de apel electronic.
+104	Așezați-vă. Numărul apare pe tablou. Nu vă apropiați de sportello înainte.
+105	Merg la sportello 2, sunt mai puțini oameni.
+106	Mă îndrept către ghișeul corespunzător anunțului luminos.
+107	Cer iertare pentru confuzie și mă îndrept către sportello indicat.
+108	Este același Comune, o puteți face dumneavoastră.
+109	Acest sportello este pentru carta d'identità. Residenza este la sportello 4.
+110	Bună dimineața. Vă prezint tichetul de coadă și cererea de residenza.
+111	Salut. Vreau residenza, și repede.
+112	Bună dimineața, vă ascult. Aveți numărul?
+113	Pozele sunt pe telefon. Originalele le aduc după.
+114	Vă depun întreaga documentație în original, așa cum se cere.
+115	Îmi trebuie documentele: pașaportul, codice fiscale, permesso și contractul de închiriere.
+116	Proced imediat la completare și la predarea contrassegno di bollo.
+117	Faceți dumneavoastră. Eu semnez după, dacă îmi convine.
+118	Formularul de dichiarazione nu e. Îl completați acum. Și marca da bollo de 16 euro?
+119	E o stradă în centru. Detaliile nu le țin minte.
+120	Locuința este situată pe via Roma 12, interno 3, etajul doi, cu nucleo familiare care locuiește împreună.
+121	Care este nucleo familiare? Spuneți-mi adresa completă, interno și etajul.
+122	Mă întorc peste o oră, sunați-mă pe mobil.
+123	Pun semnătura și aștept încărcarea sistemului.
+124	Semnați jos. Apoi rămâneți un moment: încarc datele.
+125	Iau act de posibila verificare a Polizia Locale la domiciliu.
+126	Vigili acasă? Atunci nu semnez nimic.
+127	Sistemul e lent azi. Rămâneți aici. Apoi poate urma controlul vigili acasă, în zilele următoare.
+128	Vă mulțumesc pentru eliberarea chitanței și vă doresc o continuare plăcută.
+129	Această hârtie e residenza definitivă, nu-i așa? Atunci dă-mi și identitatea.
+130	Gata. Iată chitanța. Păstrați-o. O zi bună.
+131	ASL și Tessera Sanitaria: Înregistrare în sistemul medical
+132	Imersiune și vocabular
+133	Laura s-a mutat de curând la Padova. După înregistrarea residenza la Anagrafe face următorul pas important — merge la ASL (Azienda Sanitaria Locale) să se înscrie în SSN (Servizio Sanitario Nazionale), să obțină Tessera Sanitaria și să aleagă un medic de familie (Medico di base). Are la ea: passaporto, permesso di soggiorno, codice fiscale și dichiarazione di residenza.
+134	Trebuie să mă înscriu la Servizio Sanitario Nazionale.
+135	Trebuie să aleg un medico di base.
+136	Este aproape de casa mea.
+137	Unde trebuie să merg în caz de urgență?
+138	Pașaport / act de identitate
+139	Permis de ședere
+140	Cod fiscal
+141	Declarație de reședință
+142	Terminologie medicală și dreptul la asistență
+143	Folosirea expresiei «Avere diritto a...» (Ha diritto all'iscrizione).
+144	Aveți dreptul la înscriere gratuită.
+145	Am dreptul la medico di base.
+146	Indicarea distanței: «vicino a...» (aproape de...).
+147	Medicul este aproape de casa mea.
+148	Biroul este aproape de Comune.
+149	Înscrierea în SSN cu permis de ședere (Permesso di soggiorno) este complet gratuită. Când vorbiți cu personalul ASL, folosiți întotdeauna forma politicoasă «Lei» și salutați cu «Buongiorno».
+150	Vizită la ASL: Eliberarea cardului și alegerea medicului
+151	Dialog interactiv
+152	Laura intră în sediul ASL și se apropie de ghișeu (sportello). Angajata verifică documentele și confirmă dreptul la înscriere gratuită în SSN.
+153	Bună dimineața, scuzați-mă. Trebuie să mă înscriu la Servizio Sanitario Nazionale. Acesta este sportello potrivit?
+154	Iată pașaportul, permesso di soggiorno, codice fiscale și dichiarazione di residenza.
+155	Nu, încă nu. Cum pot să-l aleg? Pot să văd lista medicilor disponibili?
+156	Da, mi se pare convenabil. E aproape de casă, îl aleg pe acesta.
+157	Mulțumesc! Și dacă am o problemă urgentă seara sau în weekend?
+158	Mulțumesc frumos pentru explicație! O zi bună.
+159	Scuzați-mă, sunt aici pentru reînnoirea pașaportului. Unde stau la coadă?
+160	Salut, vreau tessera sanitaria imediat.
+161	Bună dimineața. Spuneți-mi, cu ce vă pot ajuta?
+162	Am doar carta d'identità.
+163	Documentele sunt acasă, le trimit după pe email.
+164	Da, bună dimineața. Arătați-mi documentele, vă rog.
+165	Da, am deja medico di base în Ucraina. Merge și așa?
+166	Da, am deja chitanța de la Anagrafe.
+167	Perfect. Cu permesso di soggiorno al dumneavoastră aveți dreptul la înscriere gratuită. Aveți deja un medico di base?
+168	Dați-mi primul din listă, nu contează cine e.
+169	Nu, prefer un medic în alt oraș, departe de casă.
+170	Vă arăt o listă a medicilor disponibili în zona dumneavoastră. Acest medic e aproape de casa dumneavoastră și are loc.
+171	Trebuie să plătesc două sute de euro pentru card, nu-i așa?
+172	Cardul definitiv sosește azi, îl aștept aici trei ore.
+173	Perfect, îl înregistrez imediat. Iată tessera sanitaria provizorie.
+174	Atunci merg mereu la pronto soccorso chiar și pentru o răceală.
+175	Guardia medica e doar pentru turiști, nu-i așa?
+176	Pentru urgențe seara și în sărbători există guardia medica. Pentru urgențe grave există pronto soccorso, deschis 24 de ore din 24.
+177	Rețineți diferența: Guardia Medica lucrează noaptea și în weekend pentru urgențe casnice. Pronto Soccorso este urgența 24/7 pentru situații grave și care pun viața în pericol.
+178	Boss Level 🏆: Simulare de înscriere la ASL
+179	Simulare nivel boss
+180	Examenul final al modulului! Laura parcurge tot drumul la Padova singură: de la verificarea documentelor până la alegerea medicului și deosebirea Guardia Medica de Pronto Soccorso. Indiciile și traducerea sunt dezactivate!
+181	Cum spui angajatului ASL că trebuie să te înscrii în sistemul de sănătate?
+182	«Devo iscrivermi...» = «Trebuie să mă înscriu...»
+183	Ce frază folosești ca să ceri să alegi un medic de familie?
+184	«Medico di base» este medicul de familie.
+185	Cum precizezi dacă medicul e aproape de locuința ta?
+186	«È vicino a casa mia?» = «E aproape de casa mea?»
+187	Unde trebuie să te adresezi în caz de pericol grav și continuu pentru sănătate?
+188	«Pronto Soccorso» — secția de urgență (24/7).
+189	Ce va răspunde angajatul despre costul înscrierii cu Permesso di Soggiorno?
+190	Înscrierea în SSN cu permis de ședere este gratuită.
+191	Cui trebuie să te adresezi pentru urgențe medicale noaptea sau în sărbători?
+192	«Guardia Medica» — serviciul de gardă noaptea și de sărbători.
+193	Membru SSN 🏥
+194	Felicitări! Ați trecut simularea, ați obținut Tessera Sanitaria și ați ales un medic de familie în Italia!
+195	Restaurant și trattoria: Rezervare și cultura mesei
+196	Marco și Laura decid să ia prânzul la o trattoria de familie din Treviso. În Italia cultura mesei contează: e important să știi să rezervi masă, să comanzi apă, să înțelegi «coperto» pe notă și cum să ceri cafea după prânz.
+197	Aș dori să rezerv o masă pentru două persoane pentru diseară.
+198	Aveți o masă liberă pentru doi?
+199	Aș dori o sticlă de apă plată sau carbogazoasă, vă rog.
+200	Putem avea meniul, vă rog?
+201	Coperto e taxa pentru pâine și servire (de obicei 1,50€–3,00€ de persoană, trecută în meniu).
+202	Cappuccino în Italia se bea doar până la 11:00. După prânz se comandă Caffè espresso sau Macchiato.
+203	Apa se servește mereu la sticlă: trebuie precizat «naturale» (fără gaz) sau «frizzante» (cu gaz).
+204	Cereri politicoase cu «Vorrei» și «Possiamo»
+205	Folosirea «Vorrei + infinitiv» în loc de «Voglio» (Aș dori...).
+206	Aș dori să comand.
+207	Aș dori o masă în aer liber.
+208	Întrebarea «Possiamo + infinitiv» (Putem...?).
+209	Putem să ne așezăm aici?
+210	Putem avea nota de plată?
+211	În restaurantele italiene prânzul (pranzo) e de obicei 12:30–14:30, iar cina (cena) nu începe înainte de 19:30 sau 20:00.
+212	Dialog viu: Comandă și plată
+213	Marco și Laura intră în trattoria. Chelnerul (Cameriere) îi întâmpină la intrare și îi duce la masă.
+214	Am mâncat deja, vrem doar să folosim toaleta.
+215	Salut, vreau să mănânc imediat.
+216	Bună dimineața! Avem o rezervare pe numele Marco pentru două persoane.
+217	Bună dimineața! Ați rezervat sau căutați o masă?
+218	Aș dori două Coca-Cola mari cu gheață și lămâie, ca la fast food.
+219	O sticlă de apă plată și două pahare de vin al casei, mulțumesc.
+220	Dă-mi apă și gata.
+221	Perfect, intrați. Iată meniul. Ce vă aduc de băut pentru început?
+222	Da! Ca primo luăm două tagliatelle al ragù, iar ca secondo o tagliata di manzo de împărțit.
+223	Aș dori un cappuccino și o pizza al ragù.
+224	Aduceți totul împreună, nu contează ordinea felurilor.
+225	Sunteți gata să comandați felurile?
+226	Aș dori două cappuccini mari, mulțumesc.
+227	Aș dori un ceai cu lapte și o bere mare, după paste.
+228	Aș dori un tiramisù și două caffè espresso, vă rog.
+229	Alegere excelentă! Doriți un desert sau o cafea la final?
+230	Nu, mulțumesc. Când se poate, putem avea nota de plată?
+231	Putem ieși fără să plătim, ne întoarcem mâine.
+232	Da, aș dori încă un primo. Nota aduceți-o singur, fără să întrebați.
+233	Perfect, vin imediat. Mai e nevoie de ceva?
+234	Plătim cu bancnote de două sute, fără bacșiș și fără bon.
+235	Plătim cu cardul, împreună. Mulțumim frumos, totul a fost minunat!
+236	Împărțim nota în zece părți egale, și pentru cine n-a mâncat.
+237	Desigur! Plătiți împreună sau separat? Acceptăm și cardul.
+238	În Italia nota nu vine automat imediat ce ați terminat — se consideră că grăbești oaspetele. Trebuie să spui chelnerului: «Il conto, per favore».
+239	Boss Level 🏆: Simulare de prânz într-un restaurant italian
+240	Examenul final al modulului! Comandați singuri prânzul la trattoria, vorbiți cu chelnerul, alegeți băuturile potrivite și plătiți. Indiciile și traducerea sunt dezactivate!
+241	Cum ceri politicos să rezervi o masă pentru seară?
+242	«Vorrei prenotare...» = «Aș dori să rezerv...»
+243	Ce înseamnă poziția «Coperto» în restaurant?
+244	«Coperto» e o taxă fixă pentru veselă, pâine și servire.
+245	Ce cafea se obișnuiește să comanzi în Italia imediat după prânz?
+246	După masă italienii beau espresso pentru digestie.
+247	Cum ceri corect nota chelnerului?
+248	«Il conto, per favore» = «Nota, vă rog».
+249	Cum precizezi chelnerului că vrei apă fără gaz?
+250	«Acqua naturale» = apă fără gaz.
+251	Maestru al restaurantului 🍝
+252	Felicitări! Ați însușit eticheta restaurantelor italiene, comandați ușor felurile și vă orientați pe notă!
+253	Căutăm locuință: Anunțuri, garanție și condominiu
+254	Laura caută un apartament nou în Padova/Treviso. Pe un portal a găsit o ofertă atractivă, dar ca să închiriezi în Italia trebuie să te orientezi: să deosebești «monolocale» de «trilocale», să înțelegi «spese condominiali» (cheltuieli de condominiu) și câte luni are «caparra» (garanția).
+255	Am văzut anunțul dumneavoastră pentru apartamentul de închiriat.
+256	Mai este disponibil apartamentul?
+257	Spese condominiali sunt incluse în preț?
+258	Când putem stabili o programare ca să-l vedem?
+259	Monolocale — apartament cu 1 cameră (studio). Bilocale — 2 camere (dormitor + living cu bucătărie). Trilocale — 3 camere.
+260	Spese condominiali — plăți pentru curățenia scării, lift, iluminat și îngrijirea curții. De cele mai multe ori se facturează separat de chirie.
+261	Caparra / Deposito cauzionale — garanție, de obicei 2–3 luni de chirie, restituită la plecare.
+262	Contratto 4+4 sau 3+2 — cele mai populare tipuri de contracte de închiriere pe termen lung în Italia.
+263	Precizarea condițiilor cu «Sono inclusi/e...?» și «Vorrei fissare...»
+264	Întrebare despre servicii incluse: «Sono inclusi/e...?» (Sunt incluse...?).
+265	Consumul de apă și gaz este inclus?
+266	Spese condominiali sunt excluse.
+267	Stabilirea orei: «Fissare un appuntamento» (A programa o întâlnire).
+268	Aș dori să stabilesc o vizionare.
+269	Pot veni să văd casa mâine?
+270	În Italia proprietarii cer aproape mereu «busta paga» (fluturaș/dovadă de venit) sau un garant înainte de semnare, ca să se asigure că puteți plăti.
+271	Dialog viu: Apel la proprietar și acordarea condițiilor
+272	Laura sună proprietarul — Signor Mario — ca să întrebe detaliile anunțului și să convină o vizionare.
+273	Bună dimineața Signor Mario, sunt Laura. Sun pentru anunțul apartamentului de închiriat. Mai este disponibil?
+274	Salut Mario, vreau casa ta. Cât costă?
+275	Alo, sunt o agenție. Trimiteți cheile prin curier astăzi.
+276	Alo! Cine vorbește?
+277	Bine, vin să dorm diseară.
+278	Bine, dar vreau un contract doar de o săptămână, la negru.
+279	Perfect! Îmi spuneți prețul lunar? Spese condominiali sunt incluse în preț?
+280	Da, bună dimineața Laura. Apartamentul e încă liber. Este un bilocale mobilat la etajul doi, cu lift.
+281	Am înțeles. Iar în privința utenze de lumină și gaz, trebuie volturate pe numele meu?
+282	Facturile la utilități rămân pe numele dumneavoastră pentru totdeauna, eu nu semnez nimic.
+283	Nu vreau să plătesc cheltuielile de condominium.
+284	Chiria este de 650 de euro pe lună. Spese condominiali sunt 80 de euro separat și includ apa și curățenia scărilor.
+285	Caparra e gratuită, nu-i așa?
+286	Bine, e clar. Când putem programa o întâlnire ca să vedem apartamentul?
+287	Plătesc caparra după trei luni, dacă îmi place casa.
+288	Da, utilitățile trebuie puse pe numele dumneavoastră. Cerem și trei luni de caparra confirmatoria.
+289	Mâine la 17:00 e prea devreme. Vin la miezul nopții.
+290	Nu, vin fără anunț diseară târziu, sunați la interfon.
+291	Da, perfect! Mâine la 17:00. Îmi puteți trimite adresa exactă prin mesaj?
+292	Putem să ne vedem mâine după-amiază pe la 17:00 în fața porții. Vă convine?
+293	Dacă plouă, nu vin. Vă sun peste o lună.
+294	Mulțumesc frumos, signor Mario, pe mâine! O zi bună.
+295	Ok, dar trimiteți și cheile pe WhatsApp în poză, e de ajuns.
+296	Desigur, vă trimit imediat un SMS cu adresa. Atunci, pe mâine!
+297	Termenul «Voltura» înseamnă transferul contractelor de lumină/gaz pe numele vostru, iar «Subentro» e o racordare nouă dacă contoarele erau sigilate.
+298	Boss Level 🏆: Simulare de căutare și închiriere a unui apartament
+299	Examenul final al modulului! Sunați singuri proprietarul, aflați despre cheltuielile de condominiu și garanție și conveniți o vizionare. Indiciile și traducerea sunt dezactivate!
+300	Cum îl întrebi pe Signor Mario dacă apartamentul din anunț e încă liber?
+301	«È ancora disponibile?» = «E încă disponibil / liber?»
+302	Ce înseamnă «Spese condominiali» la închiriere?
+303	«Spese condominiali» — cheltuieli de întreținere a clădirii și a scării.
+304	Ce este «Caparra» (sau «Deposito cauzionale»)?
+305	Garanția (caparra) e de obicei egală cu chiria pe 2–3 luni.
+306	Cum spui proprietarului «Când putem conveni o întâlnire să vedem apartamentul?»
+307	«Fissare un appuntamento» = a programa o întâlnire/vizită.
+308	Ce înseamnă termenul «Bilocale» în anunțurile imobiliare?
+309	«Bilocale» = locuință cu două camere.
+310	Expert în locuință 🔑
+311	Felicitări! Vă orientați în termenii de închiriere din Italia, înțelegeți calculul condominiului și știți să conveniți o vizionare!
+312	La oficiul poștal: Coadă, chitanțe și trimiteri
+313	Marco și Laura au venit la o sucursală Poste Italiane. În Italia poșta nu e doar colete, ci și centru de plată a facturilor, ridicare de scrisori oficiale și servicii financiare. La intrare trebuie luat un bilet de la terminal după tema cererii.
+314	Trebuie să trimit acest colet / această scrisoare în Ucraina.
+315	Trebuie să plătesc acest bollettino postale.
+316	Am primit un aviz de păstrare pentru o scrisoare recomandată.
+317	Ce buton trebuie să apăs ca să iau biletul?
+318	Ticket al totem — la intrare pe terminal alegeți: «Spedizioni e Pacchi» (trimiteri), «Pagamenti» (chitanțe/plăți) sau «Ritiro» (ridicare).
+319	Raccomandata — scrisoare recomandată predată contra semnătură. Dacă nu erai acasă, poștașul lasă un cartonaș galben «Avviso di giacenza».
+320	Bollettino — chitanță pe formular sau cu cod de bare pentru utilități, amenzi și taxe de stat.
+321	Verbul «Spedire» (a trimite) și «Pagare» (a plăti)
+322	Conjugarea «Spedire» (grupa ISC): Io spedisco, Tu spedisci, Lui/Lei spedisce.
+323	Trimit un colet mamei.
+324	Doriți să trimiteți cu poștă prioritară?
+325	Expresii cu «Prendere / Ritirare»: «Ritirare un pacco» (A ridica un colet).
+326	Trebuie să ridic o scrisoare recomandată.
+327	Unde pot ridica coletul?
+328	Pentru a ridica un colet sau o scrisoare recomandată la poștă trebuie pașaport sau Carta d'identità și Codice Fiscale.
+329	Dialog viu: Plata unei chitanțe și trimiterea unui colet
+330	Laura ia un bilet și se apropie de ghișeu (sportello) după ce numărul ei s-a aprins pe tablou.
+331	Bună dimineața! Trebuie să trimit acest colet în Ucraina și să plătesc un bollettino.
+332	Trebuie să ridic pensia și să schimb ISEE, vă rog.
+333	Salut, vreau să cumpăr o pizza.
+334	Bună dimineața! Numărul P045! Spuneți-mi, cu ce vă pot ajuta?
+335	Nu vreau să cântăresc coletul.
+336	Expedierea standard e perfectă. Cât durează livrarea?
+337	Aș vrea cea mai scumpă expediere posibilă, chiar dacă ajunge peste două luni.
+338	Da, desigur. Puneți coletul pe cântar. Doriți expediere standard sau expres?
+339	Am scris doar numele meu, restul îl faceți voi.
+340	Nu, nu știu adresa.
+341	Da, am scris totul pe colet: adresa, expeditorul și destinatarul.
+342	De obicei durează circa 7-10 zile lucrătoare. Ați completat deja formularul cu adresa destinatarului?
+343	Pot plăti bollettino fără act, e mai rapid.
+344	Desigur, iată cartea mea de identitate și codice fiscale.
+345	Am doar chitanța de la restaurant.
+346	Perfect. Acum trecem la bollettino. Îmi puteți arăta actul de identitate?
+347	Plătesc cu cardul, mulțumesc.
+348	Plătesc săptămâna viitoare, acum n-am bani.
+349	Există reducere de student, nu-i așa? Atunci plătesc doar un euro.
+350	În total sunt 22 de euro pentru colet și 45 de euro pentru bollettino. Plătiți cu numerar sau cu cardul?
+351	Arunc codul de urmărire, nu-mi trebuie.
+352	Puteți livra coletul acasă la mine diseară personal?
+353	Mulțumesc frumos! O zi bună și dumneavoastră.
+354	Iată chitanța de plată și codul de urmărire al coletului. O zi bună!
+355	Codul de urmărire se numește «Codice di tracciamento» sau «Numero di raccomandata». Îl poți introduce pe site-ul Poste Italiane la «Cerca spedizioni».
+356	Boss Level 🏆: Simulare a unei vizite la poștă (Poste Italiane)
+357	Examenul final al modulului! Alegeți singuri serviciul la terminal, vorbiți cu angajatul, trimiteți o scrisoare și plătiți o chitanță. Indiciile și traducerea sunt dezactivate!
+358	Ce trebuie să faci imediat ce intri într-un oficiu Poste Italiane?
+359	În Italia, la poștă este obligatoriu sistemul de coadă electronică prin terminal (totem).
+360	Cum spui «Trebuie să trimit un colet» în italiană?
+361	'Spedire un pacco' = a trimite un colet.
+362	Ce este o 'Raccomandata'?
+363	'Raccomandata' este o scrisoare recomandată oficială cu valoare juridică.
+364	Cine este 'Mittente' pe un plic sau o cutie poștală?
+365	'Mittente' = expeditor, iar 'Destinatario' = destinatar.
+366	Cum se numește numărul pentru verificarea statusului și locației coletului pe internet?
+367	'Codice di tracciamento' = număr de urmărire.
+368	Expert Poștă ✉️
+369	Felicitări! Te orientezi cu ușurință în serviciile Poste Italiane: poți trimite colete, scrisori recomandate și plăti facturi!
+370	La Patronato: documente, ISEE și alocații pentru copii
+371	Marco și Laura merg la un birou Patronato / CAF din orașul lor. În Italia, Patronato este un serviciu social gratuit sau ieftin care ajută străinii și familiile să solicite prestații, să depună declarații, să facă ISEE (indicatorul situației economice) și să primească alocația lunară pentru copil (Assegno Unico Universale).
+372	Aș vrea să programez o întâlnire pentru modello ISEE.
+373	Aș vrea să depun cererea pentru Assegno Unico pentru fiica mea.
+374	Ce documente sunt necesare pentru cerere?
+375	Am nevoie de ajutor pentru declarația de venit.
+376	Patronato e CAF sunt instituții care ajută gratuit sau contra unei sume simbolice cu taxele, indemnizațiile de maternitate, bonusurile pentru copii și alte ajutoare.
+377	ISEE este calculul oficial al situației financiare a familiei. Este necesar pentru reduceri importante la grădiniță, mese școlare, bonusuri la utilități și plata Assegno Unico.
+378	Assegno Unico Universale este o alocație lunară pentru fiecare copil minor din familie.
+379	Construcții 'Fare la domanda' (a depune o cerere) și 'Servono / Serve' (este nevoie)
+380	Expresii cu 'Fare': 'Fare la domanda' (a depune o cerere), 'Fare l'ISEE' (a face calculul ISEE).
+381	Vreau să depun cererea pentru bonus nido.
+382	Trebuie să fac ISEE actualizat.
+383	Diferența 'Serve' (singular) / 'Servono' (plural): «este nevoie / sunt necesare».
+384	Este nevoie de cartea de identitate?
+385	Sunt necesare toate documentele membrilor familiei.
+386	Pentru cereri la Patronato, luați întotdeauna acte de identitate valabile (Carta d'Identità), Codice Fiscale al tuturor membrilor familiei și datele bancare (IBAN) pentru virament.
+387	Dialog viu: consultație și depunerea documentelor la Patronato
+388	Laura vine la programare la un consultant Patronato (Operatore CAF) pentru a solicita Assegno Unico pentru fiica ei de 3 ani.
+389	Nu, nu am programare. Treceam întâmplător, fac totul acum.
+390	Salut, vreau bani pentru cumpărături.
+391	Bună dimineața! Da, exact. Am rezervare la 10:00.
+392	Bună dimineața, doamnă! Vă rog, luați loc. Aveați programare pe numele Laura?
+393	Aș vrea doar o copie a cărții de identitate, fără dosare.
+394	Aș vrea să depun cererea pentru Assegno Unico pentru fiica mea de 3 ani. Am făcut deja ISEE.
+395	Trebuie să trimit un colet în Ucraina.
+396	Bine. Cu ce vă pot ajuta astăzi?
+397	Desigur! Iată Carta d'Identità, Codice Fiscale al meu și al fiicei, și modello ISEE.
+398	Nu am niciun document la mine.
+399	Am doar bonul de la bar, documentele sunt în mașină.
+400	Excelent! Dacă aveți deja ISEE, totul e mai simplu. Îmi arătați actele de identitate și codici fiscali?
+401	Plătesc cu numerar la casă.
+402	IBAN-ul e al unui prieten, el ridică banii pentru mine.
+403	Da, contul e pe numele meu. Iată codul IBAN al contului meu bancar.
+404	Perfect. Îmi trebuie și IBAN-ul contului dumneavoastră curent pentru plata lunară. Este pe numele dumneavoastră?
+405	Foarte bine, unde trebuie să semnez?
+406	Semnați dumneavoastră în locul meu, mă grăbesc.
+407	Nu semnez nimic fără notar și trei martori.
+408	Foarte bine. Introduc datele în sistemul INPS. Trebuie doar să semnați această chitanță și formularul de delega.
+409	Banii sosesc azi cash, nu-i așa? Îi aștept aici.
+410	Vă mulțumesc mult pentru ajutor! O zi bună și spor la muncă.
+411	Trimiteți Assegno Unico la alt CAF, m-am răzgândit.
+412	Iată copia cererii trimise. Plata va ajunge luna viitoare în contul dumneavoastră. O zi bună!
+413	Majoritatea alocațiilor și ajutoarelor pentru copii sunt procesate de instituția de stat INPS (Istituto Nazionale della Previdenza Sociale), iar Patronato este intermediarul oficial pentru transmiterea documentelor.
+414	Boss Level 🏆: Simulare de solicitare a unui ajutor la Patronato
+415	Examenul final al modulului! Mergi singur la programare la Patronato/CAF și depui documente pentru ISEE și alocațiile pentru copil. Indiciile și traducerea sunt dezactivate!
+416	Ce este certificatul 'ISEE' în Italia?
+417	ISEE este un indicator al situației patrimoniale pentru calculul ajutoarelor sociale.
+418	Cum se numește alocația de stat lunară pentru copil în Italia?
+419	'Assegno Unico' este principala plată pentru copii din țară.
+420	Cum spui consultantului «Aș dori să depun cererea pentru alocația pentru copil»?
+421	'Fare la domanda' = a depune o cerere.
+422	Ce date sunt necesare pentru virarea plăților lunare de la INPS?
+423	Plățile se virează într-un cont bancar după codul IBAN.
+424	Cum întrebi consultantul: «Ce documente sunt necesare pentru depunerea cererii?»
+425	'Quali documenti servono...?' = 'Ce documente sunt necesare...?'
+426	Expert Patronato 📋
+427	Felicitări! Te orientezi complet în funcțiile Patronato/CAF, știi cum să faci ISEE, Assegno Unico și să lucrezi cu prestațiile sociale în Italia!
+428	La bar: cultura cafelei, patiserie și plata la casă
+429	Marco și Laura intră într-un bar local la micul dejun (colazione). În Italia, barul nu e un local de noapte, ci locul principal pentru cafeaua de dimineață, întâlniri cu vecinii și o gustare. Regulă importantă: adesea plătești mai întâi la casă, primești bonul (scontrino), apoi te duci cu el la tejghea (al banco).
+430	Aș vrea un caffè espresso și un cornetto cu cremă, vă rog.
+431	Putem să stăm la masă sau se plătește mai mult?
+432	Aș vrea un macchiato cald și un pahar cu apă, mulțumesc.
+433	Fac mai întâi bonul la casă?
+434	Al banco vs Al tavolo — cafeaua la tejghea (al banco) e mai ieftină decât la masă (al tavolo), unde se adaugă taxa de serviciu.
+435	Prima la cassa — în multe baruri aglomerate comanzi și plătești mai întâi la casă, apoi dai bonul barista-ului cu «Un caffè, per favore».
+436	Cornetto / Brioche — croissantul italian. În nordul Italiei se spune mai des 'brioche', în centru și sud — 'cornetto'.
+437	Tipuri de cafea și prepozițiile 'con' / 'senza'
+438	Tipuri principale de cafea: Caffè (espresso), Macchiato (espresso cu o picătură de lapte), Decaffeinato (fără cofeină), Cappuccino.
+439	Aș vrea un decaffeinato, vă rog.
+440	Aș vrea un macchiato rece.
+441	Precizarea ingredientelor: 'Con' (cu) și 'Senza' (fără).
+442	Aș vrea un cappuccino cu lapte de ovăz.
+443	Aș vrea un cornetto fără zahăr.
+444	În Italia, la cafeaua de la tejghea se oferă adesea gratuit un pahar mic de apă (un bicchierino d'acqua). Dacă nu l-au adus, poți cere politicos: 'Un bicchiere d'acqua, per favore'.
+445	Dialog viu: cafeaua de dimineață și comanda la tejghea
+446	Marco merge la casa barului, cumpără bonul, apoi comandă micul dejun de la barista la tejghea.
+447	Bună dimineața! Aș vrea un cappuccino, un caffè macchiato și două brioche.
+448	Aș vrea un prânz de trei feluri și nota separat pentru zece.
+449	Salut, dă-mi o pizza mare.
+450	Bună dimineața! Ce vă pregătesc?
+451	Vreau codice fiscale.
+452	Una cu gem și una cu ciocolată, vă rog.
+453	Amândouă goale, dar cu frișcă și Nutella deasupra, la pachet calde.
+454	Perfect. Cum doriți brioche-urile? Avem goale, cu gem sau cu ciocolată.
+455	Aduceți totul la masă cu serviciu la masă, ca la restaurant.
+456	Las bonul acasă, mă duc la masă fără să plătesc.
+457	Mulțumesc frumos! Merg imediat la tejghea.
+458	Sunt 5 euro și 20 în total. Poftiți, iată bonul. Îl puteți lăsa la tejghea.
+459	Aș vrea un macchiato cu gheață, frișcă și sirop, și fără apă.
+460	Macchiato cald, vă rog. Și putem avea și două pahare de apă plată?
+461	Nu vreau cafea.
+462	Bună dimineața! Lăsați-mi bonul. Macchiato-ul îl doriți cald sau rece?
+463	Mulțumesc frumos, foarte amabil! O zi bună.
+464	Cappuccino-ul e prea italian, îl schimb cu o pizza.
+465	Nu zic mulțumesc, aici nu se obișnuiește.
+466	Poftiți! Un cappuccino, un macchiato cald, cele două brioche și apa. Poftă bună!
+467	Bacșișul (mancia) nu e obligatoriu în barurile italiene. Totuși, oamenii lasă adesea o monedă de 20 sau 50 de cenți pe bon, la tejghea, ca semn de mulțumire.
+468	Boss Level 🏆: Simulare de comandă într-un bar italian
+469	Examenul final al modulului! Comanzi singur cafea și patiserie și vorbești cu casierul și barista la tejghea. Indiciile și traducerea sunt dezactivate!
+470	De ce cafeaua la tejghea (al banco) e de obicei mai ieftină decât la masă (al tavolo)?
+471	Serviciul la masă include un adaos 'servizio al tavolo'.
+472	Ce este un 'Caffè Macchiato'?
+473	'Macchiato' înseamnă «pătat» — espresso cu o picătură de lapte.
+474	Cum ceri un croissant cu ciocolată în italiană?
+475	'Cornetto al cioccolato' = croissant cu ciocolată.
+476	Ce trebuie să faci cu bonul (scontrino) la tejgheaua barista-ului?
+477	Bonul se lasă pe tejghea ca dovadă a plății.
+478	Cum ceri politicos un pahar de apă la cafea?
+479	'Un bicchiere d'acqua, per favore' = 'Un pahar de apă, vă rog'.
+480	Maestru al cafelei ☕
+481	Felicitări! Ai stăpânit cultura cafelei din Italia, comanzi cu ușurință micul dejun la tejghea și cunoști nuanțele barului!
+482	La supermarket: cântare, raioane și produse
+483	Marco și Laura merg la un supermarket din Treviso pentru cumpărăturile săptămânii. În Italia există reguli de etichetă: fructele și legumele trebuie cântărite singur, cu mănuși de unică folosință (guanti monouso), iar la raionul de gastronomie (banco gastronomia) adesea trebuie luat un număr (biglietto).
+484	Unde pot găsi uleiul de măsline?
+485	Trebuie să cântăresc fructele aici sau la casă?
+486	Aș vrea două sute de grame de prosciutto crudo, vă rog.
+487	Aveți cardul de fidelitate / carta fidaty?
+488	Pentru alegerea fructelor și legumelor proaspete poartă obligatoriu mănuși de plastic (guanti) din motive de igienă.
+489	Pe cântar apare de obicei numărul produsului de pe etichetă (de exemplu Tasto 14). Introduci numărul tu însuți și lipești eticheta pe pungă.
+490	La raionul de carne și brânzeturi (Banco Gastronomia) se comandă după greutate în grame: 'Un etto' = 100 g, 'Due etti' = 200 g.
+491	Unități de măsură 'Un etto / Due etti' și pronume demonstrative 'Questo / Quello'
+492	Comandă după greutate: 'Un etto' (100 g), 'Due etti' (200 g), 'Un chilo' (1 kg).
+493	Aș vrea un etto de Parmigiano.
+494	Iau două etti de șuncă fiartă.
+495	Indicarea produsului: 'Questo' (acesta, aproape) / 'Quello' (acela, mai departe).
+496	Îmi dați bucata asta de brânză?
+497	Aș vrea feliat.
+498	Punga de la casă în Italia se cumpără separat și se numește 'sacchetto' sau 'busta'. Mulți italieni merg la cumpărături cu sacoșe reutilizabile (borse della spesa).
+499	Dialog viu: la casă și la raionul de gastronomie
+500	Marco se apropie de raionul de gastronomie (banco frigo/gastronomia), apoi merge la casă (cassa).
+501	Numărul nu contează, trec înainte că mă grăbesc.
+502	Salut, vreau brânză imediat.
+503	Bună dimineața! Eu sunt numărul 42.
+504	Bună dimineața! Cine e următorul? Numărul 42!
+505	Aș vrea un kilogram de lapte și două sticle de pâine, tăiate subțire.
+506	Aș vrea două etti de Prosciutto di Parma și o bucată de Parmigiano Reggiano, vă rog.
+507	Dă-mi trei litri de șuncă.
+508	Spuneți, ce vă pregătesc?
+509	Da, șunca o vreau tăiată subțire. Iar bucata de brânză e perfectă, mulțumesc.
+510	Nu, nu-mi place Anagrafe.
+511	Tăiați-l cuburi mari, iar brânza o gust toată mai întâi.
+512	Tăiem șunca subțire? Iar pentru Parmigiano, e bună bucata asta de trei sute de grame?
+513	Am doar medicul de familie.
+514	Da, am tessera sanitaria, e același lucru.
+515	Bună dimineața! Nu, n-o am. Pot să o fac acum?
+516	Bună dimineața! Aveți cardul nostru de fidelitate?
+517	Da, aș vrea o pungă biodegradabilă, vă rog. Și plătesc cu cardul de credit.
+518	Punga e mereu gratuită, prin lege, fără să ceri.
+519	Nu, pun totul în buzunare. Plătesc cu timbre.
+520	Da, o puteți cere la ghișeul de informații după. Aveți nevoie de o pungă pentru cumpărături?
+521	Las bonul la casă, nu-mi trebuie la ieșire.
+522	Mulțumesc frumos, o zi bună și dumneavoastră!
+523	E o eroare de o mie de euro, nu plătesc și las cumpărăturile aici în tăcere.
+524	Sunt 34 de euro și 50 de cenți. Așezați cardul pe POS... Perfect. Iată bonul. O zi bună!
+525	'Lo scontrino' (bonul) trebuie păstrat până la ieșirea din supermarket sau magazin — poliția fiscală îl poate cere.
+526	Boss Level 🏆: Simulare de cumpărături la supermarket
+527	Examenul final al modulului! Cumperi singur, comanzi la gastronomie și plătești la casă. Indiciile și traducerea sunt dezactivate!
+528	Câte grame comanzi dacă spui 'Due etti'?
+529	Un etto = 100 de grame, deci Due etti = 200 de grame.
+530	Ce trebuie să faci obligatoriu înainte de a lua fructe sau legume proaspete la supermarket?
+531	Regulile de igienă din Italia cer folosirea mănușilor la alegerea legumelor/fructelor.
+532	Cum ceri casierului o pungă pentru cumpărături?
+533	'Un sacchetto per la spesa' = o pungă pentru cumpărături.
+534	Ce este 'Lo scontrino'?
+535	'Lo scontrino' este bonul fiscal.
+536	Cum ceri să taie șunca (prosciutto) subțire?
+537	'Tagliato sottile' = tăiat subțire.
+538	Expert la cumpărături 🛒
+539	Felicitări! Ai învățat regulile cumpărăturilor într-un supermarket italian, știi să cântărești produsele și să vorbești la casă!
+540	În transport: bilete, validare și trenuri
+541	Marco și Laura planifică o călătorie cu autobuzul urban și trenul. În Italia, biletele de autobuz se cumpără de obicei dinainte la tutungerii (Tabacchi) sau chioșcuri de ziare (Edicola). Cea mai importantă regulă: trebuie să compostezi (validezi) biletul imediat la urcarea în autobuz sau înainte de îmbarcarea pe peronul trenului.
+542	Aș vrea două bilete pentru autobuzul urban, vă rog.
+543	De pe ce peron pleacă trenul spre Veneția?
+544	Nu uita să validezi biletul înainte să urci!
+545	La ce oră trece următorul autobuz spre gară?
+546	Tabacchi e Edicola sunt cel mai simplu loc pentru bilete de autobuz. În autobuz biletul poate costa mai mult sau poate să nu se vândă deloc.
+547	Convalidare / Timbrare — compostarea biletului. Călătoria cu bilet nevalidat înseamnă amendă de 50–100 de euro de la controlor (controllore).
+548	Binario — numărul liniei/peronului în gară. Verifică întotdeauna panoul (tabellone) după numărul trenului.
+549	Prepoziții de direcție: 'In' (transport) și 'A / Da' (gări și orașe)
+550	Prepoziția 'In' pentru mijloace de transport: 'In autobus' (cu autobuzul), 'In treno' (cu trenul), 'In macchina' (cu mașina).
+551	Merg la muncă cu autobuzul.
+552	Călătorim cu trenul.
+553	Prepoziții de direcție: 'A' (spre un oraș/gară) și 'Da' (de la o linie).
+554	Iau trenul ca să merg la Milano.
+555	Pleacă de pe peronul 3.
+556	În gările din Italia, biletele pe hârtie fără oră și loc trebuie compostate obligatoriu în validatoarele verzi sau galbene (macchinette) de lângă ieșirea spre peroane!
+557	Dialog viu: cumpărarea biletului la Tabacchi și drumul spre gară
+558	Marco intră într-un Tabacchi să cumpere bilete de autobuz, apoi întreabă un trecător la stație despre orar.
+559	Bună dimineața! Aș vrea două bilete pentru autobuzul urban, vă rog.
+560	Salut, aș vrea să depun cererea pentru ISEE.
+561	Aș vrea două marche da bollo și o rețetă de la medic, pentru autobuz.
+562	Bună dimineața! Spuneți, vă rog.
+563	Nu vreau să plătesc biletul.
+564	Nu, aș vrea un abonament anual la trenul regional, tipăriți-l acum.
+565	Da, e bine. Iată 3 euro. Trebuie să le validez la bord?
+566	Desigur. E o cursă simplă de 90 de minute? Sunt 3 euro în total.
+567	Perfect, mulțumesc frumos și o zi bună!
+568	Atunci nu trebuie bilet, controlorul e mereu al nostru.
+569	Ștampilez biletul acasă, înainte să ies, e mai comod.
+570	Da, exact! De îndată ce urcați în autobuz trebuie să ștampilați biletul în aparat. La revedere!
+571	Aș vrea un cornetto cu ciocolată.
+572	Bună dimineața! Da, știți la ce oră trece următorul autobuz?
+573	Nu, aștept taxiul spre aeroport. Ce vin aveți?
+574	Bună dimineața! Așteptați și dumneavoastră linia 7 spre gară?
+575	Validez biletul vecinului, pe al meu îl țin neatins.
+576	Urc fără validare, oricum sunt doar două stații.
+577	Excelent, mulțumesc! Să nu uităm să validăm biletul de îndată ce urcăm.
+578	Ar trebui să sosească în cinci minute. Uitați, tocmai sosește!
+579	Nu vorbesc italiana, deci controlul nu se aplică.
+580	Bună dimineața! Desigur, iată biletul meu ștampilat adineauri.
+581	Biletul l-am lăsat la tutungerie, mă recunoașteți.
+582	Bună dimineața, control de bilete! Îmi arătați biletul validat, vă rog?
+583	În autobuzele urbane italiene se urcă de obicei pe ușa din față sau din spate, iar ieșirea e pe ușa din mijloc (Uscita).
+584	Boss Level 🏆: Simulare de călătorie cu transportul public
+585	Examenul final al modulului! Cumperi bilete singur, te orientezi în gară, verifici linia și vorbești cu controlorul. Indiciile și traducerea sunt dezactivate!
+586	Unde e cel mai simplu și mai ieftin să cumperi un bilet de autobuz urban în Italia?
+587	Chioșcurile Tabacchi și Edicola sunt principalele puncte de vânzare a biletelor.
+588	Ce înseamnă verbele 'Convalidare' sau 'Timbrare' în transport?
+589	'Convalidare' / 'Timbrare' înseamnă activarea/compostarea biletului.
+590	Cum întrebi în gară «De la ce linie pleacă trenul?»
+591	'Binario' înseamnă linia/peronul feroviar.
+592	Ce riscă pasagerul care călătorește fără bilet compostat?
+593	Pentru lipsa validării, controlorul dă o amendă bănească.
+594	Cum se traduce cuvântul 'Stazione'?
+595	'Stazione' = gară feroviară sau de autobuz.
+596	Călător experimentat 🚆
+597	Felicitări! Stăpânești lexicul transportului public din Italia, cumperi bilete cu ușurință și te orientezi în gări!
+598	Salon de înfrumusețare: programare pentru tuns, manichiură și îngrijire
+599	Marco și Laura planifică o vizită la salon. În Italia, la frizer/coafor (parrucchiere / barbiere) și la manichiuristă (onicotecnica / estetista) aproape întotdeauna trebuie să te programezi dinainte la telefon sau personal (prendere un appuntamento). E esențial să explici clar dorințele: lungimea părului, forma unghiilor, tipul de oja sau tunsul bărbii.
+600	Aș vrea să fac o programare pentru o tunsoare bărbătească și o manichiură.
+601	Doar o ajustare la vârfuri și coafatul, vă rog.
+602	Aș vrea să fac ojă semipermanente și să o dau jos pe cea veche.
+603	Aș vrea să scurteze părul pe laterale și să aranjeze barba.
+604	Prendere un appuntamento — programarea la o oră anume e obligatorie. Dacă întârzi chiar și 10–15 minute, merită să suni și să anunți.
+605	Piega — coafarea cu uscătorul după spălare. În saloanele italiene prețul tunsorii (taglio) e adesea separat de coafat (piega) și spălat (shampoo).
+606	Smalto semipermanente — oja semipermanentă. Dacă trebuie îndepărtat acoperirea veche, anunță la programare: 'Devo anche togliere il gel vecchio'.
+607	Verbe pentru programare și dorințe: 'Vorrei + infinitiv' și 'Accorciare / Spuntare'
+608	Programare politicoasă cu 'Vorrei': 'Vorrei prenotare...' (Aș dori să rezerv...), 'Vorrei fare...' (Aș dori să fac...).
+609	Aș vrea să rezerv joi după-amiaza.
+610	Aș vrea să fac barba.
+611	Acțiuni la păr și unghii: 'Accorciare' (a scurta), 'Spuntare' (a tăia vârfurile), 'Togliere' (a îndepărta).
+612	Vreau doar să ajustez cu un centimetru.
+613	Trebuie să dau jos oja.
+614	În Italia, frizeriile (barbiere) și saloanele pentru femei sunt adesea închise duminica și lunea. De marți până sâmbătă salonul poate avea pauză de prânz (pausa pranzo) între 12:30 și 15:30, dacă nu e un lanț dintr-un mall.
+615	Dialog viu: programare telefonică și vizita lui Marco și Laura la salon
+616	Laura sună la salon să-l programeze pe soțul Marco la tuns păr și barbă, iar pe ea la manichiură și coafat. Apoi vin la proceduri.
+617	Bună dimineața! Aș vrea o programare vineri: tunsoare bărbătească cu barbă și manichiură cu semipermanente.
+618	Aș vrea o programare la medicul de familie și voltura la gaz.
+619	Salut, aș vrea să cumpăr un bilet de autobuz.
+620	Salone Bella Vita, bună dimineața! Cu ce vă pot ajuta?
+621	Nu, aș vrea să fac declarația de venit.
+622	Da, trebuie să dau jos gelul vechi și să fac manichiura completă.
+623	Nu, las oja veche și adaug trei straturi deasupra, pe WhatsApp.
+624	Perfect. Pentru manichiură trebuie și să dați jos oja anterioară?
+625	La 15:00 vin doar eu, Marco se tunde singur acasă.
+626	Vineri nu, vin când e loc, fără nume.
+627	Excelent, vineri la 15:00! Pe numele Laura și Marco. Mulțumesc frumos și la revedere!
+628	Bine, avem loc vineri la 15:00 pentru amândoi. Ne vedem vineri!
+629	Faceți totul ras pe zero, inclusiv sprâncenele, fără să întrebați.
+630	Bună dimineața! Aș vrea să scurt părul pe laterale și să aranjez barba, dar fără să o tunzi prea scurt.
+631	Aș vrea să validez biletul de tren.
+632	Bună dimineața, Marco! Cum facem azi cu părul și barba?
+633	Bună dimineața! Aș vrea forma migdală și o culoare nude naturală cu semipermanente.
+634	Am febră și nasul curgător.
+635	Aș vrea unghii foarte lungi stiletto, roșu fluorescent și glitter în trei minute.
+636	Bună dimineața, Laura! Ce formă și ce culoare doriți pentru unghii astăzi?
+637	Plătim cu timbre și ne întoarcem după pentru rest.
+638	Plătim separat, dar Laura plătește și tunsoarea lui Marco cu numerar ucrainean.
+639	Plătim împreună cu cardul. Mulțumim frumos, suntem foarte mulțumiți de rezultat!
+640	Poftiți! În total pentru tunsoarea bărbătească, barbă, manichiură și semipermanente sunt 65 de euro. Plătiți împreună sau separat?
+641	În saloanele italiene se apreciază feedback-ul în timpul procedurii. Dacă apa e prea fierbinte sau se taie prea mult, spune calm: 'Scusi, l'acqua è troppo calda' sau 'Un po' più lungo, per favore'.
+642	Boss Level 🏆: Simulare de vizită la salon (pentru bărbați și femei)
+643	Examenul final al modulului! Te programezi singur la salon și explici tunsoarea, îngrijirea bărbii, forma unghiilor și acoperirea dorite. Indiciile și traducerea sunt dezactivate!
+644	Cum spui politicos în italiană «Aș dori să mă programez»?
+645	'Prendere un appuntamento' este fraza standard pentru programare.
+646	Cum cere un bărbat să scurteze părul pe laterale și să îndrepte barba?
+647	'Accorciare ai lati' (a scurta pe laterale) și 'regolare la barba' (a îndrepta barba).
+648	Ce înseamnă 'Spuntare' în legătură cu părul?
+649	'Spuntare' înseamnă să tai doar vârfurile (le punte).
+650	Cum spui manichiuristei că trebuie scos gelul vechi?
+651	'Togliere lo smalto vecchio' = a scoate oja/acoperirea veche.
+652	Ce este 'Piega' într-un salon de coafură italian?
+653	'Piega' este coafarea părului.
+654	Maestru de stil și frumusețe 💇‍♂️💅
+655	Felicitări! Ți-ai îmbunătățit lexicul italian pentru saloane și comanzi cu ușurință tuns, îngrijirea bărbii, manichiură și coafat!

@@ -82,6 +82,48 @@ function LessonProgress({ day }) {
   )
 }
 
+function LessonHeader({ day, onBack, typeBadge }) {
+  const { t } = useI18n()
+
+  return (
+    <header
+      className="day__top"
+      style={{
+        display: 'flex',
+        flexDirection: 'column',
+        position: 'relative',
+        height: 'auto',
+        marginTop: 0,
+        marginBottom: 0,
+      }}
+    >
+      <button className="back-btn" type="button" onClick={onBack}>
+        {t('back')}
+      </button>
+      {day != null ? <LessonProgress day={day} /> : null}
+      {typeBadge ? (
+        <div
+          className="day__type-badge-wrap"
+          style={{
+            display: 'flex',
+            flexDirection: 'column',
+            alignItems: 'flex-start',
+            position: 'relative',
+            paddingTop: 16,
+            paddingBottom: 12,
+            marginTop: 0,
+            marginBottom: 0,
+          }}
+        >
+          <span className="badge" style={{ display: 'inline-block', position: 'relative' }}>
+            {typeBadge}
+          </span>
+        </div>
+      ) : null}
+    </header>
+  )
+}
+
 function toneClass(tone, selected) {
   if (!selected) return ''
   if (tone === 'natural') return 'option-card--correct'
@@ -404,11 +446,7 @@ export default function ArcLessonScreen({
   if (reviewingMistakes && mistakesList.length > 0) {
     return (
       <main className="day">
-        <header className="day__top">
-          <button className="back-btn" type="button" onClick={onBack}>
-            {t('back')}
-          </button>
-        </header>
+        <LessonHeader onBack={onBack} />
         <section className="day__hero">
           <span className="badge">{t('mistakesBadge')}</span>
           <h1 className="day__title">{t('mistakesTitle')}</h1>
@@ -430,11 +468,7 @@ export default function ArcLessonScreen({
   if (dayDone) {
     return (
       <main className="day">
-        <header className="day__top">
-          <button className="back-btn" type="button" onClick={onBack}>
-            {t('back')}
-          </button>
-        </header>
+        <LessonHeader onBack={onBack} />
         <section className="result-card">
           <span className="badge">{t('dayCompleteTitle', { day: lesson.day })}</span>
           <h1 className="day__title">
@@ -462,20 +496,15 @@ export default function ArcLessonScreen({
     )
   }
 
+  const typeBadge =
+    resolveContentText(lesson.type, locale) ||
+    (boss ? `День ${lesson.day} · Boss Level 🏆` : `День ${lesson.day}`)
+
   return (
     <main className="day">
-      <header className="day__top">
-        <button className="back-btn" type="button" onClick={onBack}>
-          {t('back')}
-        </button>
-        <LessonProgress day={lesson.day} />
-      </header>
+      <LessonHeader day={lesson.day} onBack={onBack} typeBadge={typeBadge} />
 
       <section className="day__hero">
-        <span className="badge">
-          {resolveContentText(lesson.type, locale) ||
-            (boss ? `День ${lesson.day} · Boss Level 🏆` : `День ${lesson.day}`)}
-        </span>
         {lesson.module ? <p className="day__lead">{lesson.module}</p> : null}
         <h1 className="day__title">{resolveContentText(lesson.title, locale)}</h1>
         <DayStepsNav

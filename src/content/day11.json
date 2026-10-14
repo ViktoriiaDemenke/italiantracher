@@ -18,9 +18,9 @@
   "story": {
     "uk": "Лаура телефонує власнику квартири — синьйору Маріо (Signor Mario), щоб розпитати про деталі оголошення та домовитися про огляд житла.",
     "en": "Laura calls the apartment owner — Signor Mario — to ask about the listing details and arrange a viewing.",
-    "es": "Laura llama al dueño del piso — Signor Mario — para preguntar detalles del anuncio y concertar una visita.",
-    "fr": "Laura appelle le propriétaire — Signor Mario — pour les détails de l’annonce et convenir d’une visite.",
-    "ro": "Laura sună proprietarul — Signor Mario — ca să întrebe detaliile anunțului și să convină o vizionare."
+    "es": "Laura llama al dueño del piso — signor Mario — para preguntar detalles del anuncio y concertar una visita.",
+    "fr": "Laura appelle le propriétaire — signor Mario — pour les détails de l’annonce et convenir d’une visite.",
+    "ro": "Laura sună proprietarul — signor Mario — ca să întrebe detaliile anunțului și să convină o vizionare."
   },
   "dialogue": [
     {
@@ -29,21 +29,21 @@
       "text": "Pronto! Chi parla?",
       "options": [
         {
-          "text": "Buongiorno Signor Mario, sono Laura. Chiamo per l'annuncio dell'appartamento in affitto. È ancora disponibile?",
+          "text": "Buongiorno, signor Mario, sono Laura. Chiamo per l'annuncio dell'appartamento in affitto. È ancora disponibile?",
           "translation": {
             "uk": "Доброго дня, синьйоре Маріо, я Лаура. Дзвоню щодо оголошення про квартиру в оренду. Вона ще вільна?",
-            "en": "Good morning Signor Mario, this is Laura. I'm calling about the advertisement for the apartment for rent. Is it still available?",
-            "es": "Buenos días Signor Mario, soy Laura. Llamo por el anuncio del apartamento en alquiler. ¿Sigue disponible?",
-            "fr": "Bonjour Signor Mario, je suis Laura. J'appelle pour l'annonce de l'appartement en location. Est-il encore disponible ?",
-            "ro": "Bună dimineața Signor Mario, sunt Laura. Sun pentru anunțul apartamentului de închiriat. Mai este disponibil?"
+            "en": "Good morning, Mr. Mario, this is Laura. I'm calling about the listing for the apartment for rent. Is it still available?",
+            "es": "Buenos días, signor Mario, soy Laura. Llamo por el anuncio del apartamento en alquiler. ¿Sigue disponible?",
+            "fr": "Bonjour signor Mario, je suis Laura. J’appelle pour l’annonce de l’appartement en location. Est-il encore disponible ?",
+            "ro": "Bună dimineața, signor Mario, sunt Laura. Sun pentru anunțul apartamentului de închiriat. Mai este disponibil?"
           },
           "isCorrect": true,
           "feedback": {
             "uk": "Доброго дня, синьйоре Маріо, я Лаура. Дзвоню щодо оголошення про квартиру в оренду. Вона ще вільна?",
-            "en": "Good morning Signor Mario, this is Laura. I'm calling about the advertisement for the apartment for rent. Is it still available?",
-            "es": "Buenos días Signor Mario, soy Laura. Llamo por el anuncio del apartamento en alquiler. ¿Sigue disponible?",
-            "fr": "Bonjour Signor Mario, je suis Laura. J'appelle pour l'annonce de l'appartement en location. Est-il encore disponible ?",
-            "ro": "Bună dimineața Signor Mario, sunt Laura. Sun pentru anunțul apartamentului de închiriat. Mai este disponibil?"
+            "en": "Good morning, Mr. Mario, this is Laura. I'm calling about the listing for the apartment for rent. Is it still available?",
+            "es": "Buenos días, signor Mario, soy Laura. Llamo por el anuncio del apartamento en alquiler. ¿Sigue disponible?",
+            "fr": "Bonjour signor Mario, je suis Laura. J’appelle pour l’annonce de l’appartement en location. Est-il encore disponible ?",
+            "ro": "Bună dimineața, signor Mario, sunt Laura. Sun pentru anunțul apartamentului de închiriat. Mai este disponibil?"
           }
         },
         {
@@ -85,7 +85,7 @@
       ],
       "translation": {
         "uk": "Алло! Хто говорить?",
-        "en": "Hello! Who's speaking?",
+        "en": "Hello? Who's speaking?",
         "es": "¡Diga! ¿Quién habla?",
         "fr": "Allô ! Qui est à l'appareil ?",
         "ro": "Alo! Cine vorbește?"
@@ -170,7 +170,7 @@
             "uk": "Зрозуміла. А щодо рахунків за світло і газ — їх треба переоформити на моє ім’я?",
             "en": "I see. And as for the electricity and gas utilities, do they need to be transferred into my name?",
             "es": "Entendido. Y respecto a las utenze de luz y gas, ¿hay que hacer la voltura a mi nombre?",
-            "fr": "J'ai compris. Et pour ce qui est des utenze d'électricité et de gaz, faut-il les volturare à mon nom ?",
+            "fr": "J’ai compris. Et pour les utenze d’électricité et de gaz, faut-il les volturare à mon nom ?",
             "ro": "Am înțeles. Iar în privința utenze de lumină și gaz, trebuie volturate pe numele meu?"
           },
           "isCorrect": true,
@@ -178,7 +178,7 @@
             "uk": "Зрозуміла. А щодо рахунків за світло і газ — їх треба переоформити на моє ім’я?",
             "en": "I see. And as for the electricity and gas utilities, do they need to be transferred into my name?",
             "es": "Entendido. Y respecto a las utenze de luz y gas, ¿hay que hacer la voltura a mi nombre?",
-            "fr": "J'ai compris. Et pour ce qui est des utenze d'électricité et de gaz, faut-il les volturare à mon nom ?",
+            "fr": "J’ai compris. Et pour les utenze d’électricité et de gaz, faut-il les volturare à mon nom ?",
             "ro": "Am înțeles. Iar în privința utenze de lumină și gaz, trebuie volturate pe numele meu?"
           }
         },
@@ -207,7 +207,7 @@
             "en": "I don't want to pay the condominium expenses.",
             "es": "No quiero pagar los gastos de comunidad.",
             "fr": "Je ne veux pas payer les charges de copropriété.",
-            "ro": "Nu vreau să plătesc cheltuielile de condominium."
+            "ro": "Nu vreau să plătesc cheltuielile de condominiu."
           },
           "isCorrect": false,
           "feedback": {
@@ -215,7 +215,7 @@
             "en": "I don't want to pay the condominium expenses.",
             "es": "No quiero pagar los gastos de comunidad.",
             "fr": "Je ne veux pas payer les charges de copropriété.",
-            "ro": "Nu vreau să plătesc cheltuielile de condominium."
+            "ro": "Nu vreau să plătesc cheltuielile de condominiu."
           }
         }
       ],
@@ -224,7 +224,7 @@
         "en": "The rent is 650 euros a month. The spese condominiali are 80 euros extra and include water and cleaning of the stairs.",
         "es": "El alquiler es de 650 euros al mes. Las spese condominiali son 80 euros aparte e incluyen el agua y la limpieza de las escaleras.",
         "fr": "Le loyer est de 650 euros par mois. Les spese condominiali sont 80 euros en plus et comprennent l'eau et le nettoyage des escaliers.",
-        "ro": "Chiria este de 650 de euro pe lună. Spese condominiali sunt 80 de euro separat și includ apa și curățenia scărilor."
+        "ro": "Chiria este de 650 de euro pe lună. Spese condominiali sunt 80 de euro în plus și includ apa și curățenia scărilor."
       }
     },
     {
@@ -289,7 +289,7 @@
       ],
       "translation": {
         "uk": "Так, рахунки треба оформити на вас. Також просимо три місяці завдатку.",
-        "en": "Yes, the utilities should be put in your name. We're also asking for three months' deposit.",
+        "en": "Yes, the utilities should be put in your name. We're also asking for a deposit of three months' rent.",
         "es": "Sí, los suministros hay que ponerlos a su nombre. Pedimos también tres mensualidades de caparra confirmatoria.",
         "fr": "Oui, les factures doivent être à votre nom. Nous demandons aussi trois mois de caparra confirmatoria.",
         "ro": "Da, utilitățile trebuie puse pe numele dumneavoastră. Cerem și trei luni de caparra confirmatoria."
@@ -387,20 +387,20 @@
           }
         },
         {
-          "text": "Molte grazie Signor Mario, a domani! Buona giornata.",
+          "text": "Molte grazie, signor Mario, a domani! Buona giornata.",
           "translation": {
             "uk": "Щиро дякую, синьйоре Маріо, до завтра! Гарного дня.",
-            "en": "Thank you very much, Mr. Mario, see you tomorrow! Have a good day.",
-            "es": "Muchas gracias, señor Mario, ¡hasta mañana! Que tenga un buen día.",
-            "fr": "Merci beaucoup Monsieur Mario, à demain ! Bonne journée.",
+            "en": "Thank you very much, Mr. Mario — see you tomorrow! Have a good day.",
+            "es": "Muchas gracias, signor Mario, ¡hasta mañana! Que tenga un buen día.",
+            "fr": "Merci beaucoup, signor Mario, à demain ! Bonne journée.",
             "ro": "Mulțumesc frumos, signor Mario, pe mâine! O zi bună."
           },
           "isCorrect": true,
           "feedback": {
             "uk": "Щиро дякую, синьйоре Маріо, до завтра! Гарного дня.",
-            "en": "Thank you very much, Mr. Mario, see you tomorrow! Have a good day.",
-            "es": "Muchas gracias, señor Mario, ¡hasta mañana! Que tenga un buen día.",
-            "fr": "Merci beaucoup Monsieur Mario, à demain ! Bonne journée.",
+            "en": "Thank you very much, Mr. Mario — see you tomorrow! Have a good day.",
+            "es": "Muchas gracias, signor Mario, ¡hasta mañana! Que tenga un buen día.",
+            "fr": "Merci beaucoup, signor Mario, à demain ! Bonne journée.",
             "ro": "Mulțumesc frumos, signor Mario, pe mâine! O zi bună."
           }
         },
@@ -434,7 +434,7 @@
   ],
   "culturaTip": {
     "uk": "Термін 'Voltura' означає переоформлення існуючих договорів на світло/газ на ваше ім'я, а 'Subentro' — нове підключення, якщо лічильники були опломбовані.",
-    "en": "The term 'Voltura' means transferring existing electricity/gas contracts into your name, and 'Subentro' is a new connection if the meters were sealed.",
+    "en": "Voltura means transferring existing electricity or gas contracts into your name; subentro is a new connection if the meters were sealed.",
     "es": "'Voltura' es el traspaso de contratos de luz/gas a tu nombre, y 'Subentro' es una nueva alta si los contadores estaban precintados.",
     "fr": "« Voltura » signifie le transfert des contrats électricité/gaz à votre nom, et « Subentro » un nouveau raccordement si les compteurs étaient scellés.",
     "ro": "Termenul «Voltura» înseamnă transferul contractelor de lumină/gaz pe numele vostru, iar «Subentro» e o racordare nouă dacă contoarele erau sigilate."

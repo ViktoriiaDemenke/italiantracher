@@ -34,16 +34,16 @@
             "uk": "Доброго дня! Хочу записатися на п’ятницю: чоловіча стрижка з бородою і манікюр із гель-лаком.",
             "en": "Good morning! I'd like to book an appointment for Friday: a men's haircut with beard and a manicure with gel polish.",
             "es": "¡Buenos días! Quisiera pedir cita para el viernes: un corte de hombre con barba y una manicura con semipermanente.",
-            "fr": "Bonjour ! Je voudrais prendre rendez-vous pour vendredi : une coupe homme avec barbe et une manucure avec semipermanente.",
-            "ro": "Bună dimineața! Aș vrea o programare vineri: tunsoare bărbătească cu barbă și manichiură cu semipermanente."
+            "fr": "Bonjour ! Je voudrais prendre rendez-vous pour vendredi : une coupe homme avec barbe et une manucure avec vernis semi-permanent.",
+            "ro": "Bună dimineața! Aș vrea o programare vineri: tunsoare bărbătească cu barbă și manichiură cu ojă semipermanentă."
           },
           "isCorrect": true,
           "feedback": {
             "uk": "Доброго дня! Хочу записатися на п’ятницю: чоловіча стрижка з бородою і манікюр із гель-лаком.",
             "en": "Good morning! I'd like to book an appointment for Friday: a men's haircut with beard and a manicure with gel polish.",
             "es": "¡Buenos días! Quisiera pedir cita para el viernes: un corte de hombre con barba y una manicura con semipermanente.",
-            "fr": "Bonjour ! Je voudrais prendre rendez-vous pour vendredi : une coupe homme avec barbe et une manucure avec semipermanente.",
-            "ro": "Bună dimineața! Aș vrea o programare vineri: tunsoare bărbătească cu barbă și manichiură cu semipermanente."
+            "fr": "Bonjour ! Je voudrais prendre rendez-vous pour vendredi : une coupe homme avec barbe et une manucure avec vernis semi-permanent.",
+            "ro": "Bună dimineața! Aș vrea o programare vineri: tunsoare bărbătească cu barbă și manichiură cu ojă semipermanentă."
           }
         },
         {
@@ -120,7 +120,7 @@
             "uk": "Так, треба зняти старий гель і зробити повний манікюр.",
             "en": "Yes, I need to remove the old gel and have a full manicure.",
             "es": "Sí, tengo que quitar el gel viejo y hacer la manicura completa.",
-            "fr": "Oui, je dois enlever le gel ancien et faire la manucure complète.",
+            "fr": "Oui, je dois faire retirer l’ancien gel et faire la manucure complète.",
             "ro": "Da, trebuie să dau jos gelul vechi și să fac manichiura completă."
           },
           "isCorrect": true,
@@ -128,7 +128,7 @@
             "uk": "Так, треба зняти старий гель і зробити повний манікюр.",
             "en": "Yes, I need to remove the old gel and have a full manicure.",
             "es": "Sí, tengo que quitar el gel viejo y hacer la manicura completa.",
-            "fr": "Oui, je dois enlever le gel ancien et faire la manucure complète.",
+            "fr": "Oui, je dois faire retirer l’ancien gel et faire la manucure complète.",
             "ro": "Da, trebuie să dau jos gelul vechi și să fac manichiura completă."
           }
         },
@@ -162,7 +162,7 @@
     {
       "step": 3,
       "speaker": "Receptionist Salone",
-      "text": "Va bene, abbiamo posto venerdì alle 15:00 per entrambi. Ci vediamo venerdì!",
+      "text": "Va bene, abbiamo disponibilità venerdì alle 15:00 per entrambi. Ci vediamo venerdì!",
       "options": [
         {
           "text": "Alle 15:00 vengo solo io, Marco si taglia i capelli da solo a casa.",
@@ -256,7 +256,7 @@
             "uk": "Доброго дня! Хочу вкоротити волосся з боків і підрівняти бороду, але не стригти її занадто коротко.",
             "en": "Good morning! I'd like to shorten the hair on the sides and tidy the beard, but without cutting it too short.",
             "es": "¡Buenos días! Quisiera acortar el pelo a los lados y arreglar la barba, pero sin cortarla demasiado corta.",
-            "fr": "Bonjour ! Je voudrais raccourcir les cheveux sur les côtés et régler la barbe, mais sans la couper trop courte.",
+            "fr": "Bonjour ! Je voudrais raccourcir les cheveux sur les côtés et égaliser la barbe, mais sans la couper trop courte.",
             "ro": "Bună dimineața! Aș vrea să scurt părul pe laterale și să aranjez barba, dar fără să o tunzi prea scurt."
           },
           "isCorrect": true,
@@ -264,7 +264,7 @@
             "uk": "Доброго дня! Хочу вкоротити волосся з боків і підрівняти бороду, але не стригти її занадто коротко.",
             "en": "Good morning! I'd like to shorten the hair on the sides and tidy the beard, but without cutting it too short.",
             "es": "¡Buenos días! Quisiera acortar el pelo a los lados y arreglar la barba, pero sin cortarla demasiado corta.",
-            "fr": "Bonjour ! Je voudrais raccourcir les cheveux sur les côtés et régler la barbe, mais sans la couper trop courte.",
+            "fr": "Bonjour ! Je voudrais raccourcir les cheveux sur les côtés et égaliser la barbe, mais sans la couper trop courte.",
             "ro": "Bună dimineața! Aș vrea să scurt părul pe laterale și să aranjez barba, dar fără să o tunzi prea scurt."
           }
         },
@@ -291,7 +291,7 @@
         "uk": "Доброго дня, Марко! Як сьогодні зробимо волосся і бороду?",
         "en": "Good morning, Marco! How shall we do the hair and beard today?",
         "es": "¡Buenos días, Marco! ¿Cómo hacemos hoy con el pelo y la barba?",
-        "fr": "Bonjour Marco ! Comment on fait aujourd'hui pour les cheveux et la barbe ?",
+        "fr": "Bonjour Marco ! Comment on fait aujourd’hui pour les cheveux et la barbe ?",
         "ro": "Bună dimineața, Marco! Cum facem azi cu părul și barba?"
       }
     },
@@ -306,16 +306,16 @@
             "uk": "Доброго дня! Хочу форму мигдалю і природний нюдовий колір із гель-лаком.",
             "en": "Good morning! I'd like an almond shape and a natural nude color with gel polish.",
             "es": "¡Buenos días! Quisiera la forma almendra y un color nude natural con el semipermanente.",
-            "fr": "Bonjour ! Je voudrais la forme amande et une couleur nude naturelle avec le semipermanente.",
-            "ro": "Bună dimineața! Aș vrea forma migdală și o culoare nude naturală cu semipermanente."
+            "fr": "Bonjour ! Je voudrais la forme amande et une couleur nude naturelle avec le vernis semi-permanent.",
+            "ro": "Bună dimineața! Aș vrea forma migdală și o culoare nude naturală cu ojă semipermanentă."
           },
           "isCorrect": true,
           "feedback": {
             "uk": "Доброго дня! Хочу форму мигдалю і природний нюдовий колір із гель-лаком.",
             "en": "Good morning! I'd like an almond shape and a natural nude color with gel polish.",
             "es": "¡Buenos días! Quisiera la forma almendra y un color nude natural con el semipermanente.",
-            "fr": "Bonjour ! Je voudrais la forme amande et une couleur nude naturelle avec le semipermanente.",
-            "ro": "Bună dimineața! Aș vrea forma migdală și o culoare nude naturală cu semipermanente."
+            "fr": "Bonjour ! Je voudrais la forme amande et une couleur nude naturelle avec le vernis semi-permanent.",
+            "ro": "Bună dimineața! Aș vrea forma migdală și o culoare nude naturală cu ojă semipermanentă."
           }
         },
         {
@@ -427,16 +427,16 @@
         "uk": "Ось вам! Разом за чоловічу стрижку, бороду, манікюр і гель-лак 65 євро. Платите разом чи окремо?",
         "en": "Here you go! In total for the men's haircut, beard, manicure and gel polish it's 65 euros. Paying together or separately?",
         "es": "¡Aquí tiene! En total por el corte de hombre, barba, manicura y semipermanente son 65 euros. ¿Pagan juntos o por separado?",
-        "fr": "Voilà ! Au total pour la coupe homme, la barbe, la manucure et le semipermanente, 65 euros. Vous payez ensemble ou séparément ?",
-        "ro": "Poftiți! În total pentru tunsoarea bărbătească, barbă, manichiură și semipermanente sunt 65 de euro. Plătiți împreună sau separat?"
+        "fr": "Voilà ! Au total, pour la coupe homme, la barbe, la manucure et le vernis semi-permanent : 65 euros. Vous payez ensemble ou séparément ?",
+        "ro": "Poftiți! În total pentru tunsoarea bărbătească, barbă, manichiură și ojă semipermanentă sunt 65 de euro. Plătiți împreună sau separat?"
       }
     }
   ],
   "culturaTip": {
     "uk": "В італійських салонах краси завжди цінують зворотний зв'язок під час процедури. Якщо вода занадто гаряча або майстер зрізає забагато довжини, спокійно скажіть: 'Scusi, l'acqua è troppo calda' або 'Un po' più lungo, per favore'.",
     "en": "Italian salons appreciate feedback during the treatment. If the water is too hot or too much length is being cut, calmly say: 'Scusi, l'acqua è troppo calda' or 'Un po' più lungo, per favore'.",
-    "es": "En los salones italianos se valora el feedback durante el servicio. Si el agua está demasiado caliente o se corta demasiado, dígase con calma: 'Scusi, l'acqua è troppo calda' o 'Un po' più lungo, per favore'.",
+    "es": "En los salones italianos se valora el comentario durante el servicio. Si el agua está demasiado caliente o se corta demasiado, dígalo con calma: «Scusi, l’acqua è troppo calda» o «Un po’ più lungo, per favore».",
     "fr": "Dans les salons italiens, on apprécie un retour pendant le soin. Si l’eau est trop chaude ou si l’on coupe trop, dites calmement : 'Scusi, l'acqua è troppo calda' ou 'Un po' più lungo, per favore'.",
-    "ro": "În saloanele italiene se apreciază feedback-ul în timpul procedurii. Dacă apa e prea fierbinte sau se taie prea mult, spune calm: 'Scusi, l'acqua è troppo calda' sau 'Un po' più lungo, per favore'."
+    "ro": "În saloanele italiene se apreciază un comentariu în timpul procedurii. Dacă apa e prea fierbinte sau se taie prea mult, spuneți calm: 'Scusi, l'acqua è troppo calda' sau 'Un po' più lungo, per favore'."
   }
 }
