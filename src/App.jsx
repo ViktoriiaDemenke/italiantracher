@@ -122,6 +122,12 @@ export default function App() {
   ])
 
   async function handleToggleReminders(nextEnabled) {
+    persist((prev) => ({
+      ...prev,
+      notificationsAsked: true,
+      remindersEnabled: nextEnabled,
+    }))
+
     if (nextEnabled) {
       const granted = await requestNotificationPermission()
       if (!granted) {
@@ -134,11 +140,7 @@ export default function App() {
         return
       }
     }
-    persist((prev) => ({
-      ...prev,
-      notificationsAsked: true,
-      remindersEnabled: nextEnabled,
-    }))
+
     await syncLessonReminder(nextEnabled, reminderHour, reminderMinute, reminderCopy)
     progress.showToast(nextEnabled ? t('reminders.on') : t('reminders.off'))
   }

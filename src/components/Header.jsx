@@ -10,6 +10,23 @@ export default function Header({
   onReminderTimeChange,
 }) {
   const { locale, setLocale, theme, setTheme, t } = useI18n()
+  const enabled = Boolean(remindersEnabled)
+  const timeValue = formatReminderTime(reminderHour ?? 19, reminderMinute ?? 0)
+
+  function handleTimeActivate(event) {
+    if (!enabled) {
+      event.preventDefault()
+      return
+    }
+    const input = event.currentTarget
+    if (typeof input.showPicker === 'function') {
+      try {
+        input.showPicker()
+      } catch {
+        input.focus()
+      }
+    }
+  }
 
   return (
     <header className="app-header">
@@ -36,23 +53,34 @@ export default function Header({
         >
           {theme === 'light' ? t('themeDark') : t('themeLight')}
         </button>
-        <label className="reminder-toggle">
-          <input
-            type="checkbox"
-            checked={Boolean(remindersEnabled)}
-            onChange={(event) => onToggleReminders?.(event.target.checked)}
-          />
-          <span>{t('reminders.toggle')}</span>
-        </label>
-        <label className="reminder-time">
-          <input
-            type="time"
-            aria-label={t('reminders.time')}
-            value={formatReminderTime(reminderHour ?? 19, reminderMinute ?? 0)}
-            disabled={!remindersEnabled}
-            onChange={(event) => onReminderTimeChange?.(event.target.value)}
-          />
-        </label>
+        <div className="reminder-section">
+          <label className="reminder-toggle">
+            <input
+              type="checkbox"
+              checked={enabled}
+              onChange={(event) => onToggleReminders?.(event.target.checked)}
+            />
+            <span className="reminder-toggle__box" aria-hidden="true" />
+            <span className="reminder-toggle__text">{t('reminders.toggle')}</span>
+          </label>
+          <label
+            className={`reminder-section__time-wrap${enabled ? '' : ' is-disabled'}`}
+          >
+            <span className="reminder-section__time-face" aria-hidden="true">
+              {timeValue}
+            </span>
+            <input
+              className="reminder-section__time"
+              type="time"
+              lang="en-GB"
+              aria-label={t('reminders.time')}
+              value={timeValue}
+              tabIndex={enabled ? 0 : -1}
+              onChange={(event) => onReminderTimeChange?.(event.target.value)}
+              onPointerUp={handleTimeActivate}
+            />
+          </label>
+        </div>
       </div>
     </header>
   )
