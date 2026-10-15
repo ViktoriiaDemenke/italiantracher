@@ -43,7 +43,10 @@ export default function CycleNav({
             className={`cycle-nav__btn${currentDay === day ? ' cycle-nav__btn--on' : ''}${locked ? ' cycle-nav__btn--locked' : ''}${quest ? ' cycle-nav__btn--quest' : ''}`}
             type="button"
             aria-disabled={locked}
-            onClick={() => onOpenDay(day)}
+            onClick={() => {
+              if (locked) return
+              onOpenDay(day)
+            }}
           >
             <span>{t('cycleLabel', { day, kind })}</span>
             {quest ? <span className="cycle-nav__quest">{t('superQuest')}</span> : null}

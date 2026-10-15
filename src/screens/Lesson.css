@@ -12,6 +12,46 @@
   margin: 0 auto;
 }
 
+.day--with-next {
+  padding-bottom: calc(8.5rem + env(safe-area-inset-bottom, 0px));
+}
+
+.lesson-next-bar {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 30;
+  display: flex;
+  justify-content: center;
+  pointer-events: none;
+  padding-top: 0.7rem;
+  padding-right: calc(var(--space-md) + env(safe-area-inset-right, 0px));
+  padding-bottom: calc(0.7rem + env(safe-area-inset-bottom, 0px));
+  padding-left: calc(var(--space-md) + env(safe-area-inset-left, 0px));
+  background: var(--bg);
+  border-top: 1px solid var(--border);
+  box-shadow: 0 -10px 24px color-mix(in srgb, var(--bg) 70%, transparent);
+}
+
+.lesson-next-bar .btn-primary {
+  pointer-events: auto;
+  width: 100%;
+  max-width: var(--container);
+  margin-top: 0;
+}
+
+#day-step-dialogue,
+#day-step-boss,
+#day-step-text {
+  scroll-margin-top: 0.75rem;
+}
+
+.day--with-next #day-step-dialogue,
+.day--with-next #day-step-boss {
+  padding-bottom: calc(5.25rem + env(safe-area-inset-bottom, 0px));
+}
+
 .day__top {
   display: flex;
   flex-direction: column;

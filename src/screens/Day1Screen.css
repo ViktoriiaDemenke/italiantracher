@@ -17,10 +17,14 @@
   border: 1px solid var(--border);
   border-radius: var(--radius);
   padding: 0.85rem 0.9rem;
+  scroll-margin-bottom: calc(5.5rem + env(safe-area-inset-bottom, 0px));
 }
 
 .option-card .btn-primary {
+  position: relative;
+  z-index: 2;
   margin-top: var(--space-sm);
+  pointer-events: auto;
 }
 
 .option-card__text {

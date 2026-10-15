@@ -29,9 +29,27 @@ export function useChallengeProgress() {
   const [billingBusy, setBillingBusy] = useState(false)
   const toastTimer = useRef(null)
 
+  const stateRef = useRef(state)
+  stateRef.current = state
+
   useEffect(() => {
     saveState(state)
   }, [state])
+
+  useEffect(() => {
+    function flush() {
+      saveState(stateRef.current)
+    }
+    function onHide() {
+      if (document.visibilityState === 'hidden') flush()
+    }
+    document.addEventListener('visibilitychange', onHide)
+    window.addEventListener('pagehide', flush)
+    return () => {
+      document.removeEventListener('visibilitychange', onHide)
+      window.removeEventListener('pagehide', flush)
+    }
+  }, [])
 
   useEffect(() => {
     return () => {

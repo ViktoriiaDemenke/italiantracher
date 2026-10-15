@@ -16,6 +16,7 @@ export const DEFAULT_STATE = {
   reminderHour: 19,
   reminderMinute: 0,
   notificationsAsked: false,
+  lessonSessions: {},
 }
 
 export const FREE_DAYS_MAX = 3
@@ -82,7 +83,7 @@ export function progressStats(completedDays) {
 
 export function nextStreak(streak, lastActivityDate, today) {
   if (!lastActivityDate) return 1
-  if (lastActivityDate === today) return Math.max(streak || 0, 1)
+  if (lastActivityDate === today) return (streak || 0) + 1
   if (lastActivityDate === addCalendarDays(today, -1)) return (streak || 0) + 1
   return 1
 }

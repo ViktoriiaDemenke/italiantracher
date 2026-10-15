@@ -12,7 +12,7 @@ import {
   buildDaySteps,
   currentDayStepIndex,
 } from '../learn/daySteps.js'
-import { TOTAL_DAYS } from '../progress.js'
+import { isDayCompleted, TOTAL_DAYS } from '../progress.js'
 import { DEFAULT_SPEECH_RATE, FAST_SPEECH_RATE } from '../lib/speech.js'
 import { rememberQuizError, rememberSavedPhrases } from '../storage.js'
 import {
@@ -28,6 +28,16 @@ import '../screens/HomeScreen.css'
 import './Lesson.css'
 import './Day1Screen.css'
 import '../components/Learn.css'
+
+function scrollDialogueIntoView(id) {
+  window.requestAnimationFrame(() => {
+    window.setTimeout(() => {
+      const node = document.getElementById(id)
+      if (!node) return
+      node.scrollIntoView({ behavior: 'smooth', block: 'start' })
+    }, 80)
+  })
+}
 
 function tipKey(item) {
   if (typeof item === 'string') return item
@@ -138,6 +148,12 @@ function DialogueStep({ step, boss, picked, onPick }) {
   const rate = slow ? DEFAULT_SPEECH_RATE : FAST_SPEECH_RATE
   const choices = Array.isArray(step?.options) ? step.options : []
   const lineUk = resolveContentText(step?.translation ?? step?.ukrainian, locale)
+  const locked = Boolean(picked) && !boss
+
+  function chooseOption(option) {
+    if (locked) return
+    onPick?.(option)
+  }
 
   return (
     <article className="dialogue-card">
@@ -183,8 +199,8 @@ function DialogueStep({ step, boss, picked, onPick }) {
             <button
               className="btn-primary"
               type="button"
-              disabled={Boolean(picked) && !boss}
-              onClick={() => onPick(option)}
+              disabled={locked}
+              onClick={() => chooseOption(option)}
             >
               {t('choose')}
             </button>
@@ -233,11 +249,14 @@ export default function ArcLessonScreen({
   const [score, setScore] = useState(0)
   const [finished, setFinished] = useState(false)
   const [dayDone, setDayDone] = useState(false)
+  const [justFinished, setJustFinished] = useState(false)
   const [activeKind, setActiveKind] = useState(dayStages[0]?.kind ?? 'text')
   const [mistakesList, setMistakesList] = useState([])
   const [reviewingMistakes, setReviewingMistakes] = useState(false)
   const mistakesRef = useRef([])
   const advanceTimer = useRef(null)
+  const skipDialogueScroll = useRef(true)
+  const persistReady = useRef(false)
   const savedPhrases = state?.savedPhrases ?? []
   const deck = useMemo(
     () => buildPracticeDeck(lesson, locale).filter((card) => card.day === lesson.day),
@@ -264,21 +283,95 @@ export default function ArcLessonScreen({
   const flowKind = daySteps[flowIndex]?.kind ?? activeKind
 
   useEffect(() => {
+    const session = state?.lessonSessions?.[String(lesson.day)]
+    const completed = isDayCompleted(lesson.day, state?.completedDays)
     setCulturaOpen(false)
     setSheetOpen(false)
-    setStepIndex(0)
-    setPicked(null)
-    setScore(0)
-    setFinished(false)
-    setDayDone(false)
-    setMistakesList([])
-    setReviewingMistakes(false)
-    mistakesRef.current = []
-    setActiveKind(buildDayStages(buildDaySteps(lesson))[0]?.kind ?? 'text')
+    setJustFinished(false)
+    if (completed) {
+      setStepIndex(0)
+      setPicked(null)
+      setScore(session?.score ?? 0)
+      setFinished(false)
+      setDayDone(false)
+      setMistakesList([])
+      setReviewingMistakes(false)
+      mistakesRef.current = []
+    } else if (session) {
+      setStepIndex(session.stepIndex ?? 0)
+      setPicked(session.picked ?? null)
+      setScore(session.score ?? 0)
+      setFinished(Boolean(session.finished))
+      setDayDone(Boolean(session.dayDone))
+      setMistakesList(Array.isArray(session.mistakesList) ? session.mistakesList : [])
+      setReviewingMistakes(Boolean(session.reviewingMistakes))
+      mistakesRef.current = Array.isArray(session.mistakesList)
+        ? session.mistakesList
+        : []
+      if (session.activeKind) setActiveKind(session.activeKind)
+    } else {
+      setStepIndex(0)
+      setPicked(null)
+      setScore(0)
+      setFinished(false)
+      setDayDone(false)
+      setMistakesList([])
+      setReviewingMistakes(false)
+      mistakesRef.current = []
+      setActiveKind(buildDayStages(buildDaySteps(lesson))[0]?.kind ?? 'text')
+    }
+    skipDialogueScroll.current = true
+    persistReady.current = false
+    const readyId = window.requestAnimationFrame(() => {
+      persistReady.current = true
+    })
     return () => {
+      window.cancelAnimationFrame(readyId)
       if (advanceTimer.current) window.clearTimeout(advanceTimer.current)
     }
   }, [lesson.day])
+
+  useEffect(() => {
+    if (!persistReady.current) return
+    if (isDayCompleted(lesson.day, state?.completedDays) && !justFinished) return
+    onStateChange?.((prev) => ({
+      ...prev,
+      lessonSessions: {
+        ...(prev.lessonSessions ?? {}),
+        [String(lesson.day)]: {
+          stepIndex,
+          picked,
+          finished,
+          score,
+          dayDone,
+          reviewingMistakes,
+          mistakesList,
+          activeKind,
+        },
+      },
+    }))
+  }, [
+    activeKind,
+    dayDone,
+    finished,
+    justFinished,
+    lesson.day,
+    mistakesList,
+    onStateChange,
+    picked,
+    reviewingMistakes,
+    score,
+    stepIndex,
+  ])
+
+  useEffect(() => {
+    if (skipDialogueScroll.current) {
+      skipDialogueScroll.current = false
+      return
+    }
+    if (finished) return
+    scrollDialogueIntoView(hasQuiz || boss ? 'day-step-boss' : 'day-step-dialogue')
+  }, [stepIndex, finished, hasQuiz, boss])
 
   useEffect(() => {
     if (hasQuiz) return
@@ -327,6 +420,7 @@ export default function ArcLessonScreen({
   function completeDayNow() {
     onMarkComplete?.()
     setReviewingMistakes(false)
+    setJustFinished(true)
     setDayDone(true)
   }
 
@@ -406,6 +500,7 @@ export default function ArcLessonScreen({
   }
 
   function nextStep() {
+    if (advanceTimer.current) window.clearTimeout(advanceTimer.current)
     advanceDialogue()
   }
 
@@ -465,7 +560,7 @@ export default function ArcLessonScreen({
     )
   }
 
-  if (dayDone) {
+  if (justFinished && dayDone) {
     return (
       <main className="day">
         <LessonHeader onBack={onBack} />
@@ -499,9 +594,10 @@ export default function ArcLessonScreen({
   const typeBadge =
     resolveContentText(lesson.type, locale) ||
     (boss ? `День ${lesson.day} · Boss Level 🏆` : `День ${lesson.day}`)
+  const showLessonNext = !boss && !finished && Boolean(step) && Boolean(picked)
 
   return (
-    <main className="day">
+    <main className={`day${showLessonNext ? ' day--with-next' : ''}`}>
       <LessonHeader day={lesson.day} onBack={onBack} typeBadge={typeBadge} />
 
       <section className="day__hero">
@@ -689,18 +785,15 @@ export default function ArcLessonScreen({
             picked={picked}
             onPick={pick}
           />
-          {picked ? (
-            <button className="btn-primary" type="button" onClick={nextStep}>
-              {t('next')}
-            </button>
-          ) : null}
         </div>
       ) : null}
 
-      {!hasQuiz && dialogueSteps.length === 0 && !finished ? (
-        <button className="btn-primary" type="button" onClick={() => setFinished(true)}>
-          {t('next')}
-        </button>
+      {showLessonNext ? (
+        <div className="lesson-next-bar">
+          <button className="btn-primary" type="button" onClick={nextStep}>
+            {t('next')}
+          </button>
+        </div>
       ) : null}
 
       {!boss && onStateChange && lesson.phrases.length > 0 ? (
