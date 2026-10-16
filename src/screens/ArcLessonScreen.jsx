@@ -1,7 +1,6 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
 import DayStepsNav from '../components/DayStepsNav.jsx'
 import PhraseCard from '../components/PhraseCard.jsx'
-import SavedPhrasesSheet from '../components/SavedPhrasesSheet.jsx'
 import SpeakButton from '../components/SpeakButton.jsx'
 import Flashcards from '../components/Flashcards.jsx'
 import PracticeQuiz from '../components/PracticeQuiz.jsx'
@@ -23,7 +22,11 @@ import {
   upsertMistake,
 } from '../learn/mistakes.js'
 import { useI18n } from '../i18n.js'
-import { resolveContentText } from '../content/localize.js'
+import {
+  capitalizePhrase,
+  displayContentText,
+  resolveContentText,
+} from '../content/localize.js'
 import '../screens/HomeScreen.css'
 import './Lesson.css'
 import './Day1Screen.css'
@@ -52,7 +55,7 @@ function TipList({ items, heading, locale }) {
       <ul className="doc-list">
         {items.map((item) => (
           <li key={tipKey(item)} className="phrase-card doc-card">
-            <p className="phrase-card__it">{resolveContentText(item, locale)}</p>
+            <p className="phrase-card__it">{displayContentText(item, locale)}</p>
           </li>
         ))}
       </ul>
@@ -147,11 +150,9 @@ function DialogueStep({ step, boss, picked, onPick }) {
   const [showUk, setShowUk] = useState(false)
   const rate = slow ? DEFAULT_SPEECH_RATE : FAST_SPEECH_RATE
   const choices = Array.isArray(step?.options) ? step.options : []
-  const lineUk = resolveContentText(step?.translation ?? step?.ukrainian, locale)
-  const locked = Boolean(picked) && !boss
+  const lineUk = displayContentText(step?.translation ?? step?.ukrainian, locale)
 
   function chooseOption(option) {
-    if (locked) return
     onPick?.(option)
   }
 
@@ -159,7 +160,7 @@ function DialogueStep({ step, boss, picked, onPick }) {
     <article className="dialogue-card">
       <p className="dialogue-line__who">{step?.speaker}</p>
       <div className="it-line">
-        <p className="phrase-card__it">{step?.text}</p>
+        <p className="phrase-card__it">{capitalizePhrase(step?.text)}</p>
         {step?.text ? <SpeakButton text={step.text} rate={rate} /> : null}
       </div>
       {!boss && showUk && lineUk ? <p className="phrase-card__uk">{lineUk}</p> : null}
@@ -188,18 +189,17 @@ function DialogueStep({ step, boss, picked, onPick }) {
             className={`option-card ${toneClass(option.tone, picked?.text === option.text)}`}
           >
             <div className="it-line">
-              <p className="option-card__text">{option.text}</p>
+              <p className="option-card__text">{capitalizePhrase(option.text)}</p>
               <SpeakButton text={option.text} rate={rate} />
             </div>
-            {!boss && showUk && resolveContentText(option.translation || option.ukrainian, locale) ? (
+            {!boss && showUk && displayContentText(option.translation || option.ukrainian, locale) ? (
               <p className="phrase-card__uk">
-                {resolveContentText(option.translation || option.ukrainian, locale)}
+                {displayContentText(option.translation || option.ukrainian, locale)}
               </p>
             ) : null}
             <button
               className="btn-primary"
               type="button"
-              disabled={locked}
               onClick={() => chooseOption(option)}
             >
               {t('choose')}
@@ -217,7 +217,7 @@ function DialogueStep({ step, boss, picked, onPick }) {
                 : 'dialogue-feedback--wrong'
           }`}
         >
-          {resolveContentText(picked.feedback, locale)}
+          {displayContentText(picked.feedback, locale)}
         </p>
       ) : null}
     </article>
@@ -243,7 +243,6 @@ export default function ArcLessonScreen({
   const daySteps = useMemo(() => buildDaySteps(lesson), [lesson])
   const dayStages = useMemo(() => buildDayStages(daySteps), [daySteps])
   const [culturaOpen, setCulturaOpen] = useState(false)
-  const [sheetOpen, setSheetOpen] = useState(false)
   const [stepIndex, setStepIndex] = useState(0)
   const [picked, setPicked] = useState(null)
   const [score, setScore] = useState(0)
@@ -257,7 +256,6 @@ export default function ArcLessonScreen({
   const advanceTimer = useRef(null)
   const skipDialogueScroll = useRef(true)
   const persistReady = useRef(false)
-  const savedPhrases = state?.savedPhrases ?? []
   const deck = useMemo(
     () => buildPracticeDeck(lesson, locale).filter((card) => card.day === lesson.day),
     [lesson, locale],
@@ -286,8 +284,8 @@ export default function ArcLessonScreen({
     const session = state?.lessonSessions?.[String(lesson.day)]
     const completed = isDayCompleted(lesson.day, state?.completedDays)
     setCulturaOpen(false)
-    setSheetOpen(false)
     setJustFinished(false)
+    window.scrollTo(0, 0)
     if (completed) {
       setStepIndex(0)
       setPicked(null)
@@ -451,14 +449,17 @@ export default function ArcLessonScreen({
       advanceDialogue()
       return
     }
-    if (picked && !boss) return
+    if (picked?.text === option.text) return
     if (isWrongChoice(option)) {
       rememberSessionMistake(fromDialogueStep(current, lesson.day, safeIndex, locale))
     } else {
       forgetSessionMistake(`dlg-${lesson.day}-${current.step ?? safeIndex}`)
     }
     setPicked(option)
-    setScore((value) => value + (option.points ?? 0))
+    setScore((value) => {
+      const previous = !boss && picked ? (picked.points ?? 0) : 0
+      return value - previous + (option.points ?? 0)
+    })
     if (!boss) return
     if (advanceTimer.current) window.clearTimeout(advanceTimer.current)
     advanceTimer.current = window.setTimeout(() => {
@@ -523,7 +524,6 @@ export default function ArcLessonScreen({
       const phrases = mergeDayPhrases(prev.savedPhrases ?? [], lesson)
       return rememberSavedPhrases({ ...prev, savedPhrases: phrases }, phrases)
     })
-    setSheetOpen(true)
   }
 
   function onMiniQuizMiss(question) {
@@ -574,19 +574,21 @@ export default function ArcLessonScreen({
             <p className="day__lead">{resolveContentText(lesson.successMessage, locale)}</p>
           ) : null}
         </section>
-        {nextDay ? (
-          <button
-            className="btn-primary"
-            type="button"
-            onClick={() => onStartNextDay?.(nextDay)}
-          >
-            {t('startDay', { day: nextDay })}
-          </button>
-        ) : (
-          <button className="btn-primary" type="button" onClick={onBack}>
-            {t('goHome')}
-          </button>
-        )}
+        <div className="lesson-end-actions">
+          {nextDay ? (
+            <button
+              className="btn-primary"
+              type="button"
+              onClick={() => onStartNextDay?.(nextDay)}
+            >
+              {t('startDay', { day: nextDay })}
+            </button>
+          ) : (
+            <button className="btn-primary" type="button" onClick={onBack}>
+              {t('goHome')}
+            </button>
+          )}
+        </div>
       </main>
     )
   }
@@ -595,6 +597,7 @@ export default function ArcLessonScreen({
     resolveContentText(lesson.type, locale) ||
     (boss ? `День ${lesson.day} · Boss Level 🏆` : `День ${lesson.day}`)
   const showLessonNext = !boss && !finished && Boolean(step) && Boolean(picked)
+  const hasInteractiveTrack = hasQuiz || dialogueSteps.length > 0
 
   return (
     <main className={`day${showLessonNext ? ' day--with-next' : ''}`}>
@@ -631,12 +634,12 @@ export default function ArcLessonScreen({
             {lesson.documents.map((doc) => (
               <li key={doc.item} className="phrase-card doc-card">
                 <div className="it-line">
-                  <p className="phrase-card__it">{doc.item}</p>
+                  <p className="phrase-card__it">{capitalizePhrase(doc.item)}</p>
                   <SpeakButton text={doc.item} />
                 </div>
-                {!hideTranslation && resolveContentText(doc.translation ?? doc.ukrainian, locale) ? (
+                {!hideTranslation && displayContentText(doc.translation ?? doc.ukrainian, locale) ? (
                   <p className="phrase-card__uk">
-                    {resolveContentText(doc.translation ?? doc.ukrainian, locale)}
+                    {displayContentText(doc.translation ?? doc.ukrainian, locale)}
                   </p>
                 ) : null}
               </li>
@@ -663,7 +666,7 @@ export default function ArcLessonScreen({
                 key={phrase.audio_id}
                 hideTranslation={hideTranslation}
                 phrase={{
-                  it: phrase.italian,
+                  it: capitalizePhrase(phrase.italian),
                   translation: phrase.translation ?? phrase.ukrainian,
                   uk: phrase.ukrainian,
                 }}
@@ -679,7 +682,7 @@ export default function ArcLessonScreen({
           <div className="day__phrase-list">
             {lesson.grammar.rules.map((item) => (
               <article key={resolveContentText(item.rule, 'uk')} className="phrase-card">
-                <p className="phrase-card__it">{resolveContentText(item.rule, locale)}</p>
+                <p className="phrase-card__rule">{resolveContentText(item.rule, locale)}</p>
                 {item.examples?.map((example) => {
                   const italian =
                     typeof example === 'string' ? example : example.italian
@@ -691,14 +694,14 @@ export default function ArcLessonScreen({
                           locale,
                         )
                   return (
-                    <div key={italian} className="it-line">
-                      <div>
-                        <p className="phrase-card__it">{italian}</p>
-                        {translated ? (
-                          <p className="phrase-card__uk">{translated}</p>
-                        ) : null}
+                    <div key={italian} className="phrase-example">
+                      <div className="it-line">
+                        <p className="phrase-card__it">{capitalizePhrase(italian)}</p>
+                        <SpeakButton text={italian} />
                       </div>
-                      <SpeakButton text={italian} />
+                      {translated ? (
+                        <p className="phrase-card__uk">{capitalizePhrase(translated)}</p>
+                      ) : null}
                     </div>
                   )
                 })}
@@ -749,13 +752,13 @@ export default function ArcLessonScreen({
           </h2>
           <article className="dialogue-card">
             <p className="phrase-card__it">
-              {resolveContentText(question.question, locale)}
+              {displayContentText(question.question, locale)}
             </p>
             <div className="dialogue-options">
               {(question.options ?? []).map((option, index) => (
                 <article key={option} className="option-card">
                   <div className="it-line">
-                    <p className="option-card__text">{option}</p>
+                    <p className="option-card__text">{capitalizePhrase(option)}</p>
                     <SpeakButton text={option} />
                   </div>
                   <button
@@ -803,6 +806,17 @@ export default function ArcLessonScreen({
       ) : null}
 
       <Flashcards key={`flash-${lesson.day}`} deck={deck} />
+      {!hasInteractiveTrack && !finished && !dayDone ? (
+        <div className="lesson-end-actions">
+          <button
+            className="btn-primary"
+            type="button"
+            onClick={() => completeDayNow()}
+          >
+            {t('markComplete')}
+          </button>
+        </div>
+      ) : null}
       {finished ? (
         <PracticeQuiz
           key={`quiz-${lesson.day}`}
@@ -814,11 +828,6 @@ export default function ArcLessonScreen({
         />
       ) : null}
 
-      <SavedPhrasesSheet
-        open={sheetOpen}
-        phrases={savedPhrases}
-        onClose={() => setSheetOpen(false)}
-      />
     </main>
   )
 }

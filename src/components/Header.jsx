@@ -1,6 +1,9 @@
+import { useState } from 'react'
 import { LOCALES, useI18n } from '../i18n.js'
 import { formatReminderTime } from '../notifications.js'
+import SavedPhrasesSheet from './SavedPhrasesSheet.jsx'
 import './Header.css'
+import '../screens/HomeScreen.css'
 
 export default function Header({
   remindersEnabled,
@@ -8,8 +11,10 @@ export default function Header({
   reminderMinute,
   onToggleReminders,
   onReminderTimeChange,
+  savedPhrases = [],
 }) {
   const { locale, setLocale, theme, setTheme, t } = useI18n()
+  const [phrasesOpen, setPhrasesOpen] = useState(false)
   const enabled = Boolean(remindersEnabled)
   const timeValue = formatReminderTime(reminderHour ?? 19, reminderMinute ?? 0)
 
@@ -53,6 +58,15 @@ export default function Header({
         >
           {theme === 'light' ? t('themeDark') : t('themeLight')}
         </button>
+        <button
+          className="chip-btn"
+          type="button"
+          aria-haspopup="dialog"
+          aria-expanded={phrasesOpen}
+          onClick={() => setPhrasesOpen(true)}
+        >
+          {t('savedPhrases')}
+        </button>
         <div className="reminder-section">
           <label className="reminder-toggle">
             <input
@@ -60,7 +74,19 @@ export default function Header({
               checked={enabled}
               onChange={(event) => onToggleReminders?.(event.target.checked)}
             />
-            <span className="reminder-toggle__box" aria-hidden="true" />
+            <span className="reminder-toggle__box" aria-hidden="true">
+              <svg
+                className="reminder-toggle__check"
+                viewBox="0 0 16 16"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2.2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              >
+                <path d="M3.2 8.4 6.3 11.6 12.8 4.4" />
+              </svg>
+            </span>
             <span className="reminder-toggle__text">{t('reminders.toggle')}</span>
           </label>
           <label
@@ -82,6 +108,11 @@ export default function Header({
           </label>
         </div>
       </div>
+      <SavedPhrasesSheet
+        open={phrasesOpen}
+        phrases={savedPhrases}
+        onClose={() => setPhrasesOpen(false)}
+      />
     </header>
   )
 }

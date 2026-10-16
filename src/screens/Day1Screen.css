@@ -2,7 +2,7 @@
   background: var(--card);
   border: 1px solid var(--border);
   border-radius: var(--radius);
-  padding: 0.95rem var(--space-md);
+  padding: 16px;
 }
 
 .dialogue-options {
@@ -16,7 +16,7 @@
   background: var(--bg);
   border: 1px solid var(--border);
   border-radius: var(--radius);
-  padding: 0.85rem 0.9rem;
+  padding: 16px;
   scroll-margin-bottom: calc(5.5rem + env(safe-area-inset-bottom, 0px));
 }
 
@@ -84,7 +84,7 @@
   background: var(--card);
   border: 1px solid var(--border);
   border-radius: var(--radius);
-  padding: var(--space-lg) var(--space-md);
+  padding: 16px;
   display: flex;
   flex-direction: column;
   gap: var(--space-sm);

@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from 'react'
 import SpeakButton from './SpeakButton.jsx'
 import { useI18n } from '../i18n.js'
+import { capitalizePhrase } from '../content/localize.js'
 import './Learn.css'
 
 export const QUIZ_ANCHOR_ID = 'practice-quiz'
@@ -90,7 +91,7 @@ export default function PracticeQuiz({
       </p>
       <article className="quiz-card">
         <div className="it-line">
-          <p className="phrase-card__it">{question.prompt}</p>
+          <p className="phrase-card__it">{capitalizePhrase(question.prompt)}</p>
           {question.speak ? <SpeakButton text={question.speak} /> : null}
         </div>
         <div className="quiz-options">
@@ -113,7 +114,7 @@ export default function PracticeQuiz({
                   disabled={locked}
                   onClick={() => pick(optionIndex)}
                 >
-                  {option}
+                  {capitalizePhrase(option)}
                 </button>
               </div>
             )
@@ -121,7 +122,9 @@ export default function PracticeQuiz({
         </div>
         {selected != null && selected !== question.correctIndex ? (
           <p className="quiz-hint">
-            {t('correctAnswer', { answer: question.options[question.correctIndex] })}
+            {t('correctAnswer', {
+              answer: capitalizePhrase(question.options[question.correctIndex]),
+            })}
           </p>
         ) : null}
       </article>

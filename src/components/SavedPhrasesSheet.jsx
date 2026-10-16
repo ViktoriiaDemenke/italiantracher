@@ -1,6 +1,6 @@
 import SpeakButton from './SpeakButton.jsx'
 import { useI18n } from '../i18n.js'
-import { resolveContentText } from '../content/localize.js'
+import { capitalizePhrase, displayContentText } from '../content/localize.js'
 import './Learn.css'
 
 export default function SavedPhrasesSheet({ open, phrases, onClose }) {
@@ -43,12 +43,12 @@ export default function SavedPhrasesSheet({ open, phrases, onClose }) {
               <li key={phrase.id} className="card">
                 <div>
                   <div className="it-line">
-                    <p className="card__title">{phrase.it}</p>
+                    <p className="card__title">{capitalizePhrase(phrase.it)}</p>
                     <SpeakButton text={phrase.it} />
                   </div>
-                  {resolveContentText(phrase.translation ?? phrase.uk, locale) ? (
+                  {displayContentText(phrase.translation ?? phrase.uk, locale) ? (
                     <p className="card__subtitle">
-                      {resolveContentText(phrase.translation ?? phrase.uk, locale)}
+                      {displayContentText(phrase.translation ?? phrase.uk, locale)}
                     </p>
                   ) : null}
                 </div>

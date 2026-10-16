@@ -103,28 +103,27 @@
   z-index: 1;
   pointer-events: none;
   flex: none;
-  width: 1.4rem;
-  height: 1.4rem;
-  border: 2px solid #9ca3af;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.25rem;
+  height: 1.25rem;
+  border: 1px solid var(--border);
   border-radius: 0.35rem;
-  background: transparent;
+  background: var(--card);
+  color: transparent;
 }
 
 .reminder-toggle input:checked + .reminder-toggle__box {
-  border-color: #22c55e;
-  background: #22c55e;
+  background: var(--success-bg);
+  border-color: var(--success-border);
+  color: var(--success-border);
 }
 
-.reminder-toggle input:checked + .reminder-toggle__box::after {
-  content: '';
-  position: absolute;
-  left: 0.28rem;
-  top: 0.05rem;
-  width: 0.32rem;
-  height: 0.62rem;
-  border: solid #052e16;
-  border-width: 0 2px 2px 0;
-  transform: rotate(45deg);
+.reminder-toggle__check {
+  display: block;
+  width: 0.72rem;
+  height: 0.72rem;
 }
 
 .reminder-toggle__text {

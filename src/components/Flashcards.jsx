@@ -2,7 +2,7 @@ import { useMemo, useState } from 'react'
 import SpeakButton from './SpeakButton.jsx'
 import { shuffleList } from '../learn/practice.js'
 import { useI18n } from '../i18n.js'
-import { resolveContentText } from '../content/localize.js'
+import { capitalizePhrase, displayContentText, resolveContentText } from '../content/localize.js'
 import './Learn.css'
 
 export default function Flashcards({ deck }) {
@@ -50,13 +50,13 @@ export default function Flashcards({ deck }) {
         <span className="flip-card__inner">
           <span className="flip-card__face flip-card__face--front">
             <span className="flip-card__kicker">{t('italiano')}</span>
-            <span className="flip-card__it">{card.it}</span>
+            <span className="flip-card__it">{capitalizePhrase(card.it)}</span>
             <span className="flip-card__hint">{t('flipHint')}</span>
           </span>
           <span className="flip-card__face flip-card__face--back">
             <span className="flip-card__kicker">{t('translation')}</span>
             <span className="flip-card__uk">
-              {resolveContentText(card.translation ?? card.uk, locale) || '—'}
+              {displayContentText(card.translation ?? card.uk, locale) || '—'}
             </span>
             {card.hint ? (
               <span className="flip-card__context">

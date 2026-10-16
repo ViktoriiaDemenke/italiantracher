@@ -12,6 +12,7 @@ import {
   uniqueDays,
   TOTAL_DAYS,
   needsPremium,
+  PAYWALL_ENABLED,
 } from './progress.js'
 import { loadState } from './storage.js'
 import { useChallengeProgress } from './hooks/useChallengeProgress.js'
@@ -28,6 +29,7 @@ import './components/Progress.css'
 function restoreUiScreen() {
   const saved = loadState()
   const raw = saved.uiScreen || 'home'
+  if (raw === 'paywall' && !PAYWALL_ENABLED) return 'home'
   if (raw === 'home' || raw === 'review' || raw === 'paywall') return raw
   const match = /^day(\d+)$/.exec(raw)
   if (!match) return 'home'
@@ -64,13 +66,15 @@ export default function App() {
     completeDay,
     recordQuizError,
     gradeReview,
-    exportBackup,
-    importBackup,
     billingBusy,
     buyPremium,
     restoreAccess,
   } = progress
   const [screen, setScreen] = useState(restoreUiScreen)
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [screen])
 
   const reminderHour = state.reminderHour ?? DEFAULT_REMINDER_HOUR
   const reminderMinute = state.reminderMinute ?? DEFAULT_REMINDER_MINUTE
@@ -241,14 +245,12 @@ export default function App() {
       onLockedDay={() => progress.showToast(t('lockedDay'))}
       onOpenReview={() => goTo('review')}
       onOpenPaywall={() => goTo('paywall')}
-      onExport={exportBackup}
-      onImportFile={importBackup}
     />
   )
 
   if (screen === 'review') {
     body = <ReviewScreen state={state} onGrade={gradeReview} onBack={goHome} />
-  } else if (screen === 'paywall') {
+  } else if (PAYWALL_ENABLED && screen === 'paywall') {
     body = (
       <PaywallScreen
         isPremium={Boolean(state.isPremium)}
@@ -291,6 +293,7 @@ export default function App() {
         reminderMinute={reminderMinute}
         onToggleReminders={handleToggleReminders}
         onReminderTimeChange={handleReminderTimeChange}
+        savedPhrases={state.savedPhrases ?? []}
       />
       {body}
       <Toast toast={toast} />

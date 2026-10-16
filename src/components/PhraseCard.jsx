@@ -2,7 +2,7 @@ import { useState } from 'react'
 import SpeakButton from './SpeakButton.jsx'
 import { DEFAULT_SPEECH_RATE, FAST_SPEECH_RATE } from '../lib/speech.js'
 import { useI18n } from '../i18n.js'
-import { resolveContentText } from '../content/localize.js'
+import { capitalizePhrase, resolveContentText } from '../content/localize.js'
 
 export default function PhraseCard({ phrase, onChoose, hideTranslation = false }) {
   const { t, locale } = useI18n()
@@ -17,11 +17,11 @@ export default function PhraseCard({ phrase, onChoose, hideTranslation = false }
         <p className="phrase-card__hint">{resolveContentText(phrase.hint, locale)}</p>
       ) : null}
       <div className="it-line">
-        <p className="phrase-card__it">{phrase.it}</p>
+        <p className="phrase-card__it">{capitalizePhrase(phrase.it)}</p>
         <SpeakButton text={phrase.it} rate={rate} />
       </div>
       {!hideTranslation && showUk && translated ? (
-        <p className="phrase-card__uk">{translated}</p>
+        <p className="phrase-card__uk">{capitalizePhrase(translated)}</p>
       ) : null}
 
       {onChoose ? (

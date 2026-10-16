@@ -20,8 +20,11 @@ export const DEFAULT_STATE = {
 }
 
 export const FREE_DAYS_MAX = 3
+/** Temporary: skip paywall and open every lesson for QA. Set true before release. */
+export const PAYWALL_ENABLED = false
 
 export function needsPremium(day) {
+  if (!PAYWALL_ENABLED) return false
   return Number(day) > FREE_DAYS_MAX
 }
 
@@ -70,6 +73,7 @@ export function deriveUnlockedDays(state) {
 
 export function isDayUnlocked(day, completedDays, unlockedDays) {
   if (day < 1 || day > TOTAL_DAYS) return false
+  if (!PAYWALL_ENABLED) return true
   if (day === 1) return true
   if ((unlockedDays ?? []).includes(Number(day))) return true
   return uniqueCompleted(completedDays).includes(day - 1)

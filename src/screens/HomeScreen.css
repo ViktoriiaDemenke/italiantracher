@@ -206,6 +206,7 @@
   max-width: var(--container);
   max-height: 78vh;
   overflow: auto;
+  overscroll-behavior: contain;
   background: var(--card);
   border: 1px solid var(--border);
   border-bottom: 0;
@@ -272,6 +273,7 @@
   display: flex;
   flex-direction: column;
   gap: var(--space-sm);
+  overscroll-behavior: contain;
 }
 
 @media (min-width: 480px) {

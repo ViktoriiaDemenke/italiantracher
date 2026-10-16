@@ -21,6 +21,20 @@ export function resolveContentText(value, locale) {
   )
 }
 
+export function capitalizePhrase(text) {
+  const value = String(text ?? '').trim()
+  if (!value) return ''
+  const prefixMatch = value.match(/^["'«“„¿¡]+/)
+  const prefix = prefixMatch ? prefixMatch[0] : ''
+  const body = value.slice(prefix.length)
+  if (!body) return value
+  return prefix + body.charAt(0).toLocaleUpperCase() + body.slice(1)
+}
+
+export function displayContentText(value, locale) {
+  return capitalizePhrase(resolveContentText(value, locale))
+}
+
 export function asTranslationMap(value, fallback = '') {
   if (isLocalizedMap(value)) return value
   if (isLocalizedMap(fallback)) return fallback

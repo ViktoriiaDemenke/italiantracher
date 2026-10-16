@@ -6,7 +6,7 @@
   background: var(--bg);
   padding-top: var(--space-lg);
   padding-right: calc(var(--space-md) + env(safe-area-inset-right, 0px));
-  padding-bottom: calc(6rem + env(safe-area-inset-bottom, 0px));
+  padding-bottom: calc(16px + env(safe-area-inset-bottom, 0px));
   padding-left: calc(var(--space-md) + env(safe-area-inset-left, 0px));
   max-width: var(--container);
   margin: 0 auto;
@@ -14,6 +14,16 @@
 
 .day--with-next {
   padding-bottom: calc(8.5rem + env(safe-area-inset-bottom, 0px));
+}
+
+.lesson-end-actions {
+  width: 100%;
+  margin-top: var(--space-lg);
+  padding-top: var(--space-sm);
+}
+
+.lesson-end-actions .btn-primary {
+  margin-top: 0;
 }
 
 .lesson-next-bar {
@@ -112,6 +122,7 @@
   align-items: flex-start;
   gap: 0.75rem;
   margin-top: 0;
+  margin-bottom: 16px;
 }
 
 .day__type-badge-wrap {
@@ -156,7 +167,7 @@
   background: var(--card);
   border: 1px solid var(--border);
   border-radius: var(--radius);
-  padding: 0.85rem var(--space-md);
+  padding: 16px;
 }
 
 .cultura__toggle {
@@ -211,7 +222,19 @@
   background: var(--card);
   border: 1px solid var(--border);
   border-radius: var(--radius);
-  padding: 0.95rem var(--space-md);
+  padding: 16px;
+}
+
+.phrase-card__rule {
+  margin: 0 0 12px;
+  color: var(--text);
+  font-size: var(--text-sm);
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.phrase-example + .phrase-example {
+  margin-top: 12px;
 }
 
 .phrase-card--choice {
@@ -239,15 +262,15 @@
 .phrase-card__it {
   margin: 0;
   color: var(--text);
-  font-size: 1.05rem;
-  font-weight: 600;
+  font-size: 1.1rem;
+  font-weight: 700;
   line-height: 1.4;
 }
 
 .phrase-card__uk {
-  margin: 0.4rem 0 0;
+  margin: 8px 0 0;
   color: var(--muted);
-  font-size: 0.9rem;
+  font-size: 0.875rem;
   font-weight: 400;
   line-height: 1.55;
 }

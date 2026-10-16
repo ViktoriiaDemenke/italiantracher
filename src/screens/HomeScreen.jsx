@@ -1,9 +1,8 @@
-import { useRef, useState } from 'react'
 import { CANONICAL_MODULES } from '../data/modules'
 import CycleNav, { MODULE_CYCLES } from '../components/CycleNav.jsx'
-import SavedPhrasesSheet from '../components/SavedPhrasesSheet.jsx'
 import ProgressOverview from '../components/ProgressOverview.jsx'
 import DayGrid from '../components/DayGrid.jsx'
+import { PAYWALL_ENABLED } from '../progress.js'
 import { useI18n } from '../i18n.js'
 import './HomeScreen.css'
 
@@ -15,12 +14,7 @@ export default function HomeScreen({
   onLockedDay,
   onOpenReview,
   onOpenPaywall,
-  onExport,
-  onImportFile,
 }) {
-  const [phrasesOpen, setPhrasesOpen] = useState(false)
-  const importRef = useRef(null)
-  const savedPhrases = state.savedPhrases ?? []
   const { t } = useI18n()
 
   function openModule(mod) {
@@ -43,32 +37,11 @@ export default function HomeScreen({
           <button className="chip-btn" type="button" onClick={onOpenReview}>
             {t('review')}
           </button>
-          {!state.isPremium ? (
+          {PAYWALL_ENABLED && !state.isPremium ? (
             <button className="chip-btn" type="button" onClick={onOpenPaywall}>
               {t('paywall.badge')}
             </button>
           ) : null}
-          <button className="chip-btn" type="button" onClick={onExport}>
-            {t('export')}
-          </button>
-          <button
-            className="chip-btn"
-            type="button"
-            onClick={() => importRef.current?.click()}
-          >
-            {t('import')}
-          </button>
-          <input
-            ref={importRef}
-            className="home__import-input"
-            type="file"
-            accept="application/json,.json"
-            onChange={(event) => {
-              const file = event.target.files?.[0]
-              if (file) onImportFile?.(file)
-              event.target.value = ''
-            }}
-          />
         </div>
         <ProgressOverview
           completedDays={state.completedDays}
@@ -123,21 +96,6 @@ export default function HomeScreen({
         </ul>
       </section>
 
-      <button
-        className="fab"
-        type="button"
-        aria-haspopup="dialog"
-        aria-expanded={phrasesOpen}
-        onClick={() => setPhrasesOpen(true)}
-      >
-        {t('savedPhrases')}
-      </button>
-
-      <SavedPhrasesSheet
-        open={phrasesOpen}
-        phrases={savedPhrases}
-        onClose={() => setPhrasesOpen(false)}
-      />
     </main>
   )
 }
