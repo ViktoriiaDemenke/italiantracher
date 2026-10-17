@@ -56,9 +56,33 @@
         "ro": "Ce înseamnă «Spese condominiali» la închiriere?"
       },
       "options": [
-        "Платежі за обслуговування спільних частин будинку (прибирання, ліфт, освітлення під'їзду).",
-        "Податок на купівлю меблів.",
-        "Плата за паркування на міській вулиці."
+        {
+          "translations": {
+            "uk": "Платежі за обслуговування спільних частин будинку (прибирання, ліфт, освітлення під'їзду).",
+            "en": "Charges for maintaining shared parts of the building (cleaning, lift, hallway lighting).",
+            "es": "Gastos de mantenimiento de zonas comunes (limpieza, ascensor, luz del portal).",
+            "fr": "Charges d’entretien des parties communes (ménage, ascenseur, éclairage de l’entrée).",
+            "ro": "Cheltuieli pentru părțile comune ale clădirii (curățenie, lift, iluminat scară)."
+          }
+        },
+        {
+          "translations": {
+            "uk": "Податок на купівлю меблів.",
+            "en": "A tax on buying furniture.",
+            "es": "Un impuesto por comprar muebles.",
+            "fr": "Une taxe sur l’achat de meubles.",
+            "ro": "O taxă pe cumpărarea mobilei."
+          }
+        },
+        {
+          "translations": {
+            "uk": "Плата за паркування на міській вулиці.",
+            "en": "A fee for parking on a city street.",
+            "es": "Una tarifa por aparcar en una calle de la ciudad.",
+            "fr": "Un tarif pour se garer dans une rue de la ville.",
+            "ro": "O taxă de parcare pe o stradă din oraș."
+          }
+        }
       ],
       "correctAnswer": 0,
       "explanation": {
@@ -79,9 +103,33 @@
         "ro": "Ce este «Caparra» (sau «Deposito cauzionale»)?"
       },
       "options": [
-        "Гарантійна застава за збереження майна, яка повертається при виїзді.",
-        "Щомісячна плата за інтернет.",
-        "Одноразова оплата послуг прибиральниці."
+        {
+          "translations": {
+            "uk": "Гарантійна застава за збереження майна, яка повертається при виїзді.",
+            "en": "A security deposit for the property, returned when you move out.",
+            "es": "Una fianza por el estado del piso, que se devuelve al marcharse.",
+            "fr": "Une caution pour l’état du logement, rendue à la sortie.",
+            "ro": "O garanție pentru bunuri, returnată la mutare."
+          }
+        },
+        {
+          "translations": {
+            "uk": "Щомісячна плата за інтернет.",
+            "en": "A monthly internet bill.",
+            "es": "Una factura mensual de internet.",
+            "fr": "Une facture internet mensuelle.",
+            "ro": "O factură lunară de internet."
+          }
+        },
+        {
+          "translations": {
+            "uk": "Одноразова оплата послуг прибиральниці.",
+            "en": "A one-off payment for a cleaner.",
+            "es": "Un pago único por una limpiadora.",
+            "fr": "Un paiement unique pour une femme de ménage.",
+            "ro": "O plată unică pentru o femeie de serviciu."
+          }
+        }
       ],
       "correctAnswer": 0,
       "explanation": {
@@ -125,9 +173,33 @@
         "ro": "Ce înseamnă termenul «Bilocale» în anunțurile imobiliare?"
       },
       "options": [
-        "Двокімнатна квартира (спальня + вітальня/кухня).",
-        "Двоповерховий приватний будинок.",
-        "Кімната на двох осіб у гуртожитку."
+        {
+          "translations": {
+            "uk": "Двокімнатна квартира (спальня + вітальня/кухня).",
+            "en": "A two-room apartment (bedroom + living room/kitchen).",
+            "es": "Un piso de dos estancias (dormitorio + salón/cocina).",
+            "fr": "Un logement de deux pièces (chambre + séjour/cuisine).",
+            "ro": "Un apartament cu două camere (dormitor + living/bucătărie)."
+          }
+        },
+        {
+          "translations": {
+            "uk": "Двоповерховий приватний будинок.",
+            "en": "A two-storey private house.",
+            "es": "Una casa particular de dos plantas.",
+            "fr": "Une maison individuelle à deux étages.",
+            "ro": "O casă particulară cu două etaje."
+          }
+        },
+        {
+          "translations": {
+            "uk": "Кімната на двох осіб у гуртожитку.",
+            "en": "A twin room in a dormitory.",
+            "es": "Una habitación para dos en un residencial.",
+            "fr": "Une chambre pour deux dans un foyer.",
+            "ro": "O cameră pentru două persoane într-un cămin."
+          }
+        }
       ],
       "correctAnswer": 0,
       "explanation": {

@@ -57,7 +57,7 @@ export default function ReviewScreen({ state, onGrade, onBack }) {
               <span className="flip-card__face flip-card__face--back">
                 <span className="flip-card__kicker">{t('translation')}</span>
                 <span className="flip-card__uk">
-                  {displayContentText(card.translation ?? card.uk, locale) || '—'}
+                  {displayContentText(card.translations ?? card.translation ?? card.uk, locale) || '—'}
                 </span>
                 {card.day ? (
                   <span className="flip-card__context">{t('dayN', { day: card.day })}</span>

@@ -1,4 +1,4 @@
-import { asTranslationMap } from './localize.js'
+import { asTranslationMap, isItalianPrompt } from './localize.js'
 
 function asObject(raw) {
   if (raw && typeof raw === 'object' && !Array.isArray(raw)) return raw
@@ -10,6 +10,10 @@ function asObject(raw) {
   }
 }
 
+function localizedText(value, extra) {
+  return asTranslationMap(value ?? extra)
+}
+
 function asOptions(options) {
   if (!Array.isArray(options)) return []
   return options.map((option) => {
@@ -19,15 +23,47 @@ function asOptions(options) {
     const tone = option.tone ?? (option.isCorrect ? 'natural' : 'wrong')
     const points =
       option.points ?? (tone === 'natural' ? 10 : tone === 'bookish' ? 4 : 0)
+    const translations = localizedText(
+      option.translations ?? option.translation ?? option.ukrainian,
+    )
     return {
       text: String(option.text ?? ''),
       tone,
       isCorrect: tone === 'natural' || Boolean(option.isCorrect),
-      feedback: asTranslationMap(option.feedback),
-      translation: asTranslationMap(option.translation ?? option.ukrainian),
-      hint: asTranslationMap(option.hint),
+      feedback: localizedText(option.feedback),
+      translations,
+      translation: translations,
+      hint: localizedText(option.hint),
       points,
     }
+  })
+}
+
+function asQuizOptions(options) {
+  if (!Array.isArray(options)) return []
+  return options.map((option) => {
+    if (typeof option === 'string') {
+      if (isItalianPrompt(option)) return option
+      const translations = localizedText({ uk: option })
+      return { translations, translation: translations }
+    }
+    const translations = localizedText(
+      option.translations ?? option.translation ?? option,
+    )
+    if (typeof option.text === 'string' && isItalianPrompt(option.text)) {
+      return option.text
+    }
+    return { ...option, translations, translation: translations }
+  })
+}
+
+function asTipList(items) {
+  if (!Array.isArray(items)) return []
+  return items.map((item) => {
+    if (typeof item === 'string') {
+      return isItalianPrompt(item) ? item : localizedText({ uk: item })
+    }
+    return localizedText(item)
   })
 }
 
@@ -42,80 +78,131 @@ function inferMode(data) {
 export function loadLesson(raw, fallbackDay) {
   const data = asObject(raw)
   const documents = Array.isArray(data.documents)
-    ? data.documents
+    ? data.documents.map((item) =>
+        typeof item === 'string'
+          ? {
+              item,
+              translations: localizedText(''),
+              translation: localizedText(''),
+            }
+          : {
+              item: String(item.item ?? ''),
+              translations: localizedText(
+                item.translations ?? item.translation ?? item.ukrainian,
+              ),
+              translation: localizedText(
+                item.translations ?? item.translation ?? item.ukrainian,
+              ),
+            },
+      )
     : Array.isArray(data.documentsRequired)
       ? data.documentsRequired.map((item) =>
           typeof item === 'string'
-            ? { item, ukrainian: asTranslationMap(''), translation: asTranslationMap('') }
+            ? {
+                item,
+                translations: localizedText(''),
+                translation: localizedText(''),
+              }
             : {
                 item: String(item.item ?? ''),
-                ukrainian: asTranslationMap(item.ukrainian ?? item.translation),
-                translation: asTranslationMap(item.translation ?? item.ukrainian),
+                translations: localizedText(
+                  item.translations ?? item.translation ?? item.ukrainian,
+                ),
+                translation: localizedText(
+                  item.translations ?? item.translation ?? item.ukrainian,
+                ),
               },
         )
       : []
   const phrases = Array.isArray(data.phrases)
-    ? data.phrases.map((phrase, index) => ({
-        ...phrase,
-        italian: String(phrase.italian ?? ''),
-        ukrainian: asTranslationMap(phrase.ukrainian ?? phrase.translation),
-        translation: asTranslationMap(phrase.translation ?? phrase.ukrainian),
-        hint: asTranslationMap(phrase.hint),
-        audio_id: phrase.audio_id ?? `d${data.day ?? fallbackDay}_p${index + 1}`,
-      }))
+    ? data.phrases.map((phrase, index) => {
+        const translations = localizedText(
+          phrase.translations ?? phrase.translation ?? phrase.ukrainian,
+        )
+        return {
+          ...phrase,
+          italian: String(phrase.italian ?? ''),
+          translations,
+          translation: translations,
+          hint: localizedText(phrase.hint),
+          audio_id: phrase.audio_id ?? `d${data.day ?? fallbackDay}_p${index + 1}`,
+        }
+      })
     : []
+
+  const grammar = data.grammar
+    ? {
+        ...data.grammar,
+        title: localizedText(data.grammar.title),
+        rules: Array.isArray(data.grammar.rules)
+          ? data.grammar.rules.map((item) => ({
+              ...item,
+              rule: localizedText(item.rule),
+              examples: Array.isArray(item.examples)
+                ? item.examples.map((example) =>
+                    typeof example === 'string'
+                      ? example
+                      : {
+                          ...example,
+                          italian: String(example.italian ?? ''),
+                          translations: localizedText(
+                            example.translations ??
+                              example.translation ??
+                              example.ukrainian,
+                          ),
+                          translation: localizedText(
+                            example.translations ??
+                              example.translation ??
+                              example.ukrainian,
+                          ),
+                        },
+                  )
+                : [],
+            }))
+          : [],
+      }
+    : null
 
   return {
     day: fallbackDay ?? data.day,
-    title: asTranslationMap(data.title),
+    title: localizedText(data.title),
     module: String(data.module ?? ''),
-    type: asTranslationMap(data.type),
-    story: asTranslationMap(data.story),
+    type: localizedText(data.type),
+    story: localizedText(data.story),
     mode: inferMode(data),
     phrases,
     documents,
     documentsRequired: Array.isArray(data.documentsRequired)
       ? data.documentsRequired
       : [],
-    grammar: data.grammar ?? null,
-    restaurantEtiquette: Array.isArray(data.restaurantEtiquette)
-      ? data.restaurantEtiquette
-      : [],
-    housingNuances: Array.isArray(data.housingNuances)
-      ? data.housingNuances
-      : [],
-    postOfficeTips: Array.isArray(data.postOfficeTips)
-      ? data.postOfficeTips
-      : [],
-    patronatoTips: Array.isArray(data.patronatoTips)
-      ? data.patronatoTips
-      : [],
-    barRules: Array.isArray(data.barRules) ? data.barRules : [],
-    supermarketEtiquette: Array.isArray(data.supermarketEtiquette)
-      ? data.supermarketEtiquette
-      : [],
-    transportTips: Array.isArray(data.transportTips)
-      ? data.transportTips
-      : [],
-    beautyTips: Array.isArray(data.beautyTips) ? data.beautyTips : [],
+    grammar,
+    restaurantEtiquette: asTipList(data.restaurantEtiquette),
+    housingNuances: asTipList(data.housingNuances),
+    postOfficeTips: asTipList(data.postOfficeTips),
+    patronatoTips: asTipList(data.patronatoTips),
+    barRules: asTipList(data.barRules),
+    supermarketEtiquette: asTipList(data.supermarketEtiquette),
+    transportTips: asTipList(data.transportTips),
+    beautyTips: asTipList(data.beautyTips),
     questions: Array.isArray(data.questions)
       ? data.questions.map((question) => ({
           ...question,
-          question: asTranslationMap(question.question),
-          explanation: asTranslationMap(question.explanation),
-          options: Array.isArray(question.options) ? question.options : [],
+          question: localizedText(question.question),
+          explanation: localizedText(question.explanation),
+          options: asQuizOptions(question.options),
         }))
       : [],
-    culturaTip: asTranslationMap(data.culturaTip),
-    successTitle: asTranslationMap(data.successTitle),
-    successMessage: asTranslationMap(data.successMessage),
-    successBadge: asTranslationMap(data.successBadge),
+    culturaTip: localizedText(data.culturaTip),
+    successTitle: localizedText(data.successTitle),
+    successMessage: localizedText(data.successMessage),
+    successBadge: localizedText(data.successBadge),
     dialogue: Array.isArray(data.dialogue)
       ? data.dialogue.map((step, index) => ({
           step: step.step ?? index + 1,
           speaker: String(step.speaker ?? ''),
           text: String(step.text ?? ''),
-          translation: asTranslationMap(step.translation ?? step.ukrainian),
+          translations: localizedText(step.translations ?? step.translation ?? step.ukrainian),
+          translation: localizedText(step.translations ?? step.translation ?? step.ukrainian),
           options: asOptions(step.options),
         }))
       : [],

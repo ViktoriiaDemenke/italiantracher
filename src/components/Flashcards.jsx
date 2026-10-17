@@ -56,7 +56,7 @@ export default function Flashcards({ deck }) {
           <span className="flip-card__face flip-card__face--back">
             <span className="flip-card__kicker">{t('translation')}</span>
             <span className="flip-card__uk">
-              {displayContentText(card.translation ?? card.uk, locale) || '—'}
+              {displayContentText(card.translations ?? card.translation ?? card.uk, locale) || '—'}
             </span>
             {card.hint ? (
               <span className="flip-card__context">

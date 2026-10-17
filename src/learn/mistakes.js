@@ -1,5 +1,5 @@
 import { shuffleList } from './practice.js'
-import { resolveContentText } from '../content/localize.js'
+import { resolveContentText, resolveQuizOption, isItalianPrompt } from '../content/localize.js'
 
 export function isWrongChoice(option) {
   if (!option) return true
@@ -39,15 +39,18 @@ export function fromBossQuestion(question, day, index, locale) {
   if (!question || !Array.isArray(question.options) || question.options.length < 2) {
     return null
   }
+  const options = question.options.map((option) => resolveQuizOption(option, locale))
+  const correct = options[question.correctAnswer] ?? ''
+  const speakSource = question.options[question.correctAnswer]
+  const speak =
+    typeof speakSource === 'string' && isItalianPrompt(speakSource) ? speakSource : ''
   return shuffleQuestion({
     id: `boss-${day}-${question.id ?? index}`,
     prompt: resolveContentText(question.question, locale),
-    speak: question.options[question.correctAnswer],
-    options: question.options,
+    speak,
+    options,
     correctIndex: question.correctAnswer,
-    explain:
-      resolveContentText(question.explanation, locale) ||
-      question.options[question.correctAnswer],
+    explain: resolveContentText(question.explanation, locale) || correct,
   })
 }
 

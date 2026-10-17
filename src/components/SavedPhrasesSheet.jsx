@@ -46,9 +46,12 @@ export default function SavedPhrasesSheet({ open, phrases, onClose }) {
                     <p className="card__title">{capitalizePhrase(phrase.it)}</p>
                     <SpeakButton text={phrase.it} />
                   </div>
-                  {displayContentText(phrase.translation ?? phrase.uk, locale) ? (
+                  {displayContentText(phrase.translations ?? phrase.translation ?? phrase.uk, locale) ? (
                     <p className="card__subtitle">
-                      {displayContentText(phrase.translation ?? phrase.uk, locale)}
+                      {displayContentText(
+                        phrase.translations ?? phrase.translation ?? phrase.uk,
+                        locale,
+                      )}
                     </p>
                   ) : null}
                 </div>

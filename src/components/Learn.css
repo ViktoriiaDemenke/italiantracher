@@ -78,9 +78,36 @@
 
 .learn-block__tools {
   display: flex;
-  flex-wrap: wrap;
-  gap: var(--space-sm);
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
   margin-top: var(--space-sm);
+  width: 100%;
+}
+
+.learn-block__tools .chip-btn,
+.learn-block__tools .speak-btn {
+  box-sizing: border-box;
+  height: 2.5rem;
+  min-height: 2.5rem;
+  margin: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+  transform: none;
+}
+
+.learn-block__tools .chip-btn {
+  padding: 0 0.85rem;
+  white-space: nowrap;
+}
+
+.learn-block__tools .speak-btn {
+  width: 2.5rem;
+  padding: 0;
+  flex: none;
 }
 
 .flip-card {

@@ -33,9 +33,33 @@
         "ro": "Ce trebuie să faci imediat ce intri într-un oficiu Poste Italiane?"
       },
       "options": [
-        "Взяти талончик (ticket) в електронному терміналі біля входу.",
-        "Одразу йти до віконця без черги.",
-        "Заплатити за вхід у касу."
+        {
+          "translations": {
+            "uk": "Взяти талончик (ticket) в електронному терміналі біля входу.",
+            "en": "Take a ticket from the electronic terminal near the entrance.",
+            "es": "Coger un ticket en el tótem electrónico junto a la entrada.",
+            "fr": "Prendre un ticket au totem électronique près de l’entrée.",
+            "ro": "Luați un bilet de la terminalul electronic de la intrare."
+          }
+        },
+        {
+          "translations": {
+            "uk": "Одразу йти до віконця без черги.",
+            "en": "Go straight to the counter without queuing.",
+            "es": "Ir directo a la ventanilla sin fila.",
+            "fr": "Aller directement au guichet sans faire la queue.",
+            "ro": "Mergeți direct la ghișeu fără rând."
+          }
+        },
+        {
+          "translations": {
+            "uk": "Заплатити за вхід у касу.",
+            "en": "Pay an entrance fee at the cashier.",
+            "es": "Pagar la entrada en caja.",
+            "fr": "Payer l’entrée à la caisse.",
+            "ro": "Plătiți taxa de intrare la casă."
+          }
+        }
       ],
       "correctAnswer": 0,
       "explanation": {
@@ -79,9 +103,33 @@
         "ro": "Ce este o 'Raccomandata'?"
       },
       "options": [
-        "Рекомендований лист, що вручається під особистий підпис з офіційним сповіщенням.",
-        "Звичайний рекламний буклет у поштовій скриньці.",
-        "Електронний чек з супермаркету."
+        {
+          "translations": {
+            "uk": "Рекомендований лист, що вручається під особистий підпис з офіційним сповіщенням.",
+            "en": "Registered mail handed over against a signature, with official notice.",
+            "es": "Carta certificada que se entrega contra firma, con aviso oficial.",
+            "fr": "Courrier recommandé remis contre signature, avec avis officiel.",
+            "ro": "Scrisoare recomandată predată contra semnătură, cu înștiințare oficială."
+          }
+        },
+        {
+          "translations": {
+            "uk": "Звичайний рекламний буклет у поштовій скриньці.",
+            "en": "A regular advertising leaflet in the mailbox.",
+            "es": "Un folleto publicitario normal en el buzón.",
+            "fr": "Un simple prospectus publicitaire dans la boîte aux lettres.",
+            "ro": "Un pliant publicitar obișnuit în cutia poștală."
+          }
+        },
+        {
+          "translations": {
+            "uk": "Електронний чек з супермаркету.",
+            "en": "An electronic supermarket receipt.",
+            "es": "Un ticket electrónico de supermercado.",
+            "fr": "Un ticket de caisse électronique de supermarché.",
+            "ro": "Un bon electronic de la supermarket."
+          }
+        }
       ],
       "correctAnswer": 0,
       "explanation": {
@@ -102,9 +150,33 @@
         "ro": "Cine este 'Mittente' pe un plic sau o cutie poștală?"
       },
       "options": [
-        "Відправник.",
-        "Одержувач.",
-        "Поштовий кур'єр."
+        {
+          "translations": {
+            "uk": "Відправник.",
+            "en": "The sender.",
+            "es": "El remitente.",
+            "fr": "L’expéditeur.",
+            "ro": "Expeditorul."
+          }
+        },
+        {
+          "translations": {
+            "uk": "Одержувач.",
+            "en": "The recipient.",
+            "es": "El destinatario.",
+            "fr": "Le destinataire.",
+            "ro": "Destinatarul."
+          }
+        },
+        {
+          "translations": {
+            "uk": "Поштовий кур'єр.",
+            "en": "The postal courier.",
+            "es": "El mensajero de correos.",
+            "fr": "Le coursier postal.",
+            "ro": "Curierul poștal."
+          }
+        }
       ],
       "correctAnswer": 0,
       "explanation": {

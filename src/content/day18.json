@@ -33,9 +33,33 @@
         "ro": "Ce este certificatul 'ISEE' în Italia?"
       },
       "options": [
-        "Офіційний розрахунок фінансового стану родини для отримання пільг та допомог.",
-        "Квитанція за проїзд у міському транспорті.",
-        "Рецепт від сімейного лікаря."
+        {
+          "translations": {
+            "uk": "Офіційний розрахунок фінансового стану родини для отримання пільг та допомог.",
+            "en": "An official calculation of household income for benefits and support.",
+            "es": "Un cálculo oficial de la situación económica familiar para ayudas.",
+            "fr": "Un calcul officiel de la situation financière du foyer pour les aides.",
+            "ro": "Un calcul oficial al situației financiare a familiei pentru ajutoare."
+          }
+        },
+        {
+          "translations": {
+            "uk": "Квитанція за проїзд у міському транспорті.",
+            "en": "A city-transport ticket receipt.",
+            "es": "Un recibo de transporte urbano.",
+            "fr": "Un reçu de transport urbain.",
+            "ro": "O chitanță pentru transportul urban."
+          }
+        },
+        {
+          "translations": {
+            "uk": "Рецепт від сімейного лікаря.",
+            "en": "A prescription from the family doctor.",
+            "es": "Una receta del médico de cabecera.",
+            "fr": "Une ordonnance du médecin de famille.",
+            "ro": "O rețetă de la medicul de familie."
+          }
+        }
       ],
       "correctAnswer": 0,
       "explanation": {
@@ -102,9 +126,33 @@
         "ro": "Ce date sunt necesare pentru virarea plăților lunare de la INPS?"
       },
       "options": [
-        "Код IBAN банківського рахунку.",
-        "Номер чека з супермаркету.",
-        "Індекс поштового відділення."
+        {
+          "translations": {
+            "uk": "Код IBAN банківського рахунку.",
+            "en": "The IBAN of a bank account.",
+            "es": "El IBAN de una cuenta bancaria.",
+            "fr": "L’IBAN d’un compte bancaire.",
+            "ro": "Codul IBAN al unui cont bancar."
+          }
+        },
+        {
+          "translations": {
+            "uk": "Номер чека з супермаркету.",
+            "en": "A supermarket receipt number.",
+            "es": "El número de un ticket de supermercado.",
+            "fr": "Le numéro d’un ticket de supermarché.",
+            "ro": "Numărul unui bon de la supermarket."
+          }
+        },
+        {
+          "translations": {
+            "uk": "Індекс поштового відділення.",
+            "en": "A post-office postcode.",
+            "es": "El código postal de una oficina de correos.",
+            "fr": "Le code postal d’un bureau de poste.",
+            "ro": "Codul poștal al unui oficiu poștal."
+          }
+        }
       ],
       "correctAnswer": 0,
       "explanation": {

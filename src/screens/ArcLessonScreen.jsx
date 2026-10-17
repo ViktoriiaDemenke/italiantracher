@@ -25,7 +25,9 @@ import { useI18n } from '../i18n.js'
 import {
   capitalizePhrase,
   displayContentText,
+  isItalianPrompt,
   resolveContentText,
+  resolveQuizOption,
 } from '../content/localize.js'
 import '../screens/HomeScreen.css'
 import './Lesson.css'
@@ -68,8 +70,9 @@ function mergeDayPhrases(savedPhrases, lesson) {
   const incoming = lesson.phrases.map((phrase) => ({
     id: phrase.audio_id,
     it: phrase.italian,
-    translation: phrase.translation ?? phrase.ukrainian,
-    uk: phrase.ukrainian ?? phrase.translation,
+    translations: phrase.translations ?? phrase.translation ?? phrase.ukrainian,
+    translation: phrase.translations ?? phrase.translation ?? phrase.ukrainian,
+    uk: phrase.translations ?? phrase.translation ?? phrase.ukrainian,
     day: lesson.day,
   }))
   return [...others, ...incoming]
@@ -150,7 +153,10 @@ function DialogueStep({ step, boss, picked, onPick }) {
   const [showUk, setShowUk] = useState(false)
   const rate = slow ? DEFAULT_SPEECH_RATE : FAST_SPEECH_RATE
   const choices = Array.isArray(step?.options) ? step.options : []
-  const lineUk = displayContentText(step?.translation ?? step?.ukrainian, locale)
+  const lineUk = displayContentText(
+    step?.translations ?? step?.translation ?? step?.ukrainian,
+    locale,
+  )
 
   function chooseOption(option) {
     onPick?.(option)
@@ -192,9 +198,17 @@ function DialogueStep({ step, boss, picked, onPick }) {
               <p className="option-card__text">{capitalizePhrase(option.text)}</p>
               <SpeakButton text={option.text} rate={rate} />
             </div>
-            {!boss && showUk && displayContentText(option.translation || option.ukrainian, locale) ? (
+            {!boss &&
+            showUk &&
+            displayContentText(
+              option.translations || option.translation || option.ukrainian,
+              locale,
+            ) ? (
               <p className="phrase-card__uk">
-                {displayContentText(option.translation || option.ukrainian, locale)}
+                {displayContentText(
+                  option.translations || option.translation || option.ukrainian,
+                  locale,
+                )}
               </p>
             ) : null}
             <button
@@ -251,7 +265,8 @@ export default function ArcLessonScreen({
   const [justFinished, setJustFinished] = useState(false)
   const [activeKind, setActiveKind] = useState(dayStages[0]?.kind ?? 'text')
   const [mistakesList, setMistakesList] = useState([])
-  const [reviewingMistakes, setReviewingMistakes] = useState(false)
+  const [mistakesPhase, setMistakesPhase] = useState('idle')
+  const [claimReady, setClaimReady] = useState(false)
   const mistakesRef = useRef([])
   const advanceTimer = useRef(null)
   const skipDialogueScroll = useRef(true)
@@ -293,7 +308,8 @@ export default function ArcLessonScreen({
       setFinished(false)
       setDayDone(false)
       setMistakesList([])
-      setReviewingMistakes(false)
+      setMistakesPhase('idle')
+      setClaimReady(false)
       mistakesRef.current = []
     } else if (session) {
       setStepIndex(session.stepIndex ?? 0)
@@ -302,7 +318,8 @@ export default function ArcLessonScreen({
       setFinished(Boolean(session.finished))
       setDayDone(Boolean(session.dayDone))
       setMistakesList(Array.isArray(session.mistakesList) ? session.mistakesList : [])
-      setReviewingMistakes(Boolean(session.reviewingMistakes))
+      setMistakesPhase(session.mistakesPhase || (session.reviewingMistakes ? 'summary' : 'idle'))
+      setClaimReady(Boolean(session.claimReady))
       mistakesRef.current = Array.isArray(session.mistakesList)
         ? session.mistakesList
         : []
@@ -314,7 +331,8 @@ export default function ArcLessonScreen({
       setFinished(false)
       setDayDone(false)
       setMistakesList([])
-      setReviewingMistakes(false)
+      setMistakesPhase('idle')
+      setClaimReady(false)
       mistakesRef.current = []
       setActiveKind(buildDayStages(buildDaySteps(lesson))[0]?.kind ?? 'text')
     }
@@ -342,7 +360,9 @@ export default function ArcLessonScreen({
           finished,
           score,
           dayDone,
-          reviewingMistakes,
+          mistakesPhase,
+          claimReady,
+          reviewingMistakes: mistakesPhase === 'summary' || mistakesPhase === 'retry',
           mistakesList,
           activeKind,
         },
@@ -355,9 +375,10 @@ export default function ArcLessonScreen({
     justFinished,
     lesson.day,
     mistakesList,
+    mistakesPhase,
+    claimReady,
     onStateChange,
     picked,
-    reviewingMistakes,
     score,
     stepIndex,
   ])
@@ -393,10 +414,27 @@ export default function ArcLessonScreen({
   }, [hasQuiz, dialogueSteps, stepIndex])
 
   useEffect(() => {
-    if (!finished || dayDone || reviewingMistakes) return
-    if (miniQuestions.length > 0) return
-    tryFinishDay()
-  }, [finished, miniQuestions.length, dayDone, reviewingMistakes])
+    if (!finished || dayDone || claimReady) return
+    if (mistakesPhase === 'summary' || mistakesPhase === 'retry' || mistakesPhase === 'cleared') {
+      return
+    }
+    if (!hasQuiz && miniQuestions.length > 0) return
+    if (mistakesRef.current.length > 0) {
+      setMistakesPhase('summary')
+      setClaimReady(false)
+      return
+    }
+    setMistakesPhase('cleared')
+    setClaimReady(true)
+  }, [
+    finished,
+    miniQuestions.length,
+    dayDone,
+    mistakesPhase,
+    claimReady,
+    mistakesList,
+    hasQuiz,
+  ])
 
   function rememberSessionMistake(item) {
     if (!item) return
@@ -416,18 +454,33 @@ export default function ArcLessonScreen({
   }
 
   function completeDayNow() {
+    if (mistakesRef.current.length > 0 || mistakesPhase === 'summary' || mistakesPhase === 'retry') {
+      setMistakesPhase('summary')
+      setClaimReady(false)
+      return
+    }
     onMarkComplete?.()
-    setReviewingMistakes(false)
+    setMistakesPhase('idle')
+    setClaimReady(false)
     setJustFinished(true)
     setDayDone(true)
   }
 
-  function tryFinishDay() {
-    if (mistakesRef.current.length > 0) {
-      setReviewingMistakes(true)
+  function openMistakesSummary() {
+    if (mistakesRef.current.length === 0) {
+      setMistakesPhase('cleared')
+      setClaimReady(true)
       return
     }
-    completeDayNow()
+    setClaimReady(false)
+    setMistakesPhase('summary')
+  }
+
+  function finishMistakesReview() {
+    mistakesRef.current = []
+    setMistakesList([])
+    setMistakesPhase('cleared')
+    setClaimReady(true)
   }
 
   function advanceDialogue() {
@@ -479,8 +532,9 @@ export default function ArcLessonScreen({
       rememberSessionMistake(reviewItem)
       const item = {
         id: reviewItem?.id ?? `boss-${lesson.day}-${current.id ?? stepIndex}`,
-        it: current.options[current.correctAnswer],
-        uk: current.explanation || current.question,
+        it: resolveQuizOption(current.options[current.correctAnswer], locale),
+        uk: resolveContentText(current.explanation || current.question, locale),
+        translation: current.explanation || current.question,
         day: lesson.day,
       }
       if (onQuizError) onQuizError(item)
@@ -497,7 +551,7 @@ export default function ArcLessonScreen({
       }
       setStepIndex((value) => value + 1)
       setPicked(null)
-    }, correct ? 600 : 0)
+    }, correct ? 600 : 400)
   }
 
   function nextStep() {
@@ -506,16 +560,7 @@ export default function ArcLessonScreen({
   }
 
   function handleQuizComplete() {
-    tryFinishDay()
-  }
-
-  function onReviewCorrect(question) {
-    window.setTimeout(() => {
-      const remaining = removeMistake(mistakesRef.current, question.id)
-      mistakesRef.current = remaining
-      setMistakesList(remaining)
-      if (remaining.length === 0) completeDayNow()
-    }, 600)
+    openMistakesSummary()
   }
 
   function saveDayPhrases() {
@@ -538,7 +583,29 @@ export default function ArcLessonScreen({
     else onStateChange?.((prev) => rememberQuizError(prev, item))
   }
 
-  if (reviewingMistakes && mistakesList.length > 0) {
+  if (mistakesPhase === 'summary' && mistakesList.length > 0) {
+    return (
+      <main className="day">
+        <LessonHeader onBack={onBack} />
+        <section className="day__hero">
+          <span className="badge">{t('mistakesBadge')}</span>
+          <h1 className="day__title">{t('mistakesTitle')}</h1>
+          <p className="day__lead">{t('mistakesSummary', { total: mistakesList.length })}</p>
+        </section>
+        <div className="lesson-end-actions">
+          <button
+            className="btn-primary"
+            type="button"
+            onClick={() => setMistakesPhase('retry')}
+          >
+            {t('mistakesStart')}
+          </button>
+        </div>
+      </main>
+    )
+  }
+
+  if (mistakesPhase === 'retry' && mistakesList.length > 0) {
     return (
       <main className="day">
         <LessonHeader onBack={onBack} />
@@ -548,12 +615,11 @@ export default function ArcLessonScreen({
           <p className="day__lead">{t('mistakesLead', { total: mistakesList.length })}</p>
         </section>
         <PracticeQuiz
-          key={mistakesList[0].id}
           questions={mistakesList}
           heading={t('mistakesTitle')}
           lead={t('mistakesLead', { total: mistakesList.length })}
-          onCorrect={onReviewCorrect}
-          autoAdvance={false}
+          onComplete={finishMistakesReview}
+          retryMissed
           autoScroll
         />
       </main>
@@ -637,9 +703,16 @@ export default function ArcLessonScreen({
                   <p className="phrase-card__it">{capitalizePhrase(doc.item)}</p>
                   <SpeakButton text={doc.item} />
                 </div>
-                {!hideTranslation && displayContentText(doc.translation ?? doc.ukrainian, locale) ? (
+                {!hideTranslation &&
+                displayContentText(
+                  doc.translations ?? doc.translation ?? doc.ukrainian,
+                  locale,
+                ) ? (
                   <p className="phrase-card__uk">
-                    {displayContentText(doc.translation ?? doc.ukrainian, locale)}
+                    {displayContentText(
+                      doc.translations ?? doc.translation ?? doc.ukrainian,
+                      locale,
+                    )}
                   </p>
                 ) : null}
               </li>
@@ -667,8 +740,8 @@ export default function ArcLessonScreen({
                 hideTranslation={hideTranslation}
                 phrase={{
                   it: capitalizePhrase(phrase.italian),
-                  translation: phrase.translation ?? phrase.ukrainian,
-                  uk: phrase.ukrainian,
+                  translation: phrase.translations ?? phrase.translation ?? phrase.ukrainian,
+                  uk: phrase.translations ?? phrase.translation ?? phrase.ukrainian,
                 }}
               />
             ))}
@@ -681,7 +754,7 @@ export default function ArcLessonScreen({
           <h2 className="day__section">{resolveContentText(lesson.grammar.title, locale)}</h2>
           <div className="day__phrase-list">
             {lesson.grammar.rules.map((item) => (
-              <article key={resolveContentText(item.rule, 'uk')} className="phrase-card">
+              <article key={resolveContentText(item.rule, 'en') || resolveContentText(item.rule, 'uk')} className="phrase-card">
                 <p className="phrase-card__rule">{resolveContentText(item.rule, locale)}</p>
                 {item.examples?.map((example) => {
                   const italian =
@@ -690,7 +763,7 @@ export default function ArcLessonScreen({
                     typeof example === 'string'
                       ? ''
                       : resolveContentText(
-                          example.translation || example.ukrainian,
+                          example.translations || example.translation || example.ukrainian,
                           locale,
                         )
                   return (
@@ -755,11 +828,14 @@ export default function ArcLessonScreen({
               {displayContentText(question.question, locale)}
             </p>
             <div className="dialogue-options">
-              {(question.options ?? []).map((option, index) => (
-                <article key={option} className="option-card">
+              {(question.options ?? []).map((option, index) => {
+                const label = resolveQuizOption(option, locale)
+                const speakText = typeof option === 'string' ? option : option?.text
+                return (
+                <article key={`${index}-${label}`} className="option-card">
                   <div className="it-line">
-                    <p className="option-card__text">{capitalizePhrase(option)}</p>
-                    <SpeakButton text={option} />
+                    <p className="option-card__text">{capitalizePhrase(label)}</p>
+                    {isItalianPrompt(speakText) ? <SpeakButton text={speakText} /> : null}
                   </div>
                   <button
                     className="btn-primary"
@@ -769,7 +845,8 @@ export default function ArcLessonScreen({
                     {t('choose')}
                   </button>
                 </article>
-              ))}
+                )
+              })}
             </div>
           </article>
         </div>
@@ -806,23 +883,26 @@ export default function ArcLessonScreen({
       ) : null}
 
       <Flashcards key={`flash-${lesson.day}`} deck={deck} />
-      {!hasInteractiveTrack && !finished && !dayDone ? (
+      {(claimReady || (!hasInteractiveTrack && !finished && !dayDone)) && !dayDone ? (
         <div className="lesson-end-actions">
+          {claimReady && mistakesPhase === 'cleared' ? (
+            <p className="day__intro">{t('mistakesCleared')}</p>
+          ) : null}
           <button
             className="btn-primary"
             type="button"
+            disabled={!claimReady && hasInteractiveTrack}
             onClick={() => completeDayNow()}
           >
             {t('markComplete')}
           </button>
         </div>
       ) : null}
-      {finished ? (
+      {finished && mistakesPhase === 'idle' && !claimReady ? (
         <PracticeQuiz
           key={`quiz-${lesson.day}`}
           questions={miniQuestions}
           onMiss={onMiniQuizMiss}
-          onCorrect={(question) => forgetSessionMistake(question.id)}
           onComplete={handleQuizComplete}
           autoScroll
         />

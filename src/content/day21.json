@@ -33,9 +33,33 @@
         "ro": "De ce cafeaua la tejghea (al banco) e de obicei mai ieftină decât la masă (al tavolo)?"
       },
       "options": [
-        "Тому що за столиком ви сплачуєте додатковий збір за обслуговування (servizio).",
-        "Тому що біля стійки подають меншу порцію кави.",
-        "Тому що за столиком кава завжди холодніша."
+        {
+          "translations": {
+            "uk": "Тому що за столиком ви сплачуєте додатковий збір за обслуговування (servizio).",
+            "en": "Because at a table you pay an extra service charge (servizio).",
+            "es": "Porque en mesa pagas un suplemento de servicio (servizio).",
+            "fr": "Parce qu’à table vous payez un supplément de service (servizio).",
+            "ro": "Pentru că la masă plătiți un adaos de serviciu (servizio)."
+          }
+        },
+        {
+          "translations": {
+            "uk": "Тому що біля стійки подають меншу порцію кави.",
+            "en": "Because at the counter they serve a smaller coffee.",
+            "es": "Porque en barra sirven un café más pequeño.",
+            "fr": "Parce qu’au comptoir on sert un café plus petit.",
+            "ro": "Pentru că la tejghea se servește o cafea mai mică."
+          }
+        },
+        {
+          "translations": {
+            "uk": "Тому що за столиком кава завжди холодніша.",
+            "en": "Because coffee at the table is always colder.",
+            "es": "Porque en mesa el café siempre está más frío.",
+            "fr": "Parce qu’à table le café est toujours plus froid.",
+            "ro": "Pentru că la masă cafeaua e mereu mai rece."
+          }
+        }
       ],
       "correctAnswer": 0,
       "explanation": {
@@ -56,9 +80,33 @@
         "ro": "Ce este un 'Caffè Macchiato'?"
       },
       "options": [
-        "Еспресо з додаванням невеликої кількості збитого молока.",
-        "Велика склянка гарячого молока без кави.",
-        "Холодний кавовий коктейль із лікером."
+        {
+          "translations": {
+            "uk": "Еспресо з додаванням невеликої кількості збитого молока.",
+            "en": "An espresso with a small amount of frothed milk.",
+            "es": "Un espresso con un poco de leche espumada.",
+            "fr": "Un espresso avec un peu de lait moussé.",
+            "ro": "Un espresso cu puțin lapte spumat."
+          }
+        },
+        {
+          "translations": {
+            "uk": "Велика склянка гарячого молока без кави.",
+            "en": "A large glass of hot milk without coffee.",
+            "es": "Un vaso grande de leche caliente sin café.",
+            "fr": "Un grand verre de lait chaud sans café.",
+            "ro": "Un pahar mare de lapte cald fără cafea."
+          }
+        },
+        {
+          "translations": {
+            "uk": "Холодний кавовий коктейль із лікером.",
+            "en": "A cold coffee cocktail with liqueur.",
+            "es": "Un cóctel frío de café con licor.",
+            "fr": "Un cocktail de café froid avec une liqueur.",
+            "ro": "Un cocktail rece de cafea cu lichior."
+          }
+        }
       ],
       "correctAnswer": 0,
       "explanation": {
@@ -102,9 +150,33 @@
         "ro": "Ce trebuie să faci cu bonul (scontrino) la tejgheaua barista-ului?"
       },
       "options": [
-        "Покласти його на стійку (lasciare al banco), щоб бариста бачив замовлення.",
-        "Сховати у гаманець і нікому не показувати.",
-        "Віддати іншому покупцю."
+        {
+          "translations": {
+            "uk": "Покласти його на стійку (lasciare al banco), щоб бариста бачив замовлення.",
+            "en": "Leave it on the counter (lasciare al banco) so the barista can see the order.",
+            "es": "Dejarlo en barra (lasciare al banco) para que el barista vea el pedido.",
+            "fr": "Le laisser au comptoir (lasciare al banco) pour que le barista voie la commande.",
+            "ro": "Lăsați-l pe tejghea (lasciare al banco) ca barista să vadă comanda."
+          }
+        },
+        {
+          "translations": {
+            "uk": "Сховати у гаманець і нікому не показувати.",
+            "en": "Hide it in your wallet and show it to nobody.",
+            "es": "Guardarlo en el monedero y no mostrarlo a nadie.",
+            "fr": "Le cacher dans le portefeuille et ne le montrer à personne.",
+            "ro": "Ascundeți-l în portofel și nu-l arătați nimănui."
+          }
+        },
+        {
+          "translations": {
+            "uk": "Віддати іншому покупцю.",
+            "en": "Give it to another customer.",
+            "es": "Dárselo a otro cliente.",
+            "fr": "Le donner à un autre client.",
+            "ro": "Dați-l altui client."
+          }
+        }
       ],
       "correctAnswer": 0,
       "explanation": {

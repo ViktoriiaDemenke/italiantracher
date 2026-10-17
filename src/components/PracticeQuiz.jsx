@@ -2,10 +2,11 @@ import { useEffect, useRef, useState } from 'react'
 import SpeakButton from './SpeakButton.jsx'
 import { useI18n } from '../i18n.js'
 import { capitalizePhrase } from '../content/localize.js'
+import { removeMistake, upsertMistake } from '../learn/mistakes.js'
 import './Learn.css'
 
 export const QUIZ_ANCHOR_ID = 'practice-quiz'
-const ADVANCE_MS = 600
+const ADVANCE_MS = 700
 
 export function scrollToPracticeQuiz() {
   document.getElementById(QUIZ_ANCHOR_ID)?.scrollIntoView({
@@ -23,18 +24,31 @@ export default function PracticeQuiz({
   onComplete,
   heading,
   lead,
-  autoAdvance = true,
+  retryMissed = false,
 }) {
   const { t } = useI18n()
+  const [queue, setQueue] = useState(() => questions ?? [])
   const [index, setIndex] = useState(0)
   const [selected, setSelected] = useState(null)
   const [locked, setLocked] = useState(false)
+  const [loop, setLoop] = useState(0)
+  const missedRef = useRef([])
   const rootRef = useRef(null)
   const timerRef = useRef(null)
 
-  const total = questions.length
-  const question = questions[index] ?? null
+  const total = queue.length
+  const question = queue[index] ?? null
   const finished = total === 0 || index >= total
+  const questionIds = (questions ?? []).map((item) => item.id).join('|')
+
+  useEffect(() => {
+    setQueue(questions ?? [])
+    setIndex(0)
+    setSelected(null)
+    setLocked(false)
+    setLoop(0)
+    missedRef.current = []
+  }, [questionIds])
 
   useEffect(() => {
     return () => {
@@ -45,35 +59,53 @@ export default function PracticeQuiz({
   useEffect(() => {
     if (!autoScroll || total === 0) return
     rootRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' })
-  }, [autoScroll, total])
+  }, [autoScroll, total, loop, index])
 
-  if (total === 0) return null
-  if (finished || !question) return null
-
-  function pick(optionIndex) {
-    if (locked) return
-    const correct = optionIndex === question.correctIndex
-    setSelected(optionIndex)
-    if (!correct) {
-      onMiss?.(question)
+  function finishRound(nextMissed) {
+    if (retryMissed && nextMissed.length > 0) {
+      setQueue(nextMissed)
+      missedRef.current = []
+      setIndex(0)
+      setSelected(null)
+      setLocked(false)
+      setLoop((value) => value + 1)
       return
     }
-    setLocked(true)
-    onCorrect?.(question)
-    if (!autoAdvance) return
-    timerRef.current = window.setTimeout(() => {
-      const next = index + 1
-      if (next >= total) {
-        onPassedChange?.(true)
-        onComplete?.()
-        setIndex(next)
-        return
-      }
+    onPassedChange?.(nextMissed.length === 0)
+    onComplete?.(nextMissed)
+  }
+
+  function goNext(nextMissed) {
+    const next = index + 1
+    if (next < queue.length) {
       setIndex(next)
       setSelected(null)
       setLocked(false)
-    }, ADVANCE_MS)
+      return
+    }
+    finishRound(nextMissed)
   }
+
+  function pick(optionIndex) {
+    if (locked || !question) return
+    const correct = optionIndex === question.correctIndex
+    setSelected(optionIndex)
+    setLocked(true)
+    if (!correct) {
+      onMiss?.(question)
+      const nextMissed = upsertMistake(missedRef.current, question)
+      missedRef.current = nextMissed
+      timerRef.current = window.setTimeout(() => goNext(nextMissed), ADVANCE_MS)
+      return
+    }
+    onCorrect?.(question)
+    const nextMissed = removeMistake(missedRef.current, question.id)
+    missedRef.current = nextMissed
+    timerRef.current = window.setTimeout(() => goNext(nextMissed), ADVANCE_MS)
+  }
+
+  if (total === 0) return null
+  if (finished || !question) return null
 
   return (
     <section
@@ -100,8 +132,7 @@ export default function PracticeQuiz({
             const status =
               selected == null
                 ? ''
-                : optionIndex === question.correctIndex &&
-                    (locked || chosen)
+                : optionIndex === question.correctIndex
                   ? ' quiz-option--correct'
                   : chosen
                     ? ' quiz-option--wrong'

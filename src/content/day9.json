@@ -56,9 +56,33 @@
         "ro": "Ce înseamnă poziția «Coperto» în restaurant?"
       },
       "options": [
-        "Плата за хліб та сервірування столу.",
-        "Обов'язкові чайові офіціанту 20%.",
-        "Штраф за спізнення."
+        {
+          "translations": {
+            "uk": "Плата за хліб та сервірування столу.",
+            "en": "A charge for bread and table service.",
+            "es": "Un cargo por el pan y el servicio de mesa.",
+            "fr": "Un supplément pour le pain et le service à table.",
+            "ro": "O taxă pentru pâine și servirea mesei."
+          }
+        },
+        {
+          "translations": {
+            "uk": "Обов'язкові чайові офіціанту 20%.",
+            "en": "A mandatory 20% waiter tip.",
+            "es": "Una propina obligatoria del 20% al camarero.",
+            "fr": "Un pourboire obligatoire de 20 % au serveur.",
+            "ro": "Bacșiș obligatoriu de 20% pentru ospătar."
+          }
+        },
+        {
+          "translations": {
+            "uk": "Штраф за спізнення.",
+            "en": "A fine for being late.",
+            "es": "Una multa por llegar tarde.",
+            "fr": "Une amende pour retard.",
+            "ro": "O amendă pentru întârziere."
+          }
+        }
       ],
       "correctAnswer": 0,
       "explanation": {

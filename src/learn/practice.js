@@ -30,7 +30,7 @@ export function shuffleList(list) {
 
 function phraseTranslation(phrase, locale) {
   return resolveContentText(
-    phrase.translation ?? phrase.ukrainian ?? phrase.uk,
+    phrase.translations ?? phrase.translation ?? phrase.ukrainian ?? phrase.uk,
     locale,
   ).trim()
 }

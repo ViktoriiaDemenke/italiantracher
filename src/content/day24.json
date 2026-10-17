@@ -33,9 +33,33 @@
         "ro": "Câte grame comanzi dacă spui 'Due etti'?"
       },
       "options": [
-        "200 грамів.",
-        "20 грамів.",
-        "2 кілограми."
+        {
+          "translations": {
+            "uk": "200 грамів.",
+            "en": "200 grams.",
+            "es": "200 gramos.",
+            "fr": "200 grammes.",
+            "ro": "200 de grame."
+          }
+        },
+        {
+          "translations": {
+            "uk": "20 грамів.",
+            "en": "20 grams.",
+            "es": "20 gramos.",
+            "fr": "20 grammes.",
+            "ro": "20 de grame."
+          }
+        },
+        {
+          "translations": {
+            "uk": "2 кілограми.",
+            "en": "2 kilograms.",
+            "es": "2 kilos.",
+            "fr": "2 kilogrammes.",
+            "ro": "2 kilograme."
+          }
+        }
       ],
       "correctAnswer": 0,
       "explanation": {
@@ -56,9 +80,33 @@
         "ro": "Ce trebuie să faci obligatoriu înainte de a lua fructe sau legume proaspete la supermarket?"
       },
       "options": [
-        "Одягнути одноразові пластикові рукавички (guanti).",
-        "Оплатити їх на касі заздалегідь.",
-        "Запитати дозвіл в охоронця."
+        {
+          "translations": {
+            "uk": "Одягнути одноразові пластикові рукавички (guanti).",
+            "en": "Put on disposable plastic gloves (guanti).",
+            "es": "Ponerse guantes de plástico de un uso (guanti).",
+            "fr": "Mettre des gants en plastique jetables (guanti).",
+            "ro": "Puneți mănuși de plastic de unică folosință (guanti)."
+          }
+        },
+        {
+          "translations": {
+            "uk": "Оплатити їх на касі заздалегідь.",
+            "en": "Pay for them at the checkout in advance.",
+            "es": "Pagarlos en caja de antemano.",
+            "fr": "Les payer d’avance en caisse.",
+            "ro": "Plătiți-le în avans la casă."
+          }
+        },
+        {
+          "translations": {
+            "uk": "Запитати дозвіл в охоронця.",
+            "en": "Ask the security guard for permission.",
+            "es": "Pedir permiso al vigilante.",
+            "fr": "Demander l’autorisation au vigile.",
+            "ro": "Cereți voie paznicului."
+          }
+        }
       ],
       "correctAnswer": 0,
       "explanation": {
@@ -102,9 +150,33 @@
         "ro": "Ce este 'Lo scontrino'?"
       },
       "options": [
-        "Касовий чек, який слід зберігати після покупки.",
-        "Знижка на другу категорію товарів.",
-        "Візок для покупок."
+        {
+          "translations": {
+            "uk": "Касовий чек, який слід зберігати після покупки.",
+            "en": "The till receipt you should keep after the purchase.",
+            "es": "El ticket de caja que conviene guardar tras la compra.",
+            "fr": "Le ticket de caisse à conserver après l’achat.",
+            "ro": "Bonul fiscal pe care trebuie să-l păstrați după cumpărare."
+          }
+        },
+        {
+          "translations": {
+            "uk": "Знижка на другу категорію товарів.",
+            "en": "A discount on a second category of goods.",
+            "es": "Un descuento en una segunda categoría de productos.",
+            "fr": "Une réduction sur une deuxième catégorie de produits.",
+            "ro": "O reducere la o a doua categorie de produse."
+          }
+        },
+        {
+          "translations": {
+            "uk": "Візок для покупок.",
+            "en": "A shopping trolley.",
+            "es": "Un carrito de la compra.",
+            "fr": "Un caddie.",
+            "ro": "Un cărucior de cumpărături."
+          }
+        }
       ],
       "correctAnswer": 0,
       "explanation": {

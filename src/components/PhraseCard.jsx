@@ -9,7 +9,10 @@ export default function PhraseCard({ phrase, onChoose, hideTranslation = false }
   const [slow, setSlow] = useState(true)
   const [showUk, setShowUk] = useState(false)
   const rate = slow ? DEFAULT_SPEECH_RATE : FAST_SPEECH_RATE
-  const translated = resolveContentText(phrase.translation ?? phrase.uk, locale)
+  const translated = resolveContentText(
+    phrase.translations ?? phrase.translation ?? phrase.uk,
+    locale,
+  )
 
   return (
     <article className={`phrase-card${onChoose ? ' phrase-card--choice' : ''}`}>

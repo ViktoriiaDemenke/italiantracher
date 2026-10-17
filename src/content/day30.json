@@ -79,9 +79,33 @@
         "ro": "Ce înseamnă 'Spuntare' în legătură cu părul?"
       },
       "options": [
-        "Тільки трохи підрівняти/підрізати кінчики.",
-        "Пофарбувати волосся в зелений колір.",
-        "Повністю збрити волосся."
+        {
+          "translations": {
+            "uk": "Тільки трохи підрівняти/підрізати кінчики.",
+            "en": "Just a slight trim of the ends.",
+            "es": "Solo igualar/cortar un poco las puntas.",
+            "fr": "Juste égaliser/couper un peu les pointes.",
+            "ro": "Doar o mică tunsoare a vârfurilor."
+          }
+        },
+        {
+          "translations": {
+            "uk": "Пофарбувати волосся в зелений колір.",
+            "en": "Dye the hair green.",
+            "es": "Teñir el pelo de verde.",
+            "fr": "Teindre les cheveux en vert.",
+            "ro": "Vopsiți părul verde."
+          }
+        },
+        {
+          "translations": {
+            "uk": "Повністю збрити волосся.",
+            "en": "Shave the hair off completely.",
+            "es": "Afeitar el pelo por completo.",
+            "fr": "Raser complètement les cheveux.",
+            "ro": "Tundeți părul complet."
+          }
+        }
       ],
       "correctAnswer": 0,
       "explanation": {
@@ -125,9 +149,33 @@
         "ro": "Ce este 'Piega' într-un salon de coafură italian?"
       },
       "options": [
-        "Укладка феном після миття голови.",
-        "Масаж ніг.",
-        "Чистка обличчя."
+        {
+          "translations": {
+            "uk": "Укладка феном після миття голови.",
+            "en": "Blow-dry styling after a wash.",
+            "es": "Peinado con secador después del lavado.",
+            "fr": "Un brushing après le shampooing.",
+            "ro": "Coafare cu feonul după spălare."
+          }
+        },
+        {
+          "translations": {
+            "uk": "Масаж ніг.",
+            "en": "A foot massage.",
+            "es": "Un masaje de pies.",
+            "fr": "Un massage des pieds.",
+            "ro": "Un masaj al picioarelor."
+          }
+        },
+        {
+          "translations": {
+            "uk": "Чистка обличчя.",
+            "en": "A facial.",
+            "es": "Una limpieza facial.",
+            "fr": "Un soin du visage.",
+            "ro": "O curățare a feței."
+          }
+        }
       ],
       "correctAnswer": 0,
       "explanation": {

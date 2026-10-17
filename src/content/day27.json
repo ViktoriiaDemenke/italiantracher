@@ -33,9 +33,33 @@
         "ro": "Unde e cel mai simplu și mai ieftin să cumperi un bilet de autobuz urban în Italia?"
       },
       "options": [
-        "У тютюновому (Tabacchi) або газетному кіоску (Edicola).",
-        "У супермаркеті на касі овочів.",
-        "У аптеці за рецептом."
+        {
+          "translations": {
+            "uk": "У тютюновому (Tabacchi) або газетному кіоску (Edicola).",
+            "en": "At a tobacconist (Tabacchi) or a newsstand (Edicola).",
+            "es": "En un estanco (Tabacchi) o un quiosco (Edicola).",
+            "fr": "Dans un bureau de tabac (Tabacchi) ou un kiosque (Edicola).",
+            "ro": "La tutungerie (Tabacchi) sau la chioșc de ziare (Edicola)."
+          }
+        },
+        {
+          "translations": {
+            "uk": "У супермаркеті на касі овочів.",
+            "en": "At the supermarket fruit-and-veg till.",
+            "es": "En el supermercado, en caja de fruta y verdura.",
+            "fr": "Au supermarché, à la caisse fruits et légumes.",
+            "ro": "La supermarket, la casa de legume."
+          }
+        },
+        {
+          "translations": {
+            "uk": "У аптеці за рецептом.",
+            "en": "At the pharmacy with a prescription.",
+            "es": "En la farmacia con receta.",
+            "fr": "À la pharmacie sur ordonnance.",
+            "ro": "La farmacie pe rețetă."
+          }
+        }
       ],
       "correctAnswer": 0,
       "explanation": {
@@ -56,9 +80,33 @@
         "ro": "Ce înseamnă verbele 'Convalidare' sau 'Timbrare' în transport?"
       },
       "options": [
-        "Прокомпостувати/завалідувати квиток у спеціальному автоматі.",
-        "Попросити водія зупинити автобус.",
-        "Купити новий капелюх."
+        {
+          "translations": {
+            "uk": "Прокомпостувати/завалідувати квиток у спеціальному автоматі.",
+            "en": "Validate the ticket in the dedicated machine.",
+            "es": "Validar el billete en la máquina correspondiente.",
+            "fr": "Composter/valider le titre dans l’appareil prévu.",
+            "ro": "Validați biletul la aparatul special."
+          }
+        },
+        {
+          "translations": {
+            "uk": "Попросити водія зупинити автобус.",
+            "en": "Ask the driver to stop the bus.",
+            "es": "Pedir al conductor que pare el autobús.",
+            "fr": "Demander au chauffeur d’arrêter le bus.",
+            "ro": "Rugați șoferul să oprească autobuzul."
+          }
+        },
+        {
+          "translations": {
+            "uk": "Купити новий капелюх.",
+            "en": "Buy a new hat.",
+            "es": "Comprar un sombrero nuevo.",
+            "fr": "Acheter un nouveau chapeau.",
+            "ro": "Cumpărați o pălărie nouă."
+          }
+        }
       ],
       "correctAnswer": 0,
       "explanation": {
@@ -102,9 +150,33 @@
         "ro": "Ce riscă pasagerul care călătorește fără bilet compostat?"
       },
       "options": [
-        "Штраф від контролера (controllore).",
-        "Безкоштовна кава від водія.",
-        "Знижка на наступну поїздку."
+        {
+          "translations": {
+            "uk": "Штраф від контролера (controllore).",
+            "en": "A fine from the inspector (controllore).",
+            "es": "Una multa del revisor (controllore).",
+            "fr": "Une amende du contrôleur (controllore).",
+            "ro": "O amendă de la controlor (controllore)."
+          }
+        },
+        {
+          "translations": {
+            "uk": "Безкоштовна кава від водія.",
+            "en": "A free coffee from the driver.",
+            "es": "Un café gratis del conductor.",
+            "fr": "Un café offert par le chauffeur.",
+            "ro": "O cafea gratuită de la șofer."
+          }
+        },
+        {
+          "translations": {
+            "uk": "Знижка на наступну поїздку.",
+            "en": "A discount on the next trip.",
+            "es": "Un descuento en el próximo viaje.",
+            "fr": "Une réduction sur le prochain trajet.",
+            "ro": "O reducere la următoarea călătorie."
+          }
+        }
       ],
       "correctAnswer": 0,
       "explanation": {
@@ -125,9 +197,33 @@
         "ro": "Cum se traduce cuvântul 'Stazione'?"
       },
       "options": [
-        "Вокзал / Станція.",
-        "Зупинка таксі.",
-        "Аеропорт."
+        {
+          "translations": {
+            "uk": "Вокзал / Станція.",
+            "en": "Station / railway station.",
+            "es": "Estación / estación de tren.",
+            "fr": "Gare / station.",
+            "ro": "Gară / stație."
+          }
+        },
+        {
+          "translations": {
+            "uk": "Зупинка таксі.",
+            "en": "A taxi rank.",
+            "es": "Una parada de taxis.",
+            "fr": "Une station de taxis.",
+            "ro": "O stație de taxi."
+          }
+        },
+        {
+          "translations": {
+            "uk": "Аеропорт.",
+            "en": "Airport.",
+            "es": "Aeropuerto.",
+            "fr": "Aéroport.",
+            "ro": "Aeroport."
+          }
+        }
       ],
       "correctAnswer": 0,
       "explanation": {
