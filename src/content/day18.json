@@ -26,7 +26,7 @@
     {
       "id": "p1",
       "question": {
-        "uk": "Що таке довідка 'ISEE' в Італії?",
+        "uk": "Для виплат/допомоги потрібен ISEE. Знаєте, що це?",
         "en": "What is the 'ISEE' certificate in Italy?",
         "es": "¿Qué es el certificado 'ISEE' en Italia?",
         "fr": "Qu’est-ce que l’attestation 'ISEE' en Italie ?",
@@ -73,7 +73,7 @@
     {
       "id": "p2",
       "question": {
-        "uk": "Як називається щомісячна державна допомога на дитину в Італії?",
+        "uk": "На дітей є щомісячна допомога від держави. Як вона називається?",
         "en": "What is the monthly state child benefit in Italy called?",
         "es": "¿Cómo se llama la prestación estatal mensual por hijo en Italia?",
         "fr": "Comment s’appelle l’allocation mensuelle de l’État pour un enfant en Italie ?",
@@ -96,7 +96,7 @@
     {
       "id": "p3",
       "question": {
-        "uk": "Як сказати консультанту 'Я б хотів(ла) подати заявку на виплату на дитину'?",
+        "uk": "Хочете подати заяву сьогодні?",
         "en": "How do you tell the consultant “I would like to apply for the child benefit”?",
         "es": "¿Cómo se le dice al consultor «Me gustaría presentar la solicitud de la prestación por hijo»?",
         "fr": "Comment dire au conseiller « Je voudrais déposer une demande d’allocation pour enfant » ?",
@@ -119,7 +119,7 @@
     {
       "id": "p4",
       "question": {
-        "uk": "Який реквізит потрібен для зарахування щомісячних виплат від INPS?",
+        "uk": "Для зарахування виплат від INPS потрібен реквізит рахунку. Який саме?",
         "en": "Which bank detail is needed for monthly payments from INPS?",
         "es": "¿Qué dato se necesita para ingresar los pagos mensuales de INPS?",
         "fr": "Quelle coordonnée faut-il pour le versement mensuel de l’INPS ?",
@@ -166,7 +166,7 @@
     {
       "id": "p5",
       "question": {
-        "uk": "Як запитати консультанта: «Які документи потрібні для подання заяви?»",
+        "uk": "У вас вже є документи? Скажіть, чи чогось не вистачає.",
         "en": "How do you ask the consultant: “Which documents are needed to submit the application?”",
         "es": "¿Cómo preguntar al consultor: «¿Qué documentos hacen falta para presentar la solicitud?»",
         "fr": "Comment demander au conseiller : « Quels documents faut-il pour déposer la demande ? »",

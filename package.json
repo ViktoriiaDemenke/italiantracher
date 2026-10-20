@@ -5,8 +5,10 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "dev:mobile": "vite --host --port 5173",
     "build": "vite build",
-    "preview": "vite preview",
+    "preview": "vite preview --host",
+    "tunnel": "npx --yes localtunnel --port 5173",
     "cap:sync": "npm run build && npx cap sync",
     "cap:ios": "npm run cap:sync && npx cap open ios",
     "cap:android": "npm run cap:sync && npx cap open android",

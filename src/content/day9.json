@@ -26,7 +26,7 @@
     {
       "id": "p1",
       "question": {
-        "uk": "Як ввічливо попросити забронювати столик на вечір?",
+        "uk": "Доброго вечора, ресторан Da Mario. Бронювання?",
         "en": "How do you politely ask to book a table for the evening?",
         "es": "¿Cómo pedir cortésmente reservar una mesa para la noche?",
         "fr": "Comment demander poliment de réserver une table pour le soir ?",
@@ -49,7 +49,7 @@
     {
       "id": "p2",
       "question": {
-        "uk": "Що означає позиція 'Coperto' у ресторані?",
+        "uk": "У чеку є позиція Coperto. Знаєте, що це?",
         "en": "What does the 'Coperto' line mean in a restaurant?",
         "es": "¿Qué significa la partida 'Coperto' en el restaurante?",
         "fr": "Que signifie la ligne « Coperto » au restaurant ?",
@@ -96,7 +96,7 @@
     {
       "id": "p3",
       "question": {
-        "uk": "Яку каву прийнято замовляти в Італії одразу після обіду?",
+        "uk": "Після обіду каву?",
         "en": "Which coffee is customary to order in Italy right after lunch?",
         "es": "¿Qué café se suele pedir en Italia justo después del almuerzo?",
         "fr": "Quel café commande-t-on en Italie juste après le repas ?",
@@ -119,7 +119,7 @@
     {
       "id": "p4",
       "question": {
-        "uk": "Як правильно просити чек в офіціанта?",
+        "uk": "Усе в порядку? Бажаєте ще щось?",
         "en": "How do you correctly ask the waiter for the bill?",
         "es": "¿Cómo pedir correctamente la cuenta al camarero?",
         "fr": "Comment demander correctement l’addition au serveur ?",
@@ -142,7 +142,7 @@
     {
       "id": "p5",
       "question": {
-        "uk": "Як уточнити офіціанту, що ви бажаєте звичайну воду без газу?",
+        "uk": "Вода звичайна (без газу) чи газована?",
         "en": "How do you tell the waiter you want still water, without gas?",
         "es": "¿Cómo precisar al camarero que quieres agua sin gas?",
         "fr": "Comment préciser au serveur que vous voulez de l’eau plate ?",

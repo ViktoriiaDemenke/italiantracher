@@ -1,5 +1,12 @@
-import { useEffect, useState } from 'react'
-import { DEFAULT_SPEECH_RATE, isSpeechAvailable, speakItalian, stopSpeech } from '../lib/speech.js'
+import { useEffect, useRef, useState } from 'react'
+import {
+  DEFAULT_SPEECH_RATE,
+  getSpeechSupport,
+  speakItalian,
+  stopSpeech,
+  warmSpeechVoices,
+  warnSpeechUnsupported,
+} from '../lib/speech.js'
 import { useI18n } from '../i18n.js'
 
 function SpeakerIcon() {
@@ -40,51 +47,84 @@ export default function SpeakButton({ text, rate = DEFAULT_SPEECH_RATE, label })
   const { t } = useI18n()
   const speakLabel = label || t('speak')
   const offLabel = t('voiceUnavailable')
+  const hint = t('speechChromeSafari')
   const [playing, setPlaying] = useState(false)
-  const [unavailable, setUnavailable] = useState(
-    () => typeof window !== 'undefined' && !isSpeechAvailable(),
+  const [support, setSupport] = useState(() =>
+    typeof window === 'undefined'
+      ? { supported: false, showHint: false, hasApi: false }
+      : getSpeechSupport(),
   )
+  const mine = useRef(false)
 
   useEffect(() => {
-    return () => stopSpeech()
+    warmSpeechVoices()
+    const refresh = () => setSupport(getSpeechSupport())
+    refresh()
+    const api = window.speechSynthesis
+    api?.addEventListener?.('voiceschanged', refresh)
+    const timer = window.setTimeout(refresh, 400)
+    return () => {
+      api?.removeEventListener?.('voiceschanged', refresh)
+      window.clearTimeout(timer)
+    }
   }, [])
 
+  useEffect(() => {
+    if (support.showHint || !support.supported) warnSpeechUnsupported()
+  }, [support.showHint, support.supported])
+
   function toggle() {
-    if (unavailable || !isSpeechAvailable()) {
-      setUnavailable(true)
+    if (!support.supported) {
+      warnSpeechUnsupported()
+      setSupport(getSpeechSupport())
       return
     }
+    warmSpeechVoices()
     if (playing) {
+      mine.current = false
       stopSpeech()
       setPlaying(false)
       return
     }
+    mine.current = true
     setPlaying(true)
     speakItalian(text, {
       rate,
-      onStart: () => setPlaying(true),
-      onEnd: () => setPlaying(false),
-      onUnavailable: () => {
-        setUnavailable(true)
+      onStart: () => {
+        if (mine.current) setPlaying(true)
+      },
+      onEnd: () => {
+        mine.current = false
         setPlaying(false)
+      },
+      onUnavailable: () => {
+        mine.current = false
+        setPlaying(false)
+        warnSpeechUnsupported()
+        setSupport(getSpeechSupport())
       },
     })
   }
 
+  const showHint = support.showHint || !support.supported
+
   return (
-    <button
-      className={`speak-btn${playing ? ' speak-btn--playing' : ''}${unavailable ? ' speak-btn--off' : ''}`}
-      type="button"
-      disabled={unavailable}
-      aria-label={unavailable ? offLabel : speakLabel}
-      title={unavailable ? offLabel : speakLabel}
-      aria-pressed={playing}
-      onClick={(event) => {
-        event.stopPropagation()
-        toggle()
-      }}
-    >
-      {playing ? <PauseIcon /> : <SpeakerIcon />}
-    </button>
+    <span className={`speak-wrap${showHint ? ' speak-wrap--hint' : ''}`}>
+      <button
+        className={`speak-btn${playing ? ' speak-btn--playing' : ''}${showHint ? ' speak-btn--limited' : ''}`}
+        type="button"
+        aria-label={showHint ? `${offLabel}. ${hint}` : speakLabel}
+        title={showHint ? hint : speakLabel}
+        aria-pressed={playing}
+        onClick={(event) => {
+          event.preventDefault()
+          event.stopPropagation()
+          toggle()
+        }}
+      >
+        {playing ? <PauseIcon /> : <SpeakerIcon />}
+      </button>
+      {showHint ? <span className="speak-hint">{hint}</span> : null}
+    </span>
   )
 }

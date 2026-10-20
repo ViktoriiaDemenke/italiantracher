@@ -26,14 +26,14 @@
     {
       "id": "p1",
       "question": {
-        "uk": "Як запитати синьйора Маріо, чи квартира з оголошення ще вільна?",
+        "uk": "Алло? Так, це щодо оголошення про квартиру. Слухаю вас.",
         "en": "How do you ask Signor Mario if the apartment in the listing is still free?",
         "es": "¿Cómo preguntar al signor Mario si el piso del anuncio sigue libre?",
         "fr": "Comment demander au signor Mario si l’appartement de l’annonce est encore libre ?",
         "ro": "Cum îl întrebi pe signor Mario dacă apartamentul din anunț e încă liber?"
       },
       "options": [
-        "L'appartamento è ancora disponibile?",
+        "Buongiorno. L'appartamento è ancora disponibile?",
         "Dove si trova il medico di base?",
         "Possiamo avere il conto, per favore?"
       ],
@@ -49,7 +49,7 @@
     {
       "id": "p2",
       "question": {
-        "uk": "Що означають 'Spese condominiali' при оренді житла?",
+        "uk": "Окрім орендної плати, є ще комунальні витрати ОСББ (spese condominiali). Пояснити вам?",
         "en": "What do 'Spese condominiali' mean when renting?",
         "es": "¿Qué significan las 'Spese condominiali' al alquilar?",
         "fr": "Que signifient « Spese condominiali » en location ?",
@@ -96,7 +96,7 @@
     {
       "id": "p3",
       "question": {
-        "uk": "Що таке 'Caparra' (або 'Deposito cauzionale')?",
+        "uk": "Я також беру заставу (caparra). Знаєте, що це?",
         "en": "What is a 'Caparra' (or 'Deposito cauzionale')?",
         "es": "¿Qué es una 'Caparra' (o 'Deposito cauzionale')?",
         "fr": "Qu’est-ce qu’une « Caparra » (ou « Deposito cauzionale ») ?",
@@ -143,7 +143,7 @@
     {
       "id": "p4",
       "question": {
-        "uk": "Як сказати орендодавцю 'Коли ми можемо домовитися про зустріч, щоб подивитися квартиру?'",
+        "uk": "Якщо вам цікаво, коли прийдете подивитися?",
         "en": "How do you tell the landlord, “When can we arrange a viewing of the apartment?”",
         "es": "¿Cómo decir al casero '¿Cuándo podemos concertar una visita para ver el piso?'",
         "fr": "Comment dire au propriétaire : « Quand pouvons-nous convenir d’une visite pour voir l’appartement ? »",
@@ -166,7 +166,7 @@
     {
       "id": "p5",
       "question": {
-        "uk": "Що означає термін 'Bilocale' в оголошеннях про нерухомість?",
+        "uk": "Це двокімнатна квартира (bilocale). Вам усе зрозуміло?",
         "en": "What does the term 'Bilocale' mean in property listings?",
         "es": "¿Qué significa 'Bilocale' en anuncios inmobiliarios?",
         "fr": "Que signifie « Bilocale » dans les annonces immobilières ?",

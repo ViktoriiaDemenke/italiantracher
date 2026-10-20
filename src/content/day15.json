@@ -26,7 +26,7 @@
     {
       "id": "p1",
       "question": {
-        "uk": "Що потрібно зробити одразу при вході до відділення Poste Italiane?",
+        "uk": "Доброго дня. Щоб підійти до віконця, візьміть номер, будь ласка.",
         "en": "What should you do as soon as you enter a Poste Italiane office?",
         "es": "¿Qué hay que hacer nada más entrar en una oficina de Poste Italiane?",
         "fr": "Que faut-il faire dès l’entrée dans un bureau de Poste Italiane ?",
@@ -73,7 +73,7 @@
     {
       "id": "p2",
       "question": {
-        "uk": "Як сказати 'Мені потрібно відправити посилку' італійською?",
+        "uk": "Номер 24, будь ласка. Що вам потрібно зробити?",
         "en": "How do you say “I need to send a parcel” in Italian?",
         "es": "¿Cómo se dice «Necesito enviar un paquete» en italiano?",
         "fr": "Comment dit-on « J’ai besoin d’envoyer un colis » en italien ?",
@@ -96,7 +96,7 @@
     {
       "id": "p3",
       "question": {
-        "uk": "Що таке 'Raccomandata'?",
+        "uk": "Звичайний лист чи рекомендований (raccomandata)?",
         "en": "What is a 'Raccomandata'?",
         "es": "¿Qué es una 'Raccomandata'?",
         "fr": "Qu’est-ce qu’une 'Raccomandata' ?",
@@ -143,7 +143,7 @@
     {
       "id": "p4",
       "question": {
-        "uk": "Хто такий 'Mittente' на поштовому конверті чи коробці?",
+        "uk": "У бланку, хто такий відправник (mittente)?",
         "en": "Who is the 'Mittente' on a postal envelope or box?",
         "es": "¿Quién es el 'Mittente' en un sobre o caja postal?",
         "fr": "Qui est le 'Mittente' sur une enveloppe ou un colis postal ?",
@@ -190,7 +190,7 @@
     {
       "id": "p5",
       "question": {
-        "uk": "Як називається номер для перевірки статусу та місцезнаходження посилки в інтернеті?",
+        "uk": "Щоб відстежувати посилку в інтернеті, використовуйте цей номер. Як він називається?",
         "en": "What is the number called for checking a parcel’s status and location online?",
         "es": "¿Cómo se llama el número para consultar el estado y la ubicación de un paquete en internet?",
         "fr": "Comment s’appelle le numéro pour suivre l’état et la localisation d’un colis en ligne ?",

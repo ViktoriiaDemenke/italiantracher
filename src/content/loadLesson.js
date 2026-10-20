@@ -69,9 +69,9 @@ function asTipList(items) {
 
 function inferMode(data) {
   if (data.mode) return String(data.mode)
-  const type = String(data.type ?? '')
-  if (/Boss/i.test(type)) return 'boss'
-  if (/Dialogue/i.test(type)) return 'dialogue'
+  const blob = JSON.stringify({ type: data.type, title: data.title, story: data.story })
+  if (/Boss/i.test(blob)) return 'boss'
+  if (/Dialogue|Діалог/i.test(blob)) return 'dialogue'
   return 'immersion'
 }
 

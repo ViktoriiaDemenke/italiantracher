@@ -4,6 +4,7 @@ import PhraseCard from '../components/PhraseCard.jsx'
 import SpeakButton from '../components/SpeakButton.jsx'
 import Flashcards from '../components/Flashcards.jsx'
 import PracticeQuiz from '../components/PracticeQuiz.jsx'
+import VoiceBossLevel from '../components/VoiceBossLevel.jsx'
 import { maxScore } from '../content/loadLesson.js'
 import { buildMiniQuiz, buildPracticeDeck } from '../learn/practice.js'
 import {
@@ -454,7 +455,12 @@ export default function ArcLessonScreen({
   }
 
   function completeDayNow() {
-    if (mistakesRef.current.length > 0 || mistakesPhase === 'summary' || mistakesPhase === 'retry') {
+    if (
+      !boss &&
+      (mistakesRef.current.length > 0 ||
+        mistakesPhase === 'summary' ||
+        mistakesPhase === 'retry')
+    ) {
       setMistakesPhase('summary')
       setClaimReady(false)
       return
@@ -581,6 +587,24 @@ export default function ArcLessonScreen({
     }
     if (onQuizError) onQuizError(item)
     else onStateChange?.((prev) => rememberQuizError(prev, item))
+  }
+
+  if (boss && !justFinished && !dayDone) {
+    const typeBadge =
+      resolveContentText(lesson.type, locale) ||
+      `День ${lesson.day} · Boss Level 🏆`
+    return (
+      <main className="day">
+        <LessonHeader day={lesson.day} onBack={onBack} typeBadge={typeBadge} />
+        <h1 className="day__title">{resolveContentText(lesson.title, locale)}</h1>
+        {lesson.module ? <p className="day__lead">{lesson.module}</p> : null}
+        <VoiceBossLevel
+          lesson={lesson}
+          onBack={onBack}
+          onClaimDay={() => completeDayNow()}
+        />
+      </main>
+    )
   }
 
   if (mistakesPhase === 'summary' && mistakesList.length > 0) {

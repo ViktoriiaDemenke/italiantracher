@@ -49,7 +49,7 @@
     {
       "id": "p2",
       "question": {
-        "uk": "Яку фразу ви використаєте, щоб попросити обрати сімейного лікаря?",
+        "uk": "Як сказати, що вам потрібно обрати сімейного лікаря (medico di base)?",
         "en": "Which phrase do you use to ask to choose a family doctor?",
         "es": "¿Qué frase usarías para pedir elegir un médico de familia?",
         "fr": "Quelle phrase utilisez-vous pour demander à choisir un médecin de famille ?",
@@ -72,7 +72,7 @@
     {
       "id": "p3",
       "question": {
-        "uk": "Як уточнити, чи лікар близько до вашого помешкання?",
+        "uk": "Як сказати, що цей лікар близько від вашого дому?",
         "en": "How do you check whether the doctor is close to your home?",
         "es": "¿Cómo preguntar si el médico está cerca de tu vivienda?",
         "fr": "Comment préciser si le médecin est près de chez vous ?",
@@ -80,12 +80,12 @@
       },
       "options": [
         "Il medico è aperto 24 ore su 24?",
-        "È vicino a casa mia?",
+        "È vicino a casa mia.",
         "Ho bisogno di un codice fiscale."
       ],
       "correctAnswer": 1,
       "explanation": {
-        "uk": "'È vicino a casa mia?' = 'Це близько до мого дому?'",
+        "uk": "'È vicino a casa mia' = 'Це близько до мого дому.'",
         "en": "'È vicino a casa mia?' = 'Is it close to my home?'",
         "es": "'È vicino a casa mia?' = '¿Está cerca de mi casa?'",
         "fr": "« È vicino a casa mia? » = « C’est près de chez moi ? »",
@@ -95,7 +95,7 @@
     {
       "id": "p4",
       "question": {
-        "uk": "Куди слід звертатися у разі важкої та цілодобової загрози здоров'ю?",
+        "uk": "Куди йти при важкій невідкладній ситуації (emergenza grave)?",
         "en": "Where should you go in a serious, round-the-clock medical emergency?",
         "es": "¿Adónde acudir ante un peligro grave e inminente para la salud?",
         "fr": "Où s’adresser en cas de danger grave et immédiat pour la santé ?",
@@ -118,15 +118,15 @@
     {
       "id": "p5",
       "question": {
-        "uk": "Що відповість працівник на питання про вартість реєстрації з Permesso di Soggiorno?",
+        "uk": "Як підтвердити, що з permesso di soggiorno реєстрація безкоштовна?",
         "en": "What will the clerk say about the cost of registration with a residence permit?",
         "es": "¿Qué responde el empleado sobre el coste de la inscripción con permesso di soggiorno?",
         "fr": "Que répond l’employé sur le coût de l’inscription avec un permesso di soggiorno ?",
         "ro": "Ce va răspunde angajatul despre costul înscrierii cu Permesso di Soggiorno?"
       },
       "options": [
-        "Ha diritto all’iscrizione gratuita.",
-        "Deve pagare la marca da bollo.",
+        "Ho diritto all’iscrizione gratuita.",
+        "Devo pagare duecento euro per la tessera.",
         "L'iscrizione costa cento euro."
       ],
       "correctAnswer": 0,
@@ -141,7 +141,7 @@
     {
       "id": "p6",
       "question": {
-        "uk": "До кого звертатися при медичних невідкладних випадках уночі або у святкові дні?",
+        "uk": "Куди звертатися ввечері, у вихідні або на свята при невідкладному випадку?",
         "en": "Who should you contact for medical emergencies at night or on public holidays?",
         "es": "¿A quién hay que dirigirse para urgencias médicas por la noche o en festivos?",
         "fr": "À qui s’adresser pour les urgences médicales la nuit ou les jours fériés ?",

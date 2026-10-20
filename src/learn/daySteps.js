@@ -30,7 +30,9 @@ export function buildDaySteps(lesson) {
   const questions = lesson.questions ?? []
   const dialogue = lesson.dialogue ?? []
 
-  if (questions.length > 0) {
+  if (lesson.mode === 'boss') {
+    steps.push({ id: 'boss', kind: 'boss', index: 0 })
+  } else if (questions.length > 0) {
     questions.forEach((_, index) => {
       steps.push({ id: `boss-${index}`, kind: 'boss', index })
     })
