@@ -120,10 +120,10 @@
     "winBadge": "👾 BOSS ÎNVINS!",
     "winTitle": "Boss Defeated!",
     "winLead": "Toate replicile sunt la locul lor. Frazele tale:",
-    "tryFallback": "Scrie fraza sau apasă Spune.",
+    "tryFallback": "Scrie fraza sau apasă Răspunsul tău.",
     "typePlaceholder": "Scrie în italiană…",
     "write": "Scrie",
-    "usePhrase": "Spune"
+    "usePhrase": "Răspunsul tău"
   },
   "dialogueHeading": "Dialog",
   "phrases": "Fraze",

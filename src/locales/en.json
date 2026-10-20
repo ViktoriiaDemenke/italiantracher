@@ -120,10 +120,10 @@
     "winBadge": "👾 BOSS DEFEATED!",
     "winTitle": "Boss Defeated!",
     "winLead": "Every line is in place. Your phrases:",
-    "tryFallback": "Type the line or tap Say.",
+    "tryFallback": "Type the line or tap Your answer.",
     "typePlaceholder": "Type in Italian…",
     "write": "Write",
-    "usePhrase": "Say"
+    "usePhrase": "Your answer"
   },
   "dialogueHeading": "Dialogue",
   "phrases": "Phrases",

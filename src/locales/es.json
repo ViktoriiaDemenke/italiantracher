@@ -120,10 +120,10 @@
     "winBadge": "👾 ¡JEFE DERROTADO!",
     "winTitle": "¡Boss Defeated!",
     "winLead": "Todas las réplicas están listas. Tus frases:",
-    "tryFallback": "Escribe la frase o toca Decir.",
+    "tryFallback": "Escribe la frase o toca Su respuesta.",
     "typePlaceholder": "Escribe en italiano…",
     "write": "Escribir",
-    "usePhrase": "Decir"
+    "usePhrase": "Su respuesta"
   },
   "dialogueHeading": "Diálogo",
   "phrases": "Frases",

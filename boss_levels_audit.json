@@ -2314,7 +2314,7 @@
           "id": "p1",
           "source": "question",
           "question": {
-            "uk": "Чому пити каву біля стійки (al banco) зазвичай дешевше, ніж за столиком (al tavolo)?",
+            "uk": "Біля стійки чи за столиком? За столиком коштує дорожче, знаєте чому?",
             "en": "Why is coffee at the counter (al banco) usually cheaper than at a table (al tavolo)?",
             "es": "¿Por qué beber café en la barra (al banco) suele ser más barato que en mesa (al tavolo)?",
             "fr": "Pourquoi le café au comptoir (al banco) est-il généralement moins cher qu’à table (al tavolo) ?",
@@ -2374,7 +2374,7 @@
           "id": "p2",
           "source": "question",
           "question": {
-            "uk": "Що таке 'Caffè Macchiato'?",
+            "uk": "Каву макіато, підходить? Знаєте, що це?",
             "en": "What is a 'Caffè Macchiato'?",
             "es": "¿Qué es un 'Caffè Macchiato'?",
             "fr": "Qu’est-ce qu’un 'Caffè Macchiato' ?",
@@ -2434,7 +2434,7 @@
           "id": "p3",
           "source": "question",
           "question": {
-            "uk": "Як попросити круасан із шоколадом італійською?",
+            "uk": "А щось поїсти? Круасан (кортетто)?",
             "en": "How do you ask for a chocolate croissant in Italian?",
             "es": "¿Cómo se pide un cruasán de chocolate en italiano?",
             "fr": "Comment demander un croissant au chocolat en italien ?",
@@ -2473,7 +2473,7 @@
           "id": "p4",
           "source": "question",
           "question": {
-            "uk": "Що потрібно зробити з чеком (scontrino) біля стійки бариста?",
+            "uk": "У вас чек із каси. Залиште його тут, будь ласка.",
             "en": "What should you do with the receipt (scontrino) at the barista’s counter?",
             "es": "¿Qué hay que hacer con el ticket (scontrino) en la barra del barista?",
             "fr": "Que faut-il faire du ticket (scontrino) au comptoir du barista ?",
@@ -2533,7 +2533,7 @@
           "id": "p5",
           "source": "question",
           "question": {
-            "uk": "Як ввічливо попросити склянку води до кави?",
+            "uk": "Кава готова. Бажаєте ще щось?",
             "en": "How do you politely ask for a glass of water with your coffee?",
             "es": "¿Cómo se pide con educación un vaso de agua con el café?",
             "fr": "Comment demander poliment un verre d’eau avec le café ?",
@@ -2616,7 +2616,7 @@
           "id": "p1",
           "source": "question",
           "question": {
-            "uk": "Скільки грамів продукту ви замовляєте, якщо кажете 'Due etti'?",
+            "uk": "Скільки вам зважити шинки? Двох сотень грамів (due etti) вистачить?",
             "en": "How many grams are you ordering if you say 'Due etti'?",
             "es": "¿Cuántos gramos pides si dices 'Due etti'?",
             "fr": "Combien de grammes commandez-vous si vous dites 'Due etti' ?",
@@ -2676,7 +2676,7 @@
           "id": "p2",
           "source": "question",
           "question": {
-            "uk": "Що обов'язково потрібно зробити перед тим, як брати свіжі фрукти чи овочі у супермаркеті?",
+            "uk": "Для вагових фруктів спочатку надягаємо рукавички. Домовилися?",
             "en": "What must you do before picking up fresh fruit or vegetables in a supermarket?",
             "es": "¿Qué hay que hacer obligatoriamente antes de coger fruta o verdura fresca en el supermercado?",
             "fr": "Que faut-il absolument faire avant de prendre des fruits ou légumes frais au supermarché ?",
@@ -2736,7 +2736,7 @@
           "id": "p3",
           "source": "question",
           "question": {
-            "uk": "Як запитати касира про пакет для покупок?",
+            "uk": "Пакет потрібен?",
             "en": "How do you ask the cashier for a shopping bag?",
             "es": "¿Cómo se le pide al cajero una bolsa para la compra?",
             "fr": "Comment demander un sac de courses au caissier ?",
@@ -2775,7 +2775,7 @@
           "id": "p4",
           "source": "question",
           "question": {
-            "uk": "Що таке 'Lo scontrino'?",
+            "uk": "Ось чек. Збережіть його. Знаєте, що це?",
             "en": "What is 'Lo scontrino'?",
             "es": "¿Qué es 'Lo scontrino'?",
             "fr": "Qu’est-ce que 'Lo scontrino' ?",
@@ -2835,7 +2835,7 @@
           "id": "p5",
           "source": "question",
           "question": {
-            "uk": "Як попросити тонко нарізати шинку (прошутто)?",
+            "uk": "Шинку як вам нарізати?",
             "en": "How do you ask for ham (prosciutto) to be sliced thinly?",
             "es": "¿Cómo se pide cortar el jamón (prosciutto) fino?",
             "fr": "Comment demander de trancher le jambon (prosciutto) finement ?",
@@ -2918,7 +2918,7 @@
           "id": "p1",
           "source": "question",
           "question": {
-            "uk": "Де найпростіше та найдешевше купити квиток на міський автобус в Італії?",
+            "uk": "Ваш квиток, будь ласка. Де ви його купили?",
             "en": "Where is it simplest and cheapest to buy a city bus ticket in Italy?",
             "es": "¿Dónde es más fácil y barato comprar un billete de autobús urbano en Italia?",
             "fr": "Où est-il le plus simple et le moins cher d’acheter un ticket de bus urbain en Italie ?",
@@ -2978,7 +2978,7 @@
           "id": "p2",
           "source": "question",
           "question": {
-            "uk": "Що означає дієслово 'Convalidare' або 'Timbrare' у транспорті?",
+            "uk": "Ви його закомпостували? Знаєте, що означає convalidare?",
             "en": "What do the verbs 'Convalidare' or 'Timbrare' mean on transport?",
             "es": "¿Qué significan los verbos 'Convalidare' o 'Timbrare' en el transporte?",
             "fr": "Que signifient les verbes 'Convalidare' ou 'Timbrare' dans les transports ?",
@@ -3038,7 +3038,7 @@
           "id": "p3",
           "source": "question",
           "question": {
-            "uk": "Як запитати на вокзалі 'З якої колії відправляється поїзд?'",
+            "uk": "Регіональний поїзд до Венеції. Вам потрібно запитати про колію.",
             "en": "How do you ask at the station “Which platform does the train leave from?”",
             "es": "¿Cómo se pregunta en la estación «¿De qué vía sale el tren?»",
             "fr": "Comment demander en gare « De quelle voie part le train ? »",
@@ -3077,7 +3077,7 @@
           "id": "p4",
           "source": "question",
           "question": {
-            "uk": "Що загрожує пасажиру за проїзд без прокомпостованого квитка?",
+            "uk": "Квиток не прокомпостований. Що тепер буде?",
             "en": "What happens to a passenger who travels without a stamped ticket?",
             "es": "¿Qué le espera al pasajero que viaja sin billete picado?",
             "fr": "Que risque un passager qui voyage sans ticket composté ?",
@@ -3137,7 +3137,7 @@
           "id": "p5",
           "source": "question",
           "question": {
-            "uk": "Як перекладається слово 'Stazione'?",
+            "uk": "Вибачте, stazione — що це означає?",
             "en": "How is the word 'Stazione' translated?",
             "es": "¿Cómo se traduce la palabra 'Stazione'?",
             "fr": "Comment se traduit le mot 'Stazione' ?",
@@ -3241,7 +3241,7 @@
           "id": "p1",
           "source": "question",
           "question": {
-            "uk": "Як італійською ввічливо сказати 'Я б хотів(ла) записатися на прийом'?",
+            "uk": "Доброго дня, салон краси. Бажаете записатися?",
             "en": "How do you politely say in Italian “I would like to book an appointment”?",
             "es": "¿Cómo se dice con educación en italiano «Me gustaría pedir cita»?",
             "fr": "Comment dire poliment en italien « Je voudrais prendre rendez-vous » ?",
@@ -3280,7 +3280,7 @@
           "id": "p2",
           "source": "question",
           "question": {
-            "uk": "Як чоловікові попросити вкоротити волосся з боків та підрівняти бороду?",
+            "uk": "Щодо волосся та бороди — що саме робимо?",
             "en": "How should a man ask to shorten the hair on the sides and tidy the beard?",
             "es": "¿Cómo pide un hombre acortar el pelo de los laterales e igualar la barba?",
             "fr": "Comment un homme demande-t-il de raccourcir les côtés et d’égaliser la barbe ?",
@@ -3319,7 +3319,7 @@
           "id": "p3",
           "source": "question",
           "question": {
-            "uk": "Що означає слово 'Spuntare' стосовно волосся?",
+            "uk": "Підрівняти кінчики (spuntare), підходить? Розумієте, що це значить?",
             "en": "What does 'Spuntare' mean for hair?",
             "es": "¿Qué significa 'Spuntare' referido al pelo?",
             "fr": "Que signifie 'Spuntare' pour les cheveux ?",
@@ -3379,7 +3379,7 @@
           "id": "p4",
           "source": "question",
           "question": {
-            "uk": "Як сказати майстру манікюру, що потрібно зняти старий гель-лак?",
+            "uk": "Манікюр: у вас ще є старий лак. Слухаю вас.",
             "en": "How do you tell the nail technician that the old gel polish must be removed?",
             "es": "¿Cómo se le dice a la manicurista que hay que quitar el esmalte semipermanente viejo?",
             "fr": "Comment dire à la manucure qu’il faut retirer l’ancien vernis gel ?",
@@ -3418,7 +3418,7 @@
           "id": "p5",
           "source": "question",
           "question": {
-            "uk": "Що таке 'Piega' в італійському перукарському салоні?",
+            "uk": "Після миття голови робимо укладку (piega)?",
             "en": "What is 'Piega' in an Italian hair salon?",
             "es": "¿Qué es 'Piega' en una peluquería italiana?",
             "fr": "Qu’est-ce que 'Piega' dans un salon de coiffure italien ?",

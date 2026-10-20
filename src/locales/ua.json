@@ -120,10 +120,10 @@
     "winBadge": "👾 БОС ПЕРЕМОЖЕНИЙ!",
     "winTitle": "Boss Defeated!",
     "winLead": "Усі репліки на місці. Ось твої фрази:",
-    "tryFallback": "Напиши фразу або натисни «Сказати».",
+    "tryFallback": "Напиши фразу або натисни «Ваша відповідь».",
     "typePlaceholder": "Напиши італійською…",
     "write": "Написати",
-    "usePhrase": "Сказати"
+    "usePhrase": "Ваша відповідь"
   },
   "dialogueHeading": "Діалог",
   "phrases": "Фрази",

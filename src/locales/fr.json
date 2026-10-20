@@ -120,10 +120,10 @@
     "winBadge": "👾 BOSS VAINCU !",
     "winTitle": "Boss Defeated !",
     "winLead": "Toutes les répliques sont en place. Vos phrases :",
-    "tryFallback": "Tapez la phrase ou touchez Dire.",
+    "tryFallback": "Tapez la phrase ou touchez Votre réponse.",
     "typePlaceholder": "Écrivez en italien…",
     "write": "Écrire",
-    "usePhrase": "Dire"
+    "usePhrase": "Votre réponse"
   },
   "dialogueHeading": "Dialogue",
   "phrases": "Phrases",

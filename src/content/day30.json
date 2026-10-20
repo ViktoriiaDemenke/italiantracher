@@ -26,7 +26,7 @@
     {
       "id": "p1",
       "question": {
-        "uk": "Як італійською ввічливо сказати 'Я б хотів(ла) записатися на прийом'?",
+        "uk": "Доброго дня, салон краси. Бажаете записатися?",
         "en": "How do you politely say in Italian “I would like to book an appointment”?",
         "es": "¿Cómo se dice con educación en italiano «Me gustaría pedir cita»?",
         "fr": "Comment dire poliment en italien « Je voudrais prendre rendez-vous » ?",
@@ -49,7 +49,7 @@
     {
       "id": "p2",
       "question": {
-        "uk": "Як чоловікові попросити вкоротити волосся з боків та підрівняти бороду?",
+        "uk": "Щодо волосся та бороди — що саме робимо?",
         "en": "How should a man ask to shorten the hair on the sides and tidy the beard?",
         "es": "¿Cómo pide un hombre acortar el pelo de los laterales e igualar la barba?",
         "fr": "Comment un homme demande-t-il de raccourcir les côtés et d’égaliser la barbe ?",
@@ -72,7 +72,7 @@
     {
       "id": "p3",
       "question": {
-        "uk": "Що означає слово 'Spuntare' стосовно волосся?",
+        "uk": "Підрівняти кінчики (spuntare), підходить? Розумієте, що це значить?",
         "en": "What does 'Spuntare' mean for hair?",
         "es": "¿Qué significa 'Spuntare' referido al pelo?",
         "fr": "Que signifie 'Spuntare' pour les cheveux ?",
@@ -119,7 +119,7 @@
     {
       "id": "p4",
       "question": {
-        "uk": "Як сказати майстру манікюру, що потрібно зняти старий гель-лак?",
+        "uk": "Манікюр: у вас ще є старий лак. Слухаю вас.",
         "en": "How do you tell the nail technician that the old gel polish must be removed?",
         "es": "¿Cómo se le dice a la manicurista que hay que quitar el esmalte semipermanente viejo?",
         "fr": "Comment dire à la manucure qu’il faut retirer l’ancien vernis gel ?",
@@ -142,7 +142,7 @@
     {
       "id": "p5",
       "question": {
-        "uk": "Що таке 'Piega' в італійському перукарському салоні?",
+        "uk": "Після миття голови робимо укладку (piega)?",
         "en": "What is 'Piega' in an Italian hair salon?",
         "es": "¿Qué es 'Piega' en una peluquería italiana?",
         "fr": "Qu’est-ce que 'Piega' dans un salon de coiffure italien ?",

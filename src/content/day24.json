@@ -26,7 +26,7 @@
     {
       "id": "p1",
       "question": {
-        "uk": "Скільки грамів продукту ви замовляєте, якщо кажете 'Due etti'?",
+        "uk": "Скільки вам зважити шинки? Двох сотень грамів (due etti) вистачить?",
         "en": "How many grams are you ordering if you say 'Due etti'?",
         "es": "¿Cuántos gramos pides si dices 'Due etti'?",
         "fr": "Combien de grammes commandez-vous si vous dites 'Due etti' ?",
@@ -73,7 +73,7 @@
     {
       "id": "p2",
       "question": {
-        "uk": "Що обов'язково потрібно зробити перед тим, як брати свіжі фрукти чи овочі у супермаркеті?",
+        "uk": "Для вагових фруктів спочатку надягаємо рукавички. Домовилися?",
         "en": "What must you do before picking up fresh fruit or vegetables in a supermarket?",
         "es": "¿Qué hay que hacer obligatoriamente antes de coger fruta o verdura fresca en el supermercado?",
         "fr": "Que faut-il absolument faire avant de prendre des fruits ou légumes frais au supermarché ?",
@@ -120,7 +120,7 @@
     {
       "id": "p3",
       "question": {
-        "uk": "Як запитати касира про пакет для покупок?",
+        "uk": "Пакет потрібен?",
         "en": "How do you ask the cashier for a shopping bag?",
         "es": "¿Cómo se le pide al cajero una bolsa para la compra?",
         "fr": "Comment demander un sac de courses au caissier ?",
@@ -143,7 +143,7 @@
     {
       "id": "p4",
       "question": {
-        "uk": "Що таке 'Lo scontrino'?",
+        "uk": "Ось чек. Збережіть його. Знаєте, що це?",
         "en": "What is 'Lo scontrino'?",
         "es": "¿Qué es 'Lo scontrino'?",
         "fr": "Qu’est-ce que 'Lo scontrino' ?",
@@ -190,7 +190,7 @@
     {
       "id": "p5",
       "question": {
-        "uk": "Як попросити тонко нарізати шинку (прошутто)?",
+        "uk": "Шинку як вам нарізати?",
         "en": "How do you ask for ham (prosciutto) to be sliced thinly?",
         "es": "¿Cómo se pide cortar el jamón (prosciutto) fino?",
         "fr": "Comment demander de trancher le jambon (prosciutto) finement ?",

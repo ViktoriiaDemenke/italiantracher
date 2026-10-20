@@ -26,7 +26,7 @@
     {
       "id": "p1",
       "question": {
-        "uk": "Де найпростіше та найдешевше купити квиток на міський автобус в Італії?",
+        "uk": "Ваш квиток, будь ласка. Де ви його купили?",
         "en": "Where is it simplest and cheapest to buy a city bus ticket in Italy?",
         "es": "¿Dónde es más fácil y barato comprar un billete de autobús urbano en Italia?",
         "fr": "Où est-il le plus simple et le moins cher d’acheter un ticket de bus urbain en Italie ?",
@@ -73,7 +73,7 @@
     {
       "id": "p2",
       "question": {
-        "uk": "Що означає дієслово 'Convalidare' або 'Timbrare' у транспорті?",
+        "uk": "Ви його закомпостували? Знаєте, що означає convalidare?",
         "en": "What do the verbs 'Convalidare' or 'Timbrare' mean on transport?",
         "es": "¿Qué significan los verbos 'Convalidare' o 'Timbrare' en el transporte?",
         "fr": "Que signifient les verbes 'Convalidare' ou 'Timbrare' dans les transports ?",
@@ -120,7 +120,7 @@
     {
       "id": "p3",
       "question": {
-        "uk": "Як запитати на вокзалі 'З якої колії відправляється поїзд?'",
+        "uk": "Регіональний поїзд до Венеції. Вам потрібно запитати про колію.",
         "en": "How do you ask at the station “Which platform does the train leave from?”",
         "es": "¿Cómo se pregunta en la estación «¿De qué vía sale el tren?»",
         "fr": "Comment demander en gare « De quelle voie part le train ? »",
@@ -143,7 +143,7 @@
     {
       "id": "p4",
       "question": {
-        "uk": "Що загрожує пасажиру за проїзд без прокомпостованого квитка?",
+        "uk": "Квиток не прокомпостований. Що тепер буде?",
         "en": "What happens to a passenger who travels without a stamped ticket?",
         "es": "¿Qué le espera al pasajero que viaja sin billete picado?",
         "fr": "Que risque un passager qui voyage sans ticket composté ?",
@@ -190,7 +190,7 @@
     {
       "id": "p5",
       "question": {
-        "uk": "Як перекладається слово 'Stazione'?",
+        "uk": "Вибачте, stazione — що це означає?",
         "en": "How is the word 'Stazione' translated?",
         "es": "¿Cómo se traduce la palabra 'Stazione'?",
         "fr": "Comment se traduit le mot 'Stazione' ?",

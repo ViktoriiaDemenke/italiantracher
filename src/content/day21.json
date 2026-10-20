@@ -26,7 +26,7 @@
     {
       "id": "p1",
       "question": {
-        "uk": "Чому пити каву біля стійки (al banco) зазвичай дешевше, ніж за столиком (al tavolo)?",
+        "uk": "Біля стійки чи за столиком? За столиком коштує дорожче, знаєте чому?",
         "en": "Why is coffee at the counter (al banco) usually cheaper than at a table (al tavolo)?",
         "es": "¿Por qué beber café en la barra (al banco) suele ser más barato que en mesa (al tavolo)?",
         "fr": "Pourquoi le café au comptoir (al banco) est-il généralement moins cher qu’à table (al tavolo) ?",
@@ -73,7 +73,7 @@
     {
       "id": "p2",
       "question": {
-        "uk": "Що таке 'Caffè Macchiato'?",
+        "uk": "Каву макіато, підходить? Знаєте, що це?",
         "en": "What is a 'Caffè Macchiato'?",
         "es": "¿Qué es un 'Caffè Macchiato'?",
         "fr": "Qu’est-ce qu’un 'Caffè Macchiato' ?",
@@ -120,7 +120,7 @@
     {
       "id": "p3",
       "question": {
-        "uk": "Як попросити круасан із шоколадом італійською?",
+        "uk": "А щось поїсти? Круасан (кортетто)?",
         "en": "How do you ask for a chocolate croissant in Italian?",
         "es": "¿Cómo se pide un cruasán de chocolate en italiano?",
         "fr": "Comment demander un croissant au chocolat en italien ?",
@@ -143,7 +143,7 @@
     {
       "id": "p4",
       "question": {
-        "uk": "Що потрібно зробити з чеком (scontrino) біля стійки бариста?",
+        "uk": "У вас чек із каси. Залиште його тут, будь ласка.",
         "en": "What should you do with the receipt (scontrino) at the barista’s counter?",
         "es": "¿Qué hay que hacer con el ticket (scontrino) en la barra del barista?",
         "fr": "Que faut-il faire du ticket (scontrino) au comptoir du barista ?",
@@ -190,7 +190,7 @@
     {
       "id": "p5",
       "question": {
-        "uk": "Як ввічливо попросити склянку води до кави?",
+        "uk": "Кава готова. Бажаєте ще щось?",
         "en": "How do you politely ask for a glass of water with your coffee?",
         "es": "¿Cómo se pide con educación un vaso de agua con el café?",
         "fr": "Comment demander poliment un verre d’eau avec le café ?",
