@@ -11,6 +11,12 @@ import {
 import './ReminderSetting.css'
 
 const ANDROID_CHANNEL_ID = 'lesson-reminders'
+const STORAGE_ENABLED = 'notificationsEnabled'
+const STORAGE_TIME = 'app_reminder_time'
+const STORAGE_LAST_FIRE = 'app_reminder_last_fired'
+const WEB_TITLE = 'Italian Life Tracker'
+const WEB_BODY = 'Час для щоденного уроку італійської!'
+const WEB_ICON = '/icon.png'
 
 type ReminderSettingProps = {
   remindersEnabled?: boolean
@@ -20,7 +26,7 @@ type ReminderSettingProps = {
   body?: string
   onToggleReminders?: (enabled: boolean) => void
   onReminderTimeChange?: (value: string) => void
-  onDenied?: () => void
+  onDenied?: (message?: string) => void
 }
 
 async function ensureAndroidChannel() {
@@ -77,6 +83,62 @@ export async function cancelLocalDailyReminder() {
   })
 }
 
+function readStoredEnabled() {
+  try {
+    const raw = localStorage.getItem(STORAGE_ENABLED)
+    if (raw === null) return null
+    return JSON.parse(raw) === true
+  } catch {
+    return null
+  }
+}
+
+function readStoredTime() {
+  try {
+    return localStorage.getItem(STORAGE_TIME)
+  } catch {
+    return null
+  }
+}
+
+function writeStored(enabled: boolean, time: string) {
+  try {
+    localStorage.setItem(STORAGE_ENABLED, JSON.stringify(enabled))
+    localStorage.setItem(STORAGE_TIME, time)
+  } catch {
+    /* private mode */
+  }
+}
+
+function msUntilNext(hour: number, minute: number) {
+  const now = new Date()
+  const next = new Date(
+    now.getFullYear(),
+    now.getMonth(),
+    now.getDate(),
+    hour,
+    minute,
+    0,
+    0,
+  )
+  if (next.getTime() <= now.getTime()) next.setDate(next.getDate() + 1)
+  return next.getTime() - now.getTime()
+}
+
+function fireWebNotification() {
+  try {
+    if (typeof Notification === 'undefined') return
+    if (Notification.permission !== 'granted') return
+    const stamp = new Date()
+    const key = `${stamp.getFullYear()}-${stamp.getMonth()}-${stamp.getDate()}-${stamp.getHours()}-${stamp.getMinutes()}`
+    if (localStorage.getItem(STORAGE_LAST_FIRE) === key) return
+    localStorage.setItem(STORAGE_LAST_FIRE, key)
+    new Notification(WEB_TITLE, { body: WEB_BODY, icon: WEB_ICON })
+  } catch {
+    /* LAN / no HTTPS — ignore */
+  }
+}
+
 export default function ReminderSetting({
   remindersEnabled,
   reminderHour = 19,
@@ -85,24 +147,37 @@ export default function ReminderSetting({
   body,
   onToggleReminders,
   onReminderTimeChange,
-  onDenied,
 }: ReminderSettingProps) {
   const { t } = useI18n()
   const reminderTitle = title || t('reminders.title')
   const reminderBody = body || t('reminders.body')
-  const [isEnabled, setIsEnabled] = useState(Boolean(remindersEnabled))
+  const storedEnabled = readStoredEnabled()
+  const storedTime = readStoredTime()
+  const [isEnabled, setIsEnabled] = useState(
+    storedEnabled ?? Boolean(remindersEnabled),
+  )
   const [reminderTime, setReminderTime] = useState(
-    formatReminderTime(reminderHour, reminderMinute),
+    storedTime || formatReminderTime(reminderHour, reminderMinute),
   )
   const isNative = Capacitor.isNativePlatform()
 
   useEffect(() => {
-    setIsEnabled(Boolean(remindersEnabled))
-  }, [remindersEnabled])
+    if (storedEnabled === null) setIsEnabled(Boolean(remindersEnabled))
+  }, [remindersEnabled, storedEnabled])
 
   useEffect(() => {
-    setReminderTime(formatReminderTime(reminderHour, reminderMinute))
-  }, [reminderHour, reminderMinute])
+    if (!storedTime) setReminderTime(formatReminderTime(reminderHour, reminderMinute))
+  }, [reminderHour, reminderMinute, storedTime])
+
+  useEffect(() => {
+    if (!isEnabled) return
+    const { hour, minute } = parseReminderTime(reminderTime)
+    let timer = window.setTimeout(function tick() {
+      fireWebNotification()
+      timer = window.setTimeout(tick, msUntilNext(hour, minute))
+    }, msUntilNext(hour, minute))
+    return () => window.clearTimeout(timer)
+  }, [isEnabled, reminderTime])
 
   async function scheduleNative(timeValue: string) {
     const next = parseReminderTime(timeValue)
@@ -114,46 +189,57 @@ export default function ReminderSetting({
     })
   }
 
-  async function handleToggle() {
-    const nextState = !isEnabled
+  function persistEnabled(nextState: boolean, timeValue = reminderTime) {
+    setIsEnabled(nextState)
+    writeStored(nextState, timeValue)
+    onToggleReminders?.(nextState)
+  }
 
-    if (nextState) {
-      if (isNative) {
-        const permission = await LocalNotifications.requestPermissions()
-        if (permission.display !== 'granted') {
-          onDenied?.()
-          return
-        }
-        await scheduleNative(reminderTime)
-      } else {
-        if (!('Notification' in window)) {
-          onDenied?.()
-          return
-        }
-        const permission = await Notification.requestPermission()
-        if (permission !== 'granted') {
-          onDenied?.()
-          return
-        }
-        new Notification(reminderTitle, {
-          body: `${t('reminders.on')} · ${reminderTime}`,
-        })
-      }
-    } else if (isNative) {
-      await cancelLocalDailyReminder()
+  function tryWebPermission() {
+    if (typeof Notification === 'undefined') return
+    try {
+      void Promise.resolve(Notification.requestPermission()).catch(() => {})
+    } catch {
+      /* unsupported */
+    }
+  }
+
+  function handleToggle() {
+    const nextState = !isEnabled
+    persistEnabled(nextState)
+
+    if (!nextState) {
+      if (isNative) void cancelLocalDailyReminder()
+      return
     }
 
-    setIsEnabled(nextState)
-    onToggleReminders?.(nextState)
+    if (isNative) {
+      void (async () => {
+        try {
+          await LocalNotifications.requestPermissions()
+          await scheduleNative(reminderTime)
+        } catch {
+          /* Keep the bell on even if native scheduling fails */
+        }
+      })()
+      return
+    }
+
+    tryWebPermission()
   }
 
   async function handleTimeChange(event: ChangeEvent<HTMLInputElement>) {
     const newTime = event.target.value
     setReminderTime(newTime)
+    writeStored(isEnabled, newTime)
     onReminderTimeChange?.(newTime)
 
     if (isEnabled && isNative) {
-      await scheduleNative(newTime)
+      try {
+        await scheduleNative(newTime)
+      } catch {
+        /* ignore */
+      }
     }
   }
 
@@ -163,7 +249,7 @@ export default function ReminderSetting({
         <button
           className={`reminder-setting__bell${isEnabled ? ' is-on' : ''}`}
           type="button"
-          onClick={() => void handleToggle()}
+          onClick={handleToggle}
           aria-pressed={isEnabled}
           aria-label={isEnabled ? t('reminders.off') : t('reminders.on')}
         >

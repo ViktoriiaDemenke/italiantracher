@@ -1,10 +1,11 @@
-import { useEffect, useState } from 'react'
+import { useCallback, useEffect, useState } from 'react'
 import { Capacitor } from '@capacitor/core'
 import HomeScreen from './screens/HomeScreen.jsx'
 import ArcLessonScreen from './screens/ArcLessonScreen.jsx'
 import ReviewScreen from './screens/ReviewScreen.jsx'
 import PaywallScreen from './screens/PaywallScreen.jsx'
 import Header from './components/Header.jsx'
+import AppSplash from './components/AppSplash.jsx'
 import { getLesson, OPEN_DAYS } from './data/lessons.js'
 import {
   canAccessDay,
@@ -71,6 +72,8 @@ export default function App() {
     restoreAccess,
   } = progress
   const [screen, setScreen] = useState(restoreUiScreen)
+  const [showSplash, setShowSplash] = useState(true)
+  const hideSplash = useCallback(() => setShowSplash(false), [])
 
   useEffect(() => {
     window.scrollTo(0, 0)
@@ -132,21 +135,16 @@ export default function App() {
       remindersEnabled: nextEnabled,
     }))
 
-    if (nextEnabled) {
-      const granted = await requestNotificationPermission()
-      if (!granted) {
-        persist((prev) => ({
-          ...prev,
-          notificationsAsked: true,
-          remindersEnabled: false,
-        }))
-        progress.showToast(t('reminders.denied'))
-        return
+    if (Capacitor.isNativePlatform()) {
+      if (nextEnabled) {
+        try {
+          await requestNotificationPermission()
+        } catch {
+          /* Keep the toggle on in test / LAN setups */
+        }
       }
+      await syncLessonReminder(nextEnabled, reminderHour, reminderMinute, reminderCopy)
     }
-
-    await syncLessonReminder(nextEnabled, reminderHour, reminderMinute, reminderCopy)
-    progress.showToast(nextEnabled ? t('reminders.on') : t('reminders.off'))
   }
 
   async function handleReminderTimeChange(value) {
@@ -287,13 +285,16 @@ export default function App() {
 
   return (
     <>
+      {showSplash ? <AppSplash onDone={hideSplash} /> : null}
       <Header
         remindersEnabled={Boolean(state.remindersEnabled)}
         reminderHour={reminderHour}
         reminderMinute={reminderMinute}
         onToggleReminders={handleToggleReminders}
         onReminderTimeChange={handleReminderTimeChange}
-        onReminderDenied={() => progress.showToast(t('reminders.denied'))}
+        onReminderDenied={(message) =>
+          progress.showToast(message || t('reminders.denied'))
+        }
         savedPhrases={state.savedPhrases ?? []}
       />
       {body}

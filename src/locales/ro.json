@@ -1,5 +1,9 @@
 {
   "appName": "Italian Tracker",
+  "splash": {
+    "brand": "Italian Life Tracker",
+    "subtitle": "La tua sicurezza ogni giorno"
+  },
   "challengeBadge": "Provocare 30 de zile",
   "lead": "Un intensiv zilnic ca să trăiești Italia cu încredere. De la primărie la restaurant — vorbește fără bariere.",
   "start": "Începe",
@@ -56,7 +60,8 @@
     "on": "Memento-uri pornite",
     "off": "Memento-uri oprite",
     "denied": "Notificările au fost refuzate",
-    "dailyLocal": "Zilnic la ora locală"
+    "dailyLocal": "Zilnic la ora locală",
+    "testOn": "Notificări activate! (Mod de test)"
   },
   "lang": "Limbă",
   "cycleNav": "Ciclul modulului",

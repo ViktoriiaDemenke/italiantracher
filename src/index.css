@@ -77,7 +77,8 @@ body,
   min-height: 100%;
   min-height: 100dvh;
   font-family: var(--font);
-  background: var(--bg);
+  background-color: #0f172a !important;
+  color: #ffffff;
 }
 
 body {
@@ -86,8 +87,13 @@ body {
   font-size: var(--text-md);
   line-height: 1.55;
   letter-spacing: normal;
+  background-color: #0f172a !important;
+  color: #ffffff;
+}
+
+[data-theme='light'] body,
+[data-theme='light'] #root {
   background: var(--bg);
-  color: var(--text);
 }
 
 button,

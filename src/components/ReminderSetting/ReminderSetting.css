@@ -64,6 +64,10 @@
   line-height: 1.3;
 }
 
+.reminder-setting__hint.is-warn {
+  color: var(--badge-text);
+}
+
 .reminder-setting__time {
   flex: none;
   min-width: 6.5rem;

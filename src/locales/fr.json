@@ -1,5 +1,9 @@
 {
   "appName": "Italian Tracker",
+  "splash": {
+    "brand": "Italian Life Tracker",
+    "subtitle": "La tua sicurezza ogni giorno"
+  },
   "challengeBadge": "Défi 30 jours",
   "lead": "Un intensif quotidien pour vivre l’Italie en confiance. De la mairie au restaurant — parle sans barrières.",
   "start": "Commencer",
@@ -56,7 +60,8 @@
     "on": "Rappels activés",
     "off": "Rappels désactivés",
     "denied": "Notifications refusées",
-    "dailyLocal": "Tous les jours à l’heure locale"
+    "dailyLocal": "Tous les jours à l’heure locale",
+    "testOn": "Notifications activées ! (Mode test)"
   },
   "lang": "Langue",
   "cycleNav": "Cycle du module",

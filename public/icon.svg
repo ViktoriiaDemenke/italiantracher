@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="IT">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1E293B" />
+      <stop offset="52%" stop-color="#0F172A" />
+      <stop offset="100%" stop-color="#1E2631" />
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="42%" r="55%">
+      <stop offset="0%" stop-color="#F59E0B" stop-opacity="0.35" />
+      <stop offset="100%" stop-color="#F59E0B" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#bg)" />
+  <rect width="512" height="512" rx="112" fill="url(#glow)" />
+  <rect x="10" y="10" width="492" height="492" rx="102" fill="none" stroke="#FCD34D" stroke-opacity="0.28" stroke-width="8" />
+  <text
+    x="256"
+    y="338"
+    text-anchor="middle"
+    font-family="Inter, -apple-system, BlinkMacSystemFont, sans-serif"
+    font-size="210"
+    font-weight="800"
+    letter-spacing="12"
+    fill="#F59E0B"
+  >IT</text>
+</svg>
