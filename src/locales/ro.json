@@ -55,7 +55,8 @@
     "body": "E timpul pentru lecția de italiană.",
     "on": "Memento-uri pornite",
     "off": "Memento-uri oprite",
-    "denied": "Notificările au fost refuzate"
+    "denied": "Notificările au fost refuzate",
+    "dailyLocal": "Zilnic la ora locală"
   },
   "lang": "Limbă",
   "cycleNav": "Ciclul modulului",

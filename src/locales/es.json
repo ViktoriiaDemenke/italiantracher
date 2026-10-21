@@ -55,7 +55,8 @@
     "body": "Es la hora de la lección de italiano.",
     "on": "Recordatorios activos",
     "off": "Recordatorios inactivos",
-    "denied": "Notificaciones denegadas"
+    "denied": "Notificaciones denegadas",
+    "dailyLocal": "Cada día a la hora local"
   },
   "lang": "Idioma",
   "cycleNav": "Ciclo del módulo",

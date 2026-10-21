@@ -11,6 +11,7 @@ export default function Header({
   reminderMinute,
   onToggleReminders,
   onReminderTimeChange,
+  onReminderDenied,
   savedPhrases = [],
 }) {
   const { locale, setLocale, theme, setTheme, t } = useI18n()
@@ -58,6 +59,7 @@ export default function Header({
           body={t('reminders.body')}
           onToggleReminders={onToggleReminders}
           onReminderTimeChange={onReminderTimeChange}
+          onDenied={onReminderDenied}
         />
       </div>
       <SavedPhrasesSheet

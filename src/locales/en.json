@@ -55,7 +55,8 @@
     "body": "Time for today’s Italian lesson.",
     "on": "Reminders on",
     "off": "Reminders off",
-    "denied": "Notification permission denied"
+    "denied": "Notification permission denied",
+    "dailyLocal": "Daily at local time"
   },
   "lang": "Language",
   "cycleNav": "Module cycle",

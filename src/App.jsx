@@ -293,6 +293,7 @@ export default function App() {
         reminderMinute={reminderMinute}
         onToggleReminders={handleToggleReminders}
         onReminderTimeChange={handleReminderTimeChange}
+        onReminderDenied={() => progress.showToast(t('reminders.denied'))}
         savedPhrases={state.savedPhrases ?? []}
       />
       {body}

@@ -1,12 +1,14 @@
-import { Bell, Clock } from 'lucide-react'
-import { Capacitor } from '@capacitor/core'
+import { useEffect, useState, type ChangeEvent } from 'react'
+import { Bell, BellOff } from 'lucide-react'
 import { LocalNotifications } from '@capacitor/local-notifications'
+import { Capacitor } from '@capacitor/core'
 import { useI18n } from '../../i18n.js'
 import {
   LESSON_REMINDER_ID,
   formatReminderTime,
   parseReminderTime,
 } from '../../notifications.js'
+import './ReminderSetting.css'
 
 const ANDROID_CHANNEL_ID = 'lesson-reminders'
 
@@ -18,6 +20,7 @@ type ReminderSettingProps = {
   body?: string
   onToggleReminders?: (enabled: boolean) => void
   onReminderTimeChange?: (value: string) => void
+  onDenied?: () => void
 }
 
 async function ensureAndroidChannel() {
@@ -35,12 +38,7 @@ async function ensureAndroidChannel() {
   }
 }
 
-/**
- * Schedules a repeating local notification at a wall-clock hour:minute
- * on the device. Uses Capacitor `schedule.on` (not a UTC Date), so the
- * reminder stays at 19:00 (or the chosen time) in whatever timezone the
- * phone is in.
- */
+/** Device wall-clock hour:minute — not a UTC Date, so the time is timezone-stable. */
 export async function scheduleLocalDailyReminder({
   hour,
   minute,
@@ -87,96 +85,107 @@ export default function ReminderSetting({
   body,
   onToggleReminders,
   onReminderTimeChange,
+  onDenied,
 }: ReminderSettingProps) {
   const { t } = useI18n()
-  const enabled = Boolean(remindersEnabled)
-  const timeValue = formatReminderTime(reminderHour, reminderMinute)
   const reminderTitle = title || t('reminders.title')
   const reminderBody = body || t('reminders.body')
+  const [isEnabled, setIsEnabled] = useState(Boolean(remindersEnabled))
+  const [reminderTime, setReminderTime] = useState(
+    formatReminderTime(reminderHour, reminderMinute),
+  )
+  const isNative = Capacitor.isNativePlatform()
 
-  async function applyNativeSchedule(nextEnabled: boolean, hour: number, minute: number) {
-    if (!Capacitor.isNativePlatform()) return
-    try {
-      if (!nextEnabled) {
-        await cancelLocalDailyReminder()
-        return
-      }
-      await scheduleLocalDailyReminder({
-        hour,
-        minute,
-        title: reminderTitle,
-        body: reminderBody,
-      })
-    } catch {
-      /* Web / missing plugin */
-    }
+  useEffect(() => {
+    setIsEnabled(Boolean(remindersEnabled))
+  }, [remindersEnabled])
+
+  useEffect(() => {
+    setReminderTime(formatReminderTime(reminderHour, reminderMinute))
+  }, [reminderHour, reminderMinute])
+
+  async function scheduleNative(timeValue: string) {
+    const next = parseReminderTime(timeValue)
+    await scheduleLocalDailyReminder({
+      hour: next.hour,
+      minute: next.minute,
+      title: reminderTitle,
+      body: reminderBody,
+    })
   }
 
-  function handleTimeActivate(event: { preventDefault: () => void; currentTarget: HTMLInputElement }) {
-    if (!enabled) {
-      event.preventDefault()
-      return
-    }
-    const input = event.currentTarget
-    if (typeof input.showPicker === 'function') {
-      try {
-        input.showPicker()
-      } catch {
-        input.focus()
+  async function handleToggle() {
+    const nextState = !isEnabled
+
+    if (nextState) {
+      if (isNative) {
+        const permission = await LocalNotifications.requestPermissions()
+        if (permission.display !== 'granted') {
+          onDenied?.()
+          return
+        }
+        await scheduleNative(reminderTime)
+      } else {
+        if (!('Notification' in window)) {
+          onDenied?.()
+          return
+        }
+        const permission = await Notification.requestPermission()
+        if (permission !== 'granted') {
+          onDenied?.()
+          return
+        }
+        new Notification(reminderTitle, {
+          body: `${t('reminders.on')} · ${reminderTime}`,
+        })
       }
+    } else if (isNative) {
+      await cancelLocalDailyReminder()
+    }
+
+    setIsEnabled(nextState)
+    onToggleReminders?.(nextState)
+  }
+
+  async function handleTimeChange(event: ChangeEvent<HTMLInputElement>) {
+    const newTime = event.target.value
+    setReminderTime(newTime)
+    onReminderTimeChange?.(newTime)
+
+    if (isEnabled && isNative) {
+      await scheduleNative(newTime)
     }
   }
 
   return (
-    <div className="reminder-section">
-      <label className="reminder-toggle">
-        <input
-          type="checkbox"
-          checked={enabled}
-          onChange={(event) => {
-            const next = event.target.checked
-            onToggleReminders?.(next)
-            void applyNativeSchedule(next, reminderHour, reminderMinute)
-          }}
-        />
-        <span className="reminder-toggle__box" aria-hidden="true">
-          <svg
-            className="reminder-toggle__check"
-            viewBox="0 0 16 16"
-            fill="none"
-            stroke="currentColor"
-            strokeWidth="2.2"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-          >
-            <path d="M3.2 8.4 6.3 11.6 12.8 4.4" />
-          </svg>
-        </span>
-        <Bell size={16} aria-hidden="true" />
-        <span className="reminder-toggle__text">{t('reminders.toggle')}</span>
-      </label>
-      <label className={`reminder-section__time-wrap${enabled ? '' : ' is-disabled'}`}>
-        <span className="reminder-section__time-face" aria-hidden="true">
-          <Clock size={14} aria-hidden="true" /> {timeValue}
-        </span>
-        <input
-          className="reminder-section__time"
-          type="time"
-          lang="en-GB"
-          aria-label={t('reminders.time')}
-          value={timeValue}
-          tabIndex={enabled ? 0 : -1}
-          onChange={(event) => {
-            const value = event.target.value
-            const next = parseReminderTime(value)
-            onReminderTimeChange?.(value)
-            if (enabled) {
-              void applyNativeSchedule(true, next.hour, next.minute)
-            }
-          }}
-          onPointerUp={handleTimeActivate}
-        />
-      </label>
+    <div className="reminder-setting">
+      <div className="reminder-setting__lead">
+        <button
+          className={`reminder-setting__bell${isEnabled ? ' is-on' : ''}`}
+          type="button"
+          onClick={() => void handleToggle()}
+          aria-pressed={isEnabled}
+          aria-label={isEnabled ? t('reminders.off') : t('reminders.on')}
+        >
+          {isEnabled ? <Bell size={20} /> : <BellOff size={20} />}
+        </button>
+        <div className="reminder-setting__copy">
+          <div className="reminder-setting__title">{t('reminders.toggle')}</div>
+          <div className="reminder-setting__hint">
+            {isEnabled ? t('reminders.dailyLocal') : t('reminders.off')}
+          </div>
+        </div>
+      </div>
+
+      <input
+        className="reminder-setting__time"
+        type="time"
+        lang="en-GB"
+        value={reminderTime}
+        onChange={(event) => void handleTimeChange(event)}
+        disabled={!isEnabled}
+        aria-label={t('reminders.time')}
+      />
     </div>
   )
 }

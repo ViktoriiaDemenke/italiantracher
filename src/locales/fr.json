@@ -55,7 +55,8 @@
     "body": "C’est l’heure de la leçon d’italien.",
     "on": "Rappels activés",
     "off": "Rappels désactivés",
-    "denied": "Notifications refusées"
+    "denied": "Notifications refusées",
+    "dailyLocal": "Tous les jours à l’heure locale"
   },
   "lang": "Langue",
   "cycleNav": "Cycle du module",
