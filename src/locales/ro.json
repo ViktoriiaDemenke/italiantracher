@@ -67,6 +67,7 @@
   },
   "cycleLabel": "Ziua {{day}} · {{kind}}",
   "dayStepsNav": "Pașii zilei",
+  "stepNav": "Pașii simulării",
   "stepText": "Pasul {{n}}: text",
   "stepDialogue": "Pasul {{n}}: dialog",
   "stepBoss": "Pasul {{n}}: boss",

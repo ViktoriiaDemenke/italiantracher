@@ -5,6 +5,7 @@ import SpeakButton from '../components/SpeakButton.jsx'
 import Flashcards from '../components/Flashcards.jsx'
 import PracticeQuiz from '../components/PracticeQuiz.jsx'
 import VoiceBossLevel from '../components/VoiceBossLevel.jsx'
+import StepNav from '../components/StepNav.jsx'
 import { maxScore } from '../content/loadLesson.js'
 import { buildMiniQuiz, buildPracticeDeck } from '../learn/practice.js'
 import {
@@ -259,6 +260,8 @@ export default function ArcLessonScreen({
   const dayStages = useMemo(() => buildDayStages(daySteps), [daySteps])
   const [culturaOpen, setCulturaOpen] = useState(false)
   const [stepIndex, setStepIndex] = useState(0)
+  const [maxReached, setMaxReached] = useState(0)
+  const [dialogueAnswers, setDialogueAnswers] = useState({})
   const [picked, setPicked] = useState(null)
   const [score, setScore] = useState(0)
   const [finished, setFinished] = useState(false)
@@ -304,6 +307,8 @@ export default function ArcLessonScreen({
     window.scrollTo(0, 0)
     if (completed) {
       setStepIndex(0)
+      setMaxReached(0)
+      setDialogueAnswers({})
       setPicked(null)
       setScore(session?.score ?? 0)
       setFinished(false)
@@ -313,7 +318,10 @@ export default function ArcLessonScreen({
       setClaimReady(false)
       mistakesRef.current = []
     } else if (session) {
-      setStepIndex(session.stepIndex ?? 0)
+      const restoredIndex = session.stepIndex ?? 0
+      setStepIndex(restoredIndex)
+      setMaxReached(session.maxReached ?? restoredIndex)
+      setDialogueAnswers(session.dialogueAnswers ?? {})
       setPicked(session.picked ?? null)
       setScore(session.score ?? 0)
       setFinished(Boolean(session.finished))
@@ -327,6 +335,8 @@ export default function ArcLessonScreen({
       if (session.activeKind) setActiveKind(session.activeKind)
     } else {
       setStepIndex(0)
+      setMaxReached(0)
+      setDialogueAnswers({})
       setPicked(null)
       setScore(0)
       setFinished(false)
@@ -357,6 +367,8 @@ export default function ArcLessonScreen({
         ...(prev.lessonSessions ?? {}),
         [String(lesson.day)]: {
           stepIndex,
+          maxReached,
+          dialogueAnswers,
           picked,
           finished,
           score,
@@ -372,12 +384,14 @@ export default function ArcLessonScreen({
   }, [
     activeKind,
     dayDone,
+    dialogueAnswers,
     finished,
     justFinished,
     lesson.day,
     mistakesList,
     mistakesPhase,
     claimReady,
+    maxReached,
     onStateChange,
     picked,
     score,
@@ -401,6 +415,7 @@ export default function ArcLessonScreen({
       setPicked(null)
       return
     }
+    if (stepIndex < maxReached || finished) return
     const current = dialogueSteps[stepIndex]
     const choices = Array.isArray(current?.options) ? current.options : []
     if (!current || choices.length === 0) {
@@ -410,9 +425,10 @@ export default function ArcLessonScreen({
         return
       }
       setStepIndex((index) => index + 1)
+      setMaxReached((value) => Math.max(value, stepIndex + 1))
       setPicked(null)
     }
-  }, [hasQuiz, dialogueSteps, stepIndex])
+  }, [hasQuiz, dialogueSteps, stepIndex, maxReached, finished])
 
   useEffect(() => {
     if (!finished || dayDone || claimReady) return
@@ -489,14 +505,37 @@ export default function ArcLessonScreen({
     setClaimReady(true)
   }
 
+  function answerAt(index) {
+    return dialogueAnswers[String(index)] ?? null
+  }
+
+  function goDialogueBack() {
+    if (stepIndex <= 0) return
+    if (advanceTimer.current) window.clearTimeout(advanceTimer.current)
+    const prev = stepIndex - 1
+    setStepIndex(prev)
+    setPicked(answerAt(prev))
+  }
+
+  function goDialogueForward() {
+    if (stepIndex >= maxReached) return
+    if (advanceTimer.current) window.clearTimeout(advanceTimer.current)
+    const next = stepIndex + 1
+    setStepIndex(next)
+    setPicked(answerAt(next))
+  }
+
   function advanceDialogue() {
-    setPicked(null)
     setStepIndex((index) => {
       const next = index + 1
       if (next >= dialogueSteps.length) {
         setFinished(true)
+        setMaxReached((value) => Math.max(value, index))
+        setPicked(answerAt(index))
         return index
       }
+      setMaxReached((value) => Math.max(value, next))
+      setPicked(answerAt(next))
       return next
     })
   }
@@ -514,11 +553,13 @@ export default function ArcLessonScreen({
     } else {
       forgetSessionMistake(`dlg-${lesson.day}-${current.step ?? safeIndex}`)
     }
+    setDialogueAnswers((prev) => ({ ...prev, [String(safeIndex)]: option }))
     setPicked(option)
     setScore((value) => {
       const previous = !boss && picked ? (picked.points ?? 0) : 0
       return value - previous + (option.points ?? 0)
     })
+    if (safeIndex < maxReached) return
     if (!boss) return
     if (advanceTimer.current) window.clearTimeout(advanceTimer.current)
     advanceTimer.current = window.setTimeout(() => {
@@ -686,7 +727,8 @@ export default function ArcLessonScreen({
   const typeBadge =
     resolveContentText(lesson.type, locale) ||
     (boss ? `День ${lesson.day} · Boss Level 🏆` : `День ${lesson.day}`)
-  const showLessonNext = !boss && !finished && Boolean(step) && Boolean(picked)
+  const showLessonNext =
+    !boss && !finished && Boolean(step) && Boolean(picked) && stepIndex >= maxReached
   const hasInteractiveTrack = hasQuiz || dialogueSteps.length > 0
 
   return (
@@ -876,17 +918,24 @@ export default function ArcLessonScreen({
         </div>
       ) : null}
 
-      {!hasQuiz && step && !finished ? (
+      {!hasQuiz && step && !dayDone ? (
         <div id={boss ? 'day-step-boss' : 'day-step-dialogue'}>
           <h2 className="day__section">
-            {boss ? t('simulation') : t('dialogueHeading')} ·{' '}
-            {step.step ?? stepIndex + 1}/{dialogueSteps.length}
+            {boss ? t('simulation') : t('dialogueHeading')}
           </h2>
+          <StepNav
+            index={safeIndex}
+            total={dialogueSteps.length}
+            canBack={safeIndex > 0}
+            canForward={safeIndex < maxReached}
+            onBack={goDialogueBack}
+            onForward={goDialogueForward}
+          />
           <DialogueStep
             key={stepIndex}
             step={step}
             boss={boss}
-            picked={picked}
+            picked={picked ?? answerAt(safeIndex)}
             onPick={pick}
           />
         </div>

@@ -57,6 +57,11 @@
   scroll-margin-top: 0.75rem;
 }
 
+#day-step-dialogue .step-nav,
+#day-step-boss .step-nav {
+  margin: 0.35rem 0 0.85rem;
+}
+
 .day--with-next #day-step-dialogue,
 .day--with-next #day-step-boss {
   padding-bottom: calc(5.25rem + env(safe-area-inset-bottom, 0px));

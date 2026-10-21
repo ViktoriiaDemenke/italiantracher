@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
 import { stopSpeech } from '../lib/speech.js'
 import SpeakButton from './SpeakButton.jsx'
+import StepNav from './StepNav.jsx'
 import { buildVoiceTurns, matchKeywords, PERSONA } from '../learn/voiceBoss.js'
 import { cycleIdForDay } from '../content/loadLesson.js'
 import { useI18n } from '../i18n.js'
@@ -31,6 +32,8 @@ export default function VoiceBossLevel({ lesson, onClaimDay }) {
   const turns = useMemo(() => buildVoiceTurns(lesson, locale), [lesson, locale])
   const persona = PERSONA[cycleIdForDay(lesson.day)] || PERSONA.anagrafe
   const [index, setIndex] = useState(0)
+  const [maxReached, setMaxReached] = useState(0)
+  const [won, setWon] = useState(false)
   const [lives, setLives] = useState(MAX_TROPHIES)
   const [typed, setTyped] = useState('')
   const [hint, setHint] = useState('')
@@ -38,6 +41,8 @@ export default function VoiceBossLevel({ lesson, onClaimDay }) {
   const [phase, setPhase] = useState(turns.length ? 'ready' : 'empty')
   const busy = useRef(false)
   const turn = turns[index]
+  const spokenHere = spoken.find((item) => item.id === turn?.id)
+  const reviewing = Boolean(spokenHere)
 
   useEffect(() => {
     return () => stopSpeech()
@@ -47,11 +52,39 @@ export default function VoiceBossLevel({ lesson, onClaimDay }) {
     stopSpeech()
     busy.current = false
     setIndex(0)
+    setMaxReached(0)
+    setWon(false)
     setLives(MAX_TROPHIES)
     setTyped('')
     setHint('')
     setSpoken([])
     setPhase('ready')
+  }
+
+  function goStepBack() {
+    if (phase === 'victory') {
+      setPhase('ready')
+      setIndex(Math.max(turns.length - 1, 0))
+      setHint('')
+      setTyped('')
+      return
+    }
+    if (index <= 0) return
+    setIndex((value) => value - 1)
+    setHint('')
+    setTyped('')
+  }
+
+  function goStepForward() {
+    if (phase === 'victory') return
+    if (won && index >= turns.length - 1) {
+      setPhase('victory')
+      return
+    }
+    if (index >= maxReached) return
+    setIndex((value) => value + 1)
+    setHint('')
+    setTyped('')
   }
 
   function failTurn() {
@@ -72,20 +105,26 @@ export default function VoiceBossLevel({ lesson, onClaimDay }) {
   }
 
   function passTurn(finalText) {
-    if (busy.current) return
+    if (busy.current || reviewing) return
     busy.current = true
     stopSpeech()
     const line = capitalizePhrase(finalText || turn.expected)
-    setSpoken((prev) => [...prev, { id: turn.id, it: line }])
+    setSpoken((prev) =>
+      prev.some((item) => item.id === turn.id) ? prev : [...prev, { id: turn.id, it: line }],
+    )
     setHint('')
     setTyped('')
     window.setTimeout(() => {
       busy.current = false
       if (index + 1 >= turns.length) {
+        setWon(true)
+        setMaxReached(turns.length - 1)
         setPhase('victory')
         return
       }
-      setIndex((value) => value + 1)
+      const next = index + 1
+      setMaxReached((value) => Math.max(value, next))
+      setIndex(next)
       setPhase('ready')
     }, 180)
   }
@@ -131,6 +170,14 @@ export default function VoiceBossLevel({ lesson, onClaimDay }) {
             <span key={i} className={`confetti confetti--${i % 6}`} />
           ))}
         </div>
+        <StepNav
+          index={Math.max(turns.length - 1, 0)}
+          total={turns.length}
+          canBack={turns.length > 0}
+          canForward={false}
+          onBack={goStepBack}
+          onForward={goStepForward}
+        />
         <Trophies lives={lives} />
         <p className="badge">{t('voiceBoss.winBadge')}</p>
         <h2 className="voice-boss__title">{t('voiceBoss.winTitle')}</h2>
@@ -154,13 +201,15 @@ export default function VoiceBossLevel({ lesson, onClaimDay }) {
       <Trophies lives={lives} />
       <p className="voice-boss__kicker">
         <span>{t('simulation')}</span>
-        <span className="voice-boss__kicker-dot" aria-hidden="true">
-          ·
-        </span>
-        <span>
-          {index + 1}/{turns.length}
-        </span>
       </p>
+      <StepNav
+        index={index}
+        total={turns.length}
+        canBack={index > 0}
+        canForward={index < maxReached || (won && index >= turns.length - 1)}
+        onBack={goStepBack}
+        onForward={goStepForward}
+      />
       <p className="voice-boss__speaker">{turn.speaker || persona.speaker}</p>
       <div className="voice-boss__prompt-row">
         <p className="voice-boss__prompt">{turn.promptIt}</p>
@@ -169,26 +218,36 @@ export default function VoiceBossLevel({ lesson, onClaimDay }) {
       <p className="voice-boss__task">{turn.task}</p>
       {hint ? <p className="voice-boss__hint">{hint}</p> : null}
 
-      <form className="voice-boss__type" onSubmit={submitTyped}>
-        <input
-          className="voice-boss__input"
-          value={typed}
-          onChange={(event) => setTyped(event.target.value)}
-          placeholder={t('voiceBoss.typePlaceholder')}
-          lang="it"
-          autoComplete="off"
-        />
-        <button className="chip-btn" type="submit">
-          {t('voiceBoss.write')}
-        </button>
-      </form>
-      <button
-        className="chip-btn chip-btn--on voice-boss__say"
-        type="button"
-        onClick={() => passTurn(turn.expected)}
-      >
-        {t('voiceBoss.usePhrase')}: {turn.expected}
-      </button>
+      {reviewing ? (
+        spokenHere ? (
+          <p className="voice-boss__said">
+            {t('voiceBoss.usePhrase')}: {spokenHere.it}
+          </p>
+        ) : null
+      ) : (
+        <>
+          <form className="voice-boss__type" onSubmit={submitTyped}>
+            <input
+              className="voice-boss__input"
+              value={typed}
+              onChange={(event) => setTyped(event.target.value)}
+              placeholder={t('voiceBoss.typePlaceholder')}
+              lang="it"
+              autoComplete="off"
+            />
+            <button className="chip-btn" type="submit">
+              {t('voiceBoss.write')}
+            </button>
+          </form>
+          <button
+            className="chip-btn chip-btn--on voice-boss__say"
+            type="button"
+            onClick={() => passTurn(turn.expected)}
+          >
+            {t('voiceBoss.usePhrase')}: {turn.expected}
+          </button>
+        </>
+      )}
     </section>
   )
 }

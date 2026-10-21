@@ -67,6 +67,7 @@
   },
   "cycleLabel": "День {{day}} · {{kind}}",
   "dayStepsNav": "Кроки дня",
+  "stepNav": "Кроки симуляції",
   "stepText": "Крок {{n}}: текст",
   "stepDialogue": "Крок {{n}}: діалог",
   "stepBoss": "Крок {{n}}: бос",

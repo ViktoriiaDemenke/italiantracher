@@ -1,5 +1,3 @@
-import { Capacitor } from '@capacitor/core'
-
 export const LESSON_REMINDER_ID = 1900
 export const DEFAULT_REMINDER_HOUR = 19
 export const DEFAULT_REMINDER_MINUTE = 0
@@ -50,27 +48,10 @@ export async function requestNotificationPermission() {
   }
 }
 
-async function ensureAndroidChannel(LocalNotifications) {
-  if (Capacitor.getPlatform() !== 'android') return
-  try {
-    await LocalNotifications.createChannel({
-      id: 'lesson-reminders',
-      name: 'Lesson reminders',
-      description: 'Daily Italian Tracker lesson reminder',
-      importance: 5,
-      visibility: 1,
-    })
-  } catch {
-    /* Channel may already exist */
-  }
-}
-
 export async function cancelLessonReminder() {
   try {
-    const LocalNotifications = await plugin()
-    await LocalNotifications.cancel({
-      notifications: [{ id: LESSON_REMINDER_ID }],
-    })
+    const { cancelLocalDailyReminder } = await import('./components/ReminderSetting/index.tsx')
+    await cancelLocalDailyReminder()
   } catch {
     /* Ignore missing plugin on web */
   }
@@ -82,26 +63,8 @@ export async function scheduleDailyLessonReminder({
   title,
   body,
 }) {
-  const LocalNotifications = await plugin()
-  await ensureAndroidChannel(LocalNotifications)
-  await LocalNotifications.cancel({
-    notifications: [{ id: LESSON_REMINDER_ID }],
-  })
-  await LocalNotifications.schedule({
-    notifications: [
-      {
-        id: LESSON_REMINDER_ID,
-        title,
-        body,
-        channelId: 'lesson-reminders',
-        schedule: {
-          on: { hour, minute },
-          repeats: true,
-          allowWhileIdle: true,
-        },
-      },
-    ],
-  })
+  const { scheduleLocalDailyReminder } = await import('./components/ReminderSetting/index.tsx')
+  await scheduleLocalDailyReminder({ hour, minute, title, body })
 }
 
 export async function syncLessonReminder(enabled, hour, minute, copy) {

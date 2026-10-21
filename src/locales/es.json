@@ -67,6 +67,7 @@
   },
   "cycleLabel": "Día {{day}} · {{kind}}",
   "dayStepsNav": "Pasos del día",
+  "stepNav": "Pasos de la simulación",
   "stepText": "Paso {{n}}: texto",
   "stepDialogue": "Paso {{n}}: diálogo",
   "stepBoss": "Paso {{n}}: boss",
